@@ -1,54 +1,439 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "diny-0.3.0-py3-none-any.whl",
-  "finding_count": 2,
+  "distribution": "sensei_tutor-0.1.0a26.tar.gz",
+  "finding_count": 30,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "diny-0.3.0.dist-info/METADATA"
+          "sensei_tutor-0.1.0a26/PKG-INFO",
+          "sensei_tutor-0.1.0a26/README.md"
+        ],
+        "value": "docs.astral.sh"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "sensei_tutor-0.1.0a26/CHANGELOG.md",
+          "sensei_tutor-0.1.0a26/PKG-INFO",
+          "sensei_tutor-0.1.0a26/README.md"
+        ],
+        "value": "github.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sensei_tutor-0.1.0a26/PKG-INFO",
+          "sensei_tutor-0.1.0a26/README.md"
         ],
         "value": "img.shields.io"
       },
       {
+        "file_count": 5,
+        "files": [
+          "sensei_tutor-0.1.0a26/src/sensei/engine/schemas/defaults.schema.json",
+          "sensei_tutor-0.1.0a26/src/sensei/engine/schemas/goal.schema.json",
+          "sensei_tutor-0.1.0a26/src/sensei/engine/schemas/hints.yaml.schema.json",
+          "sensei_tutor-0.1.0a26/src/sensei/engine/schemas/profile.schema.json",
+          "sensei_tutor-0.1.0a26/src/sensei/engine/schemas/session-notes.schema.json"
+        ],
+        "value": "json-schema.org"
+      },
+      {
         "file_count": 1,
         "files": [
-          "diny-0.3.0.dist-info/METADATA"
+          "sensei_tutor-0.1.0a26/CHANGELOG.md"
+        ],
+        "value": "keepachangelog.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sensei_tutor-0.1.0a26/PKG-INFO",
+          "sensei_tutor-0.1.0a26/README.md"
         ],
         "value": "pypi.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/src/sensei/engine/scripts/_iso.py"
+        ],
+        "value": "raw.endswith"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/CHANGELOG.md"
+        ],
+        "value": "semver.org"
+      },
+      {
+        "file_count": 5,
+        "files": [
+          "sensei_tutor-0.1.0a26/src/sensei/engine/schemas/defaults.schema.json",
+          "sensei_tutor-0.1.0a26/src/sensei/engine/schemas/goal.schema.json",
+          "sensei_tutor-0.1.0a26/src/sensei/engine/schemas/hints.yaml.schema.json",
+          "sensei_tutor-0.1.0a26/src/sensei/engine/schemas/profile.schema.json",
+          "sensei_tutor-0.1.0a26/src/sensei/engine/schemas/session-notes.schema.json"
+        ],
+        "value": "sensei.dev"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sensei_tutor-0.1.0a26/LICENSE",
+          "sensei_tutor-0.1.0a26/PKG-INFO"
+        ],
+        "value": "www.apache.org"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "diny-0.3.0.dist-info/METADATA"
+          "sensei_tutor-0.1.0a26/LICENSE",
+          "sensei_tutor-0.1.0a26/PKG-INFO"
         ],
-        "value": "https://img.shields.io/pypi/v/diny"
+        "value": "http://www.apache.org/licenses/"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sensei_tutor-0.1.0a26/LICENSE",
+          "sensei_tutor-0.1.0a26/PKG-INFO"
+        ],
+        "value": "http://www.apache.org/licenses/LICENSE-2.0"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sensei_tutor-0.1.0a26/PKG-INFO",
+          "sensei_tutor-0.1.0a26/README.md"
+        ],
+        "value": "https://docs.astral.sh/uv/"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sensei_tutor-0.1.0a26/PKG-INFO",
+          "sensei_tutor-0.1.0a26/README.md"
+        ],
+        "value": "https://github.com/altakleos/sensei/actions/workflows/verify.yml"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sensei_tutor-0.1.0a26/PKG-INFO",
+          "sensei_tutor-0.1.0a26/README.md"
+        ],
+        "value": "https://github.com/altakleos/sensei/actions/workflows/verify.yml/badge.svg"
       },
       {
         "file_count": 1,
         "files": [
-          "diny-0.3.0.dist-info/METADATA"
+          "sensei_tutor-0.1.0a26/CHANGELOG.md"
         ],
-        "value": "https://pypi.org/project/diny/"
+        "value": "https://github.com/altakleos/sensei/compare/v0.1.0a1...v0.1.0a2"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/CHANGELOG.md"
+        ],
+        "value": "https://github.com/altakleos/sensei/compare/v0.1.0a10...v0.1.0a11"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/CHANGELOG.md"
+        ],
+        "value": "https://github.com/altakleos/sensei/compare/v0.1.0a11...v0.1.0a12"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/CHANGELOG.md"
+        ],
+        "value": "https://github.com/altakleos/sensei/compare/v0.1.0a12...v0.1.0a13"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/CHANGELOG.md"
+        ],
+        "value": "https://github.com/altakleos/sensei/compare/v0.1.0a13...v0.1.0a14"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/CHANGELOG.md"
+        ],
+        "value": "https://github.com/altakleos/sensei/compare/v0.1.0a14...v0.1.0a15"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/CHANGELOG.md"
+        ],
+        "value": "https://github.com/altakleos/sensei/compare/v0.1.0a15...v0.1.0a16"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/CHANGELOG.md"
+        ],
+        "value": "https://github.com/altakleos/sensei/compare/v0.1.0a16...v0.1.0a17"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/CHANGELOG.md"
+        ],
+        "value": "https://github.com/altakleos/sensei/compare/v0.1.0a17...v0.1.0a18"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/CHANGELOG.md"
+        ],
+        "value": "https://github.com/altakleos/sensei/compare/v0.1.0a18...v0.1.0a19"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/CHANGELOG.md"
+        ],
+        "value": "https://github.com/altakleos/sensei/compare/v0.1.0a19...v0.1.0a20"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/CHANGELOG.md"
+        ],
+        "value": "https://github.com/altakleos/sensei/compare/v0.1.0a2...v0.1.0a3"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/CHANGELOG.md"
+        ],
+        "value": "https://github.com/altakleos/sensei/compare/v0.1.0a20...v0.1.0a21"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/CHANGELOG.md"
+        ],
+        "value": "https://github.com/altakleos/sensei/compare/v0.1.0a21...v0.1.0a22"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/CHANGELOG.md"
+        ],
+        "value": "https://github.com/altakleos/sensei/compare/v0.1.0a22...v0.1.0a23"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/CHANGELOG.md"
+        ],
+        "value": "https://github.com/altakleos/sensei/compare/v0.1.0a23...v0.1.0a24"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/CHANGELOG.md"
+        ],
+        "value": "https://github.com/altakleos/sensei/compare/v0.1.0a24...v0.1.0a25"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/CHANGELOG.md"
+        ],
+        "value": "https://github.com/altakleos/sensei/compare/v0.1.0a25...v0.1.0a26"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/CHANGELOG.md"
+        ],
+        "value": "https://github.com/altakleos/sensei/compare/v0.1.0a26...HEAD"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/CHANGELOG.md"
+        ],
+        "value": "https://github.com/altakleos/sensei/compare/v0.1.0a3...v0.1.0a4"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/CHANGELOG.md"
+        ],
+        "value": "https://github.com/altakleos/sensei/compare/v0.1.0a4...v0.1.0a5"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/CHANGELOG.md"
+        ],
+        "value": "https://github.com/altakleos/sensei/compare/v0.1.0a5...v0.1.0a6"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/CHANGELOG.md"
+        ],
+        "value": "https://github.com/altakleos/sensei/compare/v0.1.0a6...v0.1.0a7"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/CHANGELOG.md"
+        ],
+        "value": "https://github.com/altakleos/sensei/compare/v0.1.0a7...v0.1.0a8"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/CHANGELOG.md"
+        ],
+        "value": "https://github.com/altakleos/sensei/compare/v0.1.0a8...v0.1.0a9"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/CHANGELOG.md"
+        ],
+        "value": "https://github.com/altakleos/sensei/compare/v0.1.0a9...v0.1.0a10"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sensei_tutor-0.1.0a26/PKG-INFO",
+          "sensei_tutor-0.1.0a26/README.md"
+        ],
+        "value": "https://github.com/altakleos/sensei/issues"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/CHANGELOG.md"
+        ],
+        "value": "https://github.com/altakleos/sensei/releases/tag/v0.1.0a1"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sensei_tutor-0.1.0a26/PKG-INFO",
+          "sensei_tutor-0.1.0a26/README.md"
+        ],
+        "value": "https://img.shields.io/github/license/altakleos/sensei"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sensei_tutor-0.1.0a26/PKG-INFO",
+          "sensei_tutor-0.1.0a26/README.md"
+        ],
+        "value": "https://img.shields.io/pypi/pyversions/sensei-tutor"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sensei_tutor-0.1.0a26/PKG-INFO",
+          "sensei_tutor-0.1.0a26/README.md"
+        ],
+        "value": "https://img.shields.io/pypi/v/sensei-tutor?color=blue"
+      },
+      {
+        "file_count": 5,
+        "files": [
+          "sensei_tutor-0.1.0a26/src/sensei/engine/schemas/defaults.schema.json",
+          "sensei_tutor-0.1.0a26/src/sensei/engine/schemas/goal.schema.json",
+          "sensei_tutor-0.1.0a26/src/sensei/engine/schemas/hints.yaml.schema.json",
+          "sensei_tutor-0.1.0a26/src/sensei/engine/schemas/profile.schema.json",
+          "sensei_tutor-0.1.0a26/src/sensei/engine/schemas/session-notes.schema.json"
+        ],
+        "value": "https://json-schema.org/draft/2020-12/schema"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/CHANGELOG.md"
+        ],
+        "value": "https://keepachangelog.com/en/1.1.0/"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sensei_tutor-0.1.0a26/PKG-INFO",
+          "sensei_tutor-0.1.0a26/README.md"
+        ],
+        "value": "https://pypi.org/project/sensei-tutor/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/CHANGELOG.md"
+        ],
+        "value": "https://semver.org/spec/v2.0.0.html"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/src/sensei/engine/schemas/defaults.schema.json"
+        ],
+        "value": "https://sensei.dev/schemas/defaults.schema.json"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/src/sensei/engine/schemas/goal.schema.json"
+        ],
+        "value": "https://sensei.dev/schemas/goal.schema.json"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/src/sensei/engine/schemas/hints.yaml.schema.json"
+        ],
+        "value": "https://sensei.dev/schemas/hints.yaml.schema.json"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/src/sensei/engine/schemas/profile.schema.json"
+        ],
+        "value": "https://sensei.dev/schemas/profile.schema.json"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sensei_tutor-0.1.0a26/src/sensei/engine/schemas/session-notes.schema.json"
+        ],
+        "value": "https://sensei.dev/schemas/session-notes.schema.json"
       }
     ]
   },
-  "package": "diny",
-  "package_slug": "diny",
-  "project_url": "https://pypi.org/project/diny/",
+  "package": "sensei-tutor",
+  "package_slug": "sensei-tutor",
+  "project_url": "https://pypi.org/project/sensei-tutor/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T22:13:14.224212+00:00",
+  "published_at": "2026-04-27T22:17:07.072570+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T22:13:45.628445+00:00",
-  "title": "Personal PyPI Supply Chain Scan: diny 0.3.0",
-  "version": "0.3.0",
-  "version_slug": "0.3.0",
-  "_metadata_path": "reports/packages/diny/0.3.0/metadata.json"
+  "scanned_at": "2026-04-27T22:18:08.369758+00:00",
+  "title": "Personal PyPI Supply Chain Scan: sensei-tutor 0.1.0a26",
+  "version": "0.1.0a26",
+  "version_slug": "0.1.0a26",
+  "_metadata_path": "reports/packages/sensei-tutor/0.1.0a26/metadata.json"
 }
