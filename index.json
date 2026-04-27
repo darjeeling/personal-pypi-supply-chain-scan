@@ -1,6 +1,182 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "uv_override_prune-0.0.9.tar.gz",
+    "finding_count": 4,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 2,
+          "files": [
+            "uv_override_prune-0.0.9/PKG-INFO",
+            "uv_override_prune-0.0.9/README.md"
+          ],
+          "value": "codecov.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "uv_override_prune-0.0.9/PKG-INFO",
+            "uv_override_prune-0.0.9/README.md",
+            "uv_override_prune-0.0.9/pyproject.toml"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "uv_override_prune-0.0.9/PKG-INFO",
+            "uv_override_prune-0.0.9/README.md"
+          ],
+          "value": "img.shields.io"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "uv_override_prune-0.0.9/PKG-INFO",
+            "uv_override_prune-0.0.9/README.md"
+          ],
+          "value": "opensource.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "uv_override_prune-0.0.9/pyproject.toml"
+          ],
+          "value": "pydevtools.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "uv_override_prune-0.0.9/PKG-INFO",
+            "uv_override_prune-0.0.9/README.md"
+          ],
+          "value": "pypi.org"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 2,
+          "files": [
+            "uv_override_prune-0.0.9/PKG-INFO",
+            "uv_override_prune-0.0.9/README.md"
+          ],
+          "value": "https://codecov.io/gh/iwamot/uv-override-prune"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "uv_override_prune-0.0.9/PKG-INFO",
+            "uv_override_prune-0.0.9/README.md"
+          ],
+          "value": "https://codecov.io/gh/iwamot/uv-override-prune/graph/badge.svg"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "uv_override_prune-0.0.9/tests/test_rewrite.py"
+          ],
+          "value": "https://example.com/repo.git"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "uv_override_prune-0.0.9/PKG-INFO",
+            "uv_override_prune-0.0.9/pyproject.toml"
+          ],
+          "value": "https://github.com/iwamot/uv-override-prune"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "uv_override_prune-0.0.9/PKG-INFO",
+            "uv_override_prune-0.0.9/README.md"
+          ],
+          "value": "https://github.com/iwamot/uv-override-prune/actions/workflows/validate.yml"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "uv_override_prune-0.0.9/PKG-INFO",
+            "uv_override_prune-0.0.9/README.md"
+          ],
+          "value": "https://github.com/iwamot/uv-override-prune/actions/workflows/validate.yml/badge.svg"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "uv_override_prune-0.0.9/PKG-INFO",
+            "uv_override_prune-0.0.9/pyproject.toml"
+          ],
+          "value": "https://github.com/iwamot/uv-override-prune/issues"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "uv_override_prune-0.0.9/PKG-INFO",
+            "uv_override_prune-0.0.9/README.md"
+          ],
+          "value": "https://img.shields.io/badge/License-MIT-yellow.svg"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "uv_override_prune-0.0.9/PKG-INFO",
+            "uv_override_prune-0.0.9/README.md"
+          ],
+          "value": "https://img.shields.io/pypi/pyversions/uv-override-prune.svg"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "uv_override_prune-0.0.9/PKG-INFO",
+            "uv_override_prune-0.0.9/README.md"
+          ],
+          "value": "https://img.shields.io/pypi/v/uv-override-prune.svg"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "uv_override_prune-0.0.9/PKG-INFO",
+            "uv_override_prune-0.0.9/README.md"
+          ],
+          "value": "https://opensource.org/licenses/MIT"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "uv_override_prune-0.0.9/pyproject.toml"
+          ],
+          "value": "https://pydevtools.com/handbook/how-to/how-to-configure-recommended-ruff-defaults/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "uv_override_prune-0.0.9/PKG-INFO",
+            "uv_override_prune-0.0.9/README.md"
+          ],
+          "value": "https://pypi.org/project/uv-override-prune/"
+        }
+      ]
+    },
+    "package": "uv-override-prune",
+    "package_slug": "uv-override-prune",
+    "project_url": "https://pypi.org/project/uv-override-prune/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T14:36:56.415834+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T14:38:12.777327+00:00",
+    "title": "Personal PyPI Supply Chain Scan: uv-override-prune 0.0.9",
+    "version": "0.0.9",
+    "version_slug": "0.0.9",
+    "_metadata_path": "reports/packages/uv-override-prune/0.0.9/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "puvinoise_sdk-0.3.36.tar.gz",
     "finding_count": 149,
     "model": "gpt-5.5",
