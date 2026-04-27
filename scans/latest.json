@@ -1,155 +1,1105 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "vdir-0.2.2.tar.gz",
-  "finding_count": 45,
+  "distribution": "spotiflac-0.4.0.tar.gz",
+  "finding_count": 63,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
         "file_count": 1,
         "files": [
-          "vdir-0.2.2/vdir/iroiro/bin_nowrap.py"
+          "spotiflac-0.4.0/SpotiFLAC/providers/youtube.py"
         ],
-        "value": "docs.python.org"
+        "value": "("
       },
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "vdir-0.2.2/PKG-INFO",
-          "vdir-0.2.2/README.md",
-          "vdir-0.2.2/pyproject.toml"
+          "spotiflac-0.4.0/SpotiFLAC/providers/spotify_metadata.py"
+        ],
+        "value": "accounts.spotify.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/amazon.py"
+        ],
+        "value": "amazon.spotbye.qzz.io"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/deezer.py"
+        ],
+        "value": "api.deezer.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/deezer.py"
+        ],
+        "value": "api.deezmate.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "api.monochrome.tf"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/youtube.py"
+        ],
+        "value": "api.qwkuns.me"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "api.rstrip"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/link_resolver.py"
+        ],
+        "value": "api.song.link"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/spotidownloader.py"
+        ],
+        "value": "api.spotidownloader.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/spotify_metadata.py"
+        ],
+        "value": "api.spotify.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/qobuz.py"
+        ],
+        "value": "api.zarz.moe"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/qobuz.py"
+        ],
+        "value": "dab.yeet.su"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "spotiflac-0.4.0/PKG-INFO",
+          "spotiflac-0.4.0/README.md",
+          "spotiflac-0.4.0/SpotiFLAC.egg-info/PKG-INFO",
+          "spotiflac-0.4.0/SpotiFLAC/providers/qobuz.py"
+        ],
+        "value": "dabmusic.xyz"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/qobuz.py"
+        ],
+        "value": "dl.musicdl.me"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "eu-central.monochrome.tf"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "gist.githubusercontent.com"
+      },
+      {
+        "file_count": 7,
+        "files": [
+          "spotiflac-0.4.0/PKG-INFO",
+          "spotiflac-0.4.0/README.md",
+          "spotiflac-0.4.0/SpotiFLAC.egg-info/PKG-INFO",
+          "spotiflac-0.4.0/SpotiFLAC/check_update.py",
+          "spotiflac-0.4.0/SpotiFLAC/core/tagger.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/youtube.py",
+          "spotiflac-0.4.0/pyproject.toml"
         ],
         "value": "github.com"
       },
       {
         "file_count": 2,
         "files": [
-          "vdir-0.2.2/PKG-INFO",
-          "vdir-0.2.2/README.md"
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "hifi-one.spotisaver.net"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "hifi-two.spotisaver.net"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "hund.qqdl.site"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "spotiflac-0.4.0/PKG-INFO",
+          "spotiflac-0.4.0/README.md",
+          "spotiflac-0.4.0/SpotiFLAC.egg-info/PKG-INFO"
         ],
         "value": "img.shields.io"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "vdir-0.2.2/PKG-INFO",
-          "vdir-0.2.2/README.md"
+          "spotiflac-0.4.0/SpotiFLAC/providers/soundplate.py"
         ],
-        "value": "joeyh.name"
+        "value": "isrc.soundplate.com"
       },
       {
         "file_count": 1,
         "files": [
-          "vdir-0.2.2/vdir/iroiro/test_tui_menu.py"
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py"
         ],
-        "value": "menu.top"
+        "value": "itunes.apple.com"
       },
       {
         "file_count": 2,
         "files": [
-          "vdir-0.2.2/PKG-INFO",
-          "vdir-0.2.2/README.md"
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "katze.qqdl.site"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "spotiflac-0.4.0/PKG-INFO",
+          "spotiflac-0.4.0/README.md",
+          "spotiflac-0.4.0/SpotiFLAC.egg-info/PKG-INFO"
+        ],
+        "value": "ko-fi.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "listen.tidal.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/lyrics.py"
+        ],
+        "value": "lrclib.net"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/lyrics.py"
+        ],
+        "value": "lyrics.paxsenix.org"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "maus.qqdl.site"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "monochrome-api.samidy.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/youtube.py"
+        ],
+        "value": "music.youtube.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/amazon.py"
+        ],
+        "value": "music\\.amazon\\.com"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "spotiflac-0.4.0/PKG-INFO",
+          "spotiflac-0.4.0/README.md",
+          "spotiflac-0.4.0/SpotiFLAC.egg-info/PKG-INFO",
+          "spotiflac-0.4.0/SpotiFLAC/core/musicbrainz.py"
+        ],
+        "value": "musicbrainz.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/qobuz.py"
+        ],
+        "value": "open.qobuz.com"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "spotiflac-0.4.0/PKG-INFO",
+          "spotiflac-0.4.0/README.md",
+          "spotiflac-0.4.0/SpotiFLAC.egg-info/PKG-INFO",
+          "spotiflac-0.4.0/SpotiFLAC/core/lyrics.py"
+        ],
+        "value": "open.spotify.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "spotiflac-0.4.0/PKG-INFO",
+          "spotiflac-0.4.0/README.md",
+          "spotiflac-0.4.0/SpotiFLAC.egg-info/PKG-INFO"
+        ],
+        "value": "play.qobuz.com"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "spotiflac-0.4.0/PKG-INFO",
+          "spotiflac-0.4.0/README.md",
+          "spotiflac-0.4.0/SpotiFLAC.egg-info/PKG-INFO",
+          "spotiflac-0.4.0/SpotiFLAC/check_update.py"
         ],
         "value": "pypi.org"
       },
       {
         "file_count": 1,
         "files": [
-          "vdir-0.2.2/vdir/iroiro/test_tui_menu.py"
+          "spotiflac-0.4.0/SpotiFLAC/providers/qobuz.py"
         ],
-        "value": "self.menu.top"
+        "value": "qbz.afkarxyz.qzz.io"
       },
       {
         "file_count": 1,
         "files": [
-          "vdir-0.2.2/vdir/iroiro/internal_utils.py"
+          "spotiflac-0.4.0/SpotiFLAC/providers/qobuz.py"
         ],
-        "value": "stackoverflow.com"
+        "value": "qobuz.spotbye.qzz.io"
       },
       {
         "file_count": 1,
         "files": [
-          "vdir-0.2.2/vdir/iroiro/test_html.py"
+          "spotiflac-0.4.0/SpotiFLAC/providers/qobuz.py"
         ],
-        "value": "www.w3.org"
+        "value": "qobuz.squid.wtf"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "raw.strip"
+      },
+      {
+        "file_count": 5,
+        "files": [
+          "spotiflac-0.4.0/PKG-INFO",
+          "spotiflac-0.4.0/README.md",
+          "spotiflac-0.4.0/SpotiFLAC.egg-info/PKG-INFO",
+          "spotiflac-0.4.0/SpotiFLAC/providers/amazon.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/youtube.py"
+        ],
+        "value": "song.link"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/songstats.py"
+        ],
+        "value": "songstats.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/isrc_finder.py",
+          "spotiflac-0.4.0/SpotiFLAC/core/lyrics.py"
+        ],
+        "value": "spclient.wg.spotify.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/spotidownloader.py"
+        ],
+        "value": "spotidownloader.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/youtube.py"
+        ],
+        "value": "spotubedl.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "tidal-api.binimum.org"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "tidal.kinoplus.online"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "triton.squid.wtf"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "us-west.monochrome.tf"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "vogel.qqdl.site"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "wolf.qqdl.site"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/qobuz.py"
+        ],
+        "value": "www.musicdl.me"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "spotiflac-0.4.0/PKG-INFO",
+          "spotiflac-0.4.0/README.md",
+          "spotiflac-0.4.0/SpotiFLAC.egg-info/PKG-INFO",
+          "spotiflac-0.4.0/SpotiFLAC/providers/qobuz.py"
+        ],
+        "value": "www.qobuz.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/youtube.py"
+        ],
+        "value": "www.youtube.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/youtube.py"
+        ],
+        "value": "youtu\\.be"
       }
     ],
     "raw_public_ips": [],
-    "suspicious_endpoints": [],
+    "suspicious_endpoints": [
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "gist.githubusercontent.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "https://gist.githubusercontent.com/afkarxyz/2ce772b943321b9448b454f39403ce25/raw"
+      }
+    ],
     "urls": [
       {
         "file_count": 1,
         "files": [
-          "vdir-0.2.2/vdir/iroiro/test_html.py"
+          "spotiflac-0.4.0/SpotiFLAC/providers/youtube.py"
         ],
-        "value": "http://www.w3.org/TR/html4/strict.dtd"
+        "value": "https://(?:music\\"
       },
       {
         "file_count": 1,
         "files": [
-          "vdir-0.2.2/vdir/iroiro/bin_nowrap.py"
+          "spotiflac-0.4.0/SpotiFLAC/providers/spotify_metadata.py"
         ],
-        "value": "https://docs.python.org/3/library/signal.html#note-on-sigpipe"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "vdir-0.2.2/PKG-INFO",
-          "vdir-0.2.2/README.md"
-        ],
-        "value": "https://github.com/bulletmark/edir"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "vdir-0.2.2/PKG-INFO",
-          "vdir-0.2.2/pyproject.toml"
-        ],
-        "value": "https://github.com/pi314/vdir"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "vdir-0.2.2/PKG-INFO",
-          "vdir-0.2.2/README.md"
-        ],
-        "value": "https://img.shields.io/pypi/v/vdir"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "vdir-0.2.2/PKG-INFO",
-          "vdir-0.2.2/README.md"
-        ],
-        "value": "https://joeyh.name/code/moreutils/"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "vdir-0.2.2/PKG-INFO",
-          "vdir-0.2.2/README.md"
-        ],
-        "value": "https://pypi.org/project/vdir/"
+        "value": "https://accounts.spotify.com/api/token"
       },
       {
         "file_count": 1,
         "files": [
-          "vdir-0.2.2/vdir/iroiro/internal_utils.py"
+          "spotiflac-0.4.0/SpotiFLAC/providers/amazon.py"
         ],
-        "value": "https://stackoverflow.com/a/41895194/3812388"
+        "value": "https://amazon.spotbye.qzz.io/api"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py"
+        ],
+        "value": "https://api.deezer.com/2.0"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/deezer.py"
+        ],
+        "value": "https://api.deezer.com/2.0/track/isrc:{isrc"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/deezer.py"
+        ],
+        "value": "https://api.deezmate.com/dl/{track_id"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "https://api.monochrome.tf"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/youtube.py"
+        ],
+        "value": "https://api.qwkuns.me"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/link_resolver.py"
+        ],
+        "value": "https://api.song.link/v1-alpha.1/links"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/spotidownloader.py"
+        ],
+        "value": "https://api.spotidownloader.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/spotify_metadata.py"
+        ],
+        "value": "https://api.spotify.com/v1"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/qobuz.py"
+        ],
+        "value": "https://api.zarz.moe/dl/qbz"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/qobuz.py"
+        ],
+        "value": "https://dab.yeet.su/api/stream?trackId="
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "spotiflac-0.4.0/PKG-INFO",
+          "spotiflac-0.4.0/README.md",
+          "spotiflac-0.4.0/SpotiFLAC.egg-info/PKG-INFO"
+        ],
+        "value": "https://dabmusic.xyz"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/qobuz.py"
+        ],
+        "value": "https://dabmusic.xyz/api/stream?trackId="
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/qobuz.py"
+        ],
+        "value": "https://dl.musicdl.me/qobuz/download"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "https://eu-central.monochrome.tf"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "https://gist.githubusercontent.com/afkarxyz/2ce772b943321b9448b454f39403ce25/raw"
+      },
+      {
+        "file_count": 6,
+        "files": [
+          "spotiflac-0.4.0/PKG-INFO",
+          "spotiflac-0.4.0/SpotiFLAC.egg-info/PKG-INFO",
+          "spotiflac-0.4.0/SpotiFLAC/check_update.py",
+          "spotiflac-0.4.0/SpotiFLAC/core/tagger.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/youtube.py",
+          "spotiflac-0.4.0/pyproject.toml"
+        ],
+        "value": "https://github.com/ShuShuzinhuu/SpotiFLAC-Module-Version"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "spotiflac-0.4.0/PKG-INFO",
+          "spotiflac-0.4.0/SpotiFLAC.egg-info/PKG-INFO",
+          "spotiflac-0.4.0/pyproject.toml"
+        ],
+        "value": "https://github.com/ShuShuzinhuu/SpotiFLAC-Module-Version/issues"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "spotiflac-0.4.0/PKG-INFO",
+          "spotiflac-0.4.0/README.md",
+          "spotiflac-0.4.0/SpotiFLAC.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/afkarxyz"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "spotiflac-0.4.0/PKG-INFO",
+          "spotiflac-0.4.0/README.md",
+          "spotiflac-0.4.0/SpotiFLAC.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/afkarxyz/SpotiFLAC"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "spotiflac-0.4.0/PKG-INFO",
+          "spotiflac-0.4.0/README.md",
+          "spotiflac-0.4.0/SpotiFLAC.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/binimum/hifi-api"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "spotiflac-0.4.0/PKG-INFO",
+          "spotiflac-0.4.0/README.md",
+          "spotiflac-0.4.0/SpotiFLAC.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/zarzet"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "spotiflac-0.4.0/PKG-INFO",
+          "spotiflac-0.4.0/README.md",
+          "spotiflac-0.4.0/SpotiFLAC.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/zarzet/SpotiFLAC-Mobile"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "https://hifi-one.spotisaver.net"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "https://hifi-two.spotisaver.net"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "https://hund.qqdl.site"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "spotiflac-0.4.0/PKG-INFO",
+          "spotiflac-0.4.0/README.md",
+          "spotiflac-0.4.0/SpotiFLAC.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/pepy/dt/spotiflac?style=for-the-badge&logo=pypi&logoColor=ffffff&labelColor=000000"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "spotiflac-0.4.0/PKG-INFO",
+          "spotiflac-0.4.0/README.md",
+          "spotiflac-0.4.0/SpotiFLAC.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/pypi/pyversions/spotiflac?style=for-the-badge&logo=python&logoColor=ffffff&labelColor=000000&color=7b97ed"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "spotiflac-0.4.0/PKG-INFO",
+          "spotiflac-0.4.0/README.md",
+          "spotiflac-0.4.0/SpotiFLAC.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/pypi/v/spotiflac?style=for-the-badge&logo=pypi&logoColor=ffffff&labelColor=000000&color=7b97ed"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/soundplate.py"
+        ],
+        "value": "https://isrc.soundplate.com/api/v1/isrc-search/spotify/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py"
+        ],
+        "value": "https://itunes.apple.com/lookup"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py"
+        ],
+        "value": "https://itunes.apple.com/search"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "https://katze.qqdl.site"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "spotiflac-0.4.0/PKG-INFO",
+          "spotiflac-0.4.0/README.md",
+          "spotiflac-0.4.0/SpotiFLAC.egg-info/PKG-INFO"
+        ],
+        "value": "https://ko-fi.com/img/githubbutton_sm.svg"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "spotiflac-0.4.0/PKG-INFO",
+          "spotiflac-0.4.0/README.md",
+          "spotiflac-0.4.0/SpotiFLAC.egg-info/PKG-INFO"
+        ],
+        "value": "https://ko-fi.com/shukurenais"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "https://listen.tidal.com/track/{t_id"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/lyrics.py"
+        ],
+        "value": "https://lrclib.net/api"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/lyrics.py"
+        ],
+        "value": "https://lyrics.paxsenix.org/apple-music"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/lyrics.py"
+        ],
+        "value": "https://lyrics.paxsenix.org/musixmatch"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "https://maus.qqdl.site"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "https://monochrome-api.samidy.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/youtube.py"
+        ],
+        "value": "https://music.youtube.com/watch?v={match.group(1"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/youtube.py"
+        ],
+        "value": "https://music.youtube.com/watch?v={video_id"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/amazon.py"
+        ],
+        "value": "https://music\\.amazon\\.com/(tracks|albums"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "spotiflac-0.4.0/PKG-INFO",
+          "spotiflac-0.4.0/README.md",
+          "spotiflac-0.4.0/SpotiFLAC.egg-info/PKG-INFO"
+        ],
+        "value": "https://musicbrainz.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/musicbrainz.py"
+        ],
+        "value": "https://musicbrainz.org/ws/2"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/qobuz.py"
+        ],
+        "value": "https://open.qobuz.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/qobuz.py"
+        ],
+        "value": "https://open.qobuz.com/track/"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "spotiflac-0.4.0/PKG-INFO",
+          "spotiflac-0.4.0/README.md",
+          "spotiflac-0.4.0/SpotiFLAC.egg-info/PKG-INFO"
+        ],
+        "value": "https://open.spotify.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "spotiflac-0.4.0/PKG-INFO",
+          "spotiflac-0.4.0/README.md",
+          "spotiflac-0.4.0/SpotiFLAC.egg-info/PKG-INFO"
+        ],
+        "value": "https://open.spotify.com/album/41MnTivkwTO3UUJ8DrqEJJ"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/lyrics.py"
+        ],
+        "value": "https://open.spotify.com/get_access_token"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "spotiflac-0.4.0/PKG-INFO",
+          "spotiflac-0.4.0/README.md",
+          "spotiflac-0.4.0/SpotiFLAC.egg-info/PKG-INFO"
+        ],
+        "value": "https://open.spotify.com/track/4cOdK2wGLETKBW3PvgPWqT"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "spotiflac-0.4.0/PKG-INFO",
+          "spotiflac-0.4.0/README.md",
+          "spotiflac-0.4.0/SpotiFLAC.egg-info/PKG-INFO"
+        ],
+        "value": "https://play.qobuz.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "spotiflac-0.4.0/PKG-INFO",
+          "spotiflac-0.4.0/README.md",
+          "spotiflac-0.4.0/SpotiFLAC.egg-info/PKG-INFO"
+        ],
+        "value": "https://pypi.org/project/SpotiFLAC/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/check_update.py"
+        ],
+        "value": "https://pypi.org/pypi/{package_name"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/qobuz.py"
+        ],
+        "value": "https://qbz.afkarxyz.qzz.io/api/track/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/qobuz.py"
+        ],
+        "value": "https://qobuz.spotbye.qzz.io/api/track/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/qobuz.py"
+        ],
+        "value": "https://qobuz.squid.wtf/api/download-music?country=US&track_id="
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "spotiflac-0.4.0/PKG-INFO",
+          "spotiflac-0.4.0/README.md",
+          "spotiflac-0.4.0/SpotiFLAC.egg-info/PKG-INFO"
+        ],
+        "value": "https://song.link"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/amazon.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/youtube.py"
+        ],
+        "value": "https://song.link/s/{spotify_track_id"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/songstats.py"
+        ],
+        "value": "https://songstats.com/track/{track_id"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/lyrics.py"
+        ],
+        "value": "https://spclient.wg.spotify.com/color-lyrics/v2/track"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/isrc_finder.py"
+        ],
+        "value": "https://spclient.wg.spotify.com/metadata/4/track/{gid"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/spotidownloader.py"
+        ],
+        "value": "https://spotidownloader.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/youtube.py"
+        ],
+        "value": "https://spotubedl.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/youtube.py"
+        ],
+        "value": "https://spotubedl.com/api/download/{video_id"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "https://tidal-api.binimum.org"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "https://tidal.kinoplus.online"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "https://triton.squid.wtf"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "https://us-west.monochrome.tf"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "https://vogel.qqdl.site"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/core/metadata_enrichment.py",
+          "spotiflac-0.4.0/SpotiFLAC/providers/tidal.py"
+        ],
+        "value": "https://wolf.qqdl.site"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/qobuz.py"
+        ],
+        "value": "https://www.musicdl.me/api/qobuz/download"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "spotiflac-0.4.0/PKG-INFO",
+          "spotiflac-0.4.0/README.md",
+          "spotiflac-0.4.0/SpotiFLAC.egg-info/PKG-INFO"
+        ],
+        "value": "https://www.qobuz.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/qobuz.py"
+        ],
+        "value": "https://www.qobuz.com/api.json/0.2"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/youtube.py"
+        ],
+        "value": "https://www.youtube.com/results?search_query={query"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "spotiflac-0.4.0/SpotiFLAC/providers/youtube.py"
+        ],
+        "value": "https://youtu\\.be/([a-zA-Z0-9_-"
       }
     ]
   },
-  "package": "vdir",
-  "package_slug": "vdir",
-  "project_url": "https://pypi.org/project/vdir/",
+  "package": "SpotiFLAC",
+  "package_slug": "spotiflac",
+  "project_url": "https://pypi.org/project/SpotiFLAC/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T16:44:54.956660+00:00",
+  "published_at": "2026-04-27T16:48:56.678860+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T16:45:44.085867+00:00",
-  "title": "Personal PyPI Supply Chain Scan: vdir 0.2.2",
-  "version": "0.2.2",
-  "version_slug": "0.2.2",
-  "_metadata_path": "reports/packages/vdir/0.2.2/metadata.json"
+  "scanned_at": "2026-04-27T16:50:05.503077+00:00",
+  "title": "Personal PyPI Supply Chain Scan: SpotiFLAC 0.4.0",
+  "version": "0.4.0",
+  "version_slug": "0.4.0",
+  "_metadata_path": "reports/packages/spotiflac/0.4.0/metadata.json"
 }
