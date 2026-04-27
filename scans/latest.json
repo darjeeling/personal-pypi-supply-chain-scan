@@ -1,58 +1,70 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "opp_repl-0.1.3.tar.gz",
-  "finding_count": 60,
+  "distribution": "paygent-0.1.5.tar.gz",
+  "finding_count": 7,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
         "file_count": 1,
         "files": [
-          "opp_repl-0.1.3/opp_repl/common/github.py"
+          "paygent-0.1.5/tests/test_api_client.py"
         ],
-        "value": "api.github.com"
+        "value": "api.example.com"
+      },
+      {
+        "file_count": 5,
+        "files": [
+          "paygent-0.1.5/PKG-INFO",
+          "paygent-0.1.5/README.md",
+          "paygent-0.1.5/src/paygent/api_client.py",
+          "paygent-0.1.5/src/paygent/core.py",
+          "paygent-0.1.5/tests/test_api_client.py"
+        ],
+        "value": "api.paygent.dev"
       },
       {
         "file_count": 1,
         "files": [
-          "opp_repl-0.1.3/doc/github_actions.md"
+          "paygent-0.1.5/tests/test_core_backend_wiring.py"
         ],
-        "value": "docs.github.com"
+        "value": "custom"
       },
       {
         "file_count": 1,
         "files": [
-          "opp_repl-0.1.3/LICENSE"
-        ],
-        "value": "fsf.org"
-      },
-      {
-        "file_count": 6,
-        "files": [
-          "opp_repl-0.1.3/PKG-INFO",
-          "opp_repl-0.1.3/doc/github_actions.md",
-          "opp_repl-0.1.3/doc/installation.md",
-          "opp_repl-0.1.3/doc/profiling.md",
-          "opp_repl-0.1.3/opp_repl.egg-info/PKG-INFO",
-          "opp_repl-0.1.3/pyproject.toml"
+          "paygent-0.1.5/CONTRIBUTING.md"
         ],
         "value": "github.com"
       },
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "opp_repl-0.1.3/PKG-INFO",
-          "opp_repl-0.1.3/opp_repl.egg-info/PKG-INFO",
-          "opp_repl-0.1.3/pyproject.toml"
+          "paygent-0.1.5/PKG-INFO",
+          "paygent-0.1.5/pyproject.toml"
         ],
-        "value": "omnetpp.org"
+        "value": "paygent.to"
       },
       {
         "file_count": 1,
         "files": [
-          "opp_repl-0.1.3/.github/workflows/publish-to-pypi.yml"
+          "paygent-0.1.5/CONTRIBUTING.md"
         ],
         "value": "pypi.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "paygent-0.1.5/tests/test_core_backend_wiring.py"
+        ],
+        "value": "staging"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "paygent-0.1.5/CONTRIBUTING.md"
+        ],
+        "value": "test.pypi.org"
       }
     ],
     "raw_public_ips": [],
@@ -61,125 +73,119 @@
       {
         "file_count": 1,
         "files": [
-          "opp_repl-0.1.3/opp_repl/common/github.py"
+          "paygent-0.1.5/tests/test_core_backend_wiring.py"
         ],
-        "value": "https://api.github.com/repos/{owner"
+        "value": "http://custom:7000"
       },
       {
         "file_count": 1,
         "files": [
-          "opp_repl-0.1.3/doc/github_actions.md"
+          "paygent-0.1.5/tests/test_core_backend_wiring.py"
         ],
-        "value": "https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_dispatch"
+        "value": "http://staging:9000"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "paygent-0.1.5/PKG-INFO",
+          "paygent-0.1.5/README.md"
+        ],
+        "value": "https://"
       },
       {
         "file_count": 1,
         "files": [
-          "opp_repl-0.1.3/LICENSE"
+          "paygent-0.1.5/tests/test_api_client.py"
         ],
-        "value": "https://fsf.org/"
+        "value": "https://api.example.com"
       },
       {
         "file_count": 1,
         "files": [
-          "opp_repl-0.1.3/doc/profiling.md"
+          "paygent-0.1.5/tests/test_api_client.py"
         ],
-        "value": "https://github.com/KDAB/hotspot"
+        "value": "https://api.example.com/"
+      },
+      {
+        "file_count": 5,
+        "files": [
+          "paygent-0.1.5/PKG-INFO",
+          "paygent-0.1.5/README.md",
+          "paygent-0.1.5/src/paygent/api_client.py",
+          "paygent-0.1.5/src/paygent/core.py",
+          "paygent-0.1.5/tests/test_api_client.py"
+        ],
+        "value": "https://api.paygent.dev"
       },
       {
         "file_count": 1,
         "files": [
-          "opp_repl-0.1.3/doc/github_actions.md"
+          "paygent-0.1.5/CONTRIBUTING.md"
         ],
-        "value": "https://github.com/inet-framework/inet/actions"
+        "value": "https://github.com/paygent/paygent.git"
       },
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "opp_repl-0.1.3/PKG-INFO",
-          "opp_repl-0.1.3/opp_repl.egg-info/PKG-INFO",
-          "opp_repl-0.1.3/pyproject.toml"
+          "paygent-0.1.5/PKG-INFO",
+          "paygent-0.1.5/pyproject.toml"
         ],
-        "value": "https://github.com/omnetpp/opp_repl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "opp_repl-0.1.3/doc/installation.md"
-        ],
-        "value": "https://github.com/omnetpp/opp_repl.git"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "opp_repl-0.1.3/PKG-INFO",
-          "opp_repl-0.1.3/opp_repl.egg-info/PKG-INFO",
-          "opp_repl-0.1.3/pyproject.toml"
-        ],
-        "value": "https://github.com/omnetpp/opp_repl/blob/main/CHANGES.md"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "opp_repl-0.1.3/PKG-INFO",
-          "opp_repl-0.1.3/opp_repl.egg-info/PKG-INFO",
-          "opp_repl-0.1.3/pyproject.toml"
-        ],
-        "value": "https://github.com/omnetpp/opp_repl/blob/main/README.md"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "opp_repl-0.1.3/PKG-INFO",
-          "opp_repl-0.1.3/opp_repl.egg-info/PKG-INFO",
-          "opp_repl-0.1.3/pyproject.toml"
-        ],
-        "value": "https://github.com/omnetpp/opp_repl/commits/main"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "opp_repl-0.1.3/PKG-INFO",
-          "opp_repl-0.1.3/opp_repl.egg-info/PKG-INFO",
-          "opp_repl-0.1.3/pyproject.toml"
-        ],
-        "value": "https://github.com/omnetpp/opp_repl/issues"
+        "value": "https://paygent.to/"
       },
       {
         "file_count": 1,
         "files": [
-          "opp_repl-0.1.3/doc/github_actions.md"
+          "paygent-0.1.5/CONTRIBUTING.md"
         ],
-        "value": "https://github.com/settings/tokens"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "opp_repl-0.1.3/PKG-INFO",
-          "opp_repl-0.1.3/opp_repl.egg-info/PKG-INFO",
-          "opp_repl-0.1.3/pyproject.toml"
-        ],
-        "value": "https://omnetpp.org"
+        "value": "https://pypi.org"
       },
       {
         "file_count": 1,
         "files": [
-          "opp_repl-0.1.3/.github/workflows/publish-to-pypi.yml"
+          "paygent-0.1.5/CONTRIBUTING.md"
         ],
-        "value": "https://pypi.org/p/opp-repl"
+        "value": "https://pypi.org/project/paygent/`"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "paygent-0.1.5/CONTRIBUTING.md"
+        ],
+        "value": "https://pypi.org/simple/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "paygent-0.1.5/CONTRIBUTING.md"
+        ],
+        "value": "https://test.pypi.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "paygent-0.1.5/CONTRIBUTING.md"
+        ],
+        "value": "https://test.pypi.org/legacy/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "paygent-0.1.5/CONTRIBUTING.md"
+        ],
+        "value": "https://test.pypi.org/simple/"
       }
     ]
   },
-  "package": "opp-repl",
-  "package_slug": "opp-repl",
-  "project_url": "https://pypi.org/project/opp-repl/",
+  "package": "paygent",
+  "package_slug": "paygent",
+  "project_url": "https://pypi.org/project/paygent/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T16:05:55.710014+00:00",
+  "published_at": "2026-04-27T16:10:27.005093+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T16:06:38.034877+00:00",
-  "title": "Personal PyPI Supply Chain Scan: opp-repl 0.1.3",
-  "version": "0.1.3",
-  "version_slug": "0.1.3",
-  "_metadata_path": "reports/packages/opp-repl/0.1.3/metadata.json"
+  "scanned_at": "2026-04-27T16:11:00.152864+00:00",
+  "title": "Personal PyPI Supply Chain Scan: paygent 0.1.5",
+  "version": "0.1.5",
+  "version_slug": "0.1.5",
+  "_metadata_path": "reports/packages/paygent/0.1.5/metadata.json"
 }
