@@ -1,36 +1,108 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "directclean-0.1.0.tar.gz",
-  "finding_count": 52,
+  "distribution": "tiexiu-0.1.1a4-cp38-abi3-win_amd64.whl",
+  "finding_count": 7,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
         "file_count": 1,
         "files": [
-          "directclean-0.1.0/src/directclean/report/html_report.py"
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
         ],
-        "value": "cdn.jsdelivr.net"
+        "value": "chyh1990.github.io"
       },
       {
-        "file_count": 5,
+        "file_count": 1,
         "files": [
-          "directclean-0.1.0/PKG-INFO",
-          "directclean-0.1.0/README.md",
-          "directclean-0.1.0/pyproject.toml",
-          "directclean-0.1.0/src/directclean/external/restrander.py",
-          "directclean-0.1.0/src/directclean/report/html_report.py"
+          "tiexiu-0.1.1a4.dist-info/METADATA"
+        ],
+        "value": "codspeed.io"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "doc.servo.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "docs.rs"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/METADATA",
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
         ],
         "value": "github.com"
       },
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "directclean-0.1.0/src/directclean/external/breakinator.py",
-          "directclean-0.1.0/src/directclean/pipeline.py",
-          "directclean-0.1.0/src/directclean/report/html_report.py"
+          "tiexiu-0.1.1a4.dist-info/METADATA"
         ],
-        "value": "raw.fastq"
+        "value": "img.shields.io"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "mcarton.github.io"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/METADATA"
+        ],
+        "value": "opensource.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "rust-onig.github.io"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "serde.rs"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/METADATA"
+        ],
+        "value": "tatsu.readthedocs.io"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "time-rs.github.io"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/METADATA"
+        ],
+        "value": "www.apache.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/licenses/LICENSE-APACHE"
+        ],
+        "value": "www.google.com"
       }
     ],
     "raw_public_ips": [],
@@ -39,76 +111,575 @@
       {
         "file_count": 1,
         "files": [
-          "directclean-0.1.0/src/directclean/report/html_report.py"
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
         ],
-        "value": "https://cdn.jsdelivr.net/npm/chart.js@4"
+        "value": "http://chyh1990.github.io/yaml-rust/"
       },
       {
         "file_count": 1,
         "files": [
-          "directclean-0.1.0/src/directclean/external/restrander.py"
+          "tiexiu-0.1.1a4.dist-info/METADATA"
         ],
-        "value": "https://github.com/Oshlack/restrander"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "directclean-0.1.0/PKG-INFO",
-          "directclean-0.1.0/README.md"
-        ],
-        "value": "https://github.com/epi2me-labs/pychopper"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "directclean-0.1.0/PKG-INFO",
-          "directclean-0.1.0/README.md"
-        ],
-        "value": "https://github.com/jheinz27/breakinator"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "directclean-0.1.0/PKG-INFO",
-          "directclean-0.1.0/README.md"
-        ],
-        "value": "https://github.com/mritchielab/restrander"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "directclean-0.1.0/PKG-INFO",
-          "directclean-0.1.0/README.md"
-        ],
-        "value": "https://github.com/ylab-hi"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "directclean-0.1.0/PKG-INFO",
-          "directclean-0.1.0/pyproject.toml"
-        ],
-        "value": "https://github.com/ylab-hi/DirectClean"
+        "value": "http://opensource.org/licenses/MIT"
       },
       {
         "file_count": 1,
         "files": [
-          "directclean-0.1.0/src/directclean/report/html_report.py"
+          "tiexiu-0.1.1a4.dist-info/METADATA"
         ],
-        "value": "https://github.com/your-org/directclean"
+        "value": "http://www.apache.org/licenses/LICENSE-2.0"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/METADATA"
+        ],
+        "value": "https://codspeed.io/neogeny/TieXiu?utm_source=badge"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://doc.servo.org/fnv/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/adler2/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/base64"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/bincode"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/bit-set/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/bit-vec/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/bitflags"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/cc"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/console"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/crate/pyo3/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/crate/pythonize/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/encode_unicode/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/fancy-regex"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/find-msvc-tools"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/flate2"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/indexmap/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/itoa"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/linked-hash-map"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/memchr/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/miniz_oxide"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/once_cell"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/onig/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/pkg-config"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/plist/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/proc-macro2"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/quick-xml"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/quote/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/regex-automata"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/regex-syntax"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/same-file"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/serde"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/serde_core"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/serde_json"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/serde_path_to_error"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/strsim/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/syn"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/syntect"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/target-lexicon/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/thiserror"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/unicode-ident"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/utf8parse/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/walkdir/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/winapi-util"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/yaml-rust"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/zmij"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://github.com/BurntSushi/aho-corasick"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://github.com/BurntSushi/memchr"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://github.com/BurntSushi/same-file"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://github.com/BurntSushi/walkdir"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://github.com/BurntSushi/winapi-util"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://github.com/PyO3"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://github.com/alacritty/vte"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://github.com/bitflags/bitflags"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://github.com/bytecodealliance/target-lexicon"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://github.com/chyh1990/yaml-rust"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://github.com/clap-rs/clap"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://github.com/comex/rust-shlex"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://github.com/console-rs/console"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://github.com/contain-rs/bit-set"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://github.com/contain-rs/bit-vec"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://github.com/contain-rs/linked-hash-map"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://github.com/davidhewitt/pythonize"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://github.com/dtolnay/itoa"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://github.com/dtolnay/path-to-error"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://github.com/dtolnay/proc-macro2"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://github.com/dtolnay/quote"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://github.com/dtolnay/syn"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://github.com/dtolnay/thiserror"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://github.com/dtolnay/unicode-ident"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://github.com/dtolnay/zmij"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://github.com/ebarnard/rust-plist/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://github.com/fancy-regex/fancy-regex"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://github.com/indexmap-rs/equivalent"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://github.com/indexmap-rs/indexmap"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tiexiu-0.1.1a4.dist-info/sboms/TieXiu.cyclonedx.json"
+        ],
+        "value": "https://github.com/iwillspeak/rust-onig"
       }
     ]
   },
-  "package": "directclean",
-  "package_slug": "directclean",
-  "project_url": "https://pypi.org/project/directclean/",
+  "package": "TieXiu",
+  "package_slug": "tiexiu",
+  "project_url": "https://pypi.org/project/TieXiu/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T21:55:44.254816+00:00",
-  "risk": "info",
-  "scanned_at": "2026-04-27T21:56:18.142733+00:00",
-  "title": "Personal PyPI Supply Chain Scan: directclean 0.1.0",
-  "version": "0.1.0",
-  "version_slug": "0.1.0",
-  "_metadata_path": "reports/packages/directclean/0.1.0/metadata.json"
+  "published_at": "2026-04-27T22:00:03.919382+00:00",
+  "risk": "high",
+  "scanned_at": "2026-04-27T22:00:40.273699+00:00",
+  "title": "Personal PyPI Supply Chain Scan: TieXiu 0.1.1a4",
+  "version": "0.1.1a4",
+  "version_slug": "0.1.1a4",
+  "_metadata_path": "reports/packages/tiexiu/0.1.1a4/metadata.json"
 }
