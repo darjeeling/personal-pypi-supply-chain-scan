@@ -1,6 +1,201 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "gfagraphs-0.3.21.tar.gz",
+    "finding_count": 5,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "gfagraphs-0.3.21/LICENSE"
+          ],
+          "value": "fsf.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "gfagraphs-0.3.21/gfagraphs/abstractions.py",
+            "gfagraphs-0.3.21/gfagraphs/gfaparser.py"
+          ],
+          "value": "gfa-spec.github.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "gfagraphs-0.3.21/PKG-INFO",
+            "gfagraphs-0.3.21/README.md",
+            "gfagraphs-0.3.21/gfagraphs.egg-info/PKG-INFO"
+          ],
+          "value": "gfagraphs.readthedocs.io"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "gfagraphs-0.3.21/PKG-INFO",
+            "gfagraphs-0.3.21/gfagraphs.egg-info/PKG-INFO",
+            "gfagraphs-0.3.21/pyproject.toml",
+            "gfagraphs-0.3.21/setup.py"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "gfagraphs-0.3.21/PKG-INFO",
+            "gfagraphs-0.3.21/README.md",
+            "gfagraphs-0.3.21/gfagraphs.egg-info/PKG-INFO"
+          ],
+          "value": "img.shields.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "gfagraphs-0.3.21/PKG-INFO",
+            "gfagraphs-0.3.21/README.md",
+            "gfagraphs-0.3.21/gfagraphs.egg-info/PKG-INFO"
+          ],
+          "value": "media.discordapp.net"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "gfagraphs-0.3.21/PKG-INFO",
+            "gfagraphs-0.3.21/README.md",
+            "gfagraphs-0.3.21/gfagraphs.egg-info/PKG-INFO"
+          ],
+          "value": "readthedocs.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "gfagraphs-0.3.21/LICENSE"
+          ],
+          "value": "www.gnu.org"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "gfagraphs-0.3.21/LICENSE"
+          ],
+          "value": "http://fsf.org/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "gfagraphs-0.3.21/gfagraphs/abstractions.py"
+          ],
+          "value": "http://gfa-spec.github.io/GFA-spec/GFA1.html"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "gfagraphs-0.3.21/gfagraphs/gfaparser.py"
+          ],
+          "value": "http://gfa-spec.github.io/GFA-spec/GFA1.html#optional-fields"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "gfagraphs-0.3.21/LICENSE"
+          ],
+          "value": "http://www.gnu.org/licenses/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "gfagraphs-0.3.21/PKG-INFO",
+            "gfagraphs-0.3.21/README.md",
+            "gfagraphs-0.3.21/gfagraphs.egg-info/PKG-INFO"
+          ],
+          "value": "https://gfagraphs.readthedocs.io/en/latest/?badge=latest"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "gfagraphs-0.3.21/PKG-INFO",
+            "gfagraphs-0.3.21/gfagraphs.egg-info/PKG-INFO",
+            "gfagraphs-0.3.21/pyproject.toml",
+            "gfagraphs-0.3.21/setup.py"
+          ],
+          "value": "https://github.com/dubbsieg/gfagraphs"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "gfagraphs-0.3.21/PKG-INFO",
+            "gfagraphs-0.3.21/gfagraphs.egg-info/PKG-INFO",
+            "gfagraphs-0.3.21/pyproject.toml"
+          ],
+          "value": "https://github.com/dubbsieg/gfagraphs/issues"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "gfagraphs-0.3.21/PKG-INFO",
+            "gfagraphs-0.3.21/README.md",
+            "gfagraphs-0.3.21/gfagraphs.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/badge/Python-3.10-blue.svg"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "gfagraphs-0.3.21/PKG-INFO",
+            "gfagraphs-0.3.21/README.md",
+            "gfagraphs-0.3.21/gfagraphs.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/badge/Python-3.11-blue.svg"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "gfagraphs-0.3.21/PKG-INFO",
+            "gfagraphs-0.3.21/README.md",
+            "gfagraphs-0.3.21/gfagraphs.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/badge/Python-3.12-blue.svg"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "gfagraphs-0.3.21/PKG-INFO",
+            "gfagraphs-0.3.21/README.md",
+            "gfagraphs-0.3.21/gfagraphs.egg-info/PKG-INFO"
+          ],
+          "value": "https://media.discordapp.net/attachments/874430800802754623/1179353568105467964/library.png"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "gfagraphs-0.3.21/PKG-INFO",
+            "gfagraphs-0.3.21/README.md",
+            "gfagraphs-0.3.21/gfagraphs.egg-info/PKG-INFO"
+          ],
+          "value": "https://readthedocs.org/projects/gfagraphs/badge/?version=latest"
+        }
+      ]
+    },
+    "package": "gfagraphs",
+    "package_slug": "gfagraphs",
+    "project_url": "https://pypi.org/project/gfagraphs/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T15:56:38.242947+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T15:57:51.860609+00:00",
+    "title": "Personal PyPI Supply Chain Scan: gfagraphs 0.3.21",
+    "version": "0.3.21",
+    "version_slug": "0.3.21",
+    "_metadata_path": "reports/packages/gfagraphs/0.3.21/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "ainativelang-1.8.0.tar.gz",
     "finding_count": 940,
     "model": "gpt-5.5",
