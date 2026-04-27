@@ -1,6 +1,162 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "python_pop-0.1.0.tar.gz",
+    "finding_count": 68,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "python_pop-0.1.0/src/python_pop/skills/remote/github_skill_provider.py"
+          ],
+          "value": "api.github.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "python_pop-0.1.0/THIRD_PARTY_NOTICES.md",
+            "python_pop-0.1.0/src/python_pop/skills/remote/github_repository.py",
+            "python_pop-0.1.0/tests/test_remote_skills.py"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "python_pop-0.1.0/src/python_pop/install/agents/opencode.py"
+          ],
+          "value": "opencode.ai"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "python_pop-0.1.0/src/python_pop/skills/remote/github_skill_provider.py"
+          ],
+          "value": "raw.githubusercontent.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "python_pop-0.1.0/src/python_pop/frameworks/detector.py",
+            "python_pop-0.1.0/src/python_pop/support/prompts.py"
+          ],
+          "value": "raw.split"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "python_pop-0.1.0/src/python_pop/frameworks/detector.py"
+          ],
+          "value": "raw.strip"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "python_pop-0.1.0/LICENSE"
+          ],
+          "value": "www.apache.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "python_pop-0.1.0/docs/assets/python-pop.svg"
+          ],
+          "value": "www.w3.org"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [
+        {
+          "file_count": 1,
+          "files": [
+            "python_pop-0.1.0/src/python_pop/skills/remote/github_skill_provider.py"
+          ],
+          "value": "https://raw.githubusercontent.com/{self.repository.owner"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "python_pop-0.1.0/src/python_pop/skills/remote/github_skill_provider.py"
+          ],
+          "value": "raw.githubusercontent.com"
+        }
+      ],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "python_pop-0.1.0/LICENSE"
+          ],
+          "value": "http://www.apache.org/licenses/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "python_pop-0.1.0/LICENSE"
+          ],
+          "value": "http://www.apache.org/licenses/LICENSE-2.0"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "python_pop-0.1.0/docs/assets/python-pop.svg"
+          ],
+          "value": "http://www.w3.org/2000/svg"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "python_pop-0.1.0/src/python_pop/skills/remote/github_skill_provider.py"
+          ],
+          "value": "https://api.github.com/repos/{self.repository.owner"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "python_pop-0.1.0/tests/test_remote_skills.py"
+          ],
+          "value": "https://github.com/acme/demo/skills"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "python_pop-0.1.0/THIRD_PARTY_NOTICES.md"
+          ],
+          "value": "https://github.com/laravel/boost`"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "python_pop-0.1.0/src/python_pop/install/agents/opencode.py"
+          ],
+          "value": "https://opencode.ai/config.json"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "python_pop-0.1.0/src/python_pop/skills/remote/github_skill_provider.py"
+          ],
+          "value": "https://raw.githubusercontent.com/{self.repository.owner"
+        }
+      ]
+    },
+    "package": "python-pop",
+    "package_slug": "python-pop",
+    "project_url": "https://pypi.org/project/python-pop/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T22:08:25.239874+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T22:09:29.841475+00:00",
+    "title": "Personal PyPI Supply Chain Scan: python-pop 0.1.0",
+    "version": "0.1.0",
+    "version_slug": "0.1.0",
+    "_metadata_path": "reports/packages/python-pop/0.1.0/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "badger_opt-1.5.2.tar.gz",
     "finding_count": 159,
     "model": "gpt-5.5",
