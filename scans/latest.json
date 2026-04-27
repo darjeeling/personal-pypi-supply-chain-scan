@@ -1,658 +1,127 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "planetarypy-0.54.0.tar.gz",
-  "finding_count": 30,
+  "distribution": "bella_baxter-0.1.1rc74.tar.gz",
+  "finding_count": 906,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
+        "file_count": 6,
+        "files": [
+          "bella_baxter-0.1.1rc74/PKG-INFO",
+          "bella_baxter-0.1.1rc74/README.md",
+          "bella_baxter-0.1.1rc74/src/bella_baxter.egg-info/PKG-INFO",
+          "bella_baxter-0.1.1rc74/src/bella_baxter/__init__.py",
+          "bella_baxter-0.1.1rc74/src/bella_baxter/client.py",
+          "bella_baxter-0.1.1rc74/src/bella_baxter/e2ee.py"
+        ],
+        "value": "api.bella-baxter.io"
+      },
+      {
         "file_count": 1,
         "files": [
-          "planetarypy-0.54.0/src/planetarypy/instruments/mro/hirise.py"
+          "bella_baxter-0.1.1rc74/src/bella_baxter/client.py"
         ],
-        "value": "astrogeology.usgs.gov"
+        "value": "api.v1.projects"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "planetarypy-0.54.0/PKG-INFO",
-          "planetarypy-0.54.0/README.md"
+          "bella_baxter-0.1.1rc74/src/bella_baxter/models.py"
         ],
-        "value": "codecov.io"
+        "value": "baxter.example.com"
       },
       {
-        "file_count": 9,
+        "file_count": 4,
         "files": [
-          "planetarypy-0.54.0/.gitignore",
-          "planetarypy-0.54.0/AUTHORS.md",
-          "planetarypy-0.54.0/CHANGELOG.md",
-          "planetarypy-0.54.0/PKG-INFO",
-          "planetarypy-0.54.0/README.md",
-          "planetarypy-0.54.0/docs/README.md",
-          "planetarypy-0.54.0/pyproject.toml",
-          "planetarypy-0.54.0/src/planetarypy/catalog/_repo.py"
+          "bella_baxter-0.1.1rc74/PKG-INFO",
+          "bella_baxter-0.1.1rc74/README.md",
+          "bella_baxter-0.1.1rc74/pyproject.toml",
+          "bella_baxter-0.1.1rc74/src/bella_baxter.egg-info/PKG-INFO"
+        ],
+        "value": "bella-baxter.io"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "bella_baxter-0.1.1rc74/PKG-INFO",
+          "bella_baxter-0.1.1rc74/pyproject.toml",
+          "bella_baxter-0.1.1rc74/src/bella_baxter.egg-info/PKG-INFO"
+        ],
+        "value": "docs.bella-baxter.io"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "bella_baxter-0.1.1rc74/PKG-INFO",
+          "bella_baxter-0.1.1rc74/pyproject.toml",
+          "bella_baxter-0.1.1rc74/src/bella_baxter.egg-info/PKG-INFO"
         ],
         "value": "github.com"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_index_resolver.py",
-          "planetarypy-0.54.0/src/planetarypy/instruments/mro/hirise.py"
-        ],
-        "value": "hirise-pds.lpl.arizona.edu"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "planetarypy-0.54.0/PKG-INFO",
-          "planetarypy-0.54.0/README.md"
-        ],
-        "value": "img.shields.io"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/CHANGELOG.md"
-        ],
-        "value": "keepachangelog.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/__init__.py"
-        ],
-        "value": "loguru.readthedocs.io"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "planetarypy-0.54.0/PKG-INFO",
-          "planetarypy-0.54.0/README.md"
-        ],
-        "value": "michaelaye.github.io"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/spice/config.py",
-          "planetarypy-0.54.0/src/planetarypy/spice/pckernels.py"
-        ],
-        "value": "naif.jpl.nasa.gov"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_index_resolver.py"
-        ],
-        "value": "pds-geosciences.wustl.edu"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/CHANGELOG.md"
-        ],
-        "value": "pds-imaging.jpl.nasa.gov"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_index_resolver.py",
-          "planetarypy-0.54.0/src/planetarypy/catalog/_url_rewrite.py",
-          "planetarypy-0.54.0/src/planetarypy/instruments/go/ssi.py"
-        ],
-        "value": "pds-rings.seti.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_index_resolver.py",
-          "planetarypy-0.54.0/src/planetarypy/pds/dynamic_url_handlers.py"
-        ],
-        "value": "pds.lroc.asu.edu"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_url_rewrite.py",
-          "planetarypy-0.54.0/src/planetarypy/pds/dynamic_url_handlers.py"
-        ],
-        "value": "pdsimage2.wr.usgs.gov"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_index_resolver.py",
-          "planetarypy-0.54.0/src/planetarypy/catalog/_url_rewrite.py",
-          "planetarypy-0.54.0/src/planetarypy/pds/dynamic_url_handlers.py"
-        ],
-        "value": "planetarydata.jpl.nasa.gov"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "planetarypy-0.54.0/PKG-INFO",
-          "planetarypy-0.54.0/README.md"
-        ],
-        "value": "planetarypy.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "planetarypy-0.54.0/PKG-INFO",
-          "planetarypy-0.54.0/README.md"
-        ],
-        "value": "pypi.python.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/docs/README.md"
-        ],
-        "value": "quarto.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/pds/static_index.py"
-        ],
-        "value": "raw.githubusercontent.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/CHANGELOG.md"
-        ],
-        "value": "semver.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/pds/index_labels.py",
-          "planetarypy-0.54.0/src/planetarypy/utils.py"
-        ],
-        "value": "stackoverflow.com"
       }
     ],
     "raw_public_ips": [],
-    "suspicious_endpoints": [
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/pds/static_index.py"
-        ],
-        "value": "https://raw.githubusercontent.com/planetarypy/planetarypy_configs/refs/heads/main/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/pds/static_index.py"
-        ],
-        "value": "raw.githubusercontent.com"
-      }
-    ],
+    "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 1,
+        "file_count": 6,
         "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_url_rewrite.py"
+          "bella_baxter-0.1.1rc74/PKG-INFO",
+          "bella_baxter-0.1.1rc74/README.md",
+          "bella_baxter-0.1.1rc74/src/bella_baxter.egg-info/PKG-INFO",
+          "bella_baxter-0.1.1rc74/src/bella_baxter/__init__.py",
+          "bella_baxter-0.1.1rc74/src/bella_baxter/client.py",
+          "bella_baxter-0.1.1rc74/src/bella_baxter/e2ee.py"
         ],
-        "value": "http://pdsimage2.wr.usgs.gov/Missions/"
+        "value": "https://api.bella-baxter.io"
       },
       {
         "file_count": 1,
         "files": [
-          "planetarypy-0.54.0/src/planetarypy/instruments/mro/hirise.py"
+          "bella_baxter-0.1.1rc74/src/bella_baxter/models.py"
         ],
-        "value": "https://astrogeology.usgs.gov/apis/ale/v0.9.1/spiceserver/"
+        "value": "https://baxter.example.com"
       },
       {
-        "file_count": 2,
+        "file_count": 4,
         "files": [
-          "planetarypy-0.54.0/PKG-INFO",
-          "planetarypy-0.54.0/README.md"
+          "bella_baxter-0.1.1rc74/PKG-INFO",
+          "bella_baxter-0.1.1rc74/README.md",
+          "bella_baxter-0.1.1rc74/pyproject.toml",
+          "bella_baxter-0.1.1rc74/src/bella_baxter.egg-info/PKG-INFO"
         ],
-        "value": "https://codecov.io/gh/planetarypy/planetarypy"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "planetarypy-0.54.0/PKG-INFO",
-          "planetarypy-0.54.0/README.md"
-        ],
-        "value": "https://codecov.io/gh/planetarypy/planetarypy/branch/main/graph/badge.svg"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "planetarypy-0.54.0/PKG-INFO",
-          "planetarypy-0.54.0/README.md"
-        ],
-        "value": "https://github.com/MillionConcepts/pdr"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "planetarypy-0.54.0/PKG-INFO",
-          "planetarypy-0.54.0/README.md"
-        ],
-        "value": "https://github.com/MillionConcepts/pdr-tests"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_repo.py"
-        ],
-        "value": "https://github.com/MillionConcepts/pdr-tests.git"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/docs/README.md"
-        ],
-        "value": "https://github.com/machow/quartodoc"
+        "value": "https://bella-baxter.io"
       },
       {
         "file_count": 3,
         "files": [
-          "planetarypy-0.54.0/CHANGELOG.md",
-          "planetarypy-0.54.0/PKG-INFO",
-          "planetarypy-0.54.0/README.md"
+          "bella_baxter-0.1.1rc74/PKG-INFO",
+          "bella_baxter-0.1.1rc74/pyproject.toml",
+          "bella_baxter-0.1.1rc74/src/bella_baxter.egg-info/PKG-INFO"
         ],
-        "value": "https://github.com/michaelaye/nbplanetary"
+        "value": "https://docs.bella-baxter.io"
       },
       {
-        "file_count": 2,
+        "file_count": 3,
         "files": [
-          "planetarypy-0.54.0/PKG-INFO",
-          "planetarypy-0.54.0/pyproject.toml"
+          "bella_baxter-0.1.1rc74/PKG-INFO",
+          "bella_baxter-0.1.1rc74/pyproject.toml",
+          "bella_baxter-0.1.1rc74/src/bella_baxter.egg-info/PKG-INFO"
         ],
-        "value": "https://github.com/planetarypy/planetarypy"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "planetarypy-0.54.0/PKG-INFO",
-          "planetarypy-0.54.0/README.md"
-        ],
-        "value": "https://github.com/planetarypy/planetarypy.git"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/pds/index_labels.py"
-        ],
-        "value": "https://github.com/planetarypy/pvl/issues/109"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/AUTHORS.md"
-        ],
-        "value": "https://github.com/rbeyer"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_index_resolver.py",
-          "planetarypy-0.54.0/src/planetarypy/instruments/mro/hirise.py"
-        ],
-        "value": "https://hirise-pds.lpl.arizona.edu/PDS"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "planetarypy-0.54.0/PKG-INFO",
-          "planetarypy-0.54.0/README.md"
-        ],
-        "value": "https://img.shields.io/badge/docs-GitHub%20Pages-blue"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "planetarypy-0.54.0/PKG-INFO",
-          "planetarypy-0.54.0/README.md"
-        ],
-        "value": "https://img.shields.io/pypi/v/planetarypy.svg"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/CHANGELOG.md"
-        ],
-        "value": "https://keepachangelog.com/en/1.1.0/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/__init__.py"
-        ],
-        "value": "https://loguru.readthedocs.io/en/stable/resources/recipes.html#configuring-loguru-to-be-used-by-a-library-or-an-application"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "planetarypy-0.54.0/PKG-INFO",
-          "planetarypy-0.54.0/README.md"
-        ],
-        "value": "https://michaelaye.github.io/planetarypy/"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "planetarypy-0.54.0/PKG-INFO",
-          "planetarypy-0.54.0/README.md"
-        ],
-        "value": "https://michaelaye.github.io/planetarypy/contributing.html"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/spice/config.py"
-        ],
-        "value": "https://naif.jpl.nasa.gov"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/spice/pckernels.py"
-        ],
-        "value": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_index_resolver.py"
-        ],
-        "value": "https://pds-geosciences.wustl.edu/lro/lro-l-dlre-2-edr-v1"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_index_resolver.py"
-        ],
-        "value": "https://pds-geosciences.wustl.edu/lro/lro-l-dlre-4-rdr-v1"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_index_resolver.py"
-        ],
-        "value": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-2-edr-v1"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_index_resolver.py"
-        ],
-        "value": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_index_resolver.py"
-        ],
-        "value": "https://pds-geosciences.wustl.edu/mer/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_index_resolver.py"
-        ],
-        "value": "https://pds-geosciences.wustl.edu/mro/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_index_resolver.py"
-        ],
-        "value": "https://pds-geosciences.wustl.edu/msl/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_index_resolver.py"
-        ],
-        "value": "https://pds-geosciences.wustl.edu/msl/msl-m-apxs-2-edr-v1"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_index_resolver.py"
-        ],
-        "value": "https://pds-geosciences.wustl.edu/msl/msl-m-apxs-4_5-rdr-v1"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_index_resolver.py"
-        ],
-        "value": "https://pds-geosciences.wustl.edu/msl/msl-m-chemin-2-edr-v1"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_index_resolver.py"
-        ],
-        "value": "https://pds-geosciences.wustl.edu/msl/msl-m-chemin-4-rdr-v1"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_index_resolver.py"
-        ],
-        "value": "https://pds-geosciences.wustl.edu/msl/msl-m-sam-2-rdr-l0-v1"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_index_resolver.py"
-        ],
-        "value": "https://pds-geosciences.wustl.edu/phx/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/CHANGELOG.md"
-        ],
-        "value": "https://pds-imaging.jpl.nasa.gov/data/mro/ctx"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/instruments/go/ssi.py"
-        ],
-        "value": "https://pds-rings.seti.org/holdings/previews/GO_0xxx/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_index_resolver.py"
-        ],
-        "value": "https://pds-rings.seti.org/holdings/volumes"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/instruments/go/ssi.py"
-        ],
-        "value": "https://pds-rings.seti.org/holdings/volumes/GO_0xxx/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_index_resolver.py"
-        ],
-        "value": "https://pds-rings.seti.org/holdings/volumes/{group"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/instruments/go/ssi.py"
-        ],
-        "value": "https://pds-rings.seti.org/viewmaster/volumes/GO_0xxx/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_url_rewrite.py"
-        ],
-        "value": "https://pds-rings.seti.org/viewmaster/volumes/{group"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_index_resolver.py"
-        ],
-        "value": "https://pds.lroc.asu.edu/data"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/pds/dynamic_url_handlers.py"
-        ],
-        "value": "https://pds.lroc.asu.edu/data/LRO-L-LROC-2-EDR-V1.0/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/pds/dynamic_url_handlers.py"
-        ],
-        "value": "https://pdsimage2.wr.usgs.gov/Mars_Reconnaissance_Orbiter/CTX"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/pds/dynamic_url_handlers.py"
-        ],
-        "value": "https://planetarydata.jpl.nasa.gov/img/data/lro/lamp/edr/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/pds/dynamic_url_handlers.py"
-        ],
-        "value": "https://planetarydata.jpl.nasa.gov/img/data/lro/lamp/rdr/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_index_resolver.py"
-        ],
-        "value": "https://planetarydata.jpl.nasa.gov/img/data/messenger"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_index_resolver.py"
-        ],
-        "value": "https://planetarydata.jpl.nasa.gov/img/data/mgs/moc"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_index_resolver.py"
-        ],
-        "value": "https://planetarydata.jpl.nasa.gov/img/data/mgs/moc/rdr"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_index_resolver.py"
-        ],
-        "value": "https://planetarydata.jpl.nasa.gov/img/data/mro/ctx"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/pds/dynamic_url_handlers.py"
-        ],
-        "value": "https://planetarydata.jpl.nasa.gov/img/data/mro/ctx/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_index_resolver.py"
-        ],
-        "value": "https://planetarydata.jpl.nasa.gov/img/data/viking/viking_orbiter"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/catalog/_url_rewrite.py"
-        ],
-        "value": "https://planetarydata.jpl.nasa.gov/img/data/{jpl_prefix"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "planetarypy-0.54.0/PKG-INFO",
-          "planetarypy-0.54.0/README.md"
-        ],
-        "value": "https://planetarypy.org/"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "planetarypy-0.54.0/PKG-INFO",
-          "planetarypy-0.54.0/README.md"
-        ],
-        "value": "https://pypi.python.org/pypi/planetarypy"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/docs/README.md"
-        ],
-        "value": "https://quarto.org/docs/get-started/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/pds/static_index.py"
-        ],
-        "value": "https://raw.githubusercontent.com/planetarypy/planetarypy_configs/refs/heads/main/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/CHANGELOG.md"
-        ],
-        "value": "https://semver.org/spec/v2.0.0.html"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/pds/index_labels.py"
-        ],
-        "value": "https://stackoverflow.com/a/1019572"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/utils.py"
-        ],
-        "value": "https://stackoverflow.com/a/29854274/680232"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "planetarypy-0.54.0/src/planetarypy/utils.py"
-        ],
-        "value": "https://stackoverflow.com/a/61575758/680232"
+        "value": "https://github.com/cosmic-chimps/bella-baxter-python"
       }
     ]
   },
-  "package": "planetarypy",
-  "package_slug": "planetarypy",
-  "project_url": "https://pypi.org/project/planetarypy/",
+  "package": "bella-baxter",
+  "package_slug": "bella-baxter",
+  "project_url": "https://pypi.org/project/bella-baxter/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T14:54:58.223049+00:00",
+  "published_at": "2026-04-27T14:59:52.411395+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T14:55:58.827813+00:00",
-  "title": "Personal PyPI Supply Chain Scan: planetarypy 0.54.0",
-  "version": "0.54.0",
-  "version_slug": "0.54.0",
-  "_metadata_path": "reports/packages/planetarypy/0.54.0/metadata.json"
+  "scanned_at": "2026-04-27T15:00:21.599103+00:00",
+  "title": "Personal PyPI Supply Chain Scan: bella-baxter 0.1.1rc74",
+  "version": "0.1.1rc74",
+  "version_slug": "0.1.1rc74",
+  "_metadata_path": "reports/packages/bella-baxter/0.1.1rc74/metadata.json"
 }

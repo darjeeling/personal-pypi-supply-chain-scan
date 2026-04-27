@@ -1,6 +1,133 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "bella_baxter-0.1.1rc74.tar.gz",
+    "finding_count": 906,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 6,
+          "files": [
+            "bella_baxter-0.1.1rc74/PKG-INFO",
+            "bella_baxter-0.1.1rc74/README.md",
+            "bella_baxter-0.1.1rc74/src/bella_baxter.egg-info/PKG-INFO",
+            "bella_baxter-0.1.1rc74/src/bella_baxter/__init__.py",
+            "bella_baxter-0.1.1rc74/src/bella_baxter/client.py",
+            "bella_baxter-0.1.1rc74/src/bella_baxter/e2ee.py"
+          ],
+          "value": "api.bella-baxter.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bella_baxter-0.1.1rc74/src/bella_baxter/client.py"
+          ],
+          "value": "api.v1.projects"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bella_baxter-0.1.1rc74/src/bella_baxter/models.py"
+          ],
+          "value": "baxter.example.com"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "bella_baxter-0.1.1rc74/PKG-INFO",
+            "bella_baxter-0.1.1rc74/README.md",
+            "bella_baxter-0.1.1rc74/pyproject.toml",
+            "bella_baxter-0.1.1rc74/src/bella_baxter.egg-info/PKG-INFO"
+          ],
+          "value": "bella-baxter.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "bella_baxter-0.1.1rc74/PKG-INFO",
+            "bella_baxter-0.1.1rc74/pyproject.toml",
+            "bella_baxter-0.1.1rc74/src/bella_baxter.egg-info/PKG-INFO"
+          ],
+          "value": "docs.bella-baxter.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "bella_baxter-0.1.1rc74/PKG-INFO",
+            "bella_baxter-0.1.1rc74/pyproject.toml",
+            "bella_baxter-0.1.1rc74/src/bella_baxter.egg-info/PKG-INFO"
+          ],
+          "value": "github.com"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 6,
+          "files": [
+            "bella_baxter-0.1.1rc74/PKG-INFO",
+            "bella_baxter-0.1.1rc74/README.md",
+            "bella_baxter-0.1.1rc74/src/bella_baxter.egg-info/PKG-INFO",
+            "bella_baxter-0.1.1rc74/src/bella_baxter/__init__.py",
+            "bella_baxter-0.1.1rc74/src/bella_baxter/client.py",
+            "bella_baxter-0.1.1rc74/src/bella_baxter/e2ee.py"
+          ],
+          "value": "https://api.bella-baxter.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bella_baxter-0.1.1rc74/src/bella_baxter/models.py"
+          ],
+          "value": "https://baxter.example.com"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "bella_baxter-0.1.1rc74/PKG-INFO",
+            "bella_baxter-0.1.1rc74/README.md",
+            "bella_baxter-0.1.1rc74/pyproject.toml",
+            "bella_baxter-0.1.1rc74/src/bella_baxter.egg-info/PKG-INFO"
+          ],
+          "value": "https://bella-baxter.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "bella_baxter-0.1.1rc74/PKG-INFO",
+            "bella_baxter-0.1.1rc74/pyproject.toml",
+            "bella_baxter-0.1.1rc74/src/bella_baxter.egg-info/PKG-INFO"
+          ],
+          "value": "https://docs.bella-baxter.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "bella_baxter-0.1.1rc74/PKG-INFO",
+            "bella_baxter-0.1.1rc74/pyproject.toml",
+            "bella_baxter-0.1.1rc74/src/bella_baxter.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/cosmic-chimps/bella-baxter-python"
+        }
+      ]
+    },
+    "package": "bella-baxter",
+    "package_slug": "bella-baxter",
+    "project_url": "https://pypi.org/project/bella-baxter/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T14:59:52.411395+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T15:00:21.599103+00:00",
+    "title": "Personal PyPI Supply Chain Scan: bella-baxter 0.1.1rc74",
+    "version": "0.1.1rc74",
+    "version_slug": "0.1.1rc74",
+    "_metadata_path": "reports/packages/bella-baxter/0.1.1rc74/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "planetarypy-0.54.0.tar.gz",
     "finding_count": 30,
     "model": "gpt-5.5",
