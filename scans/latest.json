@@ -1,604 +1,129 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "mem_mesh-1.4.3.tar.gz",
-  "finding_count": 191,
+  "distribution": "aztea-1.1.1.tar.gz",
+  "finding_count": 2,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 4,
+        "file_count": 1,
         "files": [
-          "mem_mesh-1.4.3/app/cli/hooks/shell/enhanced-stop.sh",
-          "mem_mesh-1.4.3/app/cli/hooks/shell/local-enhanced-stop.sh",
-          "mem_mesh-1.4.3/app/cli/hooks/shell/local-reflect.sh",
-          "mem_mesh-1.4.3/app/cli/hooks/shell/reflect.sh"
+          "aztea-1.1.1/tests/test_client.py"
         ],
-        "value": "api.anthropic.com"
+        "value": "agents.example.com"
       },
       {
         "file_count": 1,
         "files": [
-          "mem_mesh-1.4.3/app/web/static/js/pages/settings-page.js"
+          "aztea-1.1.1/tests/test_client.py"
         ],
-        "value": "api.delete"
+        "value": "anthropic.com"
       },
       {
         "file_count": 1,
         "files": [
-          "mem_mesh-1.4.3/app/web/static/js/pages/memories.js"
+          "aztea-1.1.1/aztea/__init__.py"
         ],
-        "value": "api.deletememory"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "mem_mesh-1.4.3/app/web/static/js/pages/memory-detail.js"
-        ],
-        "value": "api.getcontext"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "mem_mesh-1.4.3/app/web/static/js/pages/dashboard.js",
-          "mem_mesh-1.4.3/app/web/static/js/pages/memories.js",
-          "mem_mesh-1.4.3/app/web/static/js/pages/memory-detail.js"
-        ],
-        "value": "api.getmemory"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "mem_mesh-1.4.3/app/web/static/js/pages/dashboard.js",
-          "mem_mesh-1.4.3/app/web/static/js/pages/memories.js"
-        ],
-        "value": "api.getstats"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "mem_mesh-1.4.3/app/web/static/js/pages/dashboard.js",
-          "mem_mesh-1.4.3/app/web/static/js/pages/memories.js"
-        ],
-        "value": "api.searchmemories"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "mem_mesh-1.4.3/app/web/static/js/pages/memories.js"
-        ],
-        "value": "api.updatememory"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "mem_mesh-1.4.3/PKG-INFO",
-          "mem_mesh-1.4.3/README.md",
-          "mem_mesh-1.4.3/mem_mesh.egg-info/PKG-INFO"
-        ],
-        "value": "astral.sh"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "mem_mesh-1.4.3/app/cli/prompts/renderers.py"
-        ],
-        "value": "auto-create-pin-on-task.kiro.hook"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "mem_mesh-1.4.3/app/web/templates/index.html"
-        ],
-        "value": "cdn.jsdelivr.net"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "mem_mesh-1.4.3/app/web/templates/index.html"
-        ],
-        "value": "cdnjs.cloudflare.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "mem_mesh-1.4.3/app/web/static/js/components/network-graph.js"
-        ],
-        "value": "d3js.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "mem_mesh-1.4.3/app/web/static/js/utils/virtual-scroll.js"
-        ],
-        "value": "element.style.top"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "mem_mesh-1.4.3/tests/test_oauth.py"
-        ],
-        "value": "evil.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "mem_mesh-1.4.3/tests/test_install_hooks_idempotency.py"
-        ],
-        "value": "example.invalid"
+        "value": "aztea.ai"
       },
       {
         "file_count": 4,
         "files": [
-          "mem_mesh-1.4.3/PKG-INFO",
-          "mem_mesh-1.4.3/README.md",
-          "mem_mesh-1.4.3/mem_mesh.egg-info/PKG-INFO",
-          "mem_mesh-1.4.3/pyproject.toml"
+          "aztea-1.1.1/PKG-INFO",
+          "aztea-1.1.1/aztea.egg-info/PKG-INFO",
+          "aztea-1.1.1/pyproject.toml",
+          "aztea-1.1.1/setup.py"
         ],
         "value": "github.com"
       },
       {
-        "file_count": 3,
-        "files": [
-          "mem_mesh-1.4.3/PKG-INFO",
-          "mem_mesh-1.4.3/README.md",
-          "mem_mesh-1.4.3/mem_mesh.egg-info/PKG-INFO"
-        ],
-        "value": "img.shields.io"
-      },
-      {
         "file_count": 1,
         "files": [
-          "mem_mesh-1.4.3/tests/test_hook_snapshots.py"
+          "aztea-1.1.1/tests/test_client.py"
         ],
-        "value": "meme.24x365.online"
-      },
-      {
-        "file_count": 5,
-        "files": [
-          "mem_mesh-1.4.3/PKG-INFO",
-          "mem_mesh-1.4.3/README.md",
-          "mem_mesh-1.4.3/app/core/auth/schemas.py",
-          "mem_mesh-1.4.3/app/web/mcp/sse.py",
-          "mem_mesh-1.4.3/mem_mesh.egg-info/PKG-INFO"
-        ],
-        "value": "modelcontextprotocol.io"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "mem_mesh-1.4.3/PKG-INFO",
-          "mem_mesh-1.4.3/README.md",
-          "mem_mesh-1.4.3/mem_mesh.egg-info/PKG-INFO"
-        ],
-        "value": "opensource.org"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "mem_mesh-1.4.3/PKG-INFO",
-          "mem_mesh-1.4.3/README.md",
-          "mem_mesh-1.4.3/app/cli/updater.py",
-          "mem_mesh-1.4.3/mem_mesh.egg-info/PKG-INFO"
-        ],
-        "value": "pypi.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "mem_mesh-1.4.3/app/cli/mcp_config.py",
-          "mem_mesh-1.4.3/app/cli/onboarding.py"
-        ],
-        "value": "raw.isdigit"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "mem_mesh-1.4.3/app/web/static/js/components/chroma-charts.js",
-          "mem_mesh-1.4.3/app/web/static/js/components/hero-section.js"
-        ],
-        "value": "rect.top"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "mem_mesh-1.4.3/app/web/static/js/components/hero-section.js"
-        ],
-        "value": "ripple.style.top"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "mem_mesh-1.4.3/app/web/static/js/utils/virtual-scroll.js"
-        ],
-        "value": "this.spacer.style.top"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "mem_mesh-1.4.3/app/web/static/js/utils/virtual-scroll.js"
-        ],
-        "value": "this.viewport.style.top"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "mem_mesh-1.4.3/app/web/static/js/components/chroma-charts.js"
-        ],
-        "value": "tooltip.style.top"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "mem_mesh-1.4.3/PKG-INFO",
-          "mem_mesh-1.4.3/README.md",
-          "mem_mesh-1.4.3/mem_mesh.egg-info/PKG-INFO"
-        ],
-        "value": "www.python.org"
-      },
-      {
-        "file_count": 7,
-        "files": [
-          "mem_mesh-1.4.3/app/web/static/js/components/chroma-header.js",
-          "mem_mesh-1.4.3/app/web/static/js/components/dashboard-preview.js",
-          "mem_mesh-1.4.3/app/web/static/js/components/feature-card.js",
-          "mem_mesh-1.4.3/app/web/static/js/components/features-section.js",
-          "mem_mesh-1.4.3/app/web/static/js/components/hero-section.js",
-          "mem_mesh-1.4.3/app/web/static/js/components/memory-card.js",
-          "mem_mesh-1.4.3/app/web/static/js/pages/memory-detail.js"
-        ],
-        "value": "www.w3.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "mem_mesh-1.4.3/app/web/rules/modules/quick-start.md"
-        ],
-        "value": "your-server"
+        "value": "hooks.example.com"
       }
     ],
     "raw_public_ips": [],
-    "suspicious_endpoints": [
-      {
-        "file_count": 1,
-        "files": [
-          "mem_mesh-1.4.3/app/cli/prompts/renderers.py"
-        ],
-        "value": "auto-create-pin-on-task.kiro.hook"
-      }
-    ],
+    "suspicious_endpoints": [],
     "urls": [
       {
         "file_count": 1,
         "files": [
-          "mem_mesh-1.4.3/tests/test_oauth.py"
+          "aztea-1.1.1/tests/test_client.py"
         ],
-        "value": "http://evil.com/callback"
+        "value": "https://agents.example.com/demo"
       },
       {
         "file_count": 1,
         "files": [
-          "mem_mesh-1.4.3/tests/test_oauth.py"
+          "aztea-1.1.1/tests/test_client.py"
         ],
-        "value": "http://example.com/callback"
-      },
-      {
-        "file_count": 7,
-        "files": [
-          "mem_mesh-1.4.3/app/web/static/js/components/chroma-header.js",
-          "mem_mesh-1.4.3/app/web/static/js/components/dashboard-preview.js",
-          "mem_mesh-1.4.3/app/web/static/js/components/feature-card.js",
-          "mem_mesh-1.4.3/app/web/static/js/components/features-section.js",
-          "mem_mesh-1.4.3/app/web/static/js/components/hero-section.js",
-          "mem_mesh-1.4.3/app/web/static/js/components/memory-card.js",
-          "mem_mesh-1.4.3/app/web/static/js/pages/memory-detail.js"
-        ],
-        "value": "http://www.w3.org/2000/svg"
+        "value": "https://anthropic.com"
       },
       {
         "file_count": 1,
         "files": [
-          "mem_mesh-1.4.3/app/web/rules/modules/quick-start.md"
+          "aztea-1.1.1/aztea/__init__.py"
         ],
-        "value": "http://your-server/mcp/sse"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "mem_mesh-1.4.3/app/cli/hooks/shell/enhanced-stop.sh",
-          "mem_mesh-1.4.3/app/cli/hooks/shell/local-enhanced-stop.sh",
-          "mem_mesh-1.4.3/app/cli/hooks/shell/local-reflect.sh",
-          "mem_mesh-1.4.3/app/cli/hooks/shell/reflect.sh"
-        ],
-        "value": "https://api.anthropic.com/v1/messages"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "mem_mesh-1.4.3/PKG-INFO",
-          "mem_mesh-1.4.3/README.md",
-          "mem_mesh-1.4.3/mem_mesh.egg-info/PKG-INFO"
-        ],
-        "value": "https://astral.sh/uv/install.sh"
+        "value": "https://aztea.ai"
       },
       {
         "file_count": 1,
         "files": [
-          "mem_mesh-1.4.3/app/web/templates/index.html"
-        ],
-        "value": "https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "mem_mesh-1.4.3/app/web/templates/index.html"
-        ],
-        "value": "https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-bash.min.js"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "mem_mesh-1.4.3/app/web/templates/index.html"
-        ],
-        "value": "https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-css.min.js"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "mem_mesh-1.4.3/app/web/templates/index.html"
-        ],
-        "value": "https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "mem_mesh-1.4.3/app/web/templates/index.html"
-        ],
-        "value": "https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "mem_mesh-1.4.3/app/web/templates/index.html"
-        ],
-        "value": "https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-markdown.min.js"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "mem_mesh-1.4.3/app/web/templates/index.html"
-        ],
-        "value": "https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "mem_mesh-1.4.3/app/web/templates/index.html"
-        ],
-        "value": "https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-sql.min.js"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "mem_mesh-1.4.3/app/web/templates/index.html"
-        ],
-        "value": "https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-yaml.min.js"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "mem_mesh-1.4.3/app/web/templates/index.html"
-        ],
-        "value": "https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/line-numbers/prism-line-numbers.min.css"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "mem_mesh-1.4.3/app/web/templates/index.html"
-        ],
-        "value": "https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/line-numbers/prism-line-numbers.min.js"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "mem_mesh-1.4.3/app/web/templates/index.html"
-        ],
-        "value": "https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "mem_mesh-1.4.3/app/web/templates/index.html"
-        ],
-        "value": "https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "mem_mesh-1.4.3/app/web/static/js/components/network-graph.js"
-        ],
-        "value": "https://d3js.org/d3.v7.min.js"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "mem_mesh-1.4.3/tests/test_hook_session_end.py",
-          "mem_mesh-1.4.3/tests/test_search_edge_cases.py"
+          "aztea-1.1.1/aztea/__init__.py"
         ],
         "value": "https://example.com"
       },
       {
-        "file_count": 1,
+        "file_count": 4,
         "files": [
-          "mem_mesh-1.4.3/tests/test_install_hooks_idempotency.py"
+          "aztea-1.1.1/PKG-INFO",
+          "aztea-1.1.1/aztea.egg-info/PKG-INFO",
+          "aztea-1.1.1/pyproject.toml",
+          "aztea-1.1.1/setup.py"
         ],
-        "value": "https://example.invalid"
+        "value": "https://github.com/AnayGarodia/aztea"
       },
       {
-        "file_count": 3,
+        "file_count": 4,
         "files": [
-          "mem_mesh-1.4.3/PKG-INFO",
-          "mem_mesh-1.4.3/README.md",
-          "mem_mesh-1.4.3/mem_mesh.egg-info/PKG-INFO"
+          "aztea-1.1.1/PKG-INFO",
+          "aztea-1.1.1/aztea.egg-info/PKG-INFO",
+          "aztea-1.1.1/pyproject.toml",
+          "aztea-1.1.1/setup.py"
         ],
-        "value": "https://github.com/astral-sh/uv"
+        "value": "https://github.com/AnayGarodia/aztea/blob/main/docs/quickstart.md"
       },
       {
-        "file_count": 3,
+        "file_count": 4,
         "files": [
-          "mem_mesh-1.4.3/PKG-INFO",
-          "mem_mesh-1.4.3/mem_mesh.egg-info/PKG-INFO",
-          "mem_mesh-1.4.3/pyproject.toml"
+          "aztea-1.1.1/PKG-INFO",
+          "aztea-1.1.1/aztea.egg-info/PKG-INFO",
+          "aztea-1.1.1/pyproject.toml",
+          "aztea-1.1.1/setup.py"
         ],
-        "value": "https://github.com/x-mesh/mem-mesh"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "mem_mesh-1.4.3/PKG-INFO",
-          "mem_mesh-1.4.3/README.md",
-          "mem_mesh-1.4.3/mem_mesh.egg-info/PKG-INFO"
-        ],
-        "value": "https://github.com/x-mesh/mem-mesh/actions/workflows/ci.yml"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "mem_mesh-1.4.3/PKG-INFO",
-          "mem_mesh-1.4.3/README.md",
-          "mem_mesh-1.4.3/mem_mesh.egg-info/PKG-INFO"
-        ],
-        "value": "https://github.com/x-mesh/mem-mesh/actions/workflows/ci.yml/badge.svg"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "mem_mesh-1.4.3/PKG-INFO",
-          "mem_mesh-1.4.3/mem_mesh.egg-info/PKG-INFO",
-          "mem_mesh-1.4.3/pyproject.toml"
-        ],
-        "value": "https://github.com/x-mesh/mem-mesh/blob/main/README.md"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "mem_mesh-1.4.3/PKG-INFO",
-          "mem_mesh-1.4.3/mem_mesh.egg-info/PKG-INFO",
-          "mem_mesh-1.4.3/pyproject.toml"
-        ],
-        "value": "https://github.com/x-mesh/mem-mesh/issues"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "mem_mesh-1.4.3/PKG-INFO",
-          "mem_mesh-1.4.3/README.md",
-          "mem_mesh-1.4.3/mem_mesh.egg-info/PKG-INFO"
-        ],
-        "value": "https://img.shields.io/badge/License-MIT-yellow.svg"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "mem_mesh-1.4.3/PKG-INFO",
-          "mem_mesh-1.4.3/README.md",
-          "mem_mesh-1.4.3/mem_mesh.egg-info/PKG-INFO"
-        ],
-        "value": "https://img.shields.io/badge/MCP-2024--11--05%20%7C%202025--03--26-green.svg"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "mem_mesh-1.4.3/PKG-INFO",
-          "mem_mesh-1.4.3/README.md",
-          "mem_mesh-1.4.3/mem_mesh.egg-info/PKG-INFO"
-        ],
-        "value": "https://img.shields.io/badge/python-3.9+-blue.svg"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "mem_mesh-1.4.3/PKG-INFO",
-          "mem_mesh-1.4.3/README.md",
-          "mem_mesh-1.4.3/mem_mesh.egg-info/PKG-INFO"
-        ],
-        "value": "https://img.shields.io/pypi/v/mem-mesh.svg"
+        "value": "https://github.com/AnayGarodia/aztea/issues"
       },
       {
         "file_count": 1,
         "files": [
-          "mem_mesh-1.4.3/tests/test_hook_snapshots.py"
+          "aztea-1.1.1/tests/test_client.py"
         ],
-        "value": "https://meme.24x365.online"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "mem_mesh-1.4.3/PKG-INFO",
-          "mem_mesh-1.4.3/README.md",
-          "mem_mesh-1.4.3/mem_mesh.egg-info/PKG-INFO"
-        ],
-        "value": "https://modelcontextprotocol.io/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "mem_mesh-1.4.3/app/core/auth/schemas.py"
-        ],
-        "value": "https://modelcontextprotocol.io/specification/2025-03-26/basic/authorization"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "mem_mesh-1.4.3/app/web/mcp/sse.py"
-        ],
-        "value": "https://modelcontextprotocol.io/specification/2025-03-26/basic/transports"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "mem_mesh-1.4.3/PKG-INFO",
-          "mem_mesh-1.4.3/README.md",
-          "mem_mesh-1.4.3/mem_mesh.egg-info/PKG-INFO"
-        ],
-        "value": "https://opensource.org/licenses/MIT"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "mem_mesh-1.4.3/PKG-INFO",
-          "mem_mesh-1.4.3/README.md",
-          "mem_mesh-1.4.3/mem_mesh.egg-info/PKG-INFO"
-        ],
-        "value": "https://pypi.org/project/mem-mesh/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "mem_mesh-1.4.3/app/cli/updater.py"
-        ],
-        "value": "https://pypi.org/pypi/mem-mesh/json"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "mem_mesh-1.4.3/PKG-INFO",
-          "mem_mesh-1.4.3/README.md",
-          "mem_mesh-1.4.3/mem_mesh.egg-info/PKG-INFO"
-        ],
-        "value": "https://www.python.org/downloads/"
+        "value": "https://hooks.example.com/job"
       }
     ]
   },
-  "package": "mem-mesh",
-  "package_slug": "mem-mesh",
-  "project_url": "https://pypi.org/project/mem-mesh/",
+  "package": "aztea",
+  "package_slug": "aztea",
+  "project_url": "https://pypi.org/project/aztea/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T21:46:39.646044+00:00",
+  "published_at": "2026-04-27T21:50:59.817236+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T21:47:34.961614+00:00",
-  "title": "Personal PyPI Supply Chain Scan: mem-mesh 1.4.3",
-  "version": "1.4.3",
-  "version_slug": "1.4.3",
-  "_metadata_path": "reports/packages/mem-mesh/1.4.3/metadata.json"
+  "scanned_at": "2026-04-27T21:51:59.736454+00:00",
+  "title": "Personal PyPI Supply Chain Scan: aztea 1.1.1",
+  "version": "1.1.1",
+  "version_slug": "1.1.1",
+  "_metadata_path": "reports/packages/aztea/1.1.1/metadata.json"
 }

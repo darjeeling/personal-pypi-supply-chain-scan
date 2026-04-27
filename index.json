@@ -1,6 +1,135 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "aztea-1.1.1.tar.gz",
+    "finding_count": 2,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "aztea-1.1.1/tests/test_client.py"
+          ],
+          "value": "agents.example.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aztea-1.1.1/tests/test_client.py"
+          ],
+          "value": "anthropic.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aztea-1.1.1/aztea/__init__.py"
+          ],
+          "value": "aztea.ai"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "aztea-1.1.1/PKG-INFO",
+            "aztea-1.1.1/aztea.egg-info/PKG-INFO",
+            "aztea-1.1.1/pyproject.toml",
+            "aztea-1.1.1/setup.py"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aztea-1.1.1/tests/test_client.py"
+          ],
+          "value": "hooks.example.com"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "aztea-1.1.1/tests/test_client.py"
+          ],
+          "value": "https://agents.example.com/demo"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aztea-1.1.1/tests/test_client.py"
+          ],
+          "value": "https://anthropic.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aztea-1.1.1/aztea/__init__.py"
+          ],
+          "value": "https://aztea.ai"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aztea-1.1.1/aztea/__init__.py"
+          ],
+          "value": "https://example.com"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "aztea-1.1.1/PKG-INFO",
+            "aztea-1.1.1/aztea.egg-info/PKG-INFO",
+            "aztea-1.1.1/pyproject.toml",
+            "aztea-1.1.1/setup.py"
+          ],
+          "value": "https://github.com/AnayGarodia/aztea"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "aztea-1.1.1/PKG-INFO",
+            "aztea-1.1.1/aztea.egg-info/PKG-INFO",
+            "aztea-1.1.1/pyproject.toml",
+            "aztea-1.1.1/setup.py"
+          ],
+          "value": "https://github.com/AnayGarodia/aztea/blob/main/docs/quickstart.md"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "aztea-1.1.1/PKG-INFO",
+            "aztea-1.1.1/aztea.egg-info/PKG-INFO",
+            "aztea-1.1.1/pyproject.toml",
+            "aztea-1.1.1/setup.py"
+          ],
+          "value": "https://github.com/AnayGarodia/aztea/issues"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aztea-1.1.1/tests/test_client.py"
+          ],
+          "value": "https://hooks.example.com/job"
+        }
+      ]
+    },
+    "package": "aztea",
+    "package_slug": "aztea",
+    "project_url": "https://pypi.org/project/aztea/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T21:50:59.817236+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T21:51:59.736454+00:00",
+    "title": "Personal PyPI Supply Chain Scan: aztea 1.1.1",
+    "version": "1.1.1",
+    "version_slug": "1.1.1",
+    "_metadata_path": "reports/packages/aztea/1.1.1/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "mem_mesh-1.4.3.tar.gz",
     "finding_count": 191,
     "model": "gpt-5.5",

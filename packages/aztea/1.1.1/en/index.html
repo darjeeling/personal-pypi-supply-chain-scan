@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal PyPI Supply Chain Scan: aztea 1.1.1</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 960px; line-height: 1.55; padding: 0 1rem; color: #1f2933; }
+    a { color: #1f5fbf; }
+    code { background: #f4f4f4; padding: 0.1rem 0.25rem; }
+    h1, h2, h3 { line-height: 1.2; }
+    li { margin: 0.35rem 0; }
+    nav { margin-bottom: 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #e5e9ef; padding: 0.55rem 0.65rem; text-align: left; vertical-align: top; }
+    th { color: #52616f; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; }
+    .scan-groups { margin-top: 1.2rem; }
+    .scan-day { border-top: 1px solid #d8dee4; display: grid; gap: 1rem; grid-template-columns: 10rem minmax(0, 1fr); padding: 1.1rem 0; }
+    .scan-day-date { color: #1f2933; font-weight: 700; }
+    .scan-day-date span { color: #52616f; display: block; font-size: 0.9rem; font-weight: 500; margin-top: 0.2rem; }
+    .scan-day-table { overflow-x: auto; }
+    .risk { display: inline-block; min-width: 4.8rem; text-align: center; border-radius: 999px; padding: 0.15rem 0.45rem; font-size: 0.78rem; font-weight: 700; }
+    .risk-info, .risk-low { background: #dcfce7; color: #166534; }
+    .risk-medium, .risk-unknown { background: #fef3c7; color: #92400e; }
+    .risk-high, .risk-critical { background: #fee2e2; color: #991b1b; }
+    .index-note { color: #52616f; margin-top: -0.35rem; }
+    .version { color: #52616f; margin-left: 0.2rem; white-space: nowrap; }
+    @media (max-width: 720px) {
+      .scan-day { grid-template-columns: 1fr; }
+      th, td { padding: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+<nav><a href='../../../../'>Index</a></nav><h1>Personal PyPI Supply Chain Scan: aztea 1.1.1</h1>
+
+<ul>
+<li>Package: aztea</li>
+<li>Version: 1.1.1</li>
+<li>Project URL: https://pypi.org/project/aztea/</li>
+<li>Distribution: aztea-1.1.1.tar.gz</li>
+<li>Package published at: 2026-04-27T21:50:59.817236+00:00</li>
+<li>Scan published at: 2026-04-27T21:51:59.736454+00:00</li>
+<li>Language: en</li>
+<li>Model: gpt-5.5</li>
+<li>Prompt: malicious-supply-chain-review-v2 ([source](../../../../docs/prompts/malicious-supply-chain-review-v2.md))</li>
+<li>Disclaimer: This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</li>
+</ul>
+
+<h2>Deterministic Network Indicators</h2>
+
+<h3>Suspicious Endpoints</h3>
+
+<p>None</p>
+
+<h3>Raw Public IPs</h3>
+
+<p>None</p>
+
+<h3>URLs</h3>
+<ul>
+<li>https://agents.example.com/demo (1 files: aztea-1.1.1/tests/test_client.py)</li>
+<li>https://anthropic.com (1 files: aztea-1.1.1/tests/test_client.py)</li>
+<li>https://aztea.ai (1 files: aztea-1.1.1/aztea/__init__.py)</li>
+<li>https://example.com (1 files: aztea-1.1.1/aztea/__init__.py)</li>
+<li>https://github.com/AnayGarodia/aztea (4 files: aztea-1.1.1/PKG-INFO, aztea-1.1.1/aztea.egg-info/PKG-INFO, aztea-1.1.1/pyproject.toml, aztea-1.1.1/setup.py)</li>
+<li>https://github.com/AnayGarodia/aztea/blob/main/docs/quickstart.md (4 files: aztea-1.1.1/PKG-INFO, aztea-1.1.1/aztea.egg-info/PKG-INFO, aztea-1.1.1/pyproject.toml, aztea-1.1.1/setup.py)</li>
+<li>https://github.com/AnayGarodia/aztea/issues (4 files: aztea-1.1.1/PKG-INFO, aztea-1.1.1/aztea.egg-info/PKG-INFO, aztea-1.1.1/pyproject.toml, aztea-1.1.1/setup.py)</li>
+<li>https://hooks.example.com/job (1 files: aztea-1.1.1/tests/test_client.py)</li>
+</ul>
+
+<h3>Domains</h3>
+<ul>
+<li>agents.example.com (1 files: aztea-1.1.1/tests/test_client.py)</li>
+<li>anthropic.com (1 files: aztea-1.1.1/tests/test_client.py)</li>
+<li>aztea.ai (1 files: aztea-1.1.1/aztea/__init__.py)</li>
+<li>github.com (4 files: aztea-1.1.1/PKG-INFO, aztea-1.1.1/aztea.egg-info/PKG-INFO, aztea-1.1.1/pyproject.toml, aztea-1.1.1/setup.py)</li>
+<li>hooks.example.com (1 files: aztea-1.1.1/tests/test_client.py)</li>
+</ul>
+
+<h2>Verdict</h2>
+
+<p>No confirmed indicators of a malicious supply-chain compromise were found. Overall risk: **info**.</p>
+
+<h2>Malicious Supply-Chain Indicators</h2>
+
+<p>No confirmed malicious supply-chain indicators.</p>
+
+<h2>Automatic Execution Paths</h2>
+
+<ul>
+<li>setup.py: Appears to contain ordinary setuptools.setup(...) packaging logic. No custom install/build commands, install-time arbitrary execution, network calls, or harvesting logic were identified.</li>
+<li>pyproject.toml: Uses the standard setuptools.build_meta backend; no suspicious PEP 517 build-hook evidence was identified.</li>
+<li>.pth, sitecustomize.py, usercustomize.py: Not observed in the provided manifest/text.</li>
+<li>Import-time side effects: aztea/__init__.py only defines version/exported symbols and imports internal modules. No evidence of import-time network exfiltration, credential discovery, or persistence setup was identified.</li>
+<li>entry_points: setup.py defines a console_scripts entry point, but this requires user invocation and is not treated as malicious automatic execution by itself.</li>
+</ul>
+
+<h2>Theft / Exfiltration / Persistence / Lateral Movement / Obfuscation</h2>
+
+<ul>
+<li>Broad credential harvesting: not observed.</li>
+<li>Collection of .env, SSH keys, cloud/CI tokens, wallets, kubeconfig, or other secrets: not observed.</li>
+<li>Archive staging followed by external upload: not observed.</li>
+<li>Suspicious C2, webhook, raw IP, or paste/drop-service exfiltration: not observed. HTTP requests in the code appear to be normal SDK calls to user-configured base_url/API paths.</li>
+<li>Persistence: no cron, systemd, launch agent, shell-profile modification, or self-reinstall loop observed.</li>
+<li>Lateral movement: no evidence of Kubernetes, Docker socket, cloud metadata, GitHub Actions, or CI token abuse.</li>
+<li>Obfuscation/loaders: no evidence of eval/exec, base64/zlib/marshal loaders, or obfuscated droppers.</li>
+</ul>
+
+<h2>Distribution Integrity Anomalies</h2>
+
+<ul>
+<li>No malicious hidden payloads, native binaries, .pth injection, or unexpected executable files were identified in the provided file list.</li>
+<li>There are metadata version/dependency inconsistencies:</li>
+</ul>
+<p>  - PyPI package / pyproject.toml: 1.1.1</p>
+<p>  - setup.py: 1.0.5</p>
+<p>  - aztea/__init__.py: 1.1.0</p>
+<p>  - setup.py dependencies (httpx, pydantic, aztea-tui) differ from pyproject.toml / egg-info dependencies (requests).</p>
+<ul>
+<li>These inconsistencies may indicate packaging or release-process issues, but the provided evidence is insufficient to classify them as a malicious supply-chain attack.</li>
+</ul>
+
+<h2>Further Verification Needed</h2>
+
+<ul>
+<li>Review is based on the provided extracted text corpus; no full diff against the upstream source repository was performed.</li>
+<li>If a wheel artifact exists separately, compare it against the sdist for wheel/sdist mismatch.</li>
+<li>The safety of the dependency aztea-tui was not assessed as part of this package review.</li>
+</ul>
+
+<p>---</p>
+
+<p>Prompt source: docs/prompts/malicious-supply-chain-review-v2.md</p>
+
+<p>This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</p>
+
+</body>
+</html>
