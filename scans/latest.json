@@ -1,618 +1,1106 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "truefoundry-0.15.0rc2.tar.gz",
-  "finding_count": 83,
+  "distribution": "recruit_crm_mcp-0.16.1.tar.gz",
+  "finding_count": 1837,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/.gitignore"
+        ],
+        "value": "abstra.io"
+      },
+      {
         "file_count": 2,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/autodeploy/constants.py",
-          "truefoundry-0.15.0rc2/truefoundry/ml/constants.py"
+          "recruit_crm_mcp-0.16.1/tests/unit/test_models.py",
+          "recruit_crm_mcp-0.16.1/tests/unit/test_server.py"
         ],
-        "value": "app.truefoundry.com"
+        "value": "acme.com"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/rescrape.py",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/retry.py",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/save_manual.py",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/scrape.py"
+        ],
+        "value": "api.firecrawl.dev"
+      },
+      {
+        "file_count": 192,
+        "files": [
+          "recruit_crm_mcp-0.16.1/CLAUDE.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/README.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/build_readme.py",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/rescrape.py",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/save_manual.py",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/tidy.py",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/add-education-history.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/add-records-to-hotlist.md"
+        ],
+        "value": "api.recruitcrm.io"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/README.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/build_readme.py"
+        ],
+        "value": "api.recruitcrm.io`"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+          "recruit_crm_mcp-0.16.1/docs/api-reference/authentication.md"
         ],
-        "value": "cloud.google.com"
+        "value": "app.recruitcrm.io"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "recruit_crm_mcp-0.16.1/install.ps1",
+          "recruit_crm_mcp-0.16.1/install.sh",
+          "recruit_crm_mcp-0.16.1/src/recruit_crm_mcp/install.py"
+        ],
+        "value": "astral.sh"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "recruit_crm_mcp-0.16.1/tests/unit/test_client.py",
+          "recruit_crm_mcp-0.16.1/tests/unit/test_models.py",
+          "recruit_crm_mcp-0.16.1/tests/unit/test_server.py"
+        ],
+        "value": "cdn"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/builder/utils.py"
+          "recruit_crm_mcp-0.16.1/WINDOWS_PREDEPLOY.md"
         ],
-        "value": "deb.debian.org"
+        "value": "claude.ai"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+          "recruit_crm_mcp-0.16.1/src/recruit_crm_mcp/install.py"
         ],
-        "value": "docs.aws.amazon.com"
+        "value": "docs.astral.sh"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+          "recruit_crm_mcp-0.16.1/.gitignore"
         ],
-        "value": "docs.nvidia.com"
+        "value": "docs.cursor.com"
       },
       {
-        "file_count": 1,
+        "file_count": 195,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/logger.py"
+          "recruit_crm_mcp-0.16.1/CLAUDE.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/README.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/build_readme.py",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/failed.txt",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/rescrape_urls.txt",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/retry_urls.txt",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/save_manual.py",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/todo_urls.txt"
         ],
-        "value": "docs.python.org"
+        "value": "docs.recruitcrm.io"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "recruit_crm_mcp-0.16.1/tests/integration/test_api.py",
+          "recruit_crm_mcp-0.16.1/tests/integration/test_update_roundtrips.py"
+        ],
+        "value": "example.invalid"
       },
       {
         "file_count": 5,
         "files": [
-          "truefoundry-0.15.0rc2/PKG-INFO",
-          "truefoundry-0.15.0rc2/README.md",
-          "truefoundry-0.15.0rc2/truefoundry/cli/__main__.py",
-          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py",
-          "truefoundry-0.15.0rc2/truefoundry/deploy/v2/lib/patched_models.py"
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-meeting.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-meeting.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/find-meeting-by-id.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/search-for-meetings.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-meetings.md"
         ],
-        "value": "docs.truefoundry.com"
+        "value": "examplelink"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-company.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-company.md"
+        ],
+        "value": "facebook.com"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/ml/cli/commands/download.py"
+          "recruit_crm_mcp-0.16.1/uv.lock"
         ],
-        "value": "download.command"
+        "value": "files.pythonhosted.org"
       },
       {
-        "file_count": 1,
+        "file_count": 6,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api_client.py"
-        ],
-        "value": "files.items"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/builder/builders/tfy_spark_buildpack/dockerfile_template.py"
-        ],
-        "value": "git.io"
-      },
-      {
-        "file_count": 250,
-        "files": [
-          "truefoundry-0.15.0rc2/.gitignore",
-          "truefoundry-0.15.0rc2/PKG-INFO",
-          "truefoundry-0.15.0rc2/README.md",
-          "truefoundry-0.15.0rc2/truefoundry/autodeploy/tools/docker_build.py",
-          "truefoundry-0.15.0rc2/truefoundry/deploy/builder/builders/tfy_spark_buildpack/tfy_execute_notebook.py",
-          "truefoundry-0.15.0rc2/truefoundry/deploy/cli/commands/deploy_command.py",
-          "truefoundry-0.15.0rc2/truefoundry/deploy/cli/commands/patch_application_command.py",
-          "truefoundry-0.15.0rc2/truefoundry/deploy/lib/win32.py"
+          "recruit_crm_mcp-0.16.1/.claude/skills/linear-cli/commands.md",
+          "recruit_crm_mcp-0.16.1/.gitignore",
+          "recruit_crm_mcp-0.16.1/CHANGELOG.md",
+          "recruit_crm_mcp-0.16.1/PKG-INFO",
+          "recruit_crm_mcp-0.16.1/README.md",
+          "recruit_crm_mcp-0.16.1/pyproject.toml"
         ],
         "value": "github.com"
       },
       {
+        "file_count": 2,
+        "files": [
+          "recruit_crm_mcp-0.16.1/tests/integration/test_update_roundtrips.py",
+          "recruit_crm_mcp-0.16.1/tests/unit/test_models.py"
+        ],
+        "value": "linkedin.com"
+      },
+      {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+          "recruit_crm_mcp-0.16.1/.gitignore"
         ],
-        "value": "hub.docker.com"
+        "value": "pdm-project.org"
       },
       {
         "file_count": 2,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/models/transformers_framework.py",
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/entities/artifacts.py"
+          "recruit_crm_mcp-0.16.1/WINDOWS_PREDEPLOY.md",
+          "recruit_crm_mcp-0.16.1/uv.lock"
         ],
-        "value": "huggingface.co"
+        "value": "pypi.org"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client_README.md"
+          "recruit_crm_mcp-0.16.1/.gitignore"
         ],
-        "value": "localhost*"
+        "value": "python-poetry.org"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/lib/win32.py"
+          "recruit_crm_mcp-0.16.1/uv.lock"
         ],
-        "value": "msdn.microsoft.com"
+        "value": "pywin32-ctypes-0.2.3.tar.gz"
+      },
+      {
+        "file_count": 5,
+        "files": [
+          "recruit_crm_mcp-0.16.1/CHANGELOG.md",
+          "recruit_crm_mcp-0.16.1/PKG-INFO",
+          "recruit_crm_mcp-0.16.1/README.md",
+          "recruit_crm_mcp-0.16.1/install.ps1",
+          "recruit_crm_mcp-0.16.1/install.sh"
+        ],
+        "value": "raw.githubusercontent.com"
+      },
+      {
+        "file_count": 7,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/apply-to-job.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/assign-candidate.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/hiring-stage-of-candidate-for-job.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/hiring-stages-of-candidate.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/request-updated-profile.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/update-candidate-hiring-stage.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/update-candidate-visibility-in-a-job.md"
+        ],
+        "value": "recruitcrm.io"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-subscription.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-subscription.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/find-subscription-by-id.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-subscriptions.md"
+        ],
+        "value": "someurl"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-subscription.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-subscription.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/find-subscription-by-id.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-subscriptions.md"
+        ],
+        "value": "someurl`"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/builder/builders/tfy_spark_buildpack/tfy_execute_notebook.py"
+          "recruit_crm_mcp-0.16.1/docs/api-reference/apply-to-job.md"
         ],
-        "value": "nbconvert.readthedocs.io"
+        "value": "ss4web.recruitcrm.io"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/recruit-crm-api.md",
+          "recruit_crm_mcp-0.16.1/scripts/fetch_api_docs.py"
+        ],
+        "value": "stoplight.io"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/models/schema.py"
+          "recruit_crm_mcp-0.16.1/docs/api-reference/recruit-crm-api.md"
         ],
-        "value": "numpy.org"
-      },
-      {
-        "file_count": 238,
-        "files": [
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/__init__.py",
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/auth_api.py",
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/deprecated_api.py",
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/experiments_api.py",
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/generate_code_snippet_api.py",
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/health_api.py",
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/metrics_api.py",
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/mlfoundry_artifacts_api.py"
-        ],
-        "value": "openapi-generator.tech"
+        "value": "www.apache.org"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/builder/builders/tfy_spark_buildpack/tfy_execute_notebook.py"
+          "recruit_crm_mcp-0.16.1/.githooks/commit-msg"
         ],
-        "value": "papermill.readthedocs.io"
+        "value": "www.conventionalcommits.org"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-company.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-company.md"
+        ],
+        "value": "www.example.com"
+      },
+      {
+        "file_count": 34,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/assigned-candidates-for-job.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-candidate.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-company.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-job.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-meeting.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-candidate.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-company.md"
+        ],
+        "value": "www.facebook.com"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/builder/builders/tfy_python_buildpack/dockerfile_template.py"
+          "recruit_crm_mcp-0.16.1/tests/integration/test_api.py"
         ],
-        "value": "ppa.launchpadcontent.net"
+        "value": "www.gnu.org"
+      },
+      {
+        "file_count": 34,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/assigned-candidates-for-job.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-candidate.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-company.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-job.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-meeting.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-candidate.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-company.md"
+        ],
+        "value": "www.linkedin.com"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+          "recruit_crm_mcp-0.16.1/src/recruit_crm_mcp/client.py"
         ],
-        "value": "spark.apache.org"
+        "value": "www.python-httpx.org"
+      },
+      {
+        "file_count": 9,
+        "files": [
+          "recruit_crm_mcp-0.16.1/PKG-INFO",
+          "recruit_crm_mcp-0.16.1/README.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-company.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-job.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-company.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/find-company-by-slug.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/get-list-of-companies-which-are-marked-as-off-limit.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/search-for-companies.md"
+        ],
+        "value": "www.recruitcrm.io"
+      },
+      {
+        "file_count": 7,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-company.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-job.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-company.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/find-company-by-slug.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/get-list-of-companies-which-are-marked-as-off-limit.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/search-for-companies.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-companies.md"
+        ],
+        "value": "www.recruitcrm.io`"
+      },
+      {
+        "file_count": 34,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/assigned-candidates-for-job.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-candidate.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-company.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-job.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-meeting.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-candidate.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-company.md"
+        ],
+        "value": "www.twitter.com"
+      },
+      {
+        "file_count": 10,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-job.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/enroll-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/find-contact-by-slug.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/get-list-of-contacts-which-are-marked-as-off-limit.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/search-for-contacts.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/search-for-enrollments.md"
+        ],
+        "value": "www.xing.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "recruit_crm_mcp-0.16.1/tests/mcp/test_write_tools.py",
+          "recruit_crm_mcp-0.16.1/tests/unit/test_server.py"
+        ],
+        "value": "x"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+          "recruit_crm_mcp-0.16.1/tests/unit/test_client.py"
         ],
-        "value": "spot.io"
+        "value": "x.com"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/rest.py"
+          "recruit_crm_mcp-0.16.1/tests/unit/test_server.py"
         ],
-        "value": "urllib3.readthedocs.io"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/models/utils.py"
-        ],
-        "value": "www.mlflow.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "truefoundry-0.15.0rc2/truefoundry/common/request_utils.py"
-        ],
-        "value": "www.peterbe.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
-        ],
-        "value": "www.truefoundry.com"
+        "value": "x.y"
       }
     ],
     "raw_public_ips": [],
-    "suspicious_endpoints": [],
+    "suspicious_endpoints": [
+      {
+        "file_count": 3,
+        "files": [
+          "recruit_crm_mcp-0.16.1/PKG-INFO",
+          "recruit_crm_mcp-0.16.1/README.md",
+          "recruit_crm_mcp-0.16.1/install.ps1"
+        ],
+        "value": "https://raw.githubusercontent.com/ebragas/recruitcrm-mcp/main/install.ps1"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "recruit_crm_mcp-0.16.1/CHANGELOG.md",
+          "recruit_crm_mcp-0.16.1/PKG-INFO",
+          "recruit_crm_mcp-0.16.1/README.md",
+          "recruit_crm_mcp-0.16.1/install.sh"
+        ],
+        "value": "https://raw.githubusercontent.com/ebragas/recruitcrm-mcp/main/install.sh"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/uv.lock"
+        ],
+        "value": "pywin32-ctypes-0.2.3.tar.gz"
+      },
+      {
+        "file_count": 5,
+        "files": [
+          "recruit_crm_mcp-0.16.1/CHANGELOG.md",
+          "recruit_crm_mcp-0.16.1/PKG-INFO",
+          "recruit_crm_mcp-0.16.1/README.md",
+          "recruit_crm_mcp-0.16.1/install.ps1",
+          "recruit_crm_mcp-0.16.1/install.sh"
+        ],
+        "value": "raw.githubusercontent.com"
+      }
+    ],
     "urls": [
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/builder/utils.py"
+          "recruit_crm_mcp-0.16.1/docs/api-reference/request-updated-profile.md"
         ],
-        "value": "http://deb.debian.org"
+        "value": "http://recruitcrm.io/update\\_resume\\_link/rcrm\\_25627`"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client_README.md"
+          "recruit_crm_mcp-0.16.1/docs/api-reference/request-updated-profile.md"
         ],
-        "value": "http://localhost*"
+        "value": "http://recruitcrm.io/update_resume_link/rcrm_25627"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/lib/win32.py"
+          "recruit_crm_mcp-0.16.1/docs/api-reference/recruit-crm-api.md"
         ],
-        "value": "http://msdn.microsoft.com/en-us/library/ms686016.aspx"
+        "value": "http://www.apache.org/licenses/LICENSE-2.0.html"
+      },
+      {
+        "file_count": 27,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/assigned-candidates-for-job.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-candidate.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-job.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-meeting.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-candidate.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-meeting.md"
+        ],
+        "value": "http://www.facebook.com/michael4"
+      },
+      {
+        "file_count": 21,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-candidate.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-job.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-candidate.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/enroll-candidate.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/enroll-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/find-candidate-by-slug.md"
+        ],
+        "value": "http://www.facebook.com/michael4`"
+      },
+      {
+        "file_count": 27,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/assigned-candidates-for-job.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-candidate.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-job.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-meeting.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-candidate.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-meeting.md"
+        ],
+        "value": "http://www.linkedin.com/michael4"
+      },
+      {
+        "file_count": 21,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-candidate.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-job.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-candidate.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/enroll-candidate.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/enroll-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/find-candidate-by-slug.md"
+        ],
+        "value": "http://www.linkedin.com/michael4`"
+      },
+      {
+        "file_count": 27,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/assigned-candidates-for-job.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-candidate.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-job.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-meeting.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-candidate.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-meeting.md"
+        ],
+        "value": "http://www.twitter.com/michael4"
+      },
+      {
+        "file_count": 21,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-candidate.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-job.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-candidate.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/enroll-candidate.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/enroll-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/find-candidate-by-slug.md"
+        ],
+        "value": "http://www.twitter.com/michael4`"
+      },
+      {
+        "file_count": 10,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-job.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/enroll-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/find-contact-by-slug.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/get-list-of-contacts-which-are-marked-as-off-limit.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/search-for-contacts.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/search-for-enrollments.md"
+        ],
+        "value": "http://www.xing.com/xyz"
+      },
+      {
+        "file_count": 9,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-job.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/enroll-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/find-contact-by-slug.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/get-list-of-contacts-which-are-marked-as-off-limit.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/search-for-contacts.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-contacts.md"
+        ],
+        "value": "http://www.xing.com/xyz`"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/rest.py"
+          "recruit_crm_mcp-0.16.1/tests/unit/test_client.py"
         ],
-        "value": "http://urllib3.readthedocs.io/en/latest/advanced-usage.html"
+        "value": "https://"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/tidy.py"
+        ],
+        "value": "https://.../#Request"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/.gitignore"
+        ],
+        "value": "https://abstra.io/docs"
       },
       {
         "file_count": 2,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/autodeploy/constants.py",
-          "truefoundry-0.15.0rc2/truefoundry/ml/constants.py"
+          "recruit_crm_mcp-0.16.1/tests/unit/test_models.py",
+          "recruit_crm_mcp-0.16.1/tests/unit/test_server.py"
         ],
-        "value": "https://app.truefoundry.com"
+        "value": "https://acme.com"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/rescrape.py",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/retry.py",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/save_manual.py",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/scrape.py"
+        ],
+        "value": "https://api.firecrawl.dev/v1/scrape"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/tidy.py",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/getting-started.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/recruit-crm-api.md"
+        ],
+        "value": "https://api.recruitcrm.io"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+          "recruit_crm_mcp-0.16.1/docs/api-reference/getting-started.md"
         ],
-        "value": "https://cloud.google.com/kubernetes-engine/docs/concepts/tpus#plan-tpu-configuration"
+        "value": "https://api.recruitcrm.io/"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+          "recruit_crm_mcp-0.16.1/src/recruit_crm_mcp/client.py"
         ],
-        "value": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-short-and-long-polling.html"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
-        ],
-        "value": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-visibility-timeout.html"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
-        ],
-        "value": "https://docs.nvidia.com/datacenter/tesla/mig-user-guide/#supported-mig-profiles"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "truefoundry-0.15.0rc2/truefoundry/logger.py"
-        ],
-        "value": "https://docs.python.org/3/howto/logging.html#library-config"
+        "value": "https://api.recruitcrm.io/v1"
       },
       {
         "file_count": 2,
         "files": [
-          "truefoundry-0.15.0rc2/PKG-INFO",
-          "truefoundry-0.15.0rc2/README.md"
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-call-log.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-call-logs.md"
         ],
-        "value": "https://docs.truefoundry.com/"
+        "value": "https://api.recruitcrm.io/v1/call-logs"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/cli/__main__.py"
+          "recruit_crm_mcp-0.16.1/docs/api-reference/upload-call-recordings.md"
         ],
-        "value": "https://docs.truefoundry.com/docs"
+        "value": "https://api.recruitcrm.io/v1/call-logs/get-recording-status/%7Bcall_log%7D"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/v2/lib/patched_models.py"
+          "recruit_crm_mcp-0.16.1/docs/api-reference/upload-call-recordings.md"
         ],
-        "value": "https://docs.truefoundry.com/docs/checking-configured-domain"
+        "value": "https://api.recruitcrm.io/v1/call-logs/get-recording-status/{call\\_log"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+          "recruit_crm_mcp-0.16.1/docs/api-reference/get-call-recording-upload-status.md"
         ],
-        "value": "https://docs.truefoundry.com/docs/define-ports-and-domains"
+        "value": "https://api.recruitcrm.io/v1/call-logs/get-recording-status/{call_log"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+          "recruit_crm_mcp-0.16.1/docs/api-reference/search-for-call-logs.md"
         ],
-        "value": "https://docs.truefoundry.com/docs/deploy-a-cron-job"
+        "value": "https://api.recruitcrm.io/v1/call-logs/search"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+          "recruit_crm_mcp-0.16.1/docs/api-reference/upload-call-recordings.md"
         ],
-        "value": "https://docs.truefoundry.com/docs/download-and-cache-models"
+        "value": "https://api.recruitcrm.io/v1/call-logs/upload-call-recording"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/delete-a-call-log.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-call-log.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/find-call-log-by-id.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/call-logs/{call_log"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+          "recruit_crm_mcp-0.16.1/docs/api-reference/get-candidate-questions.md"
         ],
-        "value": "https://docs.truefoundry.com/docs/env-variables"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
-        ],
-        "value": "https://docs.truefoundry.com/docs/environment-variables-and-secrets-jobs"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
-        ],
-        "value": "https://docs.truefoundry.com/docs/list-of-supported-timezones"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
-        ],
-        "value": "https://docs.truefoundry.com/docs/liveness-readiness-probe"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
-        ],
-        "value": "https://docs.truefoundry.com/docs/mounting-volumes-job"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
-        ],
-        "value": "https://docs.truefoundry.com/docs/mounting-volumes-service"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
-        ],
-        "value": "https://docs.truefoundry.com/docs/rollout-strategy"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "truefoundry-0.15.0rc2/truefoundry/cli/__main__.py"
-        ],
-        "value": "https://docs.truefoundry.com/docs[/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/builder/builders/tfy_spark_buildpack/dockerfile_template.py"
-        ],
-        "value": "https://git.io/coursier-cli"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "truefoundry-0.15.0rc2/truefoundry/logger.py"
-        ],
-        "value": "https://github.com/Textualize/rich/discussions/344"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "truefoundry-0.15.0rc2/truefoundry/autodeploy/tools/docker_build.py"
-        ],
-        "value": "https://github.com/docker/docker-py/blob/9ad4bddc9ee23f3646f256280a21ef86274e39bc/docker/models/images.py#L220"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/builder/builders/tfy_spark_buildpack/tfy_execute_notebook.py"
-        ],
-        "value": "https://github.com/gaul/s3proxy/issues/765"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "truefoundry-0.15.0rc2/truefoundry/ml/git_info.py"
-        ],
-        "value": "https://github.com/gitpython-developers/GitPython/blob/cd29f07b2efda24bdc690626ed557590289d11a6/git/cmd.py#L365"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "truefoundry-0.15.0rc2/truefoundry/ml/log_types/image/image_normalizer.py"
-        ],
-        "value": "https://github.com/matplotlib/matplotlib/blob/06567e021f21be046b6d6dcf00380c1cb9adaf3c/lib/matplotlib/image.py#L684"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/models/utils.py"
-        ],
-        "value": "https://github.com/mlflow/mlflow/pull/10125#discussion_r1372751487"
-      },
-      {
-        "file_count": 238,
-        "files": [
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/__init__.py",
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/auth_api.py",
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/deprecated_api.py",
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/experiments_api.py",
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/generate_code_snippet_api.py",
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/health_api.py",
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/metrics_api.py",
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/mlfoundry_artifacts_api.py"
-        ],
-        "value": "https://github.com/openapitools/openapi-generator"
+        "value": "https://api.recruitcrm.io/v1/candidate-questions"
       },
       {
         "file_count": 2,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/cli/commands/deploy_command.py",
-          "truefoundry-0.15.0rc2/truefoundry/deploy/cli/commands/patch_application_command.py"
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-candidate.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-candidates.md"
         ],
-        "value": "https://github.com/pallets/click/blob/2d610e36a429bfebf0adb0ca90cdc0585f296369/docs/options.md?plain=1#L295"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "truefoundry-0.15.0rc2/truefoundry/logger.py"
-        ],
-        "value": "https://github.com/pycontribs/enrich/blob/main/src/enrich/logging.py"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/rest.py"
-        ],
-        "value": "https://github.com/shazow/urllib3/blob/f9409436f83aeb79fbaf090181cd81b784f1b8ce/urllib3/connectionpool.py#L680"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/rest.py"
-        ],
-        "value": "https://github.com/shazow/urllib3/blob/f9409436f83aeb79fbaf090181cd81b784f1b8ce/urllib3/poolmanager.py#L75"
+        "value": "https://api.recruitcrm.io/v1/candidates"
       },
       {
         "file_count": 2,
         "files": [
-          "truefoundry-0.15.0rc2/PKG-INFO",
-          "truefoundry-0.15.0rc2/README.md"
+          "recruit_crm_mcp-0.16.1/docs/api-reference/get-job-associated-fields.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/update-job-associated-fields.md"
         ],
-        "value": "https://github.com/truefoundry/getting-started-examples"
+        "value": "https://api.recruitcrm.io/v1/candidates/associated-field/{candidate"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/ml/log_types/image/image_normalizer.py"
+          "recruit_crm_mcp-0.16.1/docs/api-reference/add-education-history.md"
         ],
-        "value": "https://github.com/truefoundry/mlfoundry-server/blob/c2334ace8f35322cd5e50c275b8df08327688c01/mlflow/tracking/client.py#L1188"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/lib/win32.py"
-        ],
-        "value": "https://github.com/zeromq/pyzmq/blob/3e7e83a841829fcb46b7e1a881d968fb5471ef62/zmq/utils/win32.py"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
-        ],
-        "value": "https://hub.docker.com/_/python"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
-        ],
-        "value": "https://hub.docker.com/r/nvidia/cuda/tags"
+        "value": "https://api.recruitcrm.io/v1/candidates/education-history/create"
       },
       {
         "file_count": 2,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/models/transformers_framework.py",
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/entities/artifacts.py"
+          "recruit_crm_mcp-0.16.1/docs/api-reference/delete-a-candidate-education-history.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-education-history.md"
         ],
-        "value": "https://huggingface.co/docs/transformers/main/en/main_classes/pipelines#transformers.pipeline.task"
+        "value": "https://api.recruitcrm.io/v1/candidates/education-history/{educationId"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/builder/builders/tfy_spark_buildpack/tfy_execute_notebook.py"
+          "recruit_crm_mcp-0.16.1/docs/api-reference/resume-parser.md"
         ],
-        "value": "https://nbconvert.readthedocs.io/en/latest/customizing.html#where-are-nbconvert-templates-installed"
+        "value": "https://api.recruitcrm.io/v1/candidates/example/resume/token"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/models/schema.py"
+          "recruit_crm_mcp-0.16.1/docs/api-reference/mark-candidate-as-available.md"
         ],
-        "value": "https://numpy.org/devdocs/reference/generated/numpy.dtype.html#numpy.dtype"
-      },
-      {
-        "file_count": 238,
-        "files": [
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/__init__.py",
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/auth_api.py",
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/deprecated_api.py",
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/experiments_api.py",
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/generate_code_snippet_api.py",
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/health_api.py",
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/metrics_api.py",
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/mlfoundry_artifacts_api.py"
-        ],
-        "value": "https://openapi-generator.tech"
+        "value": "https://api.recruitcrm.io/v1/candidates/mark-as-available"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/builder/builders/tfy_spark_buildpack/tfy_execute_notebook.py"
+          "recruit_crm_mcp-0.16.1/docs/api-reference/mark-candidate-as-off-limit.md"
         ],
-        "value": "https://papermill.readthedocs.io/en/latest/extending-entry-points.html"
+        "value": "https://api.recruitcrm.io/v1/candidates/mark-off-limit"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/builder/builders/tfy_python_buildpack/dockerfile_template.py"
+          "recruit_crm_mcp-0.16.1/docs/api-reference/get-list-of-candidates-which-are-marked-as-off-limit.md"
         ],
-        "value": "https://ppa.launchpadcontent.net/deadsnakes/ppa/ubuntu"
+        "value": "https://api.recruitcrm.io/v1/candidates/off-limit"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+          "recruit_crm_mcp-0.16.1/docs/api-reference/get-profile-update-request-form.md"
         ],
-        "value": "https://spark.apache.org/docs/latest/configuration.html"
+        "value": "https://api.recruitcrm.io/v1/candidates/profile-update-request-form"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/question-and-answers-of-candidate-for-job.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/question-and-answers-of-candidate.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/update-candidate-answers-for-the-questions-for-a-job.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/update-candidate-answers-for-the-questions.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/candidates/question-and-answers/{candidate"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+          "recruit_crm_mcp-0.16.1/docs/api-reference/resume-parser.md"
         ],
-        "value": "https://spot.io/resources/kubernetes-autoscaling/5-kubernetes-deployment-strategies-roll-out-like-the-pros/"
+        "value": "https://api.recruitcrm.io/v1/candidates/resume-parser"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/models/utils.py"
+          "recruit_crm_mcp-0.16.1/docs/api-reference/search-for-candidates.md"
         ],
-        "value": "https://www.mlflow.org/docs/latest/models.html#"
+        "value": "https://api.recruitcrm.io/v1/candidates/search"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/common/request_utils.py"
+          "recruit_crm_mcp-0.16.1/docs/api-reference/add-work-experience.md"
         ],
-        "value": "https://www.peterbe.com/plog/best-practice-with-retries-with-requests"
+        "value": "https://api.recruitcrm.io/v1/candidates/work-history/create"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/delete-a-candidate-work-experience.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-work-experience.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/candidates/work-history/{workId"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+          "recruit_crm_mcp-0.16.1/scripts/smoke.py"
         ],
-        "value": "https://www.truefoundry.com/docs/docker-build-secrets"
+        "value": "https://api.recruitcrm.io/v1/candidates/{cand_slug"
+      },
+      {
+        "file_count": 17,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/apply-to-job.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/assign-candidate.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/candidate-education-history.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/candidate-history.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/candidate-work-experience.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/delete-a-candidate.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-candidate.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/enroll-candidate.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/candidates/{candidate"
       },
       {
         "file_count": 1,
         "files": [
-          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+          "recruit_crm_mcp-0.16.1/docs/api-reference/get-collaborators.md"
         ],
-        "value": "https://www.truefoundry.com/docs/resources-cpu-memory-storage"
+        "value": "https://api.recruitcrm.io/v1/collaborators"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-company.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-companies.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/companies"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/mark-companies-as-available.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/companies/mark-as-available"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/mark-companies-as-off-limit.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/companies/mark-off-limit"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/get-list-of-companies-which-are-marked-as-off-limit.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/companies/off-limit"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/search-for-companies.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/companies/search"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/delete-a-company.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-company.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/find-company-by-slug.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/off-limit-history-for-company.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/companies/{company"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-contacts.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/contacts"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/mark-contacts-as-available.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/contacts/mark-as-available"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/mark-contacts-as-off-limit.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/contacts/mark-off-limit"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/get-list-of-contacts-which-are-marked-as-off-limit.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/contacts/off-limit"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/search-for-contacts.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/contacts/search"
+      },
+      {
+        "file_count": 6,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/delete-a-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/enroll-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/find-contact-by-slug.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/off-limit-history-for-contact.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/unenroll-contact.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/contacts/{contact"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/get-currencies.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/currencies"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/get-call-types.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/custom-call-types"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-custom-fields.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/custom-fields"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-candidate-custom-fields.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/custom-fields/candidates"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-company-custom-fields.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/custom-fields/companies"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-contact-custom-fields.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/custom-fields/contacts"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-deal-custom-fields.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/custom-fields/deals"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-invoice-custom-fields.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/custom-fields/invoices"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-job-associated-custom-fields.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/custom-fields/job-associated"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-job-custom-fields.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/custom-fields/jobs"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-placement-associated-custom-fields.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/custom-fields/placements"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-deal.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-deals.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/deals"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/get-deals-stages.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/deals-pipeline"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/search-for-deals.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/deals/search"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/delete-a-deal.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-deal.md",
+          "recruit_crm_mcp-0.16.1/docs/api-reference/find-deal-by-slug.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/deals/{deal"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/create-email-draft.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/drafts"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/draft-email-status.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/drafts/status/{draft_status_id"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/search-for-sequences.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/email-sequences/search"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/update-opted-out-status.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/email/opt-out/status"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/opted-out-entities.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/email/opted-out?related_to_type=candidate"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/send-an-email.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/emails"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/sent-email-status.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/emails/status/{email_status_id"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/get-all-enrollment-statuses.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/enrollment-statuses"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "recruit_crm_mcp-0.16.1/docs/api-reference/search-for-enrollments.md"
+        ],
+        "value": "https://api.recruitcrm.io/v1/enrollments/search"
       }
     ]
   },
-  "package": "truefoundry",
-  "package_slug": "truefoundry",
-  "project_url": "https://pypi.org/project/truefoundry/",
+  "package": "recruit-crm-mcp",
+  "package_slug": "recruit-crm-mcp",
+  "project_url": "https://pypi.org/project/recruit-crm-mcp/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T18:07:58.752403+00:00",
+  "published_at": "2026-04-27T18:11:55.665728+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T18:08:30.085141+00:00",
-  "title": "Personal PyPI Supply Chain Scan: truefoundry 0.15.0rc2",
-  "version": "0.15.0rc2",
-  "version_slug": "0.15.0rc2",
-  "_metadata_path": "reports/packages/truefoundry/0.15.0rc2/metadata.json"
+  "scanned_at": "2026-04-27T18:12:54.948951+00:00",
+  "title": "Personal PyPI Supply Chain Scan: recruit-crm-mcp 0.16.1",
+  "version": "0.16.1",
+  "version_slug": "0.16.1",
+  "_metadata_path": "reports/packages/recruit-crm-mcp/0.16.1/metadata.json"
 }
