@@ -1,52 +1,77 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "criteo_api_marketingsolutions_sdk-2026.1.0.260427-py3-none-any.whl",
-  "finding_count": 6,
+  "distribution": "vdir-0.2.2.tar.gz",
+  "finding_count": 45,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
         "file_count": 1,
         "files": [
-          "criteo_api_marketingsolutions_v2026_01/configuration.py"
+          "vdir-0.2.2/vdir/iroiro/bin_nowrap.py"
         ],
-        "value": "api.criteo.com"
+        "value": "docs.python.org"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "criteo_api_marketingsolutions_v2026_01/api_client.py"
-        ],
-        "value": "files.items"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "criteo_api_marketingsolutions_sdk-2026.1.0.260427.dist-info/METADATA",
-          "criteo_api_marketingsolutions_v2026_01/rest.py"
+          "vdir-0.2.2/PKG-INFO",
+          "vdir-0.2.2/README.md",
+          "vdir-0.2.2/pyproject.toml"
         ],
         "value": "github.com"
       },
       {
-        "file_count": 303,
+        "file_count": 2,
         "files": [
-          "criteo_api_marketingsolutions_v2026_01/__init__.py",
-          "criteo_api_marketingsolutions_v2026_01/api/advertiser_api.py",
-          "criteo_api_marketingsolutions_v2026_01/api/analytics_api.py",
-          "criteo_api_marketingsolutions_v2026_01/api/audience_api.py",
-          "criteo_api_marketingsolutions_v2026_01/api/campaign_api.py",
-          "criteo_api_marketingsolutions_v2026_01/api/creative_api.py",
-          "criteo_api_marketingsolutions_v2026_01/api/gateway_api.py",
-          "criteo_api_marketingsolutions_v2026_01/api/reco_api.py"
+          "vdir-0.2.2/PKG-INFO",
+          "vdir-0.2.2/README.md"
         ],
-        "value": "openapi-generator.tech"
+        "value": "img.shields.io"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "vdir-0.2.2/PKG-INFO",
+          "vdir-0.2.2/README.md"
+        ],
+        "value": "joeyh.name"
       },
       {
         "file_count": 1,
         "files": [
-          "criteo_api_marketingsolutions_v2026_01/rest.py"
+          "vdir-0.2.2/vdir/iroiro/test_tui_menu.py"
         ],
-        "value": "urllib3.readthedocs.io"
+        "value": "menu.top"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "vdir-0.2.2/PKG-INFO",
+          "vdir-0.2.2/README.md"
+        ],
+        "value": "pypi.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "vdir-0.2.2/vdir/iroiro/test_tui_menu.py"
+        ],
+        "value": "self.menu.top"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "vdir-0.2.2/vdir/iroiro/internal_utils.py"
+        ],
+        "value": "stackoverflow.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "vdir-0.2.2/vdir/iroiro/test_html.py"
+        ],
+        "value": "www.w3.org"
       }
     ],
     "raw_public_ips": [],
@@ -55,64 +80,76 @@
       {
         "file_count": 1,
         "files": [
-          "criteo_api_marketingsolutions_v2026_01/rest.py"
+          "vdir-0.2.2/vdir/iroiro/test_html.py"
         ],
-        "value": "http://urllib3.readthedocs.io/en/latest/advanced-usage.html"
+        "value": "http://www.w3.org/TR/html4/strict.dtd"
       },
       {
         "file_count": 1,
         "files": [
-          "criteo_api_marketingsolutions_v2026_01/configuration.py"
+          "vdir-0.2.2/vdir/iroiro/bin_nowrap.py"
         ],
-        "value": "https://api.criteo.com"
+        "value": "https://docs.python.org/3/library/signal.html#note-on-sigpipe"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "vdir-0.2.2/PKG-INFO",
+          "vdir-0.2.2/README.md"
+        ],
+        "value": "https://github.com/bulletmark/edir"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "vdir-0.2.2/PKG-INFO",
+          "vdir-0.2.2/pyproject.toml"
+        ],
+        "value": "https://github.com/pi314/vdir"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "vdir-0.2.2/PKG-INFO",
+          "vdir-0.2.2/README.md"
+        ],
+        "value": "https://img.shields.io/pypi/v/vdir"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "vdir-0.2.2/PKG-INFO",
+          "vdir-0.2.2/README.md"
+        ],
+        "value": "https://joeyh.name/code/moreutils/"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "vdir-0.2.2/PKG-INFO",
+          "vdir-0.2.2/README.md"
+        ],
+        "value": "https://pypi.org/project/vdir/"
       },
       {
         "file_count": 1,
         "files": [
-          "criteo_api_marketingsolutions_sdk-2026.1.0.260427.dist-info/METADATA"
+          "vdir-0.2.2/vdir/iroiro/internal_utils.py"
         ],
-        "value": "https://github.com/criteo/criteo-api-python-sdk"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "criteo_api_marketingsolutions_v2026_01/rest.py"
-        ],
-        "value": "https://github.com/shazow/urllib3/blob/f9409436f83aeb79fbaf090181cd81b784f1b8ce/urllib3/connectionpool.py#L680"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "criteo_api_marketingsolutions_v2026_01/rest.py"
-        ],
-        "value": "https://github.com/shazow/urllib3/blob/f9409436f83aeb79fbaf090181cd81b784f1b8ce/urllib3/poolmanager.py#L75"
-      },
-      {
-        "file_count": 303,
-        "files": [
-          "criteo_api_marketingsolutions_v2026_01/__init__.py",
-          "criteo_api_marketingsolutions_v2026_01/api/advertiser_api.py",
-          "criteo_api_marketingsolutions_v2026_01/api/analytics_api.py",
-          "criteo_api_marketingsolutions_v2026_01/api/audience_api.py",
-          "criteo_api_marketingsolutions_v2026_01/api/campaign_api.py",
-          "criteo_api_marketingsolutions_v2026_01/api/creative_api.py",
-          "criteo_api_marketingsolutions_v2026_01/api/gateway_api.py",
-          "criteo_api_marketingsolutions_v2026_01/api/reco_api.py"
-        ],
-        "value": "https://openapi-generator.tech"
+        "value": "https://stackoverflow.com/a/41895194/3812388"
       }
     ]
   },
-  "package": "criteo-api-marketingsolutions-sdk",
-  "package_slug": "criteo-api-marketingsolutions-sdk",
-  "project_url": "https://pypi.org/project/criteo-api-marketingsolutions-sdk/",
+  "package": "vdir",
+  "package_slug": "vdir",
+  "project_url": "https://pypi.org/project/vdir/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T16:40:58.059931+00:00",
+  "published_at": "2026-04-27T16:44:54.956660+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T16:41:24.900334+00:00",
-  "title": "Personal PyPI Supply Chain Scan: criteo-api-marketingsolutions-sdk 2026.1.0.260427",
-  "version": "2026.1.0.260427",
-  "version_slug": "2026.1.0.260427",
-  "_metadata_path": "reports/packages/criteo-api-marketingsolutions-sdk/2026.1.0.260427/metadata.json"
+  "scanned_at": "2026-04-27T16:45:44.085867+00:00",
+  "title": "Personal PyPI Supply Chain Scan: vdir 0.2.2",
+  "version": "0.2.2",
+  "version_slug": "0.2.2",
+  "_metadata_path": "reports/packages/vdir/0.2.2/metadata.json"
 }
