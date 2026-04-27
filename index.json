@@ -1,6 +1,291 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "puvinoise_sdk-0.3.36.tar.gz",
+    "finding_count": 149,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 2,
+          "files": [
+            "puvinoise_sdk-0.3.36/puvinoise/agent_runtime/agent_control_worker.py",
+            "puvinoise_sdk-0.3.36/puvinoise/agent_wrapper.py"
+          ],
+          "value": "api.example.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "puvinoise_sdk-0.3.36/puvinoise/routing.py"
+          ],
+          "value": "api.yourplatform.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "puvinoise_sdk-0.3.36/puvinoise/agent_autoregister.py",
+            "puvinoise_sdk-0.3.36/puvinoise/bootstrap.py"
+          ],
+          "value": "app.example.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "puvinoise_sdk-0.3.36/puvinoise/agent_state.py"
+          ],
+          "value": "app.puvilabs.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "puvinoise_sdk-0.3.36/puvinoise/sidecar_manager.py"
+          ],
+          "value": "cdn.puvilabs.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "puvinoise_sdk-0.3.36/puvinoise/sidecar_manager.py"
+          ],
+          "value": "docs.puvilabs.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "puvinoise_sdk-0.3.36/puvinoise/agent_autoregister.py"
+          ],
+          "value": "docs.puvinoise.ai"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "puvinoise_sdk-0.3.36/PKG-INFO",
+            "puvinoise_sdk-0.3.36/README.md",
+            "puvinoise_sdk-0.3.36/puvinoise_sdk.egg-info/PKG-INFO"
+          ],
+          "value": "host"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "puvinoise_sdk-0.3.36/tests/test_control_loop.py"
+          ],
+          "value": "p.example.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "puvinoise_sdk-0.3.36/PKG-INFO",
+            "puvinoise_sdk-0.3.36/puvinoise_sdk.egg-info/PKG-INFO",
+            "puvinoise_sdk-0.3.36/pyproject.toml"
+          ],
+          "value": "puvilabs.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "puvinoise_sdk-0.3.36/puvinoise/puvinoise_run.py"
+          ],
+          "value": "pypi.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "puvinoise_sdk-0.3.36/puvinoise/telemetry_buffer.py"
+          ],
+          "value": "raw.items"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "puvinoise_sdk-0.3.36/puvinoise/agent_runtime/agent_control_worker.py"
+          ],
+          "value": "raw.split"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "puvinoise_sdk-0.3.36/puvinoise/agent_autoregister.py",
+            "puvinoise_sdk-0.3.36/puvinoise/bind_sidecar.py",
+            "puvinoise_sdk-0.3.36/puvinoise/puvinoise_run.py"
+          ],
+          "value": "raw.strip"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "puvinoise_sdk-0.3.36/tests/test_control_loop.py"
+          ],
+          "value": "x.example.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "puvinoise_sdk-0.3.36/puvinoise/sidecar_manager.py"
+          ],
+          "value": "your-internal-mirror"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "puvinoise_sdk-0.3.36/puvinoise/sidecar_manager.py"
+          ],
+          "value": "your-mirror"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "puvinoise_sdk-0.3.36/puvinoise/config_loader.py"
+          ],
+          "value": "your-puvinoise-platform.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "puvinoise_sdk-0.3.36/puvinoise/sidecar_manager.py"
+          ],
+          "value": "{host"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 3,
+          "files": [
+            "puvinoise_sdk-0.3.36/PKG-INFO",
+            "puvinoise_sdk-0.3.36/README.md",
+            "puvinoise_sdk-0.3.36/puvinoise_sdk.egg-info/PKG-INFO"
+          ],
+          "value": "http://host:4318`"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "puvinoise_sdk-0.3.36/puvinoise/sidecar_manager.py"
+          ],
+          "value": "http://{host"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "puvinoise_sdk-0.3.36/puvinoise/agent_runtime/agent_control_worker.py",
+            "puvinoise_sdk-0.3.36/puvinoise/agent_wrapper.py"
+          ],
+          "value": "https://api.example.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "puvinoise_sdk-0.3.36/puvinoise/routing.py"
+          ],
+          "value": "https://api.yourplatform.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "puvinoise_sdk-0.3.36/puvinoise/agent_autoregister.py",
+            "puvinoise_sdk-0.3.36/puvinoise/bootstrap.py"
+          ],
+          "value": "https://app.example.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "puvinoise_sdk-0.3.36/puvinoise/agent_state.py"
+          ],
+          "value": "https://app.puvilabs.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "puvinoise_sdk-0.3.36/puvinoise/sidecar_manager.py"
+          ],
+          "value": "https://cdn.puvilabs.com/puvinoise/sidecar"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "puvinoise_sdk-0.3.36/puvinoise/sidecar_manager.py"
+          ],
+          "value": "https://docs.puvilabs.com/sidecar"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "puvinoise_sdk-0.3.36/puvinoise/agent_autoregister.py"
+          ],
+          "value": "https://docs.puvinoise.ai/sdk/autoregister\\n\\n"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "puvinoise_sdk-0.3.36/tests/test_control_loop.py"
+          ],
+          "value": "https://p.example.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "puvinoise_sdk-0.3.36/PKG-INFO",
+            "puvinoise_sdk-0.3.36/puvinoise_sdk.egg-info/PKG-INFO",
+            "puvinoise_sdk-0.3.36/pyproject.toml"
+          ],
+          "value": "https://puvilabs.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "puvinoise_sdk-0.3.36/puvinoise/puvinoise_run.py"
+          ],
+          "value": "https://pypi.org/pypi/puvinoise/json"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "puvinoise_sdk-0.3.36/tests/test_control_loop.py"
+          ],
+          "value": "https://x.example.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "puvinoise_sdk-0.3.36/puvinoise/sidecar_manager.py"
+          ],
+          "value": "https://your-internal-mirror"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "puvinoise_sdk-0.3.36/puvinoise/sidecar_manager.py"
+          ],
+          "value": "https://your-mirror"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "puvinoise_sdk-0.3.36/puvinoise/config_loader.py"
+          ],
+          "value": "https://your-puvinoise-platform.com"
+        }
+      ]
+    },
+    "package": "puvinoise-sdk",
+    "package_slug": "puvinoise-sdk",
+    "project_url": "https://pypi.org/project/puvinoise-sdk/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T14:32:39.595819+00:00",
+    "risk": "medium",
+    "scanned_at": "2026-04-27T14:33:54.826820+00:00",
+    "title": "Personal PyPI Supply Chain Scan: puvinoise-sdk 0.3.36",
+    "version": "0.3.36",
+    "version_slug": "0.3.36",
+    "_metadata_path": "reports/packages/puvinoise-sdk/0.3.36/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "p4cmd-2.10.2.tar.gz",
     "finding_count": 44,
     "model": "gpt-5.5",
