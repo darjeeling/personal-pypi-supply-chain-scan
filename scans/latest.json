@@ -1,95 +1,447 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "serverwatcher-3.2.tar.gz",
-  "finding_count": 1,
+  "distribution": "pyoaev-2.3.4.tar.gz",
+  "finding_count": 45,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
         "file_count": 1,
         "files": [
-          "serverwatcher-3.2/LICENSE"
+          "pyoaev-2.3.4/scripts/release.py"
         ],
-        "value": "fsf.org"
+        "value": "api.github.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "pyoaev-2.3.4/pyoaev/helpers.py"
+        ],
+        "value": "bugs.python.org"
       },
       {
         "file_count": 3,
         "files": [
-          "serverwatcher-3.2/PKG-INFO",
-          "serverwatcher-3.2/pyproject.toml",
-          "serverwatcher-3.2/src/serverwatcher.egg-info/PKG-INFO"
+          "pyoaev-2.3.4/PKG-INFO",
+          "pyoaev-2.3.4/README.md",
+          "pyoaev-2.3.4/pyoaev.egg-info/PKG-INFO"
+        ],
+        "value": "circleci.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyoaev-2.3.4/PKG-INFO",
+          "pyoaev-2.3.4/README.md",
+          "pyoaev-2.3.4/pyoaev.egg-info/PKG-INFO"
+        ],
+        "value": "community.filigran.io"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyoaev-2.3.4/PKG-INFO",
+          "pyoaev-2.3.4/README.md",
+          "pyoaev-2.3.4/pyoaev.egg-info/PKG-INFO"
+        ],
+        "value": "filigran.io"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "pyoaev-2.3.4/PKG-INFO",
+          "pyoaev-2.3.4/README.md",
+          "pyoaev-2.3.4/pyoaev.egg-info/PKG-INFO",
+          "pyoaev-2.3.4/pyoaev/configuration/connector_config_schema_generator.py"
         ],
         "value": "github.com"
       },
       {
+        "file_count": 3,
+        "files": [
+          "pyoaev-2.3.4/PKG-INFO",
+          "pyoaev-2.3.4/README.md",
+          "pyoaev-2.3.4/pyoaev.egg-info/PKG-INFO"
+        ],
+        "value": "img.shields.io"
+      },
+      {
         "file_count": 1,
         "files": [
-          "serverwatcher-3.2/LICENSE"
+          "pyoaev-2.3.4/pyoaev/exceptions.py"
         ],
-        "value": "www.gnu.org"
+        "value": "mypy.readthedocs.io"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyoaev-2.3.4/PKG-INFO",
+          "pyoaev-2.3.4/README.md",
+          "pyoaev-2.3.4/pyoaev.egg-info/PKG-INFO"
+        ],
+        "value": "openaev-client-for-python.readthedocs.io"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyoaev-2.3.4/PKG-INFO",
+          "pyoaev-2.3.4/README.md",
+          "pyoaev-2.3.4/pyoaev.egg-info/PKG-INFO"
+        ],
+        "value": "openaev.io"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "pyoaev-2.3.4/scripts/release.py"
+        ],
+        "value": "pypi.org"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyoaev-2.3.4/PKG-INFO",
+          "pyoaev-2.3.4/README.md",
+          "pyoaev-2.3.4/pyoaev.egg-info/PKG-INFO"
+        ],
+        "value": "pypi.python.org"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyoaev-2.3.4/PKG-INFO",
+          "pyoaev-2.3.4/README.md",
+          "pyoaev-2.3.4/pyoaev.egg-info/PKG-INFO"
+        ],
+        "value": "readthedocs.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "pyoaev-2.3.4/pyoaev/client.py"
+        ],
+        "value": "whatever"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "pyoaev-2.3.4/LICENSE"
+        ],
+        "value": "www.apache.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "pyoaev-2.3.4/docs/conf.py"
+        ],
+        "value": "www.sphinx-doc.org"
       }
     ],
     "raw_public_ips": [],
-    "suspicious_endpoints": [],
+    "suspicious_endpoints": [
+      {
+        "file_count": 3,
+        "files": [
+          "pyoaev-2.3.4/PKG-INFO",
+          "pyoaev-2.3.4/README.md",
+          "pyoaev-2.3.4/pyoaev.egg-info/PKG-INFO"
+        ],
+        "value": "https://openaev-client-for-python.readthedocs.io/en/latest/"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyoaev-2.3.4/PKG-INFO",
+          "pyoaev-2.3.4/README.md",
+          "pyoaev-2.3.4/pyoaev.egg-info/PKG-INFO"
+        ],
+        "value": "https://openaev-client-for-python.readthedocs.io/en/latest/client_usage/getting_started.html"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyoaev-2.3.4/PKG-INFO",
+          "pyoaev-2.3.4/README.md",
+          "pyoaev-2.3.4/pyoaev.egg-info/PKG-INFO"
+        ],
+        "value": "https://openaev-client-for-python.readthedocs.io/en/latest/pyoaev/pyoaev.html"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyoaev-2.3.4/PKG-INFO",
+          "pyoaev-2.3.4/README.md",
+          "pyoaev-2.3.4/pyoaev.egg-info/PKG-INFO"
+        ],
+        "value": "openaev-client-for-python.readthedocs.io"
+      }
+    ],
     "urls": [
       {
         "file_count": 1,
         "files": [
-          "serverwatcher-3.2/src/serverwatcher/defaultconfigs/global.yaml"
+          "pyoaev-2.3.4/test/daemons/test_base_daemon.py"
         ],
-        "value": "https://example.com"
+        "value": "http://example.com"
       },
       {
         "file_count": 1,
         "files": [
-          "serverwatcher-3.2/LICENSE"
+          "pyoaev-2.3.4/pyoaev/client.py"
         ],
-        "value": "https://fsf.org/"
+        "value": "http://whatever/v4/api/projecs"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "pyoaev-2.3.4/LICENSE"
+        ],
+        "value": "http://www.apache.org/licenses/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "pyoaev-2.3.4/LICENSE"
+        ],
+        "value": "http://www.apache.org/licenses/LICENSE-2.0"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "pyoaev-2.3.4/scripts/release.py"
+        ],
+        "value": "https://api.github.com/repos/OpenAEV-Platform/client-python"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "pyoaev-2.3.4/scripts/release.py"
+        ],
+        "value": "https://api.github.com/repos/OpenAEV-Platform/client-python/releases/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "pyoaev-2.3.4/scripts/release.py"
+        ],
+        "value": "https://api.github.com/repos/OpenAEV-Platform/client-python/releases/generate-notes"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "pyoaev-2.3.4/scripts/release.py"
+        ],
+        "value": "https://api.github.com/repos/OpenAEV-Platform/client-python/releases/latest"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "pyoaev-2.3.4/pyoaev/helpers.py"
+        ],
+        "value": "https://bugs.python.org/issue16487"
       },
       {
         "file_count": 3,
         "files": [
-          "serverwatcher-3.2/PKG-INFO",
-          "serverwatcher-3.2/pyproject.toml",
-          "serverwatcher-3.2/src/serverwatcher.egg-info/PKG-INFO"
+          "pyoaev-2.3.4/PKG-INFO",
+          "pyoaev-2.3.4/README.md",
+          "pyoaev-2.3.4/pyoaev.egg-info/PKG-INFO"
         ],
-        "value": "https://github.com/iFamishedX/ServerWatcher"
+        "value": "https://circleci.com/gh/OpenAEV-Platform/client-python.svg?style=shield"
       },
       {
         "file_count": 3,
         "files": [
-          "serverwatcher-3.2/PKG-INFO",
-          "serverwatcher-3.2/pyproject.toml",
-          "serverwatcher-3.2/src/serverwatcher.egg-info/PKG-INFO"
+          "pyoaev-2.3.4/PKG-INFO",
+          "pyoaev-2.3.4/README.md",
+          "pyoaev-2.3.4/pyoaev.egg-info/PKG-INFO"
         ],
-        "value": "https://github.com/iFamishedX/ServerWatcher/issues"
+        "value": "https://circleci.com/gh/OpenAEV-Platform/client-python/tree/main"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyoaev-2.3.4/PKG-INFO",
+          "pyoaev-2.3.4/README.md",
+          "pyoaev-2.3.4/pyoaev.egg-info/PKG-INFO"
+        ],
+        "value": "https://community.filigran.io"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyoaev-2.3.4/PKG-INFO",
+          "pyoaev-2.3.4/README.md",
+          "pyoaev-2.3.4/pyoaev.egg-info/PKG-INFO"
+        ],
+        "value": "https://filigran.io"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyoaev-2.3.4/PKG-INFO",
+          "pyoaev-2.3.4/README.md",
+          "pyoaev-2.3.4/pyoaev.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/OpenAEV-Platform/client-python.git"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyoaev-2.3.4/PKG-INFO",
+          "pyoaev-2.3.4/README.md",
+          "pyoaev-2.3.4/pyoaev.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/OpenAEV-Platform/client-python/releases/latest"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyoaev-2.3.4/PKG-INFO",
+          "pyoaev-2.3.4/README.md",
+          "pyoaev-2.3.4/pyoaev.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/OpenAEV-Platform/openaev/raw/master/.github/img/logo_filigran.png"
       },
       {
         "file_count": 1,
         "files": [
-          "serverwatcher-3.2/LICENSE"
+          "pyoaev-2.3.4/pyoaev/configuration/connector_config_schema_generator.py"
         ],
-        "value": "https://www.gnu.org/licenses/"
+        "value": "https://github.com/OpenCTI-Platform/connectors/blob/5c8cf1235f62f5651c9c08d0b67f1bd182662c8a/shared/tools/composer/generate_connectors_config_schemas/generate_connector_config_json_schema.py.sample"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyoaev-2.3.4/PKG-INFO",
+          "pyoaev-2.3.4/README.md",
+          "pyoaev-2.3.4/pyoaev.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/YOUR-USERNAME/client-python"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyoaev-2.3.4/PKG-INFO",
+          "pyoaev-2.3.4/README.md",
+          "pyoaev-2.3.4/pyoaev.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/badge/slack-3K%2B%20members-4A154B"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyoaev-2.3.4/PKG-INFO",
+          "pyoaev-2.3.4/README.md",
+          "pyoaev-2.3.4/pyoaev.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/badge/website-openaev.io-blue.svg"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyoaev-2.3.4/PKG-INFO",
+          "pyoaev-2.3.4/README.md",
+          "pyoaev-2.3.4/pyoaev.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/github/release/OpenAEV-Platform/client-python.svg"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyoaev-2.3.4/PKG-INFO",
+          "pyoaev-2.3.4/README.md",
+          "pyoaev-2.3.4/pyoaev.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/pypi/dm/pyoaev.svg"
       },
       {
         "file_count": 1,
         "files": [
-          "serverwatcher-3.2/LICENSE"
+          "pyoaev-2.3.4/pyoaev/exceptions.py"
         ],
-        "value": "https://www.gnu.org/licenses/why-not-lgpl.html"
+        "value": "https://mypy.readthedocs.io/en/stable/generics.html#declaring-decorators"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyoaev-2.3.4/PKG-INFO",
+          "pyoaev-2.3.4/README.md",
+          "pyoaev-2.3.4/pyoaev.egg-info/PKG-INFO"
+        ],
+        "value": "https://openaev-client-for-python.readthedocs.io/en/latest/"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyoaev-2.3.4/PKG-INFO",
+          "pyoaev-2.3.4/README.md",
+          "pyoaev-2.3.4/pyoaev.egg-info/PKG-INFO"
+        ],
+        "value": "https://openaev-client-for-python.readthedocs.io/en/latest/client_usage/getting_started.html"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyoaev-2.3.4/PKG-INFO",
+          "pyoaev-2.3.4/README.md",
+          "pyoaev-2.3.4/pyoaev.egg-info/PKG-INFO"
+        ],
+        "value": "https://openaev-client-for-python.readthedocs.io/en/latest/pyoaev/pyoaev.html"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyoaev-2.3.4/PKG-INFO",
+          "pyoaev-2.3.4/README.md",
+          "pyoaev-2.3.4/pyoaev.egg-info/PKG-INFO"
+        ],
+        "value": "https://openaev.io"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "pyoaev-2.3.4/scripts/release.py"
+        ],
+        "value": "https://pypi.org/simple/pyoaev/"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyoaev-2.3.4/PKG-INFO",
+          "pyoaev-2.3.4/README.md",
+          "pyoaev-2.3.4/pyoaev.egg-info/PKG-INFO"
+        ],
+        "value": "https://pypi.python.org/pypi/pyoaev/"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyoaev-2.3.4/PKG-INFO",
+          "pyoaev-2.3.4/README.md",
+          "pyoaev-2.3.4/pyoaev.egg-info/PKG-INFO"
+        ],
+        "value": "https://readthedocs.org/projects/openaev-client-for-python/badge/?style=flat"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "pyoaev-2.3.4/docs/conf.py"
+        ],
+        "value": "https://www.sphinx-doc.org/en/master/usage/configuration.html"
       }
     ]
   },
-  "package": "serverwatcher",
-  "package_slug": "serverwatcher",
-  "project_url": "https://pypi.org/project/serverwatcher/",
+  "package": "pyoaev",
+  "package_slug": "pyoaev",
+  "project_url": "https://pypi.org/project/pyoaev/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T13:31:52.619624+00:00",
+  "published_at": "2026-04-27T13:35:30.726210+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T13:32:36.962591+00:00",
-  "title": "Personal PyPI Supply Chain Scan: serverwatcher 3.2",
-  "version": "3.2",
-  "version_slug": "3.2",
-  "_metadata_path": "reports/packages/serverwatcher/3.2/metadata.json"
+  "scanned_at": "2026-04-27T13:36:57.556878+00:00",
+  "title": "Personal PyPI Supply Chain Scan: pyoaev 2.3.4",
+  "version": "2.3.4",
+  "version_slug": "2.3.4",
+  "_metadata_path": "reports/packages/pyoaev/2.3.4/metadata.json"
 }
