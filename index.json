@@ -1,6 +1,171 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "rastro_ai-0.3.11.tar.gz",
+    "finding_count": 5,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 5,
+          "files": [
+            "rastro_ai-0.3.11/PKG-INFO",
+            "rastro_ai-0.3.11/README.md",
+            "rastro_ai-0.3.11/examples/codex.mcp.json",
+            "rastro_ai-0.3.11/rastro_mcp/README.md",
+            "rastro_ai-0.3.11/rastro_mcp/client/auth.py"
+          ],
+          "value": "catalogapi.rastro.ai"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "rastro_ai-0.3.11/rastro_mcp/tools/viewer_tools.py"
+          ],
+          "value": "cdn.shopify.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "rastro_ai-0.3.11/rastro_mcp/cli.py",
+            "rastro_ai-0.3.11/rastro_mcp/tools/viewer_tools.py"
+          ],
+          "value": "dashboard.rastro.ai"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "rastro_ai-0.3.11/PKG-INFO",
+            "rastro_ai-0.3.11/pyproject.toml"
+          ],
+          "value": "docs.rastro.ai"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "rastro_ai-0.3.11/PKG-INFO",
+            "rastro_ai-0.3.11/README.md",
+            "rastro_ai-0.3.11/pyproject.toml",
+            "rastro_ai-0.3.11/rastro_mcp/README.md"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "rastro_ai-0.3.11/rastro_mcp/viewer/viewer_app.js"
+          ],
+          "value": "popover.style.top"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "rastro_ai-0.3.11/rastro_mcp/tools/viewer_tools.py"
+          ],
+          "value": "{self.host"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "rastro_ai-0.3.11/rastro_mcp/cli.py"
+          ],
+          "value": "http://{callback_host"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "rastro_ai-0.3.11/rastro_mcp/tools/viewer_tools.py"
+          ],
+          "value": "http://{self.host"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "rastro_ai-0.3.11/rastro_mcp/server.py"
+          ],
+          "value": "https://"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "rastro_ai-0.3.11/PKG-INFO",
+            "rastro_ai-0.3.11/README.md",
+            "rastro_ai-0.3.11/examples/codex.mcp.json",
+            "rastro_ai-0.3.11/rastro_mcp/README.md",
+            "rastro_ai-0.3.11/rastro_mcp/client/auth.py"
+          ],
+          "value": "https://catalogapi.rastro.ai/api"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "rastro_ai-0.3.11/PKG-INFO",
+            "rastro_ai-0.3.11/README.md",
+            "rastro_ai-0.3.11/rastro_mcp/README.md"
+          ],
+          "value": "https://catalogapi.rastro.ai/api`"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "rastro_ai-0.3.11/rastro_mcp/cli.py"
+          ],
+          "value": "https://dashboard.rastro.ai"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "rastro_ai-0.3.11/rastro_mcp/tools/viewer_tools.py"
+          ],
+          "value": "https://dashboard.rastro.ai/catalog/{catalog_id"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "rastro_ai-0.3.11/PKG-INFO",
+            "rastro_ai-0.3.11/pyproject.toml"
+          ],
+          "value": "https://docs.rastro.ai/mcp/quickstart"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "rastro_ai-0.3.11/PKG-INFO",
+            "rastro_ai-0.3.11/README.md",
+            "rastro_ai-0.3.11/pyproject.toml",
+            "rastro_ai-0.3.11/rastro_mcp/README.md"
+          ],
+          "value": "https://github.com/Rastro-AI/rastro-mcp"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "rastro_ai-0.3.11/PKG-INFO",
+            "rastro_ai-0.3.11/pyproject.toml"
+          ],
+          "value": "https://github.com/Rastro-AI/rastro-mcp/issues"
+        }
+      ]
+    },
+    "package": "rastro.ai",
+    "package_slug": "rastro.ai",
+    "project_url": "https://pypi.org/project/rastro.ai/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T17:19:52.978953+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T17:20:40.472844+00:00",
+    "title": "Personal PyPI Supply Chain Scan: rastro.ai 0.3.11",
+    "version": "0.3.11",
+    "version_slug": "0.3.11",
+    "_metadata_path": "reports/packages/rastro.ai/0.3.11/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "grood-0.1.0.tar.gz",
     "finding_count": 6,
     "model": "gpt-5.5",
