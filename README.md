@@ -29,6 +29,7 @@ PyPI RSS updates feed에서 최신 publish 패키지를 가져오고, 호스트�
 - systemd, launch agent, cron, shell profile 수정 등 persistence
 - base64/zlib/marshal/pickle/eval/exec 등으로 숨긴 loader
 - dependency confusion, typosquatting, 숨김 payload, 목적 불명의 native binary
+- URL, DNS/도메인, raw public IP endpoint, drop/paste/GitHub raw 같은 network indicator
 
 일반적인 CLI entry point, 정상 SDK/API 호출, 사용자가 명령을 실행해야 동작하는 웹 서버, 정상적인 환경변수 사용은 위 악성 공급망 증거와 연결되지 않으면 finding으로 올리지 않습니다.
 

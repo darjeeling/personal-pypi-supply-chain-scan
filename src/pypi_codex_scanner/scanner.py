@@ -142,6 +142,7 @@ def _format_prescan(prescan: dict) -> str:
     compact = {
         "ast_grep_enabled": prescan.get("ast_grep_enabled", False),
         "finding_count": prescan.get("finding_count", 0),
+        "network_indicators": prescan.get("network_indicators", {}),
         "selected_paths": prescan.get("selected_paths", []),
         "findings": findings[:80],
     }

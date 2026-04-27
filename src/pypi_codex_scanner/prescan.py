@@ -12,6 +12,7 @@ import re
 import shutil
 import subprocess
 import tempfile
+from urllib.parse import urlparse
 
 
 TEXT_SUFFIXES = {
@@ -46,6 +47,32 @@ HIGH_VALUE_NAMES = {
 BASE64_BLOB_RE = re.compile(
     r"(?<![A-Za-z0-9+/=])(?:[A-Za-z0-9+/]{80,}={0,2})(?![A-Za-z0-9+/=])"
 )
+URL_RE = re.compile(r"https?://[^\s'\"<>)\]}]+")
+HOST_RE = re.compile(r"(?<![A-Za-z0-9_-])(?:[A-Za-z0-9-]{1,63}\.)+[A-Za-z]{2,63}(?![A-Za-z0-9_-])")
+KNOWN_BENIGN_DOMAINS = {
+    "github.com",
+    "gitlab.com",
+    "bitbucket.org",
+    "pypi.org",
+    "python.org",
+    "pythonhosted.org",
+    "files.pythonhosted.org",
+    "readthedocs.io",
+    "docs.python.org",
+    "example.com",
+    "localhost",
+}
+SUSPICIOUS_DOMAIN_SUFFIXES = {
+    "webhook.site",
+    "ngrok.io",
+    "ngrok-free.app",
+    "pastebin.com",
+    "raw.githubusercontent.com",
+    "gist.githubusercontent.com",
+    "transfer.sh",
+    "workers.dev",
+    "pages.dev",
+}
 AST_GREP_RULES = """
 id: py-dynamic-code-exec
 language: python
@@ -103,6 +130,7 @@ def scan_extracted_package(
     max_chars: int,
 ) -> dict:
     findings: list[PreScanFinding] = []
+    indicators = NetworkIndicators()
     files = manifest.get("files", [])
     by_path = {item["path"]: item for item in files}
     ast_grep_findings = _scan_with_ast_grep(extract_dir)
@@ -116,6 +144,7 @@ def scan_extracted_package(
         text = _read_text(path)
         if text is None:
             continue
+        indicators.add_text(rel, text)
         findings.extend(_scan_text(rel, text))
         if rel.endswith((".py", ".pyw", ".pth")):
             findings.extend(_scan_python(rel, text))
@@ -127,6 +156,7 @@ def scan_extracted_package(
         "findings": [finding.__dict__ for finding in ordered],
         "finding_count": len(ordered),
         "ast_grep_enabled": shutil.which("ast-grep") is not None,
+        "network_indicators": indicators.to_dict(),
         "selected_paths": selected_paths,
         "focused_corpus": corpus,
     }
@@ -198,6 +228,35 @@ def _scan_text(rel: str, text: str) -> list[PreScanFinding]:
                 _line_at(text, line),
             )
         )
+    for url in _extract_urls(text):
+        host = _normalize_host(urlparse(url).hostname)
+        if host and _is_suspicious_domain(host):
+            line = _line_for_substring(text, url)
+            findings.append(
+                PreScanFinding(
+                    "suspicious-domain-endpoint",
+                    "exfiltration",
+                    "medium",
+                    rel,
+                    line,
+                    f"suspicious network endpoint domain: {host}",
+                    _line_at(text, line) if line else url[:240],
+                )
+            )
+    for host in _extract_hosts(text):
+        if _is_suspicious_domain(host):
+            line = _line_for_substring(text, host)
+            findings.append(
+                PreScanFinding(
+                    "suspicious-domain-reference",
+                    "exfiltration",
+                    "medium",
+                    rel,
+                    line,
+                    f"suspicious domain reference: {host}",
+                    _line_at(text, line) if line else host,
+                )
+            )
     for match in BASE64_BLOB_RE.finditer(text):
         blob = match.group(0)
         decoded_size = _decoded_base64_size(blob)
@@ -216,6 +275,50 @@ def _scan_text(rel: str, text: str) -> list[PreScanFinding]:
             )
         )
     return findings
+
+
+class NetworkIndicators:
+    def __init__(self) -> None:
+        self.urls: dict[str, set[str]] = {}
+        self.domains: dict[str, set[str]] = {}
+        self.raw_public_ips: dict[str, set[str]] = {}
+        self.suspicious_endpoints: dict[str, set[str]] = {}
+
+    def add_text(self, rel: str, text: str) -> None:
+        for url in _extract_urls(text):
+            host = _normalize_host(urlparse(url).hostname)
+            if host and _is_private_or_local_host(host):
+                continue
+            self._add(self.urls, url, rel)
+            if host:
+                self._add_host(rel, host)
+                if _is_suspicious_domain(host):
+                    self._add(self.suspicious_endpoints, url, rel)
+                if _is_public_ip_literal(host):
+                    self._add(self.raw_public_ips, host, rel)
+        for host in _extract_hosts(text):
+            self._add_host(rel, host)
+            if _is_suspicious_domain(host):
+                self._add(self.suspicious_endpoints, host, rel)
+            if _is_public_ip_literal(host):
+                self._add(self.raw_public_ips, host, rel)
+
+    def to_dict(self) -> dict:
+        return {
+            "urls": _serialize_indicator_map(self.urls, limit=80),
+            "domains": _serialize_indicator_map(self.domains, limit=120),
+            "raw_public_ips": _serialize_indicator_map(self.raw_public_ips, limit=40),
+            "suspicious_endpoints": _serialize_indicator_map(self.suspicious_endpoints, limit=80),
+        }
+
+    def _add_host(self, rel: str, host: str) -> None:
+        if _should_ignore_host(host):
+            return
+        self._add(self.domains, host, rel)
+
+    @staticmethod
+    def _add(mapping: dict[str, set[str]], value: str, rel: str) -> None:
+        mapping.setdefault(value, set()).add(rel)
 
 
 def _scan_binary(path: Path, rel: str) -> list[PreScanFinding]:
@@ -463,6 +566,78 @@ def _is_textish(rel: str) -> bool:
     return path.name.lower() in HIGH_VALUE_NAMES or path.suffix.lower() in TEXT_SUFFIXES
 
 
+def _extract_urls(text: str) -> list[str]:
+    return [match.group(0).rstrip(".,;:") for match in URL_RE.finditer(text)]
+
+
+def _extract_hosts(text: str) -> list[str]:
+    hosts: list[str] = []
+    for match in HOST_RE.finditer(text):
+        host = _normalize_host(match.group(0))
+        if host and not _looks_like_filename(host):
+            hosts.append(host)
+    return hosts
+
+
+def _normalize_host(host: str | None) -> str | None:
+    if not host:
+        return None
+    host = host.strip().strip(".").lower()
+    if not host or "/" in host or "_" in host:
+        return None
+    return host
+
+
+def _is_suspicious_domain(host: str) -> bool:
+    if _is_public_ip_literal(host):
+        return True
+    if host in KNOWN_BENIGN_DOMAINS:
+        return False
+    if any(host == suffix or host.endswith(f".{suffix}") for suffix in SUSPICIOUS_DOMAIN_SUFFIXES):
+        return True
+    labels = host.split(".")
+    if len(labels) >= 3 and any(_looks_random_label(label) for label in labels[:-2]):
+        return True
+    return False
+
+
+def _should_ignore_host(host: str) -> bool:
+    if host in KNOWN_BENIGN_DOMAINS:
+        return False
+    if _is_private_or_local_host(host):
+        return True
+    return False
+
+
+def _looks_like_filename(host: str) -> bool:
+    suffix = Path(host).suffix.lower()
+    return suffix in TEXT_SUFFIXES or suffix in BINARY_SUFFIXES or suffix in {".pyc", ".dist-info", ".egg-info"}
+
+
+def _looks_random_label(label: str) -> bool:
+    if len(label) < 16:
+        return False
+    digits = sum(ch.isdigit() for ch in label)
+    hyphens = label.count("-")
+    vowels = sum(ch in "aeiou" for ch in label.lower())
+    return digits >= 5 or hyphens >= 3 or vowels <= max(1, len(label) // 8)
+
+
+def _line_for_substring(text: str, value: str) -> int | None:
+    index = text.find(value)
+    if index < 0:
+        return None
+    return text.count("\n", 0, index) + 1
+
+
+def _serialize_indicator_map(mapping: dict[str, set[str]], *, limit: int) -> list[dict]:
+    rows = [
+        {"value": value, "files": sorted(files)[:8], "file_count": len(files)}
+        for value, files in sorted(mapping.items())
+    ]
+    return rows[:limit]
+
+
 def _read_text(path: Path) -> str | None:
     if not path.exists() or not path.is_file() or path.stat().st_size > 512 * 1024:
         return None
@@ -513,3 +688,17 @@ def _is_private_or_local_ip(value: str) -> bool:
             address.is_unspecified,
         )
     )
+
+
+def _is_private_or_local_host(value: str) -> bool:
+    try:
+        return _is_private_or_local_ip(value)
+    except ValueError:
+        return value in {"localhost"} or value.endswith(".local") or value.endswith(".internal")
+
+
+def _is_public_ip_literal(value: str) -> bool:
+    try:
+        return not _is_private_or_local_ip(value)
+    except ValueError:
+        return False
