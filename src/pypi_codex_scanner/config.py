@@ -26,6 +26,13 @@ container_timeout_seconds = 180
 state_db = "data/state.sqlite3"
 work_dir = "data/work"
 reports_dir = "reports"
+site_dir = "site"
+
+[publish]
+enabled = true
+every_scans = 1
+branch = "gh-pages"
+push = true
 
 [openai]
 model = "gpt-5.5"
@@ -37,6 +44,7 @@ request_timeout_seconds = 120
 enabled = true
 min_primary_remaining_percent = 20
 min_secondary_remaining_percent = 10
+secondary_daily_budget_divisor = 14
 allow_if_unknown = true
 backend_url = "https://chatgpt.com/backend-api/wham/usage"
 
@@ -76,6 +84,15 @@ class PathsConfig:
     state_db: Path = Path("data/state.sqlite3")
     work_dir: Path = Path("data/work")
     reports_dir: Path = Path("reports")
+    site_dir: Path = Path("site")
+
+
+@dataclass(frozen=True)
+class PublishConfig:
+    enabled: bool = True
+    every_scans: int = 1
+    branch: str = "gh-pages"
+    push: bool = True
 
 
 @dataclass(frozen=True)
@@ -99,6 +116,7 @@ class UsageGateConfig:
     enabled: bool = True
     min_primary_remaining_percent: int = 20
     min_secondary_remaining_percent: int = 10
+    secondary_daily_budget_divisor: int = 14
     allow_if_unknown: bool = True
     backend_url: str = "https://chatgpt.com/backend-api/wham/usage"
 
@@ -109,6 +127,7 @@ class AppConfig:
     schedule: ScheduleConfig = field(default_factory=ScheduleConfig)
     limits: LimitsConfig = field(default_factory=LimitsConfig)
     paths: PathsConfig = field(default_factory=PathsConfig)
+    publish: PublishConfig = field(default_factory=PublishConfig)
     openai: OpenAIConfig = field(default_factory=OpenAIConfig)
     docker: DockerConfig = field(default_factory=DockerConfig)
     usage_gate: UsageGateConfig = field(default_factory=UsageGateConfig)
@@ -129,7 +148,9 @@ def load_config(path: Path) -> AppConfig:
             state_db=_resolve_path(root, paths_data.get("state_db", "data/state.sqlite3")),
             work_dir=_resolve_path(root, paths_data.get("work_dir", "data/work")),
             reports_dir=_resolve_path(root, paths_data.get("reports_dir", "reports")),
+            site_dir=_resolve_path(root, paths_data.get("site_dir", "site")),
         ),
+        publish=PublishConfig(**data.get("publish", {})),
         openai=OpenAIConfig(
             model=openai_data.get("model", "gpt-5.5"),
             codex_auth_path=Path(openai_data.get("codex_auth_path", "~/.codex/auth.json")).expanduser(),

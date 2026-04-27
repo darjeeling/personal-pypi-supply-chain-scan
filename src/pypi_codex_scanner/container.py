@@ -93,7 +93,7 @@ extract_dir = work / "extracted"
 archive.parent.mkdir(parents=True, exist_ok=True)
 extract_dir.mkdir(parents=True, exist_ok=True)
 
-request = Request(download_url, headers={"User-Agent": "pypi-codex-scanner/0.1"})
+request = Request(download_url, headers={"User-Agent": "pypi-llm-scanner/0.1"})
 with urlopen(request, timeout=60) as response, archive.open("wb") as out:
     total = 0
     while True:

@@ -17,7 +17,7 @@ from .usage import check_usage_gate
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(prog="pypi-codex-scanner")
+    parser = argparse.ArgumentParser(prog="pypi-llm-scanner")
     subparsers = parser.add_subparsers(dest="command", required=True)
 
     init_parser = subparsers.add_parser("init-config")
@@ -30,12 +30,12 @@ def main(argv: list[str] | None = None) -> int:
 
     pages_parser = subparsers.add_parser("build-pages")
     pages_parser.add_argument("--config", type=Path, default=Path("scanner.toml"))
-    pages_parser.add_argument("--site-dir", type=Path, default=Path("site"))
+    pages_parser.add_argument("--site-dir", type=Path, default=None)
 
     publish_parser = subparsers.add_parser("publish-pages")
     publish_parser.add_argument("--config", type=Path, default=Path("scanner.toml"))
-    publish_parser.add_argument("--site-dir", type=Path, default=Path("site"))
-    publish_parser.add_argument("--branch", default="gh-pages")
+    publish_parser.add_argument("--site-dir", type=Path, default=None)
+    publish_parser.add_argument("--branch", default=None)
     publish_parser.add_argument("--push", action="store_true")
 
     args = parser.parse_args(argv)
@@ -47,14 +47,18 @@ def main(argv: list[str] | None = None) -> int:
         return _run(args.config, force=args.force, dry_run=args.dry_run)
     if args.command == "build-pages":
         config = load_config(args.config)
-        build_pages(config.paths.reports_dir, args.site_dir)
-        print(f"Wrote {args.site_dir}")
+        site_dir = args.site_dir or config.paths.site_dir
+        build_pages(config.paths.reports_dir, site_dir)
+        print(f"Wrote {site_dir}")
         return 0
     if args.command == "publish-pages":
         config = load_config(args.config)
-        build_pages(config.paths.reports_dir, args.site_dir)
-        publish_pages(args.site_dir, branch=args.branch, push=args.push)
-        print(f"Published {args.site_dir} to {args.branch}")
+        site_dir = args.site_dir or config.paths.site_dir
+        branch = args.branch or config.publish.branch
+        push = args.push or config.publish.push
+        build_pages(config.paths.reports_dir, site_dir)
+        publish_pages(site_dir, branch=branch, push=push)
+        print(f"Published {site_dir} to {branch}")
         return 0
     parser.error("unknown command")
     return 2
@@ -116,6 +120,7 @@ def _run(config_path: Path, *, force: bool, dry_run: bool) -> int:
                 store.finish_attempt(attempt_id, status="scanned", model=result.model, prompt_version=result.prompt_version)
                 scanned_count += 1
                 print(f"report {artifacts.paths['ko']}")
+                _maybe_publish(config, scanned_count)
             except Exception as exc:
                 store.mark(package, "error", error=str(exc))
                 if attempt_id is not None:
@@ -124,6 +129,16 @@ def _run(config_path: Path, *, force: bool, dry_run: bool) -> int:
         return 0
     finally:
         store.close()
+
+
+def _maybe_publish(config: object, scanned_count: int) -> None:
+    if not config.publish.enabled or config.publish.every_scans <= 0:
+        return
+    if scanned_count % config.publish.every_scans != 0:
+        return
+    build_pages(config.paths.reports_dir, config.paths.site_dir)
+    publish_pages(config.paths.site_dir, branch=config.publish.branch, push=config.publish.push)
+    print(f"published pages after {scanned_count} successful scans")
 
 
 if __name__ == "__main__":

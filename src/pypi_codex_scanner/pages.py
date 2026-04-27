@@ -28,7 +28,7 @@ def build_pages(reports_dir: Path, site_dir: Path) -> None:
 
 
 def publish_pages(site_dir: Path, *, branch: str = "gh-pages", push: bool = False) -> None:
-    with tempfile.TemporaryDirectory(prefix="pypi-codex-pages-") as tmp:
+    with tempfile.TemporaryDirectory(prefix="pypi-llm-pages-") as tmp:
         worktree = Path(tmp) / "worktree"
         if _branch_exists(branch):
             _run(["git", "worktree", "add", str(worktree), branch])
@@ -94,8 +94,8 @@ def _write_report_pages(site_dir: Path, reports_dir: Path, report: dict) -> None
         (out_dir / "index.html").write_text(_html_page(report["title"], body), encoding="utf-8")
 
     package_dir = site_dir / "packages" / report["package_slug"]
-    _write_redirect(package_dir / "latest" / "ko" / "index.html", f"../{report['version_slug']}/ko/")
-    _write_redirect(package_dir / "latest" / "en" / "index.html", f"../{report['version_slug']}/en/")
+    _write_redirect(package_dir / "latest" / "ko" / "index.html", f"../../{report['version_slug']}/ko/")
+    _write_redirect(package_dir / "latest" / "en" / "index.html", f"../../{report['version_slug']}/en/")
     versions_dir = package_dir / "versions"
     versions_dir.mkdir(parents=True, exist_ok=True)
 

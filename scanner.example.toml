@@ -17,6 +17,13 @@ container_timeout_seconds = 180
 state_db = "data/state.sqlite3"
 work_dir = "data/work"
 reports_dir = "reports"
+site_dir = "site"
+
+[publish]
+enabled = true
+every_scans = 1
+branch = "gh-pages"
+push = true
 
 [openai]
 model = "gpt-5.5"
@@ -28,6 +35,7 @@ request_timeout_seconds = 120
 enabled = true
 min_primary_remaining_percent = 20
 min_secondary_remaining_percent = 10
+secondary_daily_budget_divisor = 14
 allow_if_unknown = true
 backend_url = "https://chatgpt.com/backend-api/wham/usage"
 

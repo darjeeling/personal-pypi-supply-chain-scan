@@ -54,7 +54,9 @@ Do not elevate ordinary CLI behavior, normal SDK/API calls, expected environment
 
 - Build static site output into `site/`.
 - Publish through a `gh-pages` branch.
-- `publish-pages` should not push unless explicitly requested with `--push`.
+- Respect `[publish]` config for automatic publish cadence.
+- `publish.every_scans = 1` means publish after every successful scan; `10` means after every ten; `0` or `enabled = false` disables automatic publishing.
+- `publish.push` controls whether publishing pushes to origin.
 - URL structure should remain:
   - `/packages/{package}/{version}/ko/`
   - `/packages/{package}/{version}/en/`
@@ -66,7 +68,8 @@ Do not elevate ordinary CLI behavior, normal SDK/API calls, expected environment
 ## Usage Gate
 
 - Use Codex backend usage status when enabled.
-- Respect primary 5-hour and secondary weekly thresholds.
+- Respect the primary 5-hour remaining-percent threshold.
+- Treat secondary weekly usage as a conservative daily budget: `100 / secondary_daily_budget_divisor` percent per elapsed day, with at least one day of budget allowed.
 - Keep LLM concurrency at 1 unless explicitly changed.
 - Keep `max_scans_per_run` and `max_llm_calls_per_run` configurable.
 

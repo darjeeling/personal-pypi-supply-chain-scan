@@ -1,6 +1,6 @@
 # Personal PyPI Supply Chain Scan
 
-Personal PyPI Supply Chain Scan watches the PyPI updates RSS feed, downloads newly published package artifacts in an isolated Docker container, performs deterministic pre-scan checks, and asks GPT-5.5 through Codex OAuth to review only malicious supply-chain compromise indicators.
+Personal PyPI Supply Chain Scan watches the PyPI updates RSS feed, downloads newly published package artifacts in an isolated Docker container, performs deterministic pre-scan checks, and asks GPT-5.5 to review only malicious supply-chain compromise indicators. The current backend uses Codex OAuth.
 
 This is a personal automated scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.
 
@@ -12,7 +12,7 @@ This is a personal automated scan. It is not an official security advisory, not 
 4. Downloads and extracts the package only inside Docker.
 5. Does not install the package, run build hooks, or execute `setup.py`.
 6. Runs deterministic pre-scan checks with Python AST, text/manifest heuristics, and `ast-grep` when installed.
-7. Sends only pre-scan findings and a focused evidence corpus to GPT-5.5 through Codex OAuth.
+7. Sends only pre-scan findings and a focused evidence corpus to GPT-5.5 through the configured Codex OAuth backend.
 8. Writes Korean and English Markdown reports, report metadata, network indicator inventories, and SQLite scan history.
 9. Builds a static GitHub Pages site and can publish it to a `gh-pages` branch.
 
@@ -47,13 +47,13 @@ brew install ast-grep
 ## Usage
 
 ```bash
-uv run pypi-codex-scanner init-config
-uv run pypi-codex-scanner run --config scanner.toml
-uv run pypi-codex-scanner build-pages --config scanner.toml --site-dir site
-uv run pypi-codex-scanner publish-pages --config scanner.toml --branch gh-pages
+uv run pypi-llm-scanner init-config
+uv run pypi-llm-scanner run --config scanner.toml
+uv run pypi-llm-scanner build-pages --config scanner.toml --site-dir site
+uv run pypi-llm-scanner publish-pages --config scanner.toml --branch gh-pages
 ```
 
-`publish-pages` commits to a local `gh-pages` branch by default. It only pushes when `--push` is supplied.
+`publish-pages` uses the `[publish]` config by default. Set `push = false` to keep publication local. During `run`, `publish.every_scans = 1` publishes after every successful scan; `10` publishes after every ten successful scans; `0` or `enabled = false` disables automatic publishing.
 
 ## Configuration
 
@@ -78,6 +78,13 @@ max_chars_for_model = 60000
 state_db = "data/state.sqlite3"
 work_dir = "data/work"
 reports_dir = "reports"
+site_dir = "site"
+
+[publish]
+enabled = true
+every_scans = 1
+branch = "gh-pages"
+push = true
 
 [openai]
 model = "gpt-5.5"
@@ -89,11 +96,14 @@ request_timeout_seconds = 120
 enabled = true
 min_primary_remaining_percent = 20
 min_secondary_remaining_percent = 10
+secondary_daily_budget_divisor = 14
 allow_if_unknown = true
 backend_url = "https://chatgpt.com/backend-api/wham/usage"
 ```
 
 Empty schedule windows mean always allowed.
+
+The primary 5-hour usage window uses a remaining-percent threshold. The secondary weekly usage window is treated as a conservative daily budget: `100 / secondary_daily_budget_divisor` percent per elapsed day in the current secondary window, with at least one day of budget allowed.
 
 ## Report Layout
 
@@ -147,4 +157,3 @@ This allows later resume, reprocessing, reporting, and audit workflows.
 The current prompt source is stored at:
 
 - `docs/prompts/malicious-supply-chain-review-v2.md`
-
