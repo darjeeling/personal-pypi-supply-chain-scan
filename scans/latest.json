@@ -1,54 +1,155 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "singleton_base-1.2.6-py3-none-any.whl",
-  "finding_count": 5,
+  "distribution": "memographix-0.1.0.tar.gz",
+  "finding_count": 22,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
         "file_count": 1,
         "files": [
-          "singleton_base/__main__.py"
+          "memographix-0.1.0/crates/memographix-core/src/lib.rs"
         ],
-        "value": "docs.python.org"
+        "value": "files.push"
+      },
+      {
+        "file_count": 6,
+        "files": [
+          "memographix-0.1.0/PKG-INFO",
+          "memographix-0.1.0/README.md",
+          "memographix-0.1.0/crates/memographix-core/Cargo.lock",
+          "memographix-0.1.0/crates/memographix-core/Cargo.toml",
+          "memographix-0.1.0/crates/memographix-core/README.md",
+          "memographix-0.1.0/pyproject.toml"
+        ],
+        "value": "github.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "memographix-0.1.0/PKG-INFO",
+          "memographix-0.1.0/README.md",
+          "memographix-0.1.0/crates/memographix-core/README.md"
+        ],
+        "value": "img.shields.io"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "memographix-0.1.0/PKG-INFO",
+          "memographix-0.1.0/README.md",
+          "memographix-0.1.0/crates/memographix-core/README.md"
+        ],
+        "value": "pypi.org"
       },
       {
         "file_count": 1,
         "files": [
-          "singleton_base/__main__.py"
+          "memographix-0.1.0/python/memographix/config.py"
         ],
-        "value": "www.python.org"
+        "value": "raw.items"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.0/crates/memographix-core/src/lib.rs"
+        ],
+        "value": "raw.trim"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "singleton_base/__main__.py"
+          "memographix-0.1.0/PKG-INFO",
+          "memographix-0.1.0/crates/memographix-core/Cargo.toml",
+          "memographix-0.1.0/pyproject.toml"
         ],
-        "value": "https://docs.python.org/3/using/cmdline.html#cmdoption-m"
+        "value": "https://github.com/coderalnaim/memographix"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "memographix-0.1.0/PKG-INFO",
+          "memographix-0.1.0/README.md",
+          "memographix-0.1.0/crates/memographix-core/README.md"
+        ],
+        "value": "https://github.com/coderalnaim/memographix/actions/workflows/ci.yml"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "memographix-0.1.0/PKG-INFO",
+          "memographix-0.1.0/README.md",
+          "memographix-0.1.0/crates/memographix-core/README.md"
+        ],
+        "value": "https://github.com/coderalnaim/memographix/actions/workflows/ci.yml/badge.svg"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "memographix-0.1.0/PKG-INFO",
+          "memographix-0.1.0/pyproject.toml"
+        ],
+        "value": "https://github.com/coderalnaim/memographix/issues"
       },
       {
         "file_count": 1,
         "files": [
-          "singleton_base/__main__.py"
+          "memographix-0.1.0/crates/memographix-core/Cargo.lock"
         ],
-        "value": "https://www.python.org/dev/peps/pep-0338/"
+        "value": "https://github.com/rust-lang/crates.io-index"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "memographix-0.1.0/PKG-INFO",
+          "memographix-0.1.0/README.md",
+          "memographix-0.1.0/crates/memographix-core/README.md"
+        ],
+        "value": "https://img.shields.io/badge/License-MIT-blue.svg"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "memographix-0.1.0/PKG-INFO",
+          "memographix-0.1.0/README.md",
+          "memographix-0.1.0/crates/memographix-core/README.md"
+        ],
+        "value": "https://img.shields.io/pypi/pyversions/memographix.svg"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "memographix-0.1.0/PKG-INFO",
+          "memographix-0.1.0/README.md",
+          "memographix-0.1.0/crates/memographix-core/README.md"
+        ],
+        "value": "https://img.shields.io/pypi/v/memographix.svg"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "memographix-0.1.0/PKG-INFO",
+          "memographix-0.1.0/README.md",
+          "memographix-0.1.0/crates/memographix-core/README.md"
+        ],
+        "value": "https://pypi.org/project/memographix/"
       }
     ]
   },
-  "package": "singleton-base",
-  "package_slug": "singleton-base",
-  "project_url": "https://pypi.org/project/singleton-base/",
+  "package": "memographix",
+  "package_slug": "memographix",
+  "project_url": "https://pypi.org/project/memographix/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T11:11:40.968966+00:00",
+  "published_at": "2026-04-27T11:15:25.785852+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T11:12:36.920292+00:00",
-  "title": "Personal PyPI Supply Chain Scan: singleton-base 1.2.6",
-  "version": "1.2.6",
-  "version_slug": "1.2.6",
-  "_metadata_path": "reports/packages/singleton-base/1.2.6/metadata.json"
+  "scanned_at": "2026-04-27T11:16:56.334573+00:00",
+  "title": "Personal PyPI Supply Chain Scan: memographix 0.1.0",
+  "version": "0.1.0",
+  "version_slug": "0.1.0",
+  "_metadata_path": "reports/packages/memographix/0.1.0/metadata.json"
 }
