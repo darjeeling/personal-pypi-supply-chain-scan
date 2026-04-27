@@ -1,6 +1,101 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "sovereign_ai_stack-1.0.0.tar.gz",
+    "finding_count": 129,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 4,
+          "files": [
+            "sovereign_ai_stack-1.0.0/PKG-INFO",
+            "sovereign_ai_stack-1.0.0/README.md",
+            "sovereign_ai_stack-1.0.0/pyproject.toml",
+            "sovereign_ai_stack-1.0.0/sovereign_ai_stack.egg-info/PKG-INFO"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "sovereign_ai_stack-1.0.0/sovereign_ai/rag/cli.py"
+          ],
+          "value": "{host"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "sovereign_ai_stack-1.0.0/sovereign_ai/rag/cli.py"
+          ],
+          "value": "http://{host"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "sovereign_ai_stack-1.0.0/PKG-INFO",
+            "sovereign_ai_stack-1.0.0/README.md",
+            "sovereign_ai_stack-1.0.0/sovereign_ai_stack.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/anandkrshnn"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "sovereign_ai_stack-1.0.0/PKG-INFO",
+            "sovereign_ai_stack-1.0.0/pyproject.toml",
+            "sovereign_ai_stack-1.0.0/sovereign_ai_stack.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/anandkrshnn/sovereign-ai-stack"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "sovereign_ai_stack-1.0.0/PKG-INFO",
+            "sovereign_ai_stack-1.0.0/pyproject.toml",
+            "sovereign_ai_stack-1.0.0/sovereign_ai_stack.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/anandkrshnn/sovereign-ai-stack/blob/main/CHANGELOG.md"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "sovereign_ai_stack-1.0.0/PKG-INFO",
+            "sovereign_ai_stack-1.0.0/pyproject.toml",
+            "sovereign_ai_stack-1.0.0/sovereign_ai_stack.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/anandkrshnn/sovereign-ai-stack/issues"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "sovereign_ai_stack-1.0.0/PKG-INFO",
+            "sovereign_ai_stack-1.0.0/pyproject.toml",
+            "sovereign_ai_stack-1.0.0/sovereign_ai_stack.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/anandkrshnn/sovereign-ai-stack/tree/main/docs"
+        }
+      ]
+    },
+    "package": "sovereign-ai-stack",
+    "package_slug": "sovereign-ai-stack",
+    "project_url": "https://pypi.org/project/sovereign-ai-stack/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T17:02:30.285709+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T17:03:12.493447+00:00",
+    "title": "Personal PyPI Supply Chain Scan: sovereign-ai-stack 1.0.0",
+    "version": "1.0.0",
+    "version_slug": "1.0.0",
+    "_metadata_path": "reports/packages/sovereign-ai-stack/1.0.0/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "parsimony_bdp-0.4.0.tar.gz",
     "finding_count": 1,
     "model": "gpt-5.5",

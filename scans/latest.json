@@ -1,58 +1,26 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "parsimony_bdp-0.4.0.tar.gz",
-  "finding_count": 1,
+  "distribution": "sovereign_ai_stack-1.0.0.tar.gz",
+  "finding_count": 129,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 3,
-        "files": [
-          "parsimony_bdp-0.4.0/PKG-INFO",
-          "parsimony_bdp-0.4.0/README.md",
-          "parsimony_bdp-0.4.0/parsimony_bdp/__init__.py"
-        ],
-        "value": "bpstat.bportugal.pt"
-      },
-      {
         "file_count": 4,
         "files": [
-          "parsimony_bdp-0.4.0/CHANGELOG.md",
-          "parsimony_bdp-0.4.0/PKG-INFO",
-          "parsimony_bdp-0.4.0/README.md",
-          "parsimony_bdp-0.4.0/pyproject.toml"
+          "sovereign_ai_stack-1.0.0/PKG-INFO",
+          "sovereign_ai_stack-1.0.0/README.md",
+          "sovereign_ai_stack-1.0.0/pyproject.toml",
+          "sovereign_ai_stack-1.0.0/sovereign_ai_stack.egg-info/PKG-INFO"
         ],
         "value": "github.com"
       },
       {
         "file_count": 1,
         "files": [
-          "parsimony_bdp-0.4.0/CHANGELOG.md"
+          "sovereign_ai_stack-1.0.0/sovereign_ai/rag/cli.py"
         ],
-        "value": "keepachangelog.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "parsimony_bdp-0.4.0/CHANGELOG.md"
-        ],
-        "value": "semver.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "parsimony_bdp-0.4.0/LICENSE"
-        ],
-        "value": "www.apache.org"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "parsimony_bdp-0.4.0/PKG-INFO",
-          "parsimony_bdp-0.4.0/README.md",
-          "parsimony_bdp-0.4.0/pyproject.toml"
-        ],
-        "value": "www.bportugal.pt"
+        "value": "{host"
       }
     ],
     "raw_public_ips": [],
@@ -61,108 +29,67 @@
       {
         "file_count": 1,
         "files": [
-          "parsimony_bdp-0.4.0/LICENSE"
+          "sovereign_ai_stack-1.0.0/sovereign_ai/rag/cli.py"
         ],
-        "value": "http://www.apache.org/licenses/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "parsimony_bdp-0.4.0/LICENSE"
-        ],
-        "value": "http://www.apache.org/licenses/LICENSE-2.0"
+        "value": "http://{host"
       },
       {
         "file_count": 3,
         "files": [
-          "parsimony_bdp-0.4.0/PKG-INFO",
-          "parsimony_bdp-0.4.0/README.md",
-          "parsimony_bdp-0.4.0/parsimony_bdp/__init__.py"
+          "sovereign_ai_stack-1.0.0/PKG-INFO",
+          "sovereign_ai_stack-1.0.0/README.md",
+          "sovereign_ai_stack-1.0.0/sovereign_ai_stack.egg-info/PKG-INFO"
         ],
-        "value": "https://bpstat.bportugal.pt"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "parsimony_bdp-0.4.0/parsimony_bdp/__init__.py"
-        ],
-        "value": "https://bpstat.bportugal.pt/"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "parsimony_bdp-0.4.0/PKG-INFO",
-          "parsimony_bdp-0.4.0/README.md"
-        ],
-        "value": "https://bpstat.bportugal.pt/data/docs"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "parsimony_bdp-0.4.0/parsimony_bdp/__init__.py"
-        ],
-        "value": "https://bpstat.bportugal.pt/data/v1"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "parsimony_bdp-0.4.0/parsimony_bdp/__init__.py"
-        ],
-        "value": "https://bpstat.bportugal.pt/data/v1``"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "parsimony_bdp-0.4.0/CHANGELOG.md",
-          "parsimony_bdp-0.4.0/PKG-INFO",
-          "parsimony_bdp-0.4.0/README.md",
-          "parsimony_bdp-0.4.0/pyproject.toml"
-        ],
-        "value": "https://github.com/ockham-sh/parsimony-connectors"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "parsimony_bdp-0.4.0/PKG-INFO",
-          "parsimony_bdp-0.4.0/pyproject.toml"
-        ],
-        "value": "https://github.com/ockham-sh/parsimony-connectors/issues"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "parsimony_bdp-0.4.0/CHANGELOG.md"
-        ],
-        "value": "https://keepachangelog.com/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "parsimony_bdp-0.4.0/CHANGELOG.md"
-        ],
-        "value": "https://semver.org/"
+        "value": "https://github.com/anandkrshnn"
       },
       {
         "file_count": 3,
         "files": [
-          "parsimony_bdp-0.4.0/PKG-INFO",
-          "parsimony_bdp-0.4.0/README.md",
-          "parsimony_bdp-0.4.0/pyproject.toml"
+          "sovereign_ai_stack-1.0.0/PKG-INFO",
+          "sovereign_ai_stack-1.0.0/pyproject.toml",
+          "sovereign_ai_stack-1.0.0/sovereign_ai_stack.egg-info/PKG-INFO"
         ],
-        "value": "https://www.bportugal.pt"
+        "value": "https://github.com/anandkrshnn/sovereign-ai-stack"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "sovereign_ai_stack-1.0.0/PKG-INFO",
+          "sovereign_ai_stack-1.0.0/pyproject.toml",
+          "sovereign_ai_stack-1.0.0/sovereign_ai_stack.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/anandkrshnn/sovereign-ai-stack/blob/main/CHANGELOG.md"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "sovereign_ai_stack-1.0.0/PKG-INFO",
+          "sovereign_ai_stack-1.0.0/pyproject.toml",
+          "sovereign_ai_stack-1.0.0/sovereign_ai_stack.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/anandkrshnn/sovereign-ai-stack/issues"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "sovereign_ai_stack-1.0.0/PKG-INFO",
+          "sovereign_ai_stack-1.0.0/pyproject.toml",
+          "sovereign_ai_stack-1.0.0/sovereign_ai_stack.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/anandkrshnn/sovereign-ai-stack/tree/main/docs"
       }
     ]
   },
-  "package": "parsimony-bdp",
-  "package_slug": "parsimony-bdp",
-  "project_url": "https://pypi.org/project/parsimony-bdp/",
+  "package": "sovereign-ai-stack",
+  "package_slug": "sovereign-ai-stack",
+  "project_url": "https://pypi.org/project/sovereign-ai-stack/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T16:57:53.866097+00:00",
+  "published_at": "2026-04-27T17:02:30.285709+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T16:58:48.722108+00:00",
-  "title": "Personal PyPI Supply Chain Scan: parsimony-bdp 0.4.0",
-  "version": "0.4.0",
-  "version_slug": "0.4.0",
-  "_metadata_path": "reports/packages/parsimony-bdp/0.4.0/metadata.json"
+  "scanned_at": "2026-04-27T17:03:12.493447+00:00",
+  "title": "Personal PyPI Supply Chain Scan: sovereign-ai-stack 1.0.0",
+  "version": "1.0.0",
+  "version_slug": "1.0.0",
+  "_metadata_path": "reports/packages/sovereign-ai-stack/1.0.0/metadata.json"
 }
