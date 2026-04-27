@@ -1,341 +1,873 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "superharness-1.41.0.tar.gz",
-  "finding_count": 506,
+  "distribution": "plain_admin-0.79.0.tar.gz",
+  "finding_count": 21,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
         "file_count": 1,
         "files": [
-          "superharness-1.41.0/src/superharness/modules/actions/telegram.py"
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/chart.js"
         ],
-        "value": "api.telegram.org"
+        "value": "2-e.top"
       },
       {
-        "file_count": 9,
+        "file_count": 1,
         "files": [
-          "superharness-1.41.0/PKG-INFO",
-          "superharness-1.41.0/README.md",
-          "superharness-1.41.0/pyproject.toml",
-          "superharness-1.41.0/src/superharness.egg-info/PKG-INFO",
-          "superharness-1.41.0/src/superharness/adapters/claude-code/.claude-plugin/plugin.json",
-          "superharness-1.41.0/src/superharness/commands/delegate.py",
-          "superharness-1.41.0/src/superharness/engine/detect.py",
-          "superharness-1.41.0/src/superharness/modules/actions/openclaw.py"
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/tippy.umd.min.js"
+        ],
+        "value": "a-s.top"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/chart.js",
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/popper.min.js"
+        ],
+        "value": "a.top"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "plain_admin-0.79.0/PKG-INFO",
+          "plain_admin-0.79.0/plain/admin/README.md"
+        ],
+        "value": "assets.plainframework.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/chart.js"
+        ],
+        "value": "c.top"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/assets/admin/charts.js"
+        ],
+        "value": "chartarea.top"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/chart.js"
+        ],
+        "value": "e.bottom-e.top"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/chart.js",
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/tippy.umd.min.js"
+        ],
+        "value": "e.top"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/popper.min.js"
+        ],
+        "value": "e.top-b.top"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/jquery-4.0.0.min.js"
+        ],
+        "value": "f.top"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/chart.js"
+        ],
+        "value": "g.top"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md",
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/bootstrap-icons.min.css",
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/chart.js"
         ],
         "value": "github.com"
       },
       {
         "file_count": 1,
         "files": [
-          "superharness-1.41.0/src/superharness/commands/inbox_watch.py"
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/chart.js"
         ],
-        "value": "github\\.com"
+        "value": "i.outerheight-n.bottom-n.top"
       },
       {
         "file_count": 2,
         "files": [
-          "superharness-1.41.0/src/superharness/module_templates/ntfy.yaml",
-          "superharness-1.41.0/src/superharness/modules/actions/ntfy.py"
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/chart.js",
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/jquery-4.0.0.min.js"
         ],
-        "value": "ntfy.sh"
+        "value": "i.top"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "plain_admin-0.79.0/PKG-INFO",
+          "plain_admin-0.79.0/plain/admin/README.md",
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/bootstrap-icons.min.css"
+        ],
+        "value": "icons.getbootstrap.com"
       },
       {
         "file_count": 1,
         "files": [
-          "superharness-1.41.0/src/superharness/commands/benchmark.py"
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/chart.js"
         ],
-        "value": "opts.top"
+        "value": "l.top"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/chart.js",
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/popper.min.js"
+        ],
+        "value": "n.top"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/chart.js"
+        ],
+        "value": "n.top-i.top"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/chart.js"
+        ],
+        "value": "o-e.top"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/chart.js"
+        ],
+        "value": "o-s.top"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/chart.js",
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/tippy.umd.min.js"
+        ],
+        "value": "o.top"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "plain_admin-0.79.0/PKG-INFO",
+          "plain_admin-0.79.0/plain/admin/README.md"
+        ],
+        "value": "pypi.org"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/chart.js",
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/popper.min.js"
+        ],
+        "value": "r.top"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/chart.js"
+        ],
+        "value": "s.clienty-t.top"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/chart.js",
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/tippy.umd.min.js"
+        ],
+        "value": "s.top"
       },
       {
         "file_count": 4,
         "files": [
-          "superharness-1.41.0/PKG-INFO",
-          "superharness-1.41.0/README.md",
-          "superharness-1.41.0/src/superharness.egg-info/PKG-INFO",
-          "superharness-1.41.0/src/superharness/scripts/install-remote.sh"
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/chart.js",
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/jquery-4.0.0.min.js",
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/popper.min.js",
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/tippy.umd.min.js"
         ],
-        "value": "raw.githubusercontent.com"
+        "value": "t.top"
       },
       {
         "file_count": 1,
         "files": [
-          "superharness-1.41.0/src/superharness/commands/workflow_cmd.py"
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/jquery-4.0.0.min.js"
         ],
-        "value": "raw.isdigit"
+        "value": "t.top-s.top"
       },
       {
         "file_count": 1,
         "files": [
-          "superharness-1.41.0/src/superharness/scripts/dashboard-ui.py"
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/chart.js"
         ],
-        "value": "raw.rstrip"
+        "value": "this.top"
       },
       {
         "file_count": 1,
         "files": [
-          "superharness-1.41.0/src/superharness/commands/test_type.py"
+          "plain_admin-0.79.0/plain/admin/assets/admin/datetime-tooltips.js"
         ],
-        "value": "raw.split"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "superharness-1.41.0/src/superharness/commands/doctor.py",
-          "superharness-1.41.0/src/superharness/engine/recall.py",
-          "superharness-1.41.0/src/superharness/scripts/dashboard-ui.py"
-        ],
-        "value": "raw.splitlines"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "superharness-1.41.0/src/superharness/commands/adapter_payload.py",
-          "superharness-1.41.0/src/superharness/engine/orchestrator.py",
-          "superharness-1.41.0/src/superharness/scripts/dashboard-ui.py"
-        ],
-        "value": "raw.strip"
+        "value": "tooltip.style.top"
       },
       {
         "file_count": 1,
         "files": [
-          "superharness-1.41.0/LICENSE"
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/popper.min.js"
         ],
-        "value": "www.apache.org"
+        "value": "u.bottom-u.top"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/popper.min.js"
+        ],
+        "value": "u.top"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/chart.js"
+        ],
+        "value": "www.chartjs.org"
       },
       {
         "file_count": 2,
         "files": [
-          "superharness-1.41.0/src/superharness/scripts/install-launchd-inbox-watcher.sh",
-          "superharness-1.41.0/src/superharness/scripts/install-operator-service.sh"
+          "plain_admin-0.79.0/PKG-INFO",
+          "plain_admin-0.79.0/plain/admin/README.md"
         ],
-        "value": "www.apple.com"
+        "value": "www.gravatar.com"
       },
       {
         "file_count": 1,
         "files": [
-          "superharness-1.41.0/src/superharness/scripts/init-project.sh"
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/chart.js"
         ],
-        "value": "www.python.org"
+        "value": "www.jsdelivr.com"
       },
       {
-        "file_count": 1,
+        "file_count": 6,
         "files": [
-          "superharness-1.41.0/src/superharness/scripts/init-project.sh"
-        ],
-        "value": "www.ruby-lang.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "superharness-1.41.0/src/superharness/scripts/dashboard.html"
+          "plain_admin-0.79.0/plain/admin/assets/admin/admin.css",
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/tippy.umd.min.js",
+          "plain_admin-0.79.0/plain/admin/templates/admin/_header.html",
+          "plain_admin-0.79.0/plain/admin/templates/admin/list.html",
+          "plain_admin-0.79.0/plain/admin/templates/admin/search.html",
+          "plain_admin-0.79.0/plain/admin/templates/admin/toolbar/button.html"
         ],
         "value": "www.w3.org"
       },
       {
         "file_count": 1,
         "files": [
-          "superharness-1.41.0/src/superharness/scripts/dashboard-ui.py"
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/popper.min.js"
         ],
-        "value": "{args.host"
+        "value": "x.top"
       },
       {
         "file_count": 1,
         "files": [
-          "superharness-1.41.0/src/superharness/scripts/dashboard-ui.py"
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/popper.min.js"
         ],
-        "value": "{host"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "superharness-1.41.0/src/superharness/scripts/dashboard-ui.py"
-        ],
-        "value": "{self.headers.get("
+        "value": "y.top"
       }
     ],
     "raw_public_ips": [],
-    "suspicious_endpoints": [
-      {
-        "file_count": 4,
-        "files": [
-          "superharness-1.41.0/PKG-INFO",
-          "superharness-1.41.0/README.md",
-          "superharness-1.41.0/src/superharness.egg-info/PKG-INFO",
-          "superharness-1.41.0/src/superharness/scripts/install-remote.sh"
-        ],
-        "value": "https://raw.githubusercontent.com/celstnblacc/superharness/main/scripts/install-remote.sh"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "superharness-1.41.0/PKG-INFO",
-          "superharness-1.41.0/README.md",
-          "superharness-1.41.0/src/superharness.egg-info/PKG-INFO",
-          "superharness-1.41.0/src/superharness/scripts/install-remote.sh"
-        ],
-        "value": "raw.githubusercontent.com"
-      }
-    ],
+    "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 1,
+        "file_count": 6,
         "files": [
-          "superharness-1.41.0/LICENSE"
-        ],
-        "value": "http://www.apache.org/licenses/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "superharness-1.41.0/LICENSE"
-        ],
-        "value": "http://www.apache.org/licenses/LICENSE-2.0"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "superharness-1.41.0/src/superharness/scripts/install-operator-service.sh"
-        ],
-        "value": "http://www.apple.com/DTDs/PropertyList-1.0.dtd"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "superharness-1.41.0/src/superharness/scripts/install-launchd-inbox-watcher.sh"
-        ],
-        "value": "http://www.apple.com/DTDs/PropertyList-1.0.dtd\\"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "superharness-1.41.0/src/superharness/scripts/dashboard.html"
-        ],
-        "value": "http://www.w3.org/1999/xhtml"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "superharness-1.41.0/src/superharness/scripts/dashboard.html"
+          "plain_admin-0.79.0/plain/admin/assets/admin/admin.css",
+          "plain_admin-0.79.0/plain/admin/assets/admin/vendor/tippy.umd.min.js",
+          "plain_admin-0.79.0/plain/admin/templates/admin/_header.html",
+          "plain_admin-0.79.0/plain/admin/templates/admin/list.html",
+          "plain_admin-0.79.0/plain/admin/templates/admin/search.html",
+          "plain_admin-0.79.0/plain/admin/templates/admin/toolbar/button.html"
         ],
         "value": "http://www.w3.org/2000/svg"
       },
       {
-        "file_count": 1,
-        "files": [
-          "superharness-1.41.0/src/superharness/scripts/dashboard-ui.py"
-        ],
-        "value": "http://{args.host"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "superharness-1.41.0/src/superharness/scripts/dashboard-ui.py"
-        ],
-        "value": "http://{host"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "superharness-1.41.0/src/superharness/scripts/dashboard-ui.py"
-        ],
-        "value": "http://{self.headers.get("
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "superharness-1.41.0/src/superharness/modules/actions/telegram.py"
-        ],
-        "value": "https://api.telegram.org/bot{token"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "superharness-1.41.0/PKG-INFO",
-          "superharness-1.41.0/pyproject.toml",
-          "superharness-1.41.0/src/superharness.egg-info/PKG-INFO",
-          "superharness-1.41.0/src/superharness/adapters/claude-code/.claude-plugin/plugin.json"
-        ],
-        "value": "https://github.com/celstnblacc/superharness"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "superharness-1.41.0/PKG-INFO",
-          "superharness-1.41.0/README.md",
-          "superharness-1.41.0/src/superharness.egg-info/PKG-INFO",
-          "superharness-1.41.0/src/superharness/scripts/install-remote.sh"
-        ],
-        "value": "https://github.com/celstnblacc/superharness.git"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "superharness-1.41.0/PKG-INFO",
-          "superharness-1.41.0/pyproject.toml",
-          "superharness-1.41.0/src/superharness.egg-info/PKG-INFO"
-        ],
-        "value": "https://github.com/celstnblacc/superharness/issues"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "superharness-1.41.0/src/superharness/commands/delegate.py"
-        ],
-        "value": "https://github.com/org/repo/pull/N"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "superharness-1.41.0/src/superharness/commands/inbox_watch.py"
-        ],
-        "value": "https://github\\.com/[^/"
-      },
-      {
         "file_count": 2,
         "files": [
-          "superharness-1.41.0/src/superharness/module_templates/ntfy.yaml",
-          "superharness-1.41.0/src/superharness/modules/actions/ntfy.py"
+          "plain_admin-0.79.0/PKG-INFO",
+          "plain_admin-0.79.0/plain/admin/README.md"
         ],
-        "value": "https://ntfy.sh"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "superharness-1.41.0/PKG-INFO",
-          "superharness-1.41.0/README.md",
-          "superharness-1.41.0/src/superharness.egg-info/PKG-INFO",
-          "superharness-1.41.0/src/superharness/scripts/install-remote.sh"
-        ],
-        "value": "https://raw.githubusercontent.com/celstnblacc/superharness/main/scripts/install-remote.sh"
+        "value": "https://assets.plainframework.com/docs/plain-pageviews-user.png"
       },
       {
         "file_count": 1,
         "files": [
-          "superharness-1.41.0/src/superharness/scripts/init-project.sh"
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
         ],
-        "value": "https://www.python.org/downloads/"
+        "value": "https://github.com/dropseed/plain/commit/020e1d56cb3a"
       },
       {
         "file_count": 1,
         "files": [
-          "superharness-1.41.0/src/superharness/scripts/init-project.sh"
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
         ],
-        "value": "https://www.ruby-lang.org/en/downloads/"
+        "value": "https://github.com/dropseed/plain/commit/028bb95c3ae3"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/037a239ef4711c4477a211d63c57ad8414096301"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/0466ee2f74"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/05d6fa2764"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/061b97f5d538"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/078f7daeed"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/0861c9915cb6"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/095bc93621"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/0da5639d17e2"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/0e04d5a33aa7ab5e9dfb7dcd3dd525a0b2a748ec"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/0ecc60f19e5cf7db10a7d05e5a799d001725d1fc"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/0fc4dd345f"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/1412efe712b5"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/154ee10375"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/1747ca6fa758d5176c0ab770177130ac5497cf29"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/1a1c622539"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/1b43a3a272"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/1c02564561"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/1d17fb5853"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/1d781919be7c4b8f6390faeac9df596934f7e760"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/1f15538b008f"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/217751b866"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/22786347fc"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/257fc004a278"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/262ad569d5df"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/2894abfc5d98"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/2a2730d155db"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/2fc81de"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/307e8d0037d9"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/321828707feb"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/3265f5f"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/365414cc6f"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/38c9f12ed473782b5edcbc79e52735513e6009d2"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/3b49eb0258"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/3c3a984428"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/43626494a275631ee1ee0d6fa8b4597c7e998fc1"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/4536cd4186c4"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/460b2033a018"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/47716ae"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/48a27f08287c"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/48effac976a9"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/4afb06a6b4"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/4b2cd54022b7"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/4b8fa6a"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/4c5f2166c1"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/4c9a9997d1ca"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/4e5245fa17d0"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/4ebecd1856f96afc09a2ad6887224ae94b1a7395"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/4ec631a7ef51"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/5062ee4dd1fd"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/539a706760"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/53b69d7e08"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/55a6eaf"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/569afd606d"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/57fb948d465789a08c60b68ff71aa7edd671a571"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/58e62380dd"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/597fe43ca9de"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/5a6479ac79b2a082a5d29a0b8cb0385401bad63b"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/5bf11926c7"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/5ce0de9ed1da"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/5d145e4"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/5edfb2bedf90"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/616948c9dd"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/6303c2519f93"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/63d76b23d868"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/6652f8aeed61"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/698e4a8811"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/6ec9047ac337"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/6f3a066bf80f"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/709b8d2d27"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/73ba469ba0"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/762c092652d53aa7922d03a3fcfb0d74a19ab8bd"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/76e28f6197"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/772345d4e1f1"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/784f3dd972"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/793c57b200"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plain_admin-0.79.0/plain/admin/CHANGELOG.md"
+        ],
+        "value": "https://github.com/dropseed/plain/commit/79654dbefe"
       }
     ]
   },
-  "package": "superharness",
-  "package_slug": "superharness",
-  "project_url": "https://pypi.org/project/superharness/",
+  "package": "plain.admin",
+  "package_slug": "plain.admin",
+  "project_url": "https://pypi.org/project/plain.admin/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T21:24:29.103816+00:00",
+  "published_at": "2026-04-27T21:29:10.935252+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T21:25:43.833803+00:00",
-  "title": "Personal PyPI Supply Chain Scan: superharness 1.41.0",
-  "version": "1.41.0",
-  "version_slug": "1.41.0",
-  "_metadata_path": "reports/packages/superharness/1.41.0/metadata.json"
+  "scanned_at": "2026-04-27T21:30:03.734741+00:00",
+  "title": "Personal PyPI Supply Chain Scan: plain.admin 0.79.0",
+  "version": "0.79.0",
+  "version_slug": "0.79.0",
+  "_metadata_path": "reports/packages/plain.admin/0.79.0/metadata.json"
 }
