@@ -1,72 +1,42 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "yongle_worker-0.1.2.tar.gz",
-  "finding_count": 6,
+  "distribution": "scautolib-3.5.3.tar.gz",
+  "finding_count": 23,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
         "file_count": 1,
         "files": [
-          "yongle_worker-0.1.2/src/yongle_worker/local_models.py"
+          "scautolib-3.5.3/SCAutolib/__init__.py"
         ],
-        "value": "api.ipify.org"
+        "value": "docs.python.org"
       },
       {
         "file_count": 1,
         "files": [
-          "yongle_worker-0.1.2/src/yongle_worker/local_models.py"
+          "scautolib-3.5.3/LICENSE"
         ],
-        "value": "ifconfig.me"
+        "value": "fsf.org"
+      },
+      {
+        "file_count": 6,
+        "files": [
+          "scautolib-3.5.3/PKG-INFO",
+          "scautolib-3.5.3/SCAutolib.egg-info/PKG-INFO",
+          "scautolib-3.5.3/SCAutolib/cli_commands.py",
+          "scautolib-3.5.3/SCAutolib/controller.py",
+          "scautolib-3.5.3/SCAutolib/models/CA.py",
+          "scautolib-3.5.3/setup.py"
+        ],
+        "value": "github.com"
       },
       {
         "file_count": 1,
         "files": [
-          "yongle_worker-0.1.2/src/yongle_worker/executor.py"
+          "scautolib-3.5.3/LICENSE"
         ],
-        "value": "raw.split"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "yongle_worker-0.1.2/src/yongle_worker/cli.py"
-        ],
-        "value": "raw.strip"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "yongle_worker-0.1.2/src/yongle_worker/local_models.py"
-        ],
-        "value": "vacations.ctrip.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "yongle_worker-0.1.2/src/yongle_worker/providers/boss.py"
-        ],
-        "value": "www.zhipin.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "yongle_worker-0.1.2/src/yongle_worker/config.py"
-        ],
-        "value": "xn--fjq883ae1m.icu"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "yongle_worker-0.1.2/src/yongle_worker/local_models.py"
-        ],
-        "value": "you.ctrip.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "yongle_worker-0.1.2/src/yongle_worker/local_models.py"
-        ],
-        "value": "you\\.ctrip\\.com"
+        "value": "www.gnu.org"
       }
     ],
     "raw_public_ips": [],
@@ -75,64 +45,80 @@
       {
         "file_count": 1,
         "files": [
-          "yongle_worker-0.1.2/src/yongle_worker/local_models.py"
+          "scautolib-3.5.3/SCAutolib/__init__.py"
         ],
-        "value": "https://api.ipify.org?format=json"
+        "value": "https://docs.python.org/3/library/io.html"
       },
       {
         "file_count": 1,
         "files": [
-          "yongle_worker-0.1.2/src/yongle_worker/local_models.py"
+          "scautolib-3.5.3/LICENSE"
         ],
-        "value": "https://ifconfig.me/ip"
+        "value": "https://fsf.org/"
       },
       {
         "file_count": 1,
         "files": [
-          "yongle_worker-0.1.2/src/yongle_worker/local_models.py"
+          "scautolib-3.5.3/SCAutolib/controller.py"
         ],
-        "value": "https://vacations.ctrip.com/list/whole/sc.html?sv={quote(keyword"
+        "value": "https://github.com/nkinder/smart-card-removinator.git"
       },
       {
         "file_count": 1,
         "files": [
-          "yongle_worker-0.1.2/src/yongle_worker/providers/boss.py"
+          "scautolib-3.5.3/SCAutolib/controller.py"
         ],
-        "value": "https://www.zhipin.com"
+        "value": "https://github.com/nkinder/smart-card-removinator/issues/11"
       },
       {
         "file_count": 1,
         "files": [
-          "yongle_worker-0.1.2/src/yongle_worker/config.py"
+          "scautolib-3.5.3/SCAutolib/cli_commands.py"
         ],
-        "value": "https://xn--fjq883ae1m.icu/api/v1"
+        "value": "https://github.com/pallets/click/issues/513#issuecomment-301046782"
       },
       {
         "file_count": 1,
         "files": [
-          "yongle_worker-0.1.2/src/yongle_worker/local_models.py"
+          "scautolib-3.5.3/SCAutolib/models/CA.py"
         ],
-        "value": "https://you.ctrip.com"
+        "value": "https://github.com/paramiko/paramiko/issues/396"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "scautolib-3.5.3/PKG-INFO",
+          "scautolib-3.5.3/SCAutolib.egg-info/PKG-INFO",
+          "scautolib-3.5.3/setup.py"
+        ],
+        "value": "https://github.com/redhat-qe-security/SCAutolib"
       },
       {
         "file_count": 1,
         "files": [
-          "yongle_worker-0.1.2/src/yongle_worker/local_models.py"
+          "scautolib-3.5.3/LICENSE"
         ],
-        "value": "https://you\\.ctrip\\.com/sight/[a-zA-Z0-9"
+        "value": "https://www.gnu.org/licenses/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "scautolib-3.5.3/LICENSE"
+        ],
+        "value": "https://www.gnu.org/licenses/why-not-lgpl.html"
       }
     ]
   },
-  "package": "yongle-worker",
-  "package_slug": "yongle-worker",
-  "project_url": "https://pypi.org/project/yongle-worker/",
+  "package": "SCAutolib",
+  "package_slug": "scautolib",
+  "project_url": "https://pypi.org/project/SCAutolib/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T08:49:10.939825+00:00",
+  "published_at": "2026-04-27T08:52:45.778698+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T08:49:55.409436+00:00",
-  "title": "Personal PyPI Supply Chain Scan: yongle-worker 0.1.2",
-  "version": "0.1.2",
-  "version_slug": "0.1.2",
-  "_metadata_path": "reports/packages/yongle-worker/0.1.2/metadata.json"
+  "scanned_at": "2026-04-27T08:54:18.203846+00:00",
+  "title": "Personal PyPI Supply Chain Scan: SCAutolib 3.5.3",
+  "version": "3.5.3",
+  "version_slug": "3.5.3",
+  "_metadata_path": "reports/packages/scautolib/3.5.3/metadata.json"
 }
