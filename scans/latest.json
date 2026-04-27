@@ -1,471 +1,344 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "pyagc-1.1.0.tar.gz",
-  "finding_count": 4,
+  "distribution": "acme_tiny-5.0.3.tar.gz",
+  "finding_count": 71,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 3,
-        "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
-        ],
-        "value": "arxiv.org"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
-        ],
-        "value": "en.wikipedia.org"
-      },
-      {
         "file_count": 4,
         "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO",
-          "pyagc-1.1.0/pyproject.toml"
+          "acme_tiny-5.0.3/PKG-INFO",
+          "acme_tiny-5.0.3/README.md",
+          "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO",
+          "acme_tiny-5.0.3/tests/test_module.py"
+        ],
+        "value": "acme-staging-v02.api.letsencrypt.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "acme_tiny-5.0.3/acme_tiny.py"
+        ],
+        "value": "acme-v02.api.letsencrypt.org"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "acme_tiny-5.0.3/PKG-INFO",
+          "acme_tiny-5.0.3/README.md",
+          "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
+        ],
+        "value": "coveralls.io"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "acme_tiny-5.0.3/PKG-INFO",
+          "acme_tiny-5.0.3/README.md",
+          "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
+        ],
+        "value": "eff.org"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "acme_tiny-5.0.3/PKG-INFO",
+          "acme_tiny-5.0.3/README.md",
+          "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
+        ],
+        "value": "gist.github.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "acme_tiny-5.0.3/PKG-INFO",
+          "acme_tiny-5.0.3/README.md",
+          "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
+        ],
+        "value": "gist.githubusercontent.com"
+      },
+      {
+        "file_count": 8,
+        "files": [
+          "acme_tiny-5.0.3/.github/workflows/full-tests-with-coverage.yml",
+          "acme_tiny-5.0.3/.github/workflows/pull-request-tests.yml",
+          "acme_tiny-5.0.3/PKG-INFO",
+          "acme_tiny-5.0.3/README.md",
+          "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO",
+          "acme_tiny-5.0.3/acme_tiny.py",
+          "acme_tiny-5.0.3/pyproject.toml",
+          "acme_tiny-5.0.3/tests/README.md"
         ],
         "value": "github.com"
       },
       {
         "file_count": 3,
         "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+          "acme_tiny-5.0.3/PKG-INFO",
+          "acme_tiny-5.0.3/README.md",
+          "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
         ],
-        "value": "img.shields.io"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
-        ],
-        "value": "jmlr.org"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
-        ],
-        "value": "ogb.stanford.edu"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
-        ],
-        "value": "ojs.aaai.org"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
-        ],
-        "value": "openreview.net"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
-        ],
-        "value": "proceedings.mlr.press"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
-        ],
-        "value": "proceedings.neurips.cc"
+        "value": "gitlab.com"
       },
       {
         "file_count": 4,
         "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO",
-          "pyagc-1.1.0/pyproject.toml"
+          "acme_tiny-5.0.3/PKG-INFO",
+          "acme_tiny-5.0.3/README.md",
+          "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO",
+          "acme_tiny-5.0.3/tests/README.md"
         ],
-        "value": "pyagc.readthedocs.io"
+        "value": "letsencrypt.org"
       },
       {
         "file_count": 3,
         "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+          "acme_tiny-5.0.3/PKG-INFO",
+          "acme_tiny-5.0.3/README.md",
+          "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
         ],
-        "value": "pypi.org"
+        "value": "tools.ietf.org"
       },
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+          "acme_tiny-5.0.3/acme_tiny.py",
+          "acme_tiny-5.0.3/tests/test_module.py"
         ],
-        "value": "pytorch.org"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
-        ],
-        "value": "www.pyg.org"
+        "value": "{0"
       }
     ],
     "raw_public_ips": [],
-    "suspicious_endpoints": [],
+    "suspicious_endpoints": [
+      {
+        "file_count": 3,
+        "files": [
+          "acme_tiny-5.0.3/PKG-INFO",
+          "acme_tiny-5.0.3/README.md",
+          "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
+        ],
+        "value": "gist.githubusercontent.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "acme_tiny-5.0.3/PKG-INFO",
+          "acme_tiny-5.0.3/README.md",
+          "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
+        ],
+        "value": "https://gist.githubusercontent.com/JonLundy/f25c99ee0770e19dc595/raw/6035c1c8938fae85810de6aad1ecf6e2db663e26/conv.py"
+      }
+    ],
     "urls": [
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+          "acme_tiny-5.0.3/acme_tiny.py",
+          "acme_tiny-5.0.3/tests/test_module.py"
         ],
-        "value": "https://arxiv.org/abs/1607.00653"
+        "value": "http://{0"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "acme_tiny-5.0.3/tests/test_module.py"
+        ],
+        "value": "https://acme-staging-v02.api.letsencrypt.org/directory"
       },
       {
         "file_count": 3,
         "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+          "acme_tiny-5.0.3/PKG-INFO",
+          "acme_tiny-5.0.3/README.md",
+          "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
         ],
-        "value": "https://arxiv.org/abs/1611.07308"
+        "value": "https://acme-staging-v02.api.letsencrypt.org/directory`"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "acme_tiny-5.0.3/acme_tiny.py"
+        ],
+        "value": "https://acme-v02.api.letsencrypt.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "acme_tiny-5.0.3/acme_tiny.py"
+        ],
+        "value": "https://acme-v02.api.letsencrypt.org/directory"
       },
       {
         "file_count": 3,
         "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+          "acme_tiny-5.0.3/PKG-INFO",
+          "acme_tiny-5.0.3/README.md",
+          "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
         ],
-        "value": "https://arxiv.org/abs/1809.10341"
+        "value": "https://coveralls.io/github/diafygi/acme-tiny?branch=main"
       },
       {
         "file_count": 3,
         "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+          "acme_tiny-5.0.3/PKG-INFO",
+          "acme_tiny-5.0.3/README.md",
+          "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
         ],
-        "value": "https://arxiv.org/abs/1906.06532"
+        "value": "https://coveralls.io/repos/github/diafygi/acme-tiny/badge.svg?branch=main"
       },
       {
         "file_count": 3,
         "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+          "acme_tiny-5.0.3/PKG-INFO",
+          "acme_tiny-5.0.3/README.md",
+          "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
         ],
-        "value": "https://arxiv.org/abs/2106.12484"
+        "value": "https://eff.org/donate/"
       },
       {
         "file_count": 3,
         "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+          "acme_tiny-5.0.3/PKG-INFO",
+          "acme_tiny-5.0.3/README.md",
+          "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
         ],
-        "value": "https://arxiv.org/abs/2211.12875"
+        "value": "https://gist.github.com/JonLundy/f25c99ee0770e19dc595"
       },
       {
         "file_count": 3,
         "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+          "acme_tiny-5.0.3/PKG-INFO",
+          "acme_tiny-5.0.3/README.md",
+          "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
         ],
-        "value": "https://arxiv.org/abs/2310.01144"
+        "value": "https://gist.githubusercontent.com/JonLundy/f25c99ee0770e19dc595/raw/6035c1c8938fae85810de6aad1ecf6e2db663e26/conv.py"
       },
       {
         "file_count": 3,
         "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+          "acme_tiny-5.0.3/PKG-INFO",
+          "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO",
+          "acme_tiny-5.0.3/pyproject.toml"
         ],
-        "value": "https://arxiv.org/abs/2406.14288"
+        "value": "https://github.com/diafygi/acme-tiny"
       },
       {
         "file_count": 3,
         "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+          "acme_tiny-5.0.3/PKG-INFO",
+          "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO",
+          "acme_tiny-5.0.3/pyproject.toml"
         ],
-        "value": "https://arxiv.org/abs/2408.03765"
+        "value": "https://github.com/diafygi/acme-tiny.git"
       },
       {
         "file_count": 3,
         "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+          "acme_tiny-5.0.3/PKG-INFO",
+          "acme_tiny-5.0.3/README.md",
+          "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
         ],
-        "value": "https://arxiv.org/abs/2411.11074"
+        "value": "https://github.com/diafygi/acme-tiny/actions/workflows/full-tests-with-coverage.yml"
       },
       {
         "file_count": 3,
         "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+          "acme_tiny-5.0.3/PKG-INFO",
+          "acme_tiny-5.0.3/README.md",
+          "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
         ],
-        "value": "https://arxiv.org/abs/2602.08519"
+        "value": "https://github.com/diafygi/acme-tiny/actions/workflows/full-tests-with-coverage.yml/badge.svg?branch=main"
       },
       {
         "file_count": 3,
         "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+          "acme_tiny-5.0.3/PKG-INFO",
+          "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO",
+          "acme_tiny-5.0.3/pyproject.toml"
         ],
-        "value": "https://arxiv.org/abs/2603.20829"
+        "value": "https://github.com/diafygi/acme-tiny/issues"
       },
       {
         "file_count": 3,
         "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+          "acme_tiny-5.0.3/PKG-INFO",
+          "acme_tiny-5.0.3/README.md",
+          "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
         ],
-        "value": "https://en.wikipedia.org/wiki/K-means_clustering"
+        "value": "https://github.com/letsencrypt/letsencrypt"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "acme_tiny-5.0.3/tests/README.md"
+        ],
+        "value": "https://github.com/letsencrypt/pebble"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "acme_tiny-5.0.3/.github/workflows/full-tests-with-coverage.yml",
+          "acme_tiny-5.0.3/.github/workflows/pull-request-tests.yml"
+        ],
+        "value": "https://github.com/letsencrypt/pebble/releases/latest/download/pebble-linux-amd64.tar.gz"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "acme_tiny-5.0.3/tests/README.md"
+        ],
+        "value": "https://github.com/letsencrypt/pebble/releases/latest/download/pebble-linux-amd64.tar.gz`"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "acme_tiny-5.0.3/PKG-INFO",
+          "acme_tiny-5.0.3/README.md",
+          "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
+        ],
+        "value": "https://gitlab.com/gnutls/gnutls/-/issues/1131"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "acme_tiny-5.0.3/PKG-INFO",
+          "acme_tiny-5.0.3/README.md",
+          "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
+        ],
+        "value": "https://letsencrypt.org/"
       },
       {
         "file_count": 4,
         "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO",
-          "pyagc-1.1.0/pyproject.toml"
+          "acme_tiny-5.0.3/PKG-INFO",
+          "acme_tiny-5.0.3/README.md",
+          "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO",
+          "acme_tiny-5.0.3/tests/README.md"
         ],
-        "value": "https://github.com/Cloudy1225/PyAGC"
+        "value": "https://letsencrypt.org/docs/staging-environment/"
       },
       {
         "file_count": 3,
         "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+          "acme_tiny-5.0.3/PKG-INFO",
+          "acme_tiny-5.0.3/README.md",
+          "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
         ],
-        "value": "https://github.com/Cloudy1225/PyAGC.git"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
-        ],
-        "value": "https://github.com/Cloudy1225/PyAGC/blob/main/LICENSE"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
-        ],
-        "value": "https://github.com/Cloudy1225/PyAGC/issues"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
-        ],
-        "value": "https://github.com/yandex-research/graphland"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
-        ],
-        "value": "https://img.shields.io/badge/docs-readthedocs-blue.svg"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
-        ],
-        "value": "https://img.shields.io/badge/license-MIT-blue.svg"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
-        ],
-        "value": "https://img.shields.io/github/stars/Cloudy1225/PyAGC.svg?style=social"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
-        ],
-        "value": "https://img.shields.io/pypi/v/pyagc.svg"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
-        ],
-        "value": "https://jmlr.org/papers/v24/20-998.html"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
-        ],
-        "value": "https://ogb.stanford.edu/"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
-        ],
-        "value": "https://ojs.aaai.org/index.php/AAAI/article/view/25918"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
-        ],
-        "value": "https://openreview.net/forum?id=CYO5T-YjWZV"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
-        ],
-        "value": "https://openreview.net/forum?id=dKVUUZfcW9"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
-        ],
-        "value": "https://proceedings.mlr.press/v119/bianchi20a.html"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
-        ],
-        "value": "https://proceedings.mlr.press/v202/liu23v.html"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
-        ],
-        "value": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/15972a9575e0f03bf82f00aebeb40774-Abstract-Conference.html"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO",
-          "pyagc-1.1.0/pyproject.toml"
-        ],
-        "value": "https://pyagc.readthedocs.io"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
-        ],
-        "value": "https://pypi.org/project/PyAGC"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
-        ],
-        "value": "https://pypi.org/project/pyagc"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
-        ],
-        "value": "https://pytorch.org"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "pyagc-1.1.0/PKG-INFO",
-          "pyagc-1.1.0/README.md",
-          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
-        ],
-        "value": "https://www.pyg.org/"
+        "value": "https://tools.ietf.org/html/rfc7517"
       }
     ]
   },
-  "package": "pyagc",
-  "package_slug": "pyagc",
-  "project_url": "https://pypi.org/project/pyagc/",
+  "package": "acme-tiny",
+  "package_slug": "acme-tiny",
+  "project_url": "https://pypi.org/project/acme-tiny/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T13:05:51.151896+00:00",
+  "published_at": "2026-04-27T13:09:59.608502+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T13:06:29.618030+00:00",
-  "title": "Personal PyPI Supply Chain Scan: pyagc 1.1.0",
-  "version": "1.1.0",
-  "version_slug": "1.1.0",
-  "_metadata_path": "reports/packages/pyagc/1.1.0/metadata.json"
+  "scanned_at": "2026-04-27T13:10:53.546704+00:00",
+  "title": "Personal PyPI Supply Chain Scan: acme-tiny 5.0.3",
+  "version": "5.0.3",
+  "version_slug": "5.0.3",
+  "_metadata_path": "reports/packages/acme-tiny/5.0.3/metadata.json"
 }

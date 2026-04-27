@@ -1,6 +1,350 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "acme_tiny-5.0.3.tar.gz",
+    "finding_count": 71,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 4,
+          "files": [
+            "acme_tiny-5.0.3/PKG-INFO",
+            "acme_tiny-5.0.3/README.md",
+            "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO",
+            "acme_tiny-5.0.3/tests/test_module.py"
+          ],
+          "value": "acme-staging-v02.api.letsencrypt.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "acme_tiny-5.0.3/acme_tiny.py"
+          ],
+          "value": "acme-v02.api.letsencrypt.org"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "acme_tiny-5.0.3/PKG-INFO",
+            "acme_tiny-5.0.3/README.md",
+            "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
+          ],
+          "value": "coveralls.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "acme_tiny-5.0.3/PKG-INFO",
+            "acme_tiny-5.0.3/README.md",
+            "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
+          ],
+          "value": "eff.org"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "acme_tiny-5.0.3/PKG-INFO",
+            "acme_tiny-5.0.3/README.md",
+            "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
+          ],
+          "value": "gist.github.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "acme_tiny-5.0.3/PKG-INFO",
+            "acme_tiny-5.0.3/README.md",
+            "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
+          ],
+          "value": "gist.githubusercontent.com"
+        },
+        {
+          "file_count": 8,
+          "files": [
+            "acme_tiny-5.0.3/.github/workflows/full-tests-with-coverage.yml",
+            "acme_tiny-5.0.3/.github/workflows/pull-request-tests.yml",
+            "acme_tiny-5.0.3/PKG-INFO",
+            "acme_tiny-5.0.3/README.md",
+            "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO",
+            "acme_tiny-5.0.3/acme_tiny.py",
+            "acme_tiny-5.0.3/pyproject.toml",
+            "acme_tiny-5.0.3/tests/README.md"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "acme_tiny-5.0.3/PKG-INFO",
+            "acme_tiny-5.0.3/README.md",
+            "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
+          ],
+          "value": "gitlab.com"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "acme_tiny-5.0.3/PKG-INFO",
+            "acme_tiny-5.0.3/README.md",
+            "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO",
+            "acme_tiny-5.0.3/tests/README.md"
+          ],
+          "value": "letsencrypt.org"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "acme_tiny-5.0.3/PKG-INFO",
+            "acme_tiny-5.0.3/README.md",
+            "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
+          ],
+          "value": "tools.ietf.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "acme_tiny-5.0.3/acme_tiny.py",
+            "acme_tiny-5.0.3/tests/test_module.py"
+          ],
+          "value": "{0"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [
+        {
+          "file_count": 3,
+          "files": [
+            "acme_tiny-5.0.3/PKG-INFO",
+            "acme_tiny-5.0.3/README.md",
+            "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
+          ],
+          "value": "gist.githubusercontent.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "acme_tiny-5.0.3/PKG-INFO",
+            "acme_tiny-5.0.3/README.md",
+            "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
+          ],
+          "value": "https://gist.githubusercontent.com/JonLundy/f25c99ee0770e19dc595/raw/6035c1c8938fae85810de6aad1ecf6e2db663e26/conv.py"
+        }
+      ],
+      "urls": [
+        {
+          "file_count": 2,
+          "files": [
+            "acme_tiny-5.0.3/acme_tiny.py",
+            "acme_tiny-5.0.3/tests/test_module.py"
+          ],
+          "value": "http://{0"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "acme_tiny-5.0.3/tests/test_module.py"
+          ],
+          "value": "https://acme-staging-v02.api.letsencrypt.org/directory"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "acme_tiny-5.0.3/PKG-INFO",
+            "acme_tiny-5.0.3/README.md",
+            "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
+          ],
+          "value": "https://acme-staging-v02.api.letsencrypt.org/directory`"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "acme_tiny-5.0.3/acme_tiny.py"
+          ],
+          "value": "https://acme-v02.api.letsencrypt.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "acme_tiny-5.0.3/acme_tiny.py"
+          ],
+          "value": "https://acme-v02.api.letsencrypt.org/directory"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "acme_tiny-5.0.3/PKG-INFO",
+            "acme_tiny-5.0.3/README.md",
+            "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
+          ],
+          "value": "https://coveralls.io/github/diafygi/acme-tiny?branch=main"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "acme_tiny-5.0.3/PKG-INFO",
+            "acme_tiny-5.0.3/README.md",
+            "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
+          ],
+          "value": "https://coveralls.io/repos/github/diafygi/acme-tiny/badge.svg?branch=main"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "acme_tiny-5.0.3/PKG-INFO",
+            "acme_tiny-5.0.3/README.md",
+            "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
+          ],
+          "value": "https://eff.org/donate/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "acme_tiny-5.0.3/PKG-INFO",
+            "acme_tiny-5.0.3/README.md",
+            "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
+          ],
+          "value": "https://gist.github.com/JonLundy/f25c99ee0770e19dc595"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "acme_tiny-5.0.3/PKG-INFO",
+            "acme_tiny-5.0.3/README.md",
+            "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
+          ],
+          "value": "https://gist.githubusercontent.com/JonLundy/f25c99ee0770e19dc595/raw/6035c1c8938fae85810de6aad1ecf6e2db663e26/conv.py"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "acme_tiny-5.0.3/PKG-INFO",
+            "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO",
+            "acme_tiny-5.0.3/pyproject.toml"
+          ],
+          "value": "https://github.com/diafygi/acme-tiny"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "acme_tiny-5.0.3/PKG-INFO",
+            "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO",
+            "acme_tiny-5.0.3/pyproject.toml"
+          ],
+          "value": "https://github.com/diafygi/acme-tiny.git"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "acme_tiny-5.0.3/PKG-INFO",
+            "acme_tiny-5.0.3/README.md",
+            "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/diafygi/acme-tiny/actions/workflows/full-tests-with-coverage.yml"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "acme_tiny-5.0.3/PKG-INFO",
+            "acme_tiny-5.0.3/README.md",
+            "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/diafygi/acme-tiny/actions/workflows/full-tests-with-coverage.yml/badge.svg?branch=main"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "acme_tiny-5.0.3/PKG-INFO",
+            "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO",
+            "acme_tiny-5.0.3/pyproject.toml"
+          ],
+          "value": "https://github.com/diafygi/acme-tiny/issues"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "acme_tiny-5.0.3/PKG-INFO",
+            "acme_tiny-5.0.3/README.md",
+            "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/letsencrypt/letsencrypt"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "acme_tiny-5.0.3/tests/README.md"
+          ],
+          "value": "https://github.com/letsencrypt/pebble"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "acme_tiny-5.0.3/.github/workflows/full-tests-with-coverage.yml",
+            "acme_tiny-5.0.3/.github/workflows/pull-request-tests.yml"
+          ],
+          "value": "https://github.com/letsencrypt/pebble/releases/latest/download/pebble-linux-amd64.tar.gz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "acme_tiny-5.0.3/tests/README.md"
+          ],
+          "value": "https://github.com/letsencrypt/pebble/releases/latest/download/pebble-linux-amd64.tar.gz`"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "acme_tiny-5.0.3/PKG-INFO",
+            "acme_tiny-5.0.3/README.md",
+            "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
+          ],
+          "value": "https://gitlab.com/gnutls/gnutls/-/issues/1131"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "acme_tiny-5.0.3/PKG-INFO",
+            "acme_tiny-5.0.3/README.md",
+            "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
+          ],
+          "value": "https://letsencrypt.org/"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "acme_tiny-5.0.3/PKG-INFO",
+            "acme_tiny-5.0.3/README.md",
+            "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO",
+            "acme_tiny-5.0.3/tests/README.md"
+          ],
+          "value": "https://letsencrypt.org/docs/staging-environment/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "acme_tiny-5.0.3/PKG-INFO",
+            "acme_tiny-5.0.3/README.md",
+            "acme_tiny-5.0.3/acme_tiny.egg-info/PKG-INFO"
+          ],
+          "value": "https://tools.ietf.org/html/rfc7517"
+        }
+      ]
+    },
+    "package": "acme-tiny",
+    "package_slug": "acme-tiny",
+    "project_url": "https://pypi.org/project/acme-tiny/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T13:09:59.608502+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T13:10:53.546704+00:00",
+    "title": "Personal PyPI Supply Chain Scan: acme-tiny 5.0.3",
+    "version": "5.0.3",
+    "version_slug": "5.0.3",
+    "_metadata_path": "reports/packages/acme-tiny/5.0.3/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "pyagc-1.1.0.tar.gz",
     "finding_count": 4,
     "model": "gpt-5.5",
