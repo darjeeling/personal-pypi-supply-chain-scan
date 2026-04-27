@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal PyPI Supply Chain Scan: cdpify 0.2.9</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 960px; line-height: 1.55; padding: 0 1rem; color: #1f2933; }
+    a { color: #1f5fbf; }
+    code { background: #f4f4f4; padding: 0.1rem 0.25rem; }
+    h1, h2, h3 { line-height: 1.2; }
+    li { margin: 0.35rem 0; }
+    nav { margin-bottom: 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #e5e9ef; padding: 0.55rem 0.65rem; text-align: left; vertical-align: top; }
+    th { color: #52616f; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; }
+    .scan-groups { margin-top: 1.2rem; }
+    .scan-day { border-top: 1px solid #d8dee4; display: grid; gap: 1rem; grid-template-columns: 10rem minmax(0, 1fr); padding: 1.1rem 0; }
+    .scan-day-date { color: #1f2933; font-weight: 700; }
+    .scan-day-date span { color: #52616f; display: block; font-size: 0.9rem; font-weight: 500; margin-top: 0.2rem; }
+    .scan-day-table { overflow-x: auto; }
+    .risk { display: inline-block; min-width: 4.8rem; text-align: center; border-radius: 999px; padding: 0.15rem 0.45rem; font-size: 0.78rem; font-weight: 700; }
+    .risk-info, .risk-low { background: #dcfce7; color: #166534; }
+    .risk-medium, .risk-unknown { background: #fef3c7; color: #92400e; }
+    .risk-high, .risk-critical { background: #fee2e2; color: #991b1b; }
+    .index-note { color: #52616f; margin-top: -0.35rem; }
+    .version { color: #52616f; margin-left: 0.2rem; white-space: nowrap; }
+    @media (max-width: 720px) {
+      .scan-day { grid-template-columns: 1fr; }
+      th, td { padding: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+<nav><a href='../../../../'>Index</a></nav><h1>Personal PyPI Supply Chain Scan: cdpify 0.2.9</h1>
+
+<ul>
+<li>Package: cdpify</li>
+<li>Version: 0.2.9</li>
+<li>Project URL: https://pypi.org/project/cdpify/</li>
+<li>Distribution: cdpify-0.2.9.tar.gz</li>
+<li>Package published at: 2026-04-27T11:46:58.828607+00:00</li>
+<li>Scan published at: 2026-04-27T11:47:46.918735+00:00</li>
+<li>Language: en</li>
+<li>Model: gpt-5.5</li>
+<li>Prompt: malicious-supply-chain-review-v2 ([source](../../../../docs/prompts/malicious-supply-chain-review-v2.md))</li>
+<li>Disclaimer: This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</li>
+</ul>
+
+<h2>Deterministic Network Indicators</h2>
+
+<h3>Suspicious Endpoints</h3>
+<ul>
+<li>https://raw.githubusercontent.com/ChromeDevTools/devtools-protocol/refs/heads/master/json/browser_protocol.json (1 files: cdpify-0.2.9/cdpify/generator/constants.py)</li>
+<li>https://raw.githubusercontent.com/ChromeDevTools/devtools-protocol/refs/heads/master/json/js_protocol.json (1 files: cdpify-0.2.9/cdpify/generator/constants.py)</li>
+<li>raw.githubusercontent.com (1 files: cdpify-0.2.9/cdpify/generator/constants.py)</li>
+</ul>
+
+<h3>Raw Public IPs</h3>
+
+<p>None</p>
+
+<h3>URLs</h3>
+<ul>
+<li>https://chromedevtools.github.io/devtools-protocol/ (3 files: cdpify-0.2.9/PKG-INFO, cdpify-0.2.9/README.md, cdpify-0.2.9/cdpify.egg-info/PKG-INFO)</li>
+<li>https://crbug.com/1440085 (2 files: cdpify-0.2.9/cdpify/domains/page/client.py, cdpify-0.2.9/cdpify/domains/page/commands.py)</li>
+<li>https://developers.google.com/privacy-sandbox/cookies/temporary-exceptions/grace-period (2 files: cdpify-0.2.9/cdpify/domains/storage/client.py, cdpify-0.2.9/cdpify/domains/storage/commands.py)</li>
+<li>https://docs.google.com/document/d/12HVmFxYj5Jc-eJr5OmWsa2bqTJsbgGLKI6ZIyx0_wpA (2 files: cdpify-0.2.9/cdpify/domains/page/client.py, cdpify-0.2.9/cdpify/domains/page/commands.py)</li>
+<li>https://drafts.csswg.org/selectors/#specificity-rules (1 files: cdpify-0.2.9/cdpify/domains/css/types.py)</li>
+<li>https://example.com (3 files: cdpify-0.2.9/PKG-INFO, cdpify-0.2.9/README.md, cdpify-0.2.9/cdpify.egg-info/PKG-INFO)</li>
+<li>https://example.test:80/bounce (1 files: cdpify-0.2.9/cdpify/domains/audits/types.py)</li>
+<li>https://example.test:80/web_page (1 files: cdpify-0.2.9/cdpify/domains/audits/types.py)</li>
+<li>https://github.com/ChromeDevTools/devtools-protocol (3 files: cdpify-0.2.9/PKG-INFO, cdpify-0.2.9/README.md, cdpify-0.2.9/cdpify.egg-info/PKG-INFO)</li>
+<li>https://github.com/WICG/attribution-reporting-api (1 files: cdpify-0.2.9/cdpify/domains/audits/types.py)</li>
+<li>https://github.com/WICG/web-lifecycle/ (2 files: cdpify-0.2.9/cdpify/domains/page/client.py, cdpify-0.2.9/cdpify/domains/page/commands.py)</li>
+<li>https://github.com/browser-use/cdp-use (3 files: cdpify-0.2.9/PKG-INFO, cdpify-0.2.9/README.md, cdpify-0.2.9/cdpify.egg-info/PKG-INFO)</li>
+<li>https://google.com (3 files: cdpify-0.2.9/PKG-INFO, cdpify-0.2.9/README.md, cdpify-0.2.9/cdpify.egg-info/PKG-INFO)</li>
+<li>https://html.spec.whatwg.org/multipage/system-state.html#rph-automation (2 files: cdpify-0.2.9/cdpify/domains/page/client.py, cdpify-0.2.9/cdpify/domains/page/commands.py)</li>
+<li>https://raw.githubusercontent.com/ChromeDevTools/devtools-protocol/refs/heads/master/json/browser_protocol.json (1 files: cdpify-0.2.9/cdpify/generator/constants.py)</li>
+<li>https://raw.githubusercontent.com/ChromeDevTools/devtools-protocol/refs/heads/master/json/js_protocol.json (1 files: cdpify-0.2.9/cdpify/generator/constants.py)</li>
+<li>https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/renderer/core/frame/third_party/blink/renderer/core/frame/deprecation/README.md (1 files: cdpify-0.2.9/cdpify/domains/audits/types.py)</li>
+<li>https://tools.ietf.org/html/draft-west-cookie-priority-00 (1 files: cdpify-0.2.9/cdpify/domains/network/types.py)</li>
+<li>https://tools.ietf.org/html/draft-west-first-party-cookies (1 files: cdpify-0.2.9/cdpify/domains/network/types.py)</li>
+<li>https://w3c.github.io/permissions/#dom-permissiondescriptor (1 files: cdpify-0.2.9/cdpify/domains/browser/types.py)</li>
+<li>https://w3c.github.io/secure-payment-confirmation/#sctn-automation-set-spc-transaction-mode (2 files: cdpify-0.2.9/cdpify/domains/page/client.py, cdpify-0.2.9/cdpify/domains/page/commands.py)</li>
+<li>https://w3c.github.io/sensors/#automation (1 files: cdpify-0.2.9/cdpify/domains/emulation/types.py)</li>
+<li>https://w3c.github.io/webauthn/#sctn-automation-set-credential-properties (2 files: cdpify-0.2.9/cdpify/domains/webauthn/client.py, cdpify-0.2.9/cdpify/domains/webauthn/commands.py)</li>
+<li>https://w3c.github.io/window-management/#screendetailed (1 files: cdpify-0.2.9/cdpify/domains/emulation/types.py)</li>
+<li>https://wicg.github.io/attribution-reporting-api/ (2 files: cdpify-0.2.9/cdpify/domains/storage/client.py, cdpify-0.2.9/cdpify/domains/storage/commands.py)</li>
+<li>https://wicg.github.io/ua-client-hints (1 files: cdpify-0.2.9/cdpify/domains/emulation/types.py)</li>
+<li>https://wicg.github.io/webpackage/draft-yasskin-httpbis-origin-signed-exchanges-impl.html#cbor-representation (1 files: cdpify-0.2.9/cdpify/domains/network/types.py)</li>
+<li>https://wicg.github.io/webpackage/draft-yasskin-httpbis-origin-signed-exchanges-impl.html#rfc.section.3.1 (1 files: cdpify-0.2.9/cdpify/domains/network/types.py)</li>
+<li>https://www.chromium.org/blink/origin-trials (1 files: cdpify-0.2.9/cdpify/domains/page/types.py)</li>
+<li>https://www.w3.org/TR/2008/REC-CSS2-20080411/fonts.html#font-descriptions (1 files: cdpify-0.2.9/cdpify/domains/css/types.py)</li>
+<li>... 2 more</li>
+</ul>
+
+<h3>Domains</h3>
+<ul>
+<li>chromedevtools.github.io (3 files: cdpify-0.2.9/PKG-INFO, cdpify-0.2.9/README.md, cdpify-0.2.9/cdpify.egg-info/PKG-INFO)</li>
+<li>crbug.com (2 files: cdpify-0.2.9/cdpify/domains/page/client.py, cdpify-0.2.9/cdpify/domains/page/commands.py)</li>
+<li>developers.google.com (2 files: cdpify-0.2.9/cdpify/domains/storage/client.py, cdpify-0.2.9/cdpify/domains/storage/commands.py)</li>
+<li>docs.google.com (2 files: cdpify-0.2.9/cdpify/domains/page/client.py, cdpify-0.2.9/cdpify/domains/page/commands.py)</li>
+<li>drafts.csswg.org (1 files: cdpify-0.2.9/cdpify/domains/css/types.py)</li>
+<li>example.test (1 files: cdpify-0.2.9/cdpify/domains/audits/types.py)</li>
+<li>github.com (6 files: cdpify-0.2.9/PKG-INFO, cdpify-0.2.9/README.md, cdpify-0.2.9/cdpify.egg-info/PKG-INFO, cdpify-0.2.9/cdpify/domains/audits/types.py, cdpify-0.2.9/cdpify/domains/page/client.py)</li>
+<li>google.com (3 files: cdpify-0.2.9/PKG-INFO, cdpify-0.2.9/README.md, cdpify-0.2.9/cdpify.egg-info/PKG-INFO)</li>
+<li>html.spec.whatwg.org (2 files: cdpify-0.2.9/cdpify/domains/page/client.py, cdpify-0.2.9/cdpify/domains/page/commands.py)</li>
+<li>raw.githubusercontent.com (1 files: cdpify-0.2.9/cdpify/generator/constants.py)</li>
+<li>source.chromium.org (1 files: cdpify-0.2.9/cdpify/domains/audits/types.py)</li>
+<li>tools.ietf.org (1 files: cdpify-0.2.9/cdpify/domains/network/types.py)</li>
+<li>w3c.github.io (6 files: cdpify-0.2.9/cdpify/domains/browser/types.py, cdpify-0.2.9/cdpify/domains/emulation/types.py, cdpify-0.2.9/cdpify/domains/page/client.py, cdpify-0.2.9/cdpify/domains/page/commands.py, cdpify-0.2.9/cdpify/domains/webauthn/client.py)</li>
+<li>wicg.github.io (4 files: cdpify-0.2.9/cdpify/domains/emulation/types.py, cdpify-0.2.9/cdpify/domains/network/types.py, cdpify-0.2.9/cdpify/domains/storage/client.py, cdpify-0.2.9/cdpify/domains/storage/commands.py)</li>
+<li>www.chromium.org (1 files: cdpify-0.2.9/cdpify/domains/page/types.py)</li>
+<li>www.w3.org (4 files: cdpify-0.2.9/cdpify/domains/css/types.py, cdpify-0.2.9/cdpify/domains/dom/client.py, cdpify-0.2.9/cdpify/domains/dom/commands.py, cdpify-0.2.9/cdpify/domains/security/types.py)</li>
+</ul>
+
+<h2>Verdict</h2>
+
+<p>No confirmed malicious supply-chain indicators — overall risk: info.</p>
+
+<h2>Malicious Supply-Chain Indicators</h2>
+
+<p>No confirmed malicious supply-chain indicators.</p>
+
+<h2>Automatic Execution Paths</h2>
+
+<ul>
+<li>In the provided extracted text, there is no evidence of .pth, sitecustomize.py, usercustomize.py, setup.py execution, PEP 517 build hooks, install-time scripts, or interpreter-start automatic execution.</li>
+<li>eval(annotation, globalns) in cdpify/shared/models.py appears to be a fallback for resolving dataclass field type annotations. It is not sufficient evidence of automatic malicious payload execution during install or import.</li>
+<li>subprocess.run([&quot;ruff&quot;, &quot;format&quot;, ...]) in cdpify/generator/generator.py appears related to code generation/formatting and likely requires a user/developer-triggered generator path. It is not evidence of malicious supply-chain auto-execution.</li>
+</ul>
+
+<h2>Theft / Exfiltration / Persistence / Lateral Movement / Stealth</h2>
+
+<ul>
+<li>Credential theft: The provided text does not show broad discovery of environment variables, .env files, SSH keys, cloud/CI tokens, browser data, wallets, or package-registry tokens.</li>
+<li>Exfiltration/networking: cdpify/generator/constants.py contains raw.githubusercontent.com/ChromeDevTools/devtools-protocol/... URLs, but these appear to be generator constants for fetching Chrome DevTools Protocol JSON specifications. There is no evidence of attacker C2, webhooks, raw IP endpoints, paste/drop services, or uploads of harvested data.</li>
+<li>Staging/archive: gzip, deflate, and similar strings appear as CDP network/tracing type literals, not as evidence of collecting files, compressing them, staging them in temp paths, and exfiltrating them.</li>
+<li>Persistence: No evidence of systemd units, cron jobs, shell profile modification, launch agents, startup folders, or background polling persistence was found.</li>
+<li>Lateral movement: No evidence of Kubernetes service-account access, Docker socket use, cloud metadata access, GitHub Actions token theft, or package registry token reuse was found.</li>
+<li>Stealth/loaders: No base64/zlib/marshal/pickle/exec/compile loader, encrypted payload, obfuscated downloader stub, or staged payload behavior was identified. The eval usage appears limited to type annotation resolution and is insufficient as malicious loader evidence.</li>
+</ul>
+
+<h2>Distribution Integrity Anomalies</h2>
+
+<ul>
+<li>The provided file list and text do not show hidden payloads, unexplained native binaries, suspicious .dist-info/egg-info manipulation, sudden malicious dependency insertion, typosquatting evidence, or wheel/sdist mismatch evidence.</li>
+<li>Many files appear to be Chrome DevTools Protocol domain type/client code with comments indicating they were auto-generated by a CDP protocol generator.</li>
+</ul>
+
+<h2>Additional Verification Needed</h2>
+
+<ul>
+<li>Only a selected subset of text from 243 files was reviewed. Unselected files, full pyproject.toml/setup.cfg contents, sdist-vs-wheel differences, and diffs against prior versions should be checked separately.</li>
+<li>The provided input is not sufficient to verify whether the PyPI artifact matches the upstream source repository.</li>
+</ul>
+
+<p>---</p>
+
+<p>Prompt source: docs/prompts/malicious-supply-chain-review-v2.md</p>
+
+<p>This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</p>
+
+</body>
+</html>

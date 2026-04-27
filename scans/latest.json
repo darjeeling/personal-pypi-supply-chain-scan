@@ -1,521 +1,427 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "dxpdf-0.2.13.tar.gz",
-  "finding_count": 44,
+  "distribution": "cdpify-0.2.9.tar.gz",
+  "finding_count": 32,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
+        "file_count": 3,
+        "files": [
+          "cdpify-0.2.9/PKG-INFO",
+          "cdpify-0.2.9/README.md",
+          "cdpify-0.2.9/cdpify.egg-info/PKG-INFO"
+        ],
+        "value": "chromedevtools.github.io"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "cdpify-0.2.9/cdpify/domains/page/client.py",
+          "cdpify-0.2.9/cdpify/domains/page/commands.py"
+        ],
+        "value": "crbug.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "cdpify-0.2.9/cdpify/domains/storage/client.py",
+          "cdpify-0.2.9/cdpify/domains/storage/commands.py"
+        ],
+        "value": "developers.google.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "cdpify-0.2.9/cdpify/domains/page/client.py",
+          "cdpify-0.2.9/cdpify/domains/page/commands.py"
+        ],
+        "value": "docs.google.com"
+      },
+      {
         "file_count": 1,
         "files": [
-          "dxpdf-0.2.13/src/render/emoji/raster.rs"
+          "cdpify-0.2.9/cdpify/domains/css/types.py"
         ],
-        "value": "-bounds.top"
+        "value": "drafts.csswg.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cdpify-0.2.9/cdpify/domains/audits/types.py"
+        ],
+        "value": "example.test"
       },
       {
         "file_count": 6,
         "files": [
-          "dxpdf-0.2.13/src/render/layout/build/convert.rs",
-          "dxpdf-0.2.13/src/render/layout/paragraph/borders.rs",
-          "dxpdf-0.2.13/src/render/layout/section/layout.rs",
-          "dxpdf-0.2.13/src/render/layout/table/borders.rs",
-          "dxpdf-0.2.13/src/render/layout/table/measure.rs",
-          "dxpdf-0.2.13/src/render/layout/table/mod.rs"
-        ],
-        "value": "b.top"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dxpdf-0.2.13/src/render/layout/paragraph/borders.rs"
-        ],
-        "value": "borders.top"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dxpdf-0.2.13/src/render/layout/build/table.rs",
-          "dxpdf-0.2.13/src/render/layout/table/borders.rs"
-        ],
-        "value": "cb.top"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dxpdf-0.2.13/src/render/layout/table/split.rs"
-        ],
-        "value": "cell.margins.top"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dxpdf-0.2.13/src/render/layout/page.rs"
-        ],
-        "value": "cfg.margins.top"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dxpdf-0.2.13/src/render/layout/section/layout.rs",
-          "dxpdf-0.2.13/src/render/mod.rs"
-        ],
-        "value": "config.margins.top"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dxpdf-0.2.13/PKG-INFO",
-          "dxpdf-0.2.13/README.md"
-        ],
-        "value": "crates.io"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dxpdf-0.2.13/src/render/layout/section/layout.rs"
-        ],
-        "value": "ctx.config.margins.top"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dxpdf-0.2.13/src/render/layout/build/table.rs"
-        ],
-        "value": "db.top"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dxpdf-0.2.13/src/render/layout/build/table.rs"
-        ],
-        "value": "direct.top"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "dxpdf-0.2.13/Cargo.toml",
-          "dxpdf-0.2.13/PKG-INFO",
-          "dxpdf-0.2.13/README.md"
-        ],
-        "value": "docs.rs"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dxpdf-0.2.13/PKG-INFO",
-          "dxpdf-0.2.13/README.md"
-        ],
-        "value": "formtastic.de"
-      },
-      {
-        "file_count": 5,
-        "files": [
-          "dxpdf-0.2.13/Cargo.lock",
-          "dxpdf-0.2.13/Cargo.toml",
-          "dxpdf-0.2.13/PKG-INFO",
-          "dxpdf-0.2.13/pyproject.toml",
-          "dxpdf-0.2.13/src/docx/whitespace_workaround.rs"
+          "cdpify-0.2.9/PKG-INFO",
+          "cdpify-0.2.9/README.md",
+          "cdpify-0.2.9/cdpify.egg-info/PKG-INFO",
+          "cdpify-0.2.9/cdpify/domains/audits/types.py",
+          "cdpify-0.2.9/cdpify/domains/page/client.py",
+          "cdpify-0.2.9/cdpify/domains/page/commands.py"
         ],
         "value": "github.com"
       },
       {
-        "file_count": 2,
-        "files": [
-          "dxpdf-0.2.13/PKG-INFO",
-          "dxpdf-0.2.13/README.md"
-        ],
-        "value": "img.shields.io"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dxpdf-0.2.13/src/render/layout/build/table.rs"
-        ],
-        "value": "m.top"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "dxpdf-0.2.13/docs/floating-tables.md",
-          "dxpdf-0.2.13/src/render/layout/cell.rs",
-          "dxpdf-0.2.13/src/render/layout/table/emit.rs",
-          "dxpdf-0.2.13/src/render/mod.rs"
-        ],
-        "value": "margins.top"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "dxpdf-0.2.13/Cargo.toml",
-          "dxpdf-0.2.13/PKG-INFO",
-          "dxpdf-0.2.13/README.md",
-          "dxpdf-0.2.13/pyproject.toml"
-        ],
-        "value": "nerdy.pro"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dxpdf-0.2.13/src/docx/parse/properties/schema/border.rs"
-        ],
-        "value": "p.top"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dxpdf-0.2.13/src/render/layout/build/convert.rs"
-        ],
-        "value": "pbdr.top"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dxpdf-0.2.13/src/render/layout/build/floating.rs"
-        ],
-        "value": "pc.margins.top"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dxpdf-0.2.13/examples/dump.rs",
-          "dxpdf-0.2.13/src/render/layout/page.rs"
-        ],
-        "value": "pm.top"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dxpdf-0.2.13/src/render/layout/fragment/segment.rs"
-        ],
-        "value": "raw.chars"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dxpdf-0.2.13/src/docx/parse/fonts.rs"
-        ],
-        "value": "raw.iter"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dxpdf-0.2.13/src/docx/parse/primitives/toggles.rs"
-        ],
-        "value": "raw.val"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dxpdf-0.2.13/src/render/resolve/shape_geometry/custom.rs"
-        ],
-        "value": "rect.top"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dxpdf-0.2.13/src/render/layout/build/convert.rs"
-        ],
-        "value": "resolved.top"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dxpdf-0.2.13/src/docx/parse/fonts.rs",
-          "dxpdf-0.2.13/tests/integration.rs"
-        ],
-        "value": "schemas.openxmlformats.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dxpdf-0.2.13/src/render/layout/page.rs"
-        ],
-        "value": "self.margins.top"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dxpdf-0.2.13/src/render/geometry.rs"
-        ],
-        "value": "self.top"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dxpdf-0.2.13/PKG-INFO",
-          "dxpdf-0.2.13/README.md"
-        ],
-        "value": "skia.org"
-      },
-      {
         "file_count": 3,
         "files": [
-          "dxpdf-0.2.13/src/docx/parse/vml/style.rs",
-          "dxpdf-0.2.13/src/render/layout/build/convert.rs",
-          "dxpdf-0.2.13/src/render/layout/build/table.rs"
+          "cdpify-0.2.9/PKG-INFO",
+          "cdpify-0.2.9/README.md",
+          "cdpify-0.2.9/cdpify.egg-info/PKG-INFO"
         ],
-        "value": "style.top"
+        "value": "google.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "cdpify-0.2.9/cdpify/domains/page/client.py",
+          "cdpify-0.2.9/cdpify/domains/page/commands.py"
+        ],
+        "value": "html.spec.whatwg.org"
       },
       {
         "file_count": 1,
         "files": [
-          "dxpdf-0.2.13/src/docx/parse/properties/schema/border.rs"
+          "cdpify-0.2.9/cdpify/generator/constants.py"
         ],
-        "value": "t.top"
+        "value": "raw.githubusercontent.com"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "dxpdf-0.2.13/PKG-INFO",
-          "dxpdf-0.2.13/README.md"
+          "cdpify-0.2.9/cdpify/domains/audits/types.py"
         ],
-        "value": "www.google.com"
+        "value": "source.chromium.org"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "dxpdf-0.2.13/src/docx/parse/properties/schema/insets.rs",
-          "dxpdf-0.2.13/src/docx/parse/properties/schema/section.rs"
+          "cdpify-0.2.9/cdpify/domains/network/types.py"
         ],
-        "value": "x.top"
+        "value": "tools.ietf.org"
+      },
+      {
+        "file_count": 6,
+        "files": [
+          "cdpify-0.2.9/cdpify/domains/browser/types.py",
+          "cdpify-0.2.9/cdpify/domains/emulation/types.py",
+          "cdpify-0.2.9/cdpify/domains/page/client.py",
+          "cdpify-0.2.9/cdpify/domains/page/commands.py",
+          "cdpify-0.2.9/cdpify/domains/webauthn/client.py",
+          "cdpify-0.2.9/cdpify/domains/webauthn/commands.py"
+        ],
+        "value": "w3c.github.io"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "cdpify-0.2.9/cdpify/domains/emulation/types.py",
+          "cdpify-0.2.9/cdpify/domains/network/types.py",
+          "cdpify-0.2.9/cdpify/domains/storage/client.py",
+          "cdpify-0.2.9/cdpify/domains/storage/commands.py"
+        ],
+        "value": "wicg.github.io"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cdpify-0.2.9/cdpify/domains/page/types.py"
+        ],
+        "value": "www.chromium.org"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "cdpify-0.2.9/cdpify/domains/css/types.py",
+          "cdpify-0.2.9/cdpify/domains/dom/client.py",
+          "cdpify-0.2.9/cdpify/domains/dom/commands.py",
+          "cdpify-0.2.9/cdpify/domains/security/types.py"
+        ],
+        "value": "www.w3.org"
       }
     ],
     "raw_public_ips": [],
-    "suspicious_endpoints": [],
+    "suspicious_endpoints": [
+      {
+        "file_count": 1,
+        "files": [
+          "cdpify-0.2.9/cdpify/generator/constants.py"
+        ],
+        "value": "https://raw.githubusercontent.com/ChromeDevTools/devtools-protocol/refs/heads/master/json/browser_protocol.json"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cdpify-0.2.9/cdpify/generator/constants.py"
+        ],
+        "value": "https://raw.githubusercontent.com/ChromeDevTools/devtools-protocol/refs/heads/master/json/js_protocol.json"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cdpify-0.2.9/cdpify/generator/constants.py"
+        ],
+        "value": "raw.githubusercontent.com"
+      }
+    ],
     "urls": [
       {
+        "file_count": 3,
+        "files": [
+          "cdpify-0.2.9/PKG-INFO",
+          "cdpify-0.2.9/README.md",
+          "cdpify-0.2.9/cdpify.egg-info/PKG-INFO"
+        ],
+        "value": "https://chromedevtools.github.io/devtools-protocol/"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "cdpify-0.2.9/cdpify/domains/page/client.py",
+          "cdpify-0.2.9/cdpify/domains/page/commands.py"
+        ],
+        "value": "https://crbug.com/1440085"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "cdpify-0.2.9/cdpify/domains/storage/client.py",
+          "cdpify-0.2.9/cdpify/domains/storage/commands.py"
+        ],
+        "value": "https://developers.google.com/privacy-sandbox/cookies/temporary-exceptions/grace-period"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "cdpify-0.2.9/cdpify/domains/page/client.py",
+          "cdpify-0.2.9/cdpify/domains/page/commands.py"
+        ],
+        "value": "https://docs.google.com/document/d/12HVmFxYj5Jc-eJr5OmWsa2bqTJsbgGLKI6ZIyx0_wpA"
+      },
+      {
         "file_count": 1,
         "files": [
-          "dxpdf-0.2.13/src/docx/parse/fonts.rs"
+          "cdpify-0.2.9/cdpify/domains/css/types.py"
         ],
-        "value": "http://schemas.openxmlformats.org/officeDocument/2006/relationships"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dxpdf-0.2.13/tests/integration.rs"
-        ],
-        "value": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dxpdf-0.2.13/tests/integration.rs"
-        ],
-        "value": "http://schemas.openxmlformats.org/package/2006/content-types"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dxpdf-0.2.13/tests/integration.rs"
-        ],
-        "value": "http://schemas.openxmlformats.org/package/2006/relationships"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dxpdf-0.2.13/src/docx/parse/fonts.rs",
-          "dxpdf-0.2.13/tests/integration.rs"
-        ],
-        "value": "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dxpdf-0.2.13/PKG-INFO",
-          "dxpdf-0.2.13/README.md"
-        ],
-        "value": "https://crates.io/crates/clap"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dxpdf-0.2.13/PKG-INFO",
-          "dxpdf-0.2.13/README.md"
-        ],
-        "value": "https://crates.io/crates/dxpdf"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dxpdf-0.2.13/PKG-INFO",
-          "dxpdf-0.2.13/README.md"
-        ],
-        "value": "https://crates.io/crates/env_logger"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dxpdf-0.2.13/PKG-INFO",
-          "dxpdf-0.2.13/README.md"
-        ],
-        "value": "https://crates.io/crates/log"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dxpdf-0.2.13/PKG-INFO",
-          "dxpdf-0.2.13/README.md"
-        ],
-        "value": "https://crates.io/crates/pyo3"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dxpdf-0.2.13/PKG-INFO",
-          "dxpdf-0.2.13/README.md"
-        ],
-        "value": "https://crates.io/crates/quick-xml"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dxpdf-0.2.13/PKG-INFO",
-          "dxpdf-0.2.13/README.md"
-        ],
-        "value": "https://crates.io/crates/skia-safe"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dxpdf-0.2.13/PKG-INFO",
-          "dxpdf-0.2.13/README.md"
-        ],
-        "value": "https://crates.io/crates/thiserror"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dxpdf-0.2.13/PKG-INFO",
-          "dxpdf-0.2.13/README.md"
-        ],
-        "value": "https://crates.io/crates/zip"
+        "value": "https://drafts.csswg.org/selectors/#specificity-rules"
       },
       {
         "file_count": 3,
         "files": [
-          "dxpdf-0.2.13/Cargo.toml",
-          "dxpdf-0.2.13/PKG-INFO",
-          "dxpdf-0.2.13/README.md"
-        ],
-        "value": "https://docs.rs/dxpdf"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dxpdf-0.2.13/src/field/parse.rs"
+          "cdpify-0.2.9/PKG-INFO",
+          "cdpify-0.2.9/README.md",
+          "cdpify-0.2.9/cdpify.egg-info/PKG-INFO"
         ],
         "value": "https://example.com"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "dxpdf-0.2.13/PKG-INFO",
-          "dxpdf-0.2.13/README.md"
+          "cdpify-0.2.9/cdpify/domains/audits/types.py"
         ],
-        "value": "https://formtastic.de"
+        "value": "https://example.test:80/bounce`"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cdpify-0.2.9/cdpify/domains/audits/types.py"
+        ],
+        "value": "https://example.test:80/web_page`"
       },
       {
         "file_count": 3,
         "files": [
-          "dxpdf-0.2.13/Cargo.toml",
-          "dxpdf-0.2.13/PKG-INFO",
-          "dxpdf-0.2.13/pyproject.toml"
+          "cdpify-0.2.9/PKG-INFO",
+          "cdpify-0.2.9/README.md",
+          "cdpify-0.2.9/cdpify.egg-info/PKG-INFO"
         ],
-        "value": "https://github.com/nerdy-pro/dxpdf"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dxpdf-0.2.13/PKG-INFO",
-          "dxpdf-0.2.13/pyproject.toml"
-        ],
-        "value": "https://github.com/nerdy-pro/dxpdf#readme"
+        "value": "https://github.com/ChromeDevTools/devtools-protocol"
       },
       {
         "file_count": 1,
         "files": [
-          "dxpdf-0.2.13/Cargo.lock"
+          "cdpify-0.2.9/cdpify/domains/audits/types.py"
         ],
-        "value": "https://github.com/rust-lang/crates.io-index"
+        "value": "https://github.com/WICG/attribution-reporting-api"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "cdpify-0.2.9/cdpify/domains/page/client.py",
+          "cdpify-0.2.9/cdpify/domains/page/commands.py"
+        ],
+        "value": "https://github.com/WICG/web-lifecycle/"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "cdpify-0.2.9/PKG-INFO",
+          "cdpify-0.2.9/README.md",
+          "cdpify-0.2.9/cdpify.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/browser-use/cdp-use"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "cdpify-0.2.9/PKG-INFO",
+          "cdpify-0.2.9/README.md",
+          "cdpify-0.2.9/cdpify.egg-info/PKG-INFO"
+        ],
+        "value": "https://google.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "cdpify-0.2.9/cdpify/domains/page/client.py",
+          "cdpify-0.2.9/cdpify/domains/page/commands.py"
+        ],
+        "value": "https://html.spec.whatwg.org/multipage/system-state.html#rph-automation"
       },
       {
         "file_count": 1,
         "files": [
-          "dxpdf-0.2.13/src/docx/whitespace_workaround.rs"
+          "cdpify-0.2.9/cdpify/generator/constants.py"
         ],
-        "value": "https://github.com/tafia/quick-xml/issues/"
+        "value": "https://raw.githubusercontent.com/ChromeDevTools/devtools-protocol/refs/heads/master/json/browser_protocol.json"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cdpify-0.2.9/cdpify/generator/constants.py"
+        ],
+        "value": "https://raw.githubusercontent.com/ChromeDevTools/devtools-protocol/refs/heads/master/json/js_protocol.json"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cdpify-0.2.9/cdpify/domains/audits/types.py"
+        ],
+        "value": "https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/renderer/core/frame/third_party/blink/renderer/core/frame/deprecation/README.md"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cdpify-0.2.9/cdpify/domains/network/types.py"
+        ],
+        "value": "https://tools.ietf.org/html/draft-west-cookie-priority-00"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cdpify-0.2.9/cdpify/domains/network/types.py"
+        ],
+        "value": "https://tools.ietf.org/html/draft-west-first-party-cookies"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cdpify-0.2.9/cdpify/domains/browser/types.py"
+        ],
+        "value": "https://w3c.github.io/permissions/#dom-permissiondescriptor"
       },
       {
         "file_count": 2,
         "files": [
-          "dxpdf-0.2.13/PKG-INFO",
-          "dxpdf-0.2.13/README.md"
+          "cdpify-0.2.9/cdpify/domains/page/client.py",
+          "cdpify-0.2.9/cdpify/domains/page/commands.py"
         ],
-        "value": "https://img.shields.io/badge/license-MIT-blue.svg"
+        "value": "https://w3c.github.io/secure-payment-confirmation/#sctn-automation-set-spc-transaction-mode"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cdpify-0.2.9/cdpify/domains/emulation/types.py"
+        ],
+        "value": "https://w3c.github.io/sensors/#automation"
       },
       {
         "file_count": 2,
         "files": [
-          "dxpdf-0.2.13/PKG-INFO",
-          "dxpdf-0.2.13/README.md"
+          "cdpify-0.2.9/cdpify/domains/webauthn/client.py",
+          "cdpify-0.2.9/cdpify/domains/webauthn/commands.py"
         ],
-        "value": "https://img.shields.io/crates/v/dxpdf"
+        "value": "https://w3c.github.io/webauthn/#sctn-automation-set-credential-properties"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cdpify-0.2.9/cdpify/domains/emulation/types.py"
+        ],
+        "value": "https://w3c.github.io/window-management/#screendetailed"
       },
       {
         "file_count": 2,
         "files": [
-          "dxpdf-0.2.13/PKG-INFO",
-          "dxpdf-0.2.13/README.md"
+          "cdpify-0.2.9/cdpify/domains/storage/client.py",
+          "cdpify-0.2.9/cdpify/domains/storage/commands.py"
         ],
-        "value": "https://img.shields.io/docsrs/dxpdf"
+        "value": "https://wicg.github.io/attribution-reporting-api/"
       },
       {
-        "file_count": 4,
+        "file_count": 1,
         "files": [
-          "dxpdf-0.2.13/Cargo.toml",
-          "dxpdf-0.2.13/PKG-INFO",
-          "dxpdf-0.2.13/README.md",
-          "dxpdf-0.2.13/pyproject.toml"
+          "cdpify-0.2.9/cdpify/domains/emulation/types.py"
         ],
-        "value": "https://nerdy.pro"
+        "value": "https://wicg.github.io/ua-client-hints"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cdpify-0.2.9/cdpify/domains/network/types.py"
+        ],
+        "value": "https://wicg.github.io/webpackage/draft-yasskin-httpbis-origin-signed-exchanges-impl.html#cbor-representation"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cdpify-0.2.9/cdpify/domains/network/types.py"
+        ],
+        "value": "https://wicg.github.io/webpackage/draft-yasskin-httpbis-origin-signed-exchanges-impl.html#rfc.section.3.1"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cdpify-0.2.9/cdpify/domains/page/types.py"
+        ],
+        "value": "https://www.chromium.org/blink/origin-trials"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cdpify-0.2.9/cdpify/domains/css/types.py"
+        ],
+        "value": "https://www.w3.org/TR/2008/REC-CSS2-20080411/fonts.html#font-descriptions"
       },
       {
         "file_count": 2,
         "files": [
-          "dxpdf-0.2.13/PKG-INFO",
-          "dxpdf-0.2.13/README.md"
+          "cdpify-0.2.9/cdpify/domains/dom/client.py",
+          "cdpify-0.2.9/cdpify/domains/dom/commands.py"
         ],
-        "value": "https://skia.org"
+        "value": "https://www.w3.org/TR/css-anchor-position-1/#target"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "dxpdf-0.2.13/PKG-INFO",
-          "dxpdf-0.2.13/README.md"
+          "cdpify-0.2.9/cdpify/domains/security/types.py"
         ],
-        "value": "https://www.google.com/s2/favicons?domain=formtastic.de&sz=32"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dxpdf-0.2.13/PKG-INFO",
-          "dxpdf-0.2.13/README.md"
-        ],
-        "value": "https://www.google.com/s2/favicons?domain=nerdy.pro&sz=32"
+        "value": "https://www.w3.org/TR/mixed-content/#categories"
       }
     ]
   },
-  "package": "dxpdf",
-  "package_slug": "dxpdf",
-  "project_url": "https://pypi.org/project/dxpdf/",
+  "package": "cdpify",
+  "package_slug": "cdpify",
+  "project_url": "https://pypi.org/project/cdpify/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T11:43:01.801135+00:00",
+  "published_at": "2026-04-27T11:46:58.828607+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T11:43:24.813650+00:00",
-  "title": "Personal PyPI Supply Chain Scan: dxpdf 0.2.13",
-  "version": "0.2.13",
-  "version_slug": "0.2.13",
-  "_metadata_path": "reports/packages/dxpdf/0.2.13/metadata.json"
+  "scanned_at": "2026-04-27T11:47:46.918735+00:00",
+  "title": "Personal PyPI Supply Chain Scan: cdpify 0.2.9",
+  "version": "0.2.9",
+  "version_slug": "0.2.9",
+  "_metadata_path": "reports/packages/cdpify/0.2.9/metadata.json"
 }

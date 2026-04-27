@@ -1,6 +1,433 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "cdpify-0.2.9.tar.gz",
+    "finding_count": 32,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 3,
+          "files": [
+            "cdpify-0.2.9/PKG-INFO",
+            "cdpify-0.2.9/README.md",
+            "cdpify-0.2.9/cdpify.egg-info/PKG-INFO"
+          ],
+          "value": "chromedevtools.github.io"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/page/client.py",
+            "cdpify-0.2.9/cdpify/domains/page/commands.py"
+          ],
+          "value": "crbug.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/storage/client.py",
+            "cdpify-0.2.9/cdpify/domains/storage/commands.py"
+          ],
+          "value": "developers.google.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/page/client.py",
+            "cdpify-0.2.9/cdpify/domains/page/commands.py"
+          ],
+          "value": "docs.google.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/css/types.py"
+          ],
+          "value": "drafts.csswg.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/audits/types.py"
+          ],
+          "value": "example.test"
+        },
+        {
+          "file_count": 6,
+          "files": [
+            "cdpify-0.2.9/PKG-INFO",
+            "cdpify-0.2.9/README.md",
+            "cdpify-0.2.9/cdpify.egg-info/PKG-INFO",
+            "cdpify-0.2.9/cdpify/domains/audits/types.py",
+            "cdpify-0.2.9/cdpify/domains/page/client.py",
+            "cdpify-0.2.9/cdpify/domains/page/commands.py"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cdpify-0.2.9/PKG-INFO",
+            "cdpify-0.2.9/README.md",
+            "cdpify-0.2.9/cdpify.egg-info/PKG-INFO"
+          ],
+          "value": "google.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/page/client.py",
+            "cdpify-0.2.9/cdpify/domains/page/commands.py"
+          ],
+          "value": "html.spec.whatwg.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cdpify-0.2.9/cdpify/generator/constants.py"
+          ],
+          "value": "raw.githubusercontent.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/audits/types.py"
+          ],
+          "value": "source.chromium.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/network/types.py"
+          ],
+          "value": "tools.ietf.org"
+        },
+        {
+          "file_count": 6,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/browser/types.py",
+            "cdpify-0.2.9/cdpify/domains/emulation/types.py",
+            "cdpify-0.2.9/cdpify/domains/page/client.py",
+            "cdpify-0.2.9/cdpify/domains/page/commands.py",
+            "cdpify-0.2.9/cdpify/domains/webauthn/client.py",
+            "cdpify-0.2.9/cdpify/domains/webauthn/commands.py"
+          ],
+          "value": "w3c.github.io"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/emulation/types.py",
+            "cdpify-0.2.9/cdpify/domains/network/types.py",
+            "cdpify-0.2.9/cdpify/domains/storage/client.py",
+            "cdpify-0.2.9/cdpify/domains/storage/commands.py"
+          ],
+          "value": "wicg.github.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/page/types.py"
+          ],
+          "value": "www.chromium.org"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/css/types.py",
+            "cdpify-0.2.9/cdpify/domains/dom/client.py",
+            "cdpify-0.2.9/cdpify/domains/dom/commands.py",
+            "cdpify-0.2.9/cdpify/domains/security/types.py"
+          ],
+          "value": "www.w3.org"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [
+        {
+          "file_count": 1,
+          "files": [
+            "cdpify-0.2.9/cdpify/generator/constants.py"
+          ],
+          "value": "https://raw.githubusercontent.com/ChromeDevTools/devtools-protocol/refs/heads/master/json/browser_protocol.json"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cdpify-0.2.9/cdpify/generator/constants.py"
+          ],
+          "value": "https://raw.githubusercontent.com/ChromeDevTools/devtools-protocol/refs/heads/master/json/js_protocol.json"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cdpify-0.2.9/cdpify/generator/constants.py"
+          ],
+          "value": "raw.githubusercontent.com"
+        }
+      ],
+      "urls": [
+        {
+          "file_count": 3,
+          "files": [
+            "cdpify-0.2.9/PKG-INFO",
+            "cdpify-0.2.9/README.md",
+            "cdpify-0.2.9/cdpify.egg-info/PKG-INFO"
+          ],
+          "value": "https://chromedevtools.github.io/devtools-protocol/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/page/client.py",
+            "cdpify-0.2.9/cdpify/domains/page/commands.py"
+          ],
+          "value": "https://crbug.com/1440085"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/storage/client.py",
+            "cdpify-0.2.9/cdpify/domains/storage/commands.py"
+          ],
+          "value": "https://developers.google.com/privacy-sandbox/cookies/temporary-exceptions/grace-period"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/page/client.py",
+            "cdpify-0.2.9/cdpify/domains/page/commands.py"
+          ],
+          "value": "https://docs.google.com/document/d/12HVmFxYj5Jc-eJr5OmWsa2bqTJsbgGLKI6ZIyx0_wpA"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/css/types.py"
+          ],
+          "value": "https://drafts.csswg.org/selectors/#specificity-rules"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cdpify-0.2.9/PKG-INFO",
+            "cdpify-0.2.9/README.md",
+            "cdpify-0.2.9/cdpify.egg-info/PKG-INFO"
+          ],
+          "value": "https://example.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/audits/types.py"
+          ],
+          "value": "https://example.test:80/bounce`"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/audits/types.py"
+          ],
+          "value": "https://example.test:80/web_page`"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cdpify-0.2.9/PKG-INFO",
+            "cdpify-0.2.9/README.md",
+            "cdpify-0.2.9/cdpify.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/ChromeDevTools/devtools-protocol"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/audits/types.py"
+          ],
+          "value": "https://github.com/WICG/attribution-reporting-api"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/page/client.py",
+            "cdpify-0.2.9/cdpify/domains/page/commands.py"
+          ],
+          "value": "https://github.com/WICG/web-lifecycle/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cdpify-0.2.9/PKG-INFO",
+            "cdpify-0.2.9/README.md",
+            "cdpify-0.2.9/cdpify.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/browser-use/cdp-use"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cdpify-0.2.9/PKG-INFO",
+            "cdpify-0.2.9/README.md",
+            "cdpify-0.2.9/cdpify.egg-info/PKG-INFO"
+          ],
+          "value": "https://google.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/page/client.py",
+            "cdpify-0.2.9/cdpify/domains/page/commands.py"
+          ],
+          "value": "https://html.spec.whatwg.org/multipage/system-state.html#rph-automation"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cdpify-0.2.9/cdpify/generator/constants.py"
+          ],
+          "value": "https://raw.githubusercontent.com/ChromeDevTools/devtools-protocol/refs/heads/master/json/browser_protocol.json"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cdpify-0.2.9/cdpify/generator/constants.py"
+          ],
+          "value": "https://raw.githubusercontent.com/ChromeDevTools/devtools-protocol/refs/heads/master/json/js_protocol.json"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/audits/types.py"
+          ],
+          "value": "https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/renderer/core/frame/third_party/blink/renderer/core/frame/deprecation/README.md"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/network/types.py"
+          ],
+          "value": "https://tools.ietf.org/html/draft-west-cookie-priority-00"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/network/types.py"
+          ],
+          "value": "https://tools.ietf.org/html/draft-west-first-party-cookies"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/browser/types.py"
+          ],
+          "value": "https://w3c.github.io/permissions/#dom-permissiondescriptor"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/page/client.py",
+            "cdpify-0.2.9/cdpify/domains/page/commands.py"
+          ],
+          "value": "https://w3c.github.io/secure-payment-confirmation/#sctn-automation-set-spc-transaction-mode"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/emulation/types.py"
+          ],
+          "value": "https://w3c.github.io/sensors/#automation"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/webauthn/client.py",
+            "cdpify-0.2.9/cdpify/domains/webauthn/commands.py"
+          ],
+          "value": "https://w3c.github.io/webauthn/#sctn-automation-set-credential-properties"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/emulation/types.py"
+          ],
+          "value": "https://w3c.github.io/window-management/#screendetailed"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/storage/client.py",
+            "cdpify-0.2.9/cdpify/domains/storage/commands.py"
+          ],
+          "value": "https://wicg.github.io/attribution-reporting-api/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/emulation/types.py"
+          ],
+          "value": "https://wicg.github.io/ua-client-hints"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/network/types.py"
+          ],
+          "value": "https://wicg.github.io/webpackage/draft-yasskin-httpbis-origin-signed-exchanges-impl.html#cbor-representation"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/network/types.py"
+          ],
+          "value": "https://wicg.github.io/webpackage/draft-yasskin-httpbis-origin-signed-exchanges-impl.html#rfc.section.3.1"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/page/types.py"
+          ],
+          "value": "https://www.chromium.org/blink/origin-trials"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/css/types.py"
+          ],
+          "value": "https://www.w3.org/TR/2008/REC-CSS2-20080411/fonts.html#font-descriptions"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/dom/client.py",
+            "cdpify-0.2.9/cdpify/domains/dom/commands.py"
+          ],
+          "value": "https://www.w3.org/TR/css-anchor-position-1/#target"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cdpify-0.2.9/cdpify/domains/security/types.py"
+          ],
+          "value": "https://www.w3.org/TR/mixed-content/#categories"
+        }
+      ]
+    },
+    "package": "cdpify",
+    "package_slug": "cdpify",
+    "project_url": "https://pypi.org/project/cdpify/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T11:46:58.828607+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T11:47:46.918735+00:00",
+    "title": "Personal PyPI Supply Chain Scan: cdpify 0.2.9",
+    "version": "0.2.9",
+    "version_slug": "0.2.9",
+    "_metadata_path": "reports/packages/cdpify/0.2.9/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "dxpdf-0.2.13.tar.gz",
     "finding_count": 44,
     "model": "gpt-5.5",
