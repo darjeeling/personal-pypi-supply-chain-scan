@@ -1,6 +1,527 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "dxpdf-0.2.13.tar.gz",
+    "finding_count": 44,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "dxpdf-0.2.13/src/render/emoji/raster.rs"
+          ],
+          "value": "-bounds.top"
+        },
+        {
+          "file_count": 6,
+          "files": [
+            "dxpdf-0.2.13/src/render/layout/build/convert.rs",
+            "dxpdf-0.2.13/src/render/layout/paragraph/borders.rs",
+            "dxpdf-0.2.13/src/render/layout/section/layout.rs",
+            "dxpdf-0.2.13/src/render/layout/table/borders.rs",
+            "dxpdf-0.2.13/src/render/layout/table/measure.rs",
+            "dxpdf-0.2.13/src/render/layout/table/mod.rs"
+          ],
+          "value": "b.top"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "dxpdf-0.2.13/src/render/layout/paragraph/borders.rs"
+          ],
+          "value": "borders.top"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "dxpdf-0.2.13/src/render/layout/build/table.rs",
+            "dxpdf-0.2.13/src/render/layout/table/borders.rs"
+          ],
+          "value": "cb.top"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "dxpdf-0.2.13/src/render/layout/table/split.rs"
+          ],
+          "value": "cell.margins.top"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "dxpdf-0.2.13/src/render/layout/page.rs"
+          ],
+          "value": "cfg.margins.top"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "dxpdf-0.2.13/src/render/layout/section/layout.rs",
+            "dxpdf-0.2.13/src/render/mod.rs"
+          ],
+          "value": "config.margins.top"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "dxpdf-0.2.13/PKG-INFO",
+            "dxpdf-0.2.13/README.md"
+          ],
+          "value": "crates.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "dxpdf-0.2.13/src/render/layout/section/layout.rs"
+          ],
+          "value": "ctx.config.margins.top"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "dxpdf-0.2.13/src/render/layout/build/table.rs"
+          ],
+          "value": "db.top"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "dxpdf-0.2.13/src/render/layout/build/table.rs"
+          ],
+          "value": "direct.top"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "dxpdf-0.2.13/Cargo.toml",
+            "dxpdf-0.2.13/PKG-INFO",
+            "dxpdf-0.2.13/README.md"
+          ],
+          "value": "docs.rs"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "dxpdf-0.2.13/PKG-INFO",
+            "dxpdf-0.2.13/README.md"
+          ],
+          "value": "formtastic.de"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "dxpdf-0.2.13/Cargo.lock",
+            "dxpdf-0.2.13/Cargo.toml",
+            "dxpdf-0.2.13/PKG-INFO",
+            "dxpdf-0.2.13/pyproject.toml",
+            "dxpdf-0.2.13/src/docx/whitespace_workaround.rs"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "dxpdf-0.2.13/PKG-INFO",
+            "dxpdf-0.2.13/README.md"
+          ],
+          "value": "img.shields.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "dxpdf-0.2.13/src/render/layout/build/table.rs"
+          ],
+          "value": "m.top"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "dxpdf-0.2.13/docs/floating-tables.md",
+            "dxpdf-0.2.13/src/render/layout/cell.rs",
+            "dxpdf-0.2.13/src/render/layout/table/emit.rs",
+            "dxpdf-0.2.13/src/render/mod.rs"
+          ],
+          "value": "margins.top"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "dxpdf-0.2.13/Cargo.toml",
+            "dxpdf-0.2.13/PKG-INFO",
+            "dxpdf-0.2.13/README.md",
+            "dxpdf-0.2.13/pyproject.toml"
+          ],
+          "value": "nerdy.pro"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "dxpdf-0.2.13/src/docx/parse/properties/schema/border.rs"
+          ],
+          "value": "p.top"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "dxpdf-0.2.13/src/render/layout/build/convert.rs"
+          ],
+          "value": "pbdr.top"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "dxpdf-0.2.13/src/render/layout/build/floating.rs"
+          ],
+          "value": "pc.margins.top"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "dxpdf-0.2.13/examples/dump.rs",
+            "dxpdf-0.2.13/src/render/layout/page.rs"
+          ],
+          "value": "pm.top"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "dxpdf-0.2.13/src/render/layout/fragment/segment.rs"
+          ],
+          "value": "raw.chars"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "dxpdf-0.2.13/src/docx/parse/fonts.rs"
+          ],
+          "value": "raw.iter"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "dxpdf-0.2.13/src/docx/parse/primitives/toggles.rs"
+          ],
+          "value": "raw.val"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "dxpdf-0.2.13/src/render/resolve/shape_geometry/custom.rs"
+          ],
+          "value": "rect.top"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "dxpdf-0.2.13/src/render/layout/build/convert.rs"
+          ],
+          "value": "resolved.top"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "dxpdf-0.2.13/src/docx/parse/fonts.rs",
+            "dxpdf-0.2.13/tests/integration.rs"
+          ],
+          "value": "schemas.openxmlformats.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "dxpdf-0.2.13/src/render/layout/page.rs"
+          ],
+          "value": "self.margins.top"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "dxpdf-0.2.13/src/render/geometry.rs"
+          ],
+          "value": "self.top"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "dxpdf-0.2.13/PKG-INFO",
+            "dxpdf-0.2.13/README.md"
+          ],
+          "value": "skia.org"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "dxpdf-0.2.13/src/docx/parse/vml/style.rs",
+            "dxpdf-0.2.13/src/render/layout/build/convert.rs",
+            "dxpdf-0.2.13/src/render/layout/build/table.rs"
+          ],
+          "value": "style.top"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "dxpdf-0.2.13/src/docx/parse/properties/schema/border.rs"
+          ],
+          "value": "t.top"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "dxpdf-0.2.13/PKG-INFO",
+            "dxpdf-0.2.13/README.md"
+          ],
+          "value": "www.google.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "dxpdf-0.2.13/src/docx/parse/properties/schema/insets.rs",
+            "dxpdf-0.2.13/src/docx/parse/properties/schema/section.rs"
+          ],
+          "value": "x.top"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "dxpdf-0.2.13/src/docx/parse/fonts.rs"
+          ],
+          "value": "http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "dxpdf-0.2.13/tests/integration.rs"
+          ],
+          "value": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "dxpdf-0.2.13/tests/integration.rs"
+          ],
+          "value": "http://schemas.openxmlformats.org/package/2006/content-types"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "dxpdf-0.2.13/tests/integration.rs"
+          ],
+          "value": "http://schemas.openxmlformats.org/package/2006/relationships"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "dxpdf-0.2.13/src/docx/parse/fonts.rs",
+            "dxpdf-0.2.13/tests/integration.rs"
+          ],
+          "value": "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "dxpdf-0.2.13/PKG-INFO",
+            "dxpdf-0.2.13/README.md"
+          ],
+          "value": "https://crates.io/crates/clap"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "dxpdf-0.2.13/PKG-INFO",
+            "dxpdf-0.2.13/README.md"
+          ],
+          "value": "https://crates.io/crates/dxpdf"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "dxpdf-0.2.13/PKG-INFO",
+            "dxpdf-0.2.13/README.md"
+          ],
+          "value": "https://crates.io/crates/env_logger"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "dxpdf-0.2.13/PKG-INFO",
+            "dxpdf-0.2.13/README.md"
+          ],
+          "value": "https://crates.io/crates/log"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "dxpdf-0.2.13/PKG-INFO",
+            "dxpdf-0.2.13/README.md"
+          ],
+          "value": "https://crates.io/crates/pyo3"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "dxpdf-0.2.13/PKG-INFO",
+            "dxpdf-0.2.13/README.md"
+          ],
+          "value": "https://crates.io/crates/quick-xml"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "dxpdf-0.2.13/PKG-INFO",
+            "dxpdf-0.2.13/README.md"
+          ],
+          "value": "https://crates.io/crates/skia-safe"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "dxpdf-0.2.13/PKG-INFO",
+            "dxpdf-0.2.13/README.md"
+          ],
+          "value": "https://crates.io/crates/thiserror"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "dxpdf-0.2.13/PKG-INFO",
+            "dxpdf-0.2.13/README.md"
+          ],
+          "value": "https://crates.io/crates/zip"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "dxpdf-0.2.13/Cargo.toml",
+            "dxpdf-0.2.13/PKG-INFO",
+            "dxpdf-0.2.13/README.md"
+          ],
+          "value": "https://docs.rs/dxpdf"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "dxpdf-0.2.13/src/field/parse.rs"
+          ],
+          "value": "https://example.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "dxpdf-0.2.13/PKG-INFO",
+            "dxpdf-0.2.13/README.md"
+          ],
+          "value": "https://formtastic.de"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "dxpdf-0.2.13/Cargo.toml",
+            "dxpdf-0.2.13/PKG-INFO",
+            "dxpdf-0.2.13/pyproject.toml"
+          ],
+          "value": "https://github.com/nerdy-pro/dxpdf"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "dxpdf-0.2.13/PKG-INFO",
+            "dxpdf-0.2.13/pyproject.toml"
+          ],
+          "value": "https://github.com/nerdy-pro/dxpdf#readme"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "dxpdf-0.2.13/Cargo.lock"
+          ],
+          "value": "https://github.com/rust-lang/crates.io-index"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "dxpdf-0.2.13/src/docx/whitespace_workaround.rs"
+          ],
+          "value": "https://github.com/tafia/quick-xml/issues/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "dxpdf-0.2.13/PKG-INFO",
+            "dxpdf-0.2.13/README.md"
+          ],
+          "value": "https://img.shields.io/badge/license-MIT-blue.svg"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "dxpdf-0.2.13/PKG-INFO",
+            "dxpdf-0.2.13/README.md"
+          ],
+          "value": "https://img.shields.io/crates/v/dxpdf"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "dxpdf-0.2.13/PKG-INFO",
+            "dxpdf-0.2.13/README.md"
+          ],
+          "value": "https://img.shields.io/docsrs/dxpdf"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "dxpdf-0.2.13/Cargo.toml",
+            "dxpdf-0.2.13/PKG-INFO",
+            "dxpdf-0.2.13/README.md",
+            "dxpdf-0.2.13/pyproject.toml"
+          ],
+          "value": "https://nerdy.pro"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "dxpdf-0.2.13/PKG-INFO",
+            "dxpdf-0.2.13/README.md"
+          ],
+          "value": "https://skia.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "dxpdf-0.2.13/PKG-INFO",
+            "dxpdf-0.2.13/README.md"
+          ],
+          "value": "https://www.google.com/s2/favicons?domain=formtastic.de&sz=32"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "dxpdf-0.2.13/PKG-INFO",
+            "dxpdf-0.2.13/README.md"
+          ],
+          "value": "https://www.google.com/s2/favicons?domain=nerdy.pro&sz=32"
+        }
+      ]
+    },
+    "package": "dxpdf",
+    "package_slug": "dxpdf",
+    "project_url": "https://pypi.org/project/dxpdf/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T11:43:01.801135+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T11:43:24.813650+00:00",
+    "title": "Personal PyPI Supply Chain Scan: dxpdf 0.2.13",
+    "version": "0.2.13",
+    "version_slug": "0.2.13",
+    "_metadata_path": "reports/packages/dxpdf/0.2.13/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "yaiv-1.4.5.tar.gz",
     "finding_count": 122,
     "model": "gpt-5.5",
