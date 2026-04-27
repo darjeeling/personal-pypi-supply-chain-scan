@@ -1,181 +1,343 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "tensorfeed-1.3.0.tar.gz",
-  "finding_count": 13,
+  "distribution": "sysnet_soft_delete-0.2.0.tar.gz",
+  "finding_count": 6,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "tensorfeed-1.3.0/PKG-INFO",
-          "tensorfeed-1.3.0/README.md",
-          "tensorfeed-1.3.0/tensorfeed.egg-info/PKG-INFO"
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/README.md"
         ],
-        "value": "base-mainnet.g.alchemy.com"
+        "value": "beanie-odm.dev"
       },
       {
-        "file_count": 4,
+        "file_count": 2,
         "files": [
-          "tensorfeed-1.3.0/PKG-INFO",
-          "tensorfeed-1.3.0/README.md",
-          "tensorfeed-1.3.0/pyproject.toml",
-          "tensorfeed-1.3.0/tensorfeed.egg-info/PKG-INFO"
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/README.md"
+        ],
+        "value": "docs.python.org"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sysnet_soft_delete-0.2.0/LICENSE.md",
+          "sysnet_soft_delete-0.2.0/PKG-INFO"
+        ],
+        "value": "fsf.org"
+      },
+      {
+        "file_count": 5,
+        "files": [
+          "sysnet_soft_delete-0.2.0/.gitignore",
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/README.md",
+          "sysnet_soft_delete-0.2.0/docs/technical.md",
+          "sysnet_soft_delete-0.2.0/pyproject.toml"
         ],
         "value": "github.com"
       },
       {
+        "file_count": 2,
+        "files": [
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/README.md"
+        ],
+        "value": "img.shields.io"
+      },
+      {
         "file_count": 1,
         "files": [
-          "tensorfeed-1.3.0/tensorfeed/web3_signer.py"
+          "sysnet_soft_delete-0.2.0/CHANGELOG.md"
         ],
-        "value": "mainnet.base.org"
+        "value": "keepachangelog.com"
       },
       {
-        "file_count": 6,
+        "file_count": 2,
         "files": [
-          "tensorfeed-1.3.0/PKG-INFO",
-          "tensorfeed-1.3.0/README.md",
-          "tensorfeed-1.3.0/pyproject.toml",
-          "tensorfeed-1.3.0/tensorfeed.egg-info/PKG-INFO",
-          "tensorfeed-1.3.0/tensorfeed/__init__.py",
-          "tensorfeed-1.3.0/tensorfeed/client.py"
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/README.md"
         ],
-        "value": "tensorfeed.ai"
+        "value": "mypy.readthedocs.io"
       },
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "tensorfeed-1.3.0/PKG-INFO",
-          "tensorfeed-1.3.0/README.md",
-          "tensorfeed-1.3.0/tensorfeed.egg-info/PKG-INFO"
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/README.md"
         ],
-        "value": "x.com"
+        "value": "peps.python.org"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/README.md"
+        ],
+        "value": "pymongo.readthedocs.io"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/README.md"
+        ],
+        "value": "pypi.org"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "sysnet_soft_delete-0.2.0/CHANGELOG.md",
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/README.md",
+          "sysnet_soft_delete-0.2.0/docs/technical.md"
+        ],
+        "value": "semver.org"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/README.md"
+        ],
+        "value": "www.mongodb.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/README.md"
+        ],
+        "value": "www.python.org"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "tensorfeed-1.3.0/PKG-INFO",
-          "tensorfeed-1.3.0/README.md",
-          "tensorfeed-1.3.0/tensorfeed.egg-info/PKG-INFO"
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/README.md"
         ],
-        "value": "https://base-mainnet.g.alchemy.com/v2/"
+        "value": "https://beanie-odm.dev/"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/README.md"
+        ],
+        "value": "https://docs.python.org/3/library/asyncio.html"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sysnet_soft_delete-0.2.0/LICENSE.md",
+          "sysnet_soft_delete-0.2.0/PKG-INFO"
+        ],
+        "value": "https://fsf.org/"
       },
       {
         "file_count": 4,
         "files": [
-          "tensorfeed-1.3.0/PKG-INFO",
-          "tensorfeed-1.3.0/README.md",
-          "tensorfeed-1.3.0/pyproject.toml",
-          "tensorfeed-1.3.0/tensorfeed.egg-info/PKG-INFO"
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/README.md",
+          "sysnet_soft_delete-0.2.0/docs/technical.md",
+          "sysnet_soft_delete-0.2.0/pyproject.toml"
         ],
-        "value": "https://github.com/RipperMercs/tensorfeed"
+        "value": "https://github.com/sysnet-cz/sysnet-soft-delete"
       },
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "tensorfeed-1.3.0/PKG-INFO",
-          "tensorfeed-1.3.0/pyproject.toml",
-          "tensorfeed-1.3.0/tensorfeed.egg-info/PKG-INFO"
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/pyproject.toml"
         ],
-        "value": "https://github.com/RipperMercs/tensorfeed/issues"
+        "value": "https://github.com/sysnet-cz/sysnet-soft-delete/blob/main/CHANGELOG.md"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/pyproject.toml"
+        ],
+        "value": "https://github.com/sysnet-cz/sysnet-soft-delete/issues"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/pyproject.toml"
+        ],
+        "value": "https://github.com/sysnet-cz/sysnet-soft-delete/tree/main/docs"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/README.md"
+        ],
+        "value": "https://img.shields.io/badge/MongoDB-5%2B-4db33d?logo=mongodb&logoColor=white"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/README.md"
+        ],
+        "value": "https://img.shields.io/badge/asyncio-native-brightgreen?logo=python&logoColor=white"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/README.md"
+        ],
+        "value": "https://img.shields.io/badge/beanie-2.x-4db33d?logo=mongodb&logoColor=white"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/README.md"
+        ],
+        "value": "https://img.shields.io/badge/license-AGPLv3%2B-blue.svg"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/README.md"
+        ],
+        "value": "https://img.shields.io/badge/mypy-strict-2a6db5"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/README.md"
+        ],
+        "value": "https://img.shields.io/badge/pymongo-4%2B-green"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/README.md"
+        ],
+        "value": "https://img.shields.io/badge/python-3.10%2B-blue?logo=python&logoColor=white"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/README.md"
+        ],
+        "value": "https://img.shields.io/badge/tests-47%20passed-brightgreen?logo=pytest&logoColor=white"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/README.md"
+        ],
+        "value": "https://img.shields.io/badge/typing-py.typed-blueviolet"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/README.md"
+        ],
+        "value": "https://img.shields.io/pypi/v/sysnet-soft-delete?logo=pypi&logoColor=white"
       },
       {
         "file_count": 1,
         "files": [
-          "tensorfeed-1.3.0/tensorfeed/web3_signer.py"
+          "sysnet_soft_delete-0.2.0/CHANGELOG.md"
         ],
-        "value": "https://mainnet.base.org"
+        "value": "https://keepachangelog.com/en/1.0.0/"
       },
       {
-        "file_count": 4,
+        "file_count": 2,
         "files": [
-          "tensorfeed-1.3.0/PKG-INFO",
-          "tensorfeed-1.3.0/README.md",
-          "tensorfeed-1.3.0/pyproject.toml",
-          "tensorfeed-1.3.0/tensorfeed.egg-info/PKG-INFO"
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/README.md"
         ],
-        "value": "https://tensorfeed.ai"
+        "value": "https://mypy.readthedocs.io/"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/README.md"
+        ],
+        "value": "https://peps.python.org/pep-0561/"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/README.md"
+        ],
+        "value": "https://pymongo.readthedocs.io/"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/README.md"
+        ],
+        "value": "https://pypi.org/project/sysnet-soft-delete/"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/README.md",
+          "sysnet_soft_delete-0.2.0/docs/technical.md"
+        ],
+        "value": "https://semver.org/"
       },
       {
         "file_count": 1,
         "files": [
-          "tensorfeed-1.3.0/tensorfeed/client.py"
+          "sysnet_soft_delete-0.2.0/CHANGELOG.md"
         ],
-        "value": "https://tensorfeed.ai/api"
+        "value": "https://semver.org/spec/v2.0.0.html"
       },
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "tensorfeed-1.3.0/PKG-INFO",
-          "tensorfeed-1.3.0/README.md",
-          "tensorfeed-1.3.0/tensorfeed.egg-info/PKG-INFO"
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/README.md"
         ],
-        "value": "https://tensorfeed.ai/api/payment/info"
+        "value": "https://www.mongodb.com/"
       },
       {
-        "file_count": 4,
+        "file_count": 2,
         "files": [
-          "tensorfeed-1.3.0/PKG-INFO",
-          "tensorfeed-1.3.0/README.md",
-          "tensorfeed-1.3.0/pyproject.toml",
-          "tensorfeed-1.3.0/tensorfeed.egg-info/PKG-INFO"
+          "sysnet_soft_delete-0.2.0/PKG-INFO",
+          "sysnet_soft_delete-0.2.0/README.md"
         ],
-        "value": "https://tensorfeed.ai/changelog"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "tensorfeed-1.3.0/PKG-INFO",
-          "tensorfeed-1.3.0/README.md",
-          "tensorfeed-1.3.0/tensorfeed.egg-info/PKG-INFO",
-          "tensorfeed-1.3.0/tensorfeed/__init__.py"
-        ],
-        "value": "https://tensorfeed.ai/developers"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "tensorfeed-1.3.0/PKG-INFO",
-          "tensorfeed-1.3.0/pyproject.toml",
-          "tensorfeed-1.3.0/tensorfeed.egg-info/PKG-INFO"
-        ],
-        "value": "https://tensorfeed.ai/developers/agent-payments"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "tensorfeed-1.3.0/PKG-INFO",
-          "tensorfeed-1.3.0/README.md",
-          "tensorfeed-1.3.0/tensorfeed.egg-info/PKG-INFO"
-        ],
-        "value": "https://tensorfeed.ai/llms.txt"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "tensorfeed-1.3.0/PKG-INFO",
-          "tensorfeed-1.3.0/README.md",
-          "tensorfeed-1.3.0/tensorfeed.egg-info/PKG-INFO"
-        ],
-        "value": "https://x.com/tensorfeed"
+        "value": "https://www.python.org/"
       }
     ]
   },
-  "package": "tensorfeed",
-  "package_slug": "tensorfeed",
-  "project_url": "https://pypi.org/project/tensorfeed/",
+  "package": "sysnet-soft-delete",
+  "package_slug": "sysnet-soft-delete",
+  "project_url": "https://pypi.org/project/sysnet-soft-delete/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T17:58:55.029592+00:00",
+  "published_at": "2026-04-27T18:02:56.587824+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T17:59:47.455581+00:00",
-  "title": "Personal PyPI Supply Chain Scan: tensorfeed 1.3.0",
-  "version": "1.3.0",
-  "version_slug": "1.3.0",
-  "_metadata_path": "reports/packages/tensorfeed/1.3.0/metadata.json"
+  "scanned_at": "2026-04-27T18:04:04.226231+00:00",
+  "title": "Personal PyPI Supply Chain Scan: sysnet-soft-delete 0.2.0",
+  "version": "0.2.0",
+  "version_slug": "0.2.0",
+  "_metadata_path": "reports/packages/sysnet-soft-delete/0.2.0/metadata.json"
 }
