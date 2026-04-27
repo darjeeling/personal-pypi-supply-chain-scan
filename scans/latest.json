@@ -1,600 +1,200 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "process_improve-1.7.1.tar.gz",
-  "finding_count": 17,
+  "distribution": "ai302-0.1.3.tar.gz",
+  "finding_count": 1,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 2,
+        "file_count": 4,
         "files": [
-          "process_improve-1.7.1/PKG-INFO",
-          "process_improve-1.7.1/README.md"
+          "ai302-0.1.3/PKG-INFO",
+          "ai302-0.1.3/README.md",
+          "ai302-0.1.3/ai302/api/http_client.py",
+          "ai302-0.1.3/doc/api.md"
         ],
-        "value": "codecov.io"
+        "value": "api.302.ai"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ai302-0.1.3/PKG-INFO",
+          "ai302-0.1.3/README.md",
+          "ai302-0.1.3/doc/api.md"
+        ],
+        "value": "api.302.ai`）"
       },
       {
         "file_count": 1,
         "files": [
-          "process_improve-1.7.1/process_improve/univariate/metrics.py"
+          "ai302-0.1.3/ai302/cli/image.py"
         ],
-        "value": "cran.r-project.org"
+        "value": "api.image"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ai302-0.1.3/ai302/cli/image.py",
+          "ai302-0.1.3/ai302/cli/tts.py",
+          "ai302-0.1.3/ai302/cli/video.py"
+        ],
+        "value": "api.record"
       },
       {
         "file_count": 1,
         "files": [
-          "process_improve-1.7.1/process_improve/univariate/metrics.py"
+          "ai302-0.1.3/ai302/cli/tts.py"
         ],
-        "value": "docs.scipy.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "process_improve-1.7.1/process_improve/batch/preprocessing.py",
-          "process_improve-1.7.1/process_improve/multivariate/methods.py"
-        ],
-        "value": "doi.org"
+        "value": "api.tts"
       },
       {
         "file_count": 1,
         "files": [
-          "process_improve-1.7.1/process_improve/univariate/metrics.py"
+          "ai302-0.1.3/ai302/cli/video.py"
         ],
-        "value": "dx.doi.org"
+        "value": "api.video"
       },
       {
         "file_count": 1,
         "files": [
-          "process_improve-1.7.1/process_improve/visualization/adapters/echarts_adapter.py"
+          "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-apply/evals/evals.json"
         ],
-        "value": "echarts.apache.org"
-      },
-      {
-        "file_count": 5,
-        "files": [
-          "process_improve-1.7.1/process_improve/batch/features.py",
-          "process_improve-1.7.1/process_improve/experiments/datasets.py",
-          "process_improve-1.7.1/process_improve/multivariate/methods.py",
-          "process_improve-1.7.1/process_improve/regression/methods.py",
-          "process_improve-1.7.1/process_improve/univariate/metrics.py"
-        ],
-        "value": "en.wikipedia.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "process_improve-1.7.1/PKG-INFO",
-          "process_improve-1.7.1/README.md"
-        ],
-        "value": "factori.al"
-      },
-      {
-        "file_count": 8,
-        "files": [
-          "process_improve-1.7.1/PKG-INFO",
-          "process_improve-1.7.1/process_improve/batch/features.py",
-          "process_improve-1.7.1/process_improve/batch/plotting.py",
-          "process_improve-1.7.1/process_improve/datasets/multivariate/tpls-pyphi/SOURCE",
-          "process_improve-1.7.1/process_improve/notebooks_examples/Example notebook.ipynb",
-          "process_improve-1.7.1/process_improve/notebooks_examples/batch/batch_llm.py",
-          "process_improve-1.7.1/process_improve/notebooks_examples/batch/batch_llm_multivariate.py",
-          "process_improve-1.7.1/pyproject.toml"
-        ],
-        "value": "github.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/tool_spec.py"
-        ],
-        "value": "json-schema.org"
+        "value": "cdn.302.ai"
       },
       {
         "file_count": 2,
         "files": [
-          "process_improve-1.7.1/PKG-INFO",
-          "process_improve-1.7.1/README.md"
+          "ai302-0.1.3/ai302/assets/commands/302ai-media-studio/apply.md",
+          "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-apply/SKILL.md"
         ],
-        "value": "kgdunn.github.io"
-      },
-      {
-        "file_count": 7,
-        "files": [
-          "process_improve-1.7.1/PKG-INFO",
-          "process_improve-1.7.1/README.md",
-          "process_improve-1.7.1/process_improve/__init__.py",
-          "process_improve-1.7.1/process_improve/experiments/datasets.py",
-          "process_improve-1.7.1/process_improve/experiments/simulations.py",
-          "process_improve-1.7.1/process_improve/notebooks_examples/least-squares-modelling/Misguided-reliance-on-R2-alone.ipynb",
-          "process_improve-1.7.1/process_improve/regression/methods.py"
-        ],
-        "value": "learnche.org"
+        "value": "cdn.example.com"
       },
       {
         "file_count": 1,
         "files": [
-          "process_improve-1.7.1/process_improve/regression/methods.py"
+          "ai302-0.1.3/ai302/core/yaml_edit.py"
         ],
-        "value": "link.springer.com"
+        "value": "raw.find"
       },
       {
         "file_count": 1,
         "files": [
-          "process_improve-1.7.1/process_improve/monitoring/control_charts.py"
+          "ai302-0.1.3/ai302/core/yaml_edit.py"
         ],
-        "value": "onlinelibrary.wiley.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/experiments/datasets.py"
-        ],
-        "value": "openmv.net"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/experiments/structures.py"
-        ],
-        "value": "pandas.pydata.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "process_improve-1.7.1/process_improve/batch/plotting.py",
-          "process_improve-1.7.1/process_improve/notebooks_examples/batch/demo-multiplots.ipynb"
-        ],
-        "value": "plotly.com"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "process_improve-1.7.1/process_improve/notebooks_examples/batch/batch_llm.py",
-          "process_improve-1.7.1/process_improve/notebooks_examples/batch/demo-multiplots.ipynb"
-        ],
-        "value": "raw.githubusercontent.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/notebooks_examples/experiments/case-studies.py"
-        ],
-        "value": "rsmopt.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/batch/features.py"
-        ],
-        "value": "stackoverflow.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/univariate/metrics.py"
-        ],
-        "value": "www.itl.nist.gov"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/univariate/metrics.py"
-        ],
-        "value": "www.rips-irsp.com"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "process_improve-1.7.1/process_improve/experiments/datasets.py",
-          "process_improve-1.7.1/process_improve/regression/methods.py"
-        ],
-        "value": "www.sciencedirect.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/notebooks_examples/experiments/case-studies.py"
-        ],
-        "value": "yint.org"
+        "value": "raw.strip"
       }
     ],
     "raw_public_ips": [],
-    "suspicious_endpoints": [
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/notebooks_examples/batch/batch_llm.py"
-        ],
-        "value": "https://raw.githubusercontent.com/AileenNielsen/TimeSeriesAnalysisWithPython/master/data/AirPassengers.csv"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/notebooks_examples/batch/demo-multiplots.ipynb"
-        ],
-        "value": "https://raw.githubusercontent.com/kgdunn/process-improve/main/process_improve/datasets/batch/dryer.csv\\"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "process_improve-1.7.1/process_improve/notebooks_examples/batch/batch_llm.py",
-          "process_improve-1.7.1/process_improve/notebooks_examples/batch/demo-multiplots.ipynb"
-        ],
-        "value": "raw.githubusercontent.com"
-      }
-    ],
+    "suspicious_endpoints": [],
     "urls": [
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/multivariate/methods.py"
-        ],
-        "value": "http://en.wikipedia.org/wiki/Ellipse"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/experiments/datasets.py"
-        ],
-        "value": "http://openmv.net/info/distillate-flow"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/experiments/datasets.py"
-        ],
-        "value": "http://openmv.net/info/oil-company-doe"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/univariate/metrics.py"
-        ],
-        "value": "http://www.rips-irsp.com/article/10.5334/irsp.82/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/regression/methods.py"
-        ],
-        "value": "http://www.sciencedirect.com/science/article/pii/S0020019003003508"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/notebooks_examples/experiments/case-studies.py"
-        ],
-        "value": "http://yint.org/3B"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/notebooks_examples/experiments/case-studies.py"
-        ],
-        "value": "http://yint.org/3C"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "process_improve-1.7.1/PKG-INFO",
-          "process_improve-1.7.1/README.md"
-        ],
-        "value": "https://codecov.io/gh/kgdunn/process-improve"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "process_improve-1.7.1/PKG-INFO",
-          "process_improve-1.7.1/README.md"
-        ],
-        "value": "https://codecov.io/gh/kgdunn/process-improve/branch/main/graph/badge.svg"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/univariate/metrics.py"
-        ],
-        "value": "https://cran.r-project.org/web/packages/robustbase/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/univariate/metrics.py"
-        ],
-        "value": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.shapiro.html"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/batch/preprocessing.py"
-        ],
-        "value": "https://doi.org/10.1002/aic.690440412"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/multivariate/methods.py"
-        ],
-        "value": "https://doi.org/10.1016/j.chemolab.2014.02.006"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/univariate/metrics.py"
-        ],
-        "value": "https://dx.doi.org/10.2307/2291267"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/visualization/adapters/echarts_adapter.py"
-        ],
-        "value": "https://echarts.apache.org/en/option.html"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/experiments/datasets.py"
-        ],
-        "value": "https://en.wikipedia.org/wiki/Dimensionless_quantity"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/univariate/metrics.py"
-        ],
-        "value": "https://en.wikipedia.org/wiki/Median_absolute_deviation"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/regression/methods.py"
-        ],
-        "value": "https://en.wikipedia.org/wiki/Repeated_median_regression"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/univariate/metrics.py"
-        ],
-        "value": "https://en.wikipedia.org/wiki/Robust_measures_of_scale"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/univariate/metrics.py"
-        ],
-        "value": "https://en.wikipedia.org/wiki/Shapiro-Wilk_test"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/batch/features.py"
-        ],
-        "value": "https://en.wikipedia.org/wiki/Trapezoidal_rule"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "process_improve-1.7.1/PKG-INFO",
-          "process_improve-1.7.1/README.md"
-        ],
-        "value": "https://factori.al"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/notebooks_examples/batch/batch_llm_multivariate.py"
-        ],
-        "value": "https://github.com/SalesforceAIResearch/uni2ts"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/notebooks_examples/batch/batch_llm.py"
-        ],
-        "value": "https://github.com/amazon-science/chronos-forecasting.git"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/batch/features.py"
-        ],
-        "value": "https://github.com/deepcharles/ruptures"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/notebooks_examples/Example notebook.ipynb"
-        ],
-        "value": "https://github.com/kgdunn/process-improve/raw/main/notebooks_examples/Tablets.xlsx\\"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "process_improve-1.7.1/PKG-INFO",
-          "process_improve-1.7.1/pyproject.toml"
-        ],
-        "value": "https://github.com/kgdunn/process_improve"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "process_improve-1.7.1/PKG-INFO",
-          "process_improve-1.7.1/pyproject.toml"
-        ],
-        "value": "https://github.com/kgdunn/process_improve/issues"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/batch/plotting.py"
-        ],
-        "value": "https://github.com/plotly/plotly.js/issues/400"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/datasets/multivariate/tpls-pyphi/SOURCE"
-        ],
-        "value": "https://github.com/salvadorgarciamunoz/pyphi/tree/master/examples/JRPLS%20and%20TPLS"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/tool_spec.py"
-        ],
-        "value": "https://json-schema.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "process_improve-1.7.1/PKG-INFO",
-          "process_improve-1.7.1/README.md"
-        ],
-        "value": "https://kgdunn.github.io/process-improve/**"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/experiments/datasets.py"
-        ],
-        "value": "https://learnche.org"
-      },
       {
         "file_count": 4,
         "files": [
-          "process_improve-1.7.1/PKG-INFO",
-          "process_improve-1.7.1/README.md",
-          "process_improve-1.7.1/process_improve/__init__.py",
-          "process_improve-1.7.1/process_improve/experiments/simulations.py"
+          "ai302-0.1.3/PKG-INFO",
+          "ai302-0.1.3/README.md",
+          "ai302-0.1.3/ai302/assets/commands/302ai-media-studio/result.md",
+          "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-result/SKILL.md"
         ],
-        "value": "https://learnche.org/pid"
+        "value": "https://"
       },
       {
         "file_count": 1,
         "files": [
-          "process_improve-1.7.1/process_improve/regression/methods.py"
+          "ai302-0.1.3/ai302/api/http_client.py"
         ],
-        "value": "https://learnche.org/pid/least-squares-modelling/least-squares-model-analysis"
+        "value": "https://api.302.ai"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ai302-0.1.3/PKG-INFO",
+          "ai302-0.1.3/README.md",
+          "ai302-0.1.3/doc/api.md"
+        ],
+        "value": "https://api.302.ai`）"
       },
       {
         "file_count": 1,
         "files": [
-          "process_improve-1.7.1/process_improve/notebooks_examples/least-squares-modelling/Misguided-reliance-on-R2-alone.ipynb"
+          "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-apply/evals/evals.json"
         ],
-        "value": "https://learnche.org/pid/least-squares-modelling/least-squares-model-analysis\\n"
+        "value": "https://cdn.302.ai/generated/cat_abc123.jpg"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "ai302-0.1.3/ai302/assets/commands/302ai-media-studio/apply.md",
+          "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-apply/SKILL.md"
+        ],
+        "value": "https://cdn.example.com/abc123.jpg"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "ai302-0.1.3/ai302/assets/commands/302ai-media-studio/apply.md",
+          "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-apply/SKILL.md"
+        ],
+        "value": "https://example.com/cat.jpg"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "ai302-0.1.3/ai302/assets/commands/302ai-media-studio/apply.md",
+          "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-apply/SKILL.md"
+        ],
+        "value": "https://example.com/img1.jpg"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "ai302-0.1.3/ai302/assets/commands/302ai-media-studio/apply.md",
+          "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-apply/SKILL.md"
+        ],
+        "value": "https://example.com/img2.jpg"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "ai302-0.1.3/ai302/assets/commands/302ai-media-studio/result.md",
+          "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-result/SKILL.md"
+        ],
+        "value": "https://example.com/result.mp4"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "ai302-0.1.3/ai302/assets/commands/302ai-media-studio/apply.md",
+          "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-apply/SKILL.md"
+        ],
+        "value": "https://example.com/source.mp4"
       },
       {
         "file_count": 1,
         "files": [
-          "process_improve-1.7.1/process_improve/regression/methods.py"
+          "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-propose/evals/evals.json"
         ],
-        "value": "https://link.springer.com/article/10.1007/PL00009190"
+        "value": "https://example.com/sunset.jpg"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "process_improve-1.7.1/process_improve/monitoring/control_charts.py"
+          "ai302-0.1.3/ai302/assets/commands/302ai-media-studio/propose.md",
+          "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-propose/SKILL.md"
         ],
-        "value": "https://onlinelibrary.wiley.com/doi/abs/10.1002/for.1125"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/experiments/structures.py"
-        ],
-        "value": "https://pandas.pydata.org/pandas-docs/stable/development/extending.html"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/batch/plotting.py"
-        ],
-        "value": "https://plotly.com/python/animations/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/notebooks_examples/batch/demo-multiplots.ipynb"
-        ],
-        "value": "https://plotly.com/python/animations/\\n"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/batch/plotting.py"
-        ],
-        "value": "https://plotly.com/python/reference/layout/sliders/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/notebooks_examples/batch/batch_llm.py"
-        ],
-        "value": "https://raw.githubusercontent.com/AileenNielsen/TimeSeriesAnalysisWithPython/master/data/AirPassengers.csv"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/notebooks_examples/batch/demo-multiplots.ipynb"
-        ],
-        "value": "https://raw.githubusercontent.com/kgdunn/process-improve/main/process_improve/datasets/batch/dryer.csv\\"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/notebooks_examples/experiments/case-studies.py"
-        ],
-        "value": "https://rsmopt.com/system/concrete-strength/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/batch/features.py"
-        ],
-        "value": "https://stackoverflow.com/questions/10475488/calculating-crossing-intercept-"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/univariate/metrics.py"
-        ],
-        "value": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda35h3.htm"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/experiments/datasets.py"
-        ],
-        "value": "https://www.sciencedirect.com/science/article/abs/pii/0038092X67900515"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/notebooks_examples/experiments/case-studies.py"
-        ],
-        "value": "https://yint.org/w2"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "process_improve-1.7.1/process_improve/notebooks_examples/experiments/case-studies.py"
-        ],
-        "value": "https://yint.org/w4"
+        "value": "https://example.com/video.mp4"
       }
     ]
   },
-  "package": "process-improve",
-  "package_slug": "process-improve",
-  "project_url": "https://pypi.org/project/process-improve/",
+  "package": "ai302",
+  "package_slug": "ai302",
+  "project_url": "https://pypi.org/project/ai302/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T08:27:55.295863+00:00",
+  "published_at": "2026-04-27T08:39:10.615299+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T08:29:20.601931+00:00",
-  "title": "Personal PyPI Supply Chain Scan: process-improve 1.7.1",
-  "version": "1.7.1",
-  "version_slug": "1.7.1",
-  "_metadata_path": "reports/packages/process-improve/1.7.1/metadata.json"
+  "scanned_at": "2026-04-27T08:39:48.929723+00:00",
+  "title": "Personal PyPI Supply Chain Scan: ai302 0.1.3",
+  "version": "0.1.3",
+  "version_slug": "0.1.3",
+  "_metadata_path": "reports/packages/ai302/0.1.3/metadata.json"
 }

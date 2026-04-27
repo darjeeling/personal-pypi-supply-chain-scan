@@ -1,6 +1,206 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "ai302-0.1.3.tar.gz",
+    "finding_count": 1,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 4,
+          "files": [
+            "ai302-0.1.3/PKG-INFO",
+            "ai302-0.1.3/README.md",
+            "ai302-0.1.3/ai302/api/http_client.py",
+            "ai302-0.1.3/doc/api.md"
+          ],
+          "value": "api.302.ai"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ai302-0.1.3/PKG-INFO",
+            "ai302-0.1.3/README.md",
+            "ai302-0.1.3/doc/api.md"
+          ],
+          "value": "api.302.ai`）"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ai302-0.1.3/ai302/cli/image.py"
+          ],
+          "value": "api.image"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ai302-0.1.3/ai302/cli/image.py",
+            "ai302-0.1.3/ai302/cli/tts.py",
+            "ai302-0.1.3/ai302/cli/video.py"
+          ],
+          "value": "api.record"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ai302-0.1.3/ai302/cli/tts.py"
+          ],
+          "value": "api.tts"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ai302-0.1.3/ai302/cli/video.py"
+          ],
+          "value": "api.video"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-apply/evals/evals.json"
+          ],
+          "value": "cdn.302.ai"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "ai302-0.1.3/ai302/assets/commands/302ai-media-studio/apply.md",
+            "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-apply/SKILL.md"
+          ],
+          "value": "cdn.example.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ai302-0.1.3/ai302/core/yaml_edit.py"
+          ],
+          "value": "raw.find"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ai302-0.1.3/ai302/core/yaml_edit.py"
+          ],
+          "value": "raw.strip"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 4,
+          "files": [
+            "ai302-0.1.3/PKG-INFO",
+            "ai302-0.1.3/README.md",
+            "ai302-0.1.3/ai302/assets/commands/302ai-media-studio/result.md",
+            "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-result/SKILL.md"
+          ],
+          "value": "https://"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ai302-0.1.3/ai302/api/http_client.py"
+          ],
+          "value": "https://api.302.ai"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ai302-0.1.3/PKG-INFO",
+            "ai302-0.1.3/README.md",
+            "ai302-0.1.3/doc/api.md"
+          ],
+          "value": "https://api.302.ai`）"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-apply/evals/evals.json"
+          ],
+          "value": "https://cdn.302.ai/generated/cat_abc123.jpg"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "ai302-0.1.3/ai302/assets/commands/302ai-media-studio/apply.md",
+            "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-apply/SKILL.md"
+          ],
+          "value": "https://cdn.example.com/abc123.jpg"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "ai302-0.1.3/ai302/assets/commands/302ai-media-studio/apply.md",
+            "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-apply/SKILL.md"
+          ],
+          "value": "https://example.com/cat.jpg"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "ai302-0.1.3/ai302/assets/commands/302ai-media-studio/apply.md",
+            "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-apply/SKILL.md"
+          ],
+          "value": "https://example.com/img1.jpg"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "ai302-0.1.3/ai302/assets/commands/302ai-media-studio/apply.md",
+            "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-apply/SKILL.md"
+          ],
+          "value": "https://example.com/img2.jpg"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "ai302-0.1.3/ai302/assets/commands/302ai-media-studio/result.md",
+            "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-result/SKILL.md"
+          ],
+          "value": "https://example.com/result.mp4"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "ai302-0.1.3/ai302/assets/commands/302ai-media-studio/apply.md",
+            "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-apply/SKILL.md"
+          ],
+          "value": "https://example.com/source.mp4"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-propose/evals/evals.json"
+          ],
+          "value": "https://example.com/sunset.jpg"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "ai302-0.1.3/ai302/assets/commands/302ai-media-studio/propose.md",
+            "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-propose/SKILL.md"
+          ],
+          "value": "https://example.com/video.mp4"
+        }
+      ]
+    },
+    "package": "ai302",
+    "package_slug": "ai302",
+    "project_url": "https://pypi.org/project/ai302/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T08:39:10.615299+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T08:39:48.929723+00:00",
+    "title": "Personal PyPI Supply Chain Scan: ai302 0.1.3",
+    "version": "0.1.3",
+    "version_slug": "0.1.3",
+    "_metadata_path": "reports/packages/ai302/0.1.3/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "process_improve-1.7.1.tar.gz",
     "finding_count": 17,
     "model": "gpt-5.5",
