@@ -1,6 +1,195 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "tai_sql-0.6.8.tar.gz",
+    "finding_count": 157,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 2,
+          "files": [
+            "tai_sql-0.6.8/tai_sql/cli/commands/utils/github/auth.py",
+            "tai_sql-0.6.8/tai_sql/cli/commands/utils/github/client.py"
+          ],
+          "value": "api.github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "tai_sql-0.6.8/LICENSE"
+          ],
+          "value": "fsf.org"
+        },
+        {
+          "file_count": 7,
+          "files": [
+            "tai_sql-0.6.8/PKG-INFO",
+            "tai_sql-0.6.8/README.md",
+            "tai_sql-0.6.8/pyproject.toml",
+            "tai_sql-0.6.8/tai_sql/cli/commands/cmd_deploy/main.py",
+            "tai_sql-0.6.8/tai_sql/cli/commands/cmd_init/model.py",
+            "tai_sql-0.6.8/tai_sql/cli/commands/utils/github/auth.py",
+            "tai_sql-0.6.8/tai_sql/cli/commands/utils/github/client.py"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "tai_sql-0.6.8/PKG-INFO",
+            "tai_sql-0.6.8/README.md",
+            "tai_sql-0.6.8/tai_sql/generators/diagram/__init__.py"
+          ],
+          "value": "graphviz.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "tai_sql-0.6.8/LICENSE"
+          ],
+          "value": "www.gnu.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "tai_sql-0.6.8/PKG-INFO",
+            "tai_sql-0.6.8/pyproject.toml"
+          ],
+          "value": "www.triplealpha.in"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "tai_sql-0.6.8/tai_sql/cli/commands/utils/github/client.py"
+          ],
+          "value": "https://api.github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "tai_sql-0.6.8/tai_sql/cli/commands/utils/github/auth.py"
+          ],
+          "value": "https://api.github.com/user"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "tai_sql-0.6.8/LICENSE"
+          ],
+          "value": "https://fsf.org/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "tai_sql-0.6.8/tai_sql/cli/commands/utils/github/auth.py"
+          ],
+          "value": "https://github.com/login/device/code"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "tai_sql-0.6.8/tai_sql/cli/commands/utils/github/auth.py"
+          ],
+          "value": "https://github.com/login/oauth/access_token"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "tai_sql-0.6.8/tai_sql/cli/commands/utils/github/client.py"
+          ],
+          "value": "https://github.com/owner/repo.git"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "tai_sql-0.6.8/PKG-INFO",
+            "tai_sql-0.6.8/README.md"
+          ],
+          "value": "https://github.com/pgvector/pgvector"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "tai_sql-0.6.8/PKG-INFO",
+            "tai_sql-0.6.8/pyproject.toml",
+            "tai_sql-0.6.8/tai_sql/cli/commands/cmd_init/model.py"
+          ],
+          "value": "https://github.com/triplealpha-innovation/tai-sql"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "tai_sql-0.6.8/PKG-INFO",
+            "tai_sql-0.6.8/pyproject.toml"
+          ],
+          "value": "https://github.com/triplealpha-innovation/tai-sql/issues"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "tai_sql-0.6.8/tai_sql/cli/commands/cmd_deploy/main.py"
+          ],
+          "value": "https://github.com/{repo_info["
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "tai_sql-0.6.8/PKG-INFO",
+            "tai_sql-0.6.8/README.md"
+          ],
+          "value": "https://graphviz.org/download/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "tai_sql-0.6.8/tai_sql/generators/diagram/__init__.py"
+          ],
+          "value": "https://graphviz.org/download/\\n\\n"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "tai_sql-0.6.8/LICENSE"
+          ],
+          "value": "https://www.gnu.org/licenses/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "tai_sql-0.6.8/LICENSE"
+          ],
+          "value": "https://www.gnu.org/licenses/why-not-lgpl.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "tai_sql-0.6.8/PKG-INFO",
+            "tai_sql-0.6.8/pyproject.toml"
+          ],
+          "value": "https://www.triplealpha.in/es/"
+        }
+      ]
+    },
+    "package": "tai-sql",
+    "package_slug": "tai-sql",
+    "project_url": "https://pypi.org/project/tai-sql/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T18:24:56.152861+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T18:26:03.242355+00:00",
+    "title": "Personal PyPI Supply Chain Scan: tai-sql 0.6.8",
+    "version": "0.6.8",
+    "version_slug": "0.6.8",
+    "_metadata_path": "reports/packages/tai-sql/0.6.8/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "fklearn-4.2.2.tar.gz",
     "finding_count": 1952,
     "model": "gpt-5.5",

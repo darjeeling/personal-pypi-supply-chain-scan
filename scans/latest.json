@@ -1,188 +1,61 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "fklearn-4.2.2.tar.gz",
-  "finding_count": 1952,
+  "distribution": "tai_sql-0.6.8.tar.gz",
+  "finding_count": 157,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/src/fklearn/validation/evaluators.py"
-        ],
-        "value": "arxiv.org"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "fklearn-4.2.2/PKG-INFO",
-          "fklearn-4.2.2/README.md",
-          "fklearn-4.2.2/src/fklearn.egg-info/PKG-INFO"
-        ],
-        "value": "badges.gitter.im"
-      },
-      {
         "file_count": 2,
         "files": [
-          "fklearn-4.2.2/src/fklearn/training/classification.py",
-          "fklearn-4.2.2/src/fklearn/training/regression.py"
+          "tai_sql-0.6.8/tai_sql/cli/commands/utils/github/auth.py",
+          "tai_sql-0.6.8/tai_sql/cli/commands/utils/github/client.py"
         ],
-        "value": "catboost.ai"
+        "value": "api.github.com"
       },
       {
         "file_count": 1,
         "files": [
-          "fklearn-4.2.2/src/fklearn/causal/cate_learning/meta_learners.py"
+          "tai_sql-0.6.8/LICENSE"
         ],
-        "value": "causalml.readthedocs.io"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "fklearn-4.2.2/PKG-INFO",
-          "fklearn-4.2.2/README.md",
-          "fklearn-4.2.2/src/fklearn.egg-info/PKG-INFO"
-        ],
-        "value": "docs.astral.sh"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/src/fklearn/training/transformation.py"
-        ],
-        "value": "docs.scipy.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/src/fklearn/validation/evaluators.py"
-        ],
-        "value": "en.wikipedia.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "files.pythonhosted.org"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "fklearn-4.2.2/PKG-INFO",
-          "fklearn-4.2.2/README.md",
-          "fklearn-4.2.2/pyproject.toml",
-          "fklearn-4.2.2/src/fklearn.egg-info/PKG-INFO"
-        ],
-        "value": "fklearn.readthedocs.io"
+        "value": "fsf.org"
       },
       {
         "file_count": 7,
         "files": [
-          "fklearn-4.2.2/PKG-INFO",
-          "fklearn-4.2.2/README.md",
-          "fklearn-4.2.2/pyproject.toml",
-          "fklearn-4.2.2/src/fklearn.egg-info/PKG-INFO",
-          "fklearn-4.2.2/src/fklearn/common_docstrings.py",
-          "fklearn-4.2.2/src/fklearn/training/classification.py",
-          "fklearn-4.2.2/src/fklearn/training/regression.py"
+          "tai_sql-0.6.8/PKG-INFO",
+          "tai_sql-0.6.8/README.md",
+          "tai_sql-0.6.8/pyproject.toml",
+          "tai_sql-0.6.8/tai_sql/cli/commands/cmd_deploy/main.py",
+          "tai_sql-0.6.8/tai_sql/cli/commands/cmd_init/model.py",
+          "tai_sql-0.6.8/tai_sql/cli/commands/utils/github/auth.py",
+          "tai_sql-0.6.8/tai_sql/cli/commands/utils/github/client.py"
         ],
         "value": "github.com"
       },
       {
         "file_count": 3,
         "files": [
-          "fklearn-4.2.2/PKG-INFO",
-          "fklearn-4.2.2/README.md",
-          "fklearn-4.2.2/src/fklearn.egg-info/PKG-INFO"
+          "tai_sql-0.6.8/PKG-INFO",
+          "tai_sql-0.6.8/README.md",
+          "tai_sql-0.6.8/tai_sql/generators/diagram/__init__.py"
         ],
-        "value": "gitter.im"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "fklearn-4.2.2/PKG-INFO",
-          "fklearn-4.2.2/README.md",
-          "fklearn-4.2.2/src/fklearn.egg-info/PKG-INFO"
-        ],
-        "value": "img.shields.io"
+        "value": "graphviz.org"
       },
       {
         "file_count": 1,
         "files": [
-          "fklearn-4.2.2/src/fklearn/causal/cate_learning/meta_learners.py"
+          "tai_sql-0.6.8/LICENSE"
         ],
-        "value": "matheusfacure.github.io"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "fklearn-4.2.2/PKG-INFO",
-          "fklearn-4.2.2/README.md",
-          "fklearn-4.2.2/src/fklearn.egg-info/PKG-INFO"
-        ],
-        "value": "opensource.org"
+        "value": "www.gnu.org"
       },
       {
         "file_count": 2,
         "files": [
-          "fklearn-4.2.2/src/fklearn/training/transformation.py",
-          "fklearn-4.2.2/src/fklearn/validation/splitters.py"
+          "tai_sql-0.6.8/PKG-INFO",
+          "tai_sql-0.6.8/pyproject.toml"
         ],
-        "value": "pandas.pydata.org"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "fklearn-4.2.2/PKG-INFO",
-          "fklearn-4.2.2/README.md",
-          "fklearn-4.2.2/src/fklearn.egg-info/PKG-INFO",
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "pypi.org"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "fklearn-4.2.2/PKG-INFO",
-          "fklearn-4.2.2/README.md",
-          "fklearn-4.2.2/src/fklearn.egg-info/PKG-INFO"
-        ],
-        "value": "readthedocs.org"
-      },
-      {
-        "file_count": 6,
-        "files": [
-          "fklearn-4.2.2/PKG-INFO",
-          "fklearn-4.2.2/README.md",
-          "fklearn-4.2.2/src/fklearn.egg-info/PKG-INFO",
-          "fklearn-4.2.2/src/fklearn/training/classification.py",
-          "fklearn-4.2.2/src/fklearn/training/regression.py",
-          "fklearn-4.2.2/src/fklearn/training/unsupervised.py"
-        ],
-        "value": "scikit-learn.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/LICENSE"
-        ],
-        "value": "www.apache.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/src/fklearn/causal/debias.py"
-        ],
-        "value": "www.statsmodels.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "fklearn-4.2.2/src/fklearn/training/classification.py",
-          "fklearn-4.2.2/src/fklearn/training/regression.py"
-        ],
-        "value": "xgboost.readthedocs.io"
+        "value": "www.triplealpha.in"
       }
     ],
     "raw_public_ips": [],
@@ -191,583 +64,126 @@
       {
         "file_count": 1,
         "files": [
-          "fklearn-4.2.2/src/fklearn/validation/splitters.py"
+          "tai_sql-0.6.8/tai_sql/cli/commands/utils/github/client.py"
         ],
-        "value": "http://pandas.pydata.org/pandas-docs/stable/timeseries.html#offset-aliases"
+        "value": "https://api.github.com"
       },
       {
         "file_count": 1,
         "files": [
-          "fklearn-4.2.2/src/fklearn/training/unsupervised.py"
+          "tai_sql-0.6.8/tai_sql/cli/commands/utils/github/auth.py"
         ],
-        "value": "http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html"
+        "value": "https://api.github.com/user"
       },
       {
         "file_count": 1,
         "files": [
-          "fklearn-4.2.2/src/fklearn/training/classification.py"
+          "tai_sql-0.6.8/LICENSE"
         ],
-        "value": "http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html"
+        "value": "https://fsf.org/"
       },
       {
         "file_count": 1,
         "files": [
-          "fklearn-4.2.2/src/fklearn/training/regression.py"
+          "tai_sql-0.6.8/tai_sql/cli/commands/utils/github/auth.py"
         ],
-        "value": "http://scikit-learn.org/stable/modules/generated/sklearn.gaussian_process.GaussianProcessRegressor.html"
+        "value": "https://github.com/login/device/code"
       },
       {
         "file_count": 1,
         "files": [
-          "fklearn-4.2.2/src/fklearn/training/regression.py"
+          "tai_sql-0.6.8/tai_sql/cli/commands/utils/github/auth.py"
         ],
-        "value": "http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html"
+        "value": "https://github.com/login/oauth/access_token"
       },
       {
         "file_count": 1,
         "files": [
-          "fklearn-4.2.2/src/fklearn/training/classification.py"
+          "tai_sql-0.6.8/tai_sql/cli/commands/utils/github/client.py"
         ],
-        "value": "http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/LICENSE"
-        ],
-        "value": "http://www.apache.org/licenses/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/LICENSE"
-        ],
-        "value": "http://www.apache.org/licenses/LICENSE-2.0"
+        "value": "https://github.com/owner/repo.git"
       },
       {
         "file_count": 2,
         "files": [
-          "fklearn-4.2.2/src/fklearn/training/classification.py",
-          "fklearn-4.2.2/src/fklearn/training/regression.py"
+          "tai_sql-0.6.8/PKG-INFO",
+          "tai_sql-0.6.8/README.md"
         ],
-        "value": "http://xgboost.readthedocs.io/en/latest/parameter.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "fklearn-4.2.2/src/fklearn/training/classification.py",
-          "fklearn-4.2.2/src/fklearn/training/regression.py"
-        ],
-        "value": "http://xgboost.readthedocs.io/en/latest/python/python_api.html"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/src/fklearn/validation/evaluators.py"
-        ],
-        "value": "https://arxiv.org/abs/1706.04599"
+        "value": "https://github.com/pgvector/pgvector"
       },
       {
         "file_count": 3,
         "files": [
-          "fklearn-4.2.2/PKG-INFO",
-          "fklearn-4.2.2/README.md",
-          "fklearn-4.2.2/src/fklearn.egg-info/PKG-INFO"
+          "tai_sql-0.6.8/PKG-INFO",
+          "tai_sql-0.6.8/pyproject.toml",
+          "tai_sql-0.6.8/tai_sql/cli/commands/cmd_init/model.py"
         ],
-        "value": "https://badges.gitter.im/fklearn-python/community.svg"
+        "value": "https://github.com/triplealpha-innovation/tai-sql"
       },
       {
         "file_count": 2,
         "files": [
-          "fklearn-4.2.2/src/fklearn/training/classification.py",
-          "fklearn-4.2.2/src/fklearn/training/regression.py"
+          "tai_sql-0.6.8/PKG-INFO",
+          "tai_sql-0.6.8/pyproject.toml"
         ],
-        "value": "https://catboost.ai/docs/concepts/python-reference_catboostregressor.html"
+        "value": "https://github.com/triplealpha-innovation/tai-sql/issues"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "tai_sql-0.6.8/tai_sql/cli/commands/cmd_deploy/main.py"
+        ],
+        "value": "https://github.com/{repo_info["
       },
       {
         "file_count": 2,
         "files": [
-          "fklearn-4.2.2/src/fklearn/training/classification.py",
-          "fklearn-4.2.2/src/fklearn/training/regression.py"
+          "tai_sql-0.6.8/PKG-INFO",
+          "tai_sql-0.6.8/README.md"
         ],
-        "value": "https://catboost.ai/docs/concepts/python-reference_parameters-list.html"
+        "value": "https://graphviz.org/download/"
       },
       {
         "file_count": 1,
         "files": [
-          "fklearn-4.2.2/src/fklearn/causal/cate_learning/meta_learners.py"
+          "tai_sql-0.6.8/tai_sql/generators/diagram/__init__.py"
         ],
-        "value": "https://causalml.readthedocs.io/en/latest/methodology.html"
+        "value": "https://graphviz.org/download/\\n\\n"
       },
       {
-        "file_count": 3,
-        "files": [
-          "fklearn-4.2.2/PKG-INFO",
-          "fklearn-4.2.2/README.md",
-          "fklearn-4.2.2/src/fklearn.egg-info/PKG-INFO"
-        ],
-        "value": "https://docs.astral.sh/uv/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/src/fklearn/training/transformation.py"
-        ],
-        "value": "https://docs.scipy.org/doc/numpy-1.13.0/reference/generated/numpy.digitize.html"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/src/fklearn/validation/evaluators.py"
-        ],
-        "value": "https://en.wikipedia.org/wiki/Discounted_cumulative_gain"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/src/fklearn/validation/evaluators.py"
-        ],
-        "value": "https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/00/2b/e59e58c544dc9bd8bd8384ecdb8ea91f6727f0e37a7131baeff8d6f51661/rpds_py-0.30.0-cp312-cp312-musllinux_1_2_aarch64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/00/a4/285f12aeacbe2d6dc36c407dfbbe9e96d4a80b0fb710a337f6d2ad978c75/pillow-12.2.0-cp313-cp313t-win_arm64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/00/c0/8f5d070730d7836adc9c9b6408dec68c6ced86b304a9b26a14df072a6e8c/traitlets-5.14.3-py3-none-any.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/00/ca/db94101c187f3df742133ac837e93b1f269ebdac49427f8310ee40b6a58f/pyarrow-23.0.1-cp311-cp311-win_amd64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/00/f9/7638f5cc82ec8a7aa005de48622eecc3ed7c9854b96ba15bd76b7fd27574/matplotlib-3.10.8-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/01/1b/5dbe84eefc86f48473947e2f41711aded97eecef1231f4558f1f02713c12/pyzmq-27.1.0-pp311-pypy311_pp73-win_amd64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/01/88/a8952b6d5c21e74cbf158515b779666f692846502623e9e3c39d8e8ba25f/llvmlite-0.47.0.tar.gz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/01/8e/1e35281b8ab6d5d72ebe9911edcdffa3f36b04ed9d51dec6dd140396e220/scipy-1.17.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/01/a6/1265e977f17d93ea37aa28aa81bad4fa597933879fac2520d24e021c8da3/pillow-12.2.0-cp313-cp313t-manylinux2014_aarch64.manylinux_2_17_aarch64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/01/be/cd478f4b66f48256f42927d0acbcd63a26a893136456cd079c0cc24fbabf/matplotlib-3.10.8-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/01/c8/dc6ae86e3c61cfec1f178e5c9f7858584049b6093f843bca541f94120920/numpy-2.2.6-cp310-cp310-musllinux_1_2_x86_64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/01/c8/fadd0b92ffa7b5eb5949bf340a63a4a496a6930a6c37a7ba0f12acb076d6/contourpy-1.3.2-cp312-cp312-win_amd64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/02/05/e48076b2a57dc33ee8c7a957296f97c744ca891a8ffb4ffb1aaa3b3f517d/ruff-0.15.11-py3-none-musllinux_1_2_x86_64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/02/1e/6aca3427f751295ab011828e15e9bf452200ac74484f1db4be0197b8170b/ruff-0.15.11-py3-none-linux_armv6l.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/02/49/9d1284d0dc65e2c757b74c6687b6d319b02f822ad039e5c512df9194d9dd/jupyter_core-5.9.1.tar.gz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/03/44/88f6c1ed1132cd418601cc041fbd92fed28b3a09f39de81978e0822d13ff/librt-0.9.0-cp311-cp311-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/03/71/850b1d6ffa9564fbb6740429bad53df1094082fe515c8c1e74b6d8d05f18/ruff-0.15.11-py3-none-macosx_11_0_arm64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/03/77/b302e4cb0b80d2bdf6bf4fce5864bb4cbfa461f7099cea544eaf2457df78/mypy-1.20.1-cp311-cp311-win_amd64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/03/78/843bcf0cf31f88d2f8a9a063d2d80817b1901657d83d65b89b3aa835732e/nbsphinx-0.9.8-py3-none-any.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/03/b3/64ef723029f917410f75c09da54254c5f9ea90ef89b143ccadb09df14c15/contourpy-1.3.3-cp311-cp311-manylinux_2_26_s390x.manylinux_2_28_s390x.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/03/c5/0e3966edd5ec668d41dfe418787726752bc07e2f5fd8c8f208615e61fa89/fonttools-4.62.1-cp313-cp313-macosx_10_13_x86_64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/03/e7/98a2f4ac921d82f33e03f3835f5bf3a4a40aa1bfdc57975e74a97b2b4bdd/rpds_py-0.30.0-cp312-cp312-macosx_10_12_x86_64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/03/f2/44913a6ff6941905efc24a1acf3d3cb6146b636c546c7406c38c49c403d4/pyzmq-27.1.0-cp311-cp311-win32.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/04/0b/3c9baedbdf613ecaa7aa07027780b8867f57b6293b6ee50de316c9f3222b/pyzmq-27.1.0.tar.gz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/04/0b/65dd2916c84d252b244bd405303220f729e7c17c9d7d33dca6feeff9ffc4/kiwisolver-1.5.0-cp313-cp313t-manylinux_2_24_ppc64le.manylinux_2_28_ppc64le.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/04/30/3afaa31c757f34b7725ab9d2ba8b48b5e89c2019c003e7d0ead143aabc5a/matplotlib-3.10.8-pp311-pypy311_pp73-macosx_10_15_x86_64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/04/69/c31e837e4bb5532b02d297152464b2cb8a0edeb9bef762c015e9b4e95e16/MarkupSafe-2.0.1-cp310-cp310-musllinux_1_1_x86_64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/04/74/f4c001f4714c3ad9ce037e18cf2b9c64871a84951eaa0baf683a9ca9301c/numpy-2.4.4-pp311-pypy311_pp73-win_amd64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/04/78/0acd37ca84ce3ddffaa92ef0f571e073faa6d8ff1f0559ab1272188ea2be/psutil-7.2.2-cp36-abi3-musllinux_1_2_x86_64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/05/0a/a3fe3be3ee2dceb3e615ebb4df97ae6f3828aa915d3e10549ce016302bd1/contourpy-1.3.3-cp312-cp312-musllinux_1_2_aarch64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/05/14/52d505b5c59ce73244f59c7a50ecf47093ce4765f116cdb98286a71eeca2/pyyaml-6.0.3-cp310-cp310-macosx_11_0_arm64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/05/30/affbabf3c27fb501ec7b5808230c619d4d1a4525c07301074eb4bda92fa9/statsmodels-0.14.6-cp312-cp312-macosx_11_0_arm64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/05/5a/b569f4250decee6e8d54498be7bdf29021a4c256e77fe8138c8319ef8eb3/contourpy-1.3.2-cp313-cp313-musllinux_1_2_x86_64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/05/8e/961c0007c59b8dd7729d542c61a4d537767a59645b82a0b521206e1e25c2/pyyaml-6.0.3.tar.gz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/05/c0/b3be26a015601b822b97d9149ff8cb5ead58c66f981e04fedf4e762f4bd4/pyyaml-6.0.3-cp312-cp312-musllinux_1_2_aarch64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/05/e4/ba649102a3bc3fbca54e7239fb924fd434c766f855693d86de0b1f2bec81/jupyter_client-8.8.0.tar.gz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/05/eb/b86f2a2645b62adcfff53b0dd97e8dfafb5c8aa864bd0d9a2c2049a0d551/cffi-2.0.0-cp310-cp310-manylinux2014_ppc64le.manylinux_2_17_ppc64le.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/06/0c/0c411a0ec64ccb6d104dcabe0e713e05e153a9a2c3c2bd2b32ce412166fe/rpds_py-0.30.0-cp310-cp310-macosx_10_12_x86_64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/06/1c/1172a88d507a4baaf72c5a09bb6c018fe2ae0ab622e5830b703a46cc9e44/scipy-1.17.1-cp313-cp313t-win_amd64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/06/5d/305323ba86b284e6fcb0d842d6adaa2999035f70f8c38a9b6d21ad28c3d4/pyzmq-27.1.0-cp311-cp311-macosx_10_15_universal2.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/06/6d/3be70e827977f20db77c12a97e6a9f973631a45b8d186c084527e53e77a4/charset_normalizer-3.4.7-cp311-cp311-win32.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/06/c1/3088fc04b6624eb12a57eb814f0d4997a44b0d208d6cace713033ff1a6ba/rpds_py-0.30.0-cp313-cp313-musllinux_1_2_aarch64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/07/06/b823a7e818c756d9a7123ba2cda7d07bc2dd32835648d1a7b7b7a05d848d/tomli-2.4.1-cp313-cp313-macosx_10_13_x86_64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/07/18/3c8523962314be6bf4c8989c79ad9531c825210dd13a8669f6b84336e8bd/bleach-6.3.0.tar.gz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/07/6c/aa3f2f849e01cb6a001cd8554a88d4c77c5c1a31c95bdf1cf9301e6d9ef4/defusedxml-0.7.1-py2.py3-none-any.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/07/95/d6a2f0625e1092624228301eea11cdaff21ddcaf917ef3d631846a38b2f4/numba-0.65.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/07/9c/0ddb0d0abdabe0d181c1793db51f02cd59e4901da6f9f7848e1f96759f0d/scipy-1.15.3-cp312-cp312-macosx_14_0_arm64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/07/b6/89d837eddef52b3d0cec5c6ba0456c1bf1b9ef6a6672fc2b7873c3ec4e2e/numpy-2.2.6-cp310-cp310-musllinux_1_2_aarch64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/07/e0/267e57e387b4ca276b90f0434ff88b2c2241ad72b16d31836adddfd6031b/cffi-2.0.0-cp312-cp312-musllinux_1_2_aarch64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/08/8a/0861bec20485572fbddf3dfba2910e38fe249796cb73ecdeb74e07eeb8d3/zipp-3.23.1-py3-none-any.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/08/ad/a3e7d580902f57e31d2181563fc4088894692bb6ef79b816344f27719cdc/testpath-0.6.0.tar.gz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/08/f5/456f56bbbfccf696263b47095291040655e3cbaf05d063bdc7c7517f32ac/scipy-1.15.3-cp313-cp313-macosx_14_0_x86_64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/09/04/f2f83279d287407cf36a7a8053a5abe7be3622a4363337338f2585e4afda/numpy-2.2.6-cp313-cp313t-win32.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/09/33/7174bdfc8b7767ef2c08ed81244762d93d5c579336fc0b51ca57b33d1b80/contourpy-1.3.2-cp311-cp311-win32.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/09/7d/af933f0f6e0767995b4e2d705a0665e454d1c19402aa7e895de3951ebb04/scipy-1.17.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/09/a9/6ba95a270c6f1fbcd8dac228323f2777d886cb206987444e4bce66338dd4/tqdm-4.67.3.tar.gz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/09/b0/9074b64407712f0003c27f5b1d7655d1438979155f049720e8a1abd9b1a1/librt-0.9.0-cp311-cp311-win32.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "fklearn-4.2.2/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/09/ec/4b43dae793655b7d8a25f76119624350b4d65eb663459eb9603d7f1f0345/mistune-0.8.4-py2.py3-none-any.whl"
-      },
-      {
         "file_count": 1,
         "files": [
-          "fklearn-4.2.2/uv.lock"
+          "tai_sql-0.6.8/LICENSE"
         ],
-        "value": "https://files.pythonhosted.org/packages/0a/0d/0e3ecece05b7a7e87ab9fb587855548da437a061326fff64a223b6dcb78a/numpy-2.4.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+        "value": "https://www.gnu.org/licenses/"
       },
       {
         "file_count": 1,
         "files": [
-          "fklearn-4.2.2/uv.lock"
+          "tai_sql-0.6.8/LICENSE"
         ],
-        "value": "https://files.pythonhosted.org/packages/0a/4d/222ef0b46443cf4cf46764d9c630f3fe4abaa7245be9417e56e9f52b8f65/rpds_py-0.30.0-cp313-cp313t-win_amd64.whl"
+        "value": "https://www.gnu.org/licenses/why-not-lgpl.html"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "fklearn-4.2.2/uv.lock"
+          "tai_sql-0.6.8/PKG-INFO",
+          "tai_sql-0.6.8/pyproject.toml"
         ],
-        "value": "https://files.pythonhosted.org/packages/0a/59/ebfb8c677c75605cc27f7122c90313fd2f375ff3c8d19a1694bda74aaa63/contourpy-1.3.3-pp311-pypy311_pp73-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl"
+        "value": "https://www.triplealpha.in/es/"
       }
     ]
   },
-  "package": "fklearn",
-  "package_slug": "fklearn",
-  "project_url": "https://pypi.org/project/fklearn/",
+  "package": "tai-sql",
+  "package_slug": "tai-sql",
+  "project_url": "https://pypi.org/project/tai-sql/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T18:20:55.230427+00:00",
+  "published_at": "2026-04-27T18:24:56.152861+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T18:21:40.282051+00:00",
-  "title": "Personal PyPI Supply Chain Scan: fklearn 4.2.2",
-  "version": "4.2.2",
-  "version_slug": "4.2.2",
-  "_metadata_path": "reports/packages/fklearn/4.2.2/metadata.json"
+  "scanned_at": "2026-04-27T18:26:03.242355+00:00",
+  "title": "Personal PyPI Supply Chain Scan: tai-sql 0.6.8",
+  "version": "0.6.8",
+  "version_slug": "0.6.8",
+  "_metadata_path": "reports/packages/tai-sql/0.6.8/metadata.json"
 }
