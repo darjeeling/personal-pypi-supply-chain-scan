@@ -1,176 +1,75 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "uv_override_prune-0.0.9.tar.gz",
-  "finding_count": 4,
+  "distribution": "saranai-0.1.0.tar.gz",
+  "finding_count": 2,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "uv_override_prune-0.0.9/PKG-INFO",
-          "uv_override_prune-0.0.9/README.md"
+          "saranai-0.1.0/README.md"
         ],
-        "value": "codecov.io"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "uv_override_prune-0.0.9/PKG-INFO",
-          "uv_override_prune-0.0.9/README.md",
-          "uv_override_prune-0.0.9/pyproject.toml"
-        ],
-        "value": "github.com"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "uv_override_prune-0.0.9/PKG-INFO",
-          "uv_override_prune-0.0.9/README.md"
-        ],
-        "value": "img.shields.io"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "uv_override_prune-0.0.9/PKG-INFO",
-          "uv_override_prune-0.0.9/README.md"
-        ],
-        "value": "opensource.org"
+        "value": "api-production-xxxx.up.railway.app`"
       },
       {
         "file_count": 1,
         "files": [
-          "uv_override_prune-0.0.9/pyproject.toml"
+          "saranai-0.1.0/saranai/__init__.py"
         ],
-        "value": "pydevtools.com"
+        "value": "my-ai-api-vbpg.onrender.com"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "uv_override_prune-0.0.9/PKG-INFO",
-          "uv_override_prune-0.0.9/README.md"
+          "saranai-0.1.0/README.md"
         ],
-        "value": "pypi.org"
+        "value": "railway.app"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "uv_override_prune-0.0.9/PKG-INFO",
-          "uv_override_prune-0.0.9/README.md"
+          "saranai-0.1.0/README.md"
         ],
-        "value": "https://codecov.io/gh/iwamot/uv-override-prune"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "uv_override_prune-0.0.9/PKG-INFO",
-          "uv_override_prune-0.0.9/README.md"
-        ],
-        "value": "https://codecov.io/gh/iwamot/uv-override-prune/graph/badge.svg"
+        "value": "https://YOUR_URL.up.railway.app"
       },
       {
         "file_count": 1,
         "files": [
-          "uv_override_prune-0.0.9/tests/test_rewrite.py"
+          "saranai-0.1.0/README.md"
         ],
-        "value": "https://example.com/repo.git"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "uv_override_prune-0.0.9/PKG-INFO",
-          "uv_override_prune-0.0.9/pyproject.toml"
-        ],
-        "value": "https://github.com/iwamot/uv-override-prune"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "uv_override_prune-0.0.9/PKG-INFO",
-          "uv_override_prune-0.0.9/README.md"
-        ],
-        "value": "https://github.com/iwamot/uv-override-prune/actions/workflows/validate.yml"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "uv_override_prune-0.0.9/PKG-INFO",
-          "uv_override_prune-0.0.9/README.md"
-        ],
-        "value": "https://github.com/iwamot/uv-override-prune/actions/workflows/validate.yml/badge.svg"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "uv_override_prune-0.0.9/PKG-INFO",
-          "uv_override_prune-0.0.9/pyproject.toml"
-        ],
-        "value": "https://github.com/iwamot/uv-override-prune/issues"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "uv_override_prune-0.0.9/PKG-INFO",
-          "uv_override_prune-0.0.9/README.md"
-        ],
-        "value": "https://img.shields.io/badge/License-MIT-yellow.svg"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "uv_override_prune-0.0.9/PKG-INFO",
-          "uv_override_prune-0.0.9/README.md"
-        ],
-        "value": "https://img.shields.io/pypi/pyversions/uv-override-prune.svg"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "uv_override_prune-0.0.9/PKG-INFO",
-          "uv_override_prune-0.0.9/README.md"
-        ],
-        "value": "https://img.shields.io/pypi/v/uv-override-prune.svg"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "uv_override_prune-0.0.9/PKG-INFO",
-          "uv_override_prune-0.0.9/README.md"
-        ],
-        "value": "https://opensource.org/licenses/MIT"
+        "value": "https://api-production-xxxx.up.railway.app`"
       },
       {
         "file_count": 1,
         "files": [
-          "uv_override_prune-0.0.9/pyproject.toml"
+          "saranai-0.1.0/saranai/__init__.py"
         ],
-        "value": "https://pydevtools.com/handbook/how-to/how-to-configure-recommended-ruff-defaults/"
+        "value": "https://my-ai-api-vbpg.onrender.com/ask"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "uv_override_prune-0.0.9/PKG-INFO",
-          "uv_override_prune-0.0.9/README.md"
+          "saranai-0.1.0/README.md"
         ],
-        "value": "https://pypi.org/project/uv-override-prune/"
+        "value": "https://railway.app"
       }
     ]
   },
-  "package": "uv-override-prune",
-  "package_slug": "uv-override-prune",
-  "project_url": "https://pypi.org/project/uv-override-prune/",
+  "package": "saranai",
+  "package_slug": "saranai",
+  "project_url": "https://pypi.org/project/saranai/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T14:36:56.415834+00:00",
+  "published_at": "2026-04-27T14:41:28.740889+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T14:38:12.777327+00:00",
-  "title": "Personal PyPI Supply Chain Scan: uv-override-prune 0.0.9",
-  "version": "0.0.9",
-  "version_slug": "0.0.9",
-  "_metadata_path": "reports/packages/uv-override-prune/0.0.9/metadata.json"
+  "scanned_at": "2026-04-27T14:42:29.277989+00:00",
+  "title": "Personal PyPI Supply Chain Scan: saranai 0.1.0",
+  "version": "0.1.0",
+  "version_slug": "0.1.0",
+  "_metadata_path": "reports/packages/saranai/0.1.0/metadata.json"
 }
