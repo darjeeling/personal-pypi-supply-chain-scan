@@ -1,178 +1,60 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "runplz-3.14.1.tar.gz",
-  "finding_count": 297,
+  "distribution": "ellama-0.3.1.tar.gz",
+  "finding_count": 3,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 1,
-        "files": [
-          "runplz-3.14.1/runplz/backends/brev.py"
-        ],
-        "value": "developer.nvidia.com"
-      },
-      {
         "file_count": 4,
         "files": [
-          "runplz-3.14.1/runplz/backends/_ssh_common.py",
-          "runplz-3.14.1/tests/test_app_extras.py",
-          "runplz-3.14.1/tests/test_brev_backend.py",
-          "runplz-3.14.1/tests/test_modal_backend.py"
+          "ellama-0.3.1/PKG-INFO",
+          "ellama-0.3.1/README.md",
+          "ellama-0.3.1/ellama.egg-info/PKG-INFO",
+          "ellama-0.3.1/ellama/__init__.py"
         ],
-        "value": "download.pytorch.org"
+        "value": "ollama.com"
       },
       {
         "file_count": 1,
         "files": [
-          "runplz-3.14.1/runplz/backends/_ssh_common.py"
-        ],
-        "value": "get.docker.com"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "runplz-3.14.1/PKG-INFO",
-          "runplz-3.14.1/pyproject.toml",
-          "runplz-3.14.1/runplz.egg-info/PKG-INFO"
-        ],
-        "value": "github.com"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "runplz-3.14.1/PKG-INFO",
-          "runplz-3.14.1/README.md",
-          "runplz-3.14.1/runplz.egg-info/PKG-INFO"
-        ],
-        "value": "img.shields.io"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "runplz-3.14.1/PKG-INFO",
-          "runplz-3.14.1/README.md",
-          "runplz-3.14.1/runplz.egg-info/PKG-INFO"
+          "ellama-0.3.1/pyproject.toml"
         ],
         "value": "pypi.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "runplz-3.14.1/runplz/app.py"
-        ],
-        "value": "raw.items"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "runplz-3.14.1/LICENSE",
-          "runplz-3.14.1/PKG-INFO",
-          "runplz-3.14.1/runplz.egg-info/PKG-INFO"
-        ],
-        "value": "www.apache.org"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 3,
-        "files": [
-          "runplz-3.14.1/LICENSE",
-          "runplz-3.14.1/PKG-INFO",
-          "runplz-3.14.1/runplz.egg-info/PKG-INFO"
-        ],
-        "value": "http://www.apache.org/licenses/"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "runplz-3.14.1/LICENSE",
-          "runplz-3.14.1/PKG-INFO",
-          "runplz-3.14.1/runplz.egg-info/PKG-INFO"
-        ],
-        "value": "http://www.apache.org/licenses/LICENSE-2.0"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "runplz-3.14.1/PKG-INFO",
-          "runplz-3.14.1/README.md",
-          "runplz-3.14.1/runplz.egg-info/PKG-INFO"
-        ],
-        "value": "https://"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "runplz-3.14.1/runplz/backends/brev.py"
-        ],
-        "value": "https://developer.nvidia.com/brev"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "runplz-3.14.1/runplz/backends/_ssh_common.py"
-        ],
-        "value": "https://download.pytorch.org/whl/cpu"
-      },
-      {
         "file_count": 4,
         "files": [
-          "runplz-3.14.1/runplz/backends/_ssh_common.py",
-          "runplz-3.14.1/tests/test_app_extras.py",
-          "runplz-3.14.1/tests/test_brev_backend.py",
-          "runplz-3.14.1/tests/test_modal_backend.py"
+          "ellama-0.3.1/PKG-INFO",
+          "ellama-0.3.1/README.md",
+          "ellama-0.3.1/ellama.egg-info/PKG-INFO",
+          "ellama-0.3.1/ellama/__init__.py"
         ],
-        "value": "https://download.pytorch.org/whl/cu121"
+        "value": "https://ollama.com/search?c=embedding"
       },
       {
         "file_count": 1,
         "files": [
-          "runplz-3.14.1/runplz/backends/_ssh_common.py"
+          "ellama-0.3.1/pyproject.toml"
         ],
-        "value": "https://get.docker.com"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "runplz-3.14.1/PKG-INFO",
-          "runplz-3.14.1/pyproject.toml",
-          "runplz-3.14.1/runplz.egg-info/PKG-INFO"
-        ],
-        "value": "https://github.com/pirl-unc/runplz"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "runplz-3.14.1/PKG-INFO",
-          "runplz-3.14.1/README.md",
-          "runplz-3.14.1/runplz.egg-info/PKG-INFO"
-        ],
-        "value": "https://img.shields.io/pypi/v/runplz.svg"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "runplz-3.14.1/PKG-INFO",
-          "runplz-3.14.1/README.md",
-          "runplz-3.14.1/runplz.egg-info/PKG-INFO"
-        ],
-        "value": "https://pypi.org/project/runplz/"
+        "value": "https://pypi.org/pypi?%3Aaction=list_classifiers"
       }
     ]
   },
-  "package": "runplz",
-  "package_slug": "runplz",
-  "project_url": "https://pypi.org/project/runplz/",
+  "package": "ellama",
+  "package_slug": "ellama",
+  "project_url": "https://pypi.org/project/ellama/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T19:17:47.884244+00:00",
+  "published_at": "2026-04-27T19:21:47.772326+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T19:18:23.404564+00:00",
-  "title": "Personal PyPI Supply Chain Scan: runplz 3.14.1",
-  "version": "3.14.1",
-  "version_slug": "3.14.1",
-  "_metadata_path": "reports/packages/runplz/3.14.1/metadata.json"
+  "scanned_at": "2026-04-27T19:22:44.884205+00:00",
+  "title": "Personal PyPI Supply Chain Scan: ellama 0.3.1",
+  "version": "0.3.1",
+  "version_slug": "0.3.1",
+  "_metadata_path": "reports/packages/ellama/0.3.1/metadata.json"
 }

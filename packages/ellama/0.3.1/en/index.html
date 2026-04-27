@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal PyPI Supply Chain Scan: ellama 0.3.1</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 960px; line-height: 1.55; padding: 0 1rem; color: #1f2933; }
+    a { color: #1f5fbf; }
+    code { background: #f4f4f4; padding: 0.1rem 0.25rem; }
+    h1, h2, h3 { line-height: 1.2; }
+    li { margin: 0.35rem 0; }
+    nav { margin-bottom: 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #e5e9ef; padding: 0.55rem 0.65rem; text-align: left; vertical-align: top; }
+    th { color: #52616f; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; }
+    .scan-groups { margin-top: 1.2rem; }
+    .scan-day { border-top: 1px solid #d8dee4; display: grid; gap: 1rem; grid-template-columns: 10rem minmax(0, 1fr); padding: 1.1rem 0; }
+    .scan-day-date { color: #1f2933; font-weight: 700; }
+    .scan-day-date span { color: #52616f; display: block; font-size: 0.9rem; font-weight: 500; margin-top: 0.2rem; }
+    .scan-day-table { overflow-x: auto; }
+    .risk { display: inline-block; min-width: 4.8rem; text-align: center; border-radius: 999px; padding: 0.15rem 0.45rem; font-size: 0.78rem; font-weight: 700; }
+    .risk-info, .risk-low { background: #dcfce7; color: #166534; }
+    .risk-medium, .risk-unknown { background: #fef3c7; color: #92400e; }
+    .risk-high, .risk-critical { background: #fee2e2; color: #991b1b; }
+    .index-note { color: #52616f; margin-top: -0.35rem; }
+    .version { color: #52616f; margin-left: 0.2rem; white-space: nowrap; }
+    @media (max-width: 720px) {
+      .scan-day { grid-template-columns: 1fr; }
+      th, td { padding: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+<nav><a href='../../../../'>Index</a></nav><h1>Personal PyPI Supply Chain Scan: ellama 0.3.1</h1>
+
+<ul>
+<li>Package: ellama</li>
+<li>Version: 0.3.1</li>
+<li>Project URL: https://pypi.org/project/ellama/</li>
+<li>Distribution: ellama-0.3.1.tar.gz</li>
+<li>Package published at: 2026-04-27T19:21:47.772326+00:00</li>
+<li>Scan published at: 2026-04-27T19:22:44.884205+00:00</li>
+<li>Language: en</li>
+<li>Model: gpt-5.5</li>
+<li>Prompt: malicious-supply-chain-review-v2 ([source](../../../../docs/prompts/malicious-supply-chain-review-v2.md))</li>
+<li>Disclaimer: This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</li>
+</ul>
+
+<h2>Deterministic Network Indicators</h2>
+
+<h3>Suspicious Endpoints</h3>
+
+<p>None</p>
+
+<h3>Raw Public IPs</h3>
+
+<p>None</p>
+
+<h3>URLs</h3>
+<ul>
+<li>https://ollama.com/search?c=embedding (4 files: ellama-0.3.1/PKG-INFO, ellama-0.3.1/README.md, ellama-0.3.1/ellama.egg-info/PKG-INFO, ellama-0.3.1/ellama/__init__.py)</li>
+<li>https://pypi.org/pypi?%3Aaction=list_classifiers (1 files: ellama-0.3.1/pyproject.toml)</li>
+</ul>
+
+<h3>Domains</h3>
+<ul>
+<li>ollama.com (4 files: ellama-0.3.1/PKG-INFO, ellama-0.3.1/README.md, ellama-0.3.1/ellama.egg-info/PKG-INFO, ellama-0.3.1/ellama/__init__.py)</li>
+<li>pypi.org (1 files: ellama-0.3.1/pyproject.toml)</li>
+</ul>
+
+<h2>Verdict</h2>
+
+<p>No confirmed malicious supply-chain compromise indicators were found. Overall risk: **info**.</p>
+
+<h2>Malicious Supply-Chain Indicators</h2>
+
+<p>No confirmed malicious supply-chain indicators.</p>
+
+<h2>Automatic Execution Paths</h2>
+
+<ul>
+<li>No setup.py, .pth, sitecustomize.py, or usercustomize.py was identified in the extracted contents.</li>
+<li>pyproject.toml uses the standard setuptools.build_meta backend, with no evidence of malicious install/build hooks.</li>
+<li>setup.cfg only contains [egg_info] settings.</li>
+<li>No entry_points or installation-time auto-executed scripts were identified.</li>
+<li>ellama/__init__.py performs import-time environment default setup, library imports, and FAISS initialization, but there is no evidence tying this to credential harvesting, external exfiltration, or persistence.</li>
+</ul>
+
+<h2>Theft / Exfiltration / Persistence / Lateral Movement / Obfuscation</h2>
+
+<ul>
+<li>No evidence of broad credential discovery such as .env, SSH keys, cloud credentials, CI tokens, or shell history access.</li>
+<li>No evidence of archive staging, temporary harvesting, base64-based staging, webhook use, or attacker-controlled upload endpoints.</li>
+<li>The ollama.com URL appears to be documentation/model-search related, with no C2 or exfiltration evidence.</li>
+<li>No evidence of persistence mechanisms such as cron, systemd, launch agents, or shell profile modification.</li>
+<li>No evidence of Kubernetes, Docker socket, cloud metadata, GitHub Actions token theft, or workflow injection behavior.</li>
+<li>No evidence of obfuscated staged loaders using eval, exec, packed payloads, or encrypted/compressed droppers.</li>
+</ul>
+
+<h2>Distribution Integrity Anomalies</h2>
+
+<ul>
+<li>.github/workflows/test.yml and .gitignore are included in the sdist, but the workflow appears to run tests and conditionally publish to PyPI; no token-theft or malicious auto-execution evidence was identified.</li>
+<li>Dependencies in pyproject.toml — langchain-community, langchain-ollama, requests, tqdm, and optional faiss-* packages — broadly match the package purpose. No evidence of malicious dependency insertion was found in the provided input.</li>
+<li>No hidden payloads, unexplained native binaries, obfuscated generated files, or wheel/sdist mismatch evidence was identified in the extracted contents.</li>
+<li>ellama.egg-info/top_level.txt lists build, dist, and ellama, but the extracted file list does not show executable build/ or dist/ package files. This is insufficient on its own to classify as a malicious supply-chain indicator.</li>
+</ul>
+
+<h2>Additional Verification Needed</h2>
+
+<ul>
+<li>This review is based on the provided extracted sdist text. If a wheel exists, compare the wheel against the sdist for file/code differences.</li>
+<li>The match between the PyPI sdist and the upstream repository/tag source was not verified.</li>
+</ul>
+
+<p>---</p>
+
+<p>Prompt source: docs/prompts/malicious-supply-chain-review-v2.md</p>
+
+<p>This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</p>
+
+</body>
+</html>
