@@ -10,6 +10,7 @@ import uuid
 
 from .config import AppConfig
 from .pypi import PypiRelease
+from .prescan import scan_extracted_package
 
 
 @dataclass(frozen=True)
@@ -18,8 +19,10 @@ class ExtractedPackage:
     archive_path: Path
     extract_dir: Path
     manifest_path: Path
+    prescan_path: Path
     corpus_path: Path
     manifest: dict
+    prescan: dict
     corpus: str
 
 
@@ -234,16 +237,26 @@ def extract_in_container(config: AppConfig, release: PypiRelease) -> ExtractedPa
         raise RuntimeError(f"Docker extraction failed: {detail}") from exc
 
     manifest_path = job_dir / "manifest.json"
+    prescan_path = job_dir / "prescan.json"
     corpus_path = job_dir / "corpus.txt"
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-    corpus = corpus_path.read_text(encoding="utf-8")
+    prescan = scan_extracted_package(
+        job_dir / "extracted",
+        manifest,
+        max_files=config.limits.max_files_for_model,
+        max_chars=config.limits.max_chars_for_model,
+    )
+    prescan_path.write_text(json.dumps(prescan, indent=2, sort_keys=True), encoding="utf-8")
+    corpus = prescan.get("focused_corpus") or corpus_path.read_text(encoding="utf-8")
     return ExtractedPackage(
         job_dir=job_dir,
         archive_path=job_dir / "archive" / release.filename,
         extract_dir=job_dir / "extracted",
         manifest_path=manifest_path,
+        prescan_path=prescan_path,
         corpus_path=corpus_path,
         manifest=manifest,
+        prescan=prescan,
         corpus=corpus,
     )
 

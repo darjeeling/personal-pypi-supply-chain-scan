@@ -16,8 +16,8 @@ scan_windows = ["09:00-18:00"]
 max_updates = 10
 max_archive_bytes = 52428800
 max_extracted_bytes = 104857600
-max_files_for_model = 80
-max_chars_for_model = 180000
+max_files_for_model = 30
+max_chars_for_model = 60000
 container_timeout_seconds = 180
 
 [paths]
@@ -55,8 +55,8 @@ class LimitsConfig:
     max_updates: int = 10
     max_archive_bytes: int = 50 * 1024 * 1024
     max_extracted_bytes: int = 100 * 1024 * 1024
-    max_files_for_model: int = 80
-    max_chars_for_model: int = 180_000
+    max_files_for_model: int = 30
+    max_chars_for_model: int = 60_000
     container_timeout_seconds: int = 180
 
 

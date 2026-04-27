@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from datetime import datetime, timezone
+import json
 
 from .container import ExtractedPackage
 from .openai_client import OpenAIResponsesClient
@@ -72,6 +73,7 @@ class ScanResult:
 
 
 def scan_release(client: OpenAIResponsesClient, release: PypiRelease, extracted: ExtractedPackage) -> ScanResult:
+    prescan_summary = _format_prescan(extracted.prescan)
     prompt = f"""# Package
 
 - name: {release.package.name}
@@ -87,6 +89,14 @@ def scan_release(client: OpenAIResponsesClient, release: PypiRelease, extracted:
 - total_files: {extracted.manifest.get("total_files")}
 - total_extracted_bytes: {extracted.manifest.get("total_extracted_bytes")}
 - selected_files: {len(extracted.manifest.get("selected_files", []))}
+
+# Deterministic Pre-scan
+
+The following findings were produced by non-LLM rules before this review.
+Use them as leads, but verify whether they are actually malicious supply-chain evidence.
+Do not over-report benign matches.
+
+{prescan_summary}
 
 # Required Report Format
 
@@ -125,3 +135,16 @@ PyPI artifact 내부의 예상 밖 파일, 갑작스러운 dependency 삽입, ty
 {extracted.corpus}
 """
     return ScanResult(markdown=client.create_markdown_scan(SECURITY_INSTRUCTIONS, prompt))
+
+
+def _format_prescan(prescan: dict) -> str:
+    findings = prescan.get("findings", [])
+    compact = {
+        "ast_grep_enabled": prescan.get("ast_grep_enabled", False),
+        "finding_count": prescan.get("finding_count", 0),
+        "selected_paths": prescan.get("selected_paths", []),
+        "findings": findings[:80],
+    }
+    if len(findings) > 80:
+        compact["truncated_findings"] = len(findings) - 80
+    return json.dumps(compact, ensure_ascii=False, indent=2)

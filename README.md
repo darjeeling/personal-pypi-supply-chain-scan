@@ -8,8 +8,10 @@ PyPI RSS updates feed에서 최신 publish 패키지를 가져오고, 호스트�
 2. PyPI JSON API에서 해당 패키지/버전의 sdist 또는 wheel URL을 확인합니다. 설치 스크립트 확인을 우선하기 위해 sdist가 있으면 sdist를 먼저 스캔합니다.
 3. Docker 컨테이너에서만 파일을 다운로드하고 압축을 풉니다.
 4. 추출된 `setup.py`, `pyproject.toml`, `setup.cfg`, Python 소스, 스크립트, 메타데이터를 텍스트 코퍼스로 수집합니다.
-5. `~/.codex/auth.json`의 Codex OAuth access token으로 OpenAI Responses API를 직접 호출해 `gpt-5.5` 보안 검사를 수행합니다.
-6. 결과를 Markdown report로 저장하고 SQLite에 처리 이력을 남깁니다.
+5. Python AST, 텍스트/manifest 휴리스틱, `ast-grep` 구조 검색으로 deterministic pre-scan을 수행합니다.
+6. pre-scan finding과 의심 파일 중심의 짧은 evidence corpus만 LLM에 전달합니다.
+7. `~/.codex/auth.json`의 Codex OAuth access token으로 OpenAI Responses API를 직접 호출해 `gpt-5.5` 보안 검사를 수행합니다.
+8. 결과를 Markdown report로 저장하고 SQLite에 처리 이력을 남깁니다.
 
 패키지 설치, build hook 실행, `setup.py` 실행은 하지 않습니다.
 
@@ -38,6 +40,11 @@ uv run pypi-codex-scanner run --config scanner.toml
 ```
 
 Docker가 필요합니다.
+`ast-grep`이 설치되어 있으면 Python 구조 검색을 pre-scan에 사용합니다.
+
+```bash
+brew install ast-grep
+```
 
 ## 설정
 
@@ -53,8 +60,8 @@ scan_windows = ["09:00-18:00"]
 max_updates = 10
 max_archive_bytes = 52428800
 max_extracted_bytes = 104857600
-max_files_for_model = 80
-max_chars_for_model = 180000
+max_files_for_model = 30
+max_chars_for_model = 60000
 
 [paths]
 state_db = "data/state.sqlite3"
