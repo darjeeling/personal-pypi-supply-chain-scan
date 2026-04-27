@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal PyPI Supply Chain Scan: vscode-common-python-lsp 0.2.0</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 960px; line-height: 1.55; padding: 0 1rem; color: #1f2933; }
+    a { color: #1f5fbf; }
+    code { background: #f4f4f4; padding: 0.1rem 0.25rem; }
+    h1, h2, h3 { line-height: 1.2; }
+    li { margin: 0.35rem 0; }
+    nav { margin-bottom: 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #e5e9ef; padding: 0.55rem 0.65rem; text-align: left; vertical-align: top; }
+    th { color: #52616f; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; }
+    .scan-groups { margin-top: 1.2rem; }
+    .scan-day { border-top: 1px solid #d8dee4; display: grid; gap: 1rem; grid-template-columns: 10rem minmax(0, 1fr); padding: 1.1rem 0; }
+    .scan-day-date { color: #1f2933; font-weight: 700; }
+    .scan-day-date span { color: #52616f; display: block; font-size: 0.9rem; font-weight: 500; margin-top: 0.2rem; }
+    .scan-day-table { overflow-x: auto; }
+    .risk { display: inline-block; min-width: 4.8rem; text-align: center; border-radius: 999px; padding: 0.15rem 0.45rem; font-size: 0.78rem; font-weight: 700; }
+    .risk-info, .risk-low { background: #dcfce7; color: #166534; }
+    .risk-medium, .risk-unknown { background: #fef3c7; color: #92400e; }
+    .risk-high, .risk-critical { background: #fee2e2; color: #991b1b; }
+    .index-note { color: #52616f; margin-top: -0.35rem; }
+    .version { color: #52616f; margin-left: 0.2rem; white-space: nowrap; }
+    @media (max-width: 720px) {
+      .scan-day { grid-template-columns: 1fr; }
+      th, td { padding: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+<nav><a href='../../../../'>Index</a></nav><h1>Personal PyPI Supply Chain Scan: vscode-common-python-lsp 0.2.0</h1>
+
+<ul>
+<li>Package: vscode-common-python-lsp</li>
+<li>Version: 0.2.0</li>
+<li>Project URL: https://pypi.org/project/vscode-common-python-lsp/</li>
+<li>Distribution: vscode_common_python_lsp-0.2.0.tar.gz</li>
+<li>Package published at: 2026-04-27T20:00:59.023103+00:00</li>
+<li>Scan published at: 2026-04-27T20:02:02.200429+00:00</li>
+<li>Language: ko</li>
+<li>Model: gpt-5.5</li>
+<li>Prompt: malicious-supply-chain-review-v2 ([source](../../../../docs/prompts/malicious-supply-chain-review-v2.md))</li>
+<li>Disclaimer: This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</li>
+</ul>
+
+<h2>Deterministic Network Indicators</h2>
+
+<h3>Suspicious Endpoints</h3>
+
+<p>None</p>
+
+<h3>Raw Public IPs</h3>
+
+<p>None</p>
+
+<h3>URLs</h3>
+<ul>
+<li>https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/#uinteger (1 files: vscode_common_python_lsp-0.2.0/vscode_common_python_lsp/notebook.py)</li>
+</ul>
+
+<h3>Domains</h3>
+<ul>
+<li>microsoft.github.io (1 files: vscode_common_python_lsp-0.2.0/vscode_common_python_lsp/notebook.py)</li>
+</ul>
+
+<h2>판정</h2>
+
+<p>확인된 악성 공급망 침해 징후 없음 — 전체 위험도: info.</p>
+
+<h2>악성 공급망 징후</h2>
+
+<p>확인된 악성 공급망 징후 없음.</p>
+
+<h2>자동 실행 경로</h2>
+
+<ul>
+<li>pyproject.toml은 표준 setuptools.build_meta 빌드 백엔드만 사용하며, 사용자 정의 PEP 517 빌드 훅이나 설치 시 실행 코드 근거가 확인되지 않았습니다.</li>
+<li>setup.cfg에는 egg_info 설정만 있으며 실행 로직이 없습니다.</li>
+<li>제공된 파일에서 .pth, sitecustomize.py, usercustomize.py, setup.py, 설치 시 자동 실행 스크립트는 확인되지 않았습니다.</li>
+<li>vscode_common_python_lsp/jsonrpc.py의 import 시 _process_manager = ProcessManager() 및 atexit.register(_process_manager.stop_all_processes)가 있으나, 이는 프로세스 정리용 등록으로 보이며 자격증명 절취/전송/지속성과 연결된 근거는 없습니다.</li>
+<li>subprocess.Popen, subprocess.run, runpy.run_module 사용은 LSP 도구 실행 기능의 일부로 보이며, 설치/인터프리터 시작 시 악성 자동 실행 근거는 확인되지 않았습니다.</li>
+</ul>
+
+<h2>절취/전송/지속성/측면이동/은닉</h2>
+
+<ul>
+<li>자격증명 수집: 광범위한 환경변수 탐색, .env, SSH 키, 클라우드/Kubernetes/CI 토큰, 패키지 레지스트리 토큰 수집 근거가 확인되지 않았습니다.</li>
+<li>전송/유출: HTTP 업로드, 웹훅, 원시 IP, 의심 C2, paste/drop 서비스, 외부 저장소 전송 코드가 확인되지 않았습니다. 확인된 URL은 LSP 사양 문서 주석 링크입니다.</li>
+<li>스테이징: tar/zip/gzip/base64 등을 이용한 수집 파일 압축·스테이징 근거가 확인되지 않았습니다.</li>
+<li>지속성: cron, systemd, launch agent, shell profile 수정, 시작프로그램 등록, 백그라운드 폴링 루프 근거가 확인되지 않았습니다.</li>
+<li>측면이동: Kubernetes 서비스 계정, Docker socket, 클라우드 메타데이터, GitHub Actions/CI 토큰 악용 근거가 확인되지 않았습니다.</li>
+<li>은닉/로더: re.compile 탐지는 정규식 사용으로 보이며, eval/exec/compile, base64/zlib/marshal/pickle 기반 로더나 난독화된 드로퍼 근거는 확인되지 않았습니다.</li>
+</ul>
+
+<h2>배포 무결성 이상</h2>
+
+<ul>
+<li>SOURCES.txt에 열거된 파일은 패키지 소스, 테스트, egg-info 메타데이터로 보이며, 숨김 페이로드나 목적 불명 네이티브 바이너리 근거가 확인되지 않았습니다.</li>
+<li>의존성은 pygls, lsprotocol, packaging 및 개발용 pytest, black, isort, flake8로, 제공된 정보만으로 갑작스러운 악성 의존성 삽입 근거는 없습니다.</li>
+<li>패키지명은 VS Code Python LSP 공용 유틸리티를 표방하지만, 제공된 내용만으로 typosquatting 또는 dependency confusion을 단정할 근거는 없습니다.</li>
+<li>wheel/sdist 불일치 여부는 제공된 sdist 텍스트만으로 확인할 수 없습니다.</li>
+</ul>
+
+<h2>추가 확인 필요</h2>
+
+<ul>
+<li>입력 코퍼스는 선택된 파일 중심이며, 일부 파일(server.py, process_runner.py, version.py 등)의 전체 본문은 제공되지 않았습니다.</li>
+<li>wheel 아티팩트가 별도로 존재한다면 sdist와의 파일/메타데이터 차이를 비교해야 합니다.</li>
+<li>실제 업스트림 저장소 또는 이전 버전과의 diff는 제공되지 않아, 신규 의존성 삽입이나 배포자 계정 침해 여부는 별도 확인이 필요합니다.</li>
+</ul>
+
+<p>---</p>
+
+<p>Prompt source: docs/prompts/malicious-supply-chain-review-v2.md</p>
+
+<p>This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</p>
+
+</body>
+</html>

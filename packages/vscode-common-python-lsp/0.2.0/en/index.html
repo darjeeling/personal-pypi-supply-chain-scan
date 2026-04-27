@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal PyPI Supply Chain Scan: vscode-common-python-lsp 0.2.0</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 960px; line-height: 1.55; padding: 0 1rem; color: #1f2933; }
+    a { color: #1f5fbf; }
+    code { background: #f4f4f4; padding: 0.1rem 0.25rem; }
+    h1, h2, h3 { line-height: 1.2; }
+    li { margin: 0.35rem 0; }
+    nav { margin-bottom: 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #e5e9ef; padding: 0.55rem 0.65rem; text-align: left; vertical-align: top; }
+    th { color: #52616f; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; }
+    .scan-groups { margin-top: 1.2rem; }
+    .scan-day { border-top: 1px solid #d8dee4; display: grid; gap: 1rem; grid-template-columns: 10rem minmax(0, 1fr); padding: 1.1rem 0; }
+    .scan-day-date { color: #1f2933; font-weight: 700; }
+    .scan-day-date span { color: #52616f; display: block; font-size: 0.9rem; font-weight: 500; margin-top: 0.2rem; }
+    .scan-day-table { overflow-x: auto; }
+    .risk { display: inline-block; min-width: 4.8rem; text-align: center; border-radius: 999px; padding: 0.15rem 0.45rem; font-size: 0.78rem; font-weight: 700; }
+    .risk-info, .risk-low { background: #dcfce7; color: #166534; }
+    .risk-medium, .risk-unknown { background: #fef3c7; color: #92400e; }
+    .risk-high, .risk-critical { background: #fee2e2; color: #991b1b; }
+    .index-note { color: #52616f; margin-top: -0.35rem; }
+    .version { color: #52616f; margin-left: 0.2rem; white-space: nowrap; }
+    @media (max-width: 720px) {
+      .scan-day { grid-template-columns: 1fr; }
+      th, td { padding: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+<nav><a href='../../../../'>Index</a></nav><h1>Personal PyPI Supply Chain Scan: vscode-common-python-lsp 0.2.0</h1>
+
+<ul>
+<li>Package: vscode-common-python-lsp</li>
+<li>Version: 0.2.0</li>
+<li>Project URL: https://pypi.org/project/vscode-common-python-lsp/</li>
+<li>Distribution: vscode_common_python_lsp-0.2.0.tar.gz</li>
+<li>Package published at: 2026-04-27T20:00:59.023103+00:00</li>
+<li>Scan published at: 2026-04-27T20:02:02.200429+00:00</li>
+<li>Language: en</li>
+<li>Model: gpt-5.5</li>
+<li>Prompt: malicious-supply-chain-review-v2 ([source](../../../../docs/prompts/malicious-supply-chain-review-v2.md))</li>
+<li>Disclaimer: This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</li>
+</ul>
+
+<h2>Deterministic Network Indicators</h2>
+
+<h3>Suspicious Endpoints</h3>
+
+<p>None</p>
+
+<h3>Raw Public IPs</h3>
+
+<p>None</p>
+
+<h3>URLs</h3>
+<ul>
+<li>https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/#uinteger (1 files: vscode_common_python_lsp-0.2.0/vscode_common_python_lsp/notebook.py)</li>
+</ul>
+
+<h3>Domains</h3>
+<ul>
+<li>microsoft.github.io (1 files: vscode_common_python_lsp-0.2.0/vscode_common_python_lsp/notebook.py)</li>
+</ul>
+
+<h2>Verdict</h2>
+
+<p>No confirmed indicators of a malicious supply-chain compromise — overall risk: info.</p>
+
+<h2>Malicious Supply-Chain Indicators</h2>
+
+<p>No confirmed malicious supply-chain indicators.</p>
+
+<h2>Automatic Execution Paths</h2>
+
+<ul>
+<li>pyproject.toml uses the standard setuptools.build_meta backend only; no evidence of custom PEP 517 build hooks or install-time execution was found.</li>
+<li>setup.cfg only contains egg_info settings and no executable logic.</li>
+<li>No .pth, sitecustomize.py, usercustomize.py, setup.py, or install-time auto-execution script was identified in the provided files.</li>
+<li>vscode_common_python_lsp/jsonrpc.py creates _process_manager = ProcessManager() and registers atexit.register(_process_manager.stop_all_processes) at import time, but this appears to be cleanup logic and is not tied to credential theft, exfiltration, or persistence.</li>
+<li>Uses of subprocess.Popen, subprocess.run, and runpy.run_module appear to support LSP tool execution and do not provide evidence of malicious automatic execution at install time or interpreter startup.</li>
+</ul>
+
+<h2>Theft / Exfiltration / Persistence / Lateral Movement / Stealth</h2>
+
+<ul>
+<li>Credential harvesting: no evidence of broad environment-variable discovery, .env collection, SSH keys, cloud/Kubernetes/CI tokens, or package registry token harvesting.</li>
+<li>Exfiltration: no HTTP upload, webhook, raw IP, suspicious C2, paste/drop service, or attacker-controlled repository upload code was identified. The only URL observed is a documentation link to the LSP specification.</li>
+<li>Staging: no evidence of tar/zip/gzip/base64-based archiving or staging of harvested files.</li>
+<li>Persistence: no cron, systemd, launch agent, shell profile modification, startup registration, or background polling loop was identified.</li>
+<li>Lateral movement: no evidence of Kubernetes service account access, Docker socket use, cloud metadata access, or GitHub Actions/CI token abuse.</li>
+<li>Obfuscation/loaders: re.compile matches appear to be normal regex usage. No eval/exec/compile, base64/zlib/marshal/pickle loader, or obfuscated dropper evidence was found.</li>
+</ul>
+
+<h2>Distribution Integrity Anomalies</h2>
+
+<ul>
+<li>Files listed in SOURCES.txt appear to be package source, tests, and egg-info metadata; no hidden payload or unexplained native binary evidence was found.</li>
+<li>Dependencies are pygls, lsprotocol, packaging, plus development dependencies pytest, black, isort, and flake8; based on the provided data, there is no evidence of malicious dependency insertion.</li>
+<li>The package name presents itself as a shared VS Code Python LSP utility, but the provided contents do not establish typosquatting or dependency-confusion behavior.</li>
+<li>Wheel/sdist mismatch cannot be assessed from the provided sdist text alone.</li>
+</ul>
+
+<h2>Further Verification Needed</h2>
+
+<ul>
+<li>The input corpus focuses on selected files; full contents of some files such as server.py, process_runner.py, and version.py were not provided.</li>
+<li>If a wheel artifact exists, compare it against the sdist for file and metadata differences.</li>
+<li>Upstream repository and previous-version diffs were not provided, so newly inserted dependencies or publisher account compromise require separate verification.</li>
+</ul>
+
+<p>---</p>
+
+<p>Prompt source: docs/prompts/malicious-supply-chain-review-v2.md</p>
+
+<p>This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</p>
+
+</body>
+</html>

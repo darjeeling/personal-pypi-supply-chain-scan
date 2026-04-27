@@ -1,6 +1,46 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "vscode_common_python_lsp-0.2.0.tar.gz",
+    "finding_count": 26,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "vscode_common_python_lsp-0.2.0/vscode_common_python_lsp/notebook.py"
+          ],
+          "value": "microsoft.github.io"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "vscode_common_python_lsp-0.2.0/vscode_common_python_lsp/notebook.py"
+          ],
+          "value": "https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/#uinteger"
+        }
+      ]
+    },
+    "package": "vscode-common-python-lsp",
+    "package_slug": "vscode-common-python-lsp",
+    "project_url": "https://pypi.org/project/vscode-common-python-lsp/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T20:00:59.023103+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T20:02:02.200429+00:00",
+    "title": "Personal PyPI Supply Chain Scan: vscode-common-python-lsp 0.2.0",
+    "version": "0.2.0",
+    "version_slug": "0.2.0",
+    "_metadata_path": "reports/packages/vscode-common-python-lsp/0.2.0/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "bb_integrations_library-3.9.1.tar.gz",
     "finding_count": 38,
     "model": "gpt-5.5",
