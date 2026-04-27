@@ -1,6 +1,160 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "ptresheaders-0.0.27.tar.gz",
+    "finding_count": 18,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "ptresheaders-0.0.27/LICENSE"
+          ],
+          "value": "fsf.org"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ptresheaders-0.0.27/PKG-INFO",
+            "ptresheaders-0.0.27/ptresheaders.egg-info/PKG-INFO",
+            "ptresheaders-0.0.27/setup.py"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "ptresheaders-0.0.27/PKG-INFO",
+            "ptresheaders-0.0.27/README.md",
+            "ptresheaders-0.0.27/ptresheaders.egg-info/PKG-INFO",
+            "ptresheaders-0.0.27/ptresheaders/modules/cors.py",
+            "ptresheaders-0.0.27/ptresheaders/ptresheaders.py"
+          ],
+          "value": "www.example.com"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "ptresheaders-0.0.27/LICENSE",
+            "ptresheaders-0.0.27/PKG-INFO",
+            "ptresheaders-0.0.27/README.md",
+            "ptresheaders-0.0.27/ptresheaders.egg-info/PKG-INFO",
+            "ptresheaders-0.0.27/ptresheaders/ptresheaders.py"
+          ],
+          "value": "www.gnu.org"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "ptresheaders-0.0.27/PKG-INFO",
+            "ptresheaders-0.0.27/README.md",
+            "ptresheaders-0.0.27/ptresheaders.egg-info/PKG-INFO",
+            "ptresheaders-0.0.27/setup.py"
+          ],
+          "value": "www.penterep.com"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "ptresheaders-0.0.27/LICENSE"
+          ],
+          "value": "https://fsf.org/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ptresheaders-0.0.27/PKG-INFO",
+            "ptresheaders-0.0.27/ptresheaders.egg-info/PKG-INFO",
+            "ptresheaders-0.0.27/setup.py"
+          ],
+          "value": "https://github.com/penterep/ptresheaders"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ptresheaders-0.0.27/PKG-INFO",
+            "ptresheaders-0.0.27/ptresheaders.egg-info/PKG-INFO",
+            "ptresheaders-0.0.27/setup.py"
+          ],
+          "value": "https://github.com/penterep/ptresheaders/issues"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "ptresheaders-0.0.27/PKG-INFO",
+            "ptresheaders-0.0.27/README.md",
+            "ptresheaders-0.0.27/ptresheaders.egg-info/PKG-INFO",
+            "ptresheaders-0.0.27/ptresheaders/ptresheaders.py"
+          ],
+          "value": "https://www.example.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "ptresheaders-0.0.27/ptresheaders/modules/cors.py",
+            "ptresheaders-0.0.27/ptresheaders/ptresheaders.py"
+          ],
+          "value": "https://www.example.com/"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "ptresheaders-0.0.27/LICENSE",
+            "ptresheaders-0.0.27/PKG-INFO",
+            "ptresheaders-0.0.27/README.md",
+            "ptresheaders-0.0.27/ptresheaders.egg-info/PKG-INFO",
+            "ptresheaders-0.0.27/ptresheaders/ptresheaders.py"
+          ],
+          "value": "https://www.gnu.org/licenses/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ptresheaders-0.0.27/LICENSE"
+          ],
+          "value": "https://www.gnu.org/licenses/why-not-lgpl.html"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "ptresheaders-0.0.27/PKG-INFO",
+            "ptresheaders-0.0.27/README.md",
+            "ptresheaders-0.0.27/ptresheaders.egg-info/PKG-INFO",
+            "ptresheaders-0.0.27/setup.py"
+          ],
+          "value": "https://www.penterep.com/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ptresheaders-0.0.27/PKG-INFO",
+            "ptresheaders-0.0.27/README.md",
+            "ptresheaders-0.0.27/ptresheaders.egg-info/PKG-INFO"
+          ],
+          "value": "https://www.penterep.com/external/penterepToolsLogo.png"
+        }
+      ]
+    },
+    "package": "ptresheaders",
+    "package_slug": "ptresheaders",
+    "project_url": "https://pypi.org/project/ptresheaders/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T12:21:47.129288+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T12:22:58.308519+00:00",
+    "title": "Personal PyPI Supply Chain Scan: ptresheaders 0.0.27",
+    "version": "0.0.27",
+    "version_slug": "0.0.27",
+    "_metadata_path": "reports/packages/ptresheaders/0.0.27/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "iap_messenger-2.0.0rc4.tar.gz",
     "finding_count": 12,
     "model": "gpt-5.5",
