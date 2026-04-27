@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal PyPI Supply Chain Scan: myco 0.6.0.post1</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 960px; line-height: 1.55; padding: 0 1rem; color: #1f2933; }
+    a { color: #1f5fbf; }
+    code { background: #f4f4f4; padding: 0.1rem 0.25rem; }
+    h1, h2, h3 { line-height: 1.2; }
+    li { margin: 0.35rem 0; }
+    nav { margin-bottom: 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #e5e9ef; padding: 0.55rem 0.65rem; text-align: left; vertical-align: top; }
+    th { color: #52616f; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; }
+    .scan-groups { margin-top: 1.2rem; }
+    .scan-day { border-top: 1px solid #d8dee4; display: grid; gap: 1rem; grid-template-columns: 10rem minmax(0, 1fr); padding: 1.1rem 0; }
+    .scan-day-date { color: #1f2933; font-weight: 700; }
+    .scan-day-date span { color: #52616f; display: block; font-size: 0.9rem; font-weight: 500; margin-top: 0.2rem; }
+    .scan-day-table { overflow-x: auto; }
+    .risk { display: inline-block; min-width: 4.8rem; text-align: center; border-radius: 999px; padding: 0.15rem 0.45rem; font-size: 0.78rem; font-weight: 700; }
+    .risk-info, .risk-low { background: #dcfce7; color: #166534; }
+    .risk-medium, .risk-unknown { background: #fef3c7; color: #92400e; }
+    .risk-high, .risk-critical { background: #fee2e2; color: #991b1b; }
+    .index-note { color: #52616f; margin-top: -0.35rem; }
+    .version { color: #52616f; margin-left: 0.2rem; white-space: nowrap; }
+    @media (max-width: 720px) {
+      .scan-day { grid-template-columns: 1fr; }
+      th, td { padding: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+<nav><a href='../../../../'>Index</a></nav><h1>Personal PyPI Supply Chain Scan: myco 0.6.0.post1</h1>
+
+<ul>
+<li>Package: myco</li>
+<li>Version: 0.6.0.post1</li>
+<li>Project URL: https://pypi.org/project/myco/</li>
+<li>Distribution: myco-0.6.0.post1.tar.gz</li>
+<li>Package published at: 2026-04-27T21:11:52.456191+00:00</li>
+<li>Scan published at: 2026-04-27T21:12:32.050572+00:00</li>
+<li>Language: en</li>
+<li>Model: gpt-5.5</li>
+<li>Prompt: malicious-supply-chain-review-v2 ([source](../../../../docs/prompts/malicious-supply-chain-review-v2.md))</li>
+<li>Disclaimer: This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</li>
+</ul>
+
+<h2>Deterministic Network Indicators</h2>
+
+<h3>Suspicious Endpoints</h3>
+<ul>
+<li>https://raw.githubusercontent.com/Battam1111/Myco/main/assets/logo_light_512.png (4 files: myco-0.6.0.post1/PKG-INFO, myco-0.6.0.post1/README.md, myco-0.6.0.post1/README_ja.md, myco-0.6.0.post1/README_zh.md)</li>
+<li>https://raw.githubusercontent.com/Battam1111/Myco/main/docs/schema/canon.schema.json (1 files: myco-0.6.0.post1/docs/schema/README.md)</li>
+<li>https://raw.githubusercontent.com/Battam1111/Myco/main/docs/schema/canon.schema.json (1 files: myco-0.6.0.post1/docs/schema/README.md)</li>
+<li>raw.githubusercontent.com (5 files: myco-0.6.0.post1/PKG-INFO, myco-0.6.0.post1/README.md, myco-0.6.0.post1/README_ja.md, myco-0.6.0.post1/README_zh.md, myco-0.6.0.post1/docs/schema/README.md)</li>
+</ul>
+
+<h3>Raw Public IPs</h3>
+
+<p>None</p>
+
+<h3>URLs</h3>
+<ul>
+<li>http://evil (1 files: myco-0.6.0.post1/tests/unit/core/test_trust.py)</li>
+<li>http://evil.tld/x (1 files: myco-0.6.0.post1/src/myco/ingestion/eat.py)</li>
+<li>http://example.com (2 files: myco-0.6.0.post1/tests/unit/circulation/test_graph_full_paths.py, myco-0.6.0.post1/tests/unit/ingestion/test_url_fetcher_full_paths.py)</li>
+<li>https:// (2 files: myco-0.6.0.post1/CHANGELOG.md, myco-0.6.0.post1/docs/contract_changelog.md)</li>
+<li>https://... (1 files: myco-0.6.0.post1/src/myco/ingestion/eat.py)</li>
+<li>https:// (1 files: myco-0.6.0.post1/src/myco/boundary/surface/mcp.py)</li>
+<li>https://api.anthropic.com/api/organizations/{orgId (3 files: myco-0.6.0.post1/docs/contract_changelog.md, myco-0.6.0.post1/src/myco/boundary/install/cowork_plugin.py, myco-0.6.0.post1/src/myco/boundary/install/plugin_bundle.py)</li>
+<li>https://api.github.com/... (1 files: myco-0.6.0.post1/docs/primordia/agent_handoff_v0_4_1_2026-04-15.md)</li>
+<li>https://api.github.com/repos/Battam1111/Myco/releases/tags/vX.Y.Z (1 files: myco-0.6.0.post1/docs/primordia/agent_handoff_v0_4_1_2026-04-15.md)</li>
+<li>https://code.claude.com/docs/en/plugins-reference (1 files: myco-0.6.0.post1/tests/integration/test_plugin_bundle.py)</li>
+<li>https://example.com (4 files: myco-0.6.0.post1/tests/unit/circulation/test_graph.py, myco-0.6.0.post1/tests/unit/circulation/test_graph_full_paths.py, myco-0.6.0.post1/tests/unit/digestion/test_pipeline.py, myco-0.6.0.post1/tests/unit/homeostasis/dimensions/test_se1_dangling_refs.py)</li>
+<li>https://example.com/api (1 files: myco-0.6.0.post1/tests/unit/ingestion/test_url_fetcher_full_paths.py)</li>
+<li>https://example.com/myco.git (1 files: myco-0.6.0.post1/tests/unit/install/test_fresh.py)</li>
+<li>https://example.com/page (1 files: myco-0.6.0.post1/tests/unit/ingestion/test_url_fetcher_full_paths.py)</li>
+<li>https://example.com/repo (1 files: myco-0.6.0.post1/tests/unit/surface/test_mcp.py)</li>
+<li>https://example.com/x (1 files: myco-0.6.0.post1/tests/unit/ingestion/test_url_fetcher_full_paths.py)</li>
+<li>https://fastapi.tiangolo.com/contributing/ (1 files: myco-0.6.0.post1/CONTRIBUTING.md)</li>
+<li>https://git-scm.com (1 files: myco-0.6.0.post1/src/myco/boundary/install/fresh.py)</li>
+<li>https://github.com/Aider-AI/aider/issues/4506 (1 files: myco-0.6.0.post1/docs/INSTALL.md)</li>
+<li>https://github.com/Battam1111 (2 files: myco-0.6.0.post1/.claude-plugin/marketplace.json, myco-0.6.0.post1/.claude-plugin/plugin.json)</li>
+<li>https://github.com/Battam1111/Myco (17 files: myco-0.6.0.post1/.claude-plugin/plugin.json, myco-0.6.0.post1/PKG-INFO, myco-0.6.0.post1/README.md, myco-0.6.0.post1/README_ja.md, myco-0.6.0.post1/README_zh.md)</li>
+<li>https://github.com/Battam1111/Myco.git (2 files: myco-0.6.0.post1/CONTRIBUTING.md, myco-0.6.0.post1/src/myco/boundary/install/fresh.py)</li>
+<li>https://github.com/Battam1111/Myco.git (1 files: myco-0.6.0.post1/docs/primordia/v0_5_2_editable_default_craft_2026-04-17.md)</li>
+<li>https://github.com/Battam1111/Myco.git (1 files: myco-0.6.0.post1/src/myco/boundary/install/fresh.py)</li>
+<li>https://github.com/Battam1111/Myco/blob/main/CHANGELOG.md (2 files: myco-0.6.0.post1/PKG-INFO, myco-0.6.0.post1/pyproject.toml)</li>
+<li>https://github.com/Battam1111/Myco/blob/main/docs/architecture/L0_VISION.md (3 files: myco-0.6.0.post1/.github/ISSUE_TEMPLATE/config.yml, myco-0.6.0.post1/.github/ISSUE_TEMPLATE/feature_request.yml, myco-0.6.0.post1/docs/promotion/devto_article.md)</li>
+<li>https://github.com/Battam1111/Myco/blob/main/docs/architecture/L1_CONTRACT/protocol.md (2 files: myco-0.6.0.post1/.github/ISSUE_TEMPLATE/feature_request.yml, myco-0.6.0.post1/docs/promotion/devto_article.md)</li>
+<li>https://github.com/Battam1111/Myco/blob/main/docs/architecture/L2_DOCTRINE/homeostasis.md (1 files: myco-0.6.0.post1/docs/promotion/devto_article.md)</li>
+<li>https://github.com/Battam1111/Myco/blob/main/docs/migration/README.md (1 files: myco-0.6.0.post1/.github/ISSUE_TEMPLATE/config.yml)</li>
+<li>https://github.com/Battam1111/Myco/blob/main/docs/schema/canon.schema.json (1 files: myco-0.6.0.post1/docs/schema/canon.schema.json)</li>
+<li>... 50 more</li>
+</ul>
+
+<h3>Domains</h3>
+<ul>
+<li> (2 files: myco-0.6.0.post1/src/myco/boundary/surface/mcp.py, myco-0.6.0.post1/src/myco/ingestion/eat.py)</li>
+<li>api.anthropic.com (3 files: myco-0.6.0.post1/docs/contract_changelog.md, myco-0.6.0.post1/src/myco/boundary/install/cowork_plugin.py, myco-0.6.0.post1/src/myco/boundary/install/plugin_bundle.py)</li>
+<li>api.github.com (1 files: myco-0.6.0.post1/docs/primordia/agent_handoff_v0_4_1_2026-04-15.md)</li>
+<li>code.claude.com (1 files: myco-0.6.0.post1/tests/integration/test_plugin_bundle.py)</li>
+<li>evil (1 files: myco-0.6.0.post1/tests/unit/core/test_trust.py)</li>
+<li>evil.tld (1 files: myco-0.6.0.post1/src/myco/ingestion/eat.py)</li>
+<li>fastapi.tiangolo.com (1 files: myco-0.6.0.post1/CONTRIBUTING.md)</li>
+<li>git-scm.com (1 files: myco-0.6.0.post1/src/myco/boundary/install/fresh.py)</li>
+<li>github.com (32 files: myco-0.6.0.post1/.claude-plugin/marketplace.json, myco-0.6.0.post1/.claude-plugin/plugin.json, myco-0.6.0.post1/.github/ISSUE_TEMPLATE/config.yml, myco-0.6.0.post1/.github/ISSUE_TEMPLATE/feature_request.yml, myco-0.6.0.post1/.github/workflows/release.yml)</li>
+<li>glama.ai (8 files: myco-0.6.0.post1/PKG-INFO, myco-0.6.0.post1/README.md, myco-0.6.0.post1/README_ja.md, myco-0.6.0.post1/README_zh.md, myco-0.6.0.post1/docs/contract_changelog.md)</li>
+<li>img.shields.io (4 files: myco-0.6.0.post1/PKG-INFO, myco-0.6.0.post1/README.md, myco-0.6.0.post1/README_ja.md, myco-0.6.0.post1/README_zh.md)</li>
+<li>issuer.example (1 files: myco-0.6.0.post1/tests/unit/boundary/test_mcp_auth_sampling.py)</li>
+<li>json-schema.org (1 files: myco-0.6.0.post1/docs/schema/canon.schema.json)</li>
+<li>keepachangelog.com (1 files: myco-0.6.0.post1/CHANGELOG.md)</li>
+<li>modelcontextprotocol.io (4 files: myco-0.6.0.post1/docs/primordia/glama_categories_drive_craft_2026-04-28.md, myco-0.6.0.post1/docs/promotion/awesome_list_submissions.md, myco-0.6.0.post1/docs/promotion/mcp_registry_submission.md, myco-0.6.0.post1/src/myco/boundary/surface/manifest.yaml)</li>
+<li>pypi.org (14 files: myco-0.6.0.post1/.github/workflows/release.yml, myco-0.6.0.post1/CONTRIBUTING.md, myco-0.6.0.post1/PKG-INFO, myco-0.6.0.post1/README.md, myco-0.6.0.post1/README_ja.md)</li>
+<li>raw.githubusercontent.com (5 files: myco-0.6.0.post1/PKG-INFO, myco-0.6.0.post1/README.md, myco-0.6.0.post1/README_ja.md, myco-0.6.0.post1/README_zh.md, myco-0.6.0.post1/docs/schema/README.md)</li>
+<li>raw.glob (1 files: myco-0.6.0.post1/src/myco/digestion/assimilate.py)</li>
+<li>raw.items (2 files: myco-0.6.0.post1/src/myco/boundary/surface/manifest.py, myco-0.6.0.post1/src/myco/core/canon.py)</li>
+<li>raw.lower (2 files: myco-0.6.0.post1/src/myco/boundary/surface/manifest.py, myco-0.6.0.post1/src/myco/cycle/ramify.py)</li>
+<li>raw.mkdir (10 files: myco-0.6.0.post1/tests/unit/circulation/test_graph.py, myco-0.6.0.post1/tests/unit/core/test_write_surface.py, myco-0.6.0.post1/tests/unit/digestion/test_assimilate_full_paths.py, myco-0.6.0.post1/tests/unit/homeostasis/dimensions/test_mb1_raw_notes_backlog.py, myco-0.6.0.post1/tests/unit/homeostasis/dimensions/test_mb2_no_integrated_yet.py)</li>
+<li>raw.replace (1 files: myco-0.6.0.post1/src/myco/core/registry.py)</li>
+<li>raw.setdefault (1 files: myco-0.6.0.post1/src/myco/cycle/ramify.py)</li>
+<li>raw.strip (2 files: myco-0.6.0.post1/src/myco/boundary/install/cowork_plugin.py, myco-0.6.0.post1/src/myco/cycle/fruit.py)</li>
+<li>raw.tzinfo (1 files: myco-0.6.0.post1/src/myco/core/registry.py)</li>
+<li>registry.modelcontextprotocol.io (5 files: myco-0.6.0.post1/PKG-INFO, myco-0.6.0.post1/README.md, myco-0.6.0.post1/README_ja.md, myco-0.6.0.post1/README_zh.md, myco-0.6.0.post1/docs/contract_changelog.md)</li>
+<li>semver.org (1 files: myco-0.6.0.post1/CHANGELOG.md)</li>
+<li>static.modelcontextprotocol.io (1 files: myco-0.6.0.post1/docs/contract_changelog.md)</li>
+<li>www.contributor-covenant.org (1 files: myco-0.6.0.post1/CONTRIBUTING.md)</li>
+<li>www.python.org (4 files: myco-0.6.0.post1/PKG-INFO, myco-0.6.0.post1/README.md, myco-0.6.0.post1/README_ja.md, myco-0.6.0.post1/README_zh.md)</li>
+<li>... 2 more</li>
+</ul>
+
+<h2>Verdict</h2>
+
+<p>No confirmed malicious supply-chain compromise indicators — overall risk: **info**.</p>
+
+<h2>Malicious Supply-Chain Indicators</h2>
+
+<p>No confirmed malicious supply-chain indicators.</p>
+
+<p>Pre-scan leads reviewed but not considered malicious evidence:</p>
+<ul>
+<li>Mentions of .env, id_rsa, .pypirc, .npmrc, and similar sensitive filenames in CHANGELOG.md and src/myco/ingestion/adapters/text_file.py appear to describe a **denylist/blocking mechanism and changelog notes**, not credential collection.</li>
+<li>raw.githubusercontent.com references appear to be README/documentation image or schema links, with no evidence of credential exfiltration or executable payload download.</li>
+<li>curl/tar usage in .github/workflows/release.yml appears to be release-workflow tooling, not malicious package-install-time execution.</li>
+<li>PNG logo/social-preview assets appear to be expected project assets; no unexplained executable native binary or loader evidence was identified.</li>
+</ul>
+
+<h2>Automatic Execution Paths</h2>
+
+<p>No confirmed malicious automatic execution path.</p>
+
+<ul>
+<li>In the provided corpus, there is no evidence of .pth, sitecustomize.py, usercustomize.py, malicious setup.py install-time execution, abused PEP 517 build hooks, or malicious import-time side effects.</li>
+<li>console_scripts/CLI and myco-install behavior appear to require explicit user invocation and are not treated as malicious automatic execution.</li>
+<li>Documentation mentioning Claude Code hooks such as SessionEnd/PreCompact appears to describe product integration that invokes myco senesce/hunger; it is not paired with credential theft or exfiltration evidence.</li>
+</ul>
+
+<h2>Theft / Exfiltration / Persistence / Lateral Movement / Obfuscation</h2>
+
+<p>No confirmed malicious evidence.</p>
+
+<ul>
+<li>**Credential harvesting:** Sensitive filenames appear mainly in blocklists or release documentation. No evidence was found of broad environment, home-directory, SSH, cloud, CI token, or secrets harvesting logic.</li>
+<li>**Archive staging / exfiltration:** No evidence was found of archiving or staging credentials/user files and uploading them externally.</li>
+<li>**Persistence:** No evidence was found of systemd units, cron jobs, launch agents, shell profile edits, startup-folder persistence, or background polling loops.</li>
+<li>**Lateral movement:** No evidence was found of Kubernetes service-account abuse, Docker socket access, cloud metadata harvesting, GitHub Actions token theft, or workflow injection.</li>
+<li>**Obfuscation / loader:** No evidence was found of base64/zlib/marshal/eval/exec-based hidden loaders or staged payload downloaders.</li>
+</ul>
+
+<h2>Distribution Integrity Anomalies</h2>
+
+<p>No confirmed malicious distribution-integrity anomaly.</p>
+
+<ul>
+<li>The PNG assets in the provided file list appear to be logos/social previews, with no evidence of unexplained native executables.</li>
+<li>The provided corpus does not show suspicious .dist-info manipulation, hidden executable payloads, typosquatting, sudden malicious dependency insertion, or wheel/sdist mismatch evidence.</li>
+</ul>
+
+<h2>Additional Verification Needed</h2>
+
+<ul>
+<li>The input is limited to selected text from 429 total files. pyproject.toml, the full source tree, build-backend settings, MANIFEST contents, and any wheel artifact differences should be reviewed separately.</li>
+<li>Binary PNG files were not executed and only limited metadata/context was available. They currently appear to be normal assets, but steganography or hidden payloads cannot be fully ruled out from the provided text alone.</li>
+<li>To strengthen the final determination, compare the PyPI sdist against the VCS tag/release source and, if available, the built wheel contents.</li>
+</ul>
+
+<p>---</p>
+
+<p>Prompt source: docs/prompts/malicious-supply-chain-review-v2.md</p>
+
+<p>This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</p>
+
+</body>
+</html>

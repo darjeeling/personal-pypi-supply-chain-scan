@@ -1,6 +1,966 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "myco-0.6.0.post1.tar.gz",
+    "finding_count": 278,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 2,
+          "files": [
+            "myco-0.6.0.post1/src/myco/boundary/surface/mcp.py",
+            "myco-0.6.0.post1/src/myco/ingestion/eat.py"
+          ],
+          "value": "``"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "myco-0.6.0.post1/docs/contract_changelog.md",
+            "myco-0.6.0.post1/src/myco/boundary/install/cowork_plugin.py",
+            "myco-0.6.0.post1/src/myco/boundary/install/plugin_bundle.py"
+          ],
+          "value": "api.anthropic.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/docs/primordia/agent_handoff_v0_4_1_2026-04-15.md"
+          ],
+          "value": "api.github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/tests/integration/test_plugin_bundle.py"
+          ],
+          "value": "code.claude.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/tests/unit/core/test_trust.py"
+          ],
+          "value": "evil"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/src/myco/ingestion/eat.py"
+          ],
+          "value": "evil.tld"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/CONTRIBUTING.md"
+          ],
+          "value": "fastapi.tiangolo.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/src/myco/boundary/install/fresh.py"
+          ],
+          "value": "git-scm.com"
+        },
+        {
+          "file_count": 32,
+          "files": [
+            "myco-0.6.0.post1/.claude-plugin/marketplace.json",
+            "myco-0.6.0.post1/.claude-plugin/plugin.json",
+            "myco-0.6.0.post1/.github/ISSUE_TEMPLATE/config.yml",
+            "myco-0.6.0.post1/.github/ISSUE_TEMPLATE/feature_request.yml",
+            "myco-0.6.0.post1/.github/workflows/release.yml",
+            "myco-0.6.0.post1/CONTRIBUTING.md",
+            "myco-0.6.0.post1/PKG-INFO",
+            "myco-0.6.0.post1/README.md"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 8,
+          "files": [
+            "myco-0.6.0.post1/PKG-INFO",
+            "myco-0.6.0.post1/README.md",
+            "myco-0.6.0.post1/README_ja.md",
+            "myco-0.6.0.post1/README_zh.md",
+            "myco-0.6.0.post1/docs/contract_changelog.md",
+            "myco-0.6.0.post1/docs/primordia/glama_categories_drive_craft_2026-04-28.md",
+            "myco-0.6.0.post1/docs/primordia/glama_onboarding_runbook_craft_2026-04-24.md",
+            "myco-0.6.0.post1/src/myco/boundary/surface/manifest.yaml"
+          ],
+          "value": "glama.ai"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "myco-0.6.0.post1/PKG-INFO",
+            "myco-0.6.0.post1/README.md",
+            "myco-0.6.0.post1/README_ja.md",
+            "myco-0.6.0.post1/README_zh.md"
+          ],
+          "value": "img.shields.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/tests/unit/boundary/test_mcp_auth_sampling.py"
+          ],
+          "value": "issuer.example"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/docs/schema/canon.schema.json"
+          ],
+          "value": "json-schema.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/CHANGELOG.md"
+          ],
+          "value": "keepachangelog.com"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "myco-0.6.0.post1/docs/primordia/glama_categories_drive_craft_2026-04-28.md",
+            "myco-0.6.0.post1/docs/promotion/awesome_list_submissions.md",
+            "myco-0.6.0.post1/docs/promotion/mcp_registry_submission.md",
+            "myco-0.6.0.post1/src/myco/boundary/surface/manifest.yaml"
+          ],
+          "value": "modelcontextprotocol.io"
+        },
+        {
+          "file_count": 14,
+          "files": [
+            "myco-0.6.0.post1/.github/workflows/release.yml",
+            "myco-0.6.0.post1/CONTRIBUTING.md",
+            "myco-0.6.0.post1/PKG-INFO",
+            "myco-0.6.0.post1/README.md",
+            "myco-0.6.0.post1/README_ja.md",
+            "myco-0.6.0.post1/README_zh.md",
+            "myco-0.6.0.post1/docs/primordia/agent_handoff_v0_4_1_2026-04-15.md",
+            "myco-0.6.0.post1/docs/promotion/awesome_list_submissions.md"
+          ],
+          "value": "pypi.org"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "myco-0.6.0.post1/PKG-INFO",
+            "myco-0.6.0.post1/README.md",
+            "myco-0.6.0.post1/README_ja.md",
+            "myco-0.6.0.post1/README_zh.md",
+            "myco-0.6.0.post1/docs/schema/README.md"
+          ],
+          "value": "raw.githubusercontent.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/src/myco/digestion/assimilate.py"
+          ],
+          "value": "raw.glob"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "myco-0.6.0.post1/src/myco/boundary/surface/manifest.py",
+            "myco-0.6.0.post1/src/myco/core/canon.py"
+          ],
+          "value": "raw.items"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "myco-0.6.0.post1/src/myco/boundary/surface/manifest.py",
+            "myco-0.6.0.post1/src/myco/cycle/ramify.py"
+          ],
+          "value": "raw.lower"
+        },
+        {
+          "file_count": 10,
+          "files": [
+            "myco-0.6.0.post1/tests/unit/circulation/test_graph.py",
+            "myco-0.6.0.post1/tests/unit/core/test_write_surface.py",
+            "myco-0.6.0.post1/tests/unit/digestion/test_assimilate_full_paths.py",
+            "myco-0.6.0.post1/tests/unit/homeostasis/dimensions/test_mb1_raw_notes_backlog.py",
+            "myco-0.6.0.post1/tests/unit/homeostasis/dimensions/test_mb2_no_integrated_yet.py",
+            "myco-0.6.0.post1/tests/unit/homeostasis/dimensions/test_mb3_raw_notes_high_watermark.py",
+            "myco-0.6.0.post1/tests/unit/homeostasis/dimensions/test_se1_dangling_refs.py",
+            "myco-0.6.0.post1/tests/unit/homeostasis/dimensions/test_se2_orphan_integrated.py"
+          ],
+          "value": "raw.mkdir"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/src/myco/core/registry.py"
+          ],
+          "value": "raw.replace"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/src/myco/cycle/ramify.py"
+          ],
+          "value": "raw.setdefault"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "myco-0.6.0.post1/src/myco/boundary/install/cowork_plugin.py",
+            "myco-0.6.0.post1/src/myco/cycle/fruit.py"
+          ],
+          "value": "raw.strip"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/src/myco/core/registry.py"
+          ],
+          "value": "raw.tzinfo"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "myco-0.6.0.post1/PKG-INFO",
+            "myco-0.6.0.post1/README.md",
+            "myco-0.6.0.post1/README_ja.md",
+            "myco-0.6.0.post1/README_zh.md",
+            "myco-0.6.0.post1/docs/contract_changelog.md"
+          ],
+          "value": "registry.modelcontextprotocol.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/CHANGELOG.md"
+          ],
+          "value": "semver.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/docs/contract_changelog.md"
+          ],
+          "value": "static.modelcontextprotocol.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/CONTRIBUTING.md"
+          ],
+          "value": "www.contributor-covenant.org"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "myco-0.6.0.post1/PKG-INFO",
+            "myco-0.6.0.post1/README.md",
+            "myco-0.6.0.post1/README_ja.md",
+            "myco-0.6.0.post1/README_zh.md"
+          ],
+          "value": "www.python.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/tests/unit/boundary/test_mcp_capabilities.py"
+          ],
+          "value": "x"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/src/myco/ingestion/eat.py"
+          ],
+          "value": "…"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [
+        {
+          "file_count": 4,
+          "files": [
+            "myco-0.6.0.post1/PKG-INFO",
+            "myco-0.6.0.post1/README.md",
+            "myco-0.6.0.post1/README_ja.md",
+            "myco-0.6.0.post1/README_zh.md"
+          ],
+          "value": "https://raw.githubusercontent.com/Battam1111/Myco/main/assets/logo_light_512.png"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/docs/schema/README.md"
+          ],
+          "value": "https://raw.githubusercontent.com/Battam1111/Myco/main/docs/schema/canon.schema.json"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/docs/schema/README.md"
+          ],
+          "value": "https://raw.githubusercontent.com/Battam1111/Myco/main/docs/schema/canon.schema.json`"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "myco-0.6.0.post1/PKG-INFO",
+            "myco-0.6.0.post1/README.md",
+            "myco-0.6.0.post1/README_ja.md",
+            "myco-0.6.0.post1/README_zh.md",
+            "myco-0.6.0.post1/docs/schema/README.md"
+          ],
+          "value": "raw.githubusercontent.com"
+        }
+      ],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/tests/unit/core/test_trust.py"
+          ],
+          "value": "http://evil"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/src/myco/ingestion/eat.py"
+          ],
+          "value": "http://evil.tld/x``"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "myco-0.6.0.post1/tests/unit/circulation/test_graph_full_paths.py",
+            "myco-0.6.0.post1/tests/unit/ingestion/test_url_fetcher_full_paths.py"
+          ],
+          "value": "http://example.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "myco-0.6.0.post1/CHANGELOG.md",
+            "myco-0.6.0.post1/docs/contract_changelog.md"
+          ],
+          "value": "https://"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/src/myco/ingestion/eat.py"
+          ],
+          "value": "https://...``"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/src/myco/boundary/surface/mcp.py"
+          ],
+          "value": "https://``"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "myco-0.6.0.post1/docs/contract_changelog.md",
+            "myco-0.6.0.post1/src/myco/boundary/install/cowork_plugin.py",
+            "myco-0.6.0.post1/src/myco/boundary/install/plugin_bundle.py"
+          ],
+          "value": "https://api.anthropic.com/api/organizations/{orgId"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/docs/primordia/agent_handoff_v0_4_1_2026-04-15.md"
+          ],
+          "value": "https://api.github.com/...`"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/docs/primordia/agent_handoff_v0_4_1_2026-04-15.md"
+          ],
+          "value": "https://api.github.com/repos/Battam1111/Myco/releases/tags/vX.Y.Z"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/tests/integration/test_plugin_bundle.py"
+          ],
+          "value": "https://code.claude.com/docs/en/plugins-reference"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "myco-0.6.0.post1/tests/unit/circulation/test_graph.py",
+            "myco-0.6.0.post1/tests/unit/circulation/test_graph_full_paths.py",
+            "myco-0.6.0.post1/tests/unit/digestion/test_pipeline.py",
+            "myco-0.6.0.post1/tests/unit/homeostasis/dimensions/test_se1_dangling_refs.py"
+          ],
+          "value": "https://example.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/tests/unit/ingestion/test_url_fetcher_full_paths.py"
+          ],
+          "value": "https://example.com/api"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/tests/unit/install/test_fresh.py"
+          ],
+          "value": "https://example.com/myco.git"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/tests/unit/ingestion/test_url_fetcher_full_paths.py"
+          ],
+          "value": "https://example.com/page"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/tests/unit/surface/test_mcp.py"
+          ],
+          "value": "https://example.com/repo"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/tests/unit/ingestion/test_url_fetcher_full_paths.py"
+          ],
+          "value": "https://example.com/x"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/CONTRIBUTING.md"
+          ],
+          "value": "https://fastapi.tiangolo.com/contributing/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/src/myco/boundary/install/fresh.py"
+          ],
+          "value": "https://git-scm.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/docs/INSTALL.md"
+          ],
+          "value": "https://github.com/Aider-AI/aider/issues/4506"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "myco-0.6.0.post1/.claude-plugin/marketplace.json",
+            "myco-0.6.0.post1/.claude-plugin/plugin.json"
+          ],
+          "value": "https://github.com/Battam1111"
+        },
+        {
+          "file_count": 17,
+          "files": [
+            "myco-0.6.0.post1/.claude-plugin/plugin.json",
+            "myco-0.6.0.post1/PKG-INFO",
+            "myco-0.6.0.post1/README.md",
+            "myco-0.6.0.post1/README_ja.md",
+            "myco-0.6.0.post1/README_zh.md",
+            "myco-0.6.0.post1/docs/promotion/README.md",
+            "myco-0.6.0.post1/docs/promotion/awesome_list_submissions.md",
+            "myco-0.6.0.post1/docs/promotion/devto_article.md"
+          ],
+          "value": "https://github.com/Battam1111/Myco"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "myco-0.6.0.post1/CONTRIBUTING.md",
+            "myco-0.6.0.post1/src/myco/boundary/install/fresh.py"
+          ],
+          "value": "https://github.com/Battam1111/Myco.git"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/docs/primordia/v0_5_2_editable_default_craft_2026-04-17.md"
+          ],
+          "value": "https://github.com/Battam1111/Myco.git`"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/src/myco/boundary/install/fresh.py"
+          ],
+          "value": "https://github.com/Battam1111/Myco.git``"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "myco-0.6.0.post1/PKG-INFO",
+            "myco-0.6.0.post1/pyproject.toml"
+          ],
+          "value": "https://github.com/Battam1111/Myco/blob/main/CHANGELOG.md"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "myco-0.6.0.post1/.github/ISSUE_TEMPLATE/config.yml",
+            "myco-0.6.0.post1/.github/ISSUE_TEMPLATE/feature_request.yml",
+            "myco-0.6.0.post1/docs/promotion/devto_article.md"
+          ],
+          "value": "https://github.com/Battam1111/Myco/blob/main/docs/architecture/L0_VISION.md"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "myco-0.6.0.post1/.github/ISSUE_TEMPLATE/feature_request.yml",
+            "myco-0.6.0.post1/docs/promotion/devto_article.md"
+          ],
+          "value": "https://github.com/Battam1111/Myco/blob/main/docs/architecture/L1_CONTRACT/protocol.md"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/docs/promotion/devto_article.md"
+          ],
+          "value": "https://github.com/Battam1111/Myco/blob/main/docs/architecture/L2_DOCTRINE/homeostasis.md"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/.github/ISSUE_TEMPLATE/config.yml"
+          ],
+          "value": "https://github.com/Battam1111/Myco/blob/main/docs/migration/README.md"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/docs/schema/canon.schema.json"
+          ],
+          "value": "https://github.com/Battam1111/Myco/blob/main/docs/schema/canon.schema.json"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/docs/promotion/devto_article.md"
+          ],
+          "value": "https://github.com/Battam1111/Myco/blob/main/src/myco/surface/manifest.yaml"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/.github/ISSUE_TEMPLATE/config.yml"
+          ],
+          "value": "https://github.com/Battam1111/Myco/discussions"
+        },
+        {
+          "file_count": 7,
+          "files": [
+            "myco-0.6.0.post1/PKG-INFO",
+            "myco-0.6.0.post1/README.md",
+            "myco-0.6.0.post1/README_ja.md",
+            "myco-0.6.0.post1/README_zh.md",
+            "myco-0.6.0.post1/docs/migration/v0_5_7_to_v0_5_8.md",
+            "myco-0.6.0.post1/docs/promotion/mcp_registry_submission.md",
+            "myco-0.6.0.post1/pyproject.toml"
+          ],
+          "value": "https://github.com/Battam1111/Myco/issues"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "myco-0.6.0.post1/PKG-INFO",
+            "myco-0.6.0.post1/README.md",
+            "myco-0.6.0.post1/README_ja.md",
+            "myco-0.6.0.post1/README_zh.md"
+          ],
+          "value": "https://github.com/Battam1111/Myco/releases"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "myco-0.6.0.post1/PKG-INFO",
+            "myco-0.6.0.post1/README.md",
+            "myco-0.6.0.post1/README_ja.md",
+            "myco-0.6.0.post1/README_zh.md"
+          ],
+          "value": "https://github.com/Battam1111/Myco/releases/latest"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/.github/workflows/release.yml"
+          ],
+          "value": "https://github.com/Battam1111/Myco/releases/latest/download/myco-"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "myco-0.6.0.post1/docs/INSTALL.md",
+            "myco-0.6.0.post1/docs/contract_changelog.md"
+          ],
+          "value": "https://github.com/Battam1111/Myco/releases/latest/download/myco.plugin"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/scripts/build_plugin.py"
+          ],
+          "value": "https://github.com/Battam1111/Myco/releases/latest/download/myco.plugin``"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/.github/ISSUE_TEMPLATE/config.yml"
+          ],
+          "value": "https://github.com/Battam1111/Myco/security/advisories/new"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "myco-0.6.0.post1/PKG-INFO",
+            "myco-0.6.0.post1/docs/promotion/show_hn.md",
+            "myco-0.6.0.post1/docs/promotion/twitter_thread.md",
+            "myco-0.6.0.post1/pyproject.toml"
+          ],
+          "value": "https://github.com/Battam1111/Myco/tree/main/docs"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "myco-0.6.0.post1/docs/promotion/linkedin_post.md",
+            "myco-0.6.0.post1/docs/promotion/reddit_chatgptcoding.md",
+            "myco-0.6.0.post1/docs/promotion/reddit_langchain.md",
+            "myco-0.6.0.post1/docs/promotion/reddit_localllama.md",
+            "myco-0.6.0.post1/docs/promotion/reddit_machinelearning.md"
+          ],
+          "value": "https://github.com/Battam1111/Myco/tree/main/docs/architecture"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/docs/promotion/devto_article.md"
+          ],
+          "value": "https://github.com/Battam1111/Myco/tree/main/docs/primordia"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/docs/promotion/reddit_chatgptcoding.md"
+          ],
+          "value": "https://github.com/Battam1111/Myco/tree/main/examples/research-assistant"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/docs/promotion/awesome_list_submissions.md"
+          ],
+          "value": "https://github.com/Hannibal046/Awesome-LLM"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/docs/promotion/awesome_list_submissions.md"
+          ],
+          "value": "https://github.com/appcypher/awesome-mcp-servers"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/docs/promotion/awesome_list_submissions.md"
+          ],
+          "value": "https://github.com/e2b-dev/awesome-ai-agents"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/docs/INSTALL.md"
+          ],
+          "value": "https://github.com/lutzleonhardt/mcpm-aider"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/docs/promotion/awesome_list_submissions.md"
+          ],
+          "value": "https://github.com/ml-tooling/best-of-ml-python"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/.github/workflows/release.yml"
+          ],
+          "value": "https://github.com/modelcontextprotocol/registry/releases/latest/download/mcp-publisher_linux_amd64.tar.gz"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "myco-0.6.0.post1/docs/promotion/awesome_list_submissions.md",
+            "myco-0.6.0.post1/docs/promotion/mcp_registry_submission.md"
+          ],
+          "value": "https://github.com/modelcontextprotocol/servers"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/src/myco/boundary/install/clients.py"
+          ],
+          "value": "https://github.com/openclaw/openclaw"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "myco-0.6.0.post1/docs/promotion/awesome_list_submissions.md",
+            "myco-0.6.0.post1/docs/promotion/mcp_registry_submission.md"
+          ],
+          "value": "https://github.com/punkpeye/awesome-mcp-servers"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/docs/promotion/awesome_list_submissions.md"
+          ],
+          "value": "https://github.com/sindresorhus/awesome"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/docs/promotion/awesome_list_submissions.md"
+          ],
+          "value": "https://github.com/steven2358/awesome-generative-ai"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/docs/promotion/awesome_list_submissions.md"
+          ],
+          "value": "https://github.com/vinta/awesome-python"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/docs/promotion/awesome_list_submissions.md"
+          ],
+          "value": "https://github.com/wong2/awesome-mcp-servers"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/docs/primordia/glama_categories_drive_craft_2026-04-28.md"
+          ],
+          "value": "https://glama.ai/mcp/categories/knowledge-and-memory`"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/docs/primordia/glama_onboarding_runbook_craft_2026-04-24.md"
+          ],
+          "value": "https://glama.ai/mcp/schemas/server.json"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/docs/primordia/glama_onboarding_runbook_craft_2026-04-24.md"
+          ],
+          "value": "https://glama.ai/mcp/servers/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/src/myco/boundary/surface/manifest.yaml"
+          ],
+          "value": "https://glama.ai/mcp/servers/@Battam1111/myco"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "myco-0.6.0.post1/PKG-INFO",
+            "myco-0.6.0.post1/README.md",
+            "myco-0.6.0.post1/README_ja.md",
+            "myco-0.6.0.post1/README_zh.md",
+            "myco-0.6.0.post1/docs/contract_changelog.md"
+          ],
+          "value": "https://glama.ai/mcp/servers/Battam1111/Myco"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "myco-0.6.0.post1/PKG-INFO",
+            "myco-0.6.0.post1/README.md",
+            "myco-0.6.0.post1/README_ja.md",
+            "myco-0.6.0.post1/README_zh.md"
+          ],
+          "value": "https://glama.ai/mcp/servers/Battam1111/Myco/badges/score.svg"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/docs/primordia/glama_onboarding_runbook_craft_2026-04-24.md"
+          ],
+          "value": "https://glama.ai/mcp/servers/Battam1111/Myco/badges/score.svg`"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/docs/primordia/glama_onboarding_runbook_craft_2026-04-24.md"
+          ],
+          "value": "https://glama.ai/mcp/servers/Battam1111/Myco`"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/README_zh.md"
+          ],
+          "value": "https://img.shields.io/badge/%E5%9C%A8%20Glama%20%E4%B8%8A-%E5%8D%B3%E5%88%BB%E8%AF%95%E7%94%A8-8b5cf6?style=for-the-badge"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/README_ja.md"
+          ],
+          "value": "https://img.shields.io/badge/Glama%20%E3%81%A7-%E4%BB%8A%E3%81%99%E3%81%90%E8%A9%A6%E3%81%99-8b5cf6?style=for-the-badge"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "myco-0.6.0.post1/PKG-INFO",
+            "myco-0.6.0.post1/README.md",
+            "myco-0.6.0.post1/README_ja.md",
+            "myco-0.6.0.post1/README_zh.md"
+          ],
+          "value": "https://img.shields.io/badge/License-MIT-green?style=flat"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "myco-0.6.0.post1/PKG-INFO",
+            "myco-0.6.0.post1/README.md",
+            "myco-0.6.0.post1/README_ja.md",
+            "myco-0.6.0.post1/README_zh.md"
+          ],
+          "value": "https://img.shields.io/badge/Python-3.10+-blue?style=flat"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "myco-0.6.0.post1/PKG-INFO",
+            "myco-0.6.0.post1/README.md"
+          ],
+          "value": "https://img.shields.io/badge/Try_it_live_on-Glama-8b5cf6?style=for-the-badge"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "myco-0.6.0.post1/PKG-INFO",
+            "myco-0.6.0.post1/README.md",
+            "myco-0.6.0.post1/README_ja.md",
+            "myco-0.6.0.post1/README_zh.md"
+          ],
+          "value": "https://img.shields.io/github/stars/Battam1111/Myco?style=flat"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "myco-0.6.0.post1/PKG-INFO",
+            "myco-0.6.0.post1/README.md",
+            "myco-0.6.0.post1/README_ja.md",
+            "myco-0.6.0.post1/README_zh.md"
+          ],
+          "value": "https://img.shields.io/pypi/v/myco?style=flat&cache_seconds=0"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/tests/unit/boundary/test_mcp_auth_sampling.py"
+          ],
+          "value": "https://issuer.example"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/tests/unit/boundary/test_mcp_auth_sampling.py"
+          ],
+          "value": "https://issuer.example/jwks"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/docs/schema/canon.schema.json"
+          ],
+          "value": "https://json-schema.org/draft/2020-12/schema"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/CHANGELOG.md"
+          ],
+          "value": "https://keepachangelog.com/en/1.1.0/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "myco-0.6.0.post1/docs/promotion/awesome_list_submissions.md",
+            "myco-0.6.0.post1/docs/promotion/mcp_registry_submission.md"
+          ],
+          "value": "https://modelcontextprotocol.io/blog"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/docs/primordia/glama_categories_drive_craft_2026-04-28.md"
+          ],
+          "value": "https://modelcontextprotocol.io/community`"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/src/myco/boundary/surface/manifest.yaml"
+          ],
+          "value": "https://modelcontextprotocol.io/specification/server"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/.github/workflows/release.yml"
+          ],
+          "value": "https://pypi.org/manage/project/myco/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "myco-0.6.0.post1/CONTRIBUTING.md"
+          ],
+          "value": "https://pypi.org/manage/project/myco/settings/publishing/"
+        }
+      ]
+    },
+    "package": "myco",
+    "package_slug": "myco",
+    "project_url": "https://pypi.org/project/myco/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T21:11:52.456191+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T21:12:32.050572+00:00",
+    "title": "Personal PyPI Supply Chain Scan: myco 0.6.0.post1",
+    "version": "0.6.0.post1",
+    "version_slug": "0.6.0.post1",
+    "_metadata_path": "reports/packages/myco/0.6.0.post1/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "unit3dwebup-0.0.20.tar.gz",
     "finding_count": 15,
     "model": "gpt-5.5",
