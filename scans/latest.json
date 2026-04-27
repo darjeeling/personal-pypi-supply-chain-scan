@@ -1,61 +1,23 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "tai_sql-0.6.8.tar.gz",
-  "finding_count": 157,
+  "distribution": "scse_toolkit-1.0.5.tar.gz",
+  "finding_count": 5,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "tai_sql-0.6.8/tai_sql/cli/commands/utils/github/auth.py",
-          "tai_sql-0.6.8/tai_sql/cli/commands/utils/github/client.py"
+          "scse_toolkit-1.0.5/toolkit/db/alembic/controller.py"
         ],
-        "value": "api.github.com"
+        "value": "alembic.sqlalchemy.org"
       },
       {
         "file_count": 1,
         "files": [
-          "tai_sql-0.6.8/LICENSE"
+          "scse_toolkit-1.0.5/toolkit/utils.py"
         ],
-        "value": "fsf.org"
-      },
-      {
-        "file_count": 7,
-        "files": [
-          "tai_sql-0.6.8/PKG-INFO",
-          "tai_sql-0.6.8/README.md",
-          "tai_sql-0.6.8/pyproject.toml",
-          "tai_sql-0.6.8/tai_sql/cli/commands/cmd_deploy/main.py",
-          "tai_sql-0.6.8/tai_sql/cli/commands/cmd_init/model.py",
-          "tai_sql-0.6.8/tai_sql/cli/commands/utils/github/auth.py",
-          "tai_sql-0.6.8/tai_sql/cli/commands/utils/github/client.py"
-        ],
-        "value": "github.com"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "tai_sql-0.6.8/PKG-INFO",
-          "tai_sql-0.6.8/README.md",
-          "tai_sql-0.6.8/tai_sql/generators/diagram/__init__.py"
-        ],
-        "value": "graphviz.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "tai_sql-0.6.8/LICENSE"
-        ],
-        "value": "www.gnu.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "tai_sql-0.6.8/PKG-INFO",
-          "tai_sql-0.6.8/pyproject.toml"
-        ],
-        "value": "www.triplealpha.in"
+        "value": "peps.python.org"
       }
     ],
     "raw_public_ips": [],
@@ -64,126 +26,29 @@
       {
         "file_count": 1,
         "files": [
-          "tai_sql-0.6.8/tai_sql/cli/commands/utils/github/client.py"
+          "scse_toolkit-1.0.5/toolkit/db/alembic/controller.py"
         ],
-        "value": "https://api.github.com"
+        "value": "https://alembic.sqlalchemy.org/en/latest/api/autogenerate.html#alembic.autogenerate.compare_metadata"
       },
       {
         "file_count": 1,
         "files": [
-          "tai_sql-0.6.8/tai_sql/cli/commands/utils/github/auth.py"
+          "scse_toolkit-1.0.5/toolkit/utils.py"
         ],
-        "value": "https://api.github.com/user"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "tai_sql-0.6.8/LICENSE"
-        ],
-        "value": "https://fsf.org/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "tai_sql-0.6.8/tai_sql/cli/commands/utils/github/auth.py"
-        ],
-        "value": "https://github.com/login/device/code"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "tai_sql-0.6.8/tai_sql/cli/commands/utils/github/auth.py"
-        ],
-        "value": "https://github.com/login/oauth/access_token"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "tai_sql-0.6.8/tai_sql/cli/commands/utils/github/client.py"
-        ],
-        "value": "https://github.com/owner/repo.git"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "tai_sql-0.6.8/PKG-INFO",
-          "tai_sql-0.6.8/README.md"
-        ],
-        "value": "https://github.com/pgvector/pgvector"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "tai_sql-0.6.8/PKG-INFO",
-          "tai_sql-0.6.8/pyproject.toml",
-          "tai_sql-0.6.8/tai_sql/cli/commands/cmd_init/model.py"
-        ],
-        "value": "https://github.com/triplealpha-innovation/tai-sql"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "tai_sql-0.6.8/PKG-INFO",
-          "tai_sql-0.6.8/pyproject.toml"
-        ],
-        "value": "https://github.com/triplealpha-innovation/tai-sql/issues"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "tai_sql-0.6.8/tai_sql/cli/commands/cmd_deploy/main.py"
-        ],
-        "value": "https://github.com/{repo_info["
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "tai_sql-0.6.8/PKG-INFO",
-          "tai_sql-0.6.8/README.md"
-        ],
-        "value": "https://graphviz.org/download/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "tai_sql-0.6.8/tai_sql/generators/diagram/__init__.py"
-        ],
-        "value": "https://graphviz.org/download/\\n\\n"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "tai_sql-0.6.8/LICENSE"
-        ],
-        "value": "https://www.gnu.org/licenses/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "tai_sql-0.6.8/LICENSE"
-        ],
-        "value": "https://www.gnu.org/licenses/why-not-lgpl.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "tai_sql-0.6.8/PKG-INFO",
-          "tai_sql-0.6.8/pyproject.toml"
-        ],
-        "value": "https://www.triplealpha.in/es/"
+        "value": "https://peps.python.org/pep-0612/#concatenating-keyword-parameters"
       }
     ]
   },
-  "package": "tai-sql",
-  "package_slug": "tai-sql",
-  "project_url": "https://pypi.org/project/tai-sql/",
+  "package": "scse-toolkit",
+  "package_slug": "scse-toolkit",
+  "project_url": "https://pypi.org/project/scse-toolkit/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T18:24:56.152861+00:00",
+  "published_at": "2026-04-27T18:29:27.390411+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T18:26:03.242355+00:00",
-  "title": "Personal PyPI Supply Chain Scan: tai-sql 0.6.8",
-  "version": "0.6.8",
-  "version_slug": "0.6.8",
-  "_metadata_path": "reports/packages/tai-sql/0.6.8/metadata.json"
+  "scanned_at": "2026-04-27T18:30:23.954366+00:00",
+  "title": "Personal PyPI Supply Chain Scan: scse-toolkit 1.0.5",
+  "version": "1.0.5",
+  "version_slug": "1.0.5",
+  "_metadata_path": "reports/packages/scse-toolkit/1.0.5/metadata.json"
 }
