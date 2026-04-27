@@ -1,6 +1,174 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "parsimony_bdp-0.4.0.tar.gz",
+    "finding_count": 1,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 3,
+          "files": [
+            "parsimony_bdp-0.4.0/PKG-INFO",
+            "parsimony_bdp-0.4.0/README.md",
+            "parsimony_bdp-0.4.0/parsimony_bdp/__init__.py"
+          ],
+          "value": "bpstat.bportugal.pt"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "parsimony_bdp-0.4.0/CHANGELOG.md",
+            "parsimony_bdp-0.4.0/PKG-INFO",
+            "parsimony_bdp-0.4.0/README.md",
+            "parsimony_bdp-0.4.0/pyproject.toml"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "parsimony_bdp-0.4.0/CHANGELOG.md"
+          ],
+          "value": "keepachangelog.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "parsimony_bdp-0.4.0/CHANGELOG.md"
+          ],
+          "value": "semver.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "parsimony_bdp-0.4.0/LICENSE"
+          ],
+          "value": "www.apache.org"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "parsimony_bdp-0.4.0/PKG-INFO",
+            "parsimony_bdp-0.4.0/README.md",
+            "parsimony_bdp-0.4.0/pyproject.toml"
+          ],
+          "value": "www.bportugal.pt"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "parsimony_bdp-0.4.0/LICENSE"
+          ],
+          "value": "http://www.apache.org/licenses/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "parsimony_bdp-0.4.0/LICENSE"
+          ],
+          "value": "http://www.apache.org/licenses/LICENSE-2.0"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "parsimony_bdp-0.4.0/PKG-INFO",
+            "parsimony_bdp-0.4.0/README.md",
+            "parsimony_bdp-0.4.0/parsimony_bdp/__init__.py"
+          ],
+          "value": "https://bpstat.bportugal.pt"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "parsimony_bdp-0.4.0/parsimony_bdp/__init__.py"
+          ],
+          "value": "https://bpstat.bportugal.pt/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "parsimony_bdp-0.4.0/PKG-INFO",
+            "parsimony_bdp-0.4.0/README.md"
+          ],
+          "value": "https://bpstat.bportugal.pt/data/docs"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "parsimony_bdp-0.4.0/parsimony_bdp/__init__.py"
+          ],
+          "value": "https://bpstat.bportugal.pt/data/v1"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "parsimony_bdp-0.4.0/parsimony_bdp/__init__.py"
+          ],
+          "value": "https://bpstat.bportugal.pt/data/v1``"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "parsimony_bdp-0.4.0/CHANGELOG.md",
+            "parsimony_bdp-0.4.0/PKG-INFO",
+            "parsimony_bdp-0.4.0/README.md",
+            "parsimony_bdp-0.4.0/pyproject.toml"
+          ],
+          "value": "https://github.com/ockham-sh/parsimony-connectors"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "parsimony_bdp-0.4.0/PKG-INFO",
+            "parsimony_bdp-0.4.0/pyproject.toml"
+          ],
+          "value": "https://github.com/ockham-sh/parsimony-connectors/issues"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "parsimony_bdp-0.4.0/CHANGELOG.md"
+          ],
+          "value": "https://keepachangelog.com/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "parsimony_bdp-0.4.0/CHANGELOG.md"
+          ],
+          "value": "https://semver.org/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "parsimony_bdp-0.4.0/PKG-INFO",
+            "parsimony_bdp-0.4.0/README.md",
+            "parsimony_bdp-0.4.0/pyproject.toml"
+          ],
+          "value": "https://www.bportugal.pt"
+        }
+      ]
+    },
+    "package": "parsimony-bdp",
+    "package_slug": "parsimony-bdp",
+    "project_url": "https://pypi.org/project/parsimony-bdp/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T16:57:53.866097+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T16:58:48.722108+00:00",
+    "title": "Personal PyPI Supply Chain Scan: parsimony-bdp 0.4.0",
+    "version": "0.4.0",
+    "version_slug": "0.4.0",
+    "_metadata_path": "reports/packages/parsimony-bdp/0.4.0/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "parsimony_bde-0.4.0.tar.gz",
     "finding_count": 1,
     "model": "gpt-5.5",
