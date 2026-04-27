@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal PyPI Supply Chain Scan: bb-integrations-library 3.9.1</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 960px; line-height: 1.55; padding: 0 1rem; color: #1f2933; }
+    a { color: #1f5fbf; }
+    code { background: #f4f4f4; padding: 0.1rem 0.25rem; }
+    h1, h2, h3 { line-height: 1.2; }
+    li { margin: 0.35rem 0; }
+    nav { margin-bottom: 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #e5e9ef; padding: 0.55rem 0.65rem; text-align: left; vertical-align: top; }
+    th { color: #52616f; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; }
+    .scan-groups { margin-top: 1.2rem; }
+    .scan-day { border-top: 1px solid #d8dee4; display: grid; gap: 1rem; grid-template-columns: 10rem minmax(0, 1fr); padding: 1.1rem 0; }
+    .scan-day-date { color: #1f2933; font-weight: 700; }
+    .scan-day-date span { color: #52616f; display: block; font-size: 0.9rem; font-weight: 500; margin-top: 0.2rem; }
+    .scan-day-table { overflow-x: auto; }
+    .risk { display: inline-block; min-width: 4.8rem; text-align: center; border-radius: 999px; padding: 0.15rem 0.45rem; font-size: 0.78rem; font-weight: 700; }
+    .risk-info, .risk-low { background: #dcfce7; color: #166534; }
+    .risk-medium, .risk-unknown { background: #fef3c7; color: #92400e; }
+    .risk-high, .risk-critical { background: #fee2e2; color: #991b1b; }
+    .index-note { color: #52616f; margin-top: -0.35rem; }
+    .version { color: #52616f; margin-left: 0.2rem; white-space: nowrap; }
+    @media (max-width: 720px) {
+      .scan-day { grid-template-columns: 1fr; }
+      th, td { padding: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+<nav><a href='../../../../'>Index</a></nav><h1>Personal PyPI Supply Chain Scan: bb-integrations-library 3.9.1</h1>
+
+<ul>
+<li>Package: bb-integrations-library</li>
+<li>Version: 3.9.1</li>
+<li>Project URL: https://pypi.org/project/bb-integrations-library/</li>
+<li>Distribution: bb_integrations_library-3.9.1.tar.gz</li>
+<li>Package published at: 2026-04-27T19:56:55.807709+00:00</li>
+<li>Scan published at: 2026-04-27T19:57:41.051135+00:00</li>
+<li>Language: en</li>
+<li>Model: gpt-5.5</li>
+<li>Prompt: malicious-supply-chain-review-v2 ([source](../../../../docs/prompts/malicious-supply-chain-review-v2.md))</li>
+<li>Disclaimer: This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</li>
+</ul>
+
+<h2>Deterministic Network Indicators</h2>
+
+<h3>Suspicious Endpoints</h3>
+<ul>
+<li>oasis-200401-wss-wssecurity-secext-1.0.xsd (2 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/client.py, bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/model.py)</li>
+<li>oasis-200401-wss-wssecurity-utility-1.0.xsd (2 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/client.py, bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/model.py)</li>
+</ul>
+
+<h3>Raw Public IPs</h3>
+
+<p>None</p>
+
+<h3>URLs</h3>
+<ul>
+<li>http://api.telapoint.com/TelaFuel/v2 (2 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/client.py, bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/model.py)</li>
+<li>http://api.telapoint.com/TelaFuel/v2/ITelaFuelService/CheckConnection (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/client.py)</li>
+<li>http://api.telapoint.com/TelaFuel/v2/ITelaFuelService/OrderAdd (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/client.py)</li>
+<li>http://api.telapoint.com/TelaFuel/v2/ITelaFuelService/OrderGetByOrderNumber (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/client.py)</li>
+<li>http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/model.py)</li>
+<li>http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd (2 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/client.py, bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/model.py)</li>
+<li>http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd (2 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/client.py, bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/model.py)</li>
+<li>http://keyvu.com/schemas/carrierloads/v6 (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/keyvu/model.py)</li>
+<li>http://macropoint-lite.com/xml/1.0 (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/macropoint/model.py)</li>
+<li>http://pcmiler.alk.com/APIs/v1.0 (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/pc_miler/client.py)</li>
+<li>http://schemas.datacontract.org/2004/07/TelaPoint.Api.TelaFuel.Models (2 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/client.py, bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/model.py)</li>
+<li>http://schemas.xmlsoap.org/soap/envelope/ (2 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/client.py, bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/model.py)</li>
+<li>http://www.w3.org/2001/XMLSchema (2 files: bb_integrations_library-3.9.1/bb_integrations_lib/models/fuelquest/__init__.py, bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/keyvu/model.py)</li>
+<li>http://www.w3.org/2001/XMLSchema-instance (4 files: bb_integrations_library-3.9.1/bb_integrations_lib/models/fuelquest/__init__.py, bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/keyvu/model.py, bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/client.py, bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/model.py)</li>
+<li>https://api.dtn.com/fuelsuite/allocationtracker/ (2 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/dtn/client.py, bb_integrations_library-3.9.1/bb_integrations_lib/secrets/factory.py)</li>
+<li>https://api.samsara.com (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/secrets/credential_models.py)</li>
+<li>https://api.telapoint.com/APIv2/TelaFuelService.svc (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/client.py)</li>
+<li>https://api.trimblemaps.com/places/v1/authenticate (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/pc_miler/web_services_apis.py)</li>
+<li>https://api.trimblemaps.com/places/v1/place (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/pc_miler/web_services_apis.py)</li>
+<li>https://api.trimblemaps.com/places/v1/place/updatedPlaces (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/pc_miler/web_services_apis.py)</li>
+<li>https://api.trimblemaps.com/places/v1/place/{id (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/pc_miler/web_services_apis.py)</li>
+<li>https://api.wr-cloud.com (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/warren_rogers/client.py)</li>
+<li>https://auth.api.wr-cloud.com/oauth2/token (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/warren_rogers/client.py)</li>
+<li>https://cargase.aeroenergy.com/cargasenergy/API (2 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/cargas/client.py, bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/cargas/protocol.py)</li>
+<li>https://github.com/gravitate-energy/bb_file_storage.git (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/storage/README.md)</li>
+<li>https://kachoolie.com/dooleys.php (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/kachoolie/client.py)</li>
+<li>https://macropoint-lite.com/api/1.0/tms/data/location (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/macropoint/client.py)</li>
+<li>https://oauth2.googleapis.com/token (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/imap/client.py)</li>
+<li>https://pcmiler.alk.com/ (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/pc_miler/client.py)</li>
+<li>https://petrocorpapi.quiktrip.com (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/quicktrip/client.py)</li>
+<li>... 3 more</li>
+</ul>
+
+<h3>Domains</h3>
+<ul>
+<li>api.dtn.com (2 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/dtn/client.py, bb_integrations_library-3.9.1/bb_integrations_lib/secrets/factory.py)</li>
+<li>api.samsara.com (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/secrets/credential_models.py)</li>
+<li>api.telapoint.com (2 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/client.py, bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/model.py)</li>
+<li>api.trimblemaps.com (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/pc_miler/web_services_apis.py)</li>
+<li>api.wr-cloud.com (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/warren_rogers/client.py)</li>
+<li>auth.api.wr-cloud.com (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/warren_rogers/client.py)</li>
+<li>cargase.aeroenergy.com (2 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/cargas/client.py, bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/cargas/protocol.py)</li>
+<li>docs.oasis-open.org (2 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/client.py, bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/model.py)</li>
+<li>github.com (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/storage/README.md)</li>
+<li>google.cloud (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/pipelines/steps/exporting/update_exported_orders_table_step.py)</li>
+<li>kachoolie.com (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/kachoolie/client.py)</li>
+<li>keyvu.com (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/keyvu/model.py)</li>
+<li>macropoint-lite.com (2 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/macropoint/client.py, bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/macropoint/model.py)</li>
+<li>oasis-200401-wss-wssecurity-secext-1.0.xsd (2 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/client.py, bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/model.py)</li>
+<li>oasis-200401-wss-wssecurity-utility-1.0.xsd (2 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/client.py, bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/model.py)</li>
+<li>oauth2.googleapis.com (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/imap/client.py)</li>
+<li>pcmiler.alk.com (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/pc_miler/client.py)</li>
+<li>petrocorpapi.quiktrip.com (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/quicktrip/client.py)</li>
+<li>raw.items (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/gravitate/sd_adapter.py)</li>
+<li>rita.gravitate.energy (3 files: bb_integrations_library-3.9.1/bb_integrations_lib/gravitate/rita_api.py, bb_integrations_library-3.9.1/bb_integrations_lib/gravitate/testing/builder.py, bb_integrations_library-3.9.1/bb_integrations_lib/secrets/credential_models.py)</li>
+<li>schemas.datacontract.org (2 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/client.py, bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/model.py)</li>
+<li>schemas.xmlsoap.org (2 files: bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/client.py, bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/model.py)</li>
+<li>www.googleapis.com (1 files: bb_integrations_library-3.9.1/bb_integrations_lib/secrets/factory.py)</li>
+<li>www.w3.org (4 files: bb_integrations_library-3.9.1/bb_integrations_lib/models/fuelquest/__init__.py, bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/keyvu/model.py, bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/client.py, bb_integrations_library-3.9.1/bb_integrations_lib/provider/api/telapoint/model.py)</li>
+</ul>
+
+<h2>Verdict</h2>
+
+<p>No confirmed malicious supply-chain compromise indicators. Overall risk: info.</p>
+
+<h2>Malicious Supply-Chain Indicators</h2>
+
+<p>No confirmed malicious supply-chain indicators.</p>
+
+<h2>Automatic Execution Paths</h2>
+
+<p>No evidence was found in the provided extracted text for automatic execution during installation or interpreter startup.</p>
+
+<ul>
+<li>No evidence of .pth, sitecustomize.py, or usercustomize.py.</li>
+<li>No import-time malicious side effects, exec/eval loader, or downloader stub were identified in the provided snippets.</li>
+<li>bb_integrations_lib/storage/setup.py and pyproject.toml are mentioned in the manifest/pre-scan, but their contents were not provided, so build hooks or install-time behavior could not be verified.</li>
+</ul>
+
+<h2>Theft / Exfiltration / Persistence / Lateral Movement / Obfuscation</h2>
+
+<p>No evidence of malware-like supply-chain behavior was identified.</p>
+
+<ul>
+<li>get_ppk(path=&quot;secrets/id_rsa&quot;) in provider/ftp/interface.py appears to load a specific key for SFTP RSA authentication. There is no evidence tying it to broad SSH key, cloud credential, or environment-variable harvesting, nor to exfiltration.</li>
+<li>Base64 encoding/decoding in models/rita/email.py appears to handle email attachment data and is not linked to an obfuscated loader or execution path.</li>
+<li>The API/FTP/IMAP/HTTP calls appear consistent with the package’s integration-library purpose. No pattern was found of harvesting developer/CI credentials and sending them to attacker-controlled infrastructure.</li>
+<li>ZIP-related references appear to be file parsing/error handling (BadZipFile) or extension handling, not staging of harvested secrets into archives.</li>
+<li>No evidence was found for cron/systemd/launch agent/shell profile persistence, Kubernetes/CI/cloud lateral movement, persistence installation, or stealth loaders in the provided text.</li>
+</ul>
+
+<h2>Distribution Integrity Anomalies</h2>
+
+<p>No distribution integrity anomaly was confirmed from the provided text.</p>
+
+<ul>
+<li>No evidence was provided for hidden payloads, unexplained native binaries, wheel/sdist mismatch, sudden dependency insertion, or typosquatting.</li>
+<li>Pre-scan “suspicious domain” hits appear to be SOAP/XML namespaces or expected API domains, not convincing C2 or drop-site evidence.</li>
+</ul>
+
+<h2>Additional Verification Needed</h2>
+
+<ul>
+<li>Only selected text from 277 total files was provided, so the full package was not reviewed.</li>
+<li>pyproject.toml, setup.py, setup.cfg, wheel .dist-info/RECORD, build backend configuration, entry points, and dependency changes should be inspected.</li>
+<li>If both sdist and wheel artifacts exist, their file lists and code contents should be compared for mismatch.</li>
+</ul>
+
+<p>---</p>
+
+<p>Prompt source: docs/prompts/malicious-supply-chain-review-v2.md</p>
+
+<p>This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</p>
+
+</body>
+</html>
