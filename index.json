@@ -1,6 +1,1072 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "cimsparql-9.13.0.tar.gz",
+    "finding_count": 21,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/test_local_client.py"
+          ],
+          "value": "base.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/test_type_mapper.py"
+          ],
+          "value": "c"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/src/cimsparql/adaptions.py"
+          ],
+          "value": "cim.example.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/src/cimsparql/adaptions.py"
+          ],
+          "value": "cimsparql"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "cimsparql-9.13.0/PKG-INFO",
+            "cimsparql-9.13.0/README.md",
+            "cimsparql-9.13.0/docs/README.md",
+            "cimsparql-9.13.0/src/cimsparql.egg-info/PKG-INFO"
+          ],
+          "value": "codecov.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/.github/workflows/codeql-analysis.yml"
+          ],
+          "value": "docs.github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/docs/conf.py"
+          ],
+          "value": "docs.python.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/.github/renovate.json"
+          ],
+          "value": "docs.renovatebot.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/docs/conf.py"
+          ],
+          "value": "docs.scipy.org"
+        },
+        {
+          "file_count": 6,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_1D_BE_SSH_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_1D_BE_TP_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_DL_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_DY_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_EQ_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_GL_3.xml"
+          ],
+          "value": "elia.be"
+        },
+        {
+          "file_count": 46,
+          "files": [
+            "cimsparql-9.13.0/src/cimsparql/adaptions.py",
+            "cimsparql-9.13.0/src/cimsparql/sparql/ac_lines.sparql",
+            "cimsparql-9.13.0/src/cimsparql/sparql/base_voltage.sparql",
+            "cimsparql-9.13.0/src/cimsparql/sparql/branch_node_withdraw.sparql",
+            "cimsparql-9.13.0/src/cimsparql/sparql/bus.sparql",
+            "cimsparql-9.13.0/src/cimsparql/sparql/connectivity_nodes.sparql",
+            "cimsparql-9.13.0/src/cimsparql/sparql/converters.sparql",
+            "cimsparql-9.13.0/src/cimsparql/sparql/dc_active_power_flow.sparql"
+          ],
+          "value": "entsoe.eu"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/test_graphdb.py"
+          ],
+          "value": "eq"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/t_utils/entsoe_models.py"
+          ],
+          "value": "eq-model"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/test_xml_adaptor.py"
+          ],
+          "value": "eq.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cimsparql-9.13.0/tests/test_cimmodel.py",
+            "cimsparql-9.13.0/tests/test_graphdb.py"
+          ],
+          "value": "fixed-result-endpoint"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "cimsparql-9.13.0/tests/data/small/SmallGridTestConfiguration_BC_GL_v3.0.0.xml",
+            "cimsparql-9.13.0/tests/data/small/SmallGridTestConfiguration_BC_SSH_v3.0.0.xml",
+            "cimsparql-9.13.0/tests/data/small/SmallGridTestConfiguration_BC_SV_v3.0.0.xml",
+            "cimsparql-9.13.0/tests/data/small/SmallGridTestConfiguration_BC_TP_v3.0.0.xml"
+          ],
+          "value": "gb"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "cimsparql-9.13.0/.pre-commit-config.yaml",
+            "cimsparql-9.13.0/PKG-INFO",
+            "cimsparql-9.13.0/README.md",
+            "cimsparql-9.13.0/docs/README.md",
+            "cimsparql-9.13.0/src/cimsparql.egg-info/PKG-INFO"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "cimsparql-9.13.0/PKG-INFO",
+            "cimsparql-9.13.0/README.md",
+            "cimsparql-9.13.0/docs/README.md",
+            "cimsparql-9.13.0/src/cimsparql.egg-info/PKG-INFO"
+          ],
+          "value": "graphdb.ontotext.com"
+        },
+        {
+          "file_count": 72,
+          "files": [
+            "cimsparql-9.13.0/PKG-INFO",
+            "cimsparql-9.13.0/README.md",
+            "cimsparql-9.13.0/data/sv.xml",
+            "cimsparql-9.13.0/data/tp.xml",
+            "cimsparql-9.13.0/docs/README.md",
+            "cimsparql-9.13.0/src/cimsparql.egg-info/PKG-INFO",
+            "cimsparql-9.13.0/src/cimsparql/sparql/ac_lines.sparql",
+            "cimsparql-9.13.0/src/cimsparql/sparql/add_mrid.sparql"
+          ],
+          "value": "iec.ch"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "cimsparql-9.13.0/PKG-INFO",
+            "cimsparql-9.13.0/README.md",
+            "cimsparql-9.13.0/docs/README.md",
+            "cimsparql-9.13.0/src/cimsparql.egg-info/PKG-INFO"
+          ],
+          "value": "img.shields.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/src/pkg_data/blazegraph_repo_config.xml"
+          ],
+          "value": "java.sun.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cimsparql-9.13.0/tests/t_utils/entsoe_models.py",
+            "cimsparql-9.13.0/tests/test_rdf4j.py"
+          ],
+          "value": "mygraph.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/test_rdf4j.py"
+          ],
+          "value": "mynamepace.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/test_local_client.py"
+          ],
+          "value": "namespace1"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/test_local_client.py"
+          ],
+          "value": "nl-eq-graph"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/src/cimsparql/sparql/synchronous_machines.sparql"
+          ],
+          "value": "no-gen-unit"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/test_type_mapper.py"
+          ],
+          "value": "non-existent"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/src/cimsparql/sparql/transformer_branches.sparql"
+          ],
+          "value": "non-existing-tap-changer"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "cimsparql-9.13.0/PKG-INFO",
+            "cimsparql-9.13.0/README.md",
+            "cimsparql-9.13.0/docs/README.md",
+            "cimsparql-9.13.0/src/cimsparql.egg-info/PKG-INFO"
+          ],
+          "value": "opensource.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/docs/conf.py"
+          ],
+          "value": "pandas.pydata.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/src/pkg_data/namespaces.json"
+          ],
+          "value": "purl.org"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "cimsparql-9.13.0/PKG-INFO",
+            "cimsparql-9.13.0/README.md",
+            "cimsparql-9.13.0/docs/README.md",
+            "cimsparql-9.13.0/src/cimsparql.egg-info/PKG-INFO"
+          ],
+          "value": "pypi.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/src/cimsparql/graphdb.py"
+          ],
+          "value": "rdf4j.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/test_cimmodel.py"
+          ],
+          "value": "some-server"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/test_retry_cb.py"
+          ],
+          "value": "some-sparql-endpoint"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_1D_NL_SSH_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_1D_NL_TP_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_NL_DY_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_NL_EQ_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_NL_GL_3.xml"
+          ],
+          "value": "tennet.eu"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/.github/workflows/deploy.yml"
+          ],
+          "value": "test.pypi.org"
+        },
+        {
+          "file_count": 10,
+          "files": [
+            "cimsparql-9.13.0/PKG-INFO",
+            "cimsparql-9.13.0/README.md",
+            "cimsparql-9.13.0/docs/README.md",
+            "cimsparql-9.13.0/src/cimsparql.egg-info/PKG-INFO",
+            "cimsparql-9.13.0/src/cimsparql/sparql/converter_hvdc_bidzones.sparql",
+            "cimsparql-9.13.0/src/cimsparql/sparql/converters.sparql",
+            "cimsparql-9.13.0/src/cimsparql/sparql/hvdc.sparql",
+            "cimsparql-9.13.0/src/cimsparql/sparql/ras_equipment.sparql"
+          ],
+          "value": "www.alstom.com"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "cimsparql-9.13.0/PKG-INFO",
+            "cimsparql-9.13.0/README.md",
+            "cimsparql-9.13.0/docs/README.md",
+            "cimsparql-9.13.0/src/cimsparql.egg-info/PKG-INFO"
+          ],
+          "value": "www.geonames.org"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cimsparql-9.13.0/src/cimsparql/adaptions.py",
+            "cimsparql-9.13.0/src/cimsparql/sparql/synchronous_machines.sparql",
+            "cimsparql-9.13.0/src/pkg_data/native_store_config_template.ttl"
+          ],
+          "value": "www.openrdf.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/docs/conf.py"
+          ],
+          "value": "www.sphinx-doc.org"
+        },
+        {
+          "file_count": 32,
+          "files": [
+            "cimsparql-9.13.0/PKG-INFO",
+            "cimsparql-9.13.0/README.md",
+            "cimsparql-9.13.0/docs/README.md",
+            "cimsparql-9.13.0/src/cimsparql.egg-info/PKG-INFO",
+            "cimsparql-9.13.0/src/cimsparql/adaptions.py",
+            "cimsparql-9.13.0/src/cimsparql/sparql/ac_lines.sparql",
+            "cimsparql-9.13.0/src/cimsparql/sparql/borders.sparql",
+            "cimsparql-9.13.0/src/cimsparql/sparql/branch_node_withdraw.sparql"
+          ],
+          "value": "www.statnett.no"
+        },
+        {
+          "file_count": 46,
+          "files": [
+            "cimsparql-9.13.0/PKG-INFO",
+            "cimsparql-9.13.0/README.md",
+            "cimsparql-9.13.0/data/sv.xml",
+            "cimsparql-9.13.0/data/tp.xml",
+            "cimsparql-9.13.0/docs/README.md",
+            "cimsparql-9.13.0/src/cimsparql.egg-info/PKG-INFO",
+            "cimsparql-9.13.0/src/cimsparql/adaptions.py",
+            "cimsparql-9.13.0/src/cimsparql/sparql/ac_lines.sparql"
+          ],
+          "value": "www.w3.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/test_type_mapper.py"
+          ],
+          "value": "x"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cimsparql-9.13.0/src/pkg_data/namespaces.json",
+            "cimsparql-9.13.0/tests/data/artist.ttl"
+          ],
+          "value": "xmlns.com"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/t_utils/entsoe_models.py"
+          ],
+          "value": "http://EQ-model"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "cimsparql-9.13.0/tests/data/small/SmallGridTestConfiguration_BC_GL_v3.0.0.xml",
+            "cimsparql-9.13.0/tests/data/small/SmallGridTestConfiguration_BC_SSH_v3.0.0.xml",
+            "cimsparql-9.13.0/tests/data/small/SmallGridTestConfiguration_BC_SV_v3.0.0.xml",
+            "cimsparql-9.13.0/tests/data/small/SmallGridTestConfiguration_BC_TP_v3.0.0.xml"
+          ],
+          "value": "http://GB/Planning/ENTSOE/2"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/test_local_client.py"
+          ],
+          "value": "http://base.com/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/test_type_mapper.py"
+          ],
+          "value": "http://c#Amount"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/test_type_mapper.py"
+          ],
+          "value": "http://c#Degrees"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/test_type_mapper.py"
+          ],
+          "value": "http://c#Status"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/src/cimsparql/adaptions.py"
+          ],
+          "value": "http://cim.example.org#"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/src/cimsparql/adaptions.py"
+          ],
+          "value": "http://cimsparql/xml-adpator/SV"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/src/cimsparql/adaptions.py"
+          ],
+          "value": "http://cimsparql/xml-adpator/SV-injection"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/src/cimsparql/adaptions.py"
+          ],
+          "value": "http://cimsparql/xml-adpator/{profile"
+        },
+        {
+          "file_count": 6,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_1D_BE_SSH_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_1D_BE_TP_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_DL_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_DY_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_EQ_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_GL_3.xml"
+          ],
+          "value": "http://elia.be/CAS2.0/MicroGridTestConfiguration"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_1D_ENTSO-E_SV_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_ENTSO-E_DL_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_ENTSO-E_EQ_BD_2.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_ENTSO-E_TP_BD_2.xml"
+          ],
+          "value": "http://entsoe.eu/CAS2.0/MicroGridTestConfiguration"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_DL_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_ENTSO-E_DL_3.xml"
+          ],
+          "value": "http://entsoe.eu/CIM/DiagramLayout/3/1"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_DY_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_NL_DY_3.xml"
+          ],
+          "value": "http://entsoe.eu/CIM/Dynamics/3/1"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_ENTSO-E_EQ_BD_2.xml"
+          ],
+          "value": "http://entsoe.eu/CIM/EquipmentBoundary/3/1"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_ENTSO-E_EQ_BD_2.xml"
+          ],
+          "value": "http://entsoe.eu/CIM/EquipmentBoundaryOperation/3/1"
+        },
+        {
+          "file_count": 24,
+          "files": [
+            "cimsparql-9.13.0/src/cimsparql/adaptions.py",
+            "cimsparql-9.13.0/src/cimsparql/sparql/ac_lines.sparql",
+            "cimsparql-9.13.0/src/cimsparql/sparql/base_voltage.sparql",
+            "cimsparql-9.13.0/src/cimsparql/sparql/branch_node_withdraw.sparql",
+            "cimsparql-9.13.0/src/cimsparql/sparql/bus.sparql",
+            "cimsparql-9.13.0/src/cimsparql/sparql/converters.sparql",
+            "cimsparql-9.13.0/src/cimsparql/sparql/dc_active_power_flow.sparql",
+            "cimsparql-9.13.0/src/cimsparql/sparql/exchange.sparql"
+          ],
+          "value": "http://entsoe.eu/CIM/EquipmentCore/3/1"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_EQ_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_NL_EQ_3.xml"
+          ],
+          "value": "http://entsoe.eu/CIM/EquipmentOperation/3/1"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_EQ_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_NL_EQ_3.xml"
+          ],
+          "value": "http://entsoe.eu/CIM/EquipmentShortCircuit/3/1"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_GL_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_NL_GL_3.xml",
+            "cimsparql-9.13.0/tests/data/small/SmallGridTestConfiguration_BC_GL_v3.0.0.xml"
+          ],
+          "value": "http://entsoe.eu/CIM/GeographicalLocation/2/1"
+        },
+        {
+          "file_count": 21,
+          "files": [
+            "cimsparql-9.13.0/src/pkg_data/namespaces.json",
+            "cimsparql-9.13.0/tests/data/demo.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_1D_BE_SSH_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_1D_BE_TP_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_1D_ENTSO-E_SV_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_1D_NL_SSH_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_1D_NL_TP_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_DL_3.xml"
+          ],
+          "value": "http://entsoe.eu/CIM/SchemaExtension/3/1#"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_EQ_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_NL_EQ_3.xml"
+          ],
+          "value": "http://entsoe.eu/CIM/SchemaExtension/3/1#LimitTypeKind.patl"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_EQ_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_NL_EQ_3.xml"
+          ],
+          "value": "http://entsoe.eu/CIM/SchemaExtension/3/1#LimitTypeKind.patlt"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_EQ_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_NL_EQ_3.xml"
+          ],
+          "value": "http://entsoe.eu/CIM/SchemaExtension/3/1#LimitTypeKind.tatl"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_EQ_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_NL_EQ_3.xml"
+          ],
+          "value": "http://entsoe.eu/CIM/SchemaExtension/3/1#LimitTypeKind.tc"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_EQ_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_NL_EQ_3.xml"
+          ],
+          "value": "http://entsoe.eu/CIM/SchemaExtension/3/1#LimitTypeKind.tct"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_1D_ENTSO-E_SV_3.xml",
+            "cimsparql-9.13.0/tests/data/small/SmallGridTestConfiguration_BC_SV_v3.0.0.xml",
+            "cimsparql-9.13.0/tests/t_utils/entsoe_models.py",
+            "cimsparql-9.13.0/tests/test_micro_t1_nl.py"
+          ],
+          "value": "http://entsoe.eu/CIM/StateVariables/4/1"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_1D_BE_SSH_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_1D_NL_SSH_3.xml",
+            "cimsparql-9.13.0/tests/data/small/SmallGridTestConfiguration_BC_SSH_v3.0.0.xml",
+            "cimsparql-9.13.0/tests/t_utils/entsoe_models.py",
+            "cimsparql-9.13.0/tests/test_micro_t1_nl.py"
+          ],
+          "value": "http://entsoe.eu/CIM/SteadyStateHypothesis/1/1"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_1D_BE_TP_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_1D_NL_TP_3.xml",
+            "cimsparql-9.13.0/tests/data/small/SmallGridTestConfiguration_BC_TP_v3.0.0.xml",
+            "cimsparql-9.13.0/tests/t_utils/entsoe_models.py",
+            "cimsparql-9.13.0/tests/test_micro_t1_nl.py"
+          ],
+          "value": "http://entsoe.eu/CIM/Topology/4/1"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_ENTSO-E_TP_BD_2.xml"
+          ],
+          "value": "http://entsoe.eu/CIM/TopologyBoundary/3/1"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "cimsparql-9.13.0/src/cimsparql/sparql/bus.sparql",
+            "cimsparql-9.13.0/src/cimsparql/sparql/connectivity_nodes.sparql",
+            "cimsparql-9.13.0/src/cimsparql/sparql/transformer_center_nodes.sparql",
+            "cimsparql-9.13.0/src/pkg_data/namespaces.json"
+          ],
+          "value": "http://entsoe.eu/Secretariat/ProfileExtension/1#"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/test_graphdb.py"
+          ],
+          "value": "http://eq"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/test_xml_adaptor.py"
+          ],
+          "value": "http://eq.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/test_local_client.py"
+          ],
+          "value": "http://example.com/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/data/artist.ttl"
+          ],
+          "value": "http://example.org/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cimsparql-9.13.0/tests/test_cimmodel.py",
+            "cimsparql-9.13.0/tests/test_graphdb.py"
+          ],
+          "value": "http://fixed-result-endpoint"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cimsparql-9.13.0/src/cimsparql/sparql/type_mapper.sparql",
+            "cimsparql-9.13.0/src/pkg_data/namespaces.json"
+          ],
+          "value": "http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#"
+        },
+        {
+          "file_count": 6,
+          "files": [
+            "cimsparql-9.13.0/PKG-INFO",
+            "cimsparql-9.13.0/README.md",
+            "cimsparql-9.13.0/data/sv.xml",
+            "cimsparql-9.13.0/data/tp.xml",
+            "cimsparql-9.13.0/docs/README.md",
+            "cimsparql-9.13.0/src/cimsparql.egg-info/PKG-INFO"
+          ],
+          "value": "http://iec.ch/TC57/2010/CIM-schema-cim15#"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/data/demo.xml"
+          ],
+          "value": "http://iec.ch/TC57/2013/CIM-schema-cim16"
+        },
+        {
+          "file_count": 64,
+          "files": [
+            "cimsparql-9.13.0/src/cimsparql/sparql/ac_lines.sparql",
+            "cimsparql-9.13.0/src/cimsparql/sparql/add_mrid.sparql",
+            "cimsparql-9.13.0/src/cimsparql/sparql/associated_switches.sparql",
+            "cimsparql-9.13.0/src/cimsparql/sparql/base_voltage.sparql",
+            "cimsparql-9.13.0/src/cimsparql/sparql/borders.sparql",
+            "cimsparql-9.13.0/src/cimsparql/sparql/branch_node_withdraw.sparql",
+            "cimsparql-9.13.0/src/cimsparql/sparql/bus.sparql",
+            "cimsparql-9.13.0/src/cimsparql/sparql/busbar_section.sparql"
+          ],
+          "value": "http://iec.ch/TC57/2013/CIM-schema-cim16#"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_EQ_3.xml"
+          ],
+          "value": "http://iec.ch/TC57/2013/CIM-schema-cim16#CurveStyle.constantYValue"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_NL_DY_3.xml"
+          ],
+          "value": "http://iec.ch/TC57/2013/CIM-schema-cim16#ExcIEEEST1AUELselectorKind.ignoreUELsignal"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_NL_EQ_3.xml"
+          ],
+          "value": "http://iec.ch/TC57/2013/CIM-schema-cim16#FuelType.oil"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_EQ_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_NL_EQ_3.xml"
+          ],
+          "value": "http://iec.ch/TC57/2013/CIM-schema-cim16#GeneratorControlSource.offAGC"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_DY_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_NL_DY_3.xml"
+          ],
+          "value": "http://iec.ch/TC57/2013/CIM-schema-cim16#InputSignalKind.generatorElectricalPower"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_DY_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_NL_DY_3.xml"
+          ],
+          "value": "http://iec.ch/TC57/2013/CIM-schema-cim16#InputSignalKind.rotorSpeed"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_EQ_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_NL_EQ_3.xml"
+          ],
+          "value": "http://iec.ch/TC57/2013/CIM-schema-cim16#OperationalLimitDirectionKind.absoluteValue"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_DL_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_ENTSO-E_DL_3.xml"
+          ],
+          "value": "http://iec.ch/TC57/2013/CIM-schema-cim16#OrientationKind.negative"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_EQ_3.xml"
+          ],
+          "value": "http://iec.ch/TC57/2013/CIM-schema-cim16#PetersenCoilModeKind.fixed"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_EQ_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_NL_EQ_3.xml"
+          ],
+          "value": "http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABC"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_EQ_3.xml"
+          ],
+          "value": "http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_EQ_3.xml"
+          ],
+          "value": "http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.N"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_EQ_3.xml"
+          ],
+          "value": "http://iec.ch/TC57/2013/CIM-schema-cim16#RegulatingControlModeKind.activePower"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_EQ_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_NL_EQ_3.xml"
+          ],
+          "value": "http://iec.ch/TC57/2013/CIM-schema-cim16#RegulatingControlModeKind.voltage"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_DY_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_NL_DY_3.xml"
+          ],
+          "value": "http://iec.ch/TC57/2013/CIM-schema-cim16#RotorKind.roundRotor"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_NL_DY_3.xml"
+          ],
+          "value": "http://iec.ch/TC57/2013/CIM-schema-cim16#RotorKind.salientPole"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_NL_EQ_3.xml"
+          ],
+          "value": "http://iec.ch/TC57/2013/CIM-schema-cim16#ShortCircuitRotorKind.salientPole1"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_EQ_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_NL_EQ_3.xml"
+          ],
+          "value": "http://iec.ch/TC57/2013/CIM-schema-cim16#ShortCircuitRotorKind.turboSeries1"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_DY_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_NL_DY_3.xml"
+          ],
+          "value": "http://iec.ch/TC57/2013/CIM-schema-cim16#StaticLoadModelKind.constantZ"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_EQ_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_NL_EQ_3.xml"
+          ],
+          "value": "http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineKind.generator"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_DY_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_NL_DY_3.xml"
+          ],
+          "value": "http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineModelKind.subtransient"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_1D_BE_SSH_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_1D_NL_SSH_3.xml",
+            "cimsparql-9.13.0/tests/data/small/SmallGridTestConfiguration_BC_SSH_v3.0.0.xml"
+          ],
+          "value": "http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.generator"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_EQ_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_NL_EQ_3.xml"
+          ],
+          "value": "http://iec.ch/TC57/2013/CIM-schema-cim16#TransformerControlMode.volt"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_1D_BE_SSH_3.xml"
+          ],
+          "value": "http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.M"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_1D_BE_SSH_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_1D_NL_SSH_3.xml",
+            "cimsparql-9.13.0/tests/data/small/SmallGridTestConfiguration_BC_SSH_v3.0.0.xml"
+          ],
+          "value": "http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_EQ_3.xml"
+          ],
+          "value": "http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.VAr"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_EQ_3.xml"
+          ],
+          "value": "http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.W"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_EQ_3.xml"
+          ],
+          "value": "http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_BE_EQ_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_NL_EQ_3.xml"
+          ],
+          "value": "http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Yn"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/data/sv.xml"
+          ],
+          "value": "http://iec.ch/TC57/61970-456/StateVariables/2"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/data/tp.xml"
+          ],
+          "value": "http://iec.ch/TC57/61970-456/Topology/2"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cimsparql-9.13.0/data/sv.xml",
+            "cimsparql-9.13.0/data/tp.xml"
+          ],
+          "value": "http://iec.ch/TC57/61970-552/ModelDefinition/1#"
+        },
+        {
+          "file_count": 22,
+          "files": [
+            "cimsparql-9.13.0/src/cimsparql/sparql/full_model.sparql",
+            "cimsparql-9.13.0/src/pkg_data/namespaces.json",
+            "cimsparql-9.13.0/tests/data/demo.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_1D_BE_SSH_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_1D_BE_TP_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_1D_ENTSO-E_SV_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_1D_NL_SSH_3.xml",
+            "cimsparql-9.13.0/tests/data/micro/20171002T0930Z_1D_NL_TP_3.xml"
+          ],
+          "value": "http://iec.ch/TC57/61970-552/ModelDescription/1#"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/src/pkg_data/blazegraph_repo_config.xml"
+          ],
+          "value": "http://java.sun.com/dtd/properties.dtd"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cimsparql-9.13.0/tests/t_utils/entsoe_models.py",
+            "cimsparql-9.13.0/tests/test_rdf4j.py"
+          ],
+          "value": "http://mygraph.com/demo/1/1"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/test_rdf4j.py"
+          ],
+          "value": "http://mynamepace.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/test_local_client.py"
+          ],
+          "value": "http://namespace1"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/test_local_client.py"
+          ],
+          "value": "http://nl-eq-graph"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/src/cimsparql/sparql/synchronous_machines.sparql"
+          ],
+          "value": "http://no-gen-unit"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cimsparql-9.13.0/tests/test_type_mapper.py"
+          ],
+          "value": "http://non-existent#type"
+        }
+      ]
+    },
+    "package": "cimsparql",
+    "package_slug": "cimsparql",
+    "project_url": "https://pypi.org/project/cimsparql/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T12:25:38.456716+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T12:27:21.100739+00:00",
+    "title": "Personal PyPI Supply Chain Scan: cimsparql 9.13.0",
+    "version": "9.13.0",
+    "version_slug": "9.13.0",
+    "_metadata_path": "reports/packages/cimsparql/9.13.0/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "ptresheaders-0.0.27.tar.gz",
     "finding_count": 18,
     "model": "gpt-5.5",
