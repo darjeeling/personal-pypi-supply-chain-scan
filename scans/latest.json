@@ -1,213 +1,711 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "nsj_integracao_api_client-2.2502.0.52.tar.gz",
-  "finding_count": 12,
+  "distribution": "hyperloop-0.44.1.tar.gz",
+  "finding_count": 2366,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
         "file_count": 1,
         "files": [
-          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/infra/api_client.py"
+          "hyperloop-0.44.1/src/dashboard/app/components/DependencyGraph.vue"
         ],
-        "value": "api.nasajon.dev"
+        "value": "bartooltipstyle.top"
       },
       {
         "file_count": 1,
         "files": [
-          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/infra/api_client.py"
+          "hyperloop-0.44.1/uv.lock"
         ],
-        "value": "api.nasajon.qa"
+        "value": "files.pythonhosted.org"
       },
       {
         "file_count": 1,
         "files": [
-          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/infra/api_client.py"
+          "hyperloop-0.44.1/src/dashboard/app/app.vue"
         ],
-        "value": "api4.nasajon.app"
+        "value": "fonts.googleapis.com"
       },
       {
         "file_count": 1,
         "files": [
-          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/infra/api_client.py"
+          "hyperloop-0.44.1/src/dashboard/app/app.vue"
         ],
-        "value": "dir.nasajon.dev"
+        "value": "fonts.gstatic.com"
       },
       {
-        "file_count": 1,
+        "file_count": 18,
         "files": [
-          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/infra/api_client.py"
-        ],
-        "value": "dir.nasajon.qa"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/infra/api_client.py"
-        ],
-        "value": "diretorio.nasajon.com.br"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "nsj_integracao_api_client-2.2502.0.52/PKG-INFO",
-          "nsj_integracao_api_client-2.2502.0.52/README.md",
-          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client.egg-info/PKG-INFO"
-        ],
-        "value": "gist.github.com"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "nsj_integracao_api_client-2.2502.0.52/PKG-INFO",
-          "nsj_integracao_api_client-2.2502.0.52/README.md",
-          "nsj_integracao_api_client-2.2502.0.52/setup.cfg",
-          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client.egg-info/PKG-INFO"
+          "hyperloop-0.44.1/.pre-commit-config.yaml",
+          "hyperloop-0.44.1/CHANGELOG.md",
+          "hyperloop-0.44.1/docs/configuration.md",
+          "hyperloop-0.44.1/src/hyperloop/config.py",
+          "hyperloop-0.44.1/src/hyperloop/pr.py",
+          "hyperloop-0.44.1/tests/fakes/pr.py",
+          "hyperloop-0.44.1/tests/test_ambient_runtime.py",
+          "hyperloop-0.44.1/tests/test_config.py"
         ],
         "value": "github.com"
       },
       {
         "file_count": 1,
         "files": [
-          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/client_console.py"
+          "hyperloop-0.44.1/src/hyperloop/adapters/feedback/github.py"
         ],
-        "value": "sentry.nasajon.com.br"
+        "value": "github\\.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "hyperloop-0.44.1/PKG-INFO",
+          "hyperloop-0.44.1/README.md",
+          "hyperloop-0.44.1/src/hyperloop/compose.py"
+        ],
+        "value": "kubectl.docs.kubernetes.io"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "hyperloop-0.44.1/PKG-INFO",
+          "hyperloop-0.44.1/README.md",
+          "hyperloop-0.44.1/docs/configuration.md",
+          "hyperloop-0.44.1/tests/test_matrix_probe.py"
+        ],
+        "value": "matrix.example.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/src/hyperloop/adapters/probe/matrix.py"
+        ],
+        "value": "matrix.example.com``"
       },
       {
         "file_count": 2,
         "files": [
-          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/infra/telemetria/config.py",
-          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/service/integrador.py"
+          "hyperloop-0.44.1/.github/workflows/release.yaml",
+          "hyperloop-0.44.1/uv.lock"
         ],
-        "value": "telemetria.nasajon.com.br"
+        "value": "pypi.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/src/dashboard/server/routes/specs.py"
+        ],
+        "value": "raw.items"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/src/dashboard/app/components/DependencyGraph.vue"
+        ],
+        "value": "rect.top"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/src/dashboard/app/pnpm-lock.yaml"
+        ],
+        "value": "router.vuejs.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/src/dashboard/app/components/DependencyGraph.vue"
+        ],
+        "value": "tooltipstyle.top"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/CLAUDE.md"
+        ],
+        "value": "www.alechenninger.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/LICENSE"
+        ],
+        "value": "www.apache.org"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/infra/telemetria/config.py",
-          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/service/integrador.py"
+          "hyperloop-0.44.1/LICENSE"
         ],
-        "value": "http://telemetria.nasajon.com.br/api/events"
+        "value": "http://www.apache.org/licenses/"
       },
       {
         "file_count": 1,
         "files": [
-          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/infra/api_client.py"
+          "hyperloop-0.44.1/LICENSE"
         ],
-        "value": "https://api.nasajon.dev/integracao-pessoas-api/66"
+        "value": "http://www.apache.org/licenses/LICENSE-2.0"
       },
       {
         "file_count": 1,
         "files": [
-          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/infra/api_client.py"
+          "hyperloop-0.44.1/uv.lock"
         ],
-        "value": "https://api.nasajon.qa/integracao-pessoas-api/66"
+        "value": "https://files.pythonhosted.org/packages/00/2b/e59e58c544dc9bd8bd8384ecdb8ea91f6727f0e37a7131baeff8d6f51661/rpds_py-0.30.0-cp312-cp312-musllinux_1_2_aarch64.whl"
       },
       {
         "file_count": 1,
         "files": [
-          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/infra/api_client.py"
+          "hyperloop-0.44.1/uv.lock"
         ],
-        "value": "https://api4.nasajon.app/integracao-pessoas-api/66"
+        "value": "https://files.pythonhosted.org/packages/00/4b/ccc026168948fec4f7555b9164c724cf4125eac006e176541483d2c959be/pydantic_settings-2.13.1-py3-none-any.whl"
       },
       {
         "file_count": 1,
         "files": [
-          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/infra/api_client.py"
+          "hyperloop-0.44.1/uv.lock"
         ],
-        "value": "https://dir.nasajon.dev"
+        "value": "https://files.pythonhosted.org/packages/00/fc/a7c16d85211ea9accddc693b7d049f20b0c06440d9264d1e1c074394ee6c/pydantic_core-2.46.1-graalpy312-graalpy250_312_native-macosx_11_0_arm64.whl"
       },
       {
         "file_count": 1,
         "files": [
-          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/infra/api_client.py"
+          "hyperloop-0.44.1/uv.lock"
         ],
-        "value": "https://dir.nasajon.qa"
+        "value": "https://files.pythonhosted.org/packages/01/55/a37461fbb29c053ea4e62cfc5c2d56425cb5efbef8316e63f6d84ae45718/pydantic_core-2.46.1-cp314-cp314t-win32.whl"
       },
       {
         "file_count": 1,
         "files": [
-          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/infra/api_client.py"
+          "hyperloop-0.44.1/uv.lock"
         ],
-        "value": "https://diretorio.nasajon.com.br"
+        "value": "https://files.pythonhosted.org/packages/01/ee/02a2c011bdab74c6fb3c75474d40b3052059d95df7e73351460c8588d963/h11-0.16.0.tar.gz"
       },
       {
         "file_count": 1,
         "files": [
-          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/client_console.py"
+          "hyperloop-0.44.1/uv.lock"
         ],
-        "value": "https://f35985d919a74482949f2d06c29b94dc@sentry.nasajon.com.br/80"
+        "value": "https://files.pythonhosted.org/packages/02/9e/e5e9b168be58564121efb3de6859c452fccde0ab093d8438905899a3a483/pyyaml-6.0.3-cp314-cp314-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl"
       },
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "nsj_integracao_api_client-2.2502.0.52/PKG-INFO",
-          "nsj_integracao_api_client-2.2502.0.52/README.md",
-          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client.egg-info/PKG-INFO"
+          "hyperloop-0.44.1/uv.lock"
         ],
-        "value": "https://gist.github.com/r00tdaemon/1dcd57542bdaf3c9d1b0dd526ccd44ff"
+        "value": "https://files.pythonhosted.org/packages/03/11/5e395f961d6868269835dee1bafec6a1ac176505a167f68b7d8818431068/cryptography-46.0.7-cp314-cp314t-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
       },
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "nsj_integracao_api_client-2.2502.0.52/PKG-INFO",
-          "nsj_integracao_api_client-2.2502.0.52/README.md",
-          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client.egg-info/PKG-INFO"
+          "hyperloop-0.44.1/uv.lock"
         ],
-        "value": "https://github.com/Nasajon/Jobmanager?#integracao_apis"
+        "value": "https://files.pythonhosted.org/packages/03/e7/98a2f4ac921d82f33e03f3835f5bf3a4a40aa1bfdc57975e74a97b2b4bdd/rpds_py-0.30.0-cp312-cp312-macosx_10_12_x86_64.whl"
       },
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "nsj_integracao_api_client-2.2502.0.52/PKG-INFO",
-          "nsj_integracao_api_client-2.2502.0.52/README.md",
-          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client.egg-info/PKG-INFO"
+          "hyperloop-0.44.1/uv.lock"
         ],
-        "value": "https://github.com/Nasajon/integracao-pessoas-api"
+        "value": "https://files.pythonhosted.org/packages/04/19/21a9806eb8240e174fd1ab0cd5b9aa948bb0e05c2f2f55f9d5d7405e6d08/grpcio-1.80.0-cp313-cp313-macosx_11_0_universal2.whl"
       },
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "nsj_integracao_api_client-2.2502.0.52/PKG-INFO",
-          "nsj_integracao_api_client-2.2502.0.52/setup.cfg",
-          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client.egg-info/PKG-INFO"
+          "hyperloop-0.44.1/uv.lock"
         ],
-        "value": "https://github.com/Nasajon/nsj_integracao_api_client"
+        "value": "https://files.pythonhosted.org/packages/04/4b/29cac41a4d98d144bf5f6d33995617b185d14b22401f75ca86f384e87ff1/h11-0.16.0-py3-none-any.whl"
       },
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "nsj_integracao_api_client-2.2502.0.52/PKG-INFO",
-          "nsj_integracao_api_client-2.2502.0.52/README.md",
-          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client.egg-info/PKG-INFO"
+          "hyperloop-0.44.1/uv.lock"
         ],
-        "value": "https://github.com/Nasajon/nsj_integracao_api_entidades"
+        "value": "https://files.pythonhosted.org/packages/04/82/983aabaad82ba26113caceeb9091706a0696b25da004fe3defb5b346e15b/grpcio-1.80.0-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.whl"
       },
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "nsj_integracao_api_client-2.2502.0.52/PKG-INFO",
-          "nsj_integracao_api_client-2.2502.0.52/README.md",
-          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client.egg-info/PKG-INFO"
+          "hyperloop-0.44.1/uv.lock"
         ],
-        "value": "https://github.com/Nasajon/nsj_rest_lib"
+        "value": "https://files.pythonhosted.org/packages/04/bf/90339ac0f55726dce7d794e6d79a18a91265bdf3aa70b6b9ca52f35e022a/pywin32-311-cp313-cp313-win_arm64.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/05/6f/86f0272b84926bcb0e4c972262f54223e8ecc556b3224d281e6598fc9268/rpds_py-0.30.0-cp314-cp314t-manylinux_2_17_armv7l.manylinux2014_armv7l.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/05/8e/961c0007c59b8dd7729d542c61a4d537767a59645b82a0b521206e1e25c2/pyyaml-6.0.3.tar.gz"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/05/c0/b3be26a015601b822b97d9149ff8cb5ead58c66f981e04fedf4e762f4bd4/pyyaml-6.0.3-cp312-cp312-musllinux_1_2_aarch64.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/06/21/0fdd77e84720b08843c371a2efa6f2e19dbebf56adc72df73d891f5506f0/grpcio-1.80.0-cp314-cp314-musllinux_1_2_i686.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/06/94/82699a10bca87a5556c9c59b5963f2d039dbd239f25bc2a63907a05a14cb/httpcore-1.0.9.tar.gz"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/06/c1/3088fc04b6624eb12a57eb814f0d4997a44b0d208d6cace713033ff1a6ba/rpds_py-0.30.0-cp313-cp313-musllinux_1_2_aarch64.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/07/d7/031666ef155aa0bf399ed7e19439656c38bbd143779ae0861b038ce82abd/grpcio-1.80.0-cp314-cp314-manylinux2014_i686.manylinux_2_17_i686.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/07/e0/267e57e387b4ca276b90f0434ff88b2c2241ad72b16d31836adddfd6031b/cffi-2.0.0-cp312-cp312-musllinux_1_2_aarch64.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/08/8a/0861bec20485572fbddf3dfba2910e38fe249796cb73ecdeb74e07eeb8d3/zipp-3.23.1-py3-none-any.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/09/5e/4caf2a15149271fbd2b4d968899a450853c800b85152abcf54b11531417f/pydantic_core-2.46.1-cp314-cp314-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/0a/3f/77cdd0db8bddc714842dfd93f737c863751cf02001c993341504f6b0cd53/pydantic_core-2.46.1-cp312-cp312-manylinux_2_17_s390x.manylinux2014_s390x.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/0a/4d/222ef0b46443cf4cf46764d9c630f3fe4abaa7245be9417e56e9f52b8f65/rpds_py-0.30.0-cp313-cp313t-win_amd64.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/0b/5d/47c4655e9bcd5ca907148535c10e7d489044243cc9941c16ed7cd53be91d/rpds_py-0.30.0-cp313-cp313-win32.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/0b/5d/4a8f770695d73be252331e60e526291e3df0c9b27556a90a6b47bccca4c2/cryptography-46.0.7-cp311-abi3-macosx_10_9_universal2.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/0b/c9/584bc9651441b4ba60cc4d557d8a547b5aff901af35bda3a4ee30c819b82/starlette-1.0.0-py3-none-any.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/0b/d7/1959b9648791274998a9c3526f6d0ec8fd2233e4d4acce81bbae76b44b2a/python_dotenv-1.2.2-py3-none-any.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/0c/40/6fc24c3766a19c222a0d60d652b78f0283339d4cd4c173fab06b7ee76571/pydantic_core-2.46.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/0c/82/a2c93e32800940d9573fb28c346772a14778b84ba7524e691b324620ab89/pyright-1.1.408-py3-none-any.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/0c/c3/44f3fbbfa403ea2a7c779186dc20772604442dde72947e7d01069cbe98e3/pycparser-3.0-py3-none-any.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/0d/bf/27e39f5971dc4f305a4fb9c672ca06f290f7c4e261c568f3dea16a410d47/rpds_py-0.30.0-cp313-cp313t-macosx_11_0_arm64.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/0e/61/66938bbb5fc52dbdf84594873d5b51fb1f7c7794e9c0f5bd885f30bc507b/idna-3.11-py3-none-any.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/0f/3c/b602b5333348dc095ddb00dfc10e08a594dbc4317bc4eeac4a30fdaf22c5/claude_agent_sdk-0.1.60.tar.gz"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/0f/4c/751061ffa58615a32c31b2d82e8482be8dd4a89154f003147acee90f2be9/httpx_sse-0.4.3.tar.gz"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/0f/54/6bbbfc5efe86f9d71041827b793c24811a017c6ac0fd12883e4caa86b8ed/cryptography-46.0.7-cp311-abi3-manylinux_2_28_ppc64le.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/10/3b/71b725851df9ab7a7a4e33cf36d241933da66040d195a84781f49c50490c/rpds_py-0.30.0-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/10/bb/dd06f4c24c01db9cf11341b547d0a016b2c90ed7dbbb086a5710df7dd1d7/grpcio-1.80.0-cp313-cp313-musllinux_1_2_x86_64.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/10/f2/19ceb3b3dc14009373432af0c13f46aa08e3ce334ec6eff13492e1812ccd/cryptography-46.0.7-cp311-abi3-musllinux_1_2_x86_64.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/11/08/874da392558ce087a0f9b709dc6ec0d60cbc694c1c772dab8d5f31efe8cb/ruff-0.15.10-py3-none-musllinux_1_2_x86_64.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/14/14/f59b0127409a33c6ef6f5c1ebd5ad8e32d7861c9c7adfa9a624fc3889f6c/rpds_py-0.30.0-cp313-cp313t-manylinux_2_17_armv7l.manylinux2014_armv7l.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/14/e4/9990b41c6d7a44e1e9dee8ac11d7a9802ba1378b40d77468a7761d1ad288/grpcio-1.80.0-cp312-cp312-win32.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/15/23/26e67f86ed62ac9d6f7f3091ee5220bf14b5ac36fb811851d601365ef896/pydantic_core-2.46.1-cp314-cp314-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/15/36/b777766ff83fef1cf97473d64764cd44f38e0d8c269ed06faace9ae17666/pydantic_core-2.46.1-cp314-cp314-win32.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/16/01/0cd51dd86ab5b9befe0d031e276510491976c3a80e9f6e31810cce46c4ad/cryptography-46.0.7-cp38-abi3-manylinux_2_31_armv7l.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/16/92/d1e32e3e0d894fe00b15ce28ad4944ab692713f2e7f0a99787405e43533a/protobuf-6.33.6-cp39-abi3-manylinux2014_x86_64.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/18/2f/e0b36a6f99c51bb89f3a30239bc7bf97e87a37ae80aa2d6542d6e5150364/ruff-0.15.10-py3-none-musllinux_1_2_i686.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/18/3a/23347d35f76f639e807fb7a36fad3068aed100996849a33809591f26eca6/grpcio-1.80.0-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/18/67/36e9267722cc04a6b9f15c7f3441c2363321a3ea07da7ae0c0707beb2a9c/typing_extensions-4.15.0-py3-none-any.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/19/14/2c5dd9f512b66549ae92767a9c7b330ae88e1932ca57876909410251fe13/anyio-4.13.0.tar.gz"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/19/74/a633ee74eb36c44aa6d1095e7cc5569bebf04342ee146178e2d36600708b/jsonschema_specifications-2025.9.1.tar.gz"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/19/d5/4eac95255c7d35094b46a32ec1e4d80eac94729c694726ee1d69948bd5f0/pydantic_core-2.46.1-cp314-cp314t-win_arm64.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/1a/08/67bd04656199bbb51dbed1439b7f27601dfb576fb864099c7ef0c3e55531/pyyaml-6.0.3-cp312-cp312-win_arm64.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/1a/a4/d0d52849933f5a4bf1ad9d8da612792f96469b37e286a269e3ee9c60bbb1/pydantic_core-2.46.1-cp314-cp314-musllinux_1_1_armv7l.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/1a/bb/a5c213c19ee94b15dfccc48f363738633a493812687f5567addbcbba9f6f/cryptography-46.0.7-cp311-abi3-win32.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/1b/7d/92392ff7815c21062bea51aa7b87d45576f649f16458d78b7cf94b9ab2e6/pycparser-3.0.tar.gz"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/1c/5d/15bbf0fb4a3f58a3b1c67855ec1efcc4ceaef4e86644665fff03e1b66d8d/rpds_py-0.30.0-cp313-cp313t-musllinux_1_2_i686.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/1e/d3/26bf1008eb3d2daa8ef4cacc7f3bfdc11818d111f7e2d0201bc6e3b49d45/annotated_doc-0.0.4-py3-none-any.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/20/18/a746c8344152d368a5aac738d4c857012f2c5d1fd2eac7e17b647a7861bd/googleapis_common_protos-1.74.0.tar.gz"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/20/53/7c7e784abfa500a2b6b583b147ee4bb5a2b3747a9166bab52fec4b5b5e7d/rpds_py-0.30.0-cp314-cp314t-win32.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/20/af/3f2f423103f1113b36230496629986e0ef7e199d2aa8392452b484b38ced/rpds_py-0.30.0.tar.gz"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/21/20/7ff5f3c8b00c8a95f75985128c26ba44503fb35b8e0259d812766ea966c7/rpds_py-0.30.0-cp314-cp314-musllinux_1_2_x86_64.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/22/05/8a1fcf8181be4c7a9cfc34e5fbf2d9c3866edc9dfd3c48d5401806e0a523/pydantic_core-2.46.1-cp312-cp312-win_amd64.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/22/d7/97e1221197d17a27f768363f87ec061519eeeed15bbd315d2e9d1429ff03/pydantic_core-2.46.1-cp314-cp314t-win_amd64.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/22/f5/df4e9027acead3ecc63e50fe1e36aca1523e1719559c499951bb4b53188f/referencing-0.37.0.tar.gz"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/23/07/0cd4f95cb0359c8b1ec71e89c3777e7932c8dfeb9cd54740289f310aaead/pydantic_core-2.46.1-cp313-cp313-manylinux_2_17_s390x.manylinux2014_s390x.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/23/20/bb6982b26a40bb43951265ba29d4c246ef0ff59c9fdcdf0ed04e0687de4d/pyyaml-6.0.3-cp314-cp314-win_amd64.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/24/95/ffd128ed1146a153d928617b0ef673960130be0009c77d8fbf0abe306713/rpds_py-0.30.0-cp313-cp313-win_arm64.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/24/bf/d1bda4f6168e0b2e9e5958945e01910052158313224ada5ce1fb2e1113b8/nodeenv-1.10.0.tar.gz"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/25/8e/342a504ff018a2825d395d44d63a767dd8ebc927ebda557fecdaca3ac33a/cffi-2.0.0-cp314-cp314t-musllinux_1_2_aarch64.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/25/b6/261225b875d7a13b33a6d02508c39c28450b2041bb01d0f7f1a83d569512/ruff-0.15.10-py3-none-win_amd64.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/26/8c/f9290339ef6d79badbc010f067cd769d6601ec11a57d78569c683fb4dd87/sse_starlette-3.3.4.tar.gz"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/26/a3/0bd5f0cdb0bbc92650e8dc457e9250358411ee5d1b65e42b6632387daf81/fastapi-0.136.0-py3-none-any.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/26/c4/78b9bf2d9c1d5e494f44932988d9d91c51a66b9a7b48adf99b62f7c65318/opentelemetry_exporter_otlp_proto_common-1.41.0-py3-none-any.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/28/17/b59a741645822ec6d04732b43c5d35e4ef58be7bfa84a81e5ae6f05a1d33/cryptography-46.0.7-cp314-cp314t-musllinux_1_2_aarch64.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/2a/39/e50c7c3a983047577ee07d2a9e53faf5a69493943ec3f6a384bdc792deb2/httpx-0.28.1-py3-none-any.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/2a/3f/952ee470df69e5674cdec1cbde22331adf643b5cc2ff79f4292d80146ee4/pydantic_core-2.46.1-cp314-cp314t-manylinux_2_31_riscv64.whl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "hyperloop-0.44.1/uv.lock"
+        ],
+        "value": "https://files.pythonhosted.org/packages/2b/02/7788f9fefa1d060ca68717c3901ae7fffa21ee087a90b7f23c7a603c32ae/cryptography-46.0.7-cp311-abi3-win_amd64.whl"
       }
     ]
   },
-  "package": "nsj-integracao-api-client",
-  "package_slug": "nsj-integracao-api-client",
-  "project_url": "https://pypi.org/project/nsj-integracao-api-client/",
+  "package": "hyperloop",
+  "package_slug": "hyperloop",
+  "project_url": "https://pypi.org/project/hyperloop/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T19:34:56.709792+00:00",
+  "published_at": "2026-04-27T19:38:43.336304+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T19:35:48.401495+00:00",
-  "title": "Personal PyPI Supply Chain Scan: nsj-integracao-api-client 2.2502.0.52",
-  "version": "2.2502.0.52",
-  "version_slug": "2.2502.0.52",
-  "_metadata_path": "reports/packages/nsj-integracao-api-client/2.2502.0.52/metadata.json"
+  "scanned_at": "2026-04-27T19:40:19.692156+00:00",
+  "title": "Personal PyPI Supply Chain Scan: hyperloop 0.44.1",
+  "version": "0.44.1",
+  "version_slug": "0.44.1",
+  "_metadata_path": "reports/packages/hyperloop/0.44.1/metadata.json"
 }
