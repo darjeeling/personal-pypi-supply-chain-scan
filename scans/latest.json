@@ -1,174 +1,96 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "qwen3_embed-1.9.1.tar.gz",
-  "finding_count": 947,
+  "distribution": "template_engine_ia-0.9.3.tar.gz",
+  "finding_count": 84,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 1,
+        "file_count": 4,
         "files": [
-          "qwen3_embed-1.9.1/qwen3_embed/common/onnx_model.py"
-        ],
-        "value": "aiinfra.pkgs.visualstudio.com"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "qwen3_embed-1.9.1/PKG-INFO",
-          "qwen3_embed-1.9.1/README.md"
-        ],
-        "value": "codecov.io"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "qwen3_embed-1.9.1/PKG-INFO",
-          "qwen3_embed-1.9.1/README.md"
-        ],
-        "value": "developer.mend.io"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/CONTRIBUTING.md"
-        ],
-        "value": "docs.astral.sh"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/qwen3_embed/parallel_processor.py"
-        ],
-        "value": "docs.python.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/renovate.json"
-        ],
-        "value": "docs.renovatebot.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/qwen3_embed/parallel_processor.py"
-        ],
-        "value": "eli.thegreenplace.net"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/qwen3_embed/common/model_management.py"
-        ],
-        "value": "fast-bge-base-en-v1.5.tar.gz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "files.pythonhosted.org"
-      },
-      {
-        "file_count": 7,
-        "files": [
-          "qwen3_embed-1.9.1/.github/workflows/cd.yml",
-          "qwen3_embed-1.9.1/.pre-commit-config.yaml",
-          "qwen3_embed-1.9.1/CHANGELOG.md",
-          "qwen3_embed-1.9.1/CONTRIBUTING.md",
-          "qwen3_embed-1.9.1/PKG-INFO",
-          "qwen3_embed-1.9.1/README.md",
-          "qwen3_embed-1.9.1/pyproject.toml"
+          "template_engine_ia-0.9.3/PKG-INFO",
+          "template_engine_ia-0.9.3/README.md",
+          "template_engine_ia-0.9.3/pyproject.toml",
+          "template_engine_ia-0.9.3/src/template_engine_ia.egg-info/PKG-INFO"
         ],
         "value": "github.com"
       },
       {
-        "file_count": 2,
+        "file_count": 3,
         "files": [
-          "qwen3_embed-1.9.1/PKG-INFO",
-          "qwen3_embed-1.9.1/README.md"
-        ],
-        "value": "huggingface.co"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "qwen3_embed-1.9.1/PKG-INFO",
-          "qwen3_embed-1.9.1/README.md"
+          "template_engine_ia-0.9.3/PKG-INFO",
+          "template_engine_ia-0.9.3/README.md",
+          "template_engine_ia-0.9.3/src/template_engine_ia.egg-info/PKG-INFO"
         ],
         "value": "img.shields.io"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "qwen3_embed-1.9.1/CONTRIBUTING.md"
+          "template_engine_ia-0.9.3/PKG-INFO",
+          "template_engine_ia-0.9.3/README.md",
+          "template_engine_ia-0.9.3/src/template_engine_ia.egg-info/PKG-INFO"
         ],
-        "value": "mise.jdx.dev"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/qwen3_embed/common/onnx_model.py"
-        ],
-        "value": "onnxruntime.ai"
+        "value": "luizhcrs.github.io"
       },
       {
         "file_count": 3,
         "files": [
-          "qwen3_embed-1.9.1/PKG-INFO",
-          "qwen3_embed-1.9.1/README.md",
-          "qwen3_embed-1.9.1/uv.lock"
+          "template_engine_ia-0.9.3/PKG-INFO",
+          "template_engine_ia-0.9.3/README.md",
+          "template_engine_ia-0.9.3/src/template_engine_ia.egg-info/PKG-INFO"
         ],
-        "value": "pypi.org"
+        "value": "mypy-lang.org"
       },
       {
         "file_count": 1,
         "files": [
-          "qwen3_embed-1.9.1/CONTRIBUTING.md"
+          "template_engine_ia-0.9.3/src/engine/llm/openrouter_provider.py"
         ],
-        "value": "python-semantic-release.readthedocs.io"
+        "value": "openrouter.ai"
       },
       {
-        "file_count": 2,
+        "file_count": 3,
         "files": [
-          "qwen3_embed-1.9.1/qwen3_embed/common/model_management.py",
-          "qwen3_embed-1.9.1/tests/test_model_management.py"
+          "template_engine_ia-0.9.3/PKG-INFO",
+          "template_engine_ia-0.9.3/README.md",
+          "template_engine_ia-0.9.3/src/template_engine_ia.egg-info/PKG-INFO"
         ],
-        "value": "storage.googleapis.com"
+        "value": "opensource.org"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "template_engine_ia-0.9.3/PKG-INFO",
+          "template_engine_ia-0.9.3/README.md",
+          "template_engine_ia-0.9.3/src/template_engine_ia.egg-info/PKG-INFO"
+        ],
+        "value": "raw.githubusercontent.com"
+      },
+      {
+        "file_count": 5,
+        "files": [
+          "template_engine_ia-0.9.3/src/engine/batch.py",
+          "template_engine_ia-0.9.3/src/engine/conformity/structural.py",
+          "template_engine_ia-0.9.3/src/engine/section_mapper/numbering.py",
+          "template_engine_ia-0.9.3/src/engine/section_mapper/renderer.py",
+          "template_engine_ia-0.9.3/tests/test_section_mapper.py"
+        ],
+        "value": "schemas.openxmlformats.org"
       },
       {
         "file_count": 1,
         "files": [
-          "qwen3_embed-1.9.1/tests/test_model_management.py"
-        ],
-        "value": "storage.googleapis.com.evil.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/LICENSE"
+          "template_engine_ia-0.9.3/LICENSE"
         ],
         "value": "www.apache.org"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "qwen3_embed-1.9.1/CODE_OF_CONDUCT.md"
-        ],
-        "value": "www.contributor-covenant.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/CONTRIBUTING.md"
-        ],
-        "value": "www.conventionalcommits.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/CONTRIBUTING.md"
+          "template_engine_ia-0.9.3/PKG-INFO",
+          "template_engine_ia-0.9.3/README.md",
+          "template_engine_ia-0.9.3/src/template_engine_ia.egg-info/PKG-INFO"
         ],
         "value": "www.python.org"
       }
@@ -176,589 +98,204 @@
     "raw_public_ips": [],
     "suspicious_endpoints": [
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "qwen3_embed-1.9.1/qwen3_embed/common/model_management.py"
+          "template_engine_ia-0.9.3/PKG-INFO",
+          "template_engine_ia-0.9.3/README.md",
+          "template_engine_ia-0.9.3/src/template_engine_ia.egg-info/PKG-INFO"
         ],
-        "value": "fast-bge-base-en-v1.5.tar.gz"
+        "value": "raw.githubusercontent.com"
       }
     ],
     "urls": [
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "qwen3_embed-1.9.1/tests/test_model_management.py"
+          "template_engine_ia-0.9.3/PKG-INFO",
+          "template_engine_ia-0.9.3/README.md",
+          "template_engine_ia-0.9.3/src/template_engine_ia.egg-info/PKG-INFO"
         ],
-        "value": "http://127.0.0.1:80@storage.googleapis.com/"
+        "value": "http://mypy-lang.org/"
+      },
+      {
+        "file_count": 5,
+        "files": [
+          "template_engine_ia-0.9.3/src/engine/batch.py",
+          "template_engine_ia-0.9.3/src/engine/conformity/structural.py",
+          "template_engine_ia-0.9.3/src/engine/section_mapper/numbering.py",
+          "template_engine_ia-0.9.3/src/engine/section_mapper/renderer.py",
+          "template_engine_ia-0.9.3/tests/test_section_mapper.py"
+        ],
+        "value": "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
       },
       {
         "file_count": 1,
         "files": [
-          "qwen3_embed-1.9.1/tests/test_model_management.py"
-        ],
-        "value": "http://example.com/fast-mymodel.tar.gz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/tests/test_model_management.py"
-        ],
-        "value": "http://example.com/missing.tar.gz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/tests/test_model_management.py"
-        ],
-        "value": "http://example.com/model.tar.gz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/tests/test_model_management.py"
-        ],
-        "value": "http://example.com/mymodel.tar.gz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/tests/test_model_management.py"
-        ],
-        "value": "http://storage.googleapis.com/test"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/LICENSE"
+          "template_engine_ia-0.9.3/LICENSE"
         ],
         "value": "http://www.apache.org/licenses/"
       },
       {
         "file_count": 1,
         "files": [
-          "qwen3_embed-1.9.1/LICENSE"
+          "template_engine_ia-0.9.3/LICENSE"
         ],
         "value": "http://www.apache.org/licenses/LICENSE-2.0"
       },
       {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/qwen3_embed/common/onnx_model.py"
-        ],
-        "value": "https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/onnxruntime-cuda-12/pypi/simple/`"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "qwen3_embed-1.9.1/PKG-INFO",
-          "qwen3_embed-1.9.1/README.md"
-        ],
-        "value": "https://codecov.io/gh/n24q02m/qwen3-embed"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "qwen3_embed-1.9.1/PKG-INFO",
-          "qwen3_embed-1.9.1/README.md"
-        ],
-        "value": "https://codecov.io/gh/n24q02m/qwen3-embed/graph/badge.svg?token=M038M651L2"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "qwen3_embed-1.9.1/PKG-INFO",
-          "qwen3_embed-1.9.1/README.md"
-        ],
-        "value": "https://developer.mend.io/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/CONTRIBUTING.md"
-        ],
-        "value": "https://docs.astral.sh/ruff/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/CONTRIBUTING.md"
-        ],
-        "value": "https://docs.astral.sh/ty/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/CONTRIBUTING.md"
-        ],
-        "value": "https://docs.astral.sh/uv/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/qwen3_embed/parallel_processor.py"
-        ],
-        "value": "https://docs.python.org/3.6/library/multiprocessing.html?highlight=process#pipes-and-queues"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/qwen3_embed/parallel_processor.py"
-        ],
-        "value": "https://docs.python.org/3.6/library/multiprocessing.html?highlight=process#programming-guidelines"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/renovate.json"
-        ],
-        "value": "https://docs.renovatebot.com/renovate-schema.json"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/qwen3_embed/parallel_processor.py"
-        ],
-        "value": "https://eli.thegreenplace.net/2009/06/12/safely-using-destructors-in-python/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/tests/test_model_description.py"
-        ],
-        "value": "https://example.com/model.tar.gz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/tests/test_model_management.py"
-        ],
-        "value": "https://example.com/x.onnx"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/00/07/575a68c754943058c78f30db02ee03a64b3c638586fba6a6dd56830b30a3/markupsafe-3.0.3-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/00/50/dcfbb72a5138bbefdc3332e8d81a23494bf67998b4b100703fd15fa52d81/charset_normalizer-3.4.6-cp314-cp314-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/01/a5/7abf15b4c0968e47020f9ca0935fb3274deb87cb288cd187cad92e8cdffd/charset_normalizer-3.4.6-cp313-cp313-win_arm64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/01/ee/02a2c011bdab74c6fb3c75474d40b3052059d95df7e73351460c8588d963/h11-0.16.0.tar.gz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/02/9e/e5e9b168be58564121efb3de6859c452fccde0ab093d8438905899a3a483/pyyaml-6.0.3-cp314-cp314-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/03/b3/d79a9a191bb75f5aa81f3aaaa387ef29ce7cb7a9e5074ba8ea095cc073c2/charset_normalizer-3.4.6-cp314-cp314-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/04/4b/29cac41a4d98d144bf5f6d33995617b185d14b22401f75ca86f384e87ff1/h11-0.16.0-py3-none-any.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/04/74/f4c001f4714c3ad9ce037e18cf2b9c64871a84951eaa0baf683a9ca9301c/numpy-2.4.4-pp311-pypy311_pp73-win_amd64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/05/1a/d8007a5138c179c2bf33ef44503e83d70434d2642877ee8fbb230e7c0548/numpy-2.4.4-cp314-cp314t-macosx_14_0_arm64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/05/34/c531bc6ac4c21da9ddfddb3107be2287188b3ea4b53b70fc58f2a77ac8d8/charset_normalizer-3.4.6-cp314-cp314t-musllinux_1_2_armv7l.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/05/73/c4abe620b841b6b791f2edc248f556900667a5a1cf023a6646967ae98335/markupsafe-3.0.3-cp313-cp313-win_amd64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/05/8e/961c0007c59b8dd7729d542c61a4d537767a59645b82a0b521206e1e25c2/pyyaml-6.0.3.tar.gz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/05/a1/d62dfe7376beaaf1394917e0f8e93ee5f67fea8fcf4107501db35996586b/tokenizers-0.22.2-cp39-abi3-musllinux_1_2_x86_64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/05/c0/b3be26a015601b822b97d9149ff8cb5ead58c66f981e04fedf4e762f4bd4/pyyaml-6.0.3-cp312-cp312-musllinux_1_2_aarch64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/05/fb/a592736d968c2f58e12de4d52088dda8e0e724b26ad5c0487263adb45875/onnxruntime-1.24.4-cp313-cp313-win_amd64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/06/3b/0351f1bd566e6e4dd39e978efe7958bde1d32f879e85589de147654f57bb/coverage-7.13.5-cp314-cp314t-musllinux_1_2_i686.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/06/94/82699a10bca87a5556c9c59b5963f2d039dbd239f25bc2a63907a05a14cb/httpcore-1.0.9.tar.gz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/06/b6/fae511ca98aac69ecc35cde828b0a3d146325dd03d99655ad38fc2cc3293/charset_normalizer-3.4.6-cp314-cp314t-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/06/e3/b904d9ab1016829a776d97f163f183a48be6a4deb87304d1e0116a349519/tomli-2.4.0-cp314-cp314t-macosx_11_0_arm64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/08/db/fefacb2136439fc8dd20e797950e749aa1f4997ed584c62cfb8ef7c2be0e/markupsafe-3.0.3-cp311-cp311-macosx_10_9_x86_64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/09/a9/6ba95a270c6f1fbcd8dac228323f2777d886cb206987444e4bce66338dd4/tqdm-4.67.3.tar.gz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/0a/0d/0e3ecece05b7a7e87ab9fb587855548da437a061326fff64a223b6dcb78a/numpy-2.4.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/0b/63/69125220e47fd7a3a27fd0de0c6398c89432fec41bc739823bcc66506af6/tomli-2.4.0-cp311-cp311-win32.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/0b/f8/7aacb8e5f4a7899d39c787b5984e912e6c18b11be136ef13947d7a66d265/hf_xet-1.4.3-cp37-abi3-macosx_11_0_arm64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/0c/29/0348de65b8cc732daa3e33e67806420b2ae89bdce2b04af740289c5c6c8c/loguru-0.7.3-py3-none-any.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/0c/62/d2eb46264d4b157dae1275b573017abec435397aa59cbcdab6fc978a8af4/pyyaml-6.0.3-cp311-cp311-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/0c/c9/44fb661c55062f0818a6ffd2685c67aa30816200d5f2817543717d4b92eb/coverage-7.13.5-cp313-cp313-macosx_11_0_arm64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/0d/59/18aa4e014debbf559670e4048e39260a85c7fcee84acfd761ac01e7b8d35/ruff-0.15.12-py3-none-musllinux_1_2_armv7l.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/0e/61/66938bbb5fc52dbdf84594873d5b51fb1f7c7794e9c0f5bd885f30bc507b/idna-3.11-py3-none-any.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/0e/72/e3cc540f351f316e9ed0f092757459afbc595824ca724cbc5a5d4263713f/markupsafe-3.0.3-cp313-cp313t-win_arm64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/0e/c5/0b6898950627af7d6103a449b22320372c24c6feda91aa24e201a478d161/charset_normalizer-3.4.6-cp314-cp314t-musllinux_1_2_s390x.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/0f/62/d9c46a7f5c9adbeeeda52f5b8d802e1094e9717705a645efc71b0913a0a8/markupsafe-3.0.3-cp311-cp311-win32.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/0f/e9/9129958f20e7e9d4d56d51d42ccf708d15cac355ff4ac6e736e97a9393d2/coverage-7.13.5-cp312-cp312-musllinux_1_2_x86_64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/10/cb/16c3f2cf3266edd25aaa00d6c4350381c8b012ed6f5276675b9eba8d9ff4/pyyaml-6.0.3-cp311-cp311-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/11/c1/a606911aee04c324ddaa883ae418f3569792fd3c4a10c50e0dd0a2311e1e/ruff-0.15.12-py3-none-manylinux_2_17_armv7l.manylinux2014_armv7l.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/12/a6/1d3f6155fb0010ca68eba7fe48ca6c9da7385058b77a95848710ecf189b1/coverage-7.13.5-cp311-cp311-win_arm64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/14/1d/d0a583ce4fefcc3308806a749a536c201ed6b5ad6e1322e227ee4848979d/numpy-2.4.4-cp313-cp313-macosx_10_13_x86_64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/14/25/b208c5683343959b670dc001595f2f3737e051da617f66c31f7c4fa93abc/rich-14.3.3-py3-none-any.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/14/4f/f5df9007e50b15e53e01edea486814783a7f019893733d9e4d6caad75557/coverage-7.13.5-cp313-cp313t-win32.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/14/61/dc86acea899349d2579cb8419aecedd83dc504d7d6a10df65eef546c8300/ty-0.0.32-py3-none-win_amd64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/14/c7/ca723101509b518797fedc2fdf79ba57f886b4aca8a7d31857ba3ee8281f/markupsafe-3.0.3-cp314-cp314t-musllinux_1_2_x86_64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/15/57/28d79b44b51933119e21f65479d0864a8d5893e494cf5daab15df0247c17/charset_normalizer-3.4.6-cp312-cp312-win_arm64.whl"
-      },
-      {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "qwen3_embed-1.9.1/uv.lock"
+          "template_engine_ia-0.9.3/PKG-INFO",
+          "template_engine_ia-0.9.3/pyproject.toml",
+          "template_engine_ia-0.9.3/src/template_engine_ia.egg-info/PKG-INFO"
         ],
-        "value": "https://files.pythonhosted.org/packages/16/04/fed398b05caa87ce9b1a1bb5166645e38196081b225059a6edaff6440fac/tokenizers-0.22.2-cp39-abi3-musllinux_1_2_i686.whl"
+        "value": "https://github.com/Luizhcrs/template-engine"
       },
       {
-        "file_count": 1,
-        "files": [
-          "qwen3_embed-1.9.1/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/16/19/13de8e4377ed53079ee996e1ab0a9c33ec2faf808a4647b7b4c0d46dd239/pyyaml-6.0.3-cp311-cp311-macosx_11_0_arm64.whl"
-      },
-      {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "qwen3_embed-1.9.1/uv.lock"
+          "template_engine_ia-0.9.3/PKG-INFO",
+          "template_engine_ia-0.9.3/README.md",
+          "template_engine_ia-0.9.3/src/template_engine_ia.egg-info/PKG-INFO"
         ],
-        "value": "https://files.pythonhosted.org/packages/16/50/478cdda782c8c9c3fb5da3cc72dd7f331f031e7f1363a893cdd6ca0f8de0/charset_normalizer-3.4.6-cp312-cp312-musllinux_1_2_riscv64.whl"
+        "value": "https://github.com/Luizhcrs/template-engine/actions/workflows/ci.yml"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "qwen3_embed-1.9.1/uv.lock"
+          "template_engine_ia-0.9.3/PKG-INFO",
+          "template_engine_ia-0.9.3/README.md",
+          "template_engine_ia-0.9.3/src/template_engine_ia.egg-info/PKG-INFO"
         ],
-        "value": "https://files.pythonhosted.org/packages/16/e1/3079a9ff9b8e11b846c6ac5c8b5bfb7ff225eee721825310c91b3b50304f/tqdm-4.67.3-py3-none-any.whl"
+        "value": "https://github.com/Luizhcrs/template-engine/actions/workflows/ci.yml/badge.svg"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "qwen3_embed-1.9.1/uv.lock"
+          "template_engine_ia-0.9.3/PKG-INFO",
+          "template_engine_ia-0.9.3/pyproject.toml",
+          "template_engine_ia-0.9.3/src/template_engine_ia.egg-info/PKG-INFO"
         ],
-        "value": "https://files.pythonhosted.org/packages/18/27/e267a60bbeeee343bcc279bb9e8fbed0cbe224bc7b2a3dc2975f22809a09/tomli-2.4.0-cp312-cp312-win_arm64.whl"
+        "value": "https://github.com/Luizhcrs/template-engine/blob/main/CHANGELOG.md"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "qwen3_embed-1.9.1/uv.lock"
+          "template_engine_ia-0.9.3/PKG-INFO",
+          "template_engine_ia-0.9.3/pyproject.toml",
+          "template_engine_ia-0.9.3/src/template_engine_ia.egg-info/PKG-INFO"
         ],
-        "value": "https://files.pythonhosted.org/packages/18/2c/2141c86ed0ce0962b45cefb658a95e734f59759d47f20afdcd9c732910a1/ty-0.0.32-py3-none-manylinux_2_17_s390x.manylinux2014_s390x.whl"
+        "value": "https://github.com/Luizhcrs/template-engine/issues"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "qwen3_embed-1.9.1/uv.lock"
+          "template_engine_ia-0.9.3/PKG-INFO",
+          "template_engine_ia-0.9.3/README.md",
+          "template_engine_ia-0.9.3/src/template_engine_ia.egg-info/PKG-INFO"
         ],
-        "value": "https://files.pythonhosted.org/packages/18/67/36e9267722cc04a6b9f15c7f3441c2363321a3ea07da7ae0c0707beb2a9c/typing_extensions-4.15.0-py3-none-any.whl"
+        "value": "https://github.com/Luizhcrs/template-engine/releases"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "qwen3_embed-1.9.1/uv.lock"
+          "template_engine_ia-0.9.3/PKG-INFO",
+          "template_engine_ia-0.9.3/README.md",
+          "template_engine_ia-0.9.3/src/template_engine_ia.egg-info/PKG-INFO"
         ],
-        "value": "https://files.pythonhosted.org/packages/19/ae/31c1be199ef767124c042c6c3e904da327a2f7f0cd63a0337e1eca2967a8/markupsafe-3.0.3-cp311-cp311-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl"
+        "value": "https://github.com/astral-sh/ruff"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "qwen3_embed-1.9.1/uv.lock"
+          "template_engine_ia-0.9.3/PKG-INFO",
+          "template_engine_ia-0.9.3/README.md",
+          "template_engine_ia-0.9.3/src/template_engine_ia.egg-info/PKG-INFO"
         ],
-        "value": "https://files.pythonhosted.org/packages/19/bc/e7140ed90c5d61d77cea142eed9f9c303f4c4806f60a1044c13e3f1471d0/markupsafe-3.0.3-cp313-cp313-win32.whl"
+        "value": "https://img.shields.io/badge/License-Apache%202.0-blue.svg"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "qwen3_embed-1.9.1/uv.lock"
+          "template_engine_ia-0.9.3/PKG-INFO",
+          "template_engine_ia-0.9.3/README.md",
+          "template_engine_ia-0.9.3/src/template_engine_ia.egg-info/PKG-INFO"
         ],
-        "value": "https://files.pythonhosted.org/packages/1a/08/67bd04656199bbb51dbed1439b7f27601dfb576fb864099c7ef0c3e55531/pyyaml-6.0.3-cp312-cp312-win_arm64.whl"
+        "value": "https://img.shields.io/badge/python-3.11+-blue.svg"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "qwen3_embed-1.9.1/uv.lock"
+          "template_engine_ia-0.9.3/PKG-INFO",
+          "template_engine_ia-0.9.3/README.md",
+          "template_engine_ia-0.9.3/src/template_engine_ia.egg-info/PKG-INFO"
         ],
-        "value": "https://files.pythonhosted.org/packages/1a/8a/0402ba61a2f16038b48b39bccca271134be00c5c9f0f623208399333c448/markupsafe-3.0.3-cp314-cp314t-win_amd64.whl"
+        "value": "https://img.shields.io/badge/typed-mypy-2A6DB2.svg"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "qwen3_embed-1.9.1/uv.lock"
+          "template_engine_ia-0.9.3/PKG-INFO",
+          "template_engine_ia-0.9.3/README.md",
+          "template_engine_ia-0.9.3/src/template_engine_ia.egg-info/PKG-INFO"
         ],
-        "value": "https://files.pythonhosted.org/packages/1b/66/c1dceb7b9714473800b075f5c8a84f4588f887a90eb8645282031676e242/coverage-7.13.5-cp313-cp313-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl"
+        "value": "https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "qwen3_embed-1.9.1/uv.lock"
+          "template_engine_ia-0.9.3/PKG-INFO",
+          "template_engine_ia-0.9.3/README.md",
+          "template_engine_ia-0.9.3/src/template_engine_ia.egg-info/PKG-INFO"
         ],
-        "value": "https://files.pythonhosted.org/packages/1b/c4/39d6e136cbeea9ca5a23aad4b33024319222adbdc059ebcda5fc7d9d5ff4/hf_xet-1.4.3-cp313-cp313t-musllinux_1_2_x86_64.whl"
+        "value": "https://img.shields.io/github/v/release/Luizhcrs/template-engine?display_name=tag&sort=semver"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "qwen3_embed-1.9.1/uv.lock"
+          "template_engine_ia-0.9.3/PKG-INFO",
+          "template_engine_ia-0.9.3/README.md",
+          "template_engine_ia-0.9.3/src/template_engine_ia.egg-info/PKG-INFO"
         ],
-        "value": "https://files.pythonhosted.org/packages/1b/db/c5c643b912740b45e8eec21de1bbab8e7fc085944d37e1e709d3dcd9d72f/charset_normalizer-3.4.6-cp313-cp313-musllinux_1_2_armv7l.whl"
+        "value": "https://luizhcrs.github.io/template-engine/"
       },
       {
         "file_count": 1,
         "files": [
-          "qwen3_embed-1.9.1/uv.lock"
+          "template_engine_ia-0.9.3/src/engine/llm/openrouter_provider.py"
         ],
-        "value": "https://files.pythonhosted.org/packages/1c/93/25e6917c90ec1c9a56b0b26f6cad6408e5f13bb6b35d484a0d75c9cf000d/coverage-7.13.5-cp314-cp314-musllinux_1_2_riscv64.whl"
+        "value": "https://openrouter.ai/api/v1"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "qwen3_embed-1.9.1/uv.lock"
+          "template_engine_ia-0.9.3/PKG-INFO",
+          "template_engine_ia-0.9.3/README.md",
+          "template_engine_ia-0.9.3/src/template_engine_ia.egg-info/PKG-INFO"
         ],
-        "value": "https://files.pythonhosted.org/packages/1c/b7/b1a117e5385cbdb3205f6055403c2a2a220c5ea80b8716c324eaf75c5c95/charset_normalizer-3.4.6-cp311-cp311-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl"
+        "value": "https://opensource.org/licenses/Apache-2.0"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "qwen3_embed-1.9.1/uv.lock"
+          "template_engine_ia-0.9.3/PKG-INFO",
+          "template_engine_ia-0.9.3/README.md",
+          "template_engine_ia-0.9.3/src/template_engine_ia.egg-info/PKG-INFO"
         ],
-        "value": "https://files.pythonhosted.org/packages/1d/09/adf2df3699d87d1d8184038df46a9c80d78c0148492323f4693df54e17bb/markupsafe-3.0.3-cp311-cp311-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl"
+        "value": "https://www.python.org/downloads/"
       }
     ]
   },
-  "package": "qwen3-embed",
-  "package_slug": "qwen3-embed",
-  "project_url": "https://pypi.org/project/qwen3-embed/",
+  "package": "template-engine-ia",
+  "package_slug": "template-engine-ia",
+  "project_url": "https://pypi.org/project/template-engine-ia/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T13:39:53.763508+00:00",
+  "published_at": "2026-04-27T13:44:56.260006+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T13:41:20.526068+00:00",
-  "title": "Personal PyPI Supply Chain Scan: qwen3-embed 1.9.1",
-  "version": "1.9.1",
-  "version_slug": "1.9.1",
-  "_metadata_path": "reports/packages/qwen3-embed/1.9.1/metadata.json"
+  "scanned_at": "2026-04-27T13:45:42.421333+00:00",
+  "title": "Personal PyPI Supply Chain Scan: template-engine-ia 0.9.3",
+  "version": "0.9.3",
+  "version_slug": "0.9.3",
+  "_metadata_path": "reports/packages/template-engine-ia/0.9.3/metadata.json"
 }
