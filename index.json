@@ -1,6 +1,149 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "superdoc_sdk-1.8.0.dev4.tar.gz",
+    "finding_count": 19,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 3,
+          "files": [
+            "superdoc_sdk-1.8.0.dev4/PKG-INFO",
+            "superdoc_sdk-1.8.0.dev4/README.md",
+            "superdoc_sdk-1.8.0.dev4/superdoc_sdk.egg-info/PKG-INFO"
+          ],
+          "value": "app.example.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "superdoc_sdk-1.8.0.dev4/PKG-INFO",
+            "superdoc_sdk-1.8.0.dev4/README.md",
+            "superdoc_sdk-1.8.0.dev4/superdoc_sdk.egg-info/PKG-INFO"
+          ],
+          "value": "docs.superdoc.dev"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "superdoc_sdk-1.8.0.dev4/PKG-INFO",
+            "superdoc_sdk-1.8.0.dev4/README.md",
+            "superdoc_sdk-1.8.0.dev4/superdoc_sdk.egg-info/PKG-INFO"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "superdoc_sdk-1.8.0.dev4/PKG-INFO",
+            "superdoc_sdk-1.8.0.dev4/README.md",
+            "superdoc_sdk-1.8.0.dev4/superdoc_sdk.egg-info/PKG-INFO"
+          ],
+          "value": "peps.python.org"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "superdoc_sdk-1.8.0.dev4/PKG-INFO",
+            "superdoc_sdk-1.8.0.dev4/README.md",
+            "superdoc_sdk-1.8.0.dev4/superdoc_sdk.egg-info/PKG-INFO"
+          ],
+          "value": "superdoc.dev"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 3,
+          "files": [
+            "superdoc_sdk-1.8.0.dev4/PKG-INFO",
+            "superdoc_sdk-1.8.0.dev4/README.md",
+            "superdoc_sdk-1.8.0.dev4/superdoc_sdk.egg-info/PKG-INFO"
+          ],
+          "value": "https://app.example.com/api/liveblocks-auth"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "superdoc_sdk-1.8.0.dev4/PKG-INFO",
+            "superdoc_sdk-1.8.0.dev4/README.md",
+            "superdoc_sdk-1.8.0.dev4/superdoc_sdk.egg-info/PKG-INFO"
+          ],
+          "value": "https://docs.superdoc.dev/document-api/overview"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "superdoc_sdk-1.8.0.dev4/PKG-INFO",
+            "superdoc_sdk-1.8.0.dev4/README.md",
+            "superdoc_sdk-1.8.0.dev4/superdoc_sdk.egg-info/PKG-INFO"
+          ],
+          "value": "https://docs.superdoc.dev/document-engine/cli"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "superdoc_sdk-1.8.0.dev4/PKG-INFO",
+            "superdoc_sdk-1.8.0.dev4/README.md",
+            "superdoc_sdk-1.8.0.dev4/superdoc_sdk.egg-info/PKG-INFO"
+          ],
+          "value": "https://docs.superdoc.dev/document-engine/sdks#collaboration-sessions"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "superdoc_sdk-1.8.0.dev4/PKG-INFO",
+            "superdoc_sdk-1.8.0.dev4/README.md",
+            "superdoc_sdk-1.8.0.dev4/superdoc_sdk.egg-info/PKG-INFO"
+          ],
+          "value": "https://docs.superdoc.dev/modules/collaboration/overview"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "superdoc_sdk-1.8.0.dev4/PKG-INFO",
+            "superdoc_sdk-1.8.0.dev4/README.md",
+            "superdoc_sdk-1.8.0.dev4/superdoc_sdk.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/superdoc-dev/superdoc"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "superdoc_sdk-1.8.0.dev4/PKG-INFO",
+            "superdoc_sdk-1.8.0.dev4/README.md",
+            "superdoc_sdk-1.8.0.dev4/superdoc_sdk.egg-info/PKG-INFO"
+          ],
+          "value": "https://peps.python.org/pep-0508/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "superdoc_sdk-1.8.0.dev4/PKG-INFO",
+            "superdoc_sdk-1.8.0.dev4/README.md",
+            "superdoc_sdk-1.8.0.dev4/superdoc_sdk.egg-info/PKG-INFO"
+          ],
+          "value": "https://superdoc.dev"
+        }
+      ]
+    },
+    "package": "superdoc-sdk",
+    "package_slug": "superdoc-sdk",
+    "project_url": "https://pypi.org/project/superdoc-sdk/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T18:59:59.896649+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T19:00:44.358994+00:00",
+    "title": "Personal PyPI Supply Chain Scan: superdoc-sdk 1.8.0.dev4",
+    "version": "1.8.0.dev4",
+    "version_slug": "1.8.0.dev4",
+    "_metadata_path": "reports/packages/superdoc-sdk/1.8.0.dev4/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "llm_katan-0.15.1.tar.gz",
     "finding_count": 40,
     "model": "gpt-5.5",
