@@ -1,6 +1,308 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "smartytalent_client-0.1.33.dev17.tar.gz",
+    "finding_count": 1136,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/smartytalent_client/configuration.py"
+          ],
+          "value": "api.dev03-smartymeet.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/smartytalent_client/models/resource_relationships_links_schema.py"
+          ],
+          "value": "api.smartymeet.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/PKG-INFO",
+            "smartytalent_client-0.1.33.dev17/README.md",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client.egg-info/PKG-INFO"
+          ],
+          "value": "api.smartytalent.example.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/PKG-INFO",
+            "smartytalent_client-0.1.33.dev17/README.md",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client.egg-info/PKG-INFO"
+          ],
+          "value": "docs.pydantic.dev"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/smartytalent_client/api_client.py"
+          ],
+          "value": "files.items"
+        },
+        {
+          "file_count": 1256,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/PKG-INFO",
+            "smartytalent_client-0.1.33.dev17/pyproject.toml",
+            "smartytalent_client-0.1.33.dev17/setup.py",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client.egg-info/PKG-INFO",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client/__init__.py",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client/api/actions_api.py",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client/api/ads_api.py",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client/api/aggregates_api.py"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/PKG-INFO",
+            "smartytalent_client-0.1.33.dev17/README.md",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client.egg-info/PKG-INFO"
+          ],
+          "value": "img.shields.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/pyproject.toml"
+          ],
+          "value": "mypy.readthedocs.io"
+        },
+        {
+          "file_count": 1256,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/PKG-INFO",
+            "smartytalent_client-0.1.33.dev17/README.md",
+            "smartytalent_client-0.1.33.dev17/setup.py",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client.egg-info/PKG-INFO",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client/__init__.py",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client/api/actions_api.py",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client/api/ads_api.py",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client/api/aggregates_api.py"
+          ],
+          "value": "openapi-generator.tech"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/PKG-INFO",
+            "smartytalent_client-0.1.33.dev17/README.md",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client.egg-info/PKG-INFO"
+          ],
+          "value": "pypi.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/setup.py"
+          ],
+          "value": "pypi.python.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/smartytalent_client/rest.py"
+          ],
+          "value": "urllib3.readthedocs.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/LICENSE"
+          ],
+          "value": "www.apache.org"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/setup.py"
+          ],
+          "value": "http://pypi.python.org/pypi/setuptools"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/smartytalent_client/rest.py"
+          ],
+          "value": "http://urllib3.readthedocs.io/en/latest/advanced-usage.html"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/LICENSE"
+          ],
+          "value": "http://www.apache.org/licenses/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/LICENSE"
+          ],
+          "value": "http://www.apache.org/licenses/LICENSE-2.0"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/smartytalent_client/configuration.py"
+          ],
+          "value": "https://api.dev03-smartymeet.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/smartytalent_client/models/resource_relationships_links_schema.py"
+          ],
+          "value": "https://api.smartymeet.com/{version"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/PKG-INFO",
+            "smartytalent_client-0.1.33.dev17/README.md",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client.egg-info/PKG-INFO"
+          ],
+          "value": "https://api.smartytalent.example.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/PKG-INFO",
+            "smartytalent_client-0.1.33.dev17/README.md",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client.egg-info/PKG-INFO"
+          ],
+          "value": "https://docs.pydantic.dev/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/PKG-INFO",
+            "smartytalent_client-0.1.33.dev17/pyproject.toml",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/GIT_USER_ID/GIT_REPO_ID"
+        },
+        {
+          "file_count": 1253,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/setup.py",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client/__init__.py",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client/api/actions_api.py",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client/api/ads_api.py",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client/api/aggregates_api.py",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client/api/apikeys_api.py",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client/api/assessments_api.py",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client/api/briefs_api.py"
+          ],
+          "value": "https://github.com/openapitools/openapi-generator"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/smartytalent_client/rest.py"
+          ],
+          "value": "https://github.com/shazow/urllib3/blob/f9409436f83aeb79fbaf090181cd81b784f1b8ce/urllib3/connectionpool.py#L680"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/smartytalent_client/rest.py"
+          ],
+          "value": "https://github.com/shazow/urllib3/blob/f9409436f83aeb79fbaf090181cd81b784f1b8ce/urllib3/poolmanager.py#L75"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/PKG-INFO",
+            "smartytalent_client-0.1.33.dev17/README.md",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/pypi/dm/smartytalent-client.svg"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/PKG-INFO",
+            "smartytalent_client-0.1.33.dev17/README.md",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/pypi/pyversions/smartytalent-client.svg"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/PKG-INFO",
+            "smartytalent_client-0.1.33.dev17/README.md",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/pypi/v/smartytalent-client.svg"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/pyproject.toml"
+          ],
+          "value": "https://mypy.readthedocs.io/en/stable/existing_code.html#introduce-stricter-options"
+        },
+        {
+          "file_count": 1253,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/setup.py",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client/__init__.py",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client/api/actions_api.py",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client/api/ads_api.py",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client/api/aggregates_api.py",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client/api/apikeys_api.py",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client/api/assessments_api.py",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client/api/briefs_api.py"
+          ],
+          "value": "https://openapi-generator.tech"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/PKG-INFO",
+            "smartytalent_client-0.1.33.dev17/README.md",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client.egg-info/PKG-INFO"
+          ],
+          "value": "https://openapi-generator.tech/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "smartytalent_client-0.1.33.dev17/PKG-INFO",
+            "smartytalent_client-0.1.33.dev17/README.md",
+            "smartytalent_client-0.1.33.dev17/smartytalent_client.egg-info/PKG-INFO"
+          ],
+          "value": "https://pypi.org/project/smartytalent-client/"
+        }
+      ]
+    },
+    "package": "smartytalent-client",
+    "package_slug": "smartytalent-client",
+    "project_url": "https://pypi.org/project/smartytalent-client/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T18:16:40.909410+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T18:17:17.319093+00:00",
+    "title": "Personal PyPI Supply Chain Scan: smartytalent-client 0.1.33.dev17",
+    "version": "0.1.33.dev17",
+    "version_slug": "0.1.33.dev17",
+    "_metadata_path": "reports/packages/smartytalent-client/0.1.33.dev17/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "recruit_crm_mcp-0.16.1.tar.gz",
     "finding_count": 1837,
     "model": "gpt-5.5",

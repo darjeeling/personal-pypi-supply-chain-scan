@@ -1,1106 +1,302 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "recruit_crm_mcp-0.16.1.tar.gz",
-  "finding_count": 1837,
+  "distribution": "smartytalent_client-0.1.33.dev17.tar.gz",
+  "finding_count": 1136,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
         "file_count": 1,
         "files": [
-          "recruit_crm_mcp-0.16.1/.gitignore"
+          "smartytalent_client-0.1.33.dev17/smartytalent_client/configuration.py"
         ],
-        "value": "abstra.io"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "recruit_crm_mcp-0.16.1/tests/unit/test_models.py",
-          "recruit_crm_mcp-0.16.1/tests/unit/test_server.py"
-        ],
-        "value": "acme.com"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/rescrape.py",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/retry.py",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/save_manual.py",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/scrape.py"
-        ],
-        "value": "api.firecrawl.dev"
-      },
-      {
-        "file_count": 192,
-        "files": [
-          "recruit_crm_mcp-0.16.1/CLAUDE.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/README.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/build_readme.py",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/rescrape.py",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/save_manual.py",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/tidy.py",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/add-education-history.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/add-records-to-hotlist.md"
-        ],
-        "value": "api.recruitcrm.io"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/README.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/build_readme.py"
-        ],
-        "value": "api.recruitcrm.io`"
+        "value": "api.dev03-smartymeet.com"
       },
       {
         "file_count": 1,
         "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/authentication.md"
+          "smartytalent_client-0.1.33.dev17/smartytalent_client/models/resource_relationships_links_schema.py"
         ],
-        "value": "app.recruitcrm.io"
+        "value": "api.smartymeet.com"
       },
       {
         "file_count": 3,
         "files": [
-          "recruit_crm_mcp-0.16.1/install.ps1",
-          "recruit_crm_mcp-0.16.1/install.sh",
-          "recruit_crm_mcp-0.16.1/src/recruit_crm_mcp/install.py"
+          "smartytalent_client-0.1.33.dev17/PKG-INFO",
+          "smartytalent_client-0.1.33.dev17/README.md",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client.egg-info/PKG-INFO"
         ],
-        "value": "astral.sh"
+        "value": "api.smartytalent.example.com"
       },
       {
         "file_count": 3,
         "files": [
-          "recruit_crm_mcp-0.16.1/tests/unit/test_client.py",
-          "recruit_crm_mcp-0.16.1/tests/unit/test_models.py",
-          "recruit_crm_mcp-0.16.1/tests/unit/test_server.py"
+          "smartytalent_client-0.1.33.dev17/PKG-INFO",
+          "smartytalent_client-0.1.33.dev17/README.md",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client.egg-info/PKG-INFO"
         ],
-        "value": "cdn"
+        "value": "docs.pydantic.dev"
       },
       {
         "file_count": 1,
         "files": [
-          "recruit_crm_mcp-0.16.1/WINDOWS_PREDEPLOY.md"
+          "smartytalent_client-0.1.33.dev17/smartytalent_client/api_client.py"
         ],
-        "value": "claude.ai"
+        "value": "files.items"
       },
       {
-        "file_count": 1,
+        "file_count": 1256,
         "files": [
-          "recruit_crm_mcp-0.16.1/src/recruit_crm_mcp/install.py"
-        ],
-        "value": "docs.astral.sh"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/.gitignore"
-        ],
-        "value": "docs.cursor.com"
-      },
-      {
-        "file_count": 195,
-        "files": [
-          "recruit_crm_mcp-0.16.1/CLAUDE.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/README.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/build_readme.py",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/failed.txt",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/rescrape_urls.txt",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/retry_urls.txt",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/save_manual.py",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/todo_urls.txt"
-        ],
-        "value": "docs.recruitcrm.io"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "recruit_crm_mcp-0.16.1/tests/integration/test_api.py",
-          "recruit_crm_mcp-0.16.1/tests/integration/test_update_roundtrips.py"
-        ],
-        "value": "example.invalid"
-      },
-      {
-        "file_count": 5,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-meeting.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-meeting.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/find-meeting-by-id.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/search-for-meetings.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-meetings.md"
-        ],
-        "value": "examplelink"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-company.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-company.md"
-        ],
-        "value": "facebook.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/uv.lock"
-        ],
-        "value": "files.pythonhosted.org"
-      },
-      {
-        "file_count": 6,
-        "files": [
-          "recruit_crm_mcp-0.16.1/.claude/skills/linear-cli/commands.md",
-          "recruit_crm_mcp-0.16.1/.gitignore",
-          "recruit_crm_mcp-0.16.1/CHANGELOG.md",
-          "recruit_crm_mcp-0.16.1/PKG-INFO",
-          "recruit_crm_mcp-0.16.1/README.md",
-          "recruit_crm_mcp-0.16.1/pyproject.toml"
+          "smartytalent_client-0.1.33.dev17/PKG-INFO",
+          "smartytalent_client-0.1.33.dev17/pyproject.toml",
+          "smartytalent_client-0.1.33.dev17/setup.py",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client.egg-info/PKG-INFO",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client/__init__.py",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client/api/actions_api.py",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client/api/ads_api.py",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client/api/aggregates_api.py"
         ],
         "value": "github.com"
       },
       {
-        "file_count": 2,
+        "file_count": 3,
         "files": [
-          "recruit_crm_mcp-0.16.1/tests/integration/test_update_roundtrips.py",
-          "recruit_crm_mcp-0.16.1/tests/unit/test_models.py"
+          "smartytalent_client-0.1.33.dev17/PKG-INFO",
+          "smartytalent_client-0.1.33.dev17/README.md",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client.egg-info/PKG-INFO"
         ],
-        "value": "linkedin.com"
+        "value": "img.shields.io"
       },
       {
         "file_count": 1,
         "files": [
-          "recruit_crm_mcp-0.16.1/.gitignore"
+          "smartytalent_client-0.1.33.dev17/pyproject.toml"
         ],
-        "value": "pdm-project.org"
+        "value": "mypy.readthedocs.io"
       },
       {
-        "file_count": 2,
+        "file_count": 1256,
         "files": [
-          "recruit_crm_mcp-0.16.1/WINDOWS_PREDEPLOY.md",
-          "recruit_crm_mcp-0.16.1/uv.lock"
+          "smartytalent_client-0.1.33.dev17/PKG-INFO",
+          "smartytalent_client-0.1.33.dev17/README.md",
+          "smartytalent_client-0.1.33.dev17/setup.py",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client.egg-info/PKG-INFO",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client/__init__.py",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client/api/actions_api.py",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client/api/ads_api.py",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client/api/aggregates_api.py"
+        ],
+        "value": "openapi-generator.tech"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "smartytalent_client-0.1.33.dev17/PKG-INFO",
+          "smartytalent_client-0.1.33.dev17/README.md",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client.egg-info/PKG-INFO"
         ],
         "value": "pypi.org"
       },
       {
         "file_count": 1,
         "files": [
-          "recruit_crm_mcp-0.16.1/.gitignore"
+          "smartytalent_client-0.1.33.dev17/setup.py"
         ],
-        "value": "python-poetry.org"
+        "value": "pypi.python.org"
       },
       {
         "file_count": 1,
         "files": [
-          "recruit_crm_mcp-0.16.1/uv.lock"
+          "smartytalent_client-0.1.33.dev17/smartytalent_client/rest.py"
         ],
-        "value": "pywin32-ctypes-0.2.3.tar.gz"
-      },
-      {
-        "file_count": 5,
-        "files": [
-          "recruit_crm_mcp-0.16.1/CHANGELOG.md",
-          "recruit_crm_mcp-0.16.1/PKG-INFO",
-          "recruit_crm_mcp-0.16.1/README.md",
-          "recruit_crm_mcp-0.16.1/install.ps1",
-          "recruit_crm_mcp-0.16.1/install.sh"
-        ],
-        "value": "raw.githubusercontent.com"
-      },
-      {
-        "file_count": 7,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/apply-to-job.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/assign-candidate.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/hiring-stage-of-candidate-for-job.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/hiring-stages-of-candidate.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/request-updated-profile.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/update-candidate-hiring-stage.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/update-candidate-visibility-in-a-job.md"
-        ],
-        "value": "recruitcrm.io"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-subscription.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-subscription.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/find-subscription-by-id.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-subscriptions.md"
-        ],
-        "value": "someurl"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-subscription.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-subscription.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/find-subscription-by-id.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-subscriptions.md"
-        ],
-        "value": "someurl`"
+        "value": "urllib3.readthedocs.io"
       },
       {
         "file_count": 1,
         "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/apply-to-job.md"
-        ],
-        "value": "ss4web.recruitcrm.io"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/recruit-crm-api.md",
-          "recruit_crm_mcp-0.16.1/scripts/fetch_api_docs.py"
-        ],
-        "value": "stoplight.io"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/recruit-crm-api.md"
+          "smartytalent_client-0.1.33.dev17/LICENSE"
         ],
         "value": "www.apache.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/.githooks/commit-msg"
-        ],
-        "value": "www.conventionalcommits.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-company.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-company.md"
-        ],
-        "value": "www.example.com"
-      },
-      {
-        "file_count": 34,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/assigned-candidates-for-job.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-candidate.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-company.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-job.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-meeting.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-candidate.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-company.md"
-        ],
-        "value": "www.facebook.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/tests/integration/test_api.py"
-        ],
-        "value": "www.gnu.org"
-      },
-      {
-        "file_count": 34,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/assigned-candidates-for-job.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-candidate.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-company.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-job.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-meeting.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-candidate.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-company.md"
-        ],
-        "value": "www.linkedin.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/src/recruit_crm_mcp/client.py"
-        ],
-        "value": "www.python-httpx.org"
-      },
-      {
-        "file_count": 9,
-        "files": [
-          "recruit_crm_mcp-0.16.1/PKG-INFO",
-          "recruit_crm_mcp-0.16.1/README.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-company.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-job.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-company.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/find-company-by-slug.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/get-list-of-companies-which-are-marked-as-off-limit.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/search-for-companies.md"
-        ],
-        "value": "www.recruitcrm.io"
-      },
-      {
-        "file_count": 7,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-company.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-job.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-company.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/find-company-by-slug.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/get-list-of-companies-which-are-marked-as-off-limit.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/search-for-companies.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-companies.md"
-        ],
-        "value": "www.recruitcrm.io`"
-      },
-      {
-        "file_count": 34,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/assigned-candidates-for-job.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-candidate.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-company.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-job.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-meeting.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-candidate.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-company.md"
-        ],
-        "value": "www.twitter.com"
-      },
-      {
-        "file_count": 10,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-job.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/enroll-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/find-contact-by-slug.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/get-list-of-contacts-which-are-marked-as-off-limit.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/search-for-contacts.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/search-for-enrollments.md"
-        ],
-        "value": "www.xing.com"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "recruit_crm_mcp-0.16.1/tests/mcp/test_write_tools.py",
-          "recruit_crm_mcp-0.16.1/tests/unit/test_server.py"
-        ],
-        "value": "x"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/tests/unit/test_client.py"
-        ],
-        "value": "x.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/tests/unit/test_server.py"
-        ],
-        "value": "x.y"
       }
     ],
     "raw_public_ips": [],
-    "suspicious_endpoints": [
-      {
-        "file_count": 3,
-        "files": [
-          "recruit_crm_mcp-0.16.1/PKG-INFO",
-          "recruit_crm_mcp-0.16.1/README.md",
-          "recruit_crm_mcp-0.16.1/install.ps1"
-        ],
-        "value": "https://raw.githubusercontent.com/ebragas/recruitcrm-mcp/main/install.ps1"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "recruit_crm_mcp-0.16.1/CHANGELOG.md",
-          "recruit_crm_mcp-0.16.1/PKG-INFO",
-          "recruit_crm_mcp-0.16.1/README.md",
-          "recruit_crm_mcp-0.16.1/install.sh"
-        ],
-        "value": "https://raw.githubusercontent.com/ebragas/recruitcrm-mcp/main/install.sh"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/uv.lock"
-        ],
-        "value": "pywin32-ctypes-0.2.3.tar.gz"
-      },
-      {
-        "file_count": 5,
-        "files": [
-          "recruit_crm_mcp-0.16.1/CHANGELOG.md",
-          "recruit_crm_mcp-0.16.1/PKG-INFO",
-          "recruit_crm_mcp-0.16.1/README.md",
-          "recruit_crm_mcp-0.16.1/install.ps1",
-          "recruit_crm_mcp-0.16.1/install.sh"
-        ],
-        "value": "raw.githubusercontent.com"
-      }
-    ],
+    "suspicious_endpoints": [],
     "urls": [
       {
         "file_count": 1,
         "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/request-updated-profile.md"
+          "smartytalent_client-0.1.33.dev17/setup.py"
         ],
-        "value": "http://recruitcrm.io/update\\_resume\\_link/rcrm\\_25627`"
+        "value": "http://pypi.python.org/pypi/setuptools"
       },
       {
         "file_count": 1,
         "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/request-updated-profile.md"
+          "smartytalent_client-0.1.33.dev17/smartytalent_client/rest.py"
         ],
-        "value": "http://recruitcrm.io/update_resume_link/rcrm_25627"
+        "value": "http://urllib3.readthedocs.io/en/latest/advanced-usage.html"
       },
       {
         "file_count": 1,
         "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/recruit-crm-api.md"
+          "smartytalent_client-0.1.33.dev17/LICENSE"
         ],
-        "value": "http://www.apache.org/licenses/LICENSE-2.0.html"
-      },
-      {
-        "file_count": 27,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/assigned-candidates-for-job.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-candidate.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-job.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-meeting.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-candidate.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-meeting.md"
-        ],
-        "value": "http://www.facebook.com/michael4"
-      },
-      {
-        "file_count": 21,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-candidate.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-job.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-candidate.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/enroll-candidate.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/enroll-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/find-candidate-by-slug.md"
-        ],
-        "value": "http://www.facebook.com/michael4`"
-      },
-      {
-        "file_count": 27,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/assigned-candidates-for-job.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-candidate.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-job.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-meeting.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-candidate.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-meeting.md"
-        ],
-        "value": "http://www.linkedin.com/michael4"
-      },
-      {
-        "file_count": 21,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-candidate.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-job.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-candidate.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/enroll-candidate.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/enroll-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/find-candidate-by-slug.md"
-        ],
-        "value": "http://www.linkedin.com/michael4`"
-      },
-      {
-        "file_count": 27,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/assigned-candidates-for-job.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-candidate.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-job.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-meeting.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-candidate.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-meeting.md"
-        ],
-        "value": "http://www.twitter.com/michael4"
-      },
-      {
-        "file_count": 21,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-candidate.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-job.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-candidate.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/enroll-candidate.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/enroll-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/find-candidate-by-slug.md"
-        ],
-        "value": "http://www.twitter.com/michael4`"
-      },
-      {
-        "file_count": 10,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-job.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/enroll-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/find-contact-by-slug.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/get-list-of-contacts-which-are-marked-as-off-limit.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/search-for-contacts.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/search-for-enrollments.md"
-        ],
-        "value": "http://www.xing.com/xyz"
-      },
-      {
-        "file_count": 9,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-job.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/enroll-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/find-contact-by-slug.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/get-list-of-contacts-which-are-marked-as-off-limit.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/search-for-contacts.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-contacts.md"
-        ],
-        "value": "http://www.xing.com/xyz`"
+        "value": "http://www.apache.org/licenses/"
       },
       {
         "file_count": 1,
         "files": [
-          "recruit_crm_mcp-0.16.1/tests/unit/test_client.py"
+          "smartytalent_client-0.1.33.dev17/LICENSE"
         ],
-        "value": "https://"
+        "value": "http://www.apache.org/licenses/LICENSE-2.0"
       },
       {
         "file_count": 1,
         "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/tidy.py"
+          "smartytalent_client-0.1.33.dev17/smartytalent_client/configuration.py"
         ],
-        "value": "https://.../#Request"
+        "value": "https://api.dev03-smartymeet.com"
       },
       {
         "file_count": 1,
         "files": [
-          "recruit_crm_mcp-0.16.1/.gitignore"
+          "smartytalent_client-0.1.33.dev17/smartytalent_client/models/resource_relationships_links_schema.py"
         ],
-        "value": "https://abstra.io/docs"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "recruit_crm_mcp-0.16.1/tests/unit/test_models.py",
-          "recruit_crm_mcp-0.16.1/tests/unit/test_server.py"
-        ],
-        "value": "https://acme.com"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/rescrape.py",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/retry.py",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/save_manual.py",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/scrape.py"
-        ],
-        "value": "https://api.firecrawl.dev/v1/scrape"
+        "value": "https://api.smartymeet.com/{version"
       },
       {
         "file_count": 3,
         "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/_work/tidy.py",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/getting-started.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/recruit-crm-api.md"
+          "smartytalent_client-0.1.33.dev17/PKG-INFO",
+          "smartytalent_client-0.1.33.dev17/README.md",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client.egg-info/PKG-INFO"
         ],
-        "value": "https://api.recruitcrm.io"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/getting-started.md"
-        ],
-        "value": "https://api.recruitcrm.io/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/src/recruit_crm_mcp/client.py"
-        ],
-        "value": "https://api.recruitcrm.io/v1"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-call-log.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-call-logs.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/call-logs"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/upload-call-recordings.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/call-logs/get-recording-status/%7Bcall_log%7D"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/upload-call-recordings.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/call-logs/get-recording-status/{call\\_log"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/get-call-recording-upload-status.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/call-logs/get-recording-status/{call_log"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/search-for-call-logs.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/call-logs/search"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/upload-call-recordings.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/call-logs/upload-call-recording"
+        "value": "https://api.smartytalent.example.com"
       },
       {
         "file_count": 3,
         "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/delete-a-call-log.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-call-log.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/find-call-log-by-id.md"
+          "smartytalent_client-0.1.33.dev17/PKG-INFO",
+          "smartytalent_client-0.1.33.dev17/README.md",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client.egg-info/PKG-INFO"
         ],
-        "value": "https://api.recruitcrm.io/v1/call-logs/{call_log"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/get-candidate-questions.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/candidate-questions"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-candidate.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-candidates.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/candidates"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/get-job-associated-fields.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/update-job-associated-fields.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/candidates/associated-field/{candidate"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/add-education-history.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/candidates/education-history/create"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/delete-a-candidate-education-history.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-education-history.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/candidates/education-history/{educationId"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/resume-parser.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/candidates/example/resume/token"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/mark-candidate-as-available.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/candidates/mark-as-available"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/mark-candidate-as-off-limit.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/candidates/mark-off-limit"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/get-list-of-candidates-which-are-marked-as-off-limit.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/candidates/off-limit"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/get-profile-update-request-form.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/candidates/profile-update-request-form"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/question-and-answers-of-candidate-for-job.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/question-and-answers-of-candidate.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/update-candidate-answers-for-the-questions-for-a-job.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/update-candidate-answers-for-the-questions.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/candidates/question-and-answers/{candidate"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/resume-parser.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/candidates/resume-parser"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/search-for-candidates.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/candidates/search"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/add-work-experience.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/candidates/work-history/create"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/delete-a-candidate-work-experience.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-work-experience.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/candidates/work-history/{workId"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/scripts/smoke.py"
-        ],
-        "value": "https://api.recruitcrm.io/v1/candidates/{cand_slug"
-      },
-      {
-        "file_count": 17,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/apply-to-job.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/assign-candidate.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/candidate-education-history.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/candidate-history.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/candidate-work-experience.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/delete-a-candidate.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-candidate.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/enroll-candidate.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/candidates/{candidate"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/get-collaborators.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/collaborators"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-company.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-companies.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/companies"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/mark-companies-as-available.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/companies/mark-as-available"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/mark-companies-as-off-limit.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/companies/mark-off-limit"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/get-list-of-companies-which-are-marked-as-off-limit.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/companies/off-limit"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/search-for-companies.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/companies/search"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/delete-a-company.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-company.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/find-company-by-slug.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/off-limit-history-for-company.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/companies/{company"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-contacts.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/contacts"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/mark-contacts-as-available.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/contacts/mark-as-available"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/mark-contacts-as-off-limit.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/contacts/mark-off-limit"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/get-list-of-contacts-which-are-marked-as-off-limit.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/contacts/off-limit"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/search-for-contacts.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/contacts/search"
-      },
-      {
-        "file_count": 6,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/delete-a-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/enroll-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/find-contact-by-slug.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/off-limit-history-for-contact.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/unenroll-contact.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/contacts/{contact"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/get-currencies.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/currencies"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/get-call-types.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/custom-call-types"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-custom-fields.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/custom-fields"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-candidate-custom-fields.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/custom-fields/candidates"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-company-custom-fields.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/custom-fields/companies"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-contact-custom-fields.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/custom-fields/contacts"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-deal-custom-fields.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/custom-fields/deals"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-invoice-custom-fields.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/custom-fields/invoices"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-job-associated-custom-fields.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/custom-fields/job-associated"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-job-custom-fields.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/custom-fields/jobs"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-placement-associated-custom-fields.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/custom-fields/placements"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/creates-a-new-deal.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/show-all-deals.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/deals"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/get-deals-stages.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/deals-pipeline"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/search-for-deals.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/deals/search"
+        "value": "https://docs.pydantic.dev/"
       },
       {
         "file_count": 3,
         "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/delete-a-deal.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/edit-a-deal.md",
-          "recruit_crm_mcp-0.16.1/docs/api-reference/find-deal-by-slug.md"
+          "smartytalent_client-0.1.33.dev17/PKG-INFO",
+          "smartytalent_client-0.1.33.dev17/pyproject.toml",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client.egg-info/PKG-INFO"
         ],
-        "value": "https://api.recruitcrm.io/v1/deals/{deal"
+        "value": "https://github.com/GIT_USER_ID/GIT_REPO_ID"
+      },
+      {
+        "file_count": 1253,
+        "files": [
+          "smartytalent_client-0.1.33.dev17/setup.py",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client/__init__.py",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client/api/actions_api.py",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client/api/ads_api.py",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client/api/aggregates_api.py",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client/api/apikeys_api.py",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client/api/assessments_api.py",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client/api/briefs_api.py"
+        ],
+        "value": "https://github.com/openapitools/openapi-generator"
       },
       {
         "file_count": 1,
         "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/create-email-draft.md"
+          "smartytalent_client-0.1.33.dev17/smartytalent_client/rest.py"
         ],
-        "value": "https://api.recruitcrm.io/v1/drafts"
+        "value": "https://github.com/shazow/urllib3/blob/f9409436f83aeb79fbaf090181cd81b784f1b8ce/urllib3/connectionpool.py#L680"
       },
       {
         "file_count": 1,
         "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/draft-email-status.md"
+          "smartytalent_client-0.1.33.dev17/smartytalent_client/rest.py"
         ],
-        "value": "https://api.recruitcrm.io/v1/drafts/status/{draft_status_id"
+        "value": "https://github.com/shazow/urllib3/blob/f9409436f83aeb79fbaf090181cd81b784f1b8ce/urllib3/poolmanager.py#L75"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "smartytalent_client-0.1.33.dev17/PKG-INFO",
+          "smartytalent_client-0.1.33.dev17/README.md",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/pypi/dm/smartytalent-client.svg"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "smartytalent_client-0.1.33.dev17/PKG-INFO",
+          "smartytalent_client-0.1.33.dev17/README.md",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/pypi/pyversions/smartytalent-client.svg"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "smartytalent_client-0.1.33.dev17/PKG-INFO",
+          "smartytalent_client-0.1.33.dev17/README.md",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/pypi/v/smartytalent-client.svg"
       },
       {
         "file_count": 1,
         "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/search-for-sequences.md"
+          "smartytalent_client-0.1.33.dev17/pyproject.toml"
         ],
-        "value": "https://api.recruitcrm.io/v1/email-sequences/search"
+        "value": "https://mypy.readthedocs.io/en/stable/existing_code.html#introduce-stricter-options"
       },
       {
-        "file_count": 1,
+        "file_count": 1253,
         "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/update-opted-out-status.md"
+          "smartytalent_client-0.1.33.dev17/setup.py",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client/__init__.py",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client/api/actions_api.py",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client/api/ads_api.py",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client/api/aggregates_api.py",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client/api/apikeys_api.py",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client/api/assessments_api.py",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client/api/briefs_api.py"
         ],
-        "value": "https://api.recruitcrm.io/v1/email/opt-out/status"
+        "value": "https://openapi-generator.tech"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/opted-out-entities.md"
+          "smartytalent_client-0.1.33.dev17/PKG-INFO",
+          "smartytalent_client-0.1.33.dev17/README.md",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client.egg-info/PKG-INFO"
         ],
-        "value": "https://api.recruitcrm.io/v1/email/opted-out?related_to_type=candidate"
+        "value": "https://openapi-generator.tech/"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/send-an-email.md"
+          "smartytalent_client-0.1.33.dev17/PKG-INFO",
+          "smartytalent_client-0.1.33.dev17/README.md",
+          "smartytalent_client-0.1.33.dev17/smartytalent_client.egg-info/PKG-INFO"
         ],
-        "value": "https://api.recruitcrm.io/v1/emails"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/sent-email-status.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/emails/status/{email_status_id"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/get-all-enrollment-statuses.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/enrollment-statuses"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "recruit_crm_mcp-0.16.1/docs/api-reference/search-for-enrollments.md"
-        ],
-        "value": "https://api.recruitcrm.io/v1/enrollments/search"
+        "value": "https://pypi.org/project/smartytalent-client/"
       }
     ]
   },
-  "package": "recruit-crm-mcp",
-  "package_slug": "recruit-crm-mcp",
-  "project_url": "https://pypi.org/project/recruit-crm-mcp/",
+  "package": "smartytalent-client",
+  "package_slug": "smartytalent-client",
+  "project_url": "https://pypi.org/project/smartytalent-client/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T18:11:55.665728+00:00",
+  "published_at": "2026-04-27T18:16:40.909410+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T18:12:54.948951+00:00",
-  "title": "Personal PyPI Supply Chain Scan: recruit-crm-mcp 0.16.1",
-  "version": "0.16.1",
-  "version_slug": "0.16.1",
-  "_metadata_path": "reports/packages/recruit-crm-mcp/0.16.1/metadata.json"
+  "scanned_at": "2026-04-27T18:17:17.319093+00:00",
+  "title": "Personal PyPI Supply Chain Scan: smartytalent-client 0.1.33.dev17",
+  "version": "0.1.33.dev17",
+  "version_slug": "0.1.33.dev17",
+  "_metadata_path": "reports/packages/smartytalent-client/0.1.33.dev17/metadata.json"
 }
