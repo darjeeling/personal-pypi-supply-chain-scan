@@ -1,6 +1,315 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "aquin-0.6.5.tar.gz",
+    "finding_count": 102,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 3,
+          "files": [
+            "aquin-0.6.5/aquin/inspect.py",
+            "aquin-0.6.5/aquin/inspect_cli.py",
+            "aquin-0.6.5/aquin/sdk.py"
+          ],
+          "value": "api.aquin.app"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "aquin-0.6.5/PKG-INFO",
+            "aquin-0.6.5/README.md",
+            "aquin-0.6.5/aquin/server/server.py",
+            "aquin-0.6.5/pyproject.toml"
+          ],
+          "value": "aquin.app"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aquin-0.6.5/aquin/server/server.py"
+          ],
+          "value": "aquinlabs.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aquin-0.6.5/aquin/server/data-backend/copyright_risk.py"
+          ],
+          "value": "bitbucket.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aquin-0.6.5/aquin/inspect.py"
+          ],
+          "value": "developers.cloudflare.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aquin-0.6.5/aquin/inspect.py",
+            "aquin-0.6.5/aquin/server/data-backend/copyright_risk.py",
+            "aquin-0.6.5/aquin/server/data-backend/optout.py"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aquin-0.6.5/aquin/server/data-backend/copyright_risk.py"
+          ],
+          "value": "gitlab.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aquin-0.6.5/.gitignore"
+          ],
+          "value": "help.github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aquin-0.6.5/aquin/server/data-backend/provenance.py"
+          ],
+          "value": "huggingface.co"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aquin-0.6.5/aquin/server/data-backend/optout.py"
+          ],
+          "value": "opts.api.spawning.ai"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "aquin-0.6.5/aquin/server/data-backend/copyright_risk.py",
+            "aquin-0.6.5/aquin/server/data-backend/text_quality.py"
+          ],
+          "value": "raw.lower"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aquin-0.6.5/aquin/server/interp_score.py"
+          ],
+          "value": "raw.split"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aquin-0.6.5/aquin/server/interp_score.py"
+          ],
+          "value": "raw.strip"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aquin-0.6.5/aquin/server/data-backend/dataset_loader.py"
+          ],
+          "value": "raw.take"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aquin-0.6.5/aquin/server/causal_trace.py"
+          ],
+          "value": "raw.values"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aquin-0.6.5/aquin/server/server.py"
+          ],
+          "value": "www.aquin.app"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aquin-0.6.5/aquin/server/server.py"
+          ],
+          "value": "www.aquinlabs.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "aquin-0.6.5/aquin/server/feature_analysis.py",
+            "aquin-0.6.5/aquin/server/test_sae_sources.py"
+          ],
+          "value": "www.neuronpedia.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aquin-0.6.5/aquin/server/data-backend/optout.py"
+          ],
+          "value": "{domain"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aquin-0.6.5/aquin/serve.py"
+          ],
+          "value": "{host"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "aquin-0.6.5/aquin/serve.py"
+          ],
+          "value": "http://{host"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aquin-0.6.5/aquin/inspect.py",
+            "aquin-0.6.5/aquin/inspect_cli.py",
+            "aquin-0.6.5/aquin/sdk.py"
+          ],
+          "value": "https://api.aquin.app"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "aquin-0.6.5/PKG-INFO",
+            "aquin-0.6.5/README.md",
+            "aquin-0.6.5/aquin/server/server.py",
+            "aquin-0.6.5/pyproject.toml"
+          ],
+          "value": "https://aquin.app"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "aquin-0.6.5/PKG-INFO",
+            "aquin-0.6.5/README.md"
+          ],
+          "value": "https://aquin.app/app"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aquin-0.6.5/PKG-INFO",
+            "aquin-0.6.5/README.md",
+            "aquin-0.6.5/pyproject.toml"
+          ],
+          "value": "https://aquin.app/docs"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aquin-0.6.5/aquin/server/server.py"
+          ],
+          "value": "https://aquinlabs.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aquin-0.6.5/aquin/inspect.py"
+          ],
+          "value": "https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/downloads/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aquin-0.6.5/aquin/inspect.py"
+          ],
+          "value": "https://github.com/cloudflare/cloudflared/releases/latest/download/{fname"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aquin-0.6.5/.gitignore"
+          ],
+          "value": "https://help.github.com/articles/ignoring-files/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aquin-0.6.5/aquin/server/data-backend/provenance.py"
+          ],
+          "value": "https://huggingface.co/api/datasets/{req.hf_id"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aquin-0.6.5/aquin/server/data-backend/provenance.py"
+          ],
+          "value": "https://huggingface.co/datasets/{req.hf_id"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aquin-0.6.5/aquin/server/data-backend/optout.py"
+          ],
+          "value": "https://opts.api.spawning.ai/opts-api/dataset"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aquin-0.6.5/aquin/server/data-backend/optout.py"
+          ],
+          "value": "https://opts.api.spawning.ai/opts-api/urls"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aquin-0.6.5/aquin/server/server.py"
+          ],
+          "value": "https://www.aquin.app"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aquin-0.6.5/aquin/server/server.py"
+          ],
+          "value": "https://www.aquinlabs.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aquin-0.6.5/aquin/server/test_sae_sources.py"
+          ],
+          "value": "https://www.neuronpedia.org/api"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aquin-0.6.5/aquin/server/feature_analysis.py"
+          ],
+          "value": "https://www.neuronpedia.org/api/feature/{slug"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aquin-0.6.5/aquin/server/data-backend/optout.py"
+          ],
+          "value": "https://{domain"
+        }
+      ]
+    },
+    "package": "aquin",
+    "package_slug": "aquin",
+    "project_url": "https://pypi.org/project/aquin/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T10:35:56.703979+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T10:37:16.040983+00:00",
+    "title": "Personal PyPI Supply Chain Scan: aquin 0.6.5",
+    "version": "0.6.5",
+    "version_slug": "0.6.5",
+    "_metadata_path": "reports/packages/aquin/0.6.5/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "pyssertive-0.6.0.tar.gz",
     "finding_count": 14,
     "model": "gpt-5.5",
