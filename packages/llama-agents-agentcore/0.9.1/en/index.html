@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal PyPI Supply Chain Scan: llama-agents-agentcore 0.9.1</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 960px; line-height: 1.55; padding: 0 1rem; color: #1f2933; }
+    a { color: #1f5fbf; }
+    code { background: #f4f4f4; padding: 0.1rem 0.25rem; }
+    h1, h2, h3 { line-height: 1.2; }
+    li { margin: 0.35rem 0; }
+    nav { margin-bottom: 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #e5e9ef; padding: 0.55rem 0.65rem; text-align: left; vertical-align: top; }
+    th { color: #52616f; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; }
+    .scan-groups { margin-top: 1.2rem; }
+    .scan-day { border-top: 1px solid #d8dee4; display: grid; gap: 1rem; grid-template-columns: 10rem minmax(0, 1fr); padding: 1.1rem 0; }
+    .scan-day-date { color: #1f2933; font-weight: 700; }
+    .scan-day-date span { color: #52616f; display: block; font-size: 0.9rem; font-weight: 500; margin-top: 0.2rem; }
+    .scan-day-table { overflow-x: auto; }
+    .risk { display: inline-block; min-width: 4.8rem; text-align: center; border-radius: 999px; padding: 0.15rem 0.45rem; font-size: 0.78rem; font-weight: 700; }
+    .risk-info, .risk-low { background: #dcfce7; color: #166534; }
+    .risk-medium, .risk-unknown { background: #fef3c7; color: #92400e; }
+    .risk-high, .risk-critical { background: #fee2e2; color: #991b1b; }
+    .index-note { color: #52616f; margin-top: -0.35rem; }
+    .version { color: #52616f; margin-left: 0.2rem; white-space: nowrap; }
+    @media (max-width: 720px) {
+      .scan-day { grid-template-columns: 1fr; }
+      th, td { padding: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+<nav><a href='../../../../'>Index</a></nav><h1>Personal PyPI Supply Chain Scan: llama-agents-agentcore 0.9.1</h1>
+
+<ul>
+<li>Package: llama-agents-agentcore</li>
+<li>Version: 0.9.1</li>
+<li>Project URL: https://pypi.org/project/llama-agents-agentcore/</li>
+<li>Distribution: llama_agents_agentcore-0.9.1.tar.gz</li>
+<li>Package published at: 2026-04-27T19:25:59.475060+00:00</li>
+<li>Scan published at: 2026-04-27T19:27:07.906707+00:00</li>
+<li>Language: en</li>
+<li>Model: gpt-5.5</li>
+<li>Prompt: malicious-supply-chain-review-v2 ([source](../../../../docs/prompts/malicious-supply-chain-review-v2.md))</li>
+<li>Disclaimer: This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</li>
+</ul>
+
+<h2>Deterministic Network Indicators</h2>
+
+<h3>Suspicious Endpoints</h3>
+
+<p>None</p>
+
+<h3>Raw Public IPs</h3>
+
+<p>None</p>
+
+<h3>URLs</h3>
+
+<p>None</p>
+
+<h3>Domains</h3>
+
+<p>None</p>
+
+<h2>Verdict</h2>
+
+<p>No confirmed malicious supply-chain compromise indicators — overall risk: info.</p>
+
+<h2>Malicious Supply-Chain Indicators</h2>
+
+<p>No confirmed malicious supply-chain indicators.</p>
+
+<h2>Automatic Execution Paths</h2>
+
+<ul>
+<li>No setup.py, .pth, sitecustomize.py, or usercustomize.py files were identified.</li>
+<li>pyproject.toml uses the uv_build backend; there is no evidence of custom install-time build hooks or suspicious scripts.</li>
+<li>The runtime logic in main.py is guarded by if __name__ == &quot;__main__&quot; and requires user-supplied --run or --local arguments.</li>
+<li>The @app.entrypoint in entrypoint.py appears to define a Bedrock AgentCore runtime endpoint, not an install-time or interpreter-startup execution path.</li>
+</ul>
+
+<h2>Theft / Exfiltration / Persistence / Lateral Movement / Stealth</h2>
+
+<ul>
+<li>Credential harvesting: no evidence of broad discovery of environment variables, .env files, SSH keys, cloud credentials, CI/CD tokens, wallets, or similar secrets.</li>
+<li>Archive staging / exfiltration: deploy.py uses zipfile to package project source and upload it to S3, but this is part of the explicit deploy() workflow for CodeBuild/ECR deployment. There is no evidence of malicious harvesting or upload to attacker-controlled infrastructure.</li>
+<li>Persistence: no cron, systemd, launch agent, shell profile modification, startup registration, or self-reinstall logic observed.</li>
+<li>Lateral movement: AWS CodeBuild/ECR/Bedrock AgentCore usage and privilegedMode=True are tied to container build functionality. No evidence of Kubernetes token abuse, Docker socket exploitation, CI token theft, or GitHub Actions workflow injection.</li>
+<li>Obfuscation / staged loaders: no evidence of eval/exec, base64/zlib/marshal loaders, obfuscated payloads, or downloader droppers.</li>
+</ul>
+
+<h2>Distribution Integrity Anomalies</h2>
+
+<ul>
+<li>The provided sdist contents are consistent with a small Python deployment utility package.</li>
+<li>No unexplained native binaries, hidden payloads, suspicious .dist-info manipulation, or clearly malicious dependency insertion were identified.</li>
+<li>Dependencies such as boto3, bedrock-agentcore, llama-agents-*, and click align with the package’s stated Bedrock AgentCore deployment purpose.</li>
+<li>Wheel/sdist mismatch could not be assessed from the provided extracted sdist alone.</li>
+</ul>
+
+<h2>Additional Verification Needed</h2>
+
+<ul>
+<li>This review is limited to the provided extracted text from llama_agents_agentcore-0.9.1.tar.gz.</li>
+<li>If a wheel exists for the same version, compare it against the sdist to check for file or behavior discrepancies.</li>
+</ul>
+
+<p>---</p>
+
+<p>Prompt source: docs/prompts/malicious-supply-chain-review-v2.md</p>
+
+<p>This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</p>
+
+</body>
+</html>
