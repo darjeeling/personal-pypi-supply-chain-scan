@@ -1,6 +1,307 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "aftab-0.1.19.tar.gz",
+    "finding_count": 14,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "aftab-0.1.19/.gitignore"
+          ],
+          "value": "abstra.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aftab-0.1.19/PKG-INFO",
+            "aftab-0.1.19/README.md",
+            "aftab-0.1.19/aftab.egg-info/PKG-INFO"
+          ],
+          "value": "arxiv.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aftab-0.1.19/docs/index.html"
+          ],
+          "value": "cdn.jsdelivr.net"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aftab-0.1.19/PKG-INFO",
+            "aftab-0.1.19/README.md",
+            "aftab-0.1.19/aftab.egg-info/PKG-INFO"
+          ],
+          "value": "creativecommons.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aftab-0.1.19/.gitignore"
+          ],
+          "value": "docs.cursor.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aftab-0.1.19/PKG-INFO",
+            "aftab-0.1.19/README.md",
+            "aftab-0.1.19/aftab.egg-info/PKG-INFO"
+          ],
+          "value": "envpool.readthedocs.io"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "aftab-0.1.19/.gitignore",
+            "aftab-0.1.19/PKG-INFO",
+            "aftab-0.1.19/aftab.egg-info/PKG-INFO",
+            "aftab-0.1.19/pyproject.toml"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aftab-0.1.19/PKG-INFO",
+            "aftab-0.1.19/README.md",
+            "aftab-0.1.19/aftab.egg-info/PKG-INFO"
+          ],
+          "value": "img.shields.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aftab-0.1.19/scripts/install_micromamba.sh"
+          ],
+          "value": "micro.mamba.pm"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aftab-0.1.19/.gitignore"
+          ],
+          "value": "pdm-project.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aftab-0.1.19/.gitignore"
+          ],
+          "value": "python-poetry.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aftab-0.1.19/figures/header.svg"
+          ],
+          "value": "www.w3.org"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "aftab-0.1.19/figures/header.svg"
+          ],
+          "value": "http://www.w3.org/2000/svg"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aftab-0.1.19/.gitignore"
+          ],
+          "value": "https://abstra.io/docs"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aftab-0.1.19/PKG-INFO",
+            "aftab-0.1.19/README.md",
+            "aftab-0.1.19/aftab.egg-info/PKG-INFO"
+          ],
+          "value": "https://arxiv.org/abs/1908.03265"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aftab-0.1.19/PKG-INFO",
+            "aftab-0.1.19/README.md",
+            "aftab-0.1.19/aftab.egg-info/PKG-INFO"
+          ],
+          "value": "https://arxiv.org/abs/2505.15345"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aftab-0.1.19/docs/index.html"
+          ],
+          "value": "https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aftab-0.1.19/PKG-INFO",
+            "aftab-0.1.19/README.md",
+            "aftab-0.1.19/aftab.egg-info/PKG-INFO"
+          ],
+          "value": "https://creativecommons.org/licenses/by-nc/4.0/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aftab-0.1.19/.gitignore"
+          ],
+          "value": "https://docs.cursor.com/context/ignore-files"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aftab-0.1.19/PKG-INFO",
+            "aftab-0.1.19/README.md",
+            "aftab-0.1.19/aftab.egg-info/PKG-INFO"
+          ],
+          "value": "https://envpool.readthedocs.io/en/latest/env/atari.html#available-tasks"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aftab-0.1.19/.gitignore"
+          ],
+          "value": "https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aftab-0.1.19/.gitignore"
+          ],
+          "value": "https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aftab-0.1.19/PKG-INFO",
+            "aftab-0.1.19/aftab.egg-info/PKG-INFO",
+            "aftab-0.1.19/pyproject.toml"
+          ],
+          "value": "https://github.com/tahashieenavaz/aftab"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aftab-0.1.19/PKG-INFO",
+            "aftab-0.1.19/aftab.egg-info/PKG-INFO",
+            "aftab-0.1.19/pyproject.toml"
+          ],
+          "value": "https://github.com/tahashieenavaz/aftab#readme"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aftab-0.1.19/PKG-INFO",
+            "aftab-0.1.19/README.md",
+            "aftab-0.1.19/aftab.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/badge/arXiv-coming%20soon-b31b1b"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aftab-0.1.19/PKG-INFO",
+            "aftab-0.1.19/README.md",
+            "aftab-0.1.19/aftab.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/badge/backend-PyTorch-ee4c2c"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aftab-0.1.19/PKG-INFO",
+            "aftab-0.1.19/README.md",
+            "aftab-0.1.19/aftab.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/badge/citable-yes-success"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aftab-0.1.19/PKG-INFO",
+            "aftab-0.1.19/README.md",
+            "aftab-0.1.19/aftab.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/badge/license-CC--BY--NC--4.0-lightgrey"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aftab-0.1.19/PKG-INFO",
+            "aftab-0.1.19/README.md",
+            "aftab-0.1.19/aftab.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/badge/python-3.11%2B-blue"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aftab-0.1.19/PKG-INFO",
+            "aftab-0.1.19/README.md",
+            "aftab-0.1.19/aftab.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/github/stars/tahashieenavaz/aftab?style=social"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aftab-0.1.19/PKG-INFO",
+            "aftab-0.1.19/README.md",
+            "aftab-0.1.19/aftab.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/pypi/v/aftab"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aftab-0.1.19/scripts/install_micromamba.sh"
+          ],
+          "value": "https://micro.mamba.pm/install.sh"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aftab-0.1.19/.gitignore"
+          ],
+          "value": "https://pdm-project.org/en/latest/usage/project/#working-with-version-control"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aftab-0.1.19/.gitignore"
+          ],
+          "value": "https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control"
+        }
+      ]
+    },
+    "package": "aftab",
+    "package_slug": "aftab",
+    "project_url": "https://pypi.org/project/aftab/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T15:26:16.584948+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T15:26:54.266933+00:00",
+    "title": "Personal PyPI Supply Chain Scan: aftab 0.1.19",
+    "version": "0.1.19",
+    "version_slug": "0.1.19",
+    "_metadata_path": "reports/packages/aftab/0.1.19/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "scitex_agent_container-0.9.0.tar.gz",
     "finding_count": 411,
     "model": "gpt-5.5",

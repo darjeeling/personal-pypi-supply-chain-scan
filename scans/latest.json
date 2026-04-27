@@ -1,181 +1,104 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "scitex_agent_container-0.9.0.tar.gz",
-  "finding_count": 411,
+  "distribution": "aftab-0.1.19.tar.gz",
+  "finding_count": 14,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
         "file_count": 1,
         "files": [
-          "scitex_agent_container-0.9.0/src/scitex_agent_container/a2a/_server.py"
+          "aftab-0.1.19/.gitignore"
         ],
-        "value": "%s"
+        "value": "abstra.io"
       },
       {
-        "file_count": 2,
+        "file_count": 3,
         "files": [
-          "scitex_agent_container-0.9.0/src/scitex_agent_container/_skills/scitex-agent-container/07_a2a-protocol.md",
-          "scitex_agent_container-0.9.0/src/scitex_agent_container/a2a/__init__.py"
+          "aftab-0.1.19/PKG-INFO",
+          "aftab-0.1.19/README.md",
+          "aftab-0.1.19/aftab.egg-info/PKG-INFO"
         ],
-        "value": "a2a-protocol.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "scitex_agent_container-0.9.0/src/scitex_agent_container/claude_usage.py"
-        ],
-        "value": "api.anthropic.com"
+        "value": "arxiv.org"
       },
       {
         "file_count": 1,
         "files": [
-          "scitex_agent_container-0.9.0/tests/test_hooks.py"
+          "aftab-0.1.19/docs/index.html"
         ],
-        "value": "bad.invalid"
+        "value": "cdn.jsdelivr.net"
       },
       {
-        "file_count": 2,
+        "file_count": 3,
         "files": [
-          "scitex_agent_container-0.9.0/PKG-INFO",
-          "scitex_agent_container-0.9.0/README.md"
+          "aftab-0.1.19/PKG-INFO",
+          "aftab-0.1.19/README.md",
+          "aftab-0.1.19/aftab.egg-info/PKG-INFO"
         ],
-        "value": "badge.fury.io"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "scitex_agent_container-0.9.0/src/scitex_agent_container/claude_usage.py"
-        ],
-        "value": "claude.ai"
+        "value": "creativecommons.org"
       },
       {
         "file_count": 1,
         "files": [
-          "scitex_agent_container-0.9.0/docs/sphinx/conf.py"
+          "aftab-0.1.19/.gitignore"
         ],
-        "value": "docs.python.org"
+        "value": "docs.cursor.com"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "scitex_agent_container-0.9.0/.readthedocs.yaml"
+          "aftab-0.1.19/PKG-INFO",
+          "aftab-0.1.19/README.md",
+          "aftab-0.1.19/aftab.egg-info/PKG-INFO"
         ],
-        "value": "docs.readthedocs.io"
+        "value": "envpool.readthedocs.io"
       },
       {
-        "file_count": 1,
+        "file_count": 4,
         "files": [
-          "scitex_agent_container-0.9.0/LICENSE"
-        ],
-        "value": "fsf.org"
-      },
-      {
-        "file_count": 8,
-        "files": [
-          "scitex_agent_container-0.9.0/.github/workflows/scitex-quality.yml",
-          "scitex_agent_container-0.9.0/PKG-INFO",
-          "scitex_agent_container-0.9.0/README.md",
-          "scitex_agent_container-0.9.0/docs/sphinx/installation.rst",
-          "scitex_agent_container-0.9.0/pyproject.toml",
-          "scitex_agent_container-0.9.0/src/scitex_agent_container/_skills/scitex-agent-container/04_resource-management.md",
-          "scitex_agent_container-0.9.0/src/scitex_agent_container/_skills/scitex-agent-container/07_a2a-protocol.md",
-          "scitex_agent_container-0.9.0/tests/test_pane_state_classifier.py"
+          "aftab-0.1.19/.gitignore",
+          "aftab-0.1.19/PKG-INFO",
+          "aftab-0.1.19/aftab.egg-info/PKG-INFO",
+          "aftab-0.1.19/pyproject.toml"
         ],
         "value": "github.com"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "scitex_agent_container-0.9.0/tests/test_network_probe.py"
-        ],
-        "value": "hub.test"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "scitex_agent_container-0.9.0/PKG-INFO",
-          "scitex_agent_container-0.9.0/README.md"
+          "aftab-0.1.19/PKG-INFO",
+          "aftab-0.1.19/README.md",
+          "aftab-0.1.19/aftab.egg-info/PKG-INFO"
         ],
         "value": "img.shields.io"
       },
       {
         "file_count": 1,
         "files": [
-          "scitex_agent_container-0.9.0/.github/workflows/publish-pypi.yml"
+          "aftab-0.1.19/scripts/install_micromamba.sh"
         ],
-        "value": "pypi.org"
+        "value": "micro.mamba.pm"
       },
       {
         "file_count": 1,
         "files": [
-          "scitex_agent_container-0.9.0/src/scitex_agent_container/a2a/_handlers.py"
+          "aftab-0.1.19/.gitignore"
         ],
-        "value": "raw.strip"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "scitex_agent_container-0.9.0/PKG-INFO",
-          "scitex_agent_container-0.9.0/README.md"
-        ],
-        "value": "readthedocs.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "scitex_agent_container-0.9.0/PKG-INFO",
-          "scitex_agent_container-0.9.0/README.md"
-        ],
-        "value": "scitex-agent-container.readthedocs.io"
+        "value": "pdm-project.org"
       },
       {
         "file_count": 1,
         "files": [
-          "scitex_agent_container-0.9.0/src/scitex_agent_container/_skills/scitex-agent-container/07_a2a-protocol.md"
+          "aftab-0.1.19/.gitignore"
         ],
-        "value": "scitex-orochi.com"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "scitex_agent_container-0.9.0/PKG-INFO",
-          "scitex_agent_container-0.9.0/README.md",
-          "scitex_agent_container-0.9.0/docs/sphinx/index.rst",
-          "scitex_agent_container-0.9.0/src/scitex_agent_container/a2a/_card.py"
-        ],
-        "value": "scitex.ai"
+        "value": "python-poetry.org"
       },
       {
         "file_count": 1,
         "files": [
-          "scitex_agent_container-0.9.0/tests/test_a2a_server.py"
+          "aftab-0.1.19/figures/header.svg"
         ],
-        "value": "testserver"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "scitex_agent_container-0.9.0/LICENSE",
-          "scitex_agent_container-0.9.0/PKG-INFO",
-          "scitex_agent_container-0.9.0/README.md"
-        ],
-        "value": "www.gnu.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "scitex_agent_container-0.9.0/docs/sphinx/conf.py"
-        ],
-        "value": "www.sphinx-doc.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "scitex_agent_container-0.9.0/src/scitex_agent_container/a2a/_server.py",
-          "scitex_agent_container-0.9.0/src/scitex_agent_container/health.py"
-        ],
-        "value": "{host"
+        "value": "www.w3.org"
       }
     ],
     "raw_public_ips": [],
@@ -184,313 +107,195 @@
       {
         "file_count": 1,
         "files": [
-          "scitex_agent_container-0.9.0/src/scitex_agent_container/a2a/_server.py"
+          "aftab-0.1.19/figures/header.svg"
         ],
-        "value": "http://%s:%d"
+        "value": "http://www.w3.org/2000/svg"
       },
       {
         "file_count": 1,
         "files": [
-          "scitex_agent_container-0.9.0/tests/test_hooks.py"
+          "aftab-0.1.19/.gitignore"
         ],
-        "value": "http://bad.invalid/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "scitex_agent_container-0.9.0/tests/test_a2a_server.py"
-        ],
-        "value": "http://testserver/v1/agents/mock-claude"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "scitex_agent_container-0.9.0/tests/test_a2a_server.py"
-        ],
-        "value": "http://testserver/v1/agents/mock-echo"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "scitex_agent_container-0.9.0/src/scitex_agent_container/cli_pkg/a2a_cmds.py"
-        ],
-        "value": "http://{eff_host"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "scitex_agent_container-0.9.0/src/scitex_agent_container/a2a/_server.py",
-          "scitex_agent_container-0.9.0/src/scitex_agent_container/health.py"
-        ],
-        "value": "http://{host"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "scitex_agent_container-0.9.0/src/scitex_agent_container/lifecycle.py"
-        ],
-        "value": "https://"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "scitex_agent_container-0.9.0/src/scitex_agent_container/_skills/scitex-agent-container/07_a2a-protocol.md",
-          "scitex_agent_container-0.9.0/src/scitex_agent_container/a2a/__init__.py"
-        ],
-        "value": "https://a2a-protocol.org/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "scitex_agent_container-0.9.0/src/scitex_agent_container/claude_usage.py"
-        ],
-        "value": "https://api.anthropic.com/api/oauth/usage"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "scitex_agent_container-0.9.0/src/scitex_agent_container/claude_usage.py"
-        ],
-        "value": "https://api.anthropic.com/api/oauth/usage``"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "scitex_agent_container-0.9.0/PKG-INFO",
-          "scitex_agent_container-0.9.0/README.md"
-        ],
-        "value": "https://badge.fury.io/py/scitex-agent-container"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "scitex_agent_container-0.9.0/PKG-INFO",
-          "scitex_agent_container-0.9.0/README.md"
-        ],
-        "value": "https://badge.fury.io/py/scitex-agent-container.svg"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "scitex_agent_container-0.9.0/src/scitex_agent_container/claude_usage.py"
-        ],
-        "value": "https://claude.ai/api/auth/oauth/token"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "scitex_agent_container-0.9.0/docs/sphinx/conf.py"
-        ],
-        "value": "https://docs.python.org/3"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "scitex_agent_container-0.9.0/.readthedocs.yaml"
-        ],
-        "value": "https://docs.readthedocs.io/en/stable/config-file/v2.html"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "scitex_agent_container-0.9.0/tests/test_hooks.py"
-        ],
-        "value": "https://example.com/compact"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "scitex_agent_container-0.9.0/tests/test_hooks.py"
-        ],
-        "value": "https://example.com/compact\\n"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "scitex_agent_container-0.9.0/tests/test_hooks.py"
-        ],
-        "value": "https://example.com/hook"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "scitex_agent_container-0.9.0/LICENSE"
-        ],
-        "value": "https://fsf.org/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "scitex_agent_container-0.9.0/tests/test_pane_state_classifier.py"
-        ],
-        "value": "https://github.com/jarrodwatts/claude-hud"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "scitex_agent_container-0.9.0/.github/workflows/scitex-quality.yml"
-        ],
-        "value": "https://github.com/scitex-project/scitex-dev.git@main"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "scitex_agent_container-0.9.0/PKG-INFO",
-          "scitex_agent_container-0.9.0/pyproject.toml"
-        ],
-        "value": "https://github.com/ywatanabe1989/scitex-agent-container"
+        "value": "https://abstra.io/docs"
       },
       {
         "file_count": 3,
         "files": [
-          "scitex_agent_container-0.9.0/PKG-INFO",
-          "scitex_agent_container-0.9.0/docs/sphinx/installation.rst",
-          "scitex_agent_container-0.9.0/pyproject.toml"
+          "aftab-0.1.19/PKG-INFO",
+          "aftab-0.1.19/README.md",
+          "aftab-0.1.19/aftab.egg-info/PKG-INFO"
         ],
-        "value": "https://github.com/ywatanabe1989/scitex-agent-container.git"
+        "value": "https://arxiv.org/abs/1908.03265"
       },
       {
-        "file_count": 2,
+        "file_count": 3,
         "files": [
-          "scitex_agent_container-0.9.0/PKG-INFO",
-          "scitex_agent_container-0.9.0/README.md"
+          "aftab-0.1.19/PKG-INFO",
+          "aftab-0.1.19/README.md",
+          "aftab-0.1.19/aftab.egg-info/PKG-INFO"
         ],
-        "value": "https://github.com/ywatanabe1989/scitex-agent-container/actions/workflows/ci.yml"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "scitex_agent_container-0.9.0/PKG-INFO",
-          "scitex_agent_container-0.9.0/README.md"
-        ],
-        "value": "https://github.com/ywatanabe1989/scitex-agent-container/actions/workflows/ci.yml/badge.svg"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "scitex_agent_container-0.9.0/PKG-INFO",
-          "scitex_agent_container-0.9.0/pyproject.toml"
-        ],
-        "value": "https://github.com/ywatanabe1989/scitex-agent-container/issues"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "scitex_agent_container-0.9.0/PKG-INFO",
-          "scitex_agent_container-0.9.0/README.md"
-        ],
-        "value": "https://github.com/ywatanabe1989/scitex-orochi"
+        "value": "https://arxiv.org/abs/2505.15345"
       },
       {
         "file_count": 1,
         "files": [
-          "scitex_agent_container-0.9.0/src/scitex_agent_container/_skills/scitex-agent-container/07_a2a-protocol.md"
+          "aftab-0.1.19/docs/index.html"
         ],
-        "value": "https://github.com/ywatanabe1989/scitex-orochi/blob/develop/docs/a2a-protocol.md"
+        "value": "https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "aftab-0.1.19/PKG-INFO",
+          "aftab-0.1.19/README.md",
+          "aftab-0.1.19/aftab.egg-info/PKG-INFO"
+        ],
+        "value": "https://creativecommons.org/licenses/by-nc/4.0/"
       },
       {
         "file_count": 1,
         "files": [
-          "scitex_agent_container-0.9.0/src/scitex_agent_container/_skills/scitex-agent-container/04_resource-management.md"
+          "aftab-0.1.19/.gitignore"
         ],
-        "value": "https://github.com/ywatanabe1989/scitex-resource"
+        "value": "https://docs.cursor.com/context/ignore-files"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "aftab-0.1.19/PKG-INFO",
+          "aftab-0.1.19/README.md",
+          "aftab-0.1.19/aftab.egg-info/PKG-INFO"
+        ],
+        "value": "https://envpool.readthedocs.io/en/latest/env/atari.html#available-tasks"
       },
       {
         "file_count": 1,
         "files": [
-          "scitex_agent_container-0.9.0/tests/test_network_probe.py"
+          "aftab-0.1.19/.gitignore"
         ],
-        "value": "https://hub.test/"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "scitex_agent_container-0.9.0/PKG-INFO",
-          "scitex_agent_container-0.9.0/README.md"
-        ],
-        "value": "https://img.shields.io/badge/License-AGPL--3.0-blue.svg"
+        "value": "https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore"
       },
       {
         "file_count": 1,
         "files": [
-          "scitex_agent_container-0.9.0/.github/workflows/publish-pypi.yml"
+          "aftab-0.1.19/.gitignore"
         ],
-        "value": "https://pypi.org/p/scitex-agent-container"
+        "value": "https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore"
       },
       {
-        "file_count": 2,
+        "file_count": 3,
         "files": [
-          "scitex_agent_container-0.9.0/PKG-INFO",
-          "scitex_agent_container-0.9.0/README.md"
+          "aftab-0.1.19/PKG-INFO",
+          "aftab-0.1.19/aftab.egg-info/PKG-INFO",
+          "aftab-0.1.19/pyproject.toml"
         ],
-        "value": "https://readthedocs.org/projects/scitex-agent-container/badge/?version=latest"
+        "value": "https://github.com/tahashieenavaz/aftab"
       },
       {
-        "file_count": 2,
+        "file_count": 3,
         "files": [
-          "scitex_agent_container-0.9.0/PKG-INFO",
-          "scitex_agent_container-0.9.0/README.md"
+          "aftab-0.1.19/PKG-INFO",
+          "aftab-0.1.19/aftab.egg-info/PKG-INFO",
+          "aftab-0.1.19/pyproject.toml"
         ],
-        "value": "https://scitex-agent-container.readthedocs.io/"
+        "value": "https://github.com/tahashieenavaz/aftab#readme"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "aftab-0.1.19/PKG-INFO",
+          "aftab-0.1.19/README.md",
+          "aftab-0.1.19/aftab.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/badge/arXiv-coming%20soon-b31b1b"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "aftab-0.1.19/PKG-INFO",
+          "aftab-0.1.19/README.md",
+          "aftab-0.1.19/aftab.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/badge/backend-PyTorch-ee4c2c"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "aftab-0.1.19/PKG-INFO",
+          "aftab-0.1.19/README.md",
+          "aftab-0.1.19/aftab.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/badge/citable-yes-success"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "aftab-0.1.19/PKG-INFO",
+          "aftab-0.1.19/README.md",
+          "aftab-0.1.19/aftab.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/badge/license-CC--BY--NC--4.0-lightgrey"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "aftab-0.1.19/PKG-INFO",
+          "aftab-0.1.19/README.md",
+          "aftab-0.1.19/aftab.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/badge/python-3.11%2B-blue"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "aftab-0.1.19/PKG-INFO",
+          "aftab-0.1.19/README.md",
+          "aftab-0.1.19/aftab.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/github/stars/tahashieenavaz/aftab?style=social"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "aftab-0.1.19/PKG-INFO",
+          "aftab-0.1.19/README.md",
+          "aftab-0.1.19/aftab.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/pypi/v/aftab"
       },
       {
         "file_count": 1,
         "files": [
-          "scitex_agent_container-0.9.0/src/scitex_agent_container/_skills/scitex-agent-container/07_a2a-protocol.md"
+          "aftab-0.1.19/scripts/install_micromamba.sh"
         ],
-        "value": "https://scitex-orochi.com/v1/agents/"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "scitex_agent_container-0.9.0/PKG-INFO",
-          "scitex_agent_container-0.9.0/README.md",
-          "scitex_agent_container-0.9.0/docs/sphinx/index.rst",
-          "scitex_agent_container-0.9.0/src/scitex_agent_container/a2a/_card.py"
-        ],
-        "value": "https://scitex.ai"
+        "value": "https://micro.mamba.pm/install.sh"
       },
       {
         "file_count": 1,
         "files": [
-          "scitex_agent_container-0.9.0/LICENSE"
+          "aftab-0.1.19/.gitignore"
         ],
-        "value": "https://www.gnu.org/licenses/"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "scitex_agent_container-0.9.0/PKG-INFO",
-          "scitex_agent_container-0.9.0/README.md"
-        ],
-        "value": "https://www.gnu.org/licenses/agpl-3.0"
+        "value": "https://pdm-project.org/en/latest/usage/project/#working-with-version-control"
       },
       {
         "file_count": 1,
         "files": [
-          "scitex_agent_container-0.9.0/docs/sphinx/conf.py"
+          "aftab-0.1.19/.gitignore"
         ],
-        "value": "https://www.sphinx-doc.org/en/master/usage/configuration.html"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "scitex_agent_container-0.9.0/src/scitex_agent_container/network_probe.py"
-        ],
-        "value": "https://{DEFAULT_HUB_HOST"
+        "value": "https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control"
       }
     ]
   },
-  "package": "scitex-agent-container",
-  "package_slug": "scitex-agent-container",
-  "project_url": "https://pypi.org/project/scitex-agent-container/",
+  "package": "aftab",
+  "package_slug": "aftab",
+  "project_url": "https://pypi.org/project/aftab/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T15:21:55.441121+00:00",
+  "published_at": "2026-04-27T15:26:16.584948+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T15:22:32.592876+00:00",
-  "title": "Personal PyPI Supply Chain Scan: scitex-agent-container 0.9.0",
-  "version": "0.9.0",
-  "version_slug": "0.9.0",
-  "_metadata_path": "reports/packages/scitex-agent-container/0.9.0/metadata.json"
+  "scanned_at": "2026-04-27T15:26:54.266933+00:00",
+  "title": "Personal PyPI Supply Chain Scan: aftab 0.1.19",
+  "version": "0.1.19",
+  "version_slug": "0.1.19",
+  "_metadata_path": "reports/packages/aftab/0.1.19/metadata.json"
 }
