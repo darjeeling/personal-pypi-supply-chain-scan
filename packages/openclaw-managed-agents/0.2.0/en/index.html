@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal PyPI Supply Chain Scan: openclaw-managed-agents 0.2.0</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 960px; line-height: 1.55; padding: 0 1rem; color: #1f2933; }
+    a { color: #1f5fbf; }
+    code { background: #f4f4f4; padding: 0.1rem 0.25rem; }
+    h1, h2, h3 { line-height: 1.2; }
+    li { margin: 0.35rem 0; }
+    nav { margin-bottom: 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #e5e9ef; padding: 0.55rem 0.65rem; text-align: left; vertical-align: top; }
+    th { color: #52616f; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; }
+    .scan-groups { margin-top: 1.2rem; }
+    .scan-day { border-top: 1px solid #d8dee4; display: grid; gap: 1rem; grid-template-columns: 10rem minmax(0, 1fr); padding: 1.1rem 0; }
+    .scan-day-date { color: #1f2933; font-weight: 700; }
+    .scan-day-date span { color: #52616f; display: block; font-size: 0.9rem; font-weight: 500; margin-top: 0.2rem; }
+    .scan-day-table { overflow-x: auto; }
+    .risk { display: inline-block; min-width: 4.8rem; text-align: center; border-radius: 999px; padding: 0.15rem 0.45rem; font-size: 0.78rem; font-weight: 700; }
+    .risk-info, .risk-low { background: #dcfce7; color: #166534; }
+    .risk-medium, .risk-unknown { background: #fef3c7; color: #92400e; }
+    .risk-high, .risk-critical { background: #fee2e2; color: #991b1b; }
+    .index-note { color: #52616f; margin-top: -0.35rem; }
+    .version { color: #52616f; margin-left: 0.2rem; white-space: nowrap; }
+    @media (max-width: 720px) {
+      .scan-day { grid-template-columns: 1fr; }
+      th, td { padding: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+<nav><a href='../../../../'>Index</a></nav><h1>Personal PyPI Supply Chain Scan: openclaw-managed-agents 0.2.0</h1>
+
+<ul>
+<li>Package: openclaw-managed-agents</li>
+<li>Version: 0.2.0</li>
+<li>Project URL: https://pypi.org/project/openclaw-managed-agents/</li>
+<li>Distribution: openclaw_managed_agents-0.2.0.tar.gz</li>
+<li>Package published at: 2026-04-27T12:07:38.953216+00:00</li>
+<li>Scan published at: 2026-04-27T12:09:31.177309+00:00</li>
+<li>Language: en</li>
+<li>Model: gpt-5.5</li>
+<li>Prompt: malicious-supply-chain-review-v2 ([source](../../../../docs/prompts/malicious-supply-chain-review-v2.md))</li>
+<li>Disclaimer: This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</li>
+</ul>
+
+<h2>Deterministic Network Indicators</h2>
+
+<h3>Suspicious Endpoints</h3>
+
+<p>None</p>
+
+<h3>Raw Public IPs</h3>
+
+<p>None</p>
+
+<h3>URLs</h3>
+<ul>
+<li>http://openclaw.test (1 files: openclaw_managed_agents-0.2.0/tests/test_sdk.py)</li>
+<li>https://api.githubcopilot.com/mcp/ (1 files: openclaw_managed_agents-0.2.0/tests/test_sdk.py)</li>
+<li>https://example.com/token (1 files: openclaw_managed_agents-0.2.0/tests/test_sdk.py)</li>
+<li>https://github.com/stainlu/openclaw-managed-agents (3 files: openclaw_managed_agents-0.2.0/PKG-INFO, openclaw_managed_agents-0.2.0/README.md, openclaw_managed_agents-0.2.0/pyproject.toml)</li>
+<li>https://github.com/stainlu/openclaw-managed-agents#python-sdk (2 files: openclaw_managed_agents-0.2.0/PKG-INFO, openclaw_managed_agents-0.2.0/pyproject.toml)</li>
+</ul>
+
+<h3>Domains</h3>
+<ul>
+<li>api.github.com (1 files: openclaw_managed_agents-0.2.0/tests/test_sdk.py)</li>
+<li>api.githubcopilot.com (1 files: openclaw_managed_agents-0.2.0/tests/test_sdk.py)</li>
+<li>github.com (3 files: openclaw_managed_agents-0.2.0/PKG-INFO, openclaw_managed_agents-0.2.0/README.md, openclaw_managed_agents-0.2.0/pyproject.toml)</li>
+<li>openclaw.test (1 files: openclaw_managed_agents-0.2.0/tests/test_sdk.py)</li>
+</ul>
+
+<h2>Verdict</h2>
+
+<p>No confirmed malicious supply-chain compromise indicators — overall risk: info.</p>
+
+<h2>Malicious Supply-Chain Indicators</h2>
+
+<p>No confirmed malicious supply-chain indicators.</p>
+
+<h2>Automatic Execution Paths</h2>
+
+<ul>
+<li>pyproject.toml uses the standard hatchling.build backend. No setup.py, custom build hook, .pth, sitecustomize.py, or usercustomize.py indicating install-time arbitrary execution was found.</li>
+<li>openclaw_managed_agents/__init__.py only imports classes/resources and defines OpenClawClient; there is no evidence of import-time network access, file access, process execution, or other malicious side effects.</li>
+<li>No entry_points or other install/interpreter-start automatic execution paths were identified.</li>
+</ul>
+
+<h2>Theft / Exfiltration / Persistence / Lateral Movement / Stealth</h2>
+
+<ul>
+<li>Credential harvesting: no broad discovery of environment variables, .env files, SSH keys, cloud credentials, CI tokens, wallets, or similar secrets was found.</li>
+<li>Exfiltration/staging: no archive creation, base64 staging, temporary collection of harvested files, webhook upload, C2, or suspicious external upload logic was found.</li>
+<li>Persistence: no cron, systemd, launch agent, shell profile modification, background polling loop, or self-reinstall logic was found.</li>
+<li>Lateral movement: no evidence of Kubernetes service account token use, Docker socket access, cloud metadata access, GitHub Actions token abuse, or workflow injection was found.</li>
+<li>Obfuscation/loader: no eval/exec loader, marshal/pickle payload, compressed/encrypted staged payload, downloader stub, or self-deleting dropper was found.</li>
+<li>The token/OAuth credential methods in vaults.py appear to be explicit user-invoked SDK API calls, with no evidence tying them to broad theft, stealth, or automatic exfiltration.</li>
+</ul>
+
+<h2>Distribution Integrity Anomalies</h2>
+
+<ul>
+<li>A .gitignore file is present in the sdist, but it only contains __pycache__/, dist/, and *.egg-info/; it contains no executable logic or hidden payload and is not strong malicious supply-chain evidence.</li>
+<li>No unexplained native binaries, hidden executables, suspicious generated code, sudden malicious dependency insertion, or typosquatting evidence was found in the provided files.</li>
+<li>Dependencies httpx and httpx-sse are consistent with the package’s SDK functionality.</li>
+</ul>
+
+<h2>Additional Verification Needed</h2>
+
+<ul>
+<li>This review is based on the extracted sdist text corpus of 14 files. If a separate wheel artifact exists, it should be compared against the sdist for file or behavior mismatches.</li>
+<li>The correspondence between the PyPI artifact and the upstream repository tag/commit was not verifiable from the provided materials alone.</li>
+</ul>
+
+<p>---</p>
+
+<p>Prompt source: docs/prompts/malicious-supply-chain-review-v2.md</p>
+
+<p>This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</p>
+
+</body>
+</html>

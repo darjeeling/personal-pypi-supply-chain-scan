@@ -1,6 +1,100 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "openclaw_managed_agents-0.2.0.tar.gz",
+    "finding_count": 1,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "openclaw_managed_agents-0.2.0/tests/test_sdk.py"
+          ],
+          "value": "api.github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "openclaw_managed_agents-0.2.0/tests/test_sdk.py"
+          ],
+          "value": "api.githubcopilot.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "openclaw_managed_agents-0.2.0/PKG-INFO",
+            "openclaw_managed_agents-0.2.0/README.md",
+            "openclaw_managed_agents-0.2.0/pyproject.toml"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "openclaw_managed_agents-0.2.0/tests/test_sdk.py"
+          ],
+          "value": "openclaw.test"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "openclaw_managed_agents-0.2.0/tests/test_sdk.py"
+          ],
+          "value": "http://openclaw.test"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "openclaw_managed_agents-0.2.0/tests/test_sdk.py"
+          ],
+          "value": "https://api.githubcopilot.com/mcp/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "openclaw_managed_agents-0.2.0/tests/test_sdk.py"
+          ],
+          "value": "https://example.com/token"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "openclaw_managed_agents-0.2.0/PKG-INFO",
+            "openclaw_managed_agents-0.2.0/README.md",
+            "openclaw_managed_agents-0.2.0/pyproject.toml"
+          ],
+          "value": "https://github.com/stainlu/openclaw-managed-agents"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "openclaw_managed_agents-0.2.0/PKG-INFO",
+            "openclaw_managed_agents-0.2.0/pyproject.toml"
+          ],
+          "value": "https://github.com/stainlu/openclaw-managed-agents#python-sdk"
+        }
+      ]
+    },
+    "package": "openclaw-managed-agents",
+    "package_slug": "openclaw-managed-agents",
+    "project_url": "https://pypi.org/project/openclaw-managed-agents/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T12:07:38.953216+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T12:09:31.177309+00:00",
+    "title": "Personal PyPI Supply Chain Scan: openclaw-managed-agents 0.2.0",
+    "version": "0.2.0",
+    "version_slug": "0.2.0",
+    "_metadata_path": "reports/packages/openclaw-managed-agents/0.2.0/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "surreal_orm_lite-0.6.17.tar.gz",
     "finding_count": 55,
     "model": "gpt-5.5",

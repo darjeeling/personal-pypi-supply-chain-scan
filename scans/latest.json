@@ -1,229 +1,94 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "surreal_orm_lite-0.6.17.tar.gz",
-  "finding_count": 55,
+  "distribution": "openclaw_managed_agents-0.2.0.tar.gz",
+  "finding_count": 1,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "surreal_orm_lite-0.6.17/PKG-INFO",
-          "surreal_orm_lite-0.6.17/README.md"
+          "openclaw_managed_agents-0.2.0/tests/test_sdk.py"
         ],
-        "value": "codecov.io"
+        "value": "api.github.com"
       },
       {
         "file_count": 1,
         "files": [
-          "surreal_orm_lite-0.6.17/Makefile"
+          "openclaw_managed_agents-0.2.0/tests/test_sdk.py"
         ],
-        "value": "docs.astral.sh"
+        "value": "api.githubcopilot.com"
       },
       {
         "file_count": 3,
         "files": [
-          "surreal_orm_lite-0.6.17/PKG-INFO",
-          "surreal_orm_lite-0.6.17/README.md",
-          "surreal_orm_lite-0.6.17/pyproject.toml"
+          "openclaw_managed_agents-0.2.0/PKG-INFO",
+          "openclaw_managed_agents-0.2.0/README.md",
+          "openclaw_managed_agents-0.2.0/pyproject.toml"
         ],
         "value": "github.com"
       },
       {
-        "file_count": 2,
-        "files": [
-          "surreal_orm_lite-0.6.17/PKG-INFO",
-          "surreal_orm_lite-0.6.17/README.md"
-        ],
-        "value": "img.shields.io"
-      },
-      {
         "file_count": 1,
         "files": [
-          "surreal_orm_lite-0.6.17/CHANGELOG.md"
+          "openclaw_managed_agents-0.2.0/tests/test_sdk.py"
         ],
-        "value": "keepachangelog.com"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "surreal_orm_lite-0.6.17/PKG-INFO",
-          "surreal_orm_lite-0.6.17/README.md"
-        ],
-        "value": "pypi.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "surreal_orm_lite-0.6.17/CHANGELOG.md"
-        ],
-        "value": "semver.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "surreal_orm_lite-0.6.17/PKG-INFO",
-          "surreal_orm_lite-0.6.17/README.md"
-        ],
-        "value": "surrealdb.com"
+        "value": "openclaw.test"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "surreal_orm_lite-0.6.17/PKG-INFO",
-          "surreal_orm_lite-0.6.17/README.md"
+          "openclaw_managed_agents-0.2.0/tests/test_sdk.py"
         ],
-        "value": "https://codecov.io/gh/EulogySnowfall/SurrealDB-ORM-lite"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "surreal_orm_lite-0.6.17/PKG-INFO",
-          "surreal_orm_lite-0.6.17/README.md"
-        ],
-        "value": "https://codecov.io/gh/EulogySnowfall/SurrealDB-ORM-lite/graph/badge.svg"
+        "value": "http://openclaw.test"
       },
       {
         "file_count": 1,
         "files": [
-          "surreal_orm_lite-0.6.17/Makefile"
+          "openclaw_managed_agents-0.2.0/tests/test_sdk.py"
         ],
-        "value": "https://docs.astral.sh/uv/getting-started/installation/"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "surreal_orm_lite-0.6.17/PKG-INFO",
-          "surreal_orm_lite-0.6.17/README.md"
-        ],
-        "value": "https://github.com/EulogySnowfall"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "surreal_orm_lite-0.6.17/PKG-INFO",
-          "surreal_orm_lite-0.6.17/pyproject.toml"
-        ],
-        "value": "https://github.com/EulogySnowfall/SurrealDB-ORM-lite"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "surreal_orm_lite-0.6.17/PKG-INFO",
-          "surreal_orm_lite-0.6.17/pyproject.toml"
-        ],
-        "value": "https://github.com/EulogySnowfall/SurrealDB-ORM-lite.git"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "surreal_orm_lite-0.6.17/PKG-INFO",
-          "surreal_orm_lite-0.6.17/pyproject.toml"
-        ],
-        "value": "https://github.com/EulogySnowfall/SurrealDB-ORM-lite/blob/main/CHANGELOG.md"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "surreal_orm_lite-0.6.17/PKG-INFO",
-          "surreal_orm_lite-0.6.17/pyproject.toml"
-        ],
-        "value": "https://github.com/EulogySnowfall/SurrealDB-ORM-lite/issues"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "surreal_orm_lite-0.6.17/PKG-INFO",
-          "surreal_orm_lite-0.6.17/README.md"
-        ],
-        "value": "https://github.com/EulogySnowfall/SurrealDB-ORM/"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "surreal_orm_lite-0.6.17/PKG-INFO",
-          "surreal_orm_lite-0.6.17/README.md"
-        ],
-        "value": "https://github.com/surrealdb/surrealdb.py"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "surreal_orm_lite-0.6.17/PKG-INFO",
-          "surreal_orm_lite-0.6.17/README.md"
-        ],
-        "value": "https://img.shields.io/badge/SDK-Official%201.0.8-green"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "surreal_orm_lite-0.6.17/PKG-INFO",
-          "surreal_orm_lite-0.6.17/README.md"
-        ],
-        "value": "https://img.shields.io/badge/SurrealDB-2.6.3-purple"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "surreal_orm_lite-0.6.17/PKG-INFO",
-          "surreal_orm_lite-0.6.17/README.md"
-        ],
-        "value": "https://img.shields.io/badge/license-MIT-blue"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "surreal_orm_lite-0.6.17/PKG-INFO",
-          "surreal_orm_lite-0.6.17/README.md"
-        ],
-        "value": "https://img.shields.io/badge/python-3.11%2B-blue"
+        "value": "https://api.githubcopilot.com/mcp/"
       },
       {
         "file_count": 1,
         "files": [
-          "surreal_orm_lite-0.6.17/CHANGELOG.md"
+          "openclaw_managed_agents-0.2.0/tests/test_sdk.py"
         ],
-        "value": "https://keepachangelog.com/en/1.1.0/"
+        "value": "https://example.com/token"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "openclaw_managed_agents-0.2.0/PKG-INFO",
+          "openclaw_managed_agents-0.2.0/README.md",
+          "openclaw_managed_agents-0.2.0/pyproject.toml"
+        ],
+        "value": "https://github.com/stainlu/openclaw-managed-agents"
       },
       {
         "file_count": 2,
         "files": [
-          "surreal_orm_lite-0.6.17/PKG-INFO",
-          "surreal_orm_lite-0.6.17/README.md"
+          "openclaw_managed_agents-0.2.0/PKG-INFO",
+          "openclaw_managed_agents-0.2.0/pyproject.toml"
         ],
-        "value": "https://pypi.org/project/surrealdb-orm/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "surreal_orm_lite-0.6.17/CHANGELOG.md"
-        ],
-        "value": "https://semver.org/spec/v2.0.0.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "surreal_orm_lite-0.6.17/PKG-INFO",
-          "surreal_orm_lite-0.6.17/README.md"
-        ],
-        "value": "https://surrealdb.com/"
+        "value": "https://github.com/stainlu/openclaw-managed-agents#python-sdk"
       }
     ]
   },
-  "package": "surreal-orm-lite",
-  "package_slug": "surreal-orm-lite",
-  "project_url": "https://pypi.org/project/surreal-orm-lite/",
+  "package": "openclaw-managed-agents",
+  "package_slug": "openclaw-managed-agents",
+  "project_url": "https://pypi.org/project/openclaw-managed-agents/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T12:03:59.192107+00:00",
+  "published_at": "2026-04-27T12:07:38.953216+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T12:05:12.437325+00:00",
-  "title": "Personal PyPI Supply Chain Scan: surreal-orm-lite 0.6.17",
-  "version": "0.6.17",
-  "version_slug": "0.6.17",
-  "_metadata_path": "reports/packages/surreal-orm-lite/0.6.17/metadata.json"
+  "scanned_at": "2026-04-27T12:09:31.177309+00:00",
+  "title": "Personal PyPI Supply Chain Scan: openclaw-managed-agents 0.2.0",
+  "version": "0.2.0",
+  "version_slug": "0.2.0",
+  "_metadata_path": "reports/packages/openclaw-managed-agents/0.2.0/metadata.json"
 }
