@@ -1,6 +1,431 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "lestash-1.56.3.tar.gz",
+    "finding_count": 12,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/tests/pdf_enrich/test_links.py"
+          ],
+          "value": "1.example"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/tests/pdf_enrich/test_links.py"
+          ],
+          "value": "2.example"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/tests/pdf_enrich/test_links.py"
+          ],
+          "value": "a.example"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/tests/pdf_enrich/test_links.py"
+          ],
+          "value": "att.example"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "lestash-1.56.3/PKG-INFO",
+            "lestash-1.56.3/README.md"
+          ],
+          "value": "badge.fury.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/tests/pdf_enrich/test_links.py"
+          ],
+          "value": "barnes-noble.example"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/src/lestash/cli/media.py"
+          ],
+          "value": "cdn.bsky.app"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "lestash-1.56.3/src/lestash/cli/google.py",
+            "lestash-1.56.3/src/lestash/core/google_auth.py"
+          ],
+          "value": "console.cloud.google.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/tests/pdf_enrich/test_links.py"
+          ],
+          "value": "cs.utexas.edu"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/tests/pdf_enrich/test_extractor.py"
+          ],
+          "value": "docs.example"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/tests/pdf_enrich/test_links.py"
+          ],
+          "value": "doi.example"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/src/lestash/core/google_drive.py"
+          ],
+          "value": "drive.google.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/tests/pdf_enrich/test_links.py"
+          ],
+          "value": "empty.example"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/src/lestash/core/google_drive.py"
+          ],
+          "value": "files.extend"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "lestash-1.56.3/PKG-INFO",
+            "lestash-1.56.3/README.md"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "lestash-1.56.3/PKG-INFO",
+            "lestash-1.56.3/README.md"
+          ],
+          "value": "img.shields.io"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "lestash-1.56.3/PKG-INFO",
+            "lestash-1.56.3/README.md",
+            "lestash-1.56.3/src/lestash/core/database.py",
+            "lestash-1.56.3/tests/test_post_cache.py"
+          ],
+          "value": "linkedin.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/tests/pdf_enrich/test_links.py"
+          ],
+          "value": "lost.example"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/tests/test_history.py"
+          ],
+          "value": "new.url"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/tests/test_history.py"
+          ],
+          "value": "old.url"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/tests/pdf_enrich/test_links.py"
+          ],
+          "value": "oreilly.example"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "lestash-1.56.3/PKG-INFO",
+            "lestash-1.56.3/README.md"
+          ],
+          "value": "pypi.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/src/lestash/core/google_auth.py"
+          ],
+          "value": "www.googleapis.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/src/lestash/cli/items.py"
+          ],
+          "value": "www.linkedin.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "lestash-1.56.3/tests/pdf_enrich/test_links.py",
+            "lestash-1.56.3/tests/pdf_enrich/test_runner.py"
+          ],
+          "value": "x"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/tests/test_history.py"
+          ],
+          "value": "http://new.url"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/tests/test_history.py"
+          ],
+          "value": "http://old.url"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/tests/pdf_enrich/test_runner.py"
+          ],
+          "value": "http://x"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/tests/pdf_enrich/test_links.py"
+          ],
+          "value": "https://1.example"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/tests/pdf_enrich/test_links.py"
+          ],
+          "value": "https://2.example"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/tests/pdf_enrich/test_links.py"
+          ],
+          "value": "https://a.example"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/tests/pdf_enrich/test_links.py"
+          ],
+          "value": "https://att.example"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "lestash-1.56.3/PKG-INFO",
+            "lestash-1.56.3/README.md"
+          ],
+          "value": "https://badge.fury.io/py/lestash.svg"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/tests/pdf_enrich/test_links.py"
+          ],
+          "value": "https://barnes-noble.example"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/src/lestash/cli/media.py"
+          ],
+          "value": "https://cdn.bsky.app/img/feed_thumbnail/plain/{author_did"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/src/lestash/cli/google.py"
+          ],
+          "value": "https://console.cloud.google.com/apis/credentials"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/src/lestash/core/google_auth.py"
+          ],
+          "value": "https://console.cloud.google.com/apis/credentials\\n"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/tests/pdf_enrich/test_links.py"
+          ],
+          "value": "https://cs.utexas.edu/EWD"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/tests/pdf_enrich/test_extractor.py"
+          ],
+          "value": "https://docs.example"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/tests/pdf_enrich/test_links.py"
+          ],
+          "value": "https://doi.example/x"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/src/lestash/core/google_drive.py"
+          ],
+          "value": "https://drive.google.com/file/d/{file_id"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/tests/pdf_enrich/test_links.py"
+          ],
+          "value": "https://empty.example"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "lestash-1.56.3/PKG-INFO",
+            "lestash-1.56.3/README.md"
+          ],
+          "value": "https://github.com/thompsonson/lestash"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "lestash-1.56.3/PKG-INFO",
+            "lestash-1.56.3/README.md"
+          ],
+          "value": "https://img.shields.io/github/license/thompsonson/lestash"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/tests/test_post_cache.py"
+          ],
+          "value": "https://linkedin.com/feed/update/urn:li:activity:123"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/tests/test_post_cache.py"
+          ],
+          "value": "https://linkedin.com/feed/update/urn:li:activity:full"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/src/lestash/core/database.py"
+          ],
+          "value": "https://linkedin.com/in/john-doe"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "lestash-1.56.3/PKG-INFO",
+            "lestash-1.56.3/README.md"
+          ],
+          "value": "https://linkedin.com/in/johndoe"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/tests/pdf_enrich/test_links.py"
+          ],
+          "value": "https://lost.example"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/tests/pdf_enrich/test_links.py"
+          ],
+          "value": "https://oreilly.example"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "lestash-1.56.3/PKG-INFO",
+            "lestash-1.56.3/README.md"
+          ],
+          "value": "https://pypi.org/project/lestash/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/src/lestash/core/google_auth.py"
+          ],
+          "value": "https://www.googleapis.com/auth/drive.readonly"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/src/lestash/cli/items.py"
+          ],
+          "value": "https://www.linkedin.com/feed/update/urn:li:activity:{parent_activity"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/src/lestash/cli/items.py"
+          ],
+          "value": "https://www.linkedin.com/feed/update/{target_urn"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lestash-1.56.3/tests/pdf_enrich/test_links.py"
+          ],
+          "value": "https://x"
+        }
+      ]
+    },
+    "package": "lestash",
+    "package_slug": "lestash",
+    "project_url": "https://pypi.org/project/lestash/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T17:45:53.120283+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T17:46:52.144883+00:00",
+    "title": "Personal PyPI Supply Chain Scan: lestash 1.56.3",
+    "version": "1.56.3",
+    "version_slug": "1.56.3",
+    "_metadata_path": "reports/packages/lestash/1.56.3/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "fairlearn_fhe-0.2.1.tar.gz",
     "finding_count": 125,
     "model": "gpt-5.5",
