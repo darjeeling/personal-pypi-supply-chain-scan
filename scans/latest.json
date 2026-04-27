@@ -1,44 +1,54 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "braincontrol-0.1.1.tar.gz",
-  "finding_count": 1,
+  "distribution": "singleton_base-1.2.6-py3-none-any.whl",
+  "finding_count": 5,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "braincontrol-0.1.1/PKG-INFO",
-          "braincontrol-0.1.1/pyproject.toml",
-          "braincontrol-0.1.1/src/braincontrol.egg-info/PKG-INFO"
+          "singleton_base/__main__.py"
         ],
-        "value": "github.com"
+        "value": "docs.python.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "singleton_base/__main__.py"
+        ],
+        "value": "www.python.org"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "braincontrol-0.1.1/PKG-INFO",
-          "braincontrol-0.1.1/pyproject.toml",
-          "braincontrol-0.1.1/src/braincontrol.egg-info/PKG-INFO"
+          "singleton_base/__main__.py"
         ],
-        "value": "https://github.com/JohannesWiesner/braincontrol"
+        "value": "https://docs.python.org/3/using/cmdline.html#cmdoption-m"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "singleton_base/__main__.py"
+        ],
+        "value": "https://www.python.org/dev/peps/pep-0338/"
       }
     ]
   },
-  "package": "braincontrol",
-  "package_slug": "braincontrol",
-  "project_url": "https://pypi.org/project/braincontrol/",
+  "package": "singleton-base",
+  "package_slug": "singleton-base",
+  "project_url": "https://pypi.org/project/singleton-base/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T11:06:44.178720+00:00",
+  "published_at": "2026-04-27T11:11:40.968966+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T11:08:18.004274+00:00",
-  "title": "Personal PyPI Supply Chain Scan: braincontrol 0.1.1",
-  "version": "0.1.1",
-  "version_slug": "0.1.1",
-  "_metadata_path": "reports/packages/braincontrol/0.1.1/metadata.json"
+  "scanned_at": "2026-04-27T11:12:36.920292+00:00",
+  "title": "Personal PyPI Supply Chain Scan: singleton-base 1.2.6",
+  "version": "1.2.6",
+  "version_slug": "1.2.6",
+  "_metadata_path": "reports/packages/singleton-base/1.2.6/metadata.json"
 }
