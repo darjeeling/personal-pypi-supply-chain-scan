@@ -1,6 +1,524 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "churnkit-1.1.9a9.tar.gz",
+    "finding_count": 375,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "aladjov.github.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "churnkit-1.1.9a9/src/customer_retention/core/compat/__init__.py",
+            "churnkit-1.1.9a9/src/customer_retention/core/compat/bulk_profiling.py",
+            "churnkit-1.1.9a9/src/customer_retention/stages/profiling/type_detector.py"
+          ],
+          "value": "api.types"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "codecov.io"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "databricks.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "docs.pydantic.dev"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "churnkit-1.1.9a9/pyproject.toml"
+          ],
+          "value": "download.pytorch.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "churnkit-1.1.9a9/src/customer_retention/generators/spec_generator/mlflow_pipeline_generator.py"
+          ],
+          "value": "files.items"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/apps/databricks_app/src/default_profile.css",
+            "churnkit-1.1.9a9/apps/databricks_app/src/theme.css"
+          ],
+          "value": "fonts.googleapis.com"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md",
+            "churnkit-1.1.9a9/pyproject.toml",
+            "churnkit-1.1.9a9/scripts/notebooks/init_project.py"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "churnkit-1.1.9a9/scripts/databricks/dbr_init.sh"
+          ],
+          "value": "hf-user"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "churnkit-1.1.9a9/scripts/databricks/dbr_init.sh"
+          ],
+          "value": "huggingface.co"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "img.shields.io"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "mlflow.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/src/customer_retention/stages/features/feature_selector.py",
+            "churnkit-1.1.9a9/src/customer_retention/stages/validation/leakage_gate.py"
+          ],
+          "value": "raw.items"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "churnkit-1.1.9a9/src/customer_retention/analysis/auto_explorer/session.py",
+            "churnkit-1.1.9a9/src/customer_retention/stages/causal/dashboard_views.py",
+            "churnkit-1.1.9a9/src/customer_retention/stages/causal/interpretation/markdown_bootstrap.py"
+          ],
+          "value": "raw.strip"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "churnkit-1.1.9a9/LICENSE"
+          ],
+          "value": "www.apache.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "churnkit-1.1.9a9/exploration_notebooks/-1_sample_datasets.ipynb"
+          ],
+          "value": "www.kaggle.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "churnkit-1.1.9a9/exploration_notebooks/-1_sample_datasets.ipynb"
+          ],
+          "value": "www.kaggle.com\\n"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "www.python.org"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "churnkit-1.1.9a9/LICENSE"
+          ],
+          "value": "http://www.apache.org/licenses/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "churnkit-1.1.9a9/LICENSE"
+          ],
+          "value": "http://www.apache.org/licenses/LICENSE-2.0"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "https://aladjov.github.io/CR/tutorial/customer-emails/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "https://aladjov.github.io/CR/tutorial/retail-churn/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "https://codecov.io/gh/aladjov/CR"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "https://codecov.io/gh/aladjov/CR/branch/master/graph/badge.svg"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "https://databricks.com/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "https://docs.pydantic.dev/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "churnkit-1.1.9a9/pyproject.toml"
+          ],
+          "value": "https://download.pytorch.org/whl/cu128"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "churnkit-1.1.9a9/apps/databricks_app/src/default_profile.css"
+          ],
+          "value": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Geist:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "churnkit-1.1.9a9/apps/databricks_app/src/theme.css"
+          ],
+          "value": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Geist:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/pyproject.toml",
+            "churnkit-1.1.9a9/scripts/notebooks/init_project.py"
+          ],
+          "value": "https://github.com/aladjov/CR"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "https://github.com/aladjov/CR/actions/workflows/ci.yaml"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "https://github.com/aladjov/CR/actions/workflows/ci.yaml/badge.svg"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/pyproject.toml"
+          ],
+          "value": "https://github.com/aladjov/CR/issues"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md",
+            "churnkit-1.1.9a9/pyproject.toml"
+          ],
+          "value": "https://github.com/aladjov/CR/wiki"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "https://github.com/aladjov/CR/wiki/Acknowledgments"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "https://github.com/aladjov/CR/wiki/Architecture"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "https://github.com/aladjov/CR/wiki/Databricks-Installation"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "https://github.com/aladjov/CR/wiki/Databricks-Track"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "https://github.com/aladjov/CR/wiki/Exploration-Loop"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "https://github.com/aladjov/CR/wiki/Feature-Store"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "https://github.com/aladjov/CR/wiki/Getting-Started"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "https://github.com/aladjov/CR/wiki/Local-Track"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "https://github.com/aladjov/CR/wiki/Temporal-Framework"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "https://github.com/aladjov/CR/wiki/Tutorial-Bank-Churn"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "https://github.com/aladjov/CR/wiki/Tutorial-Customer-Emails"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "https://github.com/aladjov/CR/wiki/Tutorial-Netflix-Churn"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "https://github.com/aladjov/CR/wiki/Tutorial-Retail-Churn"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "https://github.com/pre-commit/pre-commit"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "churnkit-1.1.9a9/scripts/databricks/dbr_init.sh"
+          ],
+          "value": "https://hf-user:${HF_TOKEN"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "churnkit-1.1.9a9/scripts/databricks/dbr_init.sh"
+          ],
+          "value": "https://huggingface.co/${DBR_HF_REPO"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "https://img.shields.io/badge/Databricks-compatible-FF3621?logo=databricks"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "https://img.shields.io/badge/License-Apache_2.0-green.svg"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "https://img.shields.io/badge/MLflow-integrated-0194E2?logo=mlflow"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "https://img.shields.io/badge/python-3.10+-blue.svg"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "https://img.shields.io/badge/typed-Pydantic-blue"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "https://mlflow.org/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "churnkit-1.1.9a9/exploration_notebooks/-1_sample_datasets.ipynb"
+          ],
+          "value": "https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "churnkit-1.1.9a9/exploration_notebooks/-1_sample_datasets.ipynb"
+          ],
+          "value": "https://www.kaggle.com/datasets/vasifasad/netflix-customer-churn-prediction"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "churnkit-1.1.9a9/exploration_notebooks/-1_sample_datasets.ipynb"
+          ],
+          "value": "https://www.kaggle.com/settings\\"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "churnkit-1.1.9a9/exploration_notebooks/-1_sample_datasets.ipynb"
+          ],
+          "value": "https://www.kaggle.com\\n"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "churnkit-1.1.9a9/PKG-INFO",
+            "churnkit-1.1.9a9/README.md"
+          ],
+          "value": "https://www.python.org/downloads/"
+        }
+      ]
+    },
+    "package": "churnkit",
+    "package_slug": "churnkit",
+    "project_url": "https://pypi.org/project/churnkit/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T10:54:04.228549+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T10:54:50.023406+00:00",
+    "title": "Personal PyPI Supply Chain Scan: churnkit 1.1.9a9",
+    "version": "1.1.9a9",
+    "version_slug": "1.1.9a9",
+    "_metadata_path": "reports/packages/churnkit/1.1.9a9/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "occam_gitignore-0.1.0-py3-none-any.whl",
     "finding_count": 2,
     "model": "gpt-5.5",
