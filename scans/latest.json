@@ -1,143 +1,505 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "superdoc_sdk-1.8.0.dev4.tar.gz",
-  "finding_count": 19,
+  "distribution": "alibabacloud_ecd20200930-4.24.3.tar.gz",
+  "finding_count": 15,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 3,
+        "file_count": 24,
         "files": [
-          "superdoc_sdk-1.8.0.dev4/PKG-INFO",
-          "superdoc_sdk-1.8.0.dev4/README.md",
-          "superdoc_sdk-1.8.0.dev4/superdoc_sdk.egg-info/PKG-INFO"
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_cancel_auto_snapshot_policy_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_copy_image_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_adconnector_directory_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_adconnector_office_site_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_auto_snapshot_policy_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_desktop_group_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_desktops_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_desktops_shrink_request.py"
         ],
-        "value": "app.example.com"
+        "value": "`"
       },
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "superdoc_sdk-1.8.0.dev4/PKG-INFO",
-          "superdoc_sdk-1.8.0.dev4/README.md",
-          "superdoc_sdk-1.8.0.dev4/superdoc_sdk.egg-info/PKG-INFO"
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_adconnector_office_site_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_modify_office_site_attribute_request.py"
         ],
-        "value": "docs.superdoc.dev"
+        "value": "`.\\\\"
       },
       {
-        "file_count": 3,
+        "file_count": 4,
         "files": [
-          "superdoc_sdk-1.8.0.dev4/PKG-INFO",
-          "superdoc_sdk-1.8.0.dev4/README.md",
-          "superdoc_sdk-1.8.0.dev4/superdoc_sdk.egg-info/PKG-INFO"
+          "alibabacloud_ecd20200930-4.24.3/PKG-INFO",
+          "alibabacloud_ecd20200930-4.24.3/README-CN.md",
+          "alibabacloud_ecd20200930-4.24.3/README.md",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930.egg-info/PKG-INFO"
+        ],
+        "value": "aliyunsdk-pages.alicdn.com"
+      },
+      {
+        "file_count": 5,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/PKG-INFO",
+          "alibabacloud_ecd20200930-4.24.3/README-CN.md",
+          "alibabacloud_ecd20200930-4.24.3/README.md",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930.egg-info/PKG-INFO",
+          "alibabacloud_ecd20200930-4.24.3/setup.py"
         ],
         "value": "github.com"
       },
       {
-        "file_count": 3,
+        "file_count": 148,
         "files": [
-          "superdoc_sdk-1.8.0.dev4/PKG-INFO",
-          "superdoc_sdk-1.8.0.dev4/README.md",
-          "superdoc_sdk-1.8.0.dev4/superdoc_sdk.egg-info/PKG-INFO"
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_activate_office_site_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_add_devices_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_add_file_permission_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_add_file_permission_shrink_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_add_user_to_desktop_group_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_apply_auto_snapshot_policy_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_apply_coordinate_privilege_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_approve_fota_update_request.py"
         ],
-        "value": "peps.python.org"
+        "value": "help.aliyun.com"
       },
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "superdoc_sdk-1.8.0.dev4/PKG-INFO",
-          "superdoc_sdk-1.8.0.dev4/README.md",
-          "superdoc_sdk-1.8.0.dev4/superdoc_sdk.egg-info/PKG-INFO"
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_apply_coordination_for_monitoring_request.py"
         ],
-        "value": "superdoc.dev"
+        "value": "next.api.aliyun.com"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/PKG-INFO",
+          "alibabacloud_ecd20200930-4.24.3/README-CN.md",
+          "alibabacloud_ecd20200930-4.24.3/README.md",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930.egg-info/PKG-INFO"
+        ],
+        "value": "pip.pypa.io"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_modify_disk_spec_response_body.py"
+        ],
+        "value": "usercenter2-intl.aliyun.com"
+      },
+      {
+        "file_count": 6,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/LICENSE",
+          "alibabacloud_ecd20200930-4.24.3/PKG-INFO",
+          "alibabacloud_ecd20200930-4.24.3/README-CN.md",
+          "alibabacloud_ecd20200930-4.24.3/README.md",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930.egg-info/PKG-INFO",
+          "alibabacloud_ecd20200930-4.24.3/setup.py"
+        ],
+        "value": "www.apache.org"
+      },
+      {
+        "file_count": 6,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_center_policy_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_policy_group_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_describe_center_policy_list_response_body.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_describe_policy_groups_response_body.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_modify_center_policy_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_modify_policy_group_request.py"
+        ],
+        "value": "www.usb.org"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 3,
+        "file_count": 24,
         "files": [
-          "superdoc_sdk-1.8.0.dev4/PKG-INFO",
-          "superdoc_sdk-1.8.0.dev4/README.md",
-          "superdoc_sdk-1.8.0.dev4/superdoc_sdk.egg-info/PKG-INFO"
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_cancel_auto_snapshot_policy_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_copy_image_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_adconnector_directory_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_adconnector_office_site_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_auto_snapshot_policy_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_desktop_group_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_desktops_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_desktops_shrink_request.py"
         ],
-        "value": "https://app.example.com/api/liveblocks-auth"
+        "value": "http://`"
+      },
+      {
+        "file_count": 6,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/LICENSE",
+          "alibabacloud_ecd20200930-4.24.3/PKG-INFO",
+          "alibabacloud_ecd20200930-4.24.3/README-CN.md",
+          "alibabacloud_ecd20200930-4.24.3/README.md",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930.egg-info/PKG-INFO",
+          "alibabacloud_ecd20200930-4.24.3/setup.py"
+        ],
+        "value": "http://www.apache.org/licenses/LICENSE-2.0"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_nasfile_system_request.py"
+        ],
+        "value": "https://"
+      },
+      {
+        "file_count": 22,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_cancel_auto_snapshot_policy_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_copy_image_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_adconnector_directory_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_auto_snapshot_policy_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_desktop_group_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_desktops_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_desktops_shrink_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_image_request.py"
+        ],
+        "value": "https://`"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_adconnector_office_site_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_modify_office_site_attribute_request.py"
+        ],
+        "value": "https://`.\\\\"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/PKG-INFO",
+          "alibabacloud_ecd20200930-4.24.3/README-CN.md",
+          "alibabacloud_ecd20200930-4.24.3/README.md",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930.egg-info/PKG-INFO"
+        ],
+        "value": "https://aliyunsdk-pages.alicdn.com/icons/AlibabaCloud.svg"
       },
       {
         "file_count": 3,
         "files": [
-          "superdoc_sdk-1.8.0.dev4/PKG-INFO",
-          "superdoc_sdk-1.8.0.dev4/README.md",
-          "superdoc_sdk-1.8.0.dev4/superdoc_sdk.egg-info/PKG-INFO"
+          "alibabacloud_ecd20200930-4.24.3/PKG-INFO",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930.egg-info/PKG-INFO",
+          "alibabacloud_ecd20200930-4.24.3/setup.py"
         ],
-        "value": "https://docs.superdoc.dev/document-api/overview"
+        "value": "https://github.com/aliyun/alibabacloud-python-sdk"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/README-CN.md"
+        ],
+        "value": "https://github.com/aliyun/alibabacloud-python-sdk/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/README-CN.md"
+        ],
+        "value": "https://github.com/aliyun/alibabacloud-python-sdk/blob/master/docs/0-Usage-CN.md#%E5%BF%AB%E9%80%9F%E4%BD%BF%E7%94%A8"
       },
       {
         "file_count": 3,
         "files": [
-          "superdoc_sdk-1.8.0.dev4/PKG-INFO",
-          "superdoc_sdk-1.8.0.dev4/README.md",
-          "superdoc_sdk-1.8.0.dev4/superdoc_sdk.egg-info/PKG-INFO"
+          "alibabacloud_ecd20200930-4.24.3/PKG-INFO",
+          "alibabacloud_ecd20200930-4.24.3/README.md",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930.egg-info/PKG-INFO"
         ],
-        "value": "https://docs.superdoc.dev/document-engine/cli"
+        "value": "https://github.com/aliyun/alibabacloud-python-sdk/blob/master/docs/0-Usage-EN.md#quick-examples"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/PKG-INFO",
+          "alibabacloud_ecd20200930-4.24.3/README-CN.md",
+          "alibabacloud_ecd20200930-4.24.3/README.md",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/aliyun/alibabacloud-python-sdk/blob/master/ecd-20200930/ChangeLog.md"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/README-CN.md"
+        ],
+        "value": "https://github.com/aliyun/alibabacloud-python-sdk/issues/new"
       },
       {
         "file_count": 3,
         "files": [
-          "superdoc_sdk-1.8.0.dev4/PKG-INFO",
-          "superdoc_sdk-1.8.0.dev4/README.md",
-          "superdoc_sdk-1.8.0.dev4/superdoc_sdk.egg-info/PKG-INFO"
+          "alibabacloud_ecd20200930-4.24.3/PKG-INFO",
+          "alibabacloud_ecd20200930-4.24.3/README.md",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930.egg-info/PKG-INFO"
         ],
-        "value": "https://docs.superdoc.dev/document-engine/sdks#collaboration-sessions"
+        "value": "https://github.com/aliyun/alibabacloud-sdk/issues/new"
       },
       {
         "file_count": 3,
         "files": [
-          "superdoc_sdk-1.8.0.dev4/PKG-INFO",
-          "superdoc_sdk-1.8.0.dev4/README.md",
-          "superdoc_sdk-1.8.0.dev4/superdoc_sdk.egg-info/PKG-INFO"
+          "alibabacloud_ecd20200930-4.24.3/PKG-INFO",
+          "alibabacloud_ecd20200930-4.24.3/README.md",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930.egg-info/PKG-INFO"
         ],
-        "value": "https://docs.superdoc.dev/modules/collaboration/overview"
+        "value": "https://github.com/aliyun/alibabacloud-sdk/tree/master/python"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_bundle_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_describe_desktops_response_body.py"
+        ],
+        "value": "https://help.aliyun.com/document_detail/122389.html"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_bundle_request.py"
+        ],
+        "value": "https://help.aliyun.com/document_detail/188609.html"
+      },
+      {
+        "file_count": 5,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_describe_desktop_groups_response_body.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_describe_desktops_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_describe_global_desktop_records_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_describe_resource_by_center_policy_id_response_body.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_modify_desktop_spec_request.py"
+        ],
+        "value": "https://help.aliyun.com/document_detail/188882.html"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_describe_fota_tasks_response_body.py"
+        ],
+        "value": "https://help.aliyun.com/document_detail/188895.html"
+      },
+      {
+        "file_count": 121,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_activate_office_site_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_add_devices_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_add_file_permission_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_add_file_permission_shrink_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_apply_auto_snapshot_policy_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_apply_coordinate_privilege_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_approve_fota_update_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_associate_network_package_request.py"
+        ],
+        "value": "https://help.aliyun.com/document_detail/196646.html"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_describe_desktops_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_export_desktop_list_info_request.py"
+        ],
+        "value": "https://help.aliyun.com/document_detail/203781.html"
       },
       {
         "file_count": 3,
         "files": [
-          "superdoc_sdk-1.8.0.dev4/PKG-INFO",
-          "superdoc_sdk-1.8.0.dev4/README.md",
-          "superdoc_sdk-1.8.0.dev4/superdoc_sdk.egg-info/PKG-INFO"
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_delete_virtual_mfadevice_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_lock_virtual_mfadevice_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_unlock_virtual_mfadevice_request.py"
         ],
-        "value": "https://github.com/superdoc-dev/superdoc"
+        "value": "https://help.aliyun.com/document_detail/206210.html"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_describe_fota_pending_desktops_request.py"
+        ],
+        "value": "https://help.aliyun.com/document_detail/216071.html"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_associate_network_package_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_dissociate_network_package_request.py"
+        ],
+        "value": "https://help.aliyun.com/document_detail/216079.html"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_complete_cds_file_request.py"
+        ],
+        "value": "https://help.aliyun.com/document_detail/2247619.html"
+      },
+      {
+        "file_count": 7,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_add_file_permission_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_add_file_permission_shrink_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_delete_cds_file_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_list_file_permission_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_modify_cds_file_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_remove_file_permission_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_remove_file_permission_shrink_request.py"
+        ],
+        "value": "https://help.aliyun.com/document_detail/2247622.html"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_add_user_to_desktop_group_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_desktop_group_request.py"
+        ],
+        "value": "https://help.aliyun.com/document_detail/25693.html"
+      },
+      {
+        "file_count": 6,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_describe_auto_snapshot_policy_response_body.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_describe_client_events_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_describe_snapshots_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_describe_snapshots_response_body.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_describe_virtual_mfadevices_response_body.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_export_client_events_request.py"
+        ],
+        "value": "https://help.aliyun.com/document_detail/25696.html"
+      },
+      {
+        "file_count": 7,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_desktop_group_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_desktops_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_desktops_shrink_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_template_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_describe_desktops_response_body.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_describe_images_response_body.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_describe_snapshots_response_body.py"
+        ],
+        "value": "https://help.aliyun.com/document_detail/28951.html"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_config_adconnector_user_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_modify_adconnector_office_site_request.py"
+        ],
+        "value": "https://help.aliyun.com/document_detail/311259.html"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_simple_office_site_request.py"
+        ],
+        "value": "https://help.aliyun.com/document_detail/335132.html"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_center_policy_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_policy_group_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_modify_center_policy_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_modify_policy_group_request.py"
+        ],
+        "value": "https://help.aliyun.com/document_detail/40724.html"
       },
       {
         "file_count": 3,
         "files": [
-          "superdoc_sdk-1.8.0.dev4/PKG-INFO",
-          "superdoc_sdk-1.8.0.dev4/README.md",
-          "superdoc_sdk-1.8.0.dev4/superdoc_sdk.egg-info/PKG-INFO"
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_cancel_coordination_for_monitoring_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_get_coordinate_ticket_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_reset_desktops_request.py"
         ],
-        "value": "https://peps.python.org/pep-0508/"
+        "value": "https://help.aliyun.com/document_detail/436773.html"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_describe_images_request.py"
+        ],
+        "value": "https://help.aliyun.com/document_detail/436816.html"
       },
       {
         "file_count": 3,
         "files": [
-          "superdoc_sdk-1.8.0.dev4/PKG-INFO",
-          "superdoc_sdk-1.8.0.dev4/README.md",
-          "superdoc_sdk-1.8.0.dev4/superdoc_sdk.egg-info/PKG-INFO"
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_attach_cen_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_adconnector_office_site_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_verify_cen_request.py"
         ],
-        "value": "https://superdoc.dev"
+        "value": "https://help.aliyun.com/document_detail/436847.html"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_bundle_request.py"
+        ],
+        "value": "https://help.aliyun.com/document_detail/436974.html"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_describe_fota_pending_desktops_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_update_fota_task_request.py"
+        ],
+        "value": "https://help.aliyun.com/document_detail/437001.html"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_apply_coordination_for_monitoring_request.py"
+        ],
+        "value": "https://next.api.aliyun.com/document/ecd/2020-09-30/DescribeRegions"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/PKG-INFO",
+          "alibabacloud_ecd20200930-4.24.3/README-CN.md",
+          "alibabacloud_ecd20200930-4.24.3/README.md",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930.egg-info/PKG-INFO"
+        ],
+        "value": "https://pip.pypa.io/en/stable/installing/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_modify_disk_spec_response_body.py"
+        ],
+        "value": "https://usercenter2-intl.aliyun.com/order/list"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_policy_group_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_describe_policy_groups_response_body.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_modify_policy_group_request.py"
+        ],
+        "value": "https://www.usb.org/defined-class-codes"
+      },
+      {
+        "file_count": 6,
+        "files": [
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_center_policy_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_create_policy_group_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_describe_center_policy_list_response_body.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_describe_policy_groups_response_body.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_modify_center_policy_request.py",
+          "alibabacloud_ecd20200930-4.24.3/alibabacloud_ecd20200930/models/_modify_policy_group_request.py"
+        ],
+        "value": "https://www.usb.org/sites/default/files/vendor_ids032322.pdf_1.pdf"
       }
     ]
   },
-  "package": "superdoc-sdk",
-  "package_slug": "superdoc-sdk",
-  "project_url": "https://pypi.org/project/superdoc-sdk/",
+  "package": "alibabacloud-ecd20200930",
+  "package_slug": "alibabacloud-ecd20200930",
+  "project_url": "https://pypi.org/project/alibabacloud-ecd20200930/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T18:59:59.896649+00:00",
+  "published_at": "2026-04-27T19:03:43.513302+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T19:00:44.358994+00:00",
-  "title": "Personal PyPI Supply Chain Scan: superdoc-sdk 1.8.0.dev4",
-  "version": "1.8.0.dev4",
-  "version_slug": "1.8.0.dev4",
-  "_metadata_path": "reports/packages/superdoc-sdk/1.8.0.dev4/metadata.json"
+  "scanned_at": "2026-04-27T19:05:08.119224+00:00",
+  "title": "Personal PyPI Supply Chain Scan: alibabacloud-ecd20200930 4.24.3",
+  "version": "4.24.3",
+  "version_slug": "4.24.3",
+  "_metadata_path": "reports/packages/alibabacloud-ecd20200930/4.24.3/metadata.json"
 }
