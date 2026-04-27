@@ -1,365 +1,52 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "dockerwiz-0.1.2.tar.gz",
-  "finding_count": 35,
+  "distribution": "amazon_ads_cli-0.1.3.tar.gz",
+  "finding_count": 8,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 7,
+        "file_count": 4,
         "files": [
-          "dockerwiz-0.1.2/dockerwiz/templates/go/echo/nginx.conf.j2",
-          "dockerwiz-0.1.2/dockerwiz/templates/go/gin/nginx.conf.j2",
-          "dockerwiz-0.1.2/dockerwiz/templates/node/express/nginx.conf.j2",
-          "dockerwiz-0.1.2/dockerwiz/templates/node/nestjs/nginx.conf.j2",
-          "dockerwiz-0.1.2/dockerwiz/templates/python/django/nginx.conf.j2",
-          "dockerwiz-0.1.2/dockerwiz/templates/python/fastapi/nginx.conf.j2",
-          "dockerwiz-0.1.2/scope/DESIGN.md"
-        ],
-        "value": "app"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dockerwiz-0.1.2/PKG-INFO",
-          "dockerwiz-0.1.2/README.md"
-        ],
-        "value": "docker-py.readthedocs.io"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dockerwiz-0.1.2/PKG-INFO",
-          "dockerwiz-0.1.2/README.md"
-        ],
-        "value": "docs.astral.sh"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dockerwiz-0.1.2/PKG-INFO",
-          "dockerwiz-0.1.2/README.md"
-        ],
-        "value": "docs.pydantic.dev"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dockerwiz-0.1.2/dockerwiz/tui/screens/generate.py",
-          "dockerwiz-0.1.2/dockerwiz/tui/screens/review.py"
-        ],
-        "value": "files.insert"
-      },
-      {
-        "file_count": 9,
-        "files": [
-          "dockerwiz-0.1.2/CHANGELOG.md",
-          "dockerwiz-0.1.2/CONTRIBUTING.md",
-          "dockerwiz-0.1.2/PKG-INFO",
-          "dockerwiz-0.1.2/README.md",
-          "dockerwiz-0.1.2/dockerwiz/templates/go/echo/Dockerfile.j2",
-          "dockerwiz-0.1.2/dockerwiz/templates/go/gin/Dockerfile.j2",
-          "dockerwiz-0.1.2/pyproject.toml",
-          "dockerwiz-0.1.2/scope/DESIGN.md"
+          "amazon_ads_cli-0.1.3/PKG-INFO",
+          "amazon_ads_cli-0.1.3/README.md",
+          "amazon_ads_cli-0.1.3/amazon_ads_cli.egg-info/PKG-INFO",
+          "amazon_ads_cli-0.1.3/setup.py"
         ],
         "value": "github.com"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dockerwiz-0.1.2/PKG-INFO",
-          "dockerwiz-0.1.2/README.md"
-        ],
-        "value": "hatch.pypa.io"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "dockerwiz-0.1.2/dockerwiz/docker_hub.py",
-          "dockerwiz-0.1.2/scope/DEVELOPMENT.md",
-          "dockerwiz-0.1.2/tests/test_docker_hub.py"
-        ],
-        "value": "hub.docker.com"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dockerwiz-0.1.2/PKG-INFO",
-          "dockerwiz-0.1.2/README.md"
-        ],
-        "value": "jinja.palletsprojects.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dockerwiz-0.1.2/CHANGELOG.md"
-        ],
-        "value": "keepachangelog.com"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dockerwiz-0.1.2/PKG-INFO",
-          "dockerwiz-0.1.2/README.md"
-        ],
-        "value": "mypy.readthedocs.io"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dockerwiz-0.1.2/scope/PRODUCT.md"
-        ],
-        "value": "pypi.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dockerwiz-0.1.2/PKG-INFO",
-          "dockerwiz-0.1.2/README.md"
-        ],
-        "value": "pytest.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dockerwiz-0.1.2/CHANGELOG.md"
-        ],
-        "value": "semver.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dockerwiz-0.1.2/PKG-INFO",
-          "dockerwiz-0.1.2/README.md"
-        ],
-        "value": "typer.tiangolo.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dockerwiz-0.1.2/CONTRIBUTING.md"
-        ],
-        "value": "www.conventionalcommits.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dockerwiz-0.1.2/PKG-INFO",
-          "dockerwiz-0.1.2/README.md"
-        ],
-        "value": "www.python-httpx.org"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 7,
-        "files": [
-          "dockerwiz-0.1.2/dockerwiz/templates/go/echo/nginx.conf.j2",
-          "dockerwiz-0.1.2/dockerwiz/templates/go/gin/nginx.conf.j2",
-          "dockerwiz-0.1.2/dockerwiz/templates/node/express/nginx.conf.j2",
-          "dockerwiz-0.1.2/dockerwiz/templates/node/nestjs/nginx.conf.j2",
-          "dockerwiz-0.1.2/dockerwiz/templates/python/django/nginx.conf.j2",
-          "dockerwiz-0.1.2/dockerwiz/templates/python/fastapi/nginx.conf.j2",
-          "dockerwiz-0.1.2/scope/DESIGN.md"
-        ],
-        "value": "http://app"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dockerwiz-0.1.2/PKG-INFO",
-          "dockerwiz-0.1.2/README.md"
-        ],
-        "value": "https://docker-py.readthedocs.io"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dockerwiz-0.1.2/PKG-INFO",
-          "dockerwiz-0.1.2/README.md"
-        ],
-        "value": "https://docs.astral.sh/ruff"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dockerwiz-0.1.2/PKG-INFO",
-          "dockerwiz-0.1.2/README.md"
-        ],
-        "value": "https://docs.pydantic.dev"
-      },
-      {
-        "file_count": 5,
-        "files": [
-          "dockerwiz-0.1.2/CONTRIBUTING.md",
-          "dockerwiz-0.1.2/PKG-INFO",
-          "dockerwiz-0.1.2/README.md",
-          "dockerwiz-0.1.2/pyproject.toml",
-          "dockerwiz-0.1.2/scope/DEVELOPMENT.md"
-        ],
-        "value": "https://github.com/TaukTauk/dockerwiz"
-      },
-      {
         "file_count": 3,
         "files": [
-          "dockerwiz-0.1.2/PKG-INFO",
-          "dockerwiz-0.1.2/pyproject.toml",
-          "dockerwiz-0.1.2/scope/DEVELOPMENT.md"
+          "amazon_ads_cli-0.1.3/PKG-INFO",
+          "amazon_ads_cli-0.1.3/amazon_ads_cli.egg-info/PKG-INFO",
+          "amazon_ads_cli-0.1.3/setup.py"
         ],
-        "value": "https://github.com/TaukTauk/dockerwiz/blob/main/CHANGELOG.md"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "dockerwiz-0.1.2/CONTRIBUTING.md",
-          "dockerwiz-0.1.2/PKG-INFO",
-          "dockerwiz-0.1.2/pyproject.toml",
-          "dockerwiz-0.1.2/scope/DEVELOPMENT.md"
-        ],
-        "value": "https://github.com/TaukTauk/dockerwiz/issues"
+        "value": "https://github.com/stellaraether/amazon-ads-cli"
       },
       {
         "file_count": 1,
         "files": [
-          "dockerwiz-0.1.2/CHANGELOG.md"
+          "amazon_ads_cli-0.1.3/README.md"
         ],
-        "value": "https://github.com/TaukTauk/dockerwiz/releases/tag/v0.1.0"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dockerwiz-0.1.2/CHANGELOG.md"
-        ],
-        "value": "https://github.com/TaukTauk/dockerwiz/releases/tag/v0.1.1"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dockerwiz-0.1.2/CHANGELOG.md"
-        ],
-        "value": "https://github.com/TaukTauk/dockerwiz/releases/tag/v0.1.2"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dockerwiz-0.1.2/PKG-INFO",
-          "dockerwiz-0.1.2/README.md"
-        ],
-        "value": "https://github.com/Textualize/rich"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dockerwiz-0.1.2/PKG-INFO",
-          "dockerwiz-0.1.2/README.md"
-        ],
-        "value": "https://github.com/Textualize/textual"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dockerwiz-0.1.2/PKG-INFO",
-          "dockerwiz-0.1.2/README.md"
-        ],
-        "value": "https://hatch.pypa.io"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dockerwiz-0.1.2/scope/DEVELOPMENT.md"
-        ],
-        "value": "https://hub.docker.com/v2/repositories/library/python/tags"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dockerwiz-0.1.2/tests/test_docker_hub.py"
-        ],
-        "value": "https://hub.docker.com/v2/repositories/library/python/tags?page_size=100"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dockerwiz-0.1.2/dockerwiz/docker_hub.py",
-          "dockerwiz-0.1.2/tests/test_docker_hub.py"
-        ],
-        "value": "https://hub.docker.com/v2/repositories/library/{image"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dockerwiz-0.1.2/PKG-INFO",
-          "dockerwiz-0.1.2/README.md"
-        ],
-        "value": "https://jinja.palletsprojects.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dockerwiz-0.1.2/CHANGELOG.md"
-        ],
-        "value": "https://keepachangelog.com/en/1.1.0/"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dockerwiz-0.1.2/PKG-INFO",
-          "dockerwiz-0.1.2/README.md"
-        ],
-        "value": "https://mypy.readthedocs.io"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dockerwiz-0.1.2/PKG-INFO",
-          "dockerwiz-0.1.2/README.md"
-        ],
-        "value": "https://pytest.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dockerwiz-0.1.2/CHANGELOG.md"
-        ],
-        "value": "https://semver.org/spec/v2.0.0.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dockerwiz-0.1.2/PKG-INFO",
-          "dockerwiz-0.1.2/README.md"
-        ],
-        "value": "https://typer.tiangolo.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "dockerwiz-0.1.2/CONTRIBUTING.md"
-        ],
-        "value": "https://www.conventionalcommits.org/"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "dockerwiz-0.1.2/PKG-INFO",
-          "dockerwiz-0.1.2/README.md"
-        ],
-        "value": "https://www.python-httpx.org"
+        "value": "https://github.com/stellaraether/amazon-ads-cli.git"
       }
     ]
   },
-  "package": "dockerwiz",
-  "package_slug": "dockerwiz",
-  "project_url": "https://pypi.org/project/dockerwiz/",
+  "package": "amazon-ads-cli",
+  "package_slug": "amazon-ads-cli",
+  "project_url": "https://pypi.org/project/amazon-ads-cli/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T08:57:51.217310+00:00",
+  "published_at": "2026-04-27T09:01:58.323375+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T08:58:38.957241+00:00",
-  "title": "Personal PyPI Supply Chain Scan: dockerwiz 0.1.2",
-  "version": "0.1.2",
-  "version_slug": "0.1.2",
-  "_metadata_path": "reports/packages/dockerwiz/0.1.2/metadata.json"
+  "scanned_at": "2026-04-27T09:02:57.241533+00:00",
+  "title": "Personal PyPI Supply Chain Scan: amazon-ads-cli 0.1.3",
+  "version": "0.1.3",
+  "version_slug": "0.1.3",
+  "_metadata_path": "reports/packages/amazon-ads-cli/0.1.3/metadata.json"
 }
