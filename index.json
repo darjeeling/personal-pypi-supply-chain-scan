@@ -1,6 +1,115 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "vision_agents_plugins_turbopuffer-0.5.5-py3-none-any.whl",
+    "finding_count": 3,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 3,
+          "files": [
+            "PKG-INFO",
+            "pyproject.toml",
+            "vision_agents_plugins_turbopuffer-0.5.5.dist-info/METADATA"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "PKG-INFO",
+            "README.md",
+            "vision_agents/plugins/turbopuffer/turbopuffer_rag.py",
+            "vision_agents_plugins_turbopuffer-0.5.5.dist-info/METADATA"
+          ],
+          "value": "huggingface.co"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "PKG-INFO",
+            "README.md",
+            "vision_agents/plugins/turbopuffer/turbopuffer_rag.py",
+            "vision_agents_plugins_turbopuffer-0.5.5.dist-info/METADATA"
+          ],
+          "value": "turbopuffer.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "PKG-INFO",
+            "pyproject.toml",
+            "vision_agents_plugins_turbopuffer-0.5.5.dist-info/METADATA"
+          ],
+          "value": "visionagents.ai"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 3,
+          "files": [
+            "PKG-INFO",
+            "pyproject.toml",
+            "vision_agents_plugins_turbopuffer-0.5.5.dist-info/METADATA"
+          ],
+          "value": "https://github.com/GetStream/Vision-Agents"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "PKG-INFO",
+            "README.md",
+            "vision_agents/plugins/turbopuffer/turbopuffer_rag.py",
+            "vision_agents_plugins_turbopuffer-0.5.5.dist-info/METADATA"
+          ],
+          "value": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "PKG-INFO",
+            "README.md",
+            "vision_agents/plugins/turbopuffer/turbopuffer_rag.py",
+            "vision_agents_plugins_turbopuffer-0.5.5.dist-info/METADATA"
+          ],
+          "value": "https://turbopuffer.com/docs/hybrid"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vision_agents/plugins/turbopuffer/turbopuffer_rag.py"
+          ],
+          "value": "https://turbopuffer.com/docs/warm-cache"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "PKG-INFO",
+            "pyproject.toml",
+            "vision_agents_plugins_turbopuffer-0.5.5.dist-info/METADATA"
+          ],
+          "value": "https://visionagents.ai/"
+        }
+      ]
+    },
+    "package": "vision-agents-plugins-turbopuffer",
+    "package_slug": "vision-agents-plugins-turbopuffer",
+    "project_url": "https://pypi.org/project/vision-agents-plugins-turbopuffer/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T18:38:47.275138+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T18:39:07.207622+00:00",
+    "title": "Personal PyPI Supply Chain Scan: vision-agents-plugins-turbopuffer 0.5.5",
+    "version": "0.5.5",
+    "version_slug": "0.5.5",
+    "_metadata_path": "reports/packages/vision-agents-plugins-turbopuffer/0.5.5/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "nemo_safe_synthesizer-0.0.5-py3-none-any.whl",
     "finding_count": 229,
     "model": "gpt-5.5",
