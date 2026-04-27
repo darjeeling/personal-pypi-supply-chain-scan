@@ -1,27 +1,137 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "bitquery_pb2_kafka_package-0.2.27.tar.gz",
-  "finding_count": 23,
+  "distribution": "pyagc-1.1.0.tar.gz",
+  "finding_count": 4,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
         "file_count": 3,
         "files": [
-          "bitquery_pb2_kafka_package-0.2.27/PKG-INFO",
-          "bitquery_pb2_kafka_package-0.2.27/README.md",
-          "bitquery_pb2_kafka_package-0.2.27/bitquery_pb2_kafka_package.egg-info/PKG-INFO"
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
         ],
-        "value": "docs.bitquery.io"
+        "value": "arxiv.org"
       },
       {
         "file_count": 3,
         "files": [
-          "bitquery_pb2_kafka_package-0.2.27/PKG-INFO",
-          "bitquery_pb2_kafka_package-0.2.27/bitquery_pb2_kafka_package.egg-info/PKG-INFO",
-          "bitquery_pb2_kafka_package-0.2.27/pyproject.toml"
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "en.wikipedia.org"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO",
+          "pyagc-1.1.0/pyproject.toml"
         ],
         "value": "github.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "img.shields.io"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "jmlr.org"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "ogb.stanford.edu"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "ojs.aaai.org"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "openreview.net"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "proceedings.mlr.press"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "proceedings.neurips.cc"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO",
+          "pyagc-1.1.0/pyproject.toml"
+        ],
+        "value": "pyagc.readthedocs.io"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "pypi.org"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "pytorch.org"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "www.pyg.org"
       }
     ],
     "raw_public_ips": [],
@@ -30,42 +140,332 @@
       {
         "file_count": 3,
         "files": [
-          "bitquery_pb2_kafka_package-0.2.27/PKG-INFO",
-          "bitquery_pb2_kafka_package-0.2.27/README.md",
-          "bitquery_pb2_kafka_package-0.2.27/bitquery_pb2_kafka_package.egg-info/PKG-INFO"
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
         ],
-        "value": "https://docs.bitquery.io/docs/streams/kafka-streaming-concepts/"
+        "value": "https://arxiv.org/abs/1607.00653"
       },
       {
         "file_count": 3,
         "files": [
-          "bitquery_pb2_kafka_package-0.2.27/PKG-INFO",
-          "bitquery_pb2_kafka_package-0.2.27/README.md",
-          "bitquery_pb2_kafka_package-0.2.27/bitquery_pb2_kafka_package.egg-info/PKG-INFO"
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
         ],
-        "value": "https://docs.bitquery.io/docs/trading/price-index/introduction/"
+        "value": "https://arxiv.org/abs/1611.07308"
       },
       {
         "file_count": 3,
         "files": [
-          "bitquery_pb2_kafka_package-0.2.27/PKG-INFO",
-          "bitquery_pb2_kafka_package-0.2.27/bitquery_pb2_kafka_package.egg-info/PKG-INFO",
-          "bitquery_pb2_kafka_package-0.2.27/pyproject.toml"
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
         ],
-        "value": "https://github.com/bitquery/streaming_protobuf/tree/main"
+        "value": "https://arxiv.org/abs/1809.10341"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "https://arxiv.org/abs/1906.06532"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "https://arxiv.org/abs/2106.12484"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "https://arxiv.org/abs/2211.12875"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "https://arxiv.org/abs/2310.01144"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "https://arxiv.org/abs/2406.14288"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "https://arxiv.org/abs/2408.03765"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "https://arxiv.org/abs/2411.11074"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "https://arxiv.org/abs/2602.08519"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "https://arxiv.org/abs/2603.20829"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "https://en.wikipedia.org/wiki/K-means_clustering"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO",
+          "pyagc-1.1.0/pyproject.toml"
+        ],
+        "value": "https://github.com/Cloudy1225/PyAGC"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/Cloudy1225/PyAGC.git"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/Cloudy1225/PyAGC/blob/main/LICENSE"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/Cloudy1225/PyAGC/issues"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/yandex-research/graphland"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/badge/docs-readthedocs-blue.svg"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/badge/license-MIT-blue.svg"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/github/stars/Cloudy1225/PyAGC.svg?style=social"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/pypi/v/pyagc.svg"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "https://jmlr.org/papers/v24/20-998.html"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "https://ogb.stanford.edu/"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "https://ojs.aaai.org/index.php/AAAI/article/view/25918"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "https://openreview.net/forum?id=CYO5T-YjWZV"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "https://openreview.net/forum?id=dKVUUZfcW9"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "https://proceedings.mlr.press/v119/bianchi20a.html"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "https://proceedings.mlr.press/v202/liu23v.html"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/15972a9575e0f03bf82f00aebeb40774-Abstract-Conference.html"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO",
+          "pyagc-1.1.0/pyproject.toml"
+        ],
+        "value": "https://pyagc.readthedocs.io"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "https://pypi.org/project/PyAGC"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "https://pypi.org/project/pyagc"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "https://pytorch.org"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "pyagc-1.1.0/PKG-INFO",
+          "pyagc-1.1.0/README.md",
+          "pyagc-1.1.0/pyagc.egg-info/PKG-INFO"
+        ],
+        "value": "https://www.pyg.org/"
       }
     ]
   },
-  "package": "bitquery-pb2-kafka-package",
-  "package_slug": "bitquery-pb2-kafka-package",
-  "project_url": "https://pypi.org/project/bitquery-pb2-kafka-package/",
+  "package": "pyagc",
+  "package_slug": "pyagc",
+  "project_url": "https://pypi.org/project/pyagc/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T13:01:14.666995+00:00",
+  "published_at": "2026-04-27T13:05:51.151896+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T13:02:11.635033+00:00",
-  "title": "Personal PyPI Supply Chain Scan: bitquery-pb2-kafka-package 0.2.27",
-  "version": "0.2.27",
-  "version_slug": "0.2.27",
-  "_metadata_path": "reports/packages/bitquery-pb2-kafka-package/0.2.27/metadata.json"
+  "scanned_at": "2026-04-27T13:06:29.618030+00:00",
+  "title": "Personal PyPI Supply Chain Scan: pyagc 1.1.0",
+  "version": "1.1.0",
+  "version_slug": "1.1.0",
+  "_metadata_path": "reports/packages/pyagc/1.1.0/metadata.json"
 }
