@@ -1,2049 +1,797 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "specmap-0.3.5.tar.gz",
-  "finding_count": 943,
+  "distribution": "django_connectwise-1.20.0-py3-none-any.whl",
+  "finding_count": 77,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "specmap-0.3.5/src/specmap/server/app.py"
+          "djconnectwise/api.py",
+          "djconnectwise/tests/test_api.py"
         ],
-        "value": "*.gitlab.com"
+        "value": "api-na.myconnectwise.net"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "djconnectwise/sync.py",
+          "djconnectwise/tests/test_api.py"
+        ],
+        "value": "api.companyapiclient"
       },
       {
         "file_count": 1,
         "files": [
-          "specmap-0.3.5/docs/deployment/production.md"
+          "djconnectwise/tests/test_api.py"
         ],
-        "value": "`"
+        "value": "api.companyinfomanager"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "djconnectwise/models.py",
+          "djconnectwise/sync.py"
+        ],
+        "value": "api.configurationapiclient"
       },
       {
         "file_count": 1,
         "files": [
-          "specmap-0.3.5/web/src/hooks/useAnnotationPositions.ts"
+          "djconnectwise/tests/test_api.py"
         ],
-        "value": "a.top"
+        "value": "api.connectwiseapiclient"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/management/commands/cwsync.py"
+        ],
+        "value": "api.connectwiseapierror"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "djconnectwise/sync.py",
+          "djconnectwise/tests/test_views.py"
+        ],
+        "value": "api.connectwiserecordnotfounderror"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "djconnectwise/sync.py",
+          "djconnectwise/tests/test_api.py"
+        ],
+        "value": "api.financeapiclient"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/test_api.py"
+        ],
+        "value": "api.hostedapiclient"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/test_api.py"
+        ],
+        "value": "api.hostedreportapiclient"
       },
       {
         "file_count": 3,
         "files": [
-          "specmap-0.3.5/src/specmap/server/app.py",
-          "specmap-0.3.5/src/specmap/server/forge.py",
-          "specmap-0.3.5/src/specmap/server/github.py"
+          "djconnectwise/models.py",
+          "djconnectwise/sync.py",
+          "djconnectwise/tests/test_api.py"
         ],
-        "value": "api.github.com"
+        "value": "api.projectapiclient"
       },
       {
         "file_count": 3,
         "files": [
-          "specmap-0.3.5/tests/scenarios/test_branch.py",
-          "specmap-0.3.5/tests/scenarios/test_greenfield.py",
-          "specmap-0.3.5/tests/scenarios/test_iterative.py"
+          "djconnectwise/models.py",
+          "djconnectwise/sync.py",
+          "djconnectwise/tests/test_api.py"
         ],
-        "value": "api.go"
+        "value": "api.salesapiclient"
       },
       {
-        "file_count": 5,
+        "file_count": 3,
         "files": [
-          "specmap-0.3.5/PKG-INFO",
-          "specmap-0.3.5/README.md",
-          "specmap-0.3.5/docs/development.md",
-          "specmap-0.3.5/docs/getting-started/installation.md",
-          "specmap-0.3.5/docs/getting-started/local-dev.md"
+          "djconnectwise/models.py",
+          "djconnectwise/sync.py",
+          "djconnectwise/tests/test_api.py"
         ],
-        "value": "astral.sh"
+        "value": "api.scheduleapiclient"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "specmap-0.3.5/src/specmap/server/app.py"
+          "djconnectwise/models.py",
+          "djconnectwise/sync.py",
+          "djconnectwise/tests/test_api.py"
         ],
-        "value": "avatars.githubusercontent.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/src/hooks/useAnnotationPositions.ts"
-        ],
-        "value": "b.top"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "baseline-browser-mapping-2.10.9.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "binding-android-arm64-1.0.0-rc.16.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "binding-darwin-arm64-1.0.0-rc.16.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "binding-darwin-x64-1.0.0-rc.16.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "binding-freebsd-x64-1.0.0-rc.16.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "binding-linux-arm-gnueabihf-1.0.0-rc.16.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "binding-linux-arm64-gnu-1.0.0-rc.16.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "binding-linux-arm64-musl-1.0.0-rc.16.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "binding-linux-ppc64-gnu-1.0.0-rc.16.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "binding-linux-s390x-gnu-1.0.0-rc.16.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "binding-linux-x64-gnu-1.0.0-rc.16.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "binding-linux-x64-musl-1.0.0-rc.16.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "binding-openharmony-arm64-1.0.0-rc.16.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "binding-wasm32-wasi-1.0.0-rc.16.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "binding-win32-arm64-msvc-1.0.0-rc.16.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "binding-win32-x64-msvc-1.0.0-rc.16.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "character-entities-html4-2.1.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "character-entities-legacy-3.0.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "character-reference-invalid-2.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "comma-separated-tokens-2.0.3.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/src/hooks/useAnnotationPositions.ts"
-        ],
-        "value": "containerrect.top"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "convert-source-map-2.0.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "decode-named-character-reference-1.3.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "diff-match-patch-1.0.5.tgz"
-      },
-      {
-        "file_count": 5,
-        "files": [
-          "specmap-0.3.5/PKG-INFO",
-          "specmap-0.3.5/README.md",
-          "specmap-0.3.5/docs/development.md",
-          "specmap-0.3.5/docs/getting-started/installation.md",
-          "specmap-0.3.5/docs/getting-started/local-dev.md"
-        ],
-        "value": "docs.astral.sh"
+        "value": "api.serviceapiclient"
       },
       {
         "file_count": 2,
         "files": [
-          "specmap-0.3.5/docs/mcp/llm.md",
-          "specmap-0.3.5/docs/mcp/overview.md"
+          "djconnectwise/sync.py",
+          "djconnectwise/tests/test_api.py"
         ],
-        "value": "docs.litellm.ai"
+        "value": "api.systemapiclient"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "djconnectwise/models.py",
+          "djconnectwise/sync.py",
+          "djconnectwise/tests/test_api.py"
+        ],
+        "value": "api.timeapiclient"
       },
       {
         "file_count": 1,
         "files": [
-          "specmap-0.3.5/web/package-lock.json"
+          "django_connectwise-1.20.0.dist-info/METADATA"
         ],
-        "value": "electron-to-chromium-1.5.321.tgz"
+        "value": "connectwise.example.com"
       },
       {
         "file_count": 1,
         "files": [
-          "specmap-0.3.5/web/package-lock.json"
+          "djconnectwise/tests/fixtures.py"
         ],
-        "value": "escape-string-regexp-4.0.0.tgz"
+        "value": "cw.com"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "djconnectwise/api.py",
+          "djconnectwise/callbacks.py",
+          "djconnectwise/sync.py",
+          "djconnectwise/views.py"
+        ],
+        "value": "developer.connectwise.com"
       },
       {
         "file_count": 1,
         "files": [
-          "specmap-0.3.5/web/package-lock.json"
+          "djconnectwise/sync.py"
         ],
-        "value": "eslint-plugin-react-hooks-7.0.1.tgz"
+        "value": "docs.djangoproject.com"
       },
       {
         "file_count": 1,
         "files": [
-          "specmap-0.3.5/web/package-lock.json"
+          "django_connectwise-1.20.0.dist-info/METADATA"
         ],
-        "value": "eslint-plugin-react-refresh-0.5.2.tgz"
+        "value": "easy-thumbnails.readthedocs.io"
       },
       {
         "file_count": 1,
         "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "eslint-visitor-keys-3.4.3.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "eslint-visitor-keys-4.2.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "eslint-visitor-keys-5.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "eslint.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "estree-util-is-identifier-name-3.0.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "fast-deep-equal-3.1.3.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "fast-json-stable-stringify-2.1.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "file-entry-cache-8.0.0.tgz"
-      },
-      {
-        "file_count": 5,
-        "files": [
-          "specmap-0.3.5/web/src/components/diff/DiffViewer.tsx",
-          "specmap-0.3.5/web/src/components/filetree/FileTree.tsx",
-          "specmap-0.3.5/web/src/components/review/FileJumper.tsx",
-          "specmap-0.3.5/web/src/components/review/ReviewToolbar.tsx",
-          "specmap-0.3.5/web/src/pages/PRReviewPage.tsx"
-        ],
-        "value": "files.length"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/src/components/review/FileJumper.tsx"
-        ],
-        "value": "files.map"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/src/pages/PRReviewPage.tsx"
-        ],
-        "value": "files.reduce"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "specmap-0.3.5/src/specmap/server/app.py",
-          "specmap-0.3.5/web/index.html"
-        ],
-        "value": "fonts.googleapis.com"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "specmap-0.3.5/src/specmap/server/app.py",
-          "specmap-0.3.5/web/index.html"
-        ],
-        "value": "fonts.gstatic.com"
-      },
-      {
-        "file_count": 16,
-        "files": [
-          "specmap-0.3.5/PKG-INFO",
-          "specmap-0.3.5/README.md",
-          "specmap-0.3.5/docs/cli/ci.md",
-          "specmap-0.3.5/docs/cli/overview.md",
-          "specmap-0.3.5/docs/concepts/versioning.md",
-          "specmap-0.3.5/docs/deployment/production.md",
-          "specmap-0.3.5/docs/development.md",
-          "specmap-0.3.5/docs/getting-started/installation.md"
+          "django_connectwise-1.20.0.dist-info/METADATA"
         ],
         "value": "github.com"
       },
       {
-        "file_count": 3,
-        "files": [
-          "specmap-0.3.5/src/specmap/server/app.py",
-          "specmap-0.3.5/src/specmap/server/forge.py",
-          "specmap-0.3.5/src/specmap/server/gitlab.py"
-        ],
-        "value": "gitlab.com"
-      },
-      {
         "file_count": 2,
         "files": [
-          "specmap-0.3.5/.env.example",
-          "specmap-0.3.5/docs/deployment/production.md"
+          "djconnectwise/api.py",
+          "djconnectwise/tests/test_api.py"
         ],
-        "value": "gitlab.example.com"
+        "value": "na.myconnectwise.net"
       },
       {
         "file_count": 1,
         "files": [
-          "specmap-0.3.5/docs/deployment/production.md"
+          "django_connectwise-1.20.0.dist-info/METADATA"
         ],
-        "value": "gitlab.example.com`"
+        "value": "na.myconnectwise.net`-"
       },
       {
         "file_count": 1,
         "files": [
-          "specmap-0.3.5/web/package-lock.json"
+          "djconnectwise/tests/fixtures.py"
         ],
-        "value": "hast-util-parse-selector-4.0.0.tgz"
+        "value": "opprimo.serveo.net"
       },
       {
         "file_count": 1,
         "files": [
-          "specmap-0.3.5/web/package-lock.json"
+          "djconnectwise/utils.py"
         ],
-        "value": "hast-util-to-jsx-runtime-2.3.6.tgz"
+        "value": "stackoverflow.com"
       },
       {
         "file_count": 1,
         "files": [
-          "specmap-0.3.5/web/package-lock.json"
+          "djconnectwise/tests/fixtures.py"
         ],
-        "value": "hast-util-whitespace-3.0.0.tgz"
+        "value": "university.connectwise.com"
       },
       {
         "file_count": 1,
         "files": [
-          "specmap-0.3.5/web/package-lock.json"
+          "djconnectwise/management/commands/cwsync.py"
         ],
-        "value": "helper-compilation-targets-7.28.6.tgz"
+        "value": "www.python.org"
       },
       {
         "file_count": 1,
         "files": [
-          "specmap-0.3.5/web/package-lock.json"
+          "djconnectwise/tests/test_api.py"
         ],
-        "value": "helper-module-imports-7.28.6.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "helper-module-transforms-7.28.6.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "helper-string-parser-7.27.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "helper-validator-identifier-7.28.5.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "helper-validator-option-7.27.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "html-url-attributes-3.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "inline-style-parser-0.2.7.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "json-schema-traverse-0.4.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "json-stable-stringify-without-jsonify-1.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/src/hooks/useAnnotationPositions.ts"
-        ],
-        "value": "last.top"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "lightningcss-android-arm64-1.32.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "lightningcss-darwin-arm64-1.32.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "lightningcss-darwin-x64-1.32.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "lightningcss-freebsd-x64-1.32.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "lightningcss-linux-arm-gnueabihf-1.32.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "lightningcss-linux-arm64-gnu-1.32.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "lightningcss-linux-arm64-musl-1.32.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "lightningcss-linux-x64-gnu-1.32.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "lightningcss-linux-x64-musl-1.32.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "lightningcss-win32-arm64-msvc-1.32.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "lightningcss-win32-x64-msvc-1.32.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "mdast-util-from-markdown-2.0.3.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "mdast-util-mdx-expression-2.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "mdast-util-mdx-jsx-3.2.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "mdast-util-mdxjs-esm-2.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "mdast-util-phrasing-4.1.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "mdast-util-to-hast-13.2.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "mdast-util-to-markdown-2.1.2.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "mdast-util-to-string-4.0.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-core-commonmark-2.0.3.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-factory-destination-2.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-factory-label-2.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-factory-space-2.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-factory-title-2.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-factory-whitespace-2.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-util-character-2.1.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-util-chunked-2.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-util-classify-character-2.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-util-combine-extensions-2.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-util-decode-numeric-character-reference-2.0.2.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-util-decode-string-2.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-util-encode-2.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-util-html-tag-name-2.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-util-normalize-identifier-2.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-util-resolve-all-2.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-util-sanitize-uri-2.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-util-subtokenize-2.1.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-util-symbol-2.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-util-types-2.0.2.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/docs/mcp/overview.md"
-        ],
-        "value": "modelcontextprotocol.io"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/src/specmap/server/gitlab.py"
-        ],
-        "value": "oauth2"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "opencollective.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/README.md"
-        ],
-        "value": "oxc.rs"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "oxide-android-arm64-4.2.2.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "oxide-darwin-arm64-4.2.2.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "oxide-darwin-x64-4.2.2.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "oxide-freebsd-x64-4.2.2.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "oxide-linux-arm-gnueabihf-4.2.2.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "oxide-linux-arm64-gnu-4.2.2.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "oxide-linux-arm64-musl-4.2.2.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "oxide-linux-x64-gnu-4.2.2.tgz"
+        "value": "{"
       }
     ],
     "raw_public_ips": [],
-    "suspicious_endpoints": [
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "baseline-browser-mapping-2.10.9.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "binding-android-arm64-1.0.0-rc.16.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "binding-darwin-arm64-1.0.0-rc.16.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "binding-darwin-x64-1.0.0-rc.16.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "binding-freebsd-x64-1.0.0-rc.16.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "binding-linux-arm-gnueabihf-1.0.0-rc.16.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "binding-linux-arm64-gnu-1.0.0-rc.16.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "binding-linux-arm64-musl-1.0.0-rc.16.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "binding-linux-ppc64-gnu-1.0.0-rc.16.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "binding-linux-s390x-gnu-1.0.0-rc.16.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "binding-linux-x64-gnu-1.0.0-rc.16.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "binding-linux-x64-musl-1.0.0-rc.16.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "binding-openharmony-arm64-1.0.0-rc.16.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "binding-wasm32-wasi-1.0.0-rc.16.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "binding-win32-arm64-msvc-1.0.0-rc.16.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "binding-win32-x64-msvc-1.0.0-rc.16.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "character-entities-html4-2.1.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "character-entities-legacy-3.0.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "character-reference-invalid-2.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "comma-separated-tokens-2.0.3.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "convert-source-map-2.0.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "decode-named-character-reference-1.3.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "diff-match-patch-1.0.5.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "electron-to-chromium-1.5.321.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "escape-string-regexp-4.0.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "eslint-plugin-react-hooks-7.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "eslint-plugin-react-refresh-0.5.2.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "eslint-visitor-keys-3.4.3.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "eslint-visitor-keys-4.2.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "eslint-visitor-keys-5.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "estree-util-is-identifier-name-3.0.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "fast-deep-equal-3.1.3.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "fast-json-stable-stringify-2.1.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "file-entry-cache-8.0.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "hast-util-parse-selector-4.0.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "hast-util-to-jsx-runtime-2.3.6.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "hast-util-whitespace-3.0.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "helper-compilation-targets-7.28.6.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "helper-module-imports-7.28.6.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "helper-module-transforms-7.28.6.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "helper-string-parser-7.27.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "helper-validator-identifier-7.28.5.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "helper-validator-option-7.27.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "html-url-attributes-3.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "inline-style-parser-0.2.7.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "json-schema-traverse-0.4.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "json-stable-stringify-without-jsonify-1.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "lightningcss-android-arm64-1.32.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "lightningcss-darwin-arm64-1.32.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "lightningcss-darwin-x64-1.32.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "lightningcss-freebsd-x64-1.32.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "lightningcss-linux-arm-gnueabihf-1.32.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "lightningcss-linux-arm64-gnu-1.32.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "lightningcss-linux-arm64-musl-1.32.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "lightningcss-linux-x64-gnu-1.32.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "lightningcss-linux-x64-musl-1.32.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "lightningcss-win32-arm64-msvc-1.32.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "lightningcss-win32-x64-msvc-1.32.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "mdast-util-from-markdown-2.0.3.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "mdast-util-mdx-expression-2.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "mdast-util-mdx-jsx-3.2.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "mdast-util-mdxjs-esm-2.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "mdast-util-phrasing-4.1.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "mdast-util-to-hast-13.2.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "mdast-util-to-markdown-2.1.2.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "mdast-util-to-string-4.0.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-core-commonmark-2.0.3.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-factory-destination-2.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-factory-label-2.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-factory-space-2.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-factory-title-2.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-factory-whitespace-2.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-util-character-2.1.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-util-chunked-2.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-util-classify-character-2.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-util-combine-extensions-2.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-util-decode-numeric-character-reference-2.0.2.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-util-decode-string-2.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-util-encode-2.0.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "micromark-util-html-tag-name-2.0.1.tgz"
-      }
-    ],
+    "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 2,
-        "files": [
-          "specmap-0.3.5/web/public/favicon.svg",
-          "specmap-0.3.5/web/public/icons.svg"
-        ],
-        "value": "http://www.w3.org/2000/svg"
-      },
-      {
         "file_count": 1,
         "files": [
-          "specmap-0.3.5/src/specmap/cli/commands/serve.py"
+          "djconnectwise/tests/test_api.py"
         ],
-        "value": "http://{"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/src/specmap/server/app.py"
-        ],
-        "value": "https://*.gitlab.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/docs/deployment/production.md"
-        ],
-        "value": "https://`"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "specmap-0.3.5/src/specmap/server/app.py",
-          "specmap-0.3.5/src/specmap/server/forge.py",
-          "specmap-0.3.5/src/specmap/server/github.py"
-        ],
-        "value": "https://api.github.com"
-      },
-      {
-        "file_count": 5,
-        "files": [
-          "specmap-0.3.5/PKG-INFO",
-          "specmap-0.3.5/README.md",
-          "specmap-0.3.5/docs/development.md",
-          "specmap-0.3.5/docs/getting-started/installation.md",
-          "specmap-0.3.5/docs/getting-started/local-dev.md"
-        ],
-        "value": "https://astral.sh/uv/install.sh"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/src/specmap/server/app.py"
-        ],
-        "value": "https://avatars.githubusercontent.com"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "specmap-0.3.5/PKG-INFO",
-          "specmap-0.3.5/README.md",
-          "specmap-0.3.5/docs/development.md",
-          "specmap-0.3.5/docs/getting-started/local-dev.md"
-        ],
-        "value": "https://docs.astral.sh/uv/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/docs/getting-started/installation.md"
-        ],
-        "value": "https://docs.astral.sh/uv/getting-started/installation/"
+        "value": "http://example.com/"
       },
       {
         "file_count": 2,
         "files": [
-          "specmap-0.3.5/docs/mcp/llm.md",
-          "specmap-0.3.5/docs/mcp/overview.md"
+          "djconnectwise/api.py",
+          "djconnectwise/tests/test_api.py"
         ],
-        "value": "https://docs.litellm.ai/"
+        "value": "https://api-na.myconnectwise.net"
       },
       {
         "file_count": 1,
         "files": [
-          "specmap-0.3.5/web/package-lock.json"
+          "django_connectwise-1.20.0.dist-info/METADATA"
         ],
-        "value": "https://eslint.org/donate"
+        "value": "https://connectwise.example.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://cw.com/v4_6_release/apis/3.0/finance/agreements/types"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://cw.com/v4_6_release/apis/3.0/time/workRoles/18"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://cw.com/v4_6_release/apis/3.0/time/workTypes/3"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/api.py"
+        ],
+        "value": "https://developer.connectwise.com/Manage/Developer_Guide#HTTP_Response_Codes"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/api.py"
+        ],
+        "value": "https://developer.connectwise.com/Manage/Developer_Guide#Patch"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/views.py"
+        ],
+        "value": "https://developer.connectwise.com/Manage/Developer_Guide#Verifying_the_Callback_Source"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/api.py"
+        ],
+        "value": "https://developer.connectwise.com/Products/Manage/Developer_Guide#Authentication"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/callbacks.py"
+        ],
+        "value": "https://developer.connectwise.com/Products/Manage/Developer_Guide#Callbacks_(Webhooks"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/api.py"
+        ],
+        "value": "https://developer.connectwise.com/Products/Manage/Developer_Guide#Cloud_URLs"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/sync.py"
+        ],
+        "value": "https://developer.connectwise.com/Products/Manage/REST#/TimeEntries"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/sync.py"
+        ],
+        "value": "https://docs.djangoproject.com/en/dev/ref/models/fields"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "django_connectwise-1.20.0.dist-info/METADATA"
+        ],
+        "value": "https://easy-thumbnails.readthedocs.io/en/stable/ref/settings/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/test_api.py"
+        ],
+        "value": "https://example.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/company/companies/10/sites/9"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/company/companies/24/sites/28"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/company/companies/8"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/company/companies/8/sites/7"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/company/contacts/2"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/company/contacts/20"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/company/contacts/26"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/finance/agreements/3"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/finance/currencies/7"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/finance/invoices/4"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/finance/taxCodes/11"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/marketing/campaigns/3"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/project/phaseStatuses/1"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/project/projects/4/phases/1"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/project/securityroles/1/settings"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/sales/opportunities/2/notes"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/sales/opportunities/ratings/4"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/sales/opportunities/statuses/1"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/schedule/statuses/1"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/service/boards/1"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/service/boards/1/statuses/1"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/service/boards/3"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/service/boards/3/statuses/1"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/service/priorities/4"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/service/sources/2"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/service/sources/3"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/service/tickets/69/activities"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/service/tickets/69/configurations"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/service/tickets/69/documents"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/service/tickets/69/notes"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/service/tickets/69/products"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/service/tickets/69/scheduleentries"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/service/tickets/69/tasks"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/service/tickets/69/timeentries"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/system/departments/10"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/system/documents/267"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/system/documents/267/download"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/system/locations/2"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/system/members/176"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/system/members/186"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/system/members/189"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/system/members/196"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/system/workTypes/3"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/time/sheets/2"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/apis/3.0/time/workRoles/11"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "djconnectwise/tests/fixtures.py"
+        ],
+        "value": "https://example.com/v4_6_release/test"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "django_connectwise-1.20.0.dist-info/METADATA"
+        ],
+        "value": "https://github.com/KerkhoffTechnologies/django-connectwise"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "django_connectwise-1.20.0.dist-info/METADATA"
+        ],
+        "value": "https://github.com/jazzband/django-constance"
       },
       {
         "file_count": 2,
         "files": [
-          "specmap-0.3.5/src/specmap/server/app.py",
-          "specmap-0.3.5/web/index.html"
+          "djconnectwise/api.py",
+          "djconnectwise/tests/test_api.py"
         ],
-        "value": "https://fonts.googleapis.com"
+        "value": "https://na.myconnectwise.net"
       },
       {
         "file_count": 1,
         "files": [
-          "specmap-0.3.5/web/index.html"
+          "django_connectwise-1.20.0.dist-info/METADATA"
         ],
-        "value": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "specmap-0.3.5/src/specmap/server/app.py",
-          "specmap-0.3.5/web/index.html"
-        ],
-        "value": "https://fonts.gstatic.com"
+        "value": "https://na.myconnectwise.net`-"
       },
       {
         "file_count": 1,
         "files": [
-          "specmap-0.3.5/web/README.md"
+          "djconnectwise/tests/fixtures.py"
         ],
-        "value": "https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom"
+        "value": "https://opprimo.serveo.net/"
       },
       {
         "file_count": 1,
         "files": [
-          "specmap-0.3.5/web/README.md"
+          "djconnectwise/tests/fixtures.py"
         ],
-        "value": "https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "specmap-0.3.5/PKG-INFO",
-          "specmap-0.3.5/README.md",
-          "specmap-0.3.5/docs/development.md",
-          "specmap-0.3.5/docs/getting-started/local-dev.md"
-        ],
-        "value": "https://github.com/casey/just"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "specmap-0.3.5/PKG-INFO",
-          "specmap-0.3.5/README.md",
-          "specmap-0.3.5/docs/development.md",
-          "specmap-0.3.5/docs/getting-started/local-dev.md"
-        ],
-        "value": "https://github.com/casey/just#installation"
+        "value": "https://opprimo.serveo.net/all-tickets/cwhostedembed/"
       },
       {
         "file_count": 1,
         "files": [
-          "specmap-0.3.5/web/package-lock.json"
+          "djconnectwise/utils.py"
         ],
-        "value": "https://github.com/chalk/ansi-styles?sponsor=1"
+        "value": "https://stackoverflow.com/questions/37048807/python-image-library-and-keyerror-jpg"
       },
       {
         "file_count": 1,
         "files": [
-          "specmap-0.3.5/web/package-lock.json"
+          "djconnectwise/tests/fixtures.py"
         ],
-        "value": "https://github.com/chalk/chalk?sponsor=1"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "specmap-0.3.5/PKG-INFO",
-          "specmap-0.3.5/mkdocs.yml",
-          "specmap-0.3.5/pyproject.toml"
-        ],
-        "value": "https://github.com/jdraines/specmap"
-      },
-      {
-        "file_count": 9,
-        "files": [
-          "specmap-0.3.5/PKG-INFO",
-          "specmap-0.3.5/README.md",
-          "specmap-0.3.5/docs/cli/ci.md",
-          "specmap-0.3.5/docs/cli/overview.md",
-          "specmap-0.3.5/docs/deployment/production.md",
-          "specmap-0.3.5/docs/development.md",
-          "specmap-0.3.5/docs/getting-started/installation.md",
-          "specmap-0.3.5/docs/getting-started/local-dev.md"
-        ],
-        "value": "https://github.com/jdraines/specmap.git"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "specmap-0.3.5/PKG-INFO",
-          "specmap-0.3.5/pyproject.toml"
-        ],
-        "value": "https://github.com/jdraines/specmap/issues"
+        "value": "https://university.connectwise.com/university/"
       },
       {
         "file_count": 1,
         "files": [
-          "specmap-0.3.5/docs/concepts/versioning.md"
+          "djconnectwise/tests/fixtures.py"
         ],
-        "value": "https://github.com/jimporter/mike"
+        "value": "https://v4_6_release/apis/3.0/service/boards/23"
       },
       {
         "file_count": 1,
         "files": [
-          "specmap-0.3.5/src/specmap/server/github.py"
+          "djconnectwise/tests/fixtures.py"
         ],
-        "value": "https://github.com/login/oauth/access_token"
+        "value": "https://v4_6_release/apis/3.0/service/boards/23/items/267"
       },
       {
         "file_count": 1,
         "files": [
-          "specmap-0.3.5/src/specmap/server/github.py"
+          "djconnectwise/tests/fixtures.py"
         ],
-        "value": "https://github.com/login/oauth/authorize"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "specmap-0.3.5/docs/deployment/production.md",
-          "specmap-0.3.5/docs/development.md"
-        ],
-        "value": "https://github.com/settings/developers"
+        "value": "https://v4_6_release/apis/3.0/service/boards/23/subtypes/1895"
       },
       {
         "file_count": 1,
         "files": [
-          "specmap-0.3.5/web/package-lock.json"
+          "djconnectwise/tests/fixtures.py"
         ],
-        "value": "https://github.com/sponsors/Boshen"
+        "value": "https://v4_6_release/apis/3.0/service/boards/23/types/275"
       },
       {
         "file_count": 1,
         "files": [
-          "specmap-0.3.5/web/package-lock.json"
+          "djconnectwise/management/commands/cwsync.py"
         ],
-        "value": "https://github.com/sponsors/Brooooooklyn"
+        "value": "https://www.python.org/dev/peps/pep-0468/"
       },
       {
         "file_count": 1,
         "files": [
-          "specmap-0.3.5/web/package-lock.json"
+          "djconnectwise/tests/test_api.py"
         ],
-        "value": "https://github.com/sponsors/SuperchupuDev"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://github.com/sponsors/ai"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://github.com/sponsors/colinhacks"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://github.com/sponsors/epoberezkin"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://github.com/sponsors/isaacs"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://github.com/sponsors/jonschlinkert"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://github.com/sponsors/nzakas"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://github.com/sponsors/sindresorhus"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://github.com/sponsors/unifiedjs"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://github.com/sponsors/wooorm"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/src/specmap/server/forge.py"
-        ],
-        "value": "https://github.com/user/repo.git"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/README.md"
-        ],
-        "value": "https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/README.md"
-        ],
-        "value": "https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://github.com/vitejs/vite?sponsor=1"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "specmap-0.3.5/src/specmap/server/app.py",
-          "specmap-0.3.5/src/specmap/server/forge.py",
-          "specmap-0.3.5/src/specmap/server/gitlab.py"
-        ],
-        "value": "https://gitlab.com"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "specmap-0.3.5/.env.example",
-          "specmap-0.3.5/docs/deployment/production.md"
-        ],
-        "value": "https://gitlab.example.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/docs/deployment/production.md"
-        ],
-        "value": "https://gitlab.example.com`"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/docs/mcp/overview.md"
-        ],
-        "value": "https://modelcontextprotocol.io/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/src/specmap/server/gitlab.py"
-        ],
-        "value": "https://oauth2:{token"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://opencollective.com/babel"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://opencollective.com/browserslist"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://opencollective.com/eslint"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://opencollective.com/express"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://opencollective.com/parcel"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://opencollective.com/postcss/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://opencollective.com/typescript-eslint"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://opencollective.com/unified"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://opencollective.com/webpack"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/README.md"
-        ],
-        "value": "https://oxc.rs"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/README.md"
-        ],
-        "value": "https://react.dev/learn/react-compiler/installation"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.29.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.29.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://registry.npmjs.org/@babel/core/-/core-7.29.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://registry.npmjs.org/@babel/generator/-/generator-7.29.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://registry.npmjs.org/@babel/helper-compilation-targets/-/helper-compilation-targets-7.28.6.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://registry.npmjs.org/@babel/helper-globals/-/helper-globals-7.28.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://registry.npmjs.org/@babel/helper-module-imports/-/helper-module-imports-7.28.6.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://registry.npmjs.org/@babel/helper-module-transforms/-/helper-module-transforms-7.28.6.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://registry.npmjs.org/@babel/helper-string-parser/-/helper-string-parser-7.27.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.28.5.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://registry.npmjs.org/@babel/helper-validator-option/-/helper-validator-option-7.27.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://registry.npmjs.org/@babel/helpers/-/helpers-7.29.2.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://registry.npmjs.org/@babel/parser/-/parser-7.29.2.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://registry.npmjs.org/@babel/template/-/template-7.28.6.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://registry.npmjs.org/@babel/traverse/-/traverse-7.29.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://registry.npmjs.org/@babel/types/-/types-7.29.0.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://registry.npmjs.org/@emnapi/core/-/core-1.9.2.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.9.2.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://registry.npmjs.org/@emnapi/wasi-threads/-/wasi-threads-1.2.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://registry.npmjs.org/@eslint-community/eslint-utils/-/eslint-utils-4.9.1.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "specmap-0.3.5/web/package-lock.json"
-        ],
-        "value": "https://registry.npmjs.org/@eslint-community/regexpp/-/regexpp-4.12.2.tgz"
+        "value": "https://{"
       }
     ]
   },
-  "package": "specmap",
-  "package_slug": "specmap",
-  "project_url": "https://pypi.org/project/specmap/",
+  "package": "django-connectwise",
+  "package_slug": "django-connectwise",
+  "project_url": "https://pypi.org/project/django-connectwise/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T19:08:38.681679+00:00",
+  "published_at": "2026-04-27T19:12:34.413832+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T19:09:34.329747+00:00",
-  "title": "Personal PyPI Supply Chain Scan: specmap 0.3.5",
-  "version": "0.3.5",
-  "version_slug": "0.3.5",
-  "_metadata_path": "reports/packages/specmap/0.3.5/metadata.json"
+  "scanned_at": "2026-04-27T19:14:00.987504+00:00",
+  "title": "Personal PyPI Supply Chain Scan: django-connectwise 1.20.0",
+  "version": "1.20.0",
+  "version_slug": "1.20.0",
+  "_metadata_path": "reports/packages/django-connectwise/1.20.0/metadata.json"
 }
