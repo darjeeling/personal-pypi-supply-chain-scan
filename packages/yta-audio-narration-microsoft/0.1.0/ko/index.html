@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal PyPI Supply Chain Scan: yta-audio-narration-microsoft 0.1.0</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 960px; line-height: 1.55; padding: 0 1rem; color: #1f2933; }
+    a { color: #1f5fbf; }
+    code { background: #f4f4f4; padding: 0.1rem 0.25rem; }
+    h1, h2, h3 { line-height: 1.2; }
+    li { margin: 0.35rem 0; }
+    nav { margin-bottom: 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #e5e9ef; padding: 0.55rem 0.65rem; text-align: left; vertical-align: top; }
+    th { color: #52616f; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; }
+    .scan-groups { margin-top: 1.2rem; }
+    .scan-day { border-top: 1px solid #d8dee4; display: grid; gap: 1rem; grid-template-columns: 10rem minmax(0, 1fr); padding: 1.1rem 0; }
+    .scan-day-date { color: #1f2933; font-weight: 700; }
+    .scan-day-date span { color: #52616f; display: block; font-size: 0.9rem; font-weight: 500; margin-top: 0.2rem; }
+    .scan-day-table { overflow-x: auto; }
+    .risk { display: inline-block; min-width: 4.8rem; text-align: center; border-radius: 999px; padding: 0.15rem 0.45rem; font-size: 0.78rem; font-weight: 700; }
+    .risk-info, .risk-low { background: #dcfce7; color: #166534; }
+    .risk-medium, .risk-unknown { background: #fef3c7; color: #92400e; }
+    .risk-high, .risk-critical { background: #fee2e2; color: #991b1b; }
+    .index-note { color: #52616f; margin-top: -0.35rem; }
+    .version { color: #52616f; margin-left: 0.2rem; white-space: nowrap; }
+    @media (max-width: 720px) {
+      .scan-day { grid-template-columns: 1fr; }
+      th, td { padding: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+<nav><a href='../../../../'>Index</a></nav><h1>Personal PyPI Supply Chain Scan: yta-audio-narration-microsoft 0.1.0</h1>
+
+<ul>
+<li>Package: yta-audio-narration-microsoft</li>
+<li>Version: 0.1.0</li>
+<li>Project URL: https://pypi.org/project/yta-audio-narration-microsoft/</li>
+<li>Distribution: yta_audio_narration_microsoft-0.1.0.tar.gz</li>
+<li>Package published at: 2026-04-27T19:47:59.554591+00:00</li>
+<li>Scan published at: 2026-04-27T19:49:00.407815+00:00</li>
+<li>Language: ko</li>
+<li>Model: gpt-5.5</li>
+<li>Prompt: malicious-supply-chain-review-v2 ([source](../../../../docs/prompts/malicious-supply-chain-review-v2.md))</li>
+<li>Disclaimer: This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</li>
+</ul>
+
+<h2>Deterministic Network Indicators</h2>
+
+<h3>Suspicious Endpoints</h3>
+
+<p>None</p>
+
+<h3>Raw Public IPs</h3>
+
+<p>None</p>
+
+<h3>URLs</h3>
+
+<p>None</p>
+
+<h3>Domains</h3>
+
+<p>None</p>
+
+<h2>판정</h2>
+
+<p>확인된 악성 공급망 침해 징후 없음 — 전체 위험도: info.</p>
+
+<h2>악성 공급망 징후</h2>
+
+<p>확인된 악성 공급망 징후 없음.</p>
+
+<h2>자동 실행 경로</h2>
+
+<ul>
+<li>pyproject.toml은 표준 poetry-core 빌드 백엔드(poetry.core.masonry.api)만 지정합니다.</li>
+<li>setup.py, .pth, sitecustomize.py, usercustomize.py, 설치 후크, PEP 517 커스텀 빌드 후크, 의심스러운 entry point는 확인되지 않았습니다.</li>
+<li>src/yta_audio_narration_microsoft/__init__.py는 import 시 클래스/상수/함수를 정의하고 의존 모듈을 import하지만, 자격증명 수집·네트워크 전송·지속성 설치 같은 악성 자동 실행 근거는 확인되지 않았습니다.</li>
+</ul>
+
+<h2>절취/전송/지속성/측면이동/은닉</h2>
+
+<ul>
+<li>자격증명 광범위 탐색, .env/SSH/cloud/CI 토큰 수집, 셸 히스토리 접근 증거 없음.</li>
+<li>압축/스테이징, HTTP 업로드, 웹훅, 외부 C2/원시 IP/드롭 서비스 전송 증거 없음.</li>
+<li>cron/systemd/launch agent/프로필 수정 등 지속성 증거 없음.</li>
+<li>Kubernetes, Docker socket, cloud metadata, GitHub Actions/패키지 레지스트리 토큰 악용 등 측면이동 증거 없음.</li>
+<li>base64/zlib/marshal/eval/exec 기반 난독화 또는 staged loader 증거 없음.</li>
+</ul>
+
+<h2>배포 무결성 이상</h2>
+
+<ul>
+<li>제공된 sdist 내용은 pyproject.toml, 패키지 __init__.py, README.md 중심의 소규모 패키지로 보이며, 숨김 payload나 목적 불명 native binary는 확인되지 않았습니다.</li>
+<li>pyproject.toml의 의존성은 기능상 관련 있어 보이는 yta_* 패키지와 pyttsx3이며, 이 아티팩트만으로 갑작스러운 악성 dependency 삽입 또는 dependency confusion 증거는 확인되지 않았습니다.</li>
+<li>wheel/sdist 불일치 여부는 wheel 아티팩트가 제공되지 않아 확인할 수 없습니다.</li>
+</ul>
+
+<h2>추가 확인 필요</h2>
+
+<ul>
+<li>이 검토는 제공된 추출 텍스트 5개 파일 기준이며, 의존 패키지(yta_audio_narration_common, yta_constants, yta_programming, pyttsx3) 자체의 내용은 검토되지 않았습니다.</li>
+<li>wheel 배포물이 별도로 존재하는 경우 sdist와의 차이 비교가 필요합니다.</li>
+</ul>
+
+<p>---</p>
+
+<p>Prompt source: docs/prompts/malicious-supply-chain-review-v2.md</p>
+
+<p>This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</p>
+
+</body>
+</html>

@@ -1,6 +1,30 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "yta_audio_narration_microsoft-0.1.0.tar.gz",
+    "finding_count": 0,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": []
+    },
+    "package": "yta-audio-narration-microsoft",
+    "package_slug": "yta-audio-narration-microsoft",
+    "project_url": "https://pypi.org/project/yta-audio-narration-microsoft/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T19:47:59.554591+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T19:49:00.407815+00:00",
+    "title": "Personal PyPI Supply Chain Scan: yta-audio-narration-microsoft 0.1.0",
+    "version": "0.1.0",
+    "version_slug": "0.1.0",
+    "_metadata_path": "reports/packages/yta-audio-narration-microsoft/0.1.0/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "openmeter-1.0.0a522.tar.gz",
     "finding_count": 13,
     "model": "gpt-5.5",
