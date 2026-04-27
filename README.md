@@ -1,6 +1,6 @@
 # pypi-codex-scanner
 
-PyPI RSS updates feed에서 최신 publish 패키지를 가져오고, 호스트에는 패키지를 설치하지 않은 채 Docker 컨테이너 안에서 배포 파일을 다운로드/압축 해제한 뒤 GPT-5.5로 정적 보안 검사를 수행합니다.
+PyPI RSS updates feed에서 최신 publish 패키지를 가져오고, 호스트에는 패키지를 설치하지 않은 채 Docker 컨테이너 안에서 배포 파일을 다운로드/압축 해제한 뒤 GPT-5.5로 악성 공급망 징후를 정적 검사합니다.
 
 ## 동작 방식
 
@@ -12,6 +12,23 @@ PyPI RSS updates feed에서 최신 publish 패키지를 가져오고, 호스트�
 6. 결과를 Markdown report로 저장하고 SQLite에 처리 이력을 남깁니다.
 
 패키지 설치, build hook 실행, `setup.py` 실행은 하지 않습니다.
+
+## 스캔 기준
+
+스캐너는 일반적인 애플리케이션 보안 리스크가 아니라 악성 공급망 공격 징후만 보고하도록 프롬프트되어 있습니다.
+
+주요 기준은 LiteLLM 2026 PyPI compromise 같은 사례입니다:
+
+- `.pth`, `sitecustomize`, `usercustomize`, 설치/인터프리터 시작 시 자동 실행
+- 배포 아티팩트에 삽입된 예상 밖 코드
+- 환경변수, `.env`, SSH 키, cloud credential, AI provider key, `~/.aws/credentials`, `~/.kube/config`, CI/CD token 등 광범위한 credential harvesting
+- 수집 데이터 archive staging 후 C2 exfiltration
+- Kubernetes service account abuse, privileged pod, host mount 등 lateral movement
+- systemd, launch agent, cron, shell profile 수정 등 persistence
+- base64/zlib/marshal/pickle/eval/exec 등으로 숨긴 loader
+- dependency confusion, typosquatting, 숨김 payload, 목적 불명의 native binary
+
+일반적인 CLI entry point, 정상 SDK/API 호출, 사용자가 명령을 실행해야 동작하는 웹 서버, 정상적인 환경변수 사용은 위 악성 공급망 증거와 연결되지 않으면 finding으로 올리지 않습니다.
 
 ## 사용
 
