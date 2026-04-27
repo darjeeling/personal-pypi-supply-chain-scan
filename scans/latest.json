@@ -1,952 +1,549 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "netket-3.22.0.dev4.tar.gz",
-  "finding_count": 46,
+  "distribution": "sae_lens-6.40.0.tar.gz",
+  "finding_count": 358,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 19,
+        "file_count": 2,
         "files": [
-          "netket-3.22.0.dev4/netket/_src/driver/infidelity_sr.py",
-          "netket-3.22.0.dev4/netket/_src/driver/vmc_sr.py",
-          "netket-3.22.0.dev4/netket/errors.py",
-          "netket-3.22.0.dev4/netket/experimental/driver/tdvp_schmitt.py",
-          "netket-3.22.0.dev4/netket/experimental/models/fast_rnn.py",
-          "netket-3.22.0.dev4/netket/jax/_ntk/logic.py",
-          "netket-3.22.0.dev4/netket/models/autoreg.py",
-          "netket-3.22.0.dev4/netket/models/deepset.py"
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
+        ],
+        "value": "80000hours.org"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "sae_lens-6.40.0/sae_lens/evals.py",
+          "sae_lens-6.40.0/sae_lens/saes/matryoshka_batchtopk_sae.py",
+          "sae_lens-6.40.0/sae_lens/saes/temporal_sae.py",
+          "sae_lens-6.40.0/sae_lens/synthetic/evals.py"
         ],
         "value": "arxiv.org"
       },
       {
         "file_count": 2,
         "files": [
-          "netket-3.22.0.dev4/netket/errors.py",
-          "netket-3.22.0.dev4/netket/hilbert/constraint/multiple.py"
-        ],
-        "value": "beartype.github.io"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/operator/_local_operator/compile_helpers.py"
-        ],
-        "value": "chat.openai.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/optimizer/__init__.py"
-        ],
-        "value": "citeseerx.ist.psu.edu"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "netket-3.22.0.dev4/PKG-INFO",
-          "netket-3.22.0.dev4/README.md"
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
         ],
         "value": "codecov.io"
       },
       {
         "file_count": 2,
         "files": [
-          "netket-3.22.0.dev4/PKG-INFO",
-          "netket-3.22.0.dev4/README.md"
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
         ],
         "value": "colab.research.google.com"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "netket-3.22.0.dev4/netket/optimizer/solver/solvers.py"
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
         ],
-        "value": "docs.nvidia.com"
+        "value": "curttigges.com"
       },
       {
-        "file_count": 1,
+        "file_count": 5,
         "files": [
-          "netket-3.22.0.dev4/netket/utils/group/_semigroup.py"
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md",
+          "sae_lens-6.40.0/pyproject.toml",
+          "sae_lens-6.40.0/sae_lens/saes/sae.py",
+          "sae_lens-6.40.0/sae_lens/training/activations_store.py"
         ],
-        "value": "docs.python.org"
+        "value": "decoderesearch.github.io"
       },
       {
-        "file_count": 1,
+        "file_count": 7,
         "files": [
-          "netket-3.22.0.dev4/netket/exact.py"
-        ],
-        "value": "docs.scipy.org"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "netket-3.22.0.dev4/docs/sphinx_extensions/netket_citations.py",
-          "netket-3.22.0.dev4/netket/graph/common_lattices.py",
-          "netket-3.22.0.dev4/netket/models/tensor_networks/mpdo.py",
-          "netket-3.22.0.dev4/netket/utils/citations/docs.py"
-        ],
-        "value": "doi.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/utils/citations/internal_citations.bib"
-        ],
-        "value": "dx.doi.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/utils/config_flags.py"
-        ],
-        "value": "emcee.readthedocs.io"
-      },
-      {
-        "file_count": 11,
-        "files": [
-          "netket-3.22.0.dev4/netket/errors.py",
-          "netket-3.22.0.dev4/netket/experimental/dynamics/_rk/_solver.py",
-          "netket-3.22.0.dev4/netket/experimental/dynamics/_rk/_tableau.py",
-          "netket-3.22.0.dev4/netket/jax/_jacobian/logic.py",
-          "netket-3.22.0.dev4/netket/models/slater.py",
-          "netket-3.22.0.dev4/netket/operator/_fermion2nd/base.py",
-          "netket-3.22.0.dev4/netket/optimizer/__init__.py",
-          "netket-3.22.0.dev4/netket/sampler/metropolis.py"
-        ],
-        "value": "en.wikipedia.org"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "netket-3.22.0.dev4/netket/logging/json_log.py",
-          "netket-3.22.0.dev4/netket/vqs/base.py",
-          "netket-3.22.0.dev4/netket/vqs/mc/mc_state/state.py"
-        ],
-        "value": "flax.readthedocs.io"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/utils/_tips.py"
-        ],
-        "value": "forms.gle"
-      },
-      {
-        "file_count": 14,
-        "files": [
-          "netket-3.22.0.dev4/PKG-INFO",
-          "netket-3.22.0.dev4/README.md",
-          "netket-3.22.0.dev4/netket/_src/callbacks/save_state.py",
-          "netket-3.22.0.dev4/netket/_src/operator/normal_order_utils.py",
-          "netket-3.22.0.dev4/netket/experimental/driver/tdvp_schmitt.py",
-          "netket-3.22.0.dev4/netket/jax/_utils_random.py",
-          "netket-3.22.0.dev4/netket/jax/_vjp_chunked.py",
-          "netket-3.22.0.dev4/netket/models/jastrow.py"
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md",
+          "sae_lens-6.40.0/pyproject.toml",
+          "sae_lens-6.40.0/sae_lens/evals.py",
+          "sae_lens-6.40.0/sae_lens/saes/topk_sae.py",
+          "sae_lens-6.40.0/sae_lens/synthetic/hierarchy/__init__.py",
+          "sae_lens-6.40.0/sae_lens/training/optim.py"
         ],
         "value": "github.com"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "netket-3.22.0.dev4/netket/_src/driver/vmc_sr.py"
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
         ],
-        "value": "ieeexplore.ieee.org"
+        "value": "githubtocolab.com"
       },
       {
         "file_count": 2,
         "files": [
-          "netket-3.22.0.dev4/PKG-INFO",
-          "netket-3.22.0.dev4/README.md"
+          "sae_lens-6.40.0/sae_lens/loading/pretrained_sae_loaders.py",
+          "sae_lens-6.40.0/sae_lens/training/optim.py"
+        ],
+        "value": "huggingface.co"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
         ],
         "value": "img.shields.io"
       },
       {
-        "file_count": 3,
-        "files": [
-          "netket-3.22.0.dev4/netket/_src/driver/vmc_sr.py",
-          "netket-3.22.0.dev4/netket/operator/_discrete_operator_jax.py",
-          "netket-3.22.0.dev4/netket/utils/config_flags.py"
-        ],
-        "value": "jax.readthedocs.io"
-      },
-      {
         "file_count": 2,
         "files": [
-          "netket-3.22.0.dev4/PKG-INFO",
-          "netket-3.22.0.dev4/README.md"
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
         ],
         "value": "join.slack.com"
       },
       {
-        "file_count": 2,
-        "files": [
-          "netket-3.22.0.dev4/netket/experimental/driver/tdvp_schmitt.py",
-          "netket-3.22.0.dev4/netket/utils/citations/internal_citations.bib"
-        ],
-        "value": "journals.aps.org"
-      },
-      {
         "file_count": 1,
         "files": [
-          "netket-3.22.0.dev4/netket/tools/_cpu_info.py"
+          "sae_lens-6.40.0/sae_lens/analysis/neuronpedia_integration.py"
         ],
-        "value": "msdn.microsoft.com"
-      },
-      {
-        "file_count": 6,
-        "files": [
-          "netket-3.22.0.dev4/PKG-INFO",
-          "netket-3.22.0.dev4/README.md",
-          "netket-3.22.0.dev4/netket/errors.py",
-          "netket-3.22.0.dev4/netket/sampler/base.py",
-          "netket-3.22.0.dev4/netket/vqs/mc/mc_state/state.py",
-          "netket-3.22.0.dev4/pyproject.toml"
-        ],
-        "value": "netket.readthedocs.io"
+        "value": "neuronpedia.org"
       },
       {
         "file_count": 2,
         "files": [
-          "netket-3.22.0.dev4/PKG-INFO",
-          "netket-3.22.0.dev4/README.md"
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
         ],
-        "value": "numfocus.org"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "netket-3.22.0.dev4/netket/_src/driver/abstract_optimization_driver.py",
-          "netket-3.22.0.dev4/netket/_src/driver/abstract_variational_driver_old.py",
-          "netket-3.22.0.dev4/netket/optimizer/sr.py"
-        ],
-        "value": "optax.readthedocs.io"
+        "value": "opensource.org"
       },
       {
         "file_count": 2,
         "files": [
-          "netket-3.22.0.dev4/netket/models/equivariant.py",
-          "netket-3.22.0.dev4/netket/nn/symmetric_linear.py"
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
         ],
-        "value": "proceedings.mlr.press"
+        "value": "pypi.org"
       },
       {
         "file_count": 1,
         "files": [
-          "netket-3.22.0.dev4/netket/experimental/qsr/driver.py"
+          "sae_lens-6.40.0/sae_lens/training/sae_trainer.py"
         ],
-        "value": "proceedings.neurips.cc"
+        "value": "pytorch.org"
       },
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "netket-3.22.0.dev4/netket/_src/driver/infidelity_sr.py",
-          "netket-3.22.0.dev4/netket/errors.py",
-          "netket-3.22.0.dev4/netket/experimental/observable/infidelity/infidelity_operator.py"
+          "sae_lens-6.40.0/sae_lens/saes/sae.py"
         ],
-        "value": "quantum-journal.org"
+        "value": "transformer-circuits.pub"
       },
       {
         "file_count": 2,
         "files": [
-          "netket-3.22.0.dev4/netket/operator/_fermion2nd/base.py",
-          "netket-3.22.0.dev4/netket/operator/_pauli_strings/base.py"
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
         ],
-        "value": "quantumai.google"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "netket-3.22.0.dev4/PKG-INFO",
-          "netket-3.22.0.dev4/README.md"
-        ],
-        "value": "scipost.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/logging/tensorboard.py"
-        ],
-        "value": "tensorboardx.readthedocs.io"
-      },
-      {
-        "file_count": 343,
-        "files": [
-          "netket-3.22.0.dev4/LICENSE",
-          "netket-3.22.0.dev4/netket/__init__.py",
-          "netket-3.22.0.dev4/netket/_src/callbacks/stop_at_time.py",
-          "netket-3.22.0.dev4/netket/_src/driver/abstract_dynamics_driver.py",
-          "netket-3.22.0.dev4/netket/_src/driver/abstract_optimization_driver.py",
-          "netket-3.22.0.dev4/netket/_src/driver/abstract_variational_driver.py",
-          "netket-3.22.0.dev4/netket/_src/driver/abstract_variational_driver_old.py",
-          "netket-3.22.0.dev4/netket/_src/nn/apply_operator/functional.py"
-        ],
-        "value": "www.apache.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/optimizer/__init__.py"
-        ],
-        "value": "www.cs.toronto.edu"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "netket-3.22.0.dev4/netket/models/mlp.py",
-          "netket-3.22.0.dev4/netket/nn/blocks/mlp.py"
-        ],
-        "value": "www.nature.com"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "netket-3.22.0.dev4/PKG-INFO",
-          "netket-3.22.0.dev4/README.md",
-          "netket-3.22.0.dev4/netket/utils/citations/core.py",
-          "netket-3.22.0.dev4/pyproject.toml"
-        ],
-        "value": "www.netket.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/utils/citations/internal_citations.bib"
-        ],
-        "value": "www.sciencedirect.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/stats/_autocorr.py"
-        ],
-        "value": "www.semanticscholar.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "netket-3.22.0.dev4/netket/stats/mc_stats.py",
-          "netket-3.22.0.dev4/netket/stats/mc_stats_old.py"
-        ],
-        "value": "www.stat.columbia.edu"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/jax/_ntk/logic.py"
-        ],
-        "value": "www.tensorflow.org"
+        "value": "www.decoderesearch.com"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "netket-3.22.0.dev4/netket/optimizer/__init__.py"
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
         ],
-        "value": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.57.5612&rep=rep1&type=pdf"
+        "value": "https://80000hours.org/problem-profiles/artificial-intelligence/"
       },
       {
         "file_count": 1,
         "files": [
-          "netket-3.22.0.dev4/netket/utils/citations/internal_citations.bib"
+          "sae_lens-6.40.0/sae_lens/evals.py"
         ],
-        "value": "http://dx.doi.org/10.1016/j.jcp.2024.113351"
+        "value": "https://arxiv.org/abs/2404.16014"
       },
       {
         "file_count": 1,
         "files": [
-          "netket-3.22.0.dev4/netket/utils/citations/internal_citations.bib"
+          "sae_lens-6.40.0/sae_lens/synthetic/evals.py"
         ],
-        "value": "http://dx.doi.org/10.1038/s41567-024-02566-1"
+        "value": "https://arxiv.org/abs/2505.20254"
       },
       {
         "file_count": 1,
         "files": [
-          "netket-3.22.0.dev4/netket/utils/citations/internal_citations.bib"
+          "sae_lens-6.40.0/sae_lens/saes/matryoshka_batchtopk_sae.py"
         ],
-        "value": "http://dx.doi.org/10.1038/s42005-024-01732-4"
+        "value": "https://arxiv.org/pdf/2503.17547"
       },
       {
         "file_count": 1,
         "files": [
-          "netket-3.22.0.dev4/netket/utils/citations/internal_citations.bib"
+          "sae_lens-6.40.0/sae_lens/saes/temporal_sae.py"
         ],
-        "value": "http://dx.doi.org/10.22331/q-2023-10-10-1131"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/utils/citations/internal_citations.bib"
-        ],
-        "value": "http://dx.doi.org/10.22331/q-2025-07-22-1803"
+        "value": "https://arxiv.org/pdf/2511.01836"
       },
       {
         "file_count": 2,
         "files": [
-          "netket-3.22.0.dev4/netket/models/equivariant.py",
-          "netket-3.22.0.dev4/netket/nn/symmetric_linear.py"
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
         ],
-        "value": "http://proceedings.mlr.press/v48/cohenc16.pdf"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/LICENSE"
-        ],
-        "value": "http://www.apache.org/licenses/"
-      },
-      {
-        "file_count": 339,
-        "files": [
-          "netket-3.22.0.dev4/netket/__init__.py",
-          "netket-3.22.0.dev4/netket/_src/callbacks/stop_at_time.py",
-          "netket-3.22.0.dev4/netket/_src/driver/abstract_dynamics_driver.py",
-          "netket-3.22.0.dev4/netket/_src/driver/abstract_optimization_driver.py",
-          "netket-3.22.0.dev4/netket/_src/driver/abstract_variational_driver.py",
-          "netket-3.22.0.dev4/netket/_src/driver/abstract_variational_driver_old.py",
-          "netket-3.22.0.dev4/netket/_src/nn/apply_operator/functional.py",
-          "netket-3.22.0.dev4/netket/_src/nn/apply_operator/linen.py"
-        ],
-        "value": "http://www.apache.org/licenses/LICENSE-2.0"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/optimizer/__init__.py"
-        ],
-        "value": "http://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/utils/citations/internal_citations.bib"
-        ],
-        "value": "http://www.sciencedirect.com/science/article/pii/S2352711019300974"
+        "value": "https://codecov.io/gh/decoderesearch/SAELens"
       },
       {
         "file_count": 2,
         "files": [
-          "netket-3.22.0.dev4/netket/stats/mc_stats.py",
-          "netket-3.22.0.dev4/netket/stats/mc_stats_old.py"
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
         ],
-        "value": "http://www.stat.columbia.edu/~gelman/book/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/_src/driver/vmc_sr.py"
-        ],
-        "value": "https://arxiv.org/abs/1412.1193"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/models/deepset.py"
-        ],
-        "value": "https://arxiv.org/abs/1703.06114"
+        "value": "https://codecov.io/gh/decoderesearch/SAELens/graph/badge.svg?token=N83NGH8CGE"
       },
       {
         "file_count": 2,
         "files": [
-          "netket-3.22.0.dev4/netket/experimental/models/fast_rnn.py",
-          "netket-3.22.0.dev4/netket/models/fast_autoreg.py"
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
         ],
-        "value": "https://arxiv.org/abs/1704.06001"
+        "value": "https://colab.research.google.com/assets/colab-badge.svg"
       },
       {
         "file_count": 2,
         "files": [
-          "netket-3.22.0.dev4/netket/stats/mc_stats.py",
-          "netket-3.22.0.dev4/netket/stats/mc_stats_old.py"
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
         ],
-        "value": "https://arxiv.org/abs/1903.08008"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/_src/driver/vmc_sr.py"
-        ],
-        "value": "https://arxiv.org/abs/1906.02353"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/_src/driver/vmc_sr.py"
-        ],
-        "value": "https://arxiv.org/abs/1909.02108"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/models/autoreg.py"
-        ],
-        "value": "https://arxiv.org/abs/2002.02973"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/utils/citations/internal_citations.bib"
-        ],
-        "value": "https://arxiv.org/abs/2112.10526"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/models/deepset.py"
-        ],
-        "value": "https://arxiv.org/abs/2112.11957"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/jax/_ntk/logic.py"
-        ],
-        "value": "https://arxiv.org/abs/2206.08720"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/optimizer/solver/solvers.py"
-        ],
-        "value": "https://arxiv.org/abs/2212.11289"
+        "value": "https://curttigges.com/"
       },
       {
         "file_count": 2,
         "files": [
-          "netket-3.22.0.dev4/netket/_src/driver/vmc_sr.py",
-          "netket-3.22.0.dev4/netket/errors.py"
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/pyproject.toml"
         ],
-        "value": "https://arxiv.org/abs/2302.01941"
+        "value": "https://decoderesearch.github.io/SAELens"
       },
       {
         "file_count": 2,
         "files": [
-          "netket-3.22.0.dev4/netket/_src/driver/vmc_sr.py",
-          "netket-3.22.0.dev4/netket/errors.py"
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
         ],
-        "value": "https://arxiv.org/abs/2310.05715"
+        "value": "https://decoderesearch.github.io/SAELens/"
       },
       {
         "file_count": 2,
         "files": [
-          "netket-3.22.0.dev4/netket/_src/driver/infidelity_sr.py",
-          "netket-3.22.0.dev4/netket/_src/driver/vmc_sr.py"
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
         ],
-        "value": "https://arxiv.org/abs/2401.10190"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/models/tensor_networks/mpdo.py"
-        ],
-        "value": "https://arxiv.org/abs/2401.14243"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/utils/group/_group.py"
-        ],
-        "value": "https://arxiv.org/abs/2505.14790"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "netket-3.22.0.dev4/netket/optimizer/solver/solvers.py",
-          "netket-3.22.0.dev4/netket/utils/citations/internal_citations.bib"
-        ],
-        "value": "https://arxiv.org/abs/2601.14466"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/_src/driver/vmc_sr.py"
-        ],
-        "value": "https://arxiv.org/abs/cond-mat/9803107"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "netket-3.22.0.dev4/netket/optimizer/qgt/qgt_jacobian_dense.py",
-          "netket-3.22.0.dev4/netket/optimizer/qgt/qgt_jacobian_pytree.py"
-        ],
-        "value": "https://arxiv.org/pdf/1812.08767"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/experimental/driver/tdvp_schmitt.py"
-        ],
-        "value": "https://arxiv.org/pdf/1912.08828.pdf"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "netket-3.22.0.dev4/netket/models/equivariant.py",
-          "netket-3.22.0.dev4/netket/nn/symmetric_linear.py"
-        ],
-        "value": "https://arxiv.org/pdf/2104.05085.pdf"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/_src/driver/vmc_sr.py"
-        ],
-        "value": "https://arxiv.org/pdf/2202.06232"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/_src/driver/vmc_sr.py"
-        ],
-        "value": "https://arxiv.org/pdf/2203.14824"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/_src/driver/vmc_sr.py"
-        ],
-        "value": "https://arxiv.org/pdf/2206.08720"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/_src/driver/vmc_sr.py"
-        ],
-        "value": "https://arxiv.org/pdf/2303.05473"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/_src/driver/vmc_sr.py"
-        ],
-        "value": "https://arxiv.org/pdf/2411.19877"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/_src/driver/vmc_sr.py"
-        ],
-        "value": "https://arxiv.org/pdf/2502.00882"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/errors.py"
-        ],
-        "value": "https://beartype.github.io/plum/intro.html"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/hilbert/constraint/multiple.py"
-        ],
-        "value": "https://beartype.github.io/plum/parametric.html"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/operator/_local_operator/compile_helpers.py"
-        ],
-        "value": "https://chat.openai.com/share/9fb4b0d3-0306-41ca-aefc-eee780a2dc02"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "netket-3.22.0.dev4/PKG-INFO",
-          "netket-3.22.0.dev4/README.md"
-        ],
-        "value": "https://codecov.io/gh/netket/netket"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "netket-3.22.0.dev4/PKG-INFO",
-          "netket-3.22.0.dev4/README.md"
-        ],
-        "value": "https://codecov.io/gh/netket/netket/branch/master/graph/badge.svg?token=gzcOlpO5lB"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "netket-3.22.0.dev4/PKG-INFO",
-          "netket-3.22.0.dev4/README.md"
-        ],
-        "value": "https://colab.research.google.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/optimizer/solver/solvers.py"
-        ],
-        "value": "https://docs.nvidia.com/cuda/cusolver/index.html#tile-strategy"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/optimizer/solver/solvers.py"
-        ],
-        "value": "https://docs.nvidia.com/cuda/pdf/CUSOLVER_Library.pdf#page=361"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/utils/group/_semigroup.py"
-        ],
-        "value": "https://docs.python.org/3/library/dataclasses.html#frozen-instances"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/exact.py"
-        ],
-        "value": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.linalg.bicgstab.html"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/graph/common_lattices.py"
-        ],
-        "value": "https://doi.org/10.1016/j.aop.2005.10.005"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/models/tensor_networks/mpdo.py"
-        ],
-        "value": "https://doi.org/10.1103/PhysRevLett.93.207204"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "netket-3.22.0.dev4/docs/sphinx_extensions/netket_citations.py",
-          "netket-3.22.0.dev4/netket/utils/citations/docs.py"
-        ],
-        "value": "https://doi.org/{doi"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/utils/config_flags.py"
-        ],
-        "value": "https://emcee.readthedocs.io/en/stable/tutorials/autocorr/#autocorr"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "netket-3.22.0.dev4/netket/experimental/dynamics/_rk/_solver.py",
-          "netket-3.22.0.dev4/netket/experimental/dynamics/_rk/_tableau.py"
-        ],
-        "value": "https://en.wikipedia.org/w/index.php?title=Runge%E2%80%93Kutta_methods&oldid=1055669759"
+        "value": "https://decoderesearch.github.io/SAELens/latest/migrating/"
       },
       {
         "file_count": 3,
         "files": [
-          "netket-3.22.0.dev4/netket/errors.py",
-          "netket-3.22.0.dev4/netket/jax/_jacobian/logic.py",
-          "netket-3.22.0.dev4/netket/utils/holomorphic.py"
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md",
+          "sae_lens-6.40.0/sae_lens/saes/sae.py"
         ],
-        "value": "https://en.wikipedia.org/wiki/Cauchy–Riemann_equations"
+        "value": "https://decoderesearch.github.io/SAELens/latest/pretrained_saes/"
       },
       {
         "file_count": 1,
         "files": [
-          "netket-3.22.0.dev4/netket/utils/summation.py"
+          "sae_lens-6.40.0/sae_lens/training/activations_store.py"
         ],
-        "value": "https://en.wikipedia.org/wiki/Kahan_summation_algorithm"
+        "value": "https://decoderesearch.github.io/SAELens/training_saes/#pretokenizing-datasets"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sae_lens-6.40.0/sae_lens/saes/topk_sae.py"
+        ],
+        "value": "https://github.com/EleutherAI/sae/blob/main/sae/sae.py"
       },
       {
         "file_count": 2,
         "files": [
-          "netket-3.22.0.dev4/netket/sampler/metropolis.py",
-          "netket-3.22.0.dev4/netket/sampler/rules/langevin.py"
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
         ],
-        "value": "https://en.wikipedia.org/wiki/Metropolis-adjusted_Langevin_algorithm"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/operator/_fermion2nd/base.py"
-        ],
-        "value": "https://en.wikipedia.org/wiki/Normal_order#Fermions"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/experimental/dynamics/_rk/_tableau.py"
-        ],
-        "value": "https://en.wikipedia.org/wiki/Runge–Kutta_methods"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/optimizer/__init__.py"
-        ],
-        "value": "https://en.wikipedia.org/wiki/Stochastic_gradient_descent"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/models/slater.py"
-        ],
-        "value": "https://en.wikipedia.org/wiki/Unrestricted_Hartree%E2%80%93Fock"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/utils/holomorphic.py"
-        ],
-        "value": "https://en.wikipedia.org/wiki/Wirtinger_derivatives"
+        "value": "https://github.com/EleutherAI/sparsify"
       },
       {
         "file_count": 2,
         "files": [
-          "netket-3.22.0.dev4/netket/vqs/base.py",
-          "netket-3.22.0.dev4/netket/vqs/mc/mc_state/state.py"
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
         ],
-        "value": "https://flax.readthedocs.io/en/latest/_modules/flax/linen/module.html#Module.apply"
+        "value": "https://github.com/KempnerInstitute/overcomplete"
       },
       {
         "file_count": 2,
         "files": [
-          "netket-3.22.0.dev4/netket/logging/json_log.py",
-          "netket-3.22.0.dev4/netket/vqs/base.py"
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
         ],
-        "value": "https://flax.readthedocs.io/en/latest/flax.serialization.html"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/utils/_tips.py"
-        ],
-        "value": "https://forms.gle/ej8eDGFRu2mww5mQ9"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/_src/callbacks/save_state.py"
-        ],
-        "value": "https://github.com/NeuralQXLab/nqxpack"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/stats/_autocorr.py"
-        ],
-        "value": "https://github.com/dfm/emcee/"
+        "value": "https://github.com/adamkarvonen/SAEBench"
       },
       {
         "file_count": 2,
         "files": [
-          "netket-3.22.0.dev4/PKG-INFO",
-          "netket-3.22.0.dev4/README.md"
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
         ],
-        "value": "https://github.com/google/jax"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/jax/_utils_random.py"
-        ],
-        "value": "https://github.com/google/jax/pull/16511"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/jax/_vjp_chunked.py"
-        ],
-        "value": "https://github.com/jax-ml/jax/discussions/29608"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/models/jastrow.py"
-        ],
-        "value": "https://github.com/jax-ml/jax/issues/24872"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/tools/_cpu_info.py"
-        ],
-        "value": "https://github.com/matthew-brett/x86cpu/blob/530f89f678aba501381e94be5325b9c91b878a32/x86cpu/tests/info_getters.py#L24"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "netket-3.22.0.dev4/PKG-INFO",
-          "netket-3.22.0.dev4/README.md",
-          "netket-3.22.0.dev4/netket/vqs/mc/mc_state/state.py",
-          "netket-3.22.0.dev4/pyproject.toml"
-        ],
-        "value": "https://github.com/netket/netket"
+        "value": "https://github.com/anthonyduong9"
       },
       {
         "file_count": 2,
         "files": [
-          "netket-3.22.0.dev4/PKG-INFO",
-          "netket-3.22.0.dev4/README.md"
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
         ],
-        "value": "https://github.com/netket/netket.git"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/sampler/parallel_tempering.py"
-        ],
-        "value": "https://github.com/netket/netket/blob/1e187ae2b9d2aa3f2e53b09fe743e50763d04c9a/Sources/Sampler/metropolis_hastings_pt.cc"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/sampler/parallel_tempering.py"
-        ],
-        "value": "https://github.com/netket/netket/blob/1e187ae2b9d2aa3f2e53b09fe743e50763d04c9a/Sources/Sampler/metropolis_hastings_pt.hpp"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/sampler/parallel_tempering.py"
-        ],
-        "value": "https://github.com/netket/netket/blob/87d469aa8c23f71c4838cf09d7ed7b87ff2ea01f/netket/legacy/sampler/numpy/metropolis_hastings_pt.py"
+        "value": "https://github.com/callummcdougall/sae_vis"
       },
       {
         "file_count": 2,
         "files": [
-          "netket-3.22.0.dev4/PKG-INFO",
-          "netket-3.22.0.dev4/README.md"
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
         ],
-        "value": "https://github.com/netket/netket/blob/master/LICENSE"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "netket-3.22.0.dev4/netket/operator/_fermion2nd/jax.py"
-        ],
-        "value": "https://github.com/netket/netket/issues/1385"
+        "value": "https://github.com/callummcdougall/sae_vis/tree/main"
       },
       {
         "file_count": 2,
         "files": [
-          "netket-3.22.0.dev4/PKG-INFO",
-          "netket-3.22.0.dev4/README.md"
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
         ],
-        "value": "https://github.com/netket/netket/releases"
+        "value": "https://github.com/chanind"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md",
+          "sae_lens-6.40.0/pyproject.toml"
+        ],
+        "value": "https://github.com/decoderesearch/SAELens"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
+        ],
+        "value": "https://github.com/decoderesearch/SAELens/actions/workflows/build.yml"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
+        ],
+        "value": "https://github.com/decoderesearch/SAELens/actions/workflows/build.yml/badge.svg"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
+        ],
+        "value": "https://github.com/decoderesearch/SAELens/actions/workflows/deploy_docs.yml"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
+        ],
+        "value": "https://github.com/decoderesearch/SAELens/actions/workflows/deploy_docs.yml/badge.svg"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sae_lens-6.40.0/sae_lens/training/optim.py"
+        ],
+        "value": "https://github.com/jbloomAus/DecisionTransformerInterpretability/blob/ee55df35cdb92e81d689c72fb9dd5a7252893363/src/decision_transformer/utils.py#L425"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sae_lens-6.40.0/sae_lens/synthetic/hierarchy/__init__.py"
+        ],
+        "value": "https://github.com/noanabeshima/matryoshka-saes/blob/main/toy_model.py"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
+        ],
+        "value": "https://github.com/saprmarks/dictionary_learning"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sae_lens-6.40.0/sae_lens/evals.py"
+        ],
+        "value": "https://github.com/saprmarks/dictionary_learning/blob/main/evaluation.py"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
+        ],
+        "value": "https://github.com/user-attachments/assets/2a5d752f-b261-4ee4-ad5d-ebf282321371"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
+        ],
+        "value": "https://githubtocolab.com/decoderesearch/SAELens/blob/main/tutorials/basic_loading_and_analysing.ipynb"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
+        ],
+        "value": "https://githubtocolab.com/decoderesearch/SAELens/blob/main/tutorials/logits_lens_with_features.ipynb"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
+        ],
+        "value": "https://githubtocolab.com/decoderesearch/SAELens/blob/main/tutorials/synth_sae_bench.ipynb"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
+        ],
+        "value": "https://githubtocolab.com/decoderesearch/SAELens/blob/main/tutorials/training_a_sparse_autoencoder.ipynb"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
+        ],
+        "value": "https://githubtocolab.com/decoderesearch/SAELens/blob/main/tutorials/training_saes_on_synthetic_data.ipynb"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
+        ],
+        "value": "https://githubtocolab.com/decoderesearch/SAELens/blob/main/tutorials/tutorial_2_0.ipynb"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sae_lens-6.40.0/sae_lens/loading/pretrained_sae_loaders.py"
+        ],
+        "value": "https://huggingface.co/canrager/lm_sae"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sae_lens-6.40.0/sae_lens/training/optim.py"
+        ],
+        "value": "https://huggingface.co/docs/transformers/main_classes/optimizer_schedules"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
+        ],
+        "value": "https://img.shields.io/badge/License-MIT-yellow.svg"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
+        ],
+        "value": "https://img.shields.io/pypi/v/sae-lens?color=blue"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
+        ],
+        "value": "https://join.slack.com/t/opensourcemechanistic/shared_invite/zt-375zalm04-GFd5tdBU1yLKlu_T_JSqZQ"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sae_lens-6.40.0/sae_lens/analysis/neuronpedia_integration.py"
+        ],
+        "value": "https://neuronpedia.org"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
+        ],
+        "value": "https://opensource.org/licenses/MIT"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
+        ],
+        "value": "https://pypi.org/project/sae-lens/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sae_lens-6.40.0/sae_lens/training/sae_trainer.py"
+        ],
+        "value": "https://pytorch.org/tutorials/recipes/recipes/amp_recipe.html"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sae_lens-6.40.0/sae_lens/saes/sae.py"
+        ],
+        "value": "https://transformer-circuits.pub/2024/april-update/index.html#training-saes"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sae_lens-6.40.0/PKG-INFO",
+          "sae_lens-6.40.0/README.md"
+        ],
+        "value": "https://www.decoderesearch.com/"
       }
     ]
   },
-  "package": "NetKet",
-  "package_slug": "netket",
-  "project_url": "https://pypi.org/project/NetKet/",
+  "package": "sae-lens",
+  "package_slug": "sae-lens",
+  "project_url": "https://pypi.org/project/sae-lens/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T11:24:52.593616+00:00",
+  "published_at": "2026-04-27T11:28:50.070992+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T11:25:42.270281+00:00",
-  "title": "Personal PyPI Supply Chain Scan: NetKet 3.22.0.dev4",
-  "version": "3.22.0.dev4",
-  "version_slug": "3.22.0.dev4",
-  "_metadata_path": "reports/packages/netket/3.22.0.dev4/metadata.json"
+  "scanned_at": "2026-04-27T11:30:04.918309+00:00",
+  "title": "Personal PyPI Supply Chain Scan: sae-lens 6.40.0",
+  "version": "6.40.0",
+  "version_slug": "6.40.0",
+  "_metadata_path": "reports/packages/sae-lens/6.40.0/metadata.json"
 }
