@@ -1,24 +1,251 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "dmbi_solutions_downloader-1.0.0.tar.gz",
+  "distribution": "nlptoolkit_dictionary_cy-1.0.36.tar.gz",
   "finding_count": 2,
   "model": "gpt-5.5",
   "network_indicators": {
-    "domains": [],
+    "domains": [
+      {
+        "file_count": 1,
+        "files": [
+          "nlptoolkit_dictionary_cy-1.0.36/LICENSE"
+        ],
+        "value": "fsf.org"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/README.md"
+        ],
+        "value": "git-scm.com"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/README.md",
+          "nlptoolkit_dictionary_cy-1.0.36/setup.py"
+        ],
+        "value": "github.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/README.md"
+        ],
+        "value": "www.aclweb.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "nlptoolkit_dictionary_cy-1.0.36/LICENSE"
+        ],
+        "value": "www.gnu.org"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/README.md"
+        ],
+        "value": "www.python.org"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/README.md"
+        ],
+        "value": "youtu.be"
+      }
+    ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
-    "urls": []
+    "urls": [
+      {
+        "file_count": 1,
+        "files": [
+          "nlptoolkit_dictionary_cy-1.0.36/LICENSE"
+        ],
+        "value": "https://fsf.org/"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/README.md"
+        ],
+        "value": "https://git-scm.com/book/en/v2/Getting-Started-Installing-Git"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/setup.py"
+        ],
+        "value": "https://github.com/StarlangSoftware/Dictionary-Cy"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/README.md"
+        ],
+        "value": "https://github.com/StarlangSoftware/Dictionary/blob/master/video1.jpg"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/README.md"
+        ],
+        "value": "https://github.com/StarlangSoftware/Dictionary/blob/master/video2.jpg"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/README.md"
+        ],
+        "value": "https://github.com/starlangsoftware/Dictionary"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/README.md"
+        ],
+        "value": "https://github.com/starlangsoftware/Dictionary-C"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/README.md"
+        ],
+        "value": "https://github.com/starlangsoftware/Dictionary-CPP"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/README.md"
+        ],
+        "value": "https://github.com/starlangsoftware/Dictionary-CS"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/README.md"
+        ],
+        "value": "https://github.com/starlangsoftware/Dictionary-Cy.git"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/README.md"
+        ],
+        "value": "https://github.com/starlangsoftware/Dictionary-Js"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/README.md"
+        ],
+        "value": "https://github.com/starlangsoftware/Dictionary-Py"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/README.md"
+        ],
+        "value": "https://github.com/starlangsoftware/Dictionary-Swift"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/README.md"
+        ],
+        "value": "https://www.aclweb.org/anthology/R19-1156"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "nlptoolkit_dictionary_cy-1.0.36/LICENSE"
+        ],
+        "value": "https://www.gnu.org/licenses/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "nlptoolkit_dictionary_cy-1.0.36/LICENSE"
+        ],
+        "value": "https://www.gnu.org/licenses/why-not-lgpl.html"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/README.md"
+        ],
+        "value": "https://www.python.org/downloads/"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/README.md"
+        ],
+        "value": "https://youtu.be/10iAqbfsA2A"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
+          "nlptoolkit_dictionary_cy-1.0.36/README.md"
+        ],
+        "value": "https://youtu.be/C-_TZDkFwzQ"
+      }
+    ]
   },
-  "package": "dmbi-solutions-downloader",
-  "package_slug": "dmbi-solutions-downloader",
-  "project_url": "https://pypi.org/project/dmbi-solutions-downloader/",
+  "package": "nlptoolkit-dictionary-cy",
+  "package_slug": "nlptoolkit-dictionary-cy",
+  "project_url": "https://pypi.org/project/nlptoolkit-dictionary-cy/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T18:46:59.467076+00:00",
+  "published_at": "2026-04-27T18:50:51.116021+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T18:47:49.699585+00:00",
-  "title": "Personal PyPI Supply Chain Scan: dmbi-solutions-downloader 1.0.0",
-  "version": "1.0.0",
-  "version_slug": "1.0.0",
-  "_metadata_path": "reports/packages/dmbi-solutions-downloader/1.0.0/metadata.json"
+  "scanned_at": "2026-04-27T18:52:09.522407+00:00",
+  "title": "Personal PyPI Supply Chain Scan: nlptoolkit-dictionary-cy 1.0.36",
+  "version": "1.0.36",
+  "version_slug": "1.0.36",
+  "_metadata_path": "reports/packages/nlptoolkit-dictionary-cy/1.0.36/metadata.json"
 }
