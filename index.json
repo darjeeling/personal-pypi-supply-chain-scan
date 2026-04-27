@@ -1,6 +1,50 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "g3tables-0.2.18.tar.gz",
+    "finding_count": 2,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 3,
+          "files": [
+            "g3tables-0.2.18/PKG-INFO",
+            "g3tables-0.2.18/pyproject.toml",
+            "g3tables-0.2.18/src/g3tables.egg-info/PKG-INFO"
+          ],
+          "value": "gitlab.elektroline.cz"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 3,
+          "files": [
+            "g3tables-0.2.18/PKG-INFO",
+            "g3tables-0.2.18/pyproject.toml",
+            "g3tables-0.2.18/src/g3tables.egg-info/PKG-INFO"
+          ],
+          "value": "https://gitlab.elektroline.cz/plc/systemg3-py/SystemG3Tables"
+        }
+      ]
+    },
+    "package": "g3tables",
+    "package_slug": "g3tables",
+    "project_url": "https://pypi.org/project/g3tables/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T12:51:52.623237+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T12:53:32.495933+00:00",
+    "title": "Personal PyPI Supply Chain Scan: g3tables 0.2.18",
+    "version": "0.2.18",
+    "version_slug": "0.2.18",
+    "_metadata_path": "reports/packages/g3tables/0.2.18/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "turtlelab-0.6.0.tar.gz",
     "finding_count": 9,
     "model": "gpt-5.5",

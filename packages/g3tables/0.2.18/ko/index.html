@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal PyPI Supply Chain Scan: g3tables 0.2.18</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 960px; line-height: 1.55; padding: 0 1rem; color: #1f2933; }
+    a { color: #1f5fbf; }
+    code { background: #f4f4f4; padding: 0.1rem 0.25rem; }
+    h1, h2, h3 { line-height: 1.2; }
+    li { margin: 0.35rem 0; }
+    nav { margin-bottom: 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #e5e9ef; padding: 0.55rem 0.65rem; text-align: left; vertical-align: top; }
+    th { color: #52616f; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; }
+    .scan-groups { margin-top: 1.2rem; }
+    .scan-day { border-top: 1px solid #d8dee4; display: grid; gap: 1rem; grid-template-columns: 10rem minmax(0, 1fr); padding: 1.1rem 0; }
+    .scan-day-date { color: #1f2933; font-weight: 700; }
+    .scan-day-date span { color: #52616f; display: block; font-size: 0.9rem; font-weight: 500; margin-top: 0.2rem; }
+    .scan-day-table { overflow-x: auto; }
+    .risk { display: inline-block; min-width: 4.8rem; text-align: center; border-radius: 999px; padding: 0.15rem 0.45rem; font-size: 0.78rem; font-weight: 700; }
+    .risk-info, .risk-low { background: #dcfce7; color: #166534; }
+    .risk-medium, .risk-unknown { background: #fef3c7; color: #92400e; }
+    .risk-high, .risk-critical { background: #fee2e2; color: #991b1b; }
+    .index-note { color: #52616f; margin-top: -0.35rem; }
+    .version { color: #52616f; margin-left: 0.2rem; white-space: nowrap; }
+    @media (max-width: 720px) {
+      .scan-day { grid-template-columns: 1fr; }
+      th, td { padding: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+<nav><a href='../../../../'>Index</a></nav><h1>Personal PyPI Supply Chain Scan: g3tables 0.2.18</h1>
+
+<ul>
+<li>Package: g3tables</li>
+<li>Version: 0.2.18</li>
+<li>Project URL: https://pypi.org/project/g3tables/</li>
+<li>Distribution: g3tables-0.2.18.tar.gz</li>
+<li>Package published at: 2026-04-27T12:51:52.623237+00:00</li>
+<li>Scan published at: 2026-04-27T12:53:32.495933+00:00</li>
+<li>Language: ko</li>
+<li>Model: gpt-5.5</li>
+<li>Prompt: malicious-supply-chain-review-v2 ([source](../../../../docs/prompts/malicious-supply-chain-review-v2.md))</li>
+<li>Disclaimer: This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</li>
+</ul>
+
+<h2>Deterministic Network Indicators</h2>
+
+<h3>Suspicious Endpoints</h3>
+
+<p>None</p>
+
+<h3>Raw Public IPs</h3>
+
+<p>None</p>
+
+<h3>URLs</h3>
+<ul>
+<li>https://gitlab.elektroline.cz/plc/systemg3-py/SystemG3Tables (3 files: g3tables-0.2.18/PKG-INFO, g3tables-0.2.18/pyproject.toml, g3tables-0.2.18/src/g3tables.egg-info/PKG-INFO)</li>
+</ul>
+
+<h3>Domains</h3>
+<ul>
+<li>gitlab.elektroline.cz (3 files: g3tables-0.2.18/PKG-INFO, g3tables-0.2.18/pyproject.toml, g3tables-0.2.18/src/g3tables.egg-info/PKG-INFO)</li>
+</ul>
+
+<h2>판정</h2>
+
+<p>확인된 악성 공급망 침해 징후 없음 — 전체 위험도: info.</p>
+
+<h2>악성 공급망 징후</h2>
+
+<p>확인된 악성 공급망 징후 없음.</p>
+
+<h2>자동 실행 경로</h2>
+
+<ul>
+<li>pyproject.toml은 표준 setuptools.build_meta 빌드 백엔드를 사용하며, 제공된 내용에서 설치 시 실행되는 커스텀 훅이나 setup.py 실행 로직은 확인되지 않았습니다.</li>
+<li>.pth, sitecustomize.py, usercustomize.py 파일은 제공된 매니페스트/본문에서 확인되지 않았습니다.</li>
+<li>entry_points.txt / [project.scripts]에는 gen-system-config, g3tables-update-creds, extend-io-table 콘솔 스크립트가 있으나, 이는 사용자가 명령을 실행해야 동작하는 일반 CLI 진입점입니다.</li>
+<li>g3tables.plc_composition_io_table._extend_table에는 import 시 패키지 내부 io_signals.json을 읽는 전역 초기화(IO_SIGNAL_PATTERNS = get_io_signal_patterns())가 있으나, 제공된 증거상 로컬 패키지 데이터 로딩이며 악성 자동 실행 근거로 보기는 어렵습니다.</li>
+</ul>
+
+<h2>절취/전송/지속성/측면이동/은닉</h2>
+
+<ul>
+<li>제공된 코드에서 광범위한 환경변수 수집, .env, SSH 키, 클라우드 자격증명, CI/CD 토큰, 지갑 파일 탐색 등 credential harvesting 증거는 확인되지 않았습니다.</li>
+<li>아카이브 생성, 임시 스테이징, base64/gzip 등을 이용한 수집물 포장 또는 외부 업로드 증거는 확인되지 않았습니다.</li>
+<li>외부 네트워크 지표는 프로젝트 홈페이지 https://gitlab.elektroline.cz/plc/systemg3-py/SystemG3Tables 메타데이터뿐이며, C2/웹훅/드롭 서비스/원시 IP 업로드 정황은 확인되지 않았습니다.</li>
+<li>systemd, cron, LaunchAgent, 셸 프로필 수정 등 지속성 설치 증거는 확인되지 않았습니다.</li>
+<li>Kubernetes, Docker socket, 클라우드 metadata, GitHub Actions/패키지 레지스트리 토큰 악용 등 측면이동 증거는 확인되지 않았습니다.</li>
+<li>사전탐지의 re.compile(&quot;[0-9]+$&quot;)는 숫자 인덱스 파싱용 정규식으로 보이며, 난독화/로더 증거로 보기 어렵습니다.</li>
+</ul>
+
+<h2>배포 무결성 이상</h2>
+
+<ul>
+<li>SOURCES.txt에 나열된 파일들은 Python 패키지 소스, 메타데이터, JSON 데이터 파일로 보이며, 제공된 범위에서 숨김 payload, 목적 불명 native binary, 비정상 .dist-info/.egg-info 실행 로직은 확인되지 않았습니다.</li>
+<li>의존성(gspread, openpyxl, pandas, python-gitlab, platformdirs, g3core, g3hardware 등)은 패키지 설명상 Google Drive/표 처리/프로젝트 테이블 처리 기능과 관련 있어 보이며, 제공된 증거만으로 갑작스러운 악성 dependency 삽입으로 판단할 근거는 없습니다.</li>
+<li>wheel/sdist 불일치 여부는 제공된 sdist 본문만으로는 확인할 수 없습니다.</li>
+</ul>
+
+<h2>추가 확인 필요</h2>
+
+<ul>
+<li>제공된 텍스트 본문에는 매니페스트에 언급된 일부 파일(utils/gdrive/_gdrive.py, utils/gdrive/_update_creds.py, system_config/* 등)의 전체 내용이 포함되지 않았습니다. 특히 credential 업데이트 기능 파일은 정상 OAuth/Google Drive 기능인지 추가 확인이 필요합니다.</li>
+<li>wheel 아티팩트가 별도로 존재한다면 sdist와 파일/메타데이터/엔트리포인트 차이를 비교해야 합니다.</li>
+</ul>
+
+<p>---</p>
+
+<p>Prompt source: docs/prompts/malicious-supply-chain-review-v2.md</p>
+
+<p>This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</p>
+
+</body>
+</html>
