@@ -1,195 +1,332 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "gfagraphs-0.3.21.tar.gz",
-  "finding_count": 5,
+  "distribution": "shadow_diff-2.4.3.tar.gz",
+  "finding_count": 120,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
         "file_count": 1,
         "files": [
-          "gfagraphs-0.3.21/LICENSE"
+          "shadow_diff-2.4.3/src/shadow/importers/a2a.py"
         ],
-        "value": "fsf.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "gfagraphs-0.3.21/gfagraphs/abstractions.py",
-          "gfagraphs-0.3.21/gfagraphs/gfaparser.py"
-        ],
-        "value": "gfa-spec.github.io"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "gfagraphs-0.3.21/PKG-INFO",
-          "gfagraphs-0.3.21/README.md",
-          "gfagraphs-0.3.21/gfagraphs.egg-info/PKG-INFO"
-        ],
-        "value": "gfagraphs.readthedocs.io"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "gfagraphs-0.3.21/PKG-INFO",
-          "gfagraphs-0.3.21/gfagraphs.egg-info/PKG-INFO",
-          "gfagraphs-0.3.21/pyproject.toml",
-          "gfagraphs-0.3.21/setup.py"
-        ],
-        "value": "github.com"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "gfagraphs-0.3.21/PKG-INFO",
-          "gfagraphs-0.3.21/README.md",
-          "gfagraphs-0.3.21/gfagraphs.egg-info/PKG-INFO"
-        ],
-        "value": "img.shields.io"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "gfagraphs-0.3.21/PKG-INFO",
-          "gfagraphs-0.3.21/README.md",
-          "gfagraphs-0.3.21/gfagraphs.egg-info/PKG-INFO"
-        ],
-        "value": "media.discordapp.net"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "gfagraphs-0.3.21/PKG-INFO",
-          "gfagraphs-0.3.21/README.md",
-          "gfagraphs-0.3.21/gfagraphs.egg-info/PKG-INFO"
-        ],
-        "value": "readthedocs.org"
+        "value": "a2a-protocol.org"
       },
       {
         "file_count": 1,
         "files": [
-          "gfagraphs-0.3.21/LICENSE"
+          "shadow_diff-2.4.3/src/shadow/importers/pydantic_ai.py"
         ],
-        "value": "www.gnu.org"
+        "value": "ai.pydantic.dev"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "shadow_diff-2.4.3/crates/shadow-core/Cargo.toml"
+        ],
+        "value": "docs.rs"
+      },
+      {
+        "file_count": 11,
+        "files": [
+          "shadow_diff-2.4.3/Cargo.lock",
+          "shadow_diff-2.4.3/Cargo.toml",
+          "shadow_diff-2.4.3/PKG-INFO",
+          "shadow_diff-2.4.3/README.md",
+          "shadow_diff-2.4.3/crates/shadow-core/README.md",
+          "shadow_diff-2.4.3/pyproject.toml",
+          "shadow_diff-2.4.3/src/shadow/certify_sign.py",
+          "shadow_diff-2.4.3/src/shadow/cli/app.py"
+        ],
+        "value": "github.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "shadow_diff-2.4.3/crates/shadow-core/README.md"
+        ],
+        "value": "img.shields.io"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "shadow_diff-2.4.3/src/shadow/cli/app.py"
+        ],
+        "value": "raw.items"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "shadow_diff-2.4.3/src/shadow/importers/pydantic_ai.py"
+        ],
+        "value": "raw.lower"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "shadow_diff-2.4.3/src/shadow/sdk/_autostart.py"
+        ],
+        "value": "raw.split"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "shadow_diff-2.4.3/src/shadow/enterprise/audit_log.py",
+          "shadow_diff-2.4.3/src/shadow/importers/otel.py",
+          "shadow_diff-2.4.3/src/shadow/suggest_fixes.py"
+        ],
+        "value": "raw.strip"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "shadow_diff-2.4.3/crates/shadow-core/README.md"
+        ],
+        "value": "sh.rustup.rs"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "shadow_diff-2.4.3/src/shadow/certify_sign.py"
+        ],
+        "value": "token.actions.githubusercontent.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "shadow_diff-2.4.3/src/shadow/cli/app.py"
+        ],
+        "value": "token.actions.githubusercontent.com`"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "shadow_diff-2.4.3/LICENSE-APACHE",
+          "shadow_diff-2.4.3/crates/shadow-core/LICENSE-APACHE"
+        ],
+        "value": "www.apache.org"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "gfagraphs-0.3.21/LICENSE"
+          "shadow_diff-2.4.3/LICENSE-APACHE",
+          "shadow_diff-2.4.3/crates/shadow-core/LICENSE-APACHE"
         ],
-        "value": "http://fsf.org/"
+        "value": "http://www.apache.org/licenses/"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "shadow_diff-2.4.3/LICENSE-APACHE",
+          "shadow_diff-2.4.3/crates/shadow-core/LICENSE-APACHE"
+        ],
+        "value": "http://www.apache.org/licenses/LICENSE-2.0"
       },
       {
         "file_count": 1,
         "files": [
-          "gfagraphs-0.3.21/gfagraphs/abstractions.py"
+          "shadow_diff-2.4.3/src/shadow/importers/a2a.py"
         ],
-        "value": "http://gfa-spec.github.io/GFA-spec/GFA1.html"
+        "value": "https://a2a-protocol.org/"
       },
       {
         "file_count": 1,
         "files": [
-          "gfagraphs-0.3.21/gfagraphs/gfaparser.py"
+          "shadow_diff-2.4.3/src/shadow/importers/pydantic_ai.py"
         ],
-        "value": "http://gfa-spec.github.io/GFA-spec/GFA1.html#optional-fields"
+        "value": "https://ai.pydantic.dev"
       },
       {
         "file_count": 1,
         "files": [
-          "gfagraphs-0.3.21/LICENSE"
+          "shadow_diff-2.4.3/src/shadow/importers/pydantic_ai.py"
         ],
-        "value": "http://www.gnu.org/licenses/"
+        "value": "https://ai.pydantic.dev/api/messages/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "shadow_diff-2.4.3/crates/shadow-core/Cargo.toml"
+        ],
+        "value": "https://docs.rs/shadow-core"
+      },
+      {
+        "file_count": 5,
+        "files": [
+          "shadow_diff-2.4.3/Cargo.toml",
+          "shadow_diff-2.4.3/PKG-INFO",
+          "shadow_diff-2.4.3/pyproject.toml",
+          "shadow_diff-2.4.3/src/shadow/quickstart_data/README.md",
+          "shadow_diff-2.4.3/src/shadow/report/github_pr.py"
+        ],
+        "value": "https://github.com/manav8498/Shadow"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "shadow_diff-2.4.3/PKG-INFO",
+          "shadow_diff-2.4.3/pyproject.toml"
+        ],
+        "value": "https://github.com/manav8498/Shadow#readme"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "shadow_diff-2.4.3/PKG-INFO",
+          "shadow_diff-2.4.3/README.md"
+        ],
+        "value": "https://github.com/manav8498/Shadow**"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "shadow_diff-2.4.3/crates/shadow-core/README.md"
+        ],
+        "value": "https://github.com/manav8498/Shadow/actions/workflows/ci.yml"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "shadow_diff-2.4.3/crates/shadow-core/README.md"
+        ],
+        "value": "https://github.com/manav8498/Shadow/actions/workflows/ci.yml/badge.svg"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "shadow_diff-2.4.3/PKG-INFO",
+          "shadow_diff-2.4.3/pyproject.toml"
+        ],
+        "value": "https://github.com/manav8498/Shadow/blob/main/CHANGELOG.md"
       },
       {
         "file_count": 3,
         "files": [
-          "gfagraphs-0.3.21/PKG-INFO",
-          "gfagraphs-0.3.21/README.md",
-          "gfagraphs-0.3.21/gfagraphs.egg-info/PKG-INFO"
+          "shadow_diff-2.4.3/PKG-INFO",
+          "shadow_diff-2.4.3/pyproject.toml",
+          "shadow_diff-2.4.3/src/shadow/quickstart_data/README.md"
         ],
-        "value": "https://gfagraphs.readthedocs.io/en/latest/?badge=latest"
+        "value": "https://github.com/manav8498/Shadow/blob/main/SPEC.md"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "shadow_diff-2.4.3/PKG-INFO",
+          "shadow_diff-2.4.3/crates/shadow-core/README.md",
+          "shadow_diff-2.4.3/pyproject.toml"
+        ],
+        "value": "https://github.com/manav8498/Shadow/discussions"
       },
       {
         "file_count": 4,
         "files": [
-          "gfagraphs-0.3.21/PKG-INFO",
-          "gfagraphs-0.3.21/gfagraphs.egg-info/PKG-INFO",
-          "gfagraphs-0.3.21/pyproject.toml",
-          "gfagraphs-0.3.21/setup.py"
+          "shadow_diff-2.4.3/PKG-INFO",
+          "shadow_diff-2.4.3/crates/shadow-core/README.md",
+          "shadow_diff-2.4.3/pyproject.toml",
+          "shadow_diff-2.4.3/src/shadow/sdk/_autostart.py"
         ],
-        "value": "https://github.com/dubbsieg/gfagraphs"
+        "value": "https://github.com/manav8498/Shadow/issues"
       },
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "gfagraphs-0.3.21/PKG-INFO",
-          "gfagraphs-0.3.21/gfagraphs.egg-info/PKG-INFO",
-          "gfagraphs-0.3.21/pyproject.toml"
+          "shadow_diff-2.4.3/src/shadow/certify_sign.py"
         ],
-        "value": "https://github.com/dubbsieg/gfagraphs/issues"
+        "value": "https://github.com/org/repo/.github/"
       },
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "gfagraphs-0.3.21/PKG-INFO",
-          "gfagraphs-0.3.21/README.md",
-          "gfagraphs-0.3.21/gfagraphs.egg-info/PKG-INFO"
+          "shadow_diff-2.4.3/src/shadow/cli/app.py"
         ],
-        "value": "https://img.shields.io/badge/Python-3.10-blue.svg"
+        "value": "https://github.com/org/repo/.github/workflows/release.yml@refs/tags/v1.8.0`"
       },
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "gfagraphs-0.3.21/PKG-INFO",
-          "gfagraphs-0.3.21/README.md",
-          "gfagraphs-0.3.21/gfagraphs.egg-info/PKG-INFO"
+          "shadow_diff-2.4.3/crates/shadow-core/README.md"
         ],
-        "value": "https://img.shields.io/badge/Python-3.11-blue.svg"
+        "value": "https://github.com/org/repo/.github/workflows/release.yml@refs/tags/v2.3.0"
       },
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "gfagraphs-0.3.21/PKG-INFO",
-          "gfagraphs-0.3.21/README.md",
-          "gfagraphs-0.3.21/gfagraphs.egg-info/PKG-INFO"
+          "shadow_diff-2.4.3/Cargo.lock"
         ],
-        "value": "https://img.shields.io/badge/Python-3.12-blue.svg"
+        "value": "https://github.com/rust-lang/crates.io-index"
       },
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "gfagraphs-0.3.21/PKG-INFO",
-          "gfagraphs-0.3.21/README.md",
-          "gfagraphs-0.3.21/gfagraphs.egg-info/PKG-INFO"
+          "shadow_diff-2.4.3/crates/shadow-core/README.md"
         ],
-        "value": "https://media.discordapp.net/attachments/874430800802754623/1179353568105467964/library.png"
+        "value": "https://img.shields.io/badge/.agentlog-v0.1%20%2B%20v0.2%20kinds-6f4cff.svg"
       },
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "gfagraphs-0.3.21/PKG-INFO",
-          "gfagraphs-0.3.21/README.md",
-          "gfagraphs-0.3.21/gfagraphs.egg-info/PKG-INFO"
+          "shadow_diff-2.4.3/crates/shadow-core/README.md"
         ],
-        "value": "https://readthedocs.org/projects/gfagraphs/badge/?version=latest"
+        "value": "https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-blue.svg"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "shadow_diff-2.4.3/crates/shadow-core/README.md"
+        ],
+        "value": "https://img.shields.io/badge/python-3.11+-3776ab.svg"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "shadow_diff-2.4.3/crates/shadow-core/README.md"
+        ],
+        "value": "https://img.shields.io/badge/rust-1.95+-orange.svg"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "shadow_diff-2.4.3/crates/shadow-core/README.md"
+        ],
+        "value": "https://img.shields.io/badge/version-2.4.3-brightgreen.svg"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "shadow_diff-2.4.3/crates/shadow-core/README.md"
+        ],
+        "value": "https://sh.rustup.rs"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "shadow_diff-2.4.3/src/shadow/certify_sign.py"
+        ],
+        "value": "https://token.actions.githubusercontent.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "shadow_diff-2.4.3/src/shadow/cli/app.py"
+        ],
+        "value": "https://token.actions.githubusercontent.com`"
       }
     ]
   },
-  "package": "gfagraphs",
-  "package_slug": "gfagraphs",
-  "project_url": "https://pypi.org/project/gfagraphs/",
+  "package": "shadow-diff",
+  "package_slug": "shadow-diff",
+  "project_url": "https://pypi.org/project/shadow-diff/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T15:56:38.242947+00:00",
+  "published_at": "2026-04-27T16:01:23.618508+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T15:57:51.860609+00:00",
-  "title": "Personal PyPI Supply Chain Scan: gfagraphs 0.3.21",
-  "version": "0.3.21",
-  "version_slug": "0.3.21",
-  "_metadata_path": "reports/packages/gfagraphs/0.3.21/metadata.json"
+  "scanned_at": "2026-04-27T16:02:14.319183+00:00",
+  "title": "Personal PyPI Supply Chain Scan: shadow-diff 2.4.3",
+  "version": "2.4.3",
+  "version_slug": "2.4.3",
+  "_metadata_path": "reports/packages/shadow-diff/2.4.3/metadata.json"
 }
