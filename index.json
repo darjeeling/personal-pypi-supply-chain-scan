@@ -1,6 +1,178 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "django_local_mail_viewer-0.0.3.tar.gz",
+    "finding_count": 7,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 3,
+          "files": [
+            "django_local_mail_viewer-0.0.3/PKG-INFO",
+            "django_local_mail_viewer-0.0.3/README.md",
+            "django_local_mail_viewer-0.0.3/django_local_mail_viewer.egg-info/PKG-INFO"
+          ],
+          "value": "codecov.io"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "django_local_mail_viewer-0.0.3/PKG-INFO",
+            "django_local_mail_viewer-0.0.3/README.md",
+            "django_local_mail_viewer-0.0.3/django_local_mail_viewer.egg-info/PKG-INFO",
+            "django_local_mail_viewer-0.0.3/pyproject.toml"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "django_local_mail_viewer-0.0.3/PKG-INFO",
+            "django_local_mail_viewer-0.0.3/README.md",
+            "django_local_mail_viewer-0.0.3/django_local_mail_viewer.egg-info/PKG-INFO"
+          ],
+          "value": "img.shields.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "django_local_mail_viewer-0.0.3/PKG-INFO",
+            "django_local_mail_viewer-0.0.3/README.md",
+            "django_local_mail_viewer-0.0.3/django_local_mail_viewer.egg-info/PKG-INFO"
+          ],
+          "value": "pypi.org"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "django_local_mail_viewer-0.0.3/PKG-INFO",
+            "django_local_mail_viewer-0.0.3/README.md",
+            "django_local_mail_viewer-0.0.3/django_local_mail_viewer.egg-info/PKG-INFO"
+          ],
+          "value": "raw.githubusercontent.com"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [
+        {
+          "file_count": 3,
+          "files": [
+            "django_local_mail_viewer-0.0.3/PKG-INFO",
+            "django_local_mail_viewer-0.0.3/README.md",
+            "django_local_mail_viewer-0.0.3/django_local_mail_viewer.egg-info/PKG-INFO"
+          ],
+          "value": "raw.githubusercontent.com"
+        }
+      ],
+      "urls": [
+        {
+          "file_count": 3,
+          "files": [
+            "django_local_mail_viewer-0.0.3/PKG-INFO",
+            "django_local_mail_viewer-0.0.3/README.md",
+            "django_local_mail_viewer-0.0.3/django_local_mail_viewer.egg-info/PKG-INFO"
+          ],
+          "value": "https://codecov.io/github/christianwgd/django-local-mail-viewer"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "django_local_mail_viewer-0.0.3/PKG-INFO",
+            "django_local_mail_viewer-0.0.3/README.md",
+            "django_local_mail_viewer-0.0.3/django_local_mail_viewer.egg-info/PKG-INFO"
+          ],
+          "value": "https://codecov.io/github/christianwgd/django-local-mail-viewer/graph/badge.svg?token=i3jXueSzIY"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "django_local_mail_viewer-0.0.3/PKG-INFO",
+            "django_local_mail_viewer-0.0.3/README.md",
+            "django_local_mail_viewer-0.0.3/django_local_mail_viewer.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/astral-sh/ruff"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "django_local_mail_viewer-0.0.3/PKG-INFO",
+            "django_local_mail_viewer-0.0.3/django_local_mail_viewer.egg-info/PKG-INFO",
+            "django_local_mail_viewer-0.0.3/pyproject.toml"
+          ],
+          "value": "https://github.com/christianwgd/django-local-mail-viewer"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "django_local_mail_viewer-0.0.3/PKG-INFO",
+            "django_local_mail_viewer-0.0.3/README.md",
+            "django_local_mail_viewer-0.0.3/django_local_mail_viewer.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/christianwgd/django-local-mail-viewer/actions/workflows/python-test.yml"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "django_local_mail_viewer-0.0.3/PKG-INFO",
+            "django_local_mail_viewer-0.0.3/README.md",
+            "django_local_mail_viewer-0.0.3/django_local_mail_viewer.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/christianwgd/django-local-mail-viewer/actions/workflows/python-test.yml/badge.svg"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "django_local_mail_viewer-0.0.3/PKG-INFO",
+            "django_local_mail_viewer-0.0.3/django_local_mail_viewer.egg-info/PKG-INFO",
+            "django_local_mail_viewer-0.0.3/pyproject.toml"
+          ],
+          "value": "https://github.com/christianwiegand/django-local-mail-viewer/blob/main/CHANGELOG.md"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "django_local_mail_viewer-0.0.3/PKG-INFO",
+            "django_local_mail_viewer-0.0.3/README.md",
+            "django_local_mail_viewer-0.0.3/django_local_mail_viewer.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "django_local_mail_viewer-0.0.3/PKG-INFO",
+            "django_local_mail_viewer-0.0.3/README.md",
+            "django_local_mail_viewer-0.0.3/django_local_mail_viewer.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/pypi/v/django-local-mail-viewer"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "django_local_mail_viewer-0.0.3/PKG-INFO",
+            "django_local_mail_viewer-0.0.3/README.md",
+            "django_local_mail_viewer-0.0.3/django_local_mail_viewer.egg-info/PKG-INFO"
+          ],
+          "value": "https://pypi.org/project/django-local-mail-viewer/"
+        }
+      ]
+    },
+    "package": "django-local-mail-viewer",
+    "package_slug": "django-local-mail-viewer",
+    "project_url": "https://pypi.org/project/django-local-mail-viewer/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T17:28:39.117900+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T17:29:30.073061+00:00",
+    "title": "Personal PyPI Supply Chain Scan: django-local-mail-viewer 0.0.3",
+    "version": "0.0.3",
+    "version_slug": "0.0.3",
+    "_metadata_path": "reports/packages/django-local-mail-viewer/0.0.3/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "drift_analyzer-2.45.1.tar.gz",
     "finding_count": 2202,
     "model": "gpt-5.5",
