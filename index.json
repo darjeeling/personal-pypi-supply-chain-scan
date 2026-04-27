@@ -1,6 +1,336 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "scrapy_stealth-0.2.1.tar.gz",
+    "finding_count": 20,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "scrapy_stealth-0.2.1/tests/test_middleware.py"
+          ],
+          "value": "explicit"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "scrapy_stealth-0.2.1/PKG-INFO",
+            "scrapy_stealth-0.2.1/README.md",
+            "scrapy_stealth-0.2.1/pyproject.toml",
+            "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "scrapy_stealth-0.2.1/PKG-INFO",
+            "scrapy_stealth-0.2.1/README.md",
+            "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+          ],
+          "value": "img.shields.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scrapy_stealth-0.2.1/tests/test_engines.py"
+          ],
+          "value": "proxy"
+        },
+        {
+          "file_count": 6,
+          "files": [
+            "scrapy_stealth-0.2.1/PKG-INFO",
+            "scrapy_stealth-0.2.1/README.md",
+            "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO",
+            "scrapy_stealth-0.2.1/scrapy_stealth/__init__.py",
+            "scrapy_stealth-0.2.1/tests/test_middleware.py",
+            "scrapy_stealth-0.2.1/tests/test_strategies.py"
+          ],
+          "value": "proxy1"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "scrapy_stealth-0.2.1/PKG-INFO",
+            "scrapy_stealth-0.2.1/README.md",
+            "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO",
+            "scrapy_stealth-0.2.1/tests/test_middleware.py",
+            "scrapy_stealth-0.2.1/tests/test_strategies.py"
+          ],
+          "value": "proxy2"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "scrapy_stealth-0.2.1/PKG-INFO",
+            "scrapy_stealth-0.2.1/README.md",
+            "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+          ],
+          "value": "proxy3"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scrapy_stealth-0.2.1/tests/test_strategies.py"
+          ],
+          "value": "proxy{i"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "scrapy_stealth-0.2.1/PKG-INFO",
+            "scrapy_stealth-0.2.1/README.md",
+            "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+          ],
+          "value": "pypi.org"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "scrapy_stealth-0.2.1/PKG-INFO",
+            "scrapy_stealth-0.2.1/README.md",
+            "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+          ],
+          "value": "raw.githubusercontent.com"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [
+        {
+          "file_count": 3,
+          "files": [
+            "scrapy_stealth-0.2.1/PKG-INFO",
+            "scrapy_stealth-0.2.1/README.md",
+            "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+          ],
+          "value": "https://raw.githubusercontent.com/fawadss1/scrapy-stealth/master/docs/static/logo.png"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "scrapy_stealth-0.2.1/PKG-INFO",
+            "scrapy_stealth-0.2.1/README.md",
+            "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+          ],
+          "value": "raw.githubusercontent.com"
+        }
+      ],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "scrapy_stealth-0.2.1/tests/test_middleware.py"
+          ],
+          "value": "http://explicit:9999"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scrapy_stealth-0.2.1/tests/test_strategies.py"
+          ],
+          "value": "http://proxy1"
+        },
+        {
+          "file_count": 6,
+          "files": [
+            "scrapy_stealth-0.2.1/PKG-INFO",
+            "scrapy_stealth-0.2.1/README.md",
+            "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO",
+            "scrapy_stealth-0.2.1/scrapy_stealth/__init__.py",
+            "scrapy_stealth-0.2.1/tests/test_middleware.py",
+            "scrapy_stealth-0.2.1/tests/test_strategies.py"
+          ],
+          "value": "http://proxy1:8080"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "scrapy_stealth-0.2.1/PKG-INFO",
+            "scrapy_stealth-0.2.1/README.md",
+            "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO",
+            "scrapy_stealth-0.2.1/tests/test_middleware.py",
+            "scrapy_stealth-0.2.1/tests/test_strategies.py"
+          ],
+          "value": "http://proxy2:8080"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scrapy_stealth-0.2.1/tests/test_engines.py"
+          ],
+          "value": "http://proxy:8080"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scrapy_stealth-0.2.1/tests/test_strategies.py"
+          ],
+          "value": "http://proxy{i"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scrapy_stealth-0.2.1/tests/test_strategies.py"
+          ],
+          "value": "http://user:pass@proxy1:8080"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "scrapy_stealth-0.2.1/PKG-INFO",
+            "scrapy_stealth-0.2.1/README.md",
+            "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+          ],
+          "value": "http://user:pass@proxy2:8080"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "scrapy_stealth-0.2.1/PKG-INFO",
+            "scrapy_stealth-0.2.1/README.md",
+            "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+          ],
+          "value": "http://user:pass@proxy3:8080"
+        },
+        {
+          "file_count": 6,
+          "files": [
+            "scrapy_stealth-0.2.1/PKG-INFO",
+            "scrapy_stealth-0.2.1/README.md",
+            "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO",
+            "scrapy_stealth-0.2.1/tests/test_engines.py",
+            "scrapy_stealth-0.2.1/tests/test_middleware.py",
+            "scrapy_stealth-0.2.1/tests/test_strategies.py"
+          ],
+          "value": "https://example.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "scrapy_stealth-0.2.1/PKG-INFO",
+            "scrapy_stealth-0.2.1/pyproject.toml",
+            "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/fawadss1/scrapy-stealth"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "scrapy_stealth-0.2.1/PKG-INFO",
+            "scrapy_stealth-0.2.1/pyproject.toml",
+            "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/fawadss1/scrapy-stealth/issues"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "scrapy_stealth-0.2.1/PKG-INFO",
+            "scrapy_stealth-0.2.1/README.md",
+            "scrapy_stealth-0.2.1/pyproject.toml",
+            "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/fawadss1/scrapy-stealth/releases"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "scrapy_stealth-0.2.1/PKG-INFO",
+            "scrapy_stealth-0.2.1/README.md",
+            "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/badge/changelog-releases-informational"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "scrapy_stealth-0.2.1/PKG-INFO",
+            "scrapy_stealth-0.2.1/README.md",
+            "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/badge/license-MIT-green"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "scrapy_stealth-0.2.1/PKG-INFO",
+            "scrapy_stealth-0.2.1/README.md",
+            "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/github/v/release/fawadss1/scrapy-stealth"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "scrapy_stealth-0.2.1/PKG-INFO",
+            "scrapy_stealth-0.2.1/README.md",
+            "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/pypi/dm/scrapy-stealth"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "scrapy_stealth-0.2.1/PKG-INFO",
+            "scrapy_stealth-0.2.1/README.md",
+            "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/pypi/pyversions/scrapy-stealth"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "scrapy_stealth-0.2.1/PKG-INFO",
+            "scrapy_stealth-0.2.1/README.md",
+            "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/pypi/v/scrapy-stealth?color=blue"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scrapy_stealth-0.2.1/tests/test_strategies.py"
+          ],
+          "value": "https://proxy1:8080"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "scrapy_stealth-0.2.1/PKG-INFO",
+            "scrapy_stealth-0.2.1/README.md",
+            "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+          ],
+          "value": "https://pypi.org/project/scrapy-stealth/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "scrapy_stealth-0.2.1/PKG-INFO",
+            "scrapy_stealth-0.2.1/README.md",
+            "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+          ],
+          "value": "https://raw.githubusercontent.com/fawadss1/scrapy-stealth/master/docs/static/logo.png"
+        }
+      ]
+    },
+    "package": "scrapy-stealth",
+    "package_slug": "scrapy-stealth",
+    "project_url": "https://pypi.org/project/scrapy-stealth/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T12:39:47.341758+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T12:40:27.066390+00:00",
+    "title": "Personal PyPI Supply Chain Scan: scrapy-stealth 0.2.1",
+    "version": "0.2.1",
+    "version_slug": "0.2.1",
+    "_metadata_path": "reports/packages/scrapy-stealth/0.2.1/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "passagemath_latte_4ti2-10.8.5rc0-cp314-cp314t-macosx_13_0_arm64.whl",
     "finding_count": 109,
     "model": "gpt-5.5",

@@ -1,274 +1,330 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "passagemath_latte_4ti2-10.8.5rc0-cp314-cp314t-macosx_13_0_arm64.whl",
-  "finding_count": 109,
+  "distribution": "scrapy_stealth-0.2.1.tar.gz",
+  "finding_count": 20,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
         "file_count": 1,
         "files": [
-          "sage/interfaces/four_ti_2.py"
+          "scrapy_stealth-0.2.1/tests/test_middleware.py"
         ],
-        "value": "4ti2.github.io"
+        "value": "explicit"
       },
       {
-        "file_count": 1,
+        "file_count": 4,
         "files": [
-          "passagemath_latte_4ti2-10.8.5rc0.dist-info/METADATA"
+          "scrapy_stealth-0.2.1/PKG-INFO",
+          "scrapy_stealth-0.2.1/README.md",
+          "scrapy_stealth-0.2.1/pyproject.toml",
+          "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
         ],
         "value": "github.com"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "passagemath_latte_4ti2-10.8.5rc0.dist-info/METADATA"
+          "scrapy_stealth-0.2.1/PKG-INFO",
+          "scrapy_stealth-0.2.1/README.md",
+          "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
         ],
-        "value": "groups.google.com"
+        "value": "img.shields.io"
       },
       {
         "file_count": 1,
         "files": [
-          "passagemath_latte_4ti2-10.8.5rc0.dist-info/METADATA"
+          "scrapy_stealth-0.2.1/tests/test_engines.py"
         ],
-        "value": "packages.msys2.org"
+        "value": "proxy"
+      },
+      {
+        "file_count": 6,
+        "files": [
+          "scrapy_stealth-0.2.1/PKG-INFO",
+          "scrapy_stealth-0.2.1/README.md",
+          "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO",
+          "scrapy_stealth-0.2.1/scrapy_stealth/__init__.py",
+          "scrapy_stealth-0.2.1/tests/test_middleware.py",
+          "scrapy_stealth-0.2.1/tests/test_strategies.py"
+        ],
+        "value": "proxy1"
+      },
+      {
+        "file_count": 5,
+        "files": [
+          "scrapy_stealth-0.2.1/PKG-INFO",
+          "scrapy_stealth-0.2.1/README.md",
+          "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO",
+          "scrapy_stealth-0.2.1/tests/test_middleware.py",
+          "scrapy_stealth-0.2.1/tests/test_strategies.py"
+        ],
+        "value": "proxy2"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "scrapy_stealth-0.2.1/PKG-INFO",
+          "scrapy_stealth-0.2.1/README.md",
+          "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+        ],
+        "value": "proxy3"
       },
       {
         "file_count": 1,
         "files": [
-          "passagemath_latte_4ti2-10.8.5rc0.dist-info/METADATA"
+          "scrapy_stealth-0.2.1/tests/test_strategies.py"
         ],
-        "value": "passagemath.discourse.group"
+        "value": "proxy{i"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "passagemath_latte_4ti2-10.8.5rc0.dist-info/METADATA"
+          "scrapy_stealth-0.2.1/PKG-INFO",
+          "scrapy_stealth-0.2.1/README.md",
+          "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
         ],
-        "value": "passagemath.org"
+        "value": "pypi.org"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "passagemath_latte_4ti2-10.8.5rc0.dist-info/METADATA"
+          "scrapy_stealth-0.2.1/PKG-INFO",
+          "scrapy_stealth-0.2.1/README.md",
+          "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
         ],
-        "value": "pyodide.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sage/interfaces/four_ti_2.py",
-          "sage/interfaces/latte.py"
-        ],
-        "value": "www.gnu.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "passagemath_latte_4ti2-10.8.5rc0.dist-info/METADATA",
-          "sage_wheels/share/latte-int/m-knapsack.mpl"
-        ],
-        "value": "www.math.ucdavis.edu"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "passagemath_latte_4ti2-10.8.5rc0.dist-info/METADATA"
-        ],
-        "value": "www.sagemath.org"
+        "value": "raw.githubusercontent.com"
       }
     ],
     "raw_public_ips": [],
-    "suspicious_endpoints": [],
+    "suspicious_endpoints": [
+      {
+        "file_count": 3,
+        "files": [
+          "scrapy_stealth-0.2.1/PKG-INFO",
+          "scrapy_stealth-0.2.1/README.md",
+          "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+        ],
+        "value": "https://raw.githubusercontent.com/fawadss1/scrapy-stealth/master/docs/static/logo.png"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "scrapy_stealth-0.2.1/PKG-INFO",
+          "scrapy_stealth-0.2.1/README.md",
+          "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+        ],
+        "value": "raw.githubusercontent.com"
+      }
+    ],
     "urls": [
       {
         "file_count": 1,
         "files": [
-          "sage_wheels/share/latte-int/m-knapsack.mpl"
+          "scrapy_stealth-0.2.1/tests/test_middleware.py"
         ],
-        "value": "http://www.math.ucdavis.edu/~latte/"
+        "value": "http://explicit:9999"
       },
       {
         "file_count": 1,
         "files": [
-          "sage/interfaces/four_ti_2.py"
+          "scrapy_stealth-0.2.1/tests/test_strategies.py"
         ],
-        "value": "https://4ti2.github.io/"
+        "value": "http://proxy1"
+      },
+      {
+        "file_count": 6,
+        "files": [
+          "scrapy_stealth-0.2.1/PKG-INFO",
+          "scrapy_stealth-0.2.1/README.md",
+          "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO",
+          "scrapy_stealth-0.2.1/scrapy_stealth/__init__.py",
+          "scrapy_stealth-0.2.1/tests/test_middleware.py",
+          "scrapy_stealth-0.2.1/tests/test_strategies.py"
+        ],
+        "value": "http://proxy1:8080"
+      },
+      {
+        "file_count": 5,
+        "files": [
+          "scrapy_stealth-0.2.1/PKG-INFO",
+          "scrapy_stealth-0.2.1/README.md",
+          "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO",
+          "scrapy_stealth-0.2.1/tests/test_middleware.py",
+          "scrapy_stealth-0.2.1/tests/test_strategies.py"
+        ],
+        "value": "http://proxy2:8080"
       },
       {
         "file_count": 1,
         "files": [
-          "passagemath_latte_4ti2-10.8.5rc0.dist-info/METADATA"
+          "scrapy_stealth-0.2.1/tests/test_engines.py"
         ],
-        "value": "https://github.com/4ti2/4ti2"
+        "value": "http://proxy:8080"
       },
       {
         "file_count": 1,
         "files": [
-          "passagemath_latte_4ti2-10.8.5rc0.dist-info/METADATA"
+          "scrapy_stealth-0.2.1/tests/test_strategies.py"
         ],
-        "value": "https://github.com/passagemath/passagemath"
+        "value": "http://proxy{i"
       },
       {
         "file_count": 1,
         "files": [
-          "passagemath_latte_4ti2-10.8.5rc0.dist-info/METADATA"
+          "scrapy_stealth-0.2.1/tests/test_strategies.py"
         ],
-        "value": "https://github.com/passagemath/passagemath/issues"
+        "value": "http://user:pass@proxy1:8080"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "scrapy_stealth-0.2.1/PKG-INFO",
+          "scrapy_stealth-0.2.1/README.md",
+          "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+        ],
+        "value": "http://user:pass@proxy2:8080"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "scrapy_stealth-0.2.1/PKG-INFO",
+          "scrapy_stealth-0.2.1/README.md",
+          "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+        ],
+        "value": "http://user:pass@proxy3:8080"
+      },
+      {
+        "file_count": 6,
+        "files": [
+          "scrapy_stealth-0.2.1/PKG-INFO",
+          "scrapy_stealth-0.2.1/README.md",
+          "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO",
+          "scrapy_stealth-0.2.1/tests/test_engines.py",
+          "scrapy_stealth-0.2.1/tests/test_middleware.py",
+          "scrapy_stealth-0.2.1/tests/test_strategies.py"
+        ],
+        "value": "https://example.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "scrapy_stealth-0.2.1/PKG-INFO",
+          "scrapy_stealth-0.2.1/pyproject.toml",
+          "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/fawadss1/scrapy-stealth"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "scrapy_stealth-0.2.1/PKG-INFO",
+          "scrapy_stealth-0.2.1/pyproject.toml",
+          "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/fawadss1/scrapy-stealth/issues"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "scrapy_stealth-0.2.1/PKG-INFO",
+          "scrapy_stealth-0.2.1/README.md",
+          "scrapy_stealth-0.2.1/pyproject.toml",
+          "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/fawadss1/scrapy-stealth/releases"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "scrapy_stealth-0.2.1/PKG-INFO",
+          "scrapy_stealth-0.2.1/README.md",
+          "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/badge/changelog-releases-informational"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "scrapy_stealth-0.2.1/PKG-INFO",
+          "scrapy_stealth-0.2.1/README.md",
+          "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/badge/license-MIT-green"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "scrapy_stealth-0.2.1/PKG-INFO",
+          "scrapy_stealth-0.2.1/README.md",
+          "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/github/v/release/fawadss1/scrapy-stealth"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "scrapy_stealth-0.2.1/PKG-INFO",
+          "scrapy_stealth-0.2.1/README.md",
+          "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/pypi/dm/scrapy-stealth"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "scrapy_stealth-0.2.1/PKG-INFO",
+          "scrapy_stealth-0.2.1/README.md",
+          "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/pypi/pyversions/scrapy-stealth"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "scrapy_stealth-0.2.1/PKG-INFO",
+          "scrapy_stealth-0.2.1/README.md",
+          "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/pypi/v/scrapy-stealth?color=blue"
       },
       {
         "file_count": 1,
         "files": [
-          "passagemath_latte_4ti2-10.8.5rc0.dist-info/METADATA"
+          "scrapy_stealth-0.2.1/tests/test_strategies.py"
         ],
-        "value": "https://github.com/passagemath/passagemath/issues/248"
+        "value": "https://proxy1:8080"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "passagemath_latte_4ti2-10.8.5rc0.dist-info/METADATA"
+          "scrapy_stealth-0.2.1/PKG-INFO",
+          "scrapy_stealth-0.2.1/README.md",
+          "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
         ],
-        "value": "https://github.com/passagemath/passagemath/issues/704"
+        "value": "https://pypi.org/project/scrapy-stealth/"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "passagemath_latte_4ti2-10.8.5rc0.dist-info/METADATA"
+          "scrapy_stealth-0.2.1/PKG-INFO",
+          "scrapy_stealth-0.2.1/README.md",
+          "scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO"
         ],
-        "value": "https://github.com/passagemath/passagemath/releases"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "passagemath_latte_4ti2-10.8.5rc0.dist-info/METADATA"
-        ],
-        "value": "https://github.com/sagemath/sage"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "passagemath_latte_4ti2-10.8.5rc0.dist-info/METADATA"
-        ],
-        "value": "https://github.com/sagemath/sage/issues"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "passagemath_latte_4ti2-10.8.5rc0.dist-info/METADATA"
-        ],
-        "value": "https://groups.google.com/g/sage-devel/c/6HO1HEtL1Fs/m/G002rPGpAAAJ"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "passagemath_latte_4ti2-10.8.5rc0.dist-info/METADATA"
-        ],
-        "value": "https://groups.google.com/g/sage-devel/c/xBzaINHWwUQ"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "passagemath_latte_4ti2-10.8.5rc0.dist-info/METADATA"
-        ],
-        "value": "https://packages.msys2.org/search?t=pkg&q=passagemath"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "passagemath_latte_4ti2-10.8.5rc0.dist-info/METADATA"
-        ],
-        "value": "https://passagemath.discourse.group"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "passagemath_latte_4ti2-10.8.5rc0.dist-info/METADATA"
-        ],
-        "value": "https://passagemath.org/docs/latest"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "passagemath_latte_4ti2-10.8.5rc0.dist-info/METADATA"
-        ],
-        "value": "https://passagemath.org/docs/latest/html/en/index.html"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "passagemath_latte_4ti2-10.8.5rc0.dist-info/METADATA"
-        ],
-        "value": "https://passagemath.org/docs/latest/html/en/reference/interfaces/sage/interfaces/four_ti_2.html"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "passagemath_latte_4ti2-10.8.5rc0.dist-info/METADATA"
-        ],
-        "value": "https://passagemath.org/docs/latest/html/en/reference/interfaces/sage/interfaces/latte.html#module-sage.interfaces.latte"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "passagemath_latte_4ti2-10.8.5rc0.dist-info/METADATA"
-        ],
-        "value": "https://passagemath.org/docs/latest/html/en/reference/spkg/sage/features/four_ti_2.html"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "passagemath_latte_4ti2-10.8.5rc0.dist-info/METADATA"
-        ],
-        "value": "https://passagemath.org/docs/latest/html/en/reference/spkg/sage/features/latte.html"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "passagemath_latte_4ti2-10.8.5rc0.dist-info/METADATA"
-        ],
-        "value": "https://pyodide.org/en/stable/"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sage/interfaces/four_ti_2.py",
-          "sage/interfaces/latte.py"
-        ],
-        "value": "https://www.gnu.org/licenses/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "passagemath_latte_4ti2-10.8.5rc0.dist-info/METADATA"
-        ],
-        "value": "https://www.math.ucdavis.edu/~latte/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "passagemath_latte_4ti2-10.8.5rc0.dist-info/METADATA"
-        ],
-        "value": "https://www.sagemath.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "passagemath_latte_4ti2-10.8.5rc0.dist-info/METADATA"
-        ],
-        "value": "https://www.sagemath.org/"
+        "value": "https://raw.githubusercontent.com/fawadss1/scrapy-stealth/master/docs/static/logo.png"
       }
     ]
   },
-  "package": "passagemath-latte-4ti2",
-  "package_slug": "passagemath-latte-4ti2",
-  "project_url": "https://pypi.org/project/passagemath-latte-4ti2/",
+  "package": "scrapy-stealth",
+  "package_slug": "scrapy-stealth",
+  "project_url": "https://pypi.org/project/scrapy-stealth/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T12:34:02.355139+00:00",
+  "published_at": "2026-04-27T12:39:47.341758+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T12:36:03.611521+00:00",
-  "title": "Personal PyPI Supply Chain Scan: passagemath-latte-4ti2 10.8.5rc0",
-  "version": "10.8.5rc0",
-  "version_slug": "10.8.5rc0",
-  "_metadata_path": "reports/packages/passagemath-latte-4ti2/10.8.5rc0/metadata.json"
+  "scanned_at": "2026-04-27T12:40:27.066390+00:00",
+  "title": "Personal PyPI Supply Chain Scan: scrapy-stealth 0.2.1",
+  "version": "0.2.1",
+  "version_slug": "0.2.1",
+  "_metadata_path": "reports/packages/scrapy-stealth/0.2.1/metadata.json"
 }

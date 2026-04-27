@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal PyPI Supply Chain Scan: scrapy-stealth 0.2.1</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 960px; line-height: 1.55; padding: 0 1rem; color: #1f2933; }
+    a { color: #1f5fbf; }
+    code { background: #f4f4f4; padding: 0.1rem 0.25rem; }
+    h1, h2, h3 { line-height: 1.2; }
+    li { margin: 0.35rem 0; }
+    nav { margin-bottom: 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #e5e9ef; padding: 0.55rem 0.65rem; text-align: left; vertical-align: top; }
+    th { color: #52616f; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; }
+    .scan-groups { margin-top: 1.2rem; }
+    .scan-day { border-top: 1px solid #d8dee4; display: grid; gap: 1rem; grid-template-columns: 10rem minmax(0, 1fr); padding: 1.1rem 0; }
+    .scan-day-date { color: #1f2933; font-weight: 700; }
+    .scan-day-date span { color: #52616f; display: block; font-size: 0.9rem; font-weight: 500; margin-top: 0.2rem; }
+    .scan-day-table { overflow-x: auto; }
+    .risk { display: inline-block; min-width: 4.8rem; text-align: center; border-radius: 999px; padding: 0.15rem 0.45rem; font-size: 0.78rem; font-weight: 700; }
+    .risk-info, .risk-low { background: #dcfce7; color: #166534; }
+    .risk-medium, .risk-unknown { background: #fef3c7; color: #92400e; }
+    .risk-high, .risk-critical { background: #fee2e2; color: #991b1b; }
+    .index-note { color: #52616f; margin-top: -0.35rem; }
+    .version { color: #52616f; margin-left: 0.2rem; white-space: nowrap; }
+    @media (max-width: 720px) {
+      .scan-day { grid-template-columns: 1fr; }
+      th, td { padding: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+<nav><a href='../../../../'>Index</a></nav><h1>Personal PyPI Supply Chain Scan: scrapy-stealth 0.2.1</h1>
+
+<ul>
+<li>Package: scrapy-stealth</li>
+<li>Version: 0.2.1</li>
+<li>Project URL: https://pypi.org/project/scrapy-stealth/</li>
+<li>Distribution: scrapy_stealth-0.2.1.tar.gz</li>
+<li>Package published at: 2026-04-27T12:39:47.341758+00:00</li>
+<li>Scan published at: 2026-04-27T12:40:27.066390+00:00</li>
+<li>Language: en</li>
+<li>Model: gpt-5.5</li>
+<li>Prompt: malicious-supply-chain-review-v2 ([source](../../../../docs/prompts/malicious-supply-chain-review-v2.md))</li>
+<li>Disclaimer: This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</li>
+</ul>
+
+<h2>Deterministic Network Indicators</h2>
+
+<h3>Suspicious Endpoints</h3>
+<ul>
+<li>https://raw.githubusercontent.com/fawadss1/scrapy-stealth/master/docs/static/logo.png (3 files: scrapy_stealth-0.2.1/PKG-INFO, scrapy_stealth-0.2.1/README.md, scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO)</li>
+<li>raw.githubusercontent.com (3 files: scrapy_stealth-0.2.1/PKG-INFO, scrapy_stealth-0.2.1/README.md, scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO)</li>
+</ul>
+
+<h3>Raw Public IPs</h3>
+
+<p>None</p>
+
+<h3>URLs</h3>
+<ul>
+<li>http://explicit:9999 (1 files: scrapy_stealth-0.2.1/tests/test_middleware.py)</li>
+<li>http://proxy1 (1 files: scrapy_stealth-0.2.1/tests/test_strategies.py)</li>
+<li>http://proxy1:8080 (6 files: scrapy_stealth-0.2.1/PKG-INFO, scrapy_stealth-0.2.1/README.md, scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO, scrapy_stealth-0.2.1/scrapy_stealth/__init__.py, scrapy_stealth-0.2.1/tests/test_middleware.py)</li>
+<li>http://proxy2:8080 (5 files: scrapy_stealth-0.2.1/PKG-INFO, scrapy_stealth-0.2.1/README.md, scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO, scrapy_stealth-0.2.1/tests/test_middleware.py, scrapy_stealth-0.2.1/tests/test_strategies.py)</li>
+<li>http://proxy:8080 (1 files: scrapy_stealth-0.2.1/tests/test_engines.py)</li>
+<li>http://proxy{i (1 files: scrapy_stealth-0.2.1/tests/test_strategies.py)</li>
+<li>http://user:pass@proxy1:8080 (1 files: scrapy_stealth-0.2.1/tests/test_strategies.py)</li>
+<li>http://user:pass@proxy2:8080 (3 files: scrapy_stealth-0.2.1/PKG-INFO, scrapy_stealth-0.2.1/README.md, scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO)</li>
+<li>http://user:pass@proxy3:8080 (3 files: scrapy_stealth-0.2.1/PKG-INFO, scrapy_stealth-0.2.1/README.md, scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO)</li>
+<li>https://example.com (6 files: scrapy_stealth-0.2.1/PKG-INFO, scrapy_stealth-0.2.1/README.md, scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO, scrapy_stealth-0.2.1/tests/test_engines.py, scrapy_stealth-0.2.1/tests/test_middleware.py)</li>
+<li>https://github.com/fawadss1/scrapy-stealth (3 files: scrapy_stealth-0.2.1/PKG-INFO, scrapy_stealth-0.2.1/pyproject.toml, scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO)</li>
+<li>https://github.com/fawadss1/scrapy-stealth/issues (3 files: scrapy_stealth-0.2.1/PKG-INFO, scrapy_stealth-0.2.1/pyproject.toml, scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO)</li>
+<li>https://github.com/fawadss1/scrapy-stealth/releases (4 files: scrapy_stealth-0.2.1/PKG-INFO, scrapy_stealth-0.2.1/README.md, scrapy_stealth-0.2.1/pyproject.toml, scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO)</li>
+<li>https://img.shields.io/badge/changelog-releases-informational (3 files: scrapy_stealth-0.2.1/PKG-INFO, scrapy_stealth-0.2.1/README.md, scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO)</li>
+<li>https://img.shields.io/badge/license-MIT-green (3 files: scrapy_stealth-0.2.1/PKG-INFO, scrapy_stealth-0.2.1/README.md, scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO)</li>
+<li>https://img.shields.io/github/v/release/fawadss1/scrapy-stealth (3 files: scrapy_stealth-0.2.1/PKG-INFO, scrapy_stealth-0.2.1/README.md, scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO)</li>
+<li>https://img.shields.io/pypi/dm/scrapy-stealth (3 files: scrapy_stealth-0.2.1/PKG-INFO, scrapy_stealth-0.2.1/README.md, scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO)</li>
+<li>https://img.shields.io/pypi/pyversions/scrapy-stealth (3 files: scrapy_stealth-0.2.1/PKG-INFO, scrapy_stealth-0.2.1/README.md, scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO)</li>
+<li>https://img.shields.io/pypi/v/scrapy-stealth?color=blue (3 files: scrapy_stealth-0.2.1/PKG-INFO, scrapy_stealth-0.2.1/README.md, scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO)</li>
+<li>https://proxy1:8080 (1 files: scrapy_stealth-0.2.1/tests/test_strategies.py)</li>
+<li>https://pypi.org/project/scrapy-stealth/ (3 files: scrapy_stealth-0.2.1/PKG-INFO, scrapy_stealth-0.2.1/README.md, scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO)</li>
+<li>https://raw.githubusercontent.com/fawadss1/scrapy-stealth/master/docs/static/logo.png (3 files: scrapy_stealth-0.2.1/PKG-INFO, scrapy_stealth-0.2.1/README.md, scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO)</li>
+</ul>
+
+<h3>Domains</h3>
+<ul>
+<li>explicit (1 files: scrapy_stealth-0.2.1/tests/test_middleware.py)</li>
+<li>github.com (4 files: scrapy_stealth-0.2.1/PKG-INFO, scrapy_stealth-0.2.1/README.md, scrapy_stealth-0.2.1/pyproject.toml, scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO)</li>
+<li>img.shields.io (3 files: scrapy_stealth-0.2.1/PKG-INFO, scrapy_stealth-0.2.1/README.md, scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO)</li>
+<li>proxy (1 files: scrapy_stealth-0.2.1/tests/test_engines.py)</li>
+<li>proxy1 (6 files: scrapy_stealth-0.2.1/PKG-INFO, scrapy_stealth-0.2.1/README.md, scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO, scrapy_stealth-0.2.1/scrapy_stealth/__init__.py, scrapy_stealth-0.2.1/tests/test_middleware.py)</li>
+<li>proxy2 (5 files: scrapy_stealth-0.2.1/PKG-INFO, scrapy_stealth-0.2.1/README.md, scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO, scrapy_stealth-0.2.1/tests/test_middleware.py, scrapy_stealth-0.2.1/tests/test_strategies.py)</li>
+<li>proxy3 (3 files: scrapy_stealth-0.2.1/PKG-INFO, scrapy_stealth-0.2.1/README.md, scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO)</li>
+<li>proxy{i (1 files: scrapy_stealth-0.2.1/tests/test_strategies.py)</li>
+<li>pypi.org (3 files: scrapy_stealth-0.2.1/PKG-INFO, scrapy_stealth-0.2.1/README.md, scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO)</li>
+<li>raw.githubusercontent.com (3 files: scrapy_stealth-0.2.1/PKG-INFO, scrapy_stealth-0.2.1/README.md, scrapy_stealth-0.2.1/scrapy_stealth.egg-info/PKG-INFO)</li>
+</ul>
+
+<h2>Verdict</h2>
+
+<p>No confirmed malicious supply-chain compromise indicators — overall risk: info.</p>
+
+<h2>Malicious Supply-Chain Indicators</h2>
+
+<p>No confirmed malicious supply-chain indicators.</p>
+
+<h2>Automatic Execution Paths</h2>
+
+<ul>
+<li>pyproject.toml uses the standard setuptools.build_meta backend only; no separate setup.py, custom PEP 517 build hook, or install-time execution evidence was identified.</li>
+<li>No .pth, sitecustomize.py, or usercustomize.py files are shown in the provided manifest/text.</li>
+<li>No entry_points or install/interpreter-start automatic execution path was identified.</li>
+<li>scrapy_stealth/__init__.py imports and exports package symbols, but there is no evidence of malicious import-time side effects such as credential collection, exfiltration, or persistence.</li>
+<li>StealthDownloaderMiddleware appears to require explicit registration in Scrapy settings by the user; it is not an install-time execution path.</li>
+</ul>
+
+<h2>Theft / Exfiltration / Persistence / Lateral Movement / Stealth</h2>
+
+<ul>
+<li>Broad credential discovery: not identified.</li>
+<li>Collection of .env, SSH keys, cloud/CI tokens, wallets, kubeconfig, or similar sensitive files: not identified.</li>
+<li>Archive creation/staging: not identified. The pre-scan gzip matches are HTTP Accept-Encoding header strings, not evidence of file compression or staging.</li>
+<li>External upload/webhook/C2: not identified. The raw.githubusercontent.com URL appears only as a README/PKG-INFO logo image link and is not tied to code download, execution, or exfiltration behavior.</li>
+<li>Persistence: no evidence of systemd units, cron jobs, launch agents, shell profile modification, or similar mechanisms.</li>
+<li>Kubernetes/CI/cloud lateral movement: no evidence of token access, metadata service access, Docker socket use, or GitHub Actions manipulation.</li>
+<li>Obfuscation/staged loader: no evidence of eval/exec, base64/zlib/marshal/pickle loaders, or downloader stubs.</li>
+</ul>
+
+<h2>Distribution Integrity Anomalies</h2>
+
+<ul>
+<li>Based on the provided SOURCES.txt, the artifact contents appear to consist of Python package source, tests, and standard egg-info metadata; no hidden payload or unexplained native binary evidence was identified.</li>
+<li>The package declares a single dependency, wreq&gt;=0.11.2; the provided input is insufficient to classify it as a malicious dependency insertion.</li>
+<li>No evidence of typosquatting, wheel/sdist mismatch, or unexpected executable files present only in the PyPI artifact was identified from the provided content.</li>
+</ul>
+
+<h2>Additional Verification Needed</h2>
+
+<ul>
+<li>This review is limited to the provided extracted sdist text. A separate comparison between the GitHub source and the PyPI sdist is needed to rule out source/artifact divergence.</li>
+<li>The dependency wreq&gt;=0.11.2 was not included in this input and should be reviewed separately for supply-chain risk.</li>
+<li>If a wheel artifact was also published, it should be compared against the sdist for mismatch or extra payloads.</li>
+</ul>
+
+<p>---</p>
+
+<p>Prompt source: docs/prompts/malicious-supply-chain-review-v2.md</p>
+
+<p>This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</p>
+
+</body>
+</html>
