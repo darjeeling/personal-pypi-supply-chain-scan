@@ -1,6 +1,366 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "h2ogpte-1.7.1-py3-none-any.whl",
+    "finding_count": 586,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "h2ogpte-1.7.1.dist-info/METADATA"
+          ],
+          "value": "docs.h2o.ai"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "h2ogpte/rest_async/api_client.py",
+            "h2ogpte/rest_sync/api_client.py"
+          ],
+          "value": "files.items"
+        },
+        {
+          "file_count": 434,
+          "files": [
+            "h2ogpte/rest_async/__init__.py",
+            "h2ogpte/rest_async/api/agents_api.py",
+            "h2ogpte/rest_async/api/api_keys_api.py",
+            "h2ogpte/rest_async/api/chat_api.py",
+            "h2ogpte/rest_async/api/configurations_api.py",
+            "h2ogpte/rest_async/api/document_ingestion_api.py",
+            "h2ogpte/rest_async/api/documents_api.py",
+            "h2ogpte/rest_async/api/extractors_api.py"
+          ],
+          "value": "genai.h2o.ai"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "h2ogpte-1.7.1.dist-info/METADATA",
+            "h2ogpte/h2ogpte.py",
+            "h2ogpte/h2ogpte_async.py",
+            "h2ogpte/rest_sync/rest.py"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "h2ogpte/h2ogpte.py",
+            "h2ogpte/h2ogpte_async.py"
+          ],
+          "value": "h2oai.atlassian.net"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "h2ogpte-1.7.1.dist-info/METADATA"
+          ],
+          "value": "h2oai.github.io"
+        },
+        {
+          "file_count": 436,
+          "files": [
+            "h2ogpte-1.7.1.dist-info/METADATA",
+            "h2ogpte/cli/commands/command_handlers/rag.py",
+            "h2ogpte/rest_async/__init__.py",
+            "h2ogpte/rest_async/api/agents_api.py",
+            "h2ogpte/rest_async/api/api_keys_api.py",
+            "h2ogpte/rest_async/api/chat_api.py",
+            "h2ogpte/rest_async/api/configurations_api.py",
+            "h2ogpte/rest_async/api/document_ingestion_api.py"
+          ],
+          "value": "h2ogpte.genai.h2o.ai"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "h2ogpte/h2ogpte_async.py",
+            "h2ogpte/h2ogpte_sync_base.py"
+          ],
+          "value": "h2ogpte.h2o.ai"
+        },
+        {
+          "file_count": 434,
+          "files": [
+            "h2ogpte/rest_async/__init__.py",
+            "h2ogpte/rest_async/api/agents_api.py",
+            "h2ogpte/rest_async/api/api_keys_api.py",
+            "h2ogpte/rest_async/api/chat_api.py",
+            "h2ogpte/rest_async/api/configurations_api.py",
+            "h2ogpte/rest_async/api/document_ingestion_api.py",
+            "h2ogpte/rest_async/api/documents_api.py",
+            "h2ogpte/rest_async/api/extractors_api.py"
+          ],
+          "value": "openapi-generator.tech"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "h2ogpte-1.7.1.dist-info/METADATA"
+          ],
+          "value": "pypi.org"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "h2ogpte/connectors.py",
+            "h2ogpte/rest_async/models/s3_credentials.py",
+            "h2ogpte/rest_sync/models/s3_credentials.py"
+          ],
+          "value": "qumulo.example.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "h2ogpte/rest_sync/rest.py"
+          ],
+          "value": "urllib3.readthedocs.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "h2ogpte/cli/commands/command_handlers/agent.py",
+            "h2ogpte/cli/commands/command_handlers/chat.py",
+            "h2ogpte/cli/commands/command_handlers/research_agent.py"
+          ],
+          "value": "your-h2ogpte-endpoint.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "h2ogpte/shared_client.py"
+          ],
+          "value": "your-h2ogpte-server.com"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "h2ogpte/rest_sync/rest.py"
+          ],
+          "value": "http://urllib3.readthedocs.io/en/latest/advanced-usage.html"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "h2ogpte-1.7.1.dist-info/METADATA"
+          ],
+          "value": "https://docs.h2o.ai/enterprise-h2ogpte/rest-api#openai-compatible-rest-api"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "h2ogpte-1.7.1.dist-info/METADATA"
+          ],
+          "value": "https://docs.h2o.ai/h2ogpte-docs/"
+        },
+        {
+          "file_count": 434,
+          "files": [
+            "h2ogpte/rest_async/__init__.py",
+            "h2ogpte/rest_async/api/agents_api.py",
+            "h2ogpte/rest_async/api/api_keys_api.py",
+            "h2ogpte/rest_async/api/chat_api.py",
+            "h2ogpte/rest_async/api/configurations_api.py",
+            "h2ogpte/rest_async/api/document_ingestion_api.py",
+            "h2ogpte/rest_async/api/documents_api.py",
+            "h2ogpte/rest_async/api/extractors_api.py"
+          ],
+          "value": "https://genai.h2o.ai/appstore"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "h2ogpte-1.7.1.dist-info/METADATA"
+          ],
+          "value": "https://github.com/h2oai/enterprise-h2ogpte/blob/main/rag_benchmark/results/test_client_e2e.md"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "h2ogpte-1.7.1.dist-info/METADATA"
+          ],
+          "value": "https://github.com/h2oai/enterprise-h2ogpte/tree/main/rag_benchmark"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "h2ogpte/h2ogpte.py",
+            "h2ogpte/h2ogpte_async.py"
+          ],
+          "value": "https://github.com/h2oai/h2ogpt"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "h2ogpte-1.7.1.dist-info/METADATA"
+          ],
+          "value": "https://github.com/h2oai/h2ogpte"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "h2ogpte-1.7.1.dist-info/METADATA"
+          ],
+          "value": "https://github.com/h2oai/h2ogpte/issues"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "h2ogpte/rest_sync/rest.py"
+          ],
+          "value": "https://github.com/shazow/urllib3/blob/f9409436f83aeb79fbaf090181cd81b784f1b8ce/urllib3/connectionpool.py#L680"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "h2ogpte/rest_sync/rest.py"
+          ],
+          "value": "https://github.com/shazow/urllib3/blob/f9409436f83aeb79fbaf090181cd81b784f1b8ce/urllib3/poolmanager.py#L75"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "h2ogpte/h2ogpte.py",
+            "h2ogpte/h2ogpte_async.py"
+          ],
+          "value": "https://h2oai.atlassian.net/wiki"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "h2ogpte-1.7.1.dist-info/METADATA"
+          ],
+          "value": "https://h2oai.github.io/h2ogpte/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "h2ogpte-1.7.1.dist-info/METADATA",
+            "h2ogpte/cli/commands/command_handlers/rag.py"
+          ],
+          "value": "https://h2ogpte.genai.h2o.ai"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "h2ogpte/rest_async/configuration.py",
+            "h2ogpte/rest_sync/configuration.py"
+          ],
+          "value": "https://h2ogpte.genai.h2o.ai/api/v1"
+        },
+        {
+          "file_count": 434,
+          "files": [
+            "h2ogpte/rest_async/__init__.py",
+            "h2ogpte/rest_async/api/agents_api.py",
+            "h2ogpte/rest_async/api/api_keys_api.py",
+            "h2ogpte/rest_async/api/chat_api.py",
+            "h2ogpte/rest_async/api/configurations_api.py",
+            "h2ogpte/rest_async/api/document_ingestion_api.py",
+            "h2ogpte/rest_async/api/documents_api.py",
+            "h2ogpte/rest_async/api/extractors_api.py"
+          ],
+          "value": "https://h2ogpte.genai.h2o.ai/api/v1/collections"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "h2ogpte-1.7.1.dist-info/METADATA"
+          ],
+          "value": "https://h2ogpte.genai.h2o.ai/openai_api/v1"
+        },
+        {
+          "file_count": 434,
+          "files": [
+            "h2ogpte/rest_async/__init__.py",
+            "h2ogpte/rest_async/api/agents_api.py",
+            "h2ogpte/rest_async/api/api_keys_api.py",
+            "h2ogpte/rest_async/api/chat_api.py",
+            "h2ogpte/rest_async/api/configurations_api.py",
+            "h2ogpte/rest_async/api/document_ingestion_api.py",
+            "h2ogpte/rest_async/api/documents_api.py",
+            "h2ogpte/rest_async/api/extractors_api.py"
+          ],
+          "value": "https://h2ogpte.genai.h2o.ai/swagger-ui/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "h2ogpte/h2ogpte_async.py",
+            "h2ogpte/h2ogpte_sync_base.py"
+          ],
+          "value": "https://h2ogpte.h2o.ai"
+        },
+        {
+          "file_count": 434,
+          "files": [
+            "h2ogpte/rest_async/__init__.py",
+            "h2ogpte/rest_async/api/agents_api.py",
+            "h2ogpte/rest_async/api/api_keys_api.py",
+            "h2ogpte/rest_async/api/chat_api.py",
+            "h2ogpte/rest_async/api/configurations_api.py",
+            "h2ogpte/rest_async/api/document_ingestion_api.py",
+            "h2ogpte/rest_async/api/documents_api.py",
+            "h2ogpte/rest_async/api/extractors_api.py"
+          ],
+          "value": "https://openapi-generator.tech"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "h2ogpte-1.7.1.dist-info/METADATA"
+          ],
+          "value": "https://pypi.org/project/h2ogpte/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "h2ogpte/connectors.py",
+            "h2ogpte/rest_async/models/s3_credentials.py",
+            "h2ogpte/rest_sync/models/s3_credentials.py"
+          ],
+          "value": "https://qumulo.example.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "h2ogpte/cli/commands/command_handlers/agent.py",
+            "h2ogpte/cli/commands/command_handlers/chat.py",
+            "h2ogpte/cli/commands/command_handlers/research_agent.py"
+          ],
+          "value": "https://your-h2ogpte-endpoint.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "h2ogpte/shared_client.py"
+          ],
+          "value": "https://your-h2ogpte-server.com"
+        }
+      ]
+    },
+    "package": "h2ogpte",
+    "package_slug": "h2ogpte",
+    "project_url": "https://pypi.org/project/h2ogpte/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T18:42:58.242587+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T18:43:30.258741+00:00",
+    "title": "Personal PyPI Supply Chain Scan: h2ogpte 1.7.1",
+    "version": "1.7.1",
+    "version_slug": "1.7.1",
+    "_metadata_path": "reports/packages/h2ogpte/1.7.1/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "vision_agents_plugins_turbopuffer-0.5.5-py3-none-any.whl",
     "finding_count": 3,
     "model": "gpt-5.5",
