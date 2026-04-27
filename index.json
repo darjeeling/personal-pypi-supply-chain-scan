@@ -1,6 +1,59 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "rds_proxy_password_rotation-0.6.348.tar.gz",
+    "finding_count": 1,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 3,
+          "files": [
+            "rds_proxy_password_rotation-0.6.348/PKG-INFO",
+            "rds_proxy_password_rotation-0.6.348/setup.cfg",
+            "rds_proxy_password_rotation-0.6.348/src/rds_proxy_password_rotation.egg-info/PKG-INFO"
+          ],
+          "value": "github.com"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 3,
+          "files": [
+            "rds_proxy_password_rotation-0.6.348/PKG-INFO",
+            "rds_proxy_password_rotation-0.6.348/setup.cfg",
+            "rds_proxy_password_rotation-0.6.348/src/rds_proxy_password_rotation.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/Hapag-Lloyd/rds-proxy-password-rotation"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "rds_proxy_password_rotation-0.6.348/PKG-INFO",
+            "rds_proxy_password_rotation-0.6.348/setup.cfg",
+            "rds_proxy_password_rotation-0.6.348/src/rds_proxy_password_rotation.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/Hapag-Lloyd/rds-proxy-password-rotation/issues"
+        }
+      ]
+    },
+    "package": "rds-proxy-password-rotation",
+    "package_slug": "rds-proxy-password-rotation",
+    "project_url": "https://pypi.org/project/rds-proxy-password-rotation/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T21:33:47.103065+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T21:34:24.438033+00:00",
+    "title": "Personal PyPI Supply Chain Scan: rds-proxy-password-rotation 0.6.348",
+    "version": "0.6.348",
+    "version_slug": "0.6.348",
+    "_metadata_path": "reports/packages/rds-proxy-password-rotation/0.6.348/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "plain_admin-0.79.0.tar.gz",
     "finding_count": 21,
     "model": "gpt-5.5",
