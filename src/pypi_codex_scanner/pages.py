@@ -64,32 +64,66 @@ def _load_report_metadata(reports_dir: Path) -> list[dict]:
 
 
 def _write_index(site_dir: Path, reports: list[dict]) -> None:
-    items = []
-    for report in reports[:200]:
-        ko_href = f"packages/{report['package_slug']}/{report['version_slug']}/ko/"
-        en_href = f"packages/{report['package_slug']}/{report['version_slug']}/en/"
-        risk = report.get("risk") or "unknown"
-        scanned_at = str(report.get("scanned_at") or "unknown")
-        items.append(
-            "<li class='scan-card'>"
-            f"<div><span class='risk risk-{html.escape(risk)}'>{html.escape(risk.upper())}</span> "
-            f"<strong>{html.escape(report['package'])} {html.escape(report['version'])}</strong> "
-            f"<span class='scan-inline'>Scanned: <time>{html.escape(scanned_at)}</time></span> "
-            f"<a href='{ko_href}'>ko</a> <a href='{en_href}'>en</a></div>"
-            f"<div class='dates'><span>Package published:</span> <time>{html.escape(str(report.get('published_at') or 'unknown'))}</time></div>"
-            f"<div class='dates'><span>Scan published:</span> <time>{html.escape(scanned_at)}</time></div>"
-            "</li>"
-        )
+    items = _index_groups(reports[:200])
     body = (
         "<h1>Personal PyPI Supply Chain Scan</h1>"
-        "<p class='index-note'>Recent scans are ordered by scan publish time.</p>"
+        "<p class='index-note'>Recent scans are grouped by scan date and ordered by scan publish time.</p>"
         "<p>"
         + html.escape(_disclaimer(reports))
-        + "</p><ul class='scan-list'>"
-        + "\n".join(items)
-        + "</ul>"
+        + "</p><div class='scan-groups'>"
+        + items
+        + "</div>"
     )
     (site_dir / "index.html").write_text(_html_page("Personal PyPI Supply Chain Scan", body), encoding="utf-8")
+
+
+def _index_groups(reports: list[dict]) -> str:
+    groups: list[tuple[str, list[dict]]] = []
+    for report in reports:
+        scanned_at = str(report.get("scanned_at") or "unknown")
+        scan_date = scanned_at.split("T", 1)[0] if scanned_at != "unknown" else "unknown"
+        if not groups or groups[-1][0] != scan_date:
+            groups.append((scan_date, []))
+        groups[-1][1].append(report)
+
+    sections = []
+    for scan_date, rows in groups:
+        row_html = "\n".join(_index_row(report) for report in rows)
+        sections.append(
+            "<section class='scan-day'>"
+            f"<div class='scan-day-date'><time>{html.escape(scan_date)}</time><span>{len(rows)} scans</span></div>"
+            "<div class='scan-day-table'>"
+            "<table>"
+            "<thead><tr><th>Scan Time</th><th>Risk</th><th>Package</th><th>Package Published</th><th>Report</th></tr></thead>"
+            f"<tbody>{row_html}</tbody>"
+            "</table>"
+            "</div>"
+            "</section>"
+        )
+    return "\n".join(sections)
+
+
+def _index_row(report: dict) -> str:
+    ko_href = f"packages/{report['package_slug']}/{report['version_slug']}/ko/"
+    en_href = f"packages/{report['package_slug']}/{report['version_slug']}/en/"
+    risk = str(report.get("risk") or "unknown").lower()
+    scanned_at = str(report.get("scanned_at") or "unknown")
+    published_at = str(report.get("published_at") or "unknown")
+    return (
+        "<tr>"
+        f"<td><time>{html.escape(_time_part(scanned_at))}</time></td>"
+        f"<td><span class='risk risk-{html.escape(risk)}'>{html.escape(risk.upper())}</span></td>"
+        f"<td><strong>{html.escape(report['package'])}</strong> <span class='version'>{html.escape(report['version'])}</span></td>"
+        f"<td><time>{html.escape(published_at)}</time></td>"
+        f"<td><a href='{ko_href}'>ko</a> <a href='{en_href}'>en</a></td>"
+        "</tr>"
+    )
+
+
+def _time_part(value: str) -> str:
+    if "T" not in value:
+        return value
+    return value.split("T", 1)[1].split(".", 1)[0]
 
 
 def _write_report_pages(site_dir: Path, reports_dir: Path, report: dict) -> None:
@@ -177,16 +211,24 @@ def _html_page(title: str, body: str) -> str:
     h1, h2, h3 {{ line-height: 1.2; }}
     li {{ margin: 0.35rem 0; }}
     nav {{ margin-bottom: 1rem; }}
-    .scan-list {{ list-style: none; padding: 0; }}
-    .scan-card {{ border: 1px solid #d8dee4; border-radius: 6px; padding: 0.85rem 1rem; margin: 0.75rem 0; }}
-    .risk {{ display: inline-block; min-width: 4.8rem; text-align: center; border-radius: 999px; padding: 0.15rem 0.45rem; margin-right: 0.45rem; font-size: 0.78rem; font-weight: 700; }}
+    table {{ border-collapse: collapse; width: 100%; }}
+    th, td {{ border-bottom: 1px solid #e5e9ef; padding: 0.55rem 0.65rem; text-align: left; vertical-align: top; }}
+    th {{ color: #52616f; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; }}
+    .scan-groups {{ margin-top: 1.2rem; }}
+    .scan-day {{ border-top: 1px solid #d8dee4; display: grid; gap: 1rem; grid-template-columns: 10rem minmax(0, 1fr); padding: 1.1rem 0; }}
+    .scan-day-date {{ color: #1f2933; font-weight: 700; }}
+    .scan-day-date span {{ color: #52616f; display: block; font-size: 0.9rem; font-weight: 500; margin-top: 0.2rem; }}
+    .scan-day-table {{ overflow-x: auto; }}
+    .risk {{ display: inline-block; min-width: 4.8rem; text-align: center; border-radius: 999px; padding: 0.15rem 0.45rem; font-size: 0.78rem; font-weight: 700; }}
     .risk-info, .risk-low {{ background: #dcfce7; color: #166534; }}
     .risk-medium, .risk-unknown {{ background: #fef3c7; color: #92400e; }}
     .risk-high, .risk-critical {{ background: #fee2e2; color: #991b1b; }}
-    .dates {{ color: #52616f; font-size: 0.92rem; margin-top: 0.2rem; }}
-    .dates span {{ display: inline-block; min-width: 9.5rem; font-weight: 600; color: #39434d; }}
-    .scan-inline {{ color: #39434d; font-size: 0.9rem; margin-left: 0.65rem; margin-right: 0.4rem; white-space: nowrap; }}
     .index-note {{ color: #52616f; margin-top: -0.35rem; }}
+    .version {{ color: #52616f; margin-left: 0.2rem; white-space: nowrap; }}
+    @media (max-width: 720px) {{
+      .scan-day {{ grid-template-columns: 1fr; }}
+      th, td {{ padding: 0.5rem; }}
+    }}
   </style>
 </head>
 <body>
