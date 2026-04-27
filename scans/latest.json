@@ -1,191 +1,147 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "paygent-0.1.5.tar.gz",
-  "finding_count": 7,
+  "distribution": "tutor_contrib_h5p-21.0.0.tar.gz",
+  "finding_count": 5,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "paygent-0.1.5/tests/test_api_client.py"
+          "tutor_contrib_h5p-21.0.0/PKG-INFO",
+          "tutor_contrib_h5p-21.0.0/README.rst"
         ],
-        "value": "api.example.com"
+        "value": "docs.tutor.edly.io"
       },
       {
-        "file_count": 5,
+        "file_count": 3,
         "files": [
-          "paygent-0.1.5/PKG-INFO",
-          "paygent-0.1.5/README.md",
-          "paygent-0.1.5/src/paygent/api_client.py",
-          "paygent-0.1.5/src/paygent/core.py",
-          "paygent-0.1.5/tests/test_api_client.py"
-        ],
-        "value": "api.paygent.dev"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "paygent-0.1.5/tests/test_core_backend_wiring.py"
-        ],
-        "value": "custom"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "paygent-0.1.5/CONTRIBUTING.md"
+          "tutor_contrib_h5p-21.0.0/PKG-INFO",
+          "tutor_contrib_h5p-21.0.0/README.rst",
+          "tutor_contrib_h5p-21.0.0/pyproject.toml"
         ],
         "value": "github.com"
       },
       {
         "file_count": 2,
         "files": [
-          "paygent-0.1.5/PKG-INFO",
-          "paygent-0.1.5/pyproject.toml"
+          "tutor_contrib_h5p-21.0.0/PKG-INFO",
+          "tutor_contrib_h5p-21.0.0/README.rst"
         ],
-        "value": "paygent.to"
+        "value": "h5p.org"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "paygent-0.1.5/CONTRIBUTING.md"
+          "tutor_contrib_h5p-21.0.0/PKG-INFO",
+          "tutor_contrib_h5p-21.0.0/README.rst"
         ],
-        "value": "pypi.org"
+        "value": "mybucket.s3.us-east-1.amazonaws.com"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "paygent-0.1.5/tests/test_core_backend_wiring.py"
+          "tutor_contrib_h5p-21.0.0/PKG-INFO",
+          "tutor_contrib_h5p-21.0.0/README.rst"
         ],
-        "value": "staging"
+        "value": "openedx.org"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "paygent-0.1.5/CONTRIBUTING.md"
+          "tutor_contrib_h5p-21.0.0/PKG-INFO",
+          "tutor_contrib_h5p-21.0.0/README.rst"
         ],
-        "value": "test.pypi.org"
+        "value": "s3.us-east-1.amazonaws.com"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "paygent-0.1.5/tests/test_core_backend_wiring.py"
+          "tutor_contrib_h5p-21.0.0/PKG-INFO",
+          "tutor_contrib_h5p-21.0.0/README.rst"
         ],
-        "value": "http://custom:7000"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "paygent-0.1.5/tests/test_core_backend_wiring.py"
-        ],
-        "value": "http://staging:9000"
+        "value": "https://docs.tutor.edly.io"
       },
       {
         "file_count": 2,
         "files": [
-          "paygent-0.1.5/PKG-INFO",
-          "paygent-0.1.5/README.md"
+          "tutor_contrib_h5p-21.0.0/PKG-INFO",
+          "tutor_contrib_h5p-21.0.0/pyproject.toml"
         ],
-        "value": "https://"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "paygent-0.1.5/tests/test_api_client.py"
-        ],
-        "value": "https://api.example.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "paygent-0.1.5/tests/test_api_client.py"
-        ],
-        "value": "https://api.example.com/"
-      },
-      {
-        "file_count": 5,
-        "files": [
-          "paygent-0.1.5/PKG-INFO",
-          "paygent-0.1.5/README.md",
-          "paygent-0.1.5/src/paygent/api_client.py",
-          "paygent-0.1.5/src/paygent/core.py",
-          "paygent-0.1.5/tests/test_api_client.py"
-        ],
-        "value": "https://api.paygent.dev"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "paygent-0.1.5/CONTRIBUTING.md"
-        ],
-        "value": "https://github.com/paygent/paygent.git"
+        "value": "https://github.com/aulasneo/tutor-contrib-h5p"
       },
       {
         "file_count": 2,
         "files": [
-          "paygent-0.1.5/PKG-INFO",
-          "paygent-0.1.5/pyproject.toml"
+          "tutor_contrib_h5p-21.0.0/PKG-INFO",
+          "tutor_contrib_h5p-21.0.0/pyproject.toml"
         ],
-        "value": "https://paygent.to/"
+        "value": "https://github.com/aulasneo/tutor-contrib-h5p/issues"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "paygent-0.1.5/CONTRIBUTING.md"
+          "tutor_contrib_h5p-21.0.0/PKG-INFO",
+          "tutor_contrib_h5p-21.0.0/README.rst"
         ],
-        "value": "https://pypi.org"
+        "value": "https://github.com/cleura/tutor-contrib-s3"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "paygent-0.1.5/CONTRIBUTING.md"
+          "tutor_contrib_h5p-21.0.0/PKG-INFO",
+          "tutor_contrib_h5p-21.0.0/README.rst"
         ],
-        "value": "https://pypi.org/project/paygent/`"
+        "value": "https://github.com/edly-io/h5pxblock"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "paygent-0.1.5/CONTRIBUTING.md"
+          "tutor_contrib_h5p-21.0.0/PKG-INFO",
+          "tutor_contrib_h5p-21.0.0/README.rst"
         ],
-        "value": "https://pypi.org/simple/"
+        "value": "https://h5p.org"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "paygent-0.1.5/CONTRIBUTING.md"
+          "tutor_contrib_h5p-21.0.0/PKG-INFO",
+          "tutor_contrib_h5p-21.0.0/README.rst"
         ],
-        "value": "https://test.pypi.org"
+        "value": "https://mybucket.s3.us-east-1.amazonaws.com/h5pxblockmedia/course/file.h5p"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "paygent-0.1.5/CONTRIBUTING.md"
+          "tutor_contrib_h5p-21.0.0/PKG-INFO",
+          "tutor_contrib_h5p-21.0.0/README.rst"
         ],
-        "value": "https://test.pypi.org/legacy/"
+        "value": "https://openedx.org"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "paygent-0.1.5/CONTRIBUTING.md"
+          "tutor_contrib_h5p-21.0.0/PKG-INFO",
+          "tutor_contrib_h5p-21.0.0/README.rst"
         ],
-        "value": "https://test.pypi.org/simple/"
+        "value": "https://s3.us-east-1.amazonaws.com/mybucket/h5pxblockmedia/course/file.h5p"
       }
     ]
   },
-  "package": "paygent",
-  "package_slug": "paygent",
-  "project_url": "https://pypi.org/project/paygent/",
+  "package": "tutor-contrib-h5p",
+  "package_slug": "tutor-contrib-h5p",
+  "project_url": "https://pypi.org/project/tutor-contrib-h5p/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T16:10:27.005093+00:00",
+  "published_at": "2026-04-27T16:14:59.229566+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T16:11:00.152864+00:00",
-  "title": "Personal PyPI Supply Chain Scan: paygent 0.1.5",
-  "version": "0.1.5",
-  "version_slug": "0.1.5",
-  "_metadata_path": "reports/packages/paygent/0.1.5/metadata.json"
+  "scanned_at": "2026-04-27T16:15:16.811458+00:00",
+  "title": "Personal PyPI Supply Chain Scan: tutor-contrib-h5p 21.0.0",
+  "version": "21.0.0",
+  "version_slug": "21.0.0",
+  "_metadata_path": "reports/packages/tutor-contrib-h5p/21.0.0/metadata.json"
 }

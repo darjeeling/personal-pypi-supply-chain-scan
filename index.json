@@ -1,6 +1,153 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "tutor_contrib_h5p-21.0.0.tar.gz",
+    "finding_count": 5,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 2,
+          "files": [
+            "tutor_contrib_h5p-21.0.0/PKG-INFO",
+            "tutor_contrib_h5p-21.0.0/README.rst"
+          ],
+          "value": "docs.tutor.edly.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "tutor_contrib_h5p-21.0.0/PKG-INFO",
+            "tutor_contrib_h5p-21.0.0/README.rst",
+            "tutor_contrib_h5p-21.0.0/pyproject.toml"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "tutor_contrib_h5p-21.0.0/PKG-INFO",
+            "tutor_contrib_h5p-21.0.0/README.rst"
+          ],
+          "value": "h5p.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "tutor_contrib_h5p-21.0.0/PKG-INFO",
+            "tutor_contrib_h5p-21.0.0/README.rst"
+          ],
+          "value": "mybucket.s3.us-east-1.amazonaws.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "tutor_contrib_h5p-21.0.0/PKG-INFO",
+            "tutor_contrib_h5p-21.0.0/README.rst"
+          ],
+          "value": "openedx.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "tutor_contrib_h5p-21.0.0/PKG-INFO",
+            "tutor_contrib_h5p-21.0.0/README.rst"
+          ],
+          "value": "s3.us-east-1.amazonaws.com"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 2,
+          "files": [
+            "tutor_contrib_h5p-21.0.0/PKG-INFO",
+            "tutor_contrib_h5p-21.0.0/README.rst"
+          ],
+          "value": "https://docs.tutor.edly.io"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "tutor_contrib_h5p-21.0.0/PKG-INFO",
+            "tutor_contrib_h5p-21.0.0/pyproject.toml"
+          ],
+          "value": "https://github.com/aulasneo/tutor-contrib-h5p"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "tutor_contrib_h5p-21.0.0/PKG-INFO",
+            "tutor_contrib_h5p-21.0.0/pyproject.toml"
+          ],
+          "value": "https://github.com/aulasneo/tutor-contrib-h5p/issues"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "tutor_contrib_h5p-21.0.0/PKG-INFO",
+            "tutor_contrib_h5p-21.0.0/README.rst"
+          ],
+          "value": "https://github.com/cleura/tutor-contrib-s3"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "tutor_contrib_h5p-21.0.0/PKG-INFO",
+            "tutor_contrib_h5p-21.0.0/README.rst"
+          ],
+          "value": "https://github.com/edly-io/h5pxblock"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "tutor_contrib_h5p-21.0.0/PKG-INFO",
+            "tutor_contrib_h5p-21.0.0/README.rst"
+          ],
+          "value": "https://h5p.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "tutor_contrib_h5p-21.0.0/PKG-INFO",
+            "tutor_contrib_h5p-21.0.0/README.rst"
+          ],
+          "value": "https://mybucket.s3.us-east-1.amazonaws.com/h5pxblockmedia/course/file.h5p"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "tutor_contrib_h5p-21.0.0/PKG-INFO",
+            "tutor_contrib_h5p-21.0.0/README.rst"
+          ],
+          "value": "https://openedx.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "tutor_contrib_h5p-21.0.0/PKG-INFO",
+            "tutor_contrib_h5p-21.0.0/README.rst"
+          ],
+          "value": "https://s3.us-east-1.amazonaws.com/mybucket/h5pxblockmedia/course/file.h5p"
+        }
+      ]
+    },
+    "package": "tutor-contrib-h5p",
+    "package_slug": "tutor-contrib-h5p",
+    "project_url": "https://pypi.org/project/tutor-contrib-h5p/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T16:14:59.229566+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T16:15:16.811458+00:00",
+    "title": "Personal PyPI Supply Chain Scan: tutor-contrib-h5p 21.0.0",
+    "version": "21.0.0",
+    "version_slug": "21.0.0",
+    "_metadata_path": "reports/packages/tutor-contrib-h5p/21.0.0/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "paygent-0.1.5.tar.gz",
     "finding_count": 7,
     "model": "gpt-5.5",
