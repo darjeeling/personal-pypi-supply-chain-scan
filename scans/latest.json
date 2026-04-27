@@ -1,492 +1,795 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "cssutils-2.15.0.tar.gz",
-  "finding_count": 328,
+  "distribution": "plato_sdk_v2-2.83.0.tar.gz",
+  "finding_count": 904,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/docs/encutils.html"
+          "plato_sdk_v2-2.83.0/ci/deploy-ca.sh"
         ],
-        "value": "aspn.activestate.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cssutils-2.15.0/docs/html/_static/jquery.js"
-        ],
-        "value": "b.top-e.top"
-      },
-      {
-        "file_count": 6,
-        "files": [
-          "cssutils-2.15.0/NEWS.rst",
-          "cssutils-2.15.0/cssutils/__init__.py",
-          "cssutils-2.15.0/cssutils/profiles.py",
-          "cssutils-2.15.0/docs/conf.py",
-          "cssutils-2.15.0/docs/html/CHANGELOG.html",
-          "cssutils-2.15.0/docs/html/README.html"
-        ],
-        "value": "bitbucket.org"
-      },
-      {
-        "file_count": 5,
-        "files": [
-          "cssutils-2.15.0/.github/workflows/main.yml",
-          "cssutils-2.15.0/AGENTS.md",
-          "cssutils-2.15.0/PKG-INFO",
-          "cssutils-2.15.0/README.rst",
-          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO"
-        ],
-        "value": "blog.jaraco.com"
+        "value": "${domain"
       },
       {
         "file_count": 2,
         "files": [
-          "cssutils-2.15.0/examples/sheets/t-HACKS.css",
-          "cssutils-2.15.0/tests/sheets/t-HACKS.css"
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js",
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map"
         ],
-        "value": "centricle.com"
+        "value": "${identifier"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/docs/encutils.html"
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/manifest.json"
         ],
-        "value": "chardet.feedparser.org"
-      },
-      {
-        "file_count": 7,
-        "files": [
-          "cssutils-2.15.0/NEWS.rst",
-          "cssutils-2.15.0/docs/html/CHANGELOG.html",
-          "cssutils-2.15.0/docs/html/README.html",
-          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt",
-          "cssutils-2.15.0/docs/html/_sources/README.txt",
-          "cssutils-2.15.0/docs/html/_sources/index.txt",
-          "cssutils-2.15.0/docs/html/index.html"
-        ],
-        "value": "code.google.com"
+        "value": "*.dev.sims.plato.so"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/.coveragerc"
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/manifest.json"
         ],
-        "value": "coverage.readthedocs.io"
+        "value": "*.sims.plato.so"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/docs/encutils.html"
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/manifest.json"
         ],
-        "value": "creativecommons.org"
+        "value": "*.staging.sims.plato.so"
       },
       {
-        "file_count": 4,
+        "file_count": 1,
         "files": [
-          "cssutils-2.15.0/PKG-INFO",
-          "cssutils-2.15.0/README.rst",
-          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO",
-          "cssutils-2.15.0/cssutils/__init__.py"
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/manifest.json"
         ],
-        "value": "cssutils.readthedocs.io"
+        "value": "*.web.plato.so"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/v1/examples/test_env.py"
+        ],
+        "value": "54.219.32.250"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
+        ],
+        "value": "`"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/docs/sim-creation-pipeline.md"
+        ],
+        "value": "ab9068fa.sims.plato.so"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/_sims_generator/templates/instruction/helpers.py.jinja"
+        ],
+        "value": "abc--4566.connect.plato.so"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/sims/ubuntu_vm/client.py"
+        ],
+        "value": "api.bash.bash"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/sims/ubuntu_vm/client.py"
+        ],
+        "value": "api.computer.computer"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/sims/ubuntu_vm/client.py"
+        ],
+        "value": "api.edit.edit"
       },
       {
         "file_count": 3,
         "files": [
-          "cssutils-2.15.0/NEWS.rst",
-          "cssutils-2.15.0/docs/html/CHANGELOG.html",
-          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
+          "plato_sdk_v2-2.83.0/plato/_sims_generator/cli.py",
+          "plato_sdk_v2-2.83.0/plato/sims/cli.py",
+          "plato_sdk_v2-2.83.0/plato/sims/generate_clients.py"
         ],
-        "value": "csswg.inkedblade.net"
-      },
-      {
-        "file_count": 16,
-        "files": [
-          "cssutils-2.15.0/NEWS.rst",
-          "cssutils-2.15.0/docs/html/CHANGELOG.html",
-          "cssutils-2.15.0/docs/html/README.html",
-          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt",
-          "cssutils-2.15.0/docs/html/_sources/README.txt",
-          "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
-          "cssutils-2.15.0/docs/html/_sources/index.txt",
-          "cssutils-2.15.0/docs/html/docs/encutils.html"
-        ],
-        "value": "cthedot.de"
+        "value": "api.endpoints"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/docs/scripts.html"
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/README.md"
         ],
-        "value": "cthedot.de&"
+        "value": "api.example.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/_sims_generator/cli.py",
+          "plato_sdk_v2-2.83.0/plato/_sims_generator/parser.py"
+        ],
+        "value": "api.schemas"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/_static/jquery.js"
+          "plato_sdk_v2-2.83.0/plato/sims/ubuntu_vm/client.py"
         ],
-        "value": "d.top"
+        "value": "api.status"
       },
       {
-        "file_count": 12,
+        "file_count": 1,
         "files": [
-          "cssutils-2.15.0/NEWS.rst",
-          "cssutils-2.15.0/PKG-INFO",
-          "cssutils-2.15.0/README.rst",
-          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO",
-          "cssutils-2.15.0/cssutils/__init__.py",
-          "cssutils-2.15.0/cssutils/css/cssnamespacerule.py",
-          "cssutils-2.15.0/cssutils/css/cssrulelist.py",
-          "cssutils-2.15.0/cssutils/css/cssstylesheet.py"
+          "plato_sdk_v2-2.83.0/plato/worlds/tailscale.py"
         ],
-        "value": "dev.w3.org"
+        "value": "api.tailscale.com"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/_sims_generator/templates/python/client.py.jinja",
+          "plato_sdk_v2-2.83.0/plato/_sims_generator/templates/python/errors.py.jinja",
+          "plato_sdk_v2-2.83.0/plato/_sims_generator/templates/python/package_init.py.jinja",
+          "plato_sdk_v2-2.83.0/plato/sims/generate_clients.py"
+        ],
+        "value": "api.title"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/v2/sync/sandbox.py",
+          "plato_sdk_v2-2.83.0/scripts/get_all_artifact_targets.py"
+        ],
+        "value": "api.v1.cluster"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/cli/pm.py",
+          "plato_sdk_v2-2.83.0/plato/v2/sync/sandbox.py"
+        ],
+        "value": "api.v1.env"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/cli/main.py",
+          "plato_sdk_v2-2.83.0/plato/v1/cli/main.py",
+          "plato_sdk_v2-2.83.0/plato/v1/cli/sandbox.py",
+          "plato_sdk_v2-2.83.0/plato/v2/sync/sandbox.py"
+        ],
+        "value": "api.v1.gitea"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/cli/pm.py"
+        ],
+        "value": "api.v1.organization"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/v1/cli/sandbox.py",
+          "plato_sdk_v2-2.83.0/plato/v2/sync/sandbox.py"
+        ],
+        "value": "api.v1.sandbox"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/scripts/interactive_eval.py"
+        ],
+        "value": "api.v1.session"
+      },
+      {
+        "file_count": 5,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/cli/db_tunnel.py",
+          "plato_sdk_v2-2.83.0/plato/cli/pm.py",
+          "plato_sdk_v2-2.83.0/plato/v2/sync/sandbox.py",
+          "plato_sdk_v2-2.83.0/plato/v2/utils/db_cleanup.py",
+          "plato_sdk_v2-2.83.0/scripts/get_all_artifact_targets.py"
+        ],
+        "value": "api.v1.simulator"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/scripts/interactive_eval.py"
+        ],
+        "value": "api.v1.testcases"
+      },
+      {
+        "file_count": 6,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/v2/async_/artifact.py",
+          "plato_sdk_v2-2.83.0/plato/v2/async_/datagen_session.py",
+          "plato_sdk_v2-2.83.0/plato/v2/async_/session.py",
+          "plato_sdk_v2-2.83.0/plato/v2/sync/artifact.py",
+          "plato_sdk_v2-2.83.0/plato/v2/sync/datagen_session.py",
+          "plato_sdk_v2-2.83.0/plato/v2/sync/session.py"
+        ],
+        "value": "api.v2.artifacts"
+      },
+      {
+        "file_count": 6,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/sims/ubuntu_vm/client.py",
+          "plato_sdk_v2-2.83.0/plato/v1/cli/sandbox.py",
+          "plato_sdk_v2-2.83.0/plato/v2/async_/environment.py",
+          "plato_sdk_v2-2.83.0/plato/v2/async_/session.py",
+          "plato_sdk_v2-2.83.0/plato/v2/sync/sandbox.py",
+          "plato_sdk_v2-2.83.0/plato/v2/sync/session.py"
+        ],
+        "value": "api.v2.jobs"
       },
       {
         "file_count": 10,
         "files": [
-          "cssutils-2.15.0/NEWS.rst",
-          "cssutils-2.15.0/PKG-INFO",
-          "cssutils-2.15.0/README.rst",
-          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO",
-          "cssutils-2.15.0/cssutils/css/cssvariablesdeclaration.py",
-          "cssutils-2.15.0/cssutils/css/cssvariablesrule.py",
-          "cssutils-2.15.0/docs/html/CHANGELOG.html",
-          "cssutils-2.15.0/docs/html/README.html"
+          "plato_sdk_v2-2.83.0/plato/cli/session.py",
+          "plato_sdk_v2-2.83.0/plato/cli/verify.py",
+          "plato_sdk_v2-2.83.0/plato/v1/cli/proxy.py",
+          "plato_sdk_v2-2.83.0/plato/v1/cli/sandbox.py",
+          "plato_sdk_v2-2.83.0/plato/v1/cli/verify.py",
+          "plato_sdk_v2-2.83.0/plato/v2/async_/datagen_session.py",
+          "plato_sdk_v2-2.83.0/plato/v2/async_/session.py",
+          "plato_sdk_v2-2.83.0/plato/v2/sync/datagen_session.py"
         ],
-        "value": "disruptive-innovations.com"
+        "value": "api.v2.sessions"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/v2/async_/testcase.py",
+          "plato_sdk_v2-2.83.0/plato/v2/sync/testcase.py"
+        ],
+        "value": "api.v2.testcases"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/ruff.toml"
+          "plato_sdk_v2-2.83.0/plato/_sims_generator/templates/python/package_init.py.jinja"
         ],
-        "value": "docs.astral.sh"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "cssutils-2.15.0/docs/conf.py",
-          "cssutils-2.15.0/docs/html/docs/css.html",
-          "cssutils-2.15.0/docs/html/docs/stylesheets.html"
-        ],
-        "value": "docs.python.org"
+        "value": "api.version"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/_static/jquery.js"
+          "plato_sdk_v2-2.83.0/docs/skills/sim-config/SKILL.md"
         ],
-        "value": "f.style.top"
+        "value": "app"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/_static/jquery.js"
+          "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
         ],
-        "value": "f.top"
+        "value": "app;\\n"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/docs/encutils.html"
+          "plato_sdk_v2-2.83.0/docs/skills/sim-research/SKILL.md"
         ],
-        "value": "feedparser.org"
+        "value": "appname.com"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/_static/searchtools.js"
+          "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
         ],
-        "value": "files.length"
+        "value": "appname.com\\"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/LICENSE"
+          "plato_sdk_v2-2.83.0/ci/setup.sh"
         ],
-        "value": "fsf.org"
+        "value": "astral.sh"
       },
       {
-        "file_count": 9,
+        "file_count": 1,
         "files": [
-          "cssutils-2.15.0/.pre-commit-config.yaml",
-          "cssutils-2.15.0/NEWS.rst",
-          "cssutils-2.15.0/PKG-INFO",
-          "cssutils-2.15.0/README.rst",
-          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO",
-          "cssutils-2.15.0/docs/conf.py",
-          "cssutils-2.15.0/mypy.ini",
-          "cssutils-2.15.0/pyproject.toml"
+          "plato_sdk_v2-2.83.0/docs/skills/sim-config/SKILL.md"
+        ],
+        "value": "backend"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
+        ],
+        "value": "backend;\\n"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map"
+        ],
+        "value": "base64.guru"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/otel.py"
+        ],
+        "value": "chronos"
+      },
+      {
+        "file_count": 11,
+        "files": [
+          "plato_sdk_v2-2.83.0/docs/howto/repeatable-sim-task.md",
+          "plato_sdk_v2-2.83.0/docs/skills/trajectory-analysis/SKILL.md",
+          "plato_sdk_v2-2.83.0/plato/chronos/api/admin/import_experiment_api_admin_import_experiment_post.py",
+          "plato_sdk_v2-2.83.0/plato/chronos/api/admin/import_session_api_admin_import_session_post.py",
+          "plato_sdk_v2-2.83.0/plato/chronos/datasets.py",
+          "plato_sdk_v2-2.83.0/plato/chronos/experiments.py",
+          "plato_sdk_v2-2.83.0/plato/chronos/sdk.py",
+          "plato_sdk_v2-2.83.0/plato/cli/chronos/settings.py"
+        ],
+        "value": "chronos.plato.so"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/cli/chronos/dev/runner.py"
+        ],
+        "value": "code-server.dev"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/v1/sandbox_sdk.py"
+        ],
+        "value": "custom.plato.so"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map"
+        ],
+        "value": "developer.mozilla.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/v1/cli/world.py"
+        ],
+        "value": "docs.plato.so"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/worlds/dvc_models.py"
+        ],
+        "value": "download.communicate"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/worlds/dvc_models.py"
+        ],
+        "value": "download.returncode"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/worlds/dvc_models.py"
+        ],
+        "value": "download.stderr.strip"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/v1/examples/loadtest.py"
+        ],
+        "value": "espocrm.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/sims/README.md"
+        ],
+        "value": "firefly.example.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/docs/skills/sim-config/SKILL.md"
+        ],
+        "value": "frontend"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/v1/cli/templates/world-runner.Dockerfile"
+        ],
+        "value": "get.docker.com"
+      },
+      {
+        "file_count": 16,
+        "files": [
+          "plato_sdk_v2-2.83.0/.claude/agents/sim-creator.md",
+          "plato_sdk_v2-2.83.0/docs/SIM_CREATOR.md",
+          "plato_sdk_v2-2.83.0/docs/cli/agent.md",
+          "plato_sdk_v2-2.83.0/docs/skills/SIM-CREATION-ARCHITECTURE.md",
+          "plato_sdk_v2-2.83.0/docs/skills/sim-config/SKILL.md",
+          "plato_sdk_v2-2.83.0/docs/skills/sim-research/SKILL.md",
+          "plato_sdk_v2-2.83.0/plato/_generated/models/__init__.py",
+          "plato_sdk_v2-2.83.0/plato/cli/main.py"
         ],
         "value": "github.com"
       },
       {
-        "file_count": 4,
+        "file_count": 2,
         "files": [
-          "cssutils-2.15.0/docs/html/README.html",
-          "cssutils-2.15.0/docs/html/_sources/README.txt",
-          "cssutils-2.15.0/docs/html/_sources/index.txt",
-          "cssutils-2.15.0/docs/html/index.html"
+          "plato_sdk_v2-2.83.0/PKG-INFO",
+          "plato_sdk_v2-2.83.0/README.md"
         ],
-        "value": "groups.google.com"
+        "value": "harborframework.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/tools/server.py"
+        ],
+        "value": "host"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/worlds/s3.py"
+        ],
+        "value": "host``"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/docs/skills/sim-config/SKILL.md"
+        ],
+        "value": "httpbin.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/docs/skills/sim-validate/SKILL.md"
+        ],
+        "value": "hub.docker.com"
       },
       {
         "file_count": 2,
         "files": [
-          "cssutils-2.15.0/examples/sheets/sample_5.css",
-          "cssutils-2.15.0/tests/sheets/sample_5.css"
+          "plato_sdk_v2-2.83.0/docs/cli/sandbox.md",
+          "plato_sdk_v2-2.83.0/docs/skills/sim-debugger/SKILL.md"
         ],
-        "value": "gs-shoping.net"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "cssutils-2.15.0/PKG-INFO",
-          "cssutils-2.15.0/README.rst",
-          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO"
-        ],
-        "value": "img.shields.io"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "cssutils-2.15.0/NEWS.rst",
-          "cssutils-2.15.0/docs/html/CHANGELOG.html",
-          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
-        ],
-        "value": "jimmyg.org"
+        "value": "job-789.sims.plato.so"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/_static/jquery.js"
+          "plato_sdk_v2-2.83.0/plato/v1/cli/sandbox.py"
         ],
-        "value": "jquery.com"
+        "value": "job-id.sims.plato.so"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/_static/jquery.js"
+          "plato_sdk_v2-2.83.0/plato/_sims_generator/templates/instruction/helpers.py.jinja"
         ],
-        "value": "jquery.org"
+        "value": "jobid--4566.connect.plato.so"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/agents/schema.py",
+          "plato_sdk_v2-2.83.0/plato/worlds/schema.py"
+        ],
+        "value": "json-schema.org"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/README.html"
+          "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
         ],
-        "value": "packages.python.org"
+        "value": "localhost`"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/conf.py"
+          "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
         ],
-        "value": "peps.python.org"
+        "value": "localhost`\\n-"
       },
       {
-        "file_count": 6,
+        "file_count": 1,
         "files": [
-          "cssutils-2.15.0/NEWS.rst",
-          "cssutils-2.15.0/PKG-INFO",
-          "cssutils-2.15.0/README.rst",
-          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO",
-          "cssutils-2.15.0/cssutils/_fetch.py",
-          "cssutils-2.15.0/docs/conf.py"
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map"
         ],
-        "value": "pypi.org"
+        "value": "nodejs.org"
       },
       {
-        "file_count": 5,
+        "file_count": 1,
         "files": [
-          "cssutils-2.15.0/NEWS.rst",
-          "cssutils-2.15.0/docs/html/CHANGELOG.html",
-          "cssutils-2.15.0/docs/html/README.html",
-          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt",
-          "cssutils-2.15.0/docs/html/_sources/README.txt"
+          "plato_sdk_v2-2.83.0/plato/cli/chronos/main.py"
         ],
-        "value": "pypi.python.org"
+        "value": "platform.claude.com"
       },
       {
-        "file_count": 3,
+        "file_count": 34,
         "files": [
-          "cssutils-2.15.0/PKG-INFO",
-          "cssutils-2.15.0/README.rst",
-          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO"
+          "plato_sdk_v2-2.83.0/.claude/agents/sim-creator.md",
+          "plato_sdk_v2-2.83.0/PKG-INFO",
+          "plato_sdk_v2-2.83.0/README.md",
+          "plato_sdk_v2-2.83.0/docs/GENERATING_SIM_SDKS.md",
+          "plato_sdk_v2-2.83.0/docs/SIM_CREATOR.md",
+          "plato_sdk_v2-2.83.0/docs/cli/agent.md",
+          "plato_sdk_v2-2.83.0/docs/cli/sims.md",
+          "plato_sdk_v2-2.83.0/docs/cli/world.md"
+        ],
+        "value": "plato.so"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "plato_sdk_v2-2.83.0/docs/CLI.md",
+          "plato_sdk_v2-2.83.0/docs/cli/pm-from-template.md"
+        ],
+        "value": "plato.so`"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/v1/models/env.py",
+          "plato_sdk_v2-2.83.0/plato/v1/sync_env.py"
+        ],
+        "value": "proxy.plato.so"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/docs/skills/sim-research/SKILL.md"
         ],
         "value": "raw.githubusercontent.com"
       },
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "cssutils-2.15.0/PKG-INFO",
-          "cssutils-2.15.0/README.rst",
-          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO"
+          "plato_sdk_v2-2.83.0/plato/cli/chronos/main.py"
         ],
-        "value": "readthedocs.org"
+        "value": "raw.pop"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/tests/test_cssstyledeclaration.py"
+          "plato_sdk_v2-2.83.0/plato/cli/pm.py"
         ],
-        "value": "s.top"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "cssutils-2.15.0/tests/test_cssutils.py",
-          "cssutils-2.15.0/tools/try.py"
-        ],
-        "value": "seewhatever.de"
+        "value": "raw.returncode"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/_static/jquery.js"
+          "plato_sdk_v2-2.83.0/plato/cli/pm.py"
         ],
-        "value": "sizzlejs.com"
+        "value": "raw.split"
       },
       {
-        "file_count": 21,
+        "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/CHANGELOG.html",
-          "cssutils-2.15.0/docs/html/README.html",
-          "cssutils-2.15.0/docs/html/_2to3 py3.html",
-          "cssutils-2.15.0/docs/html/docs/backlog.html",
-          "cssutils-2.15.0/docs/html/docs/codec.html",
-          "cssutils-2.15.0/docs/html/docs/css.html",
-          "cssutils-2.15.0/docs/html/docs/encutils.html",
-          "cssutils-2.15.0/docs/html/docs/logging.html"
+          "plato_sdk_v2-2.83.0/plato/cli/pm.py"
         ],
-        "value": "sphinx.pocoo.org"
+        "value": "raw.stdout.strip"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/cli/chronos/dev/sync.py"
+        ],
+        "value": "raw.strip"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/content.js"
+        ],
+        "value": "rect.top"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/package-lock.json"
+        ],
+        "value": "registry.npmjs.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/docs/AGENT_SPEC.md"
+        ],
+        "value": "sim-abc123.plato.so"
       },
       {
         "file_count": 4,
         "files": [
-          "cssutils-2.15.0/examples/sheets/tigris.css",
-          "cssutils-2.15.0/examples/sheets/tigris2.css",
-          "cssutils-2.15.0/tests/sheets/tigris.css",
-          "cssutils-2.15.0/tests/sheets/tigris2.css"
+          "plato_sdk_v2-2.83.0/.claude/agents/sim-creator.md",
+          "plato_sdk_v2-2.83.0/docs/SIM_CREATOR.md",
+          "plato_sdk_v2-2.83.0/docs/skills/sim-config/SKILL.md",
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/manifest.json"
         ],
-        "value": "style.tigris.org"
+        "value": "sims.plato.so"
       },
       {
-        "file_count": 4,
+        "file_count": 1,
         "files": [
-          "cssutils-2.15.0/PKG-INFO",
-          "cssutils-2.15.0/README.rst",
-          "cssutils-2.15.0/SECURITY.md",
-          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO"
+          "plato_sdk_v2-2.83.0/plato/sims/README.md"
         ],
-        "value": "tidelift.com"
+        "value": "spree.example.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map"
+        ],
+        "value": "stackoverflow.com"
       },
       {
         "file_count": 3,
         "files": [
-          "cssutils-2.15.0/cssutils/__init__.py",
-          "cssutils-2.15.0/cssutils/profiles.py",
-          "cssutils-2.15.0/docs/conf.py"
+          "plato_sdk_v2-2.83.0/plato/v1/examples/loadtest.py",
+          "plato_sdk_v2-2.83.0/plato/v1/examples/test_env.py",
+          "plato_sdk_v2-2.83.0/scripts/interactive_eval.py"
         ],
-        "value": "web.archive.org"
+        "value": "staging.plato.so"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/conf.py"
+          "plato_sdk_v2-2.83.0/plato/worlds/tailscale.py"
         ],
-        "value": "wikipedia.org"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "cssutils-2.15.0/cssutils/css/cssstyledeclaration.py",
-          "cssutils-2.15.0/cssutils/util.py",
-          "cssutils-2.15.0/docs/html/docs/css.html"
-        ],
-        "value": "www.dustindiaz.com"
+        "value": "tailscale.com"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/tests/test_cssimportrule.py"
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map"
         ],
-        "value": "www.example.com"
+        "value": "thekevinscott.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "plato_sdk_v2-2.83.0/.claude/agents/sim-creator.md",
+          "plato_sdk_v2-2.83.0/docs/SIM_CREATOR.md"
+        ],
+        "value": "twenty.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/v1/examples/doordash_tasks.py",
+          "plato_sdk_v2-2.83.0/plato/v1/examples/test_env.py"
+        ],
+        "value": "www.doordash.com"
+      },
+      {
+        "file_count": 5,
+        "files": [
+          "plato_sdk_v2-2.83.0/docs/skills/sim-config/SKILL.md",
+          "plato_sdk_v2-2.83.0/docs/skills/sim-research/SKILL.md",
+          "plato_sdk_v2-2.83.0/plato/cli/pm.py",
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map",
+          "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
+        ],
+        "value": "www.google.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
+        ],
+        "value": "your-url.plato.so`\\n-"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/ci/setup.sh"
+        ],
+        "value": "ziglang.org"
       },
       {
         "file_count": 4,
         "files": [
-          "cssutils-2.15.0/LICENSE",
-          "cssutils-2.15.0/docs/html/README.html",
-          "cssutils-2.15.0/docs/html/_sources/README.txt",
-          "cssutils-2.15.0/docs/html/docs/encutils.html"
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js",
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map",
+          "plato_sdk_v2-2.83.0/plato/v1/models/env.py",
+          "plato_sdk_v2-2.83.0/plato/v1/sync_env.py"
         ],
-        "value": "www.gnu.org"
+        "value": "{alias|env.id"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/docs/encutils.html"
+          "plato_sdk_v2-2.83.0/plato/v2/async_/session.py"
         ],
-        "value": "www.ietf.org"
+        "value": "{host"
       },
       {
         "file_count": 2,
         "files": [
-          "cssutils-2.15.0/examples/sheets/sample_5.css",
-          "cssutils-2.15.0/tests/sheets/sample_5.css"
+          "plato_sdk_v2-2.83.0/plato/v1/models/env.py",
+          "plato_sdk_v2-2.83.0/plato/v1/sync_env.py"
         ],
-        "value": "www.ng4a.com"
+        "value": "{identifier"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/agents/task.py"
+        ],
+        "value": "{info.hostname"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/sims/ubuntu_vm/client.py"
+        ],
+        "value": "{resp.url.host"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
+        ],
+        "value": "{sim"
       },
       {
         "file_count": 2,
         "files": [
-          "cssutils-2.15.0/examples/sheets/test.css",
-          "cssutils-2.15.0/tests/sheets/test.css"
+          "plato_sdk_v2-2.83.0/plato/v1/models/env.py",
+          "plato_sdk_v2-2.83.0/plato/v1/sync_env.py"
         ],
-        "value": "www.steadystate.com"
-      },
-      {
-        "file_count": 52,
-        "files": [
-          "cssutils-2.15.0/NEWS.rst",
-          "cssutils-2.15.0/PKG-INFO",
-          "cssutils-2.15.0/README.rst",
-          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO",
-          "cssutils-2.15.0/cssutils/__init__.py",
-          "cssutils-2.15.0/cssutils/css/__init__.py",
-          "cssutils-2.15.0/cssutils/css/colors.py",
-          "cssutils-2.15.0/cssutils/css/cssfontfacerule.py"
-        ],
-        "value": "www.w3.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cssutils-2.15.0/docs/html/docs/encutils.html"
-        ],
-        "value": "www.xml.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cssutils-2.15.0/tests/test_util.py"
-        ],
-        "value": "x"
+        "value": "{subdomain"
       }
     ],
-    "raw_public_ips": [],
+    "raw_public_ips": [
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/v1/examples/test_env.py"
+        ],
+        "value": "54.219.32.250"
+      }
+    ],
     "suspicious_endpoints": [
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "cssutils-2.15.0/PKG-INFO",
-          "cssutils-2.15.0/README.rst",
-          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO"
+          "plato_sdk_v2-2.83.0/plato/v1/examples/test_env.py"
+        ],
+        "value": "http://54.219.32.250:8080/api"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/docs/skills/sim-research/SKILL.md"
+        ],
+        "value": "https://raw.githubusercontent.com/{owner"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/docs/skills/sim-research/SKILL.md"
         ],
         "value": "raw.githubusercontent.com"
       }
@@ -495,683 +798,606 @@
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/docs/encutils.html"
+          "plato_sdk_v2-2.83.0/plato/v1/examples/test_env.py"
         ],
-        "value": "http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/363841"
+        "value": "http://54.219.32.250:8080/api"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/docs/encutils.html"
+          "plato_sdk_v2-2.83.0/docs/skills/sim-config/SKILL.md"
         ],
-        "value": "http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/52257"
+        "value": "http://app"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
+        ],
+        "value": "http://app;\\n"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/docs/skills/sim-config/SKILL.md"
+        ],
+        "value": "http://backend/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/docs/skills/sim-config/SKILL.md"
+        ],
+        "value": "http://backend/secure/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
+        ],
+        "value": "http://backend;\\n"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/otel.py"
+        ],
+        "value": "http://chronos/api/otel"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/v1/examples/loadtest.py"
+        ],
+        "value": "http://espocrm.com/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/docs/skills/sim-config/SKILL.md"
+        ],
+        "value": "http://frontend/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/tools/server.py"
+        ],
+        "value": "http://host:8765/mcp"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
+        ],
+        "value": "http://localhost`"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
+        ],
+        "value": "http://localhost`\\n-"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/docs/AGENT_SPEC.md"
+        ],
+        "value": "http://sim-abc123.plato.so/firefly"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/docs/AGENT_SPEC.md"
+        ],
+        "value": "http://sim-abc123.plato.so/spree"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map"
+        ],
+        "value": "http://www.google.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/v2/async_/session.py"
+        ],
+        "value": "http://{host"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/agents/task.py"
+        ],
+        "value": "http://{info.hostname"
       },
       {
         "file_count": 2,
         "files": [
-          "cssutils-2.15.0/examples/sheets/t-HACKS.css",
-          "cssutils-2.15.0/tests/sheets/t-HACKS.css"
+          "plato_sdk_v2-2.83.0/docs/GENERATING_SIM_SDKS.md",
+          "plato_sdk_v2-2.83.0/docs/cli/sims.md"
         ],
-        "value": "http://centricle.com/ref/css/filters/?highlight_columns=true"
+        "value": "https://"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/docs/encutils.html"
+          "plato_sdk_v2-2.83.0/ci/deploy-ca.sh"
         ],
-        "value": "http://chardet.feedparser.org/"
+        "value": "https://${DOMAIN"
       },
       {
         "file_count": 2,
         "files": [
-          "cssutils-2.15.0/docs/html/_sources/index.txt",
-          "cssutils-2.15.0/docs/html/index.html"
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js",
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map"
         ],
-        "value": "http://code.google.com/p/cssutils"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "cssutils-2.15.0/docs/html/README.html",
-          "cssutils-2.15.0/docs/html/_sources/README.txt"
-        ],
-        "value": "http://code.google.com/p/cssutils/"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "cssutils-2.15.0/NEWS.rst",
-          "cssutils-2.15.0/docs/html/CHANGELOG.html",
-          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
-        ],
-        "value": "http://code.google.com/p/cssutils/issues/detail?id=21"
+        "value": "https://${identifier"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/_sources/README.txt"
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/manifest.json"
         ],
-        "value": "http://code.google.com/p/cssutils/issues/list"
+        "value": "https://*.dev.sims.plato.so/*"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/docs/encutils.html"
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/manifest.json"
         ],
-        "value": "http://creativecommons.org/licenses/by/3.0/"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "cssutils-2.15.0/NEWS.rst",
-          "cssutils-2.15.0/docs/html/CHANGELOG.html",
-          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
-        ],
-        "value": "http://csswg.inkedblade.net/spec/css2.1#issue-23"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
-          "cssutils-2.15.0/docs/scripts.rst"
-        ],
-        "value": "http://cthedot.de"
+        "value": "https://*.sims.plato.so/*"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/docs/scripts.html"
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/manifest.json"
         ],
-        "value": "http://cthedot.de&#39"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "cssutils-2.15.0/tests/test_util.py",
-          "cssutils-2.15.0/tools/try.py"
-        ],
-        "value": "http://cthedot.de/__UNKNOWN__.css"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
-          "cssutils-2.15.0/docs/html/docs/scripts.html",
-          "cssutils-2.15.0/docs/scripts.rst"
-        ],
-        "value": "http://cthedot.de/css/default.css"
+        "value": "https://*.staging.sims.plato.so/*"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/docs/scripts.html"
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/manifest.json"
         ],
-        "value": "http://cthedot.de/css/default.css&#39"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "cssutils-2.15.0/docs/html/README.html",
-          "cssutils-2.15.0/docs/html/_sources/README.txt",
-          "cssutils-2.15.0/docs/html/_sources/index.txt",
-          "cssutils-2.15.0/docs/html/index.html"
-        ],
-        "value": "http://cthedot.de/cssutils/"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "cssutils-2.15.0/NEWS.rst",
-          "cssutils-2.15.0/docs/html/CHANGELOG.html",
-          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt",
-          "cssutils-2.15.0/docs/html/docs/encutils.html"
-        ],
-        "value": "http://cthedot.de/encutils/"
+        "value": "https://*.web.plato.so/*"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/docs/encutils.html"
+          "plato_sdk_v2-2.83.0/plato/sims/__init__.py"
         ],
-        "value": "http://cthedot.de/encutils/&#39"
+        "value": "https://.../api/v1"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/docs/encutils.html"
+          "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
         ],
-        "value": "http://cthedot.de/encutils/license/"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "cssutils-2.15.0/examples/website.py",
-          "cssutils-2.15.0/tests/test_parse.py"
-        ],
-        "value": "http://cthedot.de/not-present.css"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "cssutils-2.15.0/NEWS.rst",
-          "cssutils-2.15.0/docs/html/CHANGELOG.html",
-          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
-        ],
-        "value": "http://cthedot.de/restserver/"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
-          "cssutils-2.15.0/docs/scripts.rst"
-        ],
-        "value": "http://cthedot.de/static/alternate1.css"
+        "value": "https://...`"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/docs/scripts.html"
+          "plato_sdk_v2-2.83.0/plato/utils/pypi_index.py"
         ],
-        "value": "http://cthedot.de/static/alternate1.css&#39"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
-          "cssutils-2.15.0/docs/scripts.rst"
-        ],
-        "value": "http://cthedot.de/static/alternate2.css"
+        "value": "https://__token__:{key"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/docs/scripts.html"
+          "plato_sdk_v2-2.83.0/docs/sim-creation-pipeline.md"
         ],
-        "value": "http://cthedot.de/static/alternate2.css&#39"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
-          "cssutils-2.15.0/docs/html/docs/scripts.html",
-          "cssutils-2.15.0/docs/scripts.rst"
-        ],
-        "value": "http://cthedot.de/static/cssutils/examples/capturefrom.html"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
-          "cssutils-2.15.0/docs/html/docs/scripts.html",
-          "cssutils-2.15.0/docs/scripts.rst"
-        ],
-        "value": "http://cthedot.de/static/cssutils/examples/css/inlineimport2.css"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
-          "cssutils-2.15.0/docs/html/docs/scripts.html",
-          "cssutils-2.15.0/docs/scripts.rst"
-        ],
-        "value": "http://cthedot.de/static/cssutils/examples/css/inlineimportimport1.css"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
-          "cssutils-2.15.0/docs/html/docs/scripts.html",
-          "cssutils-2.15.0/docs/scripts.rst"
-        ],
-        "value": "http://cthedot.de/static/cssutils/examples/css/linkimportimport1.css"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
-          "cssutils-2.15.0/docs/html/docs/scripts.html",
-          "cssutils-2.15.0/docs/scripts.rst"
-        ],
-        "value": "http://cthedot.de/static/cssutils/examples/css/linkimportimport2.css"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
-          "cssutils-2.15.0/docs/html/docs/scripts.html",
-          "cssutils-2.15.0/docs/scripts.rst"
-        ],
-        "value": "http://cthedot.de/static/cssutils/examples/inlineimport1.css"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
-          "cssutils-2.15.0/docs/html/docs/scripts.html",
-          "cssutils-2.15.0/docs/scripts.rst"
-        ],
-        "value": "http://cthedot.de/static/cssutils/examples/link1.css"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
-          "cssutils-2.15.0/docs/html/docs/scripts.html",
-          "cssutils-2.15.0/docs/scripts.rst"
-        ],
-        "value": "http://cthedot.de/static/cssutils/examples/linkimport1.css"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
-          "cssutils-2.15.0/docs/html/docs/scripts.html",
-          "cssutils-2.15.0/docs/scripts.rst"
-        ],
-        "value": "http://cthedot.de/static/cssutils/examples/linkimport2.css"
+        "value": "https://ab9068fa.sims.plato.so"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/tests/test_parse.py"
+          "plato_sdk_v2-2.83.0/plato/_sims_generator/templates/instruction/helpers.py.jinja"
         ],
-        "value": "http://cthedot.de/test.css"
+        "value": "https://abc--4566.connect.plato.so"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/examples/customlog.py"
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/README.md"
         ],
-        "value": "http://cthedot.de/x"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "cssutils-2.15.0/PKG-INFO",
-          "cssutils-2.15.0/README.rst",
-          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO"
-        ],
-        "value": "http://dev.w3.org/csswg/css-variables/"
-      },
-      {
-        "file_count": 10,
-        "files": [
-          "cssutils-2.15.0/NEWS.rst",
-          "cssutils-2.15.0/PKG-INFO",
-          "cssutils-2.15.0/README.rst",
-          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO",
-          "cssutils-2.15.0/cssutils/__init__.py",
-          "cssutils-2.15.0/cssutils/css/cssnamespacerule.py",
-          "cssutils-2.15.0/docs/html/CHANGELOG.html",
-          "cssutils-2.15.0/docs/html/README.html"
-        ],
-        "value": "http://dev.w3.org/csswg/css3-namespace/"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "cssutils-2.15.0/NEWS.rst",
-          "cssutils-2.15.0/docs/html/CHANGELOG.html",
-          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
-        ],
-        "value": "http://dev.w3.org/csswg/cssom"
-      },
-      {
-        "file_count": 6,
-        "files": [
-          "cssutils-2.15.0/PKG-INFO",
-          "cssutils-2.15.0/README.rst",
-          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO",
-          "cssutils-2.15.0/cssutils/__init__.py",
-          "cssutils-2.15.0/docs/html/README.html",
-          "cssutils-2.15.0/docs/html/_sources/README.txt"
-        ],
-        "value": "http://dev.w3.org/csswg/cssom/"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "cssutils-2.15.0/NEWS.rst",
-          "cssutils-2.15.0/docs/html/CHANGELOG.html",
-          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
-        ],
-        "value": "http://dev.w3.org/csswg/cssom/#selectors"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "cssutils-2.15.0/NEWS.rst",
-          "cssutils-2.15.0/docs/html/CHANGELOG.html",
-          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
-        ],
-        "value": "http://dev.w3.org/csswg/cssom/#the-csscharsetrule"
+        "value": "https://api.example.com/data"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/cssutils/css/cssrulelist.py"
+          "plato_sdk_v2-2.83.0/plato/worlds/tailscale.py"
         ],
-        "value": "http://dev.w3.org/csswg/cssom/#the-cssrulelist"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "cssutils-2.15.0/NEWS.rst",
-          "cssutils-2.15.0/docs/html/CHANGELOG.html",
-          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
-        ],
-        "value": "http://dev.w3.org/csswg/cssom/#the-cssstyledeclaration"
+        "value": "https://api.tailscale.com/api/v2/tailnet/-/keys"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/cssutils/css/cssstylesheet.py"
+          "plato_sdk_v2-2.83.0/docs/skills/sim-research/SKILL.md"
         ],
-        "value": "http://dev.w3.org/csswg/cssom/#the-cssstylesheet"
+        "value": "https://appname.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
+        ],
+        "value": "https://appname.com\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/sims/agent_helpers.py"
+        ],
+        "value": "https://artifact-{artifact_id"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/ci/setup.sh"
+        ],
+        "value": "https://astral.sh/uv/install.sh"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map"
+        ],
+        "value": "https://base64.guru/standards/base64url\\nconst"
       },
       {
         "file_count": 9,
         "files": [
-          "cssutils-2.15.0/NEWS.rst",
-          "cssutils-2.15.0/PKG-INFO",
-          "cssutils-2.15.0/README.rst",
-          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO",
-          "cssutils-2.15.0/cssutils/css/cssvariablesrule.py",
-          "cssutils-2.15.0/docs/html/CHANGELOG.html",
-          "cssutils-2.15.0/docs/html/README.html",
-          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
+          "plato_sdk_v2-2.83.0/plato/chronos/api/admin/import_experiment_api_admin_import_experiment_post.py",
+          "plato_sdk_v2-2.83.0/plato/chronos/api/admin/import_session_api_admin_import_session_post.py",
+          "plato_sdk_v2-2.83.0/plato/chronos/datasets.py",
+          "plato_sdk_v2-2.83.0/plato/chronos/experiments.py",
+          "plato_sdk_v2-2.83.0/plato/chronos/sdk.py",
+          "plato_sdk_v2-2.83.0/plato/cli/chronos/settings.py",
+          "plato_sdk_v2-2.83.0/plato/cli/pm.py",
+          "plato_sdk_v2-2.83.0/plato/v1/cli/chronos.py"
         ],
-        "value": "http://disruptive-innovations.com/zoo/cssvariables/"
+        "value": "https://chronos.plato.so"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/cssutils/css/cssvariablesdeclaration.py"
+          "plato_sdk_v2-2.83.0/docs/skills/trajectory-analysis/SKILL.md"
         ],
-        "value": "http://disruptive-innovations.com/zoo/cssvariables/#mozTocId496530"
+        "value": "https://chronos.plato.so/api/sessions/$SESSION_ID/logs"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/docs/css.html"
+          "plato_sdk_v2-2.83.0/docs/howto/repeatable-sim-task.md"
         ],
-        "value": "http://docs.python.org/dev/library/exceptions.html#IndexError"
+        "value": "https://chronos.plato.so/sessions/"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/docs/css.html"
+          "plato_sdk_v2-2.83.0/plato/cli/pm.py"
         ],
-        "value": "http://docs.python.org/dev/library/xml.dom.html#xml.dom.HierarchyRequestErr"
+        "value": "https://chronos.plato.so/sessions/{launched_session"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/docs/css.html"
+          "plato_sdk_v2-2.83.0/plato/cli/chronos/dev/runner.py"
         ],
-        "value": "http://docs.python.org/dev/library/xml.dom.html#xml.dom.IndexSizeErr"
+        "value": "https://code-server.dev/install.sh"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/docs/stylesheets.html"
+          "plato_sdk_v2-2.83.0/plato/v1/sandbox_sdk.py"
         ],
-        "value": "http://docs.python.org/dev/library/xml.dom.html#xml.dom.InvalidCharacterErr"
+        "value": "https://custom.plato.so/api"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/docs/stylesheets.html"
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map"
         ],
-        "value": "http://docs.python.org/dev/library/xml.dom.html#xml.dom.InvalidModificationErr"
+        "value": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/error_event\\n"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/docs/css.html"
+          "plato_sdk_v2-2.83.0/plato/v1/cli/world.py"
         ],
-        "value": "http://docs.python.org/dev/library/xml.dom.html#xml.dom.NamespaceErr"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "cssutils-2.15.0/docs/html/docs/css.html",
-          "cssutils-2.15.0/docs/html/docs/stylesheets.html"
-        ],
-        "value": "http://docs.python.org/dev/library/xml.dom.html#xml.dom.NoModificationAllowedErr"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cssutils-2.15.0/docs/html/docs/stylesheets.html"
-        ],
-        "value": "http://docs.python.org/dev/library/xml.dom.html#xml.dom.NotFoundErr"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cssutils-2.15.0/docs/html/docs/css.html"
-        ],
-        "value": "http://docs.python.org/dev/library/xml.dom.html#xml.dom.SyntaxErr"
-      },
-      {
-        "file_count": 8,
-        "files": [
-          "cssutils-2.15.0/tests/test_cssnamespacerule.py",
-          "cssutils-2.15.0/tests/test_cssstylesheet.py",
-          "cssutils-2.15.0/tests/test_cssutils.py",
-          "cssutils-2.15.0/tests/test_cssvalue.py",
-          "cssutils-2.15.0/tests/test_errorhandler.py",
-          "cssutils-2.15.0/tests/test_parse.py",
-          "cssutils-2.15.0/tests/test_value.py",
-          "cssutils-2.15.0/tools/try.py"
-        ],
-        "value": "http://example.com"
-      },
-      {
-        "file_count": 7,
-        "files": [
-          "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
-          "cssutils-2.15.0/docs/html/docs/scripts.html",
-          "cssutils-2.15.0/docs/scripts.rst",
-          "cssutils-2.15.0/examples/build.py",
-          "cssutils-2.15.0/examples/sheets/import/import2.css",
-          "cssutils-2.15.0/tests/sheets/import/import2.css",
-          "cssutils-2.15.0/tests/test_cssutils.py"
-        ],
-        "value": "http://example.com/images/example.gif"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cssutils-2.15.0/tests/test_cssnamespacerule.py"
-        ],
-        "value": "http://example.com/new"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cssutils-2.15.0/tests/test_cssimportrule.py"
-        ],
-        "value": "http://example.com/none"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cssutils-2.15.0/tests/test_cssstylesheet.py"
-        ],
-        "value": "http://example.com/ns0"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cssutils-2.15.0/tests/test_cssstylesheet.py"
-        ],
-        "value": "http://example.com/ns1"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cssutils-2.15.0/tests/test_cssstylesheet.py"
-        ],
-        "value": "http://example.com/ns2"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "cssutils-2.15.0/docs/html/_sources/docs/migrate.txt",
-          "cssutils-2.15.0/docs/migrate.rst",
-          "cssutils-2.15.0/tests/test_util.py",
-          "cssutils-2.15.0/tools/try.py"
-        ],
-        "value": "http://example.com/test.css"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cssutils-2.15.0/docs/html/docs/migrate.html"
-        ],
-        "value": "http://example.com/test.css&#39"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cssutils-2.15.0/tests/test_cssimportrule.py"
-        ],
-        "value": "http://example.com/yes"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "cssutils-2.15.0/tests/test_cssvalue.py",
-          "cssutils-2.15.0/tests/test_value.py"
-        ],
-        "value": "http://example.com?"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cssutils-2.15.0/docs/html/docs/encutils.html"
-        ],
-        "value": "http://feedparser.org/docs/advanced.html"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cssutils-2.15.0/LICENSE"
-        ],
-        "value": "http://fsf.org/"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "cssutils-2.15.0/docs/html/README.html",
-          "cssutils-2.15.0/docs/html/_sources/README.txt",
-          "cssutils-2.15.0/docs/html/_sources/index.txt",
-          "cssutils-2.15.0/docs/html/index.html"
-        ],
-        "value": "http://groups.google.com/group/cssutils"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "cssutils-2.15.0/examples/sheets/sample_5.css",
-          "cssutils-2.15.0/tests/sheets/sample_5.css"
-        ],
-        "value": "http://gs-shoping.net/blog/wp-content/uploads/2010/04/item_list_back.gif"
+        "value": "https://docs.plato.so/worlds/publishing#schema-generation[/dim"
       },
       {
         "file_count": 3,
         "files": [
-          "cssutils-2.15.0/NEWS.rst",
-          "cssutils-2.15.0/docs/html/CHANGELOG.html",
-          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
+          "plato_sdk_v2-2.83.0/plato/chronos/datasets.py",
+          "plato_sdk_v2-2.83.0/plato/v1/examples/test_env.py",
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/README.md"
         ],
-        "value": "http://jimmyg.org/2007/11/08/creating-a-python-package-using-eggs-and-subversion/"
+        "value": "https://example.com"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/_static/jquery.js"
+          "plato_sdk_v2-2.83.0/plato/_sims_generator/parser.py"
         ],
-        "value": "http://jquery.com/"
+        "value": "https://example.com/api"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/_static/jquery.js"
+          "plato_sdk_v2-2.83.0/plato/_sims_generator/parser.py"
         ],
-        "value": "http://jquery.org/license"
+        "value": "https://example.com/api/v1/accounts"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/README.html"
+          "plato_sdk_v2-2.83.0/plato/chronos/datasets.py"
         ],
-        "value": "http://packages.python.org/cssutils/"
+        "value": "https://example.com/new"
       },
       {
-        "file_count": 5,
+        "file_count": 1,
         "files": [
-          "cssutils-2.15.0/NEWS.rst",
-          "cssutils-2.15.0/docs/html/CHANGELOG.html",
-          "cssutils-2.15.0/docs/html/README.html",
-          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt",
-          "cssutils-2.15.0/docs/html/_sources/README.txt"
+          "plato_sdk_v2-2.83.0/plato/sims/README.md"
         ],
-        "value": "http://pypi.python.org/pypi/distribute"
+        "value": "https://firefly.example.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/v1/cli/templates/world-runner.Dockerfile"
+        ],
+        "value": "https://get.docker.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map"
+        ],
+        "value": "https://github.com/DigitalBrainJS/AxiosPromise/blob/16deab13710ec09779922131f3fa5954320f83ab/lib/utils.js#L11-L34\\n\\nconst"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/docs/skills/sim-config/SKILL.md"
+        ],
+        "value": "https://github.com/WordPress/WordPress"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/docs/skills/sim-config/SKILL.md"
+        ],
+        "value": "https://github.com/Worklenz/worklenz"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map"
+        ],
+        "value": "https://github.com/cloudflare/workerd/issues/902\\n"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/docs/skills/sim-config/SKILL.md"
+        ],
+        "value": "https://github.com/cortezaproject/corteza"
       },
       {
         "file_count": 2,
         "files": [
-          "cssutils-2.15.0/tests/test_cssutils.py",
-          "cssutils-2.15.0/tools/try.py"
+          "plato_sdk_v2-2.83.0/.claude/agents/sim-creator.md",
+          "plato_sdk_v2-2.83.0/docs/SIM_CREATOR.md"
         ],
-        "value": "http://seewhatever.de/sheets/import.css"
+        "value": "https://github.com/docusealco/docuseal"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/v1/cli/chronos.py",
+          "plato_sdk_v2-2.83.0/plato/worlds/README.md"
+        ],
+        "value": "https://github.com/example/repo"
       },
       {
         "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/_static/jquery.js"
+          "plato_sdk_v2-2.83.0/docs/cli/agent.md"
         ],
-        "value": "http://sizzlejs.com/"
+        "value": "https://github.com/harbor-ai/harbor"
       },
       {
-        "file_count": 21,
+        "file_count": 1,
         "files": [
-          "cssutils-2.15.0/docs/html/CHANGELOG.html",
-          "cssutils-2.15.0/docs/html/README.html",
-          "cssutils-2.15.0/docs/html/_2to3 py3.html",
-          "cssutils-2.15.0/docs/html/docs/backlog.html",
-          "cssutils-2.15.0/docs/html/docs/codec.html",
-          "cssutils-2.15.0/docs/html/docs/css.html",
-          "cssutils-2.15.0/docs/html/docs/encutils.html",
-          "cssutils-2.15.0/docs/html/docs/logging.html"
+          "plato_sdk_v2-2.83.0/docs/skills/sim-research/SKILL.md"
         ],
-        "value": "http://sphinx.pocoo.org/"
+        "value": "https://github.com/owner/repo"
       },
       {
-        "file_count": 4,
+        "file_count": 1,
         "files": [
-          "cssutils-2.15.0/examples/sheets/tigris.css",
-          "cssutils-2.15.0/examples/sheets/tigris2.css",
-          "cssutils-2.15.0/tests/sheets/tigris.css",
-          "cssutils-2.15.0/tests/sheets/tigris2.css"
+          "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
         ],
-        "value": "http://style.tigris.org/"
+        "value": "https://github.com/owner/repo\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/worlds/dvc_models.py"
+        ],
+        "value": "https://github.com/peak/s5cmd/releases/download/v{S5CMD_VERSION"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
+        ],
+        "value": "https://github.com/pgpartman/pg_partman.git\\"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/cli/main.py",
+          "plato_sdk_v2-2.83.0/plato/v1/cli/main.py"
+        ],
+        "value": "https://github.com/plato-app/plato-client/issues[/dim"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/_generated/models/__init__.py",
+          "plato_sdk_v2-2.83.0/plato/v1/models/build_models.py"
+        ],
+        "value": "https://github.com/plato/plato"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "plato_sdk_v2-2.83.0/PKG-INFO",
+          "plato_sdk_v2-2.83.0/README.md"
+        ],
+        "value": "https://harborframework.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/worlds/s3.py"
+        ],
+        "value": "https://host``"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/docs/skills/sim-config/SKILL.md"
+        ],
+        "value": "https://httpbin.org/post"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/docs/skills/sim-validate/SKILL.md"
+        ],
+        "value": "https://hub.docker.com/v2/repositories/{owner"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/docs/cli/sandbox.md"
+        ],
+        "value": "https://job-789.sims.plato.so"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/docs/skills/sim-debugger/SKILL.md"
+        ],
+        "value": "https://job-789.sims.plato.so?_plato_router_target=appname.web.plato.so"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/docs/cli/sandbox.md"
+        ],
+        "value": "https://job-789.sims.plato.so?_plato_router_target=docuseal.web.plato.so"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/docs/cli/sandbox.md"
+        ],
+        "value": "https://job-789.sims.plato.so?_plato_router_target=service.web.plato.so"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/v1/cli/sandbox.py"
+        ],
+        "value": "https://job-id.sims.plato.so"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/_sims_generator/templates/instruction/helpers.py.jinja"
+        ],
+        "value": "https://jobid--4566.connect.plato.so"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/agents/schema.py",
+          "plato_sdk_v2-2.83.0/plato/worlds/schema.py"
+        ],
+        "value": "https://json-schema.org/draft/2020-12/schema"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map"
+        ],
+        "value": "https://nodejs.org/api/http.html#http_message_headers\\nconst"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/cli/chronos/main.py"
+        ],
+        "value": "https://platform.claude.com/v1/oauth/token"
+      },
+      {
+        "file_count": 19,
+        "files": [
+          "plato_sdk_v2-2.83.0/PKG-INFO",
+          "plato_sdk_v2-2.83.0/README.md",
+          "plato_sdk_v2-2.83.0/plato/_generated/models/__init__.py",
+          "plato_sdk_v2-2.83.0/plato/cli/agent.py",
+          "plato_sdk_v2-2.83.0/plato/cli/pm.py",
+          "plato_sdk_v2-2.83.0/plato/cli/utils.py",
+          "plato_sdk_v2-2.83.0/plato/cli/world.py",
+          "plato_sdk_v2-2.83.0/plato/v1/cli/agent.py"
+        ],
+        "value": "https://plato.so"
+      },
+      {
+        "file_count": 8,
+        "files": [
+          "plato_sdk_v2-2.83.0/plato/sims/cli.py",
+          "plato_sdk_v2-2.83.0/plato/v1/config.py",
+          "plato_sdk_v2-2.83.0/plato/v1/examples/test_env.py",
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/api-client.js",
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js",
+          "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map",
+          "plato_sdk_v2-2.83.0/plato/v1/sandbox_sdk.py",
+          "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
+        ],
+        "value": "https://plato.so/api"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "plato_sdk_v2-2.83.0/docs/cli/agent.md"
+        ],
+        "value": "https://plato.so/api/v2/pypi/agents/"
       }
     ]
   },
-  "package": "cssutils",
-  "package_slug": "cssutils",
-  "project_url": "https://pypi.org/project/cssutils/",
+  "package": "plato-sdk-v2",
+  "package_slug": "plato-sdk-v2",
+  "project_url": "https://pypi.org/project/plato-sdk-v2/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T20:40:35.615360+00:00",
+  "published_at": "2026-04-27T20:44:45.727475+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T20:41:47.799314+00:00",
-  "title": "Personal PyPI Supply Chain Scan: cssutils 2.15.0",
-  "version": "2.15.0",
-  "version_slug": "2.15.0",
-  "_metadata_path": "reports/packages/cssutils/2.15.0/metadata.json"
+  "scanned_at": "2026-04-27T20:46:10.428905+00:00",
+  "title": "Personal PyPI Supply Chain Scan: plato-sdk-v2 2.83.0",
+  "version": "2.83.0",
+  "version_slug": "2.83.0",
+  "_metadata_path": "reports/packages/plato-sdk-v2/2.83.0/metadata.json"
 }

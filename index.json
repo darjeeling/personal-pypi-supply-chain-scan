@@ -1,6 +1,1409 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "plato_sdk_v2-2.83.0.tar.gz",
+    "finding_count": 904,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/ci/deploy-ca.sh"
+          ],
+          "value": "${domain"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js",
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map"
+          ],
+          "value": "${identifier"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/manifest.json"
+          ],
+          "value": "*.dev.sims.plato.so"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/manifest.json"
+          ],
+          "value": "*.sims.plato.so"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/manifest.json"
+          ],
+          "value": "*.staging.sims.plato.so"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/manifest.json"
+          ],
+          "value": "*.web.plato.so"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/examples/test_env.py"
+          ],
+          "value": "54.219.32.250"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
+          ],
+          "value": "`"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/sim-creation-pipeline.md"
+          ],
+          "value": "ab9068fa.sims.plato.so"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/_sims_generator/templates/instruction/helpers.py.jinja"
+          ],
+          "value": "abc--4566.connect.plato.so"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/sims/ubuntu_vm/client.py"
+          ],
+          "value": "api.bash.bash"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/sims/ubuntu_vm/client.py"
+          ],
+          "value": "api.computer.computer"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/sims/ubuntu_vm/client.py"
+          ],
+          "value": "api.edit.edit"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/_sims_generator/cli.py",
+            "plato_sdk_v2-2.83.0/plato/sims/cli.py",
+            "plato_sdk_v2-2.83.0/plato/sims/generate_clients.py"
+          ],
+          "value": "api.endpoints"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/README.md"
+          ],
+          "value": "api.example.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/_sims_generator/cli.py",
+            "plato_sdk_v2-2.83.0/plato/_sims_generator/parser.py"
+          ],
+          "value": "api.schemas"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/sims/ubuntu_vm/client.py"
+          ],
+          "value": "api.status"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/worlds/tailscale.py"
+          ],
+          "value": "api.tailscale.com"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/_sims_generator/templates/python/client.py.jinja",
+            "plato_sdk_v2-2.83.0/plato/_sims_generator/templates/python/errors.py.jinja",
+            "plato_sdk_v2-2.83.0/plato/_sims_generator/templates/python/package_init.py.jinja",
+            "plato_sdk_v2-2.83.0/plato/sims/generate_clients.py"
+          ],
+          "value": "api.title"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v2/sync/sandbox.py",
+            "plato_sdk_v2-2.83.0/scripts/get_all_artifact_targets.py"
+          ],
+          "value": "api.v1.cluster"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/cli/pm.py",
+            "plato_sdk_v2-2.83.0/plato/v2/sync/sandbox.py"
+          ],
+          "value": "api.v1.env"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/cli/main.py",
+            "plato_sdk_v2-2.83.0/plato/v1/cli/main.py",
+            "plato_sdk_v2-2.83.0/plato/v1/cli/sandbox.py",
+            "plato_sdk_v2-2.83.0/plato/v2/sync/sandbox.py"
+          ],
+          "value": "api.v1.gitea"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/cli/pm.py"
+          ],
+          "value": "api.v1.organization"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/cli/sandbox.py",
+            "plato_sdk_v2-2.83.0/plato/v2/sync/sandbox.py"
+          ],
+          "value": "api.v1.sandbox"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/scripts/interactive_eval.py"
+          ],
+          "value": "api.v1.session"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/cli/db_tunnel.py",
+            "plato_sdk_v2-2.83.0/plato/cli/pm.py",
+            "plato_sdk_v2-2.83.0/plato/v2/sync/sandbox.py",
+            "plato_sdk_v2-2.83.0/plato/v2/utils/db_cleanup.py",
+            "plato_sdk_v2-2.83.0/scripts/get_all_artifact_targets.py"
+          ],
+          "value": "api.v1.simulator"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/scripts/interactive_eval.py"
+          ],
+          "value": "api.v1.testcases"
+        },
+        {
+          "file_count": 6,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v2/async_/artifact.py",
+            "plato_sdk_v2-2.83.0/plato/v2/async_/datagen_session.py",
+            "plato_sdk_v2-2.83.0/plato/v2/async_/session.py",
+            "plato_sdk_v2-2.83.0/plato/v2/sync/artifact.py",
+            "plato_sdk_v2-2.83.0/plato/v2/sync/datagen_session.py",
+            "plato_sdk_v2-2.83.0/plato/v2/sync/session.py"
+          ],
+          "value": "api.v2.artifacts"
+        },
+        {
+          "file_count": 6,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/sims/ubuntu_vm/client.py",
+            "plato_sdk_v2-2.83.0/plato/v1/cli/sandbox.py",
+            "plato_sdk_v2-2.83.0/plato/v2/async_/environment.py",
+            "plato_sdk_v2-2.83.0/plato/v2/async_/session.py",
+            "plato_sdk_v2-2.83.0/plato/v2/sync/sandbox.py",
+            "plato_sdk_v2-2.83.0/plato/v2/sync/session.py"
+          ],
+          "value": "api.v2.jobs"
+        },
+        {
+          "file_count": 10,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/cli/session.py",
+            "plato_sdk_v2-2.83.0/plato/cli/verify.py",
+            "plato_sdk_v2-2.83.0/plato/v1/cli/proxy.py",
+            "plato_sdk_v2-2.83.0/plato/v1/cli/sandbox.py",
+            "plato_sdk_v2-2.83.0/plato/v1/cli/verify.py",
+            "plato_sdk_v2-2.83.0/plato/v2/async_/datagen_session.py",
+            "plato_sdk_v2-2.83.0/plato/v2/async_/session.py",
+            "plato_sdk_v2-2.83.0/plato/v2/sync/datagen_session.py"
+          ],
+          "value": "api.v2.sessions"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v2/async_/testcase.py",
+            "plato_sdk_v2-2.83.0/plato/v2/sync/testcase.py"
+          ],
+          "value": "api.v2.testcases"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/_sims_generator/templates/python/package_init.py.jinja"
+          ],
+          "value": "api.version"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/skills/sim-config/SKILL.md"
+          ],
+          "value": "app"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
+          ],
+          "value": "app;\\n"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/skills/sim-research/SKILL.md"
+          ],
+          "value": "appname.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
+          ],
+          "value": "appname.com\\"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/ci/setup.sh"
+          ],
+          "value": "astral.sh"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/skills/sim-config/SKILL.md"
+          ],
+          "value": "backend"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
+          ],
+          "value": "backend;\\n"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map"
+          ],
+          "value": "base64.guru"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/otel.py"
+          ],
+          "value": "chronos"
+        },
+        {
+          "file_count": 11,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/howto/repeatable-sim-task.md",
+            "plato_sdk_v2-2.83.0/docs/skills/trajectory-analysis/SKILL.md",
+            "plato_sdk_v2-2.83.0/plato/chronos/api/admin/import_experiment_api_admin_import_experiment_post.py",
+            "plato_sdk_v2-2.83.0/plato/chronos/api/admin/import_session_api_admin_import_session_post.py",
+            "plato_sdk_v2-2.83.0/plato/chronos/datasets.py",
+            "plato_sdk_v2-2.83.0/plato/chronos/experiments.py",
+            "plato_sdk_v2-2.83.0/plato/chronos/sdk.py",
+            "plato_sdk_v2-2.83.0/plato/cli/chronos/settings.py"
+          ],
+          "value": "chronos.plato.so"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/cli/chronos/dev/runner.py"
+          ],
+          "value": "code-server.dev"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/sandbox_sdk.py"
+          ],
+          "value": "custom.plato.so"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map"
+          ],
+          "value": "developer.mozilla.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/cli/world.py"
+          ],
+          "value": "docs.plato.so"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/worlds/dvc_models.py"
+          ],
+          "value": "download.communicate"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/worlds/dvc_models.py"
+          ],
+          "value": "download.returncode"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/worlds/dvc_models.py"
+          ],
+          "value": "download.stderr.strip"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/examples/loadtest.py"
+          ],
+          "value": "espocrm.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/sims/README.md"
+          ],
+          "value": "firefly.example.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/skills/sim-config/SKILL.md"
+          ],
+          "value": "frontend"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/cli/templates/world-runner.Dockerfile"
+          ],
+          "value": "get.docker.com"
+        },
+        {
+          "file_count": 16,
+          "files": [
+            "plato_sdk_v2-2.83.0/.claude/agents/sim-creator.md",
+            "plato_sdk_v2-2.83.0/docs/SIM_CREATOR.md",
+            "plato_sdk_v2-2.83.0/docs/cli/agent.md",
+            "plato_sdk_v2-2.83.0/docs/skills/SIM-CREATION-ARCHITECTURE.md",
+            "plato_sdk_v2-2.83.0/docs/skills/sim-config/SKILL.md",
+            "plato_sdk_v2-2.83.0/docs/skills/sim-research/SKILL.md",
+            "plato_sdk_v2-2.83.0/plato/_generated/models/__init__.py",
+            "plato_sdk_v2-2.83.0/plato/cli/main.py"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "plato_sdk_v2-2.83.0/PKG-INFO",
+            "plato_sdk_v2-2.83.0/README.md"
+          ],
+          "value": "harborframework.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/tools/server.py"
+          ],
+          "value": "host"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/worlds/s3.py"
+          ],
+          "value": "host``"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/skills/sim-config/SKILL.md"
+          ],
+          "value": "httpbin.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/skills/sim-validate/SKILL.md"
+          ],
+          "value": "hub.docker.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/cli/sandbox.md",
+            "plato_sdk_v2-2.83.0/docs/skills/sim-debugger/SKILL.md"
+          ],
+          "value": "job-789.sims.plato.so"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/cli/sandbox.py"
+          ],
+          "value": "job-id.sims.plato.so"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/_sims_generator/templates/instruction/helpers.py.jinja"
+          ],
+          "value": "jobid--4566.connect.plato.so"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/agents/schema.py",
+            "plato_sdk_v2-2.83.0/plato/worlds/schema.py"
+          ],
+          "value": "json-schema.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
+          ],
+          "value": "localhost`"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
+          ],
+          "value": "localhost`\\n-"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map"
+          ],
+          "value": "nodejs.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/cli/chronos/main.py"
+          ],
+          "value": "platform.claude.com"
+        },
+        {
+          "file_count": 34,
+          "files": [
+            "plato_sdk_v2-2.83.0/.claude/agents/sim-creator.md",
+            "plato_sdk_v2-2.83.0/PKG-INFO",
+            "plato_sdk_v2-2.83.0/README.md",
+            "plato_sdk_v2-2.83.0/docs/GENERATING_SIM_SDKS.md",
+            "plato_sdk_v2-2.83.0/docs/SIM_CREATOR.md",
+            "plato_sdk_v2-2.83.0/docs/cli/agent.md",
+            "plato_sdk_v2-2.83.0/docs/cli/sims.md",
+            "plato_sdk_v2-2.83.0/docs/cli/world.md"
+          ],
+          "value": "plato.so"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/CLI.md",
+            "plato_sdk_v2-2.83.0/docs/cli/pm-from-template.md"
+          ],
+          "value": "plato.so`"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/models/env.py",
+            "plato_sdk_v2-2.83.0/plato/v1/sync_env.py"
+          ],
+          "value": "proxy.plato.so"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/skills/sim-research/SKILL.md"
+          ],
+          "value": "raw.githubusercontent.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/cli/chronos/main.py"
+          ],
+          "value": "raw.pop"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/cli/pm.py"
+          ],
+          "value": "raw.returncode"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/cli/pm.py"
+          ],
+          "value": "raw.split"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/cli/pm.py"
+          ],
+          "value": "raw.stdout.strip"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/cli/chronos/dev/sync.py"
+          ],
+          "value": "raw.strip"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/content.js"
+          ],
+          "value": "rect.top"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/package-lock.json"
+          ],
+          "value": "registry.npmjs.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/AGENT_SPEC.md"
+          ],
+          "value": "sim-abc123.plato.so"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "plato_sdk_v2-2.83.0/.claude/agents/sim-creator.md",
+            "plato_sdk_v2-2.83.0/docs/SIM_CREATOR.md",
+            "plato_sdk_v2-2.83.0/docs/skills/sim-config/SKILL.md",
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/manifest.json"
+          ],
+          "value": "sims.plato.so"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/sims/README.md"
+          ],
+          "value": "spree.example.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map"
+          ],
+          "value": "stackoverflow.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/examples/loadtest.py",
+            "plato_sdk_v2-2.83.0/plato/v1/examples/test_env.py",
+            "plato_sdk_v2-2.83.0/scripts/interactive_eval.py"
+          ],
+          "value": "staging.plato.so"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/worlds/tailscale.py"
+          ],
+          "value": "tailscale.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map"
+          ],
+          "value": "thekevinscott.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "plato_sdk_v2-2.83.0/.claude/agents/sim-creator.md",
+            "plato_sdk_v2-2.83.0/docs/SIM_CREATOR.md"
+          ],
+          "value": "twenty.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/examples/doordash_tasks.py",
+            "plato_sdk_v2-2.83.0/plato/v1/examples/test_env.py"
+          ],
+          "value": "www.doordash.com"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/skills/sim-config/SKILL.md",
+            "plato_sdk_v2-2.83.0/docs/skills/sim-research/SKILL.md",
+            "plato_sdk_v2-2.83.0/plato/cli/pm.py",
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map",
+            "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
+          ],
+          "value": "www.google.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
+          ],
+          "value": "your-url.plato.so`\\n-"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/ci/setup.sh"
+          ],
+          "value": "ziglang.org"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js",
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map",
+            "plato_sdk_v2-2.83.0/plato/v1/models/env.py",
+            "plato_sdk_v2-2.83.0/plato/v1/sync_env.py"
+          ],
+          "value": "{alias|env.id"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v2/async_/session.py"
+          ],
+          "value": "{host"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/models/env.py",
+            "plato_sdk_v2-2.83.0/plato/v1/sync_env.py"
+          ],
+          "value": "{identifier"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/agents/task.py"
+          ],
+          "value": "{info.hostname"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/sims/ubuntu_vm/client.py"
+          ],
+          "value": "{resp.url.host"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
+          ],
+          "value": "{sim"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/models/env.py",
+            "plato_sdk_v2-2.83.0/plato/v1/sync_env.py"
+          ],
+          "value": "{subdomain"
+        }
+      ],
+      "raw_public_ips": [
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/examples/test_env.py"
+          ],
+          "value": "54.219.32.250"
+        }
+      ],
+      "suspicious_endpoints": [
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/examples/test_env.py"
+          ],
+          "value": "http://54.219.32.250:8080/api"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/skills/sim-research/SKILL.md"
+          ],
+          "value": "https://raw.githubusercontent.com/{owner"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/skills/sim-research/SKILL.md"
+          ],
+          "value": "raw.githubusercontent.com"
+        }
+      ],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/examples/test_env.py"
+          ],
+          "value": "http://54.219.32.250:8080/api"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/skills/sim-config/SKILL.md"
+          ],
+          "value": "http://app"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
+          ],
+          "value": "http://app;\\n"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/skills/sim-config/SKILL.md"
+          ],
+          "value": "http://backend/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/skills/sim-config/SKILL.md"
+          ],
+          "value": "http://backend/secure/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
+          ],
+          "value": "http://backend;\\n"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/otel.py"
+          ],
+          "value": "http://chronos/api/otel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/examples/loadtest.py"
+          ],
+          "value": "http://espocrm.com/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/skills/sim-config/SKILL.md"
+          ],
+          "value": "http://frontend/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/tools/server.py"
+          ],
+          "value": "http://host:8765/mcp"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
+          ],
+          "value": "http://localhost`"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
+          ],
+          "value": "http://localhost`\\n-"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/AGENT_SPEC.md"
+          ],
+          "value": "http://sim-abc123.plato.so/firefly"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/AGENT_SPEC.md"
+          ],
+          "value": "http://sim-abc123.plato.so/spree"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map"
+          ],
+          "value": "http://www.google.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v2/async_/session.py"
+          ],
+          "value": "http://{host"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/agents/task.py"
+          ],
+          "value": "http://{info.hostname"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/GENERATING_SIM_SDKS.md",
+            "plato_sdk_v2-2.83.0/docs/cli/sims.md"
+          ],
+          "value": "https://"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/ci/deploy-ca.sh"
+          ],
+          "value": "https://${DOMAIN"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js",
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map"
+          ],
+          "value": "https://${identifier"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/manifest.json"
+          ],
+          "value": "https://*.dev.sims.plato.so/*"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/manifest.json"
+          ],
+          "value": "https://*.sims.plato.so/*"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/manifest.json"
+          ],
+          "value": "https://*.staging.sims.plato.so/*"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/manifest.json"
+          ],
+          "value": "https://*.web.plato.so/*"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/sims/__init__.py"
+          ],
+          "value": "https://.../api/v1"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
+          ],
+          "value": "https://...`"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/utils/pypi_index.py"
+          ],
+          "value": "https://__token__:{key"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/sim-creation-pipeline.md"
+          ],
+          "value": "https://ab9068fa.sims.plato.so"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/_sims_generator/templates/instruction/helpers.py.jinja"
+          ],
+          "value": "https://abc--4566.connect.plato.so"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/README.md"
+          ],
+          "value": "https://api.example.com/data"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/worlds/tailscale.py"
+          ],
+          "value": "https://api.tailscale.com/api/v2/tailnet/-/keys"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/skills/sim-research/SKILL.md"
+          ],
+          "value": "https://appname.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
+          ],
+          "value": "https://appname.com\\"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/sims/agent_helpers.py"
+          ],
+          "value": "https://artifact-{artifact_id"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/ci/setup.sh"
+          ],
+          "value": "https://astral.sh/uv/install.sh"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map"
+          ],
+          "value": "https://base64.guru/standards/base64url\\nconst"
+        },
+        {
+          "file_count": 9,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/chronos/api/admin/import_experiment_api_admin_import_experiment_post.py",
+            "plato_sdk_v2-2.83.0/plato/chronos/api/admin/import_session_api_admin_import_session_post.py",
+            "plato_sdk_v2-2.83.0/plato/chronos/datasets.py",
+            "plato_sdk_v2-2.83.0/plato/chronos/experiments.py",
+            "plato_sdk_v2-2.83.0/plato/chronos/sdk.py",
+            "plato_sdk_v2-2.83.0/plato/cli/chronos/settings.py",
+            "plato_sdk_v2-2.83.0/plato/cli/pm.py",
+            "plato_sdk_v2-2.83.0/plato/v1/cli/chronos.py"
+          ],
+          "value": "https://chronos.plato.so"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/skills/trajectory-analysis/SKILL.md"
+          ],
+          "value": "https://chronos.plato.so/api/sessions/$SESSION_ID/logs"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/howto/repeatable-sim-task.md"
+          ],
+          "value": "https://chronos.plato.so/sessions/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/cli/pm.py"
+          ],
+          "value": "https://chronos.plato.so/sessions/{launched_session"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/cli/chronos/dev/runner.py"
+          ],
+          "value": "https://code-server.dev/install.sh"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/sandbox_sdk.py"
+          ],
+          "value": "https://custom.plato.so/api"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map"
+          ],
+          "value": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/error_event\\n"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/cli/world.py"
+          ],
+          "value": "https://docs.plato.so/worlds/publishing#schema-generation[/dim"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/chronos/datasets.py",
+            "plato_sdk_v2-2.83.0/plato/v1/examples/test_env.py",
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/README.md"
+          ],
+          "value": "https://example.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/_sims_generator/parser.py"
+          ],
+          "value": "https://example.com/api"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/_sims_generator/parser.py"
+          ],
+          "value": "https://example.com/api/v1/accounts"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/chronos/datasets.py"
+          ],
+          "value": "https://example.com/new"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/sims/README.md"
+          ],
+          "value": "https://firefly.example.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/cli/templates/world-runner.Dockerfile"
+          ],
+          "value": "https://get.docker.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map"
+          ],
+          "value": "https://github.com/DigitalBrainJS/AxiosPromise/blob/16deab13710ec09779922131f3fa5954320f83ab/lib/utils.js#L11-L34\\n\\nconst"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/skills/sim-config/SKILL.md"
+          ],
+          "value": "https://github.com/WordPress/WordPress"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/skills/sim-config/SKILL.md"
+          ],
+          "value": "https://github.com/Worklenz/worklenz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map"
+          ],
+          "value": "https://github.com/cloudflare/workerd/issues/902\\n"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/skills/sim-config/SKILL.md"
+          ],
+          "value": "https://github.com/cortezaproject/corteza"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "plato_sdk_v2-2.83.0/.claude/agents/sim-creator.md",
+            "plato_sdk_v2-2.83.0/docs/SIM_CREATOR.md"
+          ],
+          "value": "https://github.com/docusealco/docuseal"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/cli/chronos.py",
+            "plato_sdk_v2-2.83.0/plato/worlds/README.md"
+          ],
+          "value": "https://github.com/example/repo"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/cli/agent.md"
+          ],
+          "value": "https://github.com/harbor-ai/harbor"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/skills/sim-research/SKILL.md"
+          ],
+          "value": "https://github.com/owner/repo"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
+          ],
+          "value": "https://github.com/owner/repo\\"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/worlds/dvc_models.py"
+          ],
+          "value": "https://github.com/peak/s5cmd/releases/download/v{S5CMD_VERSION"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
+          ],
+          "value": "https://github.com/pgpartman/pg_partman.git\\"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/cli/main.py",
+            "plato_sdk_v2-2.83.0/plato/v1/cli/main.py"
+          ],
+          "value": "https://github.com/plato-app/plato-client/issues[/dim"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/_generated/models/__init__.py",
+            "plato_sdk_v2-2.83.0/plato/v1/models/build_models.py"
+          ],
+          "value": "https://github.com/plato/plato"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "plato_sdk_v2-2.83.0/PKG-INFO",
+            "plato_sdk_v2-2.83.0/README.md"
+          ],
+          "value": "https://harborframework.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/worlds/s3.py"
+          ],
+          "value": "https://host``"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/skills/sim-config/SKILL.md"
+          ],
+          "value": "https://httpbin.org/post"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/skills/sim-validate/SKILL.md"
+          ],
+          "value": "https://hub.docker.com/v2/repositories/{owner"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/cli/sandbox.md"
+          ],
+          "value": "https://job-789.sims.plato.so"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/skills/sim-debugger/SKILL.md"
+          ],
+          "value": "https://job-789.sims.plato.so?_plato_router_target=appname.web.plato.so"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/cli/sandbox.md"
+          ],
+          "value": "https://job-789.sims.plato.so?_plato_router_target=docuseal.web.plato.so"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/cli/sandbox.md"
+          ],
+          "value": "https://job-789.sims.plato.so?_plato_router_target=service.web.plato.so"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/cli/sandbox.py"
+          ],
+          "value": "https://job-id.sims.plato.so"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/_sims_generator/templates/instruction/helpers.py.jinja"
+          ],
+          "value": "https://jobid--4566.connect.plato.so"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/agents/schema.py",
+            "plato_sdk_v2-2.83.0/plato/worlds/schema.py"
+          ],
+          "value": "https://json-schema.org/draft/2020-12/schema"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map"
+          ],
+          "value": "https://nodejs.org/api/http.html#http_message_headers\\nconst"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/cli/chronos/main.py"
+          ],
+          "value": "https://platform.claude.com/v1/oauth/token"
+        },
+        {
+          "file_count": 19,
+          "files": [
+            "plato_sdk_v2-2.83.0/PKG-INFO",
+            "plato_sdk_v2-2.83.0/README.md",
+            "plato_sdk_v2-2.83.0/plato/_generated/models/__init__.py",
+            "plato_sdk_v2-2.83.0/plato/cli/agent.py",
+            "plato_sdk_v2-2.83.0/plato/cli/pm.py",
+            "plato_sdk_v2-2.83.0/plato/cli/utils.py",
+            "plato_sdk_v2-2.83.0/plato/cli/world.py",
+            "plato_sdk_v2-2.83.0/plato/v1/cli/agent.py"
+          ],
+          "value": "https://plato.so"
+        },
+        {
+          "file_count": 8,
+          "files": [
+            "plato_sdk_v2-2.83.0/plato/sims/cli.py",
+            "plato_sdk_v2-2.83.0/plato/v1/config.py",
+            "plato_sdk_v2-2.83.0/plato/v1/examples/test_env.py",
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/api-client.js",
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js",
+            "plato_sdk_v2-2.83.0/plato/v1/extensions/envgen-recorder/plato-sdk-bundle.js.map",
+            "plato_sdk_v2-2.83.0/plato/v1/sandbox_sdk.py",
+            "plato_sdk_v2-2.83.0/templates/env-create-launch.json"
+          ],
+          "value": "https://plato.so/api"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "plato_sdk_v2-2.83.0/docs/cli/agent.md"
+          ],
+          "value": "https://plato.so/api/v2/pypi/agents/"
+        }
+      ]
+    },
+    "package": "plato-sdk-v2",
+    "package_slug": "plato-sdk-v2",
+    "project_url": "https://pypi.org/project/plato-sdk-v2/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T20:44:45.727475+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T20:46:10.428905+00:00",
+    "title": "Personal PyPI Supply Chain Scan: plato-sdk-v2 2.83.0",
+    "version": "2.83.0",
+    "version_slug": "2.83.0",
+    "_metadata_path": "reports/packages/plato-sdk-v2/2.83.0/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "cssutils-2.15.0.tar.gz",
     "finding_count": 328,
     "model": "gpt-5.5",
