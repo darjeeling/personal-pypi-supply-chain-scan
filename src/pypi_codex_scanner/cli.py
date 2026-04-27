@@ -2,8 +2,10 @@ from __future__ import annotations
 
 from pathlib import Path
 import argparse
+import json
 import sys
 
+from .cleanup import cleanup_scan_artifacts
 from .config import load_config, write_default_config
 from .container import extract_in_container
 from .openai_client import OpenAIResponsesClient
@@ -77,6 +79,7 @@ def _run(config_path: Path, *, force: bool, dry_run: bool) -> int:
     try:
         decision = check_usage_gate(config.usage_gate, config.openai)
         store.record_usage_gate(allowed=decision.allowed, reason=decision.reason, status=decision.status)
+        print(f"usage gate {'allow' if decision.allowed else 'block'}: {decision.reason}")
         if not force and not decision.allowed:
             print(f"Skipping scan due to usage gate: {decision.reason}")
             return 0
@@ -119,8 +122,9 @@ def _run(config_path: Path, *, force: bool, dry_run: bool) -> int:
                 )
                 store.finish_attempt(attempt_id, status="scanned", model=result.model, prompt_version=result.prompt_version)
                 scanned_count += 1
-                print(f"report {artifacts.paths['ko']}")
+                _print_scan_summary(artifacts, extracted.prescan)
                 _maybe_publish(config, scanned_count)
+                _maybe_cleanup(config, scanned_count)
             except Exception as exc:
                 store.mark(package, "error", error=str(exc))
                 if attempt_id is not None:
@@ -139,6 +143,47 @@ def _maybe_publish(config: object, scanned_count: int) -> None:
     build_pages(config.paths.reports_dir, config.paths.site_dir)
     publish_pages(config.paths.site_dir, branch=config.publish.branch, push=config.publish.push)
     print(f"published pages after {scanned_count} successful scans")
+
+
+def _maybe_cleanup(config: object, scanned_count: int) -> None:
+    if not config.cleanup.enabled or config.cleanup.after_scans <= 0:
+        return
+    if scanned_count % config.cleanup.after_scans != 0:
+        return
+    for message in cleanup_scan_artifacts(config):
+        print(message)
+
+
+def _print_scan_summary(artifacts: object, prescan: dict) -> None:
+    metadata = json.loads(artifacts.metadata_path.read_text(encoding="utf-8"))
+    risk = str(metadata.get("risk") or "unknown").lower()
+    status = "PROBLEM" if risk in {"critical", "high", "medium"} else "OK"
+    finding_count = metadata.get("finding_count", 0)
+    indicators = metadata.get("network_indicators") or {}
+    domain_count = len(indicators.get("domains") or [])
+    url_count = len(indicators.get("urls") or [])
+    public_ip_count = len(indicators.get("raw_public_ips") or [])
+    suspicious_count = len(indicators.get("suspicious_endpoints") or [])
+    line = (
+        f"scan result {status} risk={risk.upper()} "
+        f"package={artifacts.package} version={artifacts.version} "
+        f"findings={finding_count} domains={domain_count} urls={url_count} "
+        f"public_ips={public_ip_count} suspicious_endpoints={suspicious_count} "
+        f"report={artifacts.paths['ko']}"
+    )
+    print(_colorize_risk(line, risk))
+
+
+def _colorize_risk(text: str, risk: str) -> str:
+    if not sys.stdout.isatty():
+        return text
+    if risk in {"critical", "high"}:
+        return f"\033[31m{text}\033[0m"
+    if risk == "medium":
+        return f"\033[33m{text}\033[0m"
+    if risk in {"low", "info"}:
+        return f"\033[32m{text}\033[0m"
+    return text
 
 
 if __name__ == "__main__":

@@ -72,6 +72,13 @@ Do not elevate ordinary CLI behavior, normal SDK/API calls, expected environment
 - Treat secondary weekly usage as a conservative daily budget: `100 / secondary_daily_budget_divisor` percent per elapsed day, with at least one day of budget allowed.
 - Keep LLM concurrency at 1 unless explicitly changed.
 - Keep `max_scans_per_run` and `max_llm_calls_per_run` configurable.
+- Log usage gate decisions and one-line scan summaries so unattended runs are reviewable from logs.
+
+## Cleanup
+
+- Docker containers run with `--rm`, but host extraction directories under `data/work/` can grow.
+- Respect `[cleanup]` config and remove old work directories after configured scan intervals.
+- Do not enable Docker prune by default; only run it when `cleanup.docker_prune = true`.
 
 ## Git Hygiene
 

@@ -99,11 +99,19 @@ min_secondary_remaining_percent = 10
 secondary_daily_budget_divisor = 14
 allow_if_unknown = true
 backend_url = "https://chatgpt.com/backend-api/wham/usage"
+
+[cleanup]
+enabled = true
+after_scans = 1
+work_dir_retention_hours = 24
+docker_prune = false
 ```
 
 Empty schedule windows mean always allowed.
 
 The primary 5-hour usage window uses a remaining-percent threshold. The secondary weekly usage window is treated as a conservative daily budget: `100 / secondary_daily_budget_divisor` percent per elapsed day in the current secondary window, with at least one day of budget allowed.
+
+Successful scans print a one-line summary such as `scan result OK risk=INFO ...` or `scan result PROBLEM risk=HIGH ...` before optional publish and cleanup. Cleanup removes old `data/work/*` extraction directories by default. `docker_prune = true` additionally prunes dangling Docker resources, so keep it off unless this scanner owns the host Docker cache policy.
 
 ## Report Layout
 

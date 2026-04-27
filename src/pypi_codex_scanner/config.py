@@ -53,6 +53,12 @@ image = "python:3.12-slim"
 network = "bridge"
 memory = "512m"
 cpus = "1.0"
+
+[cleanup]
+enabled = true
+after_scans = 1
+work_dir_retention_hours = 24
+docker_prune = false
 """
 
 
@@ -112,6 +118,14 @@ class DockerConfig:
 
 
 @dataclass(frozen=True)
+class CleanupConfig:
+    enabled: bool = True
+    after_scans: int = 1
+    work_dir_retention_hours: int = 24
+    docker_prune: bool = False
+
+
+@dataclass(frozen=True)
 class UsageGateConfig:
     enabled: bool = True
     min_primary_remaining_percent: int = 20
@@ -130,6 +144,7 @@ class AppConfig:
     publish: PublishConfig = field(default_factory=PublishConfig)
     openai: OpenAIConfig = field(default_factory=OpenAIConfig)
     docker: DockerConfig = field(default_factory=DockerConfig)
+    cleanup: CleanupConfig = field(default_factory=CleanupConfig)
     usage_gate: UsageGateConfig = field(default_factory=UsageGateConfig)
 
 
@@ -158,6 +173,7 @@ def load_config(path: Path) -> AppConfig:
             request_timeout_seconds=openai_data.get("request_timeout_seconds", 120),
         ),
         docker=DockerConfig(**data.get("docker", {})),
+        cleanup=CleanupConfig(**data.get("cleanup", {})),
         usage_gate=UsageGateConfig(**data.get("usage_gate", {})),
     )
 

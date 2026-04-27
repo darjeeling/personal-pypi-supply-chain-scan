@@ -44,3 +44,9 @@ image = "python:3.12-slim"
 network = "bridge"
 memory = "512m"
 cpus = "1.0"
+
+[cleanup]
+enabled = true
+after_scans = 1
+work_dir_retention_hours = 24
+docker_prune = false

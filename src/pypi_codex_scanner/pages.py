@@ -69,16 +69,26 @@ def _write_index(site_dir: Path, reports: list[dict]) -> None:
         ko_href = f"packages/{report['package_slug']}/{report['version_slug']}/ko/"
         en_href = f"packages/{report['package_slug']}/{report['version_slug']}/en/"
         risk = report.get("risk") or "unknown"
+        scanned_at = str(report.get("scanned_at") or "unknown")
         items.append(
             "<li class='scan-card'>"
             f"<div><span class='risk risk-{html.escape(risk)}'>{html.escape(risk.upper())}</span> "
             f"<strong>{html.escape(report['package'])} {html.escape(report['version'])}</strong> "
+            f"<span class='scan-inline'>Scanned: <time>{html.escape(scanned_at)}</time></span> "
             f"<a href='{ko_href}'>ko</a> <a href='{en_href}'>en</a></div>"
             f"<div class='dates'><span>Package published:</span> <time>{html.escape(str(report.get('published_at') or 'unknown'))}</time></div>"
-            f"<div class='dates'><span>Scan published:</span> <time>{html.escape(report['scanned_at'])}</time></div>"
+            f"<div class='dates'><span>Scan published:</span> <time>{html.escape(scanned_at)}</time></div>"
             "</li>"
         )
-    body = "<h1>Personal PyPI Supply Chain Scan</h1><p>" + html.escape(_disclaimer(reports)) + "</p><ul class='scan-list'>" + "\n".join(items) + "</ul>"
+    body = (
+        "<h1>Personal PyPI Supply Chain Scan</h1>"
+        "<p class='index-note'>Recent scans are ordered by scan publish time.</p>"
+        "<p>"
+        + html.escape(_disclaimer(reports))
+        + "</p><ul class='scan-list'>"
+        + "\n".join(items)
+        + "</ul>"
+    )
     (site_dir / "index.html").write_text(_html_page("Personal PyPI Supply Chain Scan", body), encoding="utf-8")
 
 
@@ -175,6 +185,8 @@ def _html_page(title: str, body: str) -> str:
     .risk-high, .risk-critical {{ background: #fee2e2; color: #991b1b; }}
     .dates {{ color: #52616f; font-size: 0.92rem; margin-top: 0.2rem; }}
     .dates span {{ display: inline-block; min-width: 9.5rem; font-weight: 600; color: #39434d; }}
+    .scan-inline {{ color: #39434d; font-size: 0.9rem; margin-left: 0.65rem; margin-right: 0.4rem; white-space: nowrap; }}
+    .index-note {{ color: #52616f; margin-top: -0.35rem; }}
   </style>
 </head>
 <body>
