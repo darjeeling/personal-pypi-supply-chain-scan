@@ -1,6 +1,89 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "mon_tokenizer-0.2.3.tar.gz",
+    "finding_count": 1,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 3,
+          "files": [
+            "mon_tokenizer-0.2.3/PKG-INFO",
+            "mon_tokenizer-0.2.3/README.md",
+            "mon_tokenizer-0.2.3/pyproject.toml"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mon_tokenizer-0.2.3/PKG-INFO",
+            "mon_tokenizer-0.2.3/README.md"
+          ],
+          "value": "huggingface.co"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 2,
+          "files": [
+            "mon_tokenizer-0.2.3/PKG-INFO",
+            "mon_tokenizer-0.2.3/pyproject.toml"
+          ],
+          "value": "https://github.com/Code-Yay-Mal/mon_tokenizer"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mon_tokenizer-0.2.3/PKG-INFO",
+            "mon_tokenizer-0.2.3/pyproject.toml"
+          ],
+          "value": "https://github.com/Code-Yay-Mal/mon_tokenizer#readme"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mon_tokenizer-0.2.3/PKG-INFO",
+            "mon_tokenizer-0.2.3/pyproject.toml"
+          ],
+          "value": "https://github.com/Code-Yay-Mal/mon_tokenizer/blob/main/CHANGELOG.md"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mon_tokenizer-0.2.3/PKG-INFO",
+            "mon_tokenizer-0.2.3/pyproject.toml"
+          ],
+          "value": "https://github.com/Code-Yay-Mal/mon_tokenizer/issues"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mon_tokenizer-0.2.3/PKG-INFO",
+            "mon_tokenizer-0.2.3/README.md"
+          ],
+          "value": "https://huggingface.co/janakhpon/mon_tokenizer"
+        }
+      ]
+    },
+    "package": "mon-tokenizer",
+    "package_slug": "mon-tokenizer",
+    "project_url": "https://pypi.org/project/mon-tokenizer/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T16:18:59.662078+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T16:19:38.560910+00:00",
+    "title": "Personal PyPI Supply Chain Scan: mon-tokenizer 0.2.3",
+    "version": "0.2.3",
+    "version_slug": "0.2.3",
+    "_metadata_path": "reports/packages/mon-tokenizer/0.2.3/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "tutor_contrib_h5p-21.0.0.tar.gz",
     "finding_count": 5,
     "model": "gpt-5.5",
