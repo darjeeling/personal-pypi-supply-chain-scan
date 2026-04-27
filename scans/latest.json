@@ -1,211 +1,123 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "agentia-0.1.39.tar.gz",
-  "finding_count": 31,
+  "distribution": "ait_vcs-0.6.6.tar.gz",
+  "finding_count": 130,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "agentia-0.1.39/agentia/llm/providers/vercel.py"
+          "ait_vcs-0.6.6/src/ait/context.py",
+          "ait_vcs-0.6.6/tests/test_context.py"
         ],
-        "value": "ai-gateway.vercel.sh"
+        "value": "files.changed"
       },
       {
         "file_count": 1,
         "files": [
-          "agentia-0.1.39/agentia/llm/providers/openai.py"
+          "ait_vcs-0.6.6/src/ait/app.py"
         ],
-        "value": "api.openai.com"
+        "value": "files.items"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "ait_vcs-0.6.6/PKG-INFO",
+          "ait_vcs-0.6.6/README.md",
+          "ait_vcs-0.6.6/src/ait/context.py",
+          "ait_vcs-0.6.6/src/ait_vcs.egg-info/PKG-INFO"
+        ],
+        "value": "files.read"
       },
       {
         "file_count": 1,
         "files": [
-          "agentia-0.1.39/agentia/llm/providers/cloudflare.py"
+          "ait_vcs-0.6.6/src/ait/app.py"
         ],
-        "value": "developers.cloudflare.com"
+        "value": "files.setdefault"
       },
       {
-        "file_count": 1,
+        "file_count": 4,
         "files": [
-          "agentia-0.1.39/agentia/llm/providers/openai.py"
+          "ait_vcs-0.6.6/PKG-INFO",
+          "ait_vcs-0.6.6/README.md",
+          "ait_vcs-0.6.6/src/ait/context.py",
+          "ait_vcs-0.6.6/src/ait_vcs.egg-info/PKG-INFO"
         ],
-        "value": "developers.openai.com"
+        "value": "files.touched"
       },
       {
-        "file_count": 1,
+        "file_count": 4,
         "files": [
-          "agentia-0.1.39/agentia/models/chat.py"
-        ],
-        "value": "files.extend"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "agentia-0.1.39/agentia/llm/providers/cloudflare.py"
-        ],
-        "value": "gateway.ai.cloudflare.com"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "agentia-0.1.39/.gitignore",
-          "agentia-0.1.39/PKG-INFO",
-          "agentia-0.1.39/pyproject.toml"
+          "ait_vcs-0.6.6/PKG-INFO",
+          "ait_vcs-0.6.6/README.md",
+          "ait_vcs-0.6.6/pyproject.toml",
+          "ait_vcs-0.6.6/src/ait_vcs.egg-info/PKG-INFO"
         ],
         "value": "github.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "agentia-0.1.39/agentia/llm/providers/ollama.py"
-        ],
-        "value": "ollama.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "agentia-0.1.39/agentia/llm/providers/openrouter.py"
-        ],
-        "value": "openrouter.ai"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "agentia-0.1.39/.gitignore"
-        ],
-        "value": "pdm.fming.dev"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "agentia-0.1.39/.gitignore"
-        ],
-        "value": "python-poetry.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "agentia-0.1.39/agentia/llm/providers/vercel.py"
-        ],
-        "value": "vercel.com"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "agentia-0.1.39/agentia/llm/providers/vercel.py"
+          "ait_vcs-0.6.6/PKG-INFO",
+          "ait_vcs-0.6.6/pyproject.toml",
+          "ait_vcs-0.6.6/src/ait_vcs.egg-info/PKG-INFO"
         ],
-        "value": "https://ai-gateway.vercel.sh/v1"
+        "value": "https://github.com/m24927605/ait"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "agentia-0.1.39/agentia/llm/providers/openai.py"
+          "ait_vcs-0.6.6/PKG-INFO",
+          "ait_vcs-0.6.6/README.md",
+          "ait_vcs-0.6.6/src/ait_vcs.egg-info/PKG-INFO"
         ],
-        "value": "https://api.openai.com/v1"
+        "value": "https://github.com/m24927605/ait.git"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "agentia-0.1.39/agentia/llm/providers/cloudflare.py"
+          "ait_vcs-0.6.6/PKG-INFO",
+          "ait_vcs-0.6.6/README.md",
+          "ait_vcs-0.6.6/src/ait_vcs.egg-info/PKG-INFO"
         ],
-        "value": "https://developers.cloudflare.com/ai-gateway/usage/providers/"
+        "value": "https://github.com/m24927605/ait.git@v0.6.6"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "agentia-0.1.39/agentia/llm/providers/openai.py"
+          "ait_vcs-0.6.6/PKG-INFO",
+          "ait_vcs-0.6.6/pyproject.toml",
+          "ait_vcs-0.6.6/src/ait_vcs.egg-info/PKG-INFO"
         ],
-        "value": "https://developers.openai.com/api/docs/models"
+        "value": "https://github.com/m24927605/ait/blob/main/CHANGELOG.md"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "agentia-0.1.39/agentia/llm/providers/cloudflare.py"
+          "ait_vcs-0.6.6/PKG-INFO",
+          "ait_vcs-0.6.6/pyproject.toml",
+          "ait_vcs-0.6.6/src/ait_vcs.egg-info/PKG-INFO"
         ],
-        "value": "https://gateway.ai.cloudflare.com/v1/{account_id"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "agentia-0.1.39/.gitignore"
-        ],
-        "value": "https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "agentia-0.1.39/PKG-INFO",
-          "agentia-0.1.39/pyproject.toml"
-        ],
-        "value": "https://github.com/wenyuzhao/agentia"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "agentia-0.1.39/agentia/llm/providers/ollama.py"
-        ],
-        "value": "https://ollama.com/library"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "agentia-0.1.39/agentia/llm/providers/openrouter.py"
-        ],
-        "value": "https://openrouter.ai/api/v1"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "agentia-0.1.39/agentia/llm/providers/openrouter.py"
-        ],
-        "value": "https://openrouter.ai/api/v1/models"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "agentia-0.1.39/agentia/llm/providers/openrouter.py"
-        ],
-        "value": "https://openrouter.ai/models"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "agentia-0.1.39/.gitignore"
-        ],
-        "value": "https://pdm.fming.dev/#use-with-ide"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "agentia-0.1.39/.gitignore"
-        ],
-        "value": "https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "agentia-0.1.39/agentia/llm/providers/vercel.py"
-        ],
-        "value": "https://vercel.com/ai-gateway/models"
+        "value": "https://github.com/m24927605/ait/issues"
       }
     ]
   },
-  "package": "agentia",
-  "package_slug": "agentia",
-  "project_url": "https://pypi.org/project/agentia/",
+  "package": "ait-vcs",
+  "package_slug": "ait-vcs",
+  "project_url": "https://pypi.org/project/ait-vcs/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T13:58:03.674408+00:00",
+  "published_at": "2026-04-27T14:02:06.491613+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T13:58:54.729266+00:00",
-  "title": "Personal PyPI Supply Chain Scan: agentia 0.1.39",
-  "version": "0.1.39",
-  "version_slug": "0.1.39",
-  "_metadata_path": "reports/packages/agentia/0.1.39/metadata.json"
+  "scanned_at": "2026-04-27T14:03:17.576935+00:00",
+  "title": "Personal PyPI Supply Chain Scan: ait-vcs 0.6.6",
+  "version": "0.6.6",
+  "version_slug": "0.6.6",
+  "_metadata_path": "reports/packages/ait-vcs/0.6.6/metadata.json"
 }
