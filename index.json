@@ -1,6 +1,270 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "ai_rulez-4.0.8.tar.gz",
+    "finding_count": 17,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 5,
+          "files": [
+            "ai_rulez-4.0.8/PKG-INFO",
+            "ai_rulez-4.0.8/README.md",
+            "ai_rulez-4.0.8/ai_rulez.egg-info/PKG-INFO",
+            "ai_rulez-4.0.8/ai_rulez/downloader.py",
+            "ai_rulez-4.0.8/setup.py"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "ai_rulez-4.0.8/PKG-INFO",
+            "ai_rulez-4.0.8/README.md",
+            "ai_rulez-4.0.8/ai_rulez.egg-info/PKG-INFO",
+            "ai_rulez-4.0.8/setup.py"
+          ],
+          "value": "goldziher.github.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ai_rulez-4.0.8/PKG-INFO",
+            "ai_rulez-4.0.8/README.md",
+            "ai_rulez-4.0.8/ai_rulez.egg-info/PKG-INFO"
+          ],
+          "value": "goreportcard.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ai_rulez-4.0.8/PKG-INFO",
+            "ai_rulez-4.0.8/README.md",
+            "ai_rulez-4.0.8/ai_rulez.egg-info/PKG-INFO"
+          ],
+          "value": "img.shields.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ai_rulez-4.0.8/PKG-INFO",
+            "ai_rulez-4.0.8/README.md",
+            "ai_rulez-4.0.8/ai_rulez.egg-info/PKG-INFO"
+          ],
+          "value": "pypi.org"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ai_rulez-4.0.8/PKG-INFO",
+            "ai_rulez-4.0.8/README.md",
+            "ai_rulez-4.0.8/ai_rulez.egg-info/PKG-INFO"
+          ],
+          "value": "www.npmjs.com"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 2,
+          "files": [
+            "ai_rulez-4.0.8/PKG-INFO",
+            "ai_rulez-4.0.8/ai_rulez.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/Goldziher/ai-rulez"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ai_rulez-4.0.8/PKG-INFO",
+            "ai_rulez-4.0.8/README.md",
+            "ai_rulez-4.0.8/ai_rulez.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/Goldziher/ai-rulez/blob/main/LICENSE"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "ai_rulez-4.0.8/PKG-INFO",
+            "ai_rulez-4.0.8/ai_rulez.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/Goldziher/ai-rulez/issues"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "ai_rulez-4.0.8/PKG-INFO",
+            "ai_rulez-4.0.8/ai_rulez.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/Goldziher/ai-rulez/releases"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ai_rulez-4.0.8/ai_rulez/downloader.py"
+          ],
+          "value": "https://github.com/Goldziher/ai-rulez/releases/download/v{version"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ai_rulez-4.0.8/ai_rulez/downloader.py"
+          ],
+          "value": "https://github.com/Goldziher/ai-rulez/releases/tag/v{__version__"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ai_rulez-4.0.8/PKG-INFO",
+            "ai_rulez-4.0.8/README.md",
+            "ai_rulez-4.0.8/ai_rulez.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/company/ai-rules.git"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ai_rulez-4.0.8/PKG-INFO",
+            "ai_rulez-4.0.8/README.md",
+            "ai_rulez-4.0.8/ai_rulez.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/kreuzberg-dev/kreuzberg"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ai_rulez-4.0.8/PKG-INFO",
+            "ai_rulez-4.0.8/ai_rulez.egg-info/PKG-INFO",
+            "ai_rulez-4.0.8/setup.py"
+          ],
+          "value": "https://github.com/sponsors/Goldziher"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ai_rulez-4.0.8/setup.py"
+          ],
+          "value": "https://github.com/{REPO_NAME"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "ai_rulez-4.0.8/PKG-INFO",
+            "ai_rulez-4.0.8/README.md",
+            "ai_rulez-4.0.8/ai_rulez.egg-info/PKG-INFO",
+            "ai_rulez-4.0.8/setup.py"
+          ],
+          "value": "https://goldziher.github.io/ai-rulez/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ai_rulez-4.0.8/PKG-INFO",
+            "ai_rulez-4.0.8/README.md",
+            "ai_rulez-4.0.8/ai_rulez.egg-info/PKG-INFO"
+          ],
+          "value": "https://goldziher.github.io/ai-rulez/examples/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ai_rulez-4.0.8/PKG-INFO",
+            "ai_rulez-4.0.8/README.md",
+            "ai_rulez-4.0.8/ai_rulez.egg-info/PKG-INFO"
+          ],
+          "value": "https://goldziher.github.io/ai-rulez/quick-start/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ai_rulez-4.0.8/PKG-INFO",
+            "ai_rulez-4.0.8/README.md",
+            "ai_rulez-4.0.8/ai_rulez.egg-info/PKG-INFO"
+          ],
+          "value": "https://goreportcard.com/badge/github.com/Goldziher/ai-rulez"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ai_rulez-4.0.8/PKG-INFO",
+            "ai_rulez-4.0.8/README.md",
+            "ai_rulez-4.0.8/ai_rulez.egg-info/PKG-INFO"
+          ],
+          "value": "https://goreportcard.com/report/github.com/Goldziher/ai-rulez"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ai_rulez-4.0.8/PKG-INFO",
+            "ai_rulez-4.0.8/README.md",
+            "ai_rulez-4.0.8/ai_rulez.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/badge/docs-ai--rulez-blue"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ai_rulez-4.0.8/PKG-INFO",
+            "ai_rulez-4.0.8/README.md",
+            "ai_rulez-4.0.8/ai_rulez.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/github/license/Goldziher/ai-rulez"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ai_rulez-4.0.8/PKG-INFO",
+            "ai_rulez-4.0.8/README.md",
+            "ai_rulez-4.0.8/ai_rulez.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/npm/v/ai-rulez"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ai_rulez-4.0.8/PKG-INFO",
+            "ai_rulez-4.0.8/README.md",
+            "ai_rulez-4.0.8/ai_rulez.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/pypi/v/ai-rulez"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ai_rulez-4.0.8/PKG-INFO",
+            "ai_rulez-4.0.8/README.md",
+            "ai_rulez-4.0.8/ai_rulez.egg-info/PKG-INFO"
+          ],
+          "value": "https://pypi.org/project/ai-rulez/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ai_rulez-4.0.8/PKG-INFO",
+            "ai_rulez-4.0.8/README.md",
+            "ai_rulez-4.0.8/ai_rulez.egg-info/PKG-INFO"
+          ],
+          "value": "https://www.npmjs.com/package/ai-rulez"
+        }
+      ]
+    },
+    "package": "ai-rulez",
+    "package_slug": "ai-rulez",
+    "project_url": "https://pypi.org/project/ai-rulez/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T15:30:13.403683+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T15:31:13.977866+00:00",
+    "title": "Personal PyPI Supply Chain Scan: ai-rulez 4.0.8",
+    "version": "4.0.8",
+    "version_slug": "4.0.8",
+    "_metadata_path": "reports/packages/ai-rulez/4.0.8/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "aftab-0.1.19.tar.gz",
     "finding_count": 14,
     "model": "gpt-5.5",
