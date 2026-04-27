@@ -1,6 +1,736 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "badger_opt-1.5.2.tar.gz",
+    "finding_count": 159,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 4,
+          "files": [
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/README.md",
+            "badger_opt-1.5.2/documentation/docs/getting-started/installation.md",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "anaconda.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/documentation/docusaurus.config.js"
+          ],
+          "value": "cdn.jsdelivr.net"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/README.md",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "christophermayes.github.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/src/badger/gui/components/reorderable_table.py"
+          ],
+          "value": "creativecommons.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/src/badger/gui/components/eliding_label.py"
+          ],
+          "value": "doc-snapshots.qt.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/documentation/docs/getting-started/installation.md"
+          ],
+          "value": "docs.python.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/.github/workflows/docs.yml"
+          ],
+          "value": "docusaurus.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/documentation/docusaurus.config.js"
+          ],
+          "value": "example.edu"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "badger_opt-1.5.2/LICENSE",
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "fsf.org"
+        },
+        {
+          "file_count": 11,
+          "files": [
+            "badger_opt-1.5.2/.pre-commit-config.yaml",
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/README.md",
+            "badger_opt-1.5.2/documentation/blog/authors.yml",
+            "badger_opt-1.5.2/documentation/docs/getting-started/tutorial_0.md",
+            "badger_opt-1.5.2/documentation/docs/guides/gui-usage.md",
+            "badger_opt-1.5.2/documentation/docs/intro.md",
+            "badger_opt-1.5.2/documentation/docusaurus.config.js"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/documentation/docs/guides/more/color-by-environment.md"
+          ],
+          "value": "htmlcolorcodes.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/README.md",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "img.shields.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/README.md",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "jacow.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/documentation/docusaurus.config.js"
+          ],
+          "value": "join.slack.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/src/badger/logbook.py"
+          ],
+          "value": "pillow.readthedocs.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/.pre-commit-config.yaml"
+          ],
+          "value": "pre-commit.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/documentation/docs/guides/more/create-environments-and-interfaces.md"
+          ],
+          "value": "pyepics.github.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/documentation/docs/getting-started/installation.md"
+          ],
+          "value": "pypi.org"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/README.md",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "slac.slack.com"
+        },
+        {
+          "file_count": 6,
+          "files": [
+            "badger_opt-1.5.2/documentation/docusaurus.config.js",
+            "badger_opt-1.5.2/src/badger/gui/components/collapsible_box.py",
+            "badger_opt-1.5.2/src/badger/gui/components/data_table.py",
+            "badger_opt-1.5.2/src/badger/gui/components/eliding_label.py",
+            "badger_opt-1.5.2/src/badger/gui/components/run_monitor.py",
+            "badger_opt-1.5.2/src/badger/utils.py"
+          ],
+          "value": "stackoverflow.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "badger_opt-1.5.2/LICENSE",
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "www.gnu.org"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "badger_opt-1.5.2/documentation/static/img/banner_a.svg",
+            "badger_opt-1.5.2/documentation/static/img/banner_b.svg",
+            "badger_opt-1.5.2/documentation/static/img/banner_c.svg",
+            "badger_opt-1.5.2/documentation/static/img/logo.svg"
+          ],
+          "value": "www.w3.org"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/README.md",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "www6.slac.stanford.edu"
+        },
+        {
+          "file_count": 9,
+          "files": [
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/README.md",
+            "badger_opt-1.5.2/documentation/README.md",
+            "badger_opt-1.5.2/documentation/algolia.json",
+            "badger_opt-1.5.2/documentation/docusaurus.config.js",
+            "badger_opt-1.5.2/pyproject.toml",
+            "badger_opt-1.5.2/src/badger/actions/install.py",
+            "badger_opt-1.5.2/src/badger/actions/uninstall.py"
+          ],
+          "value": "xopt-org.github.io"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 4,
+          "files": [
+            "badger_opt-1.5.2/documentation/static/img/banner_a.svg",
+            "badger_opt-1.5.2/documentation/static/img/banner_b.svg",
+            "badger_opt-1.5.2/documentation/static/img/banner_c.svg",
+            "badger_opt-1.5.2/documentation/static/img/logo.svg"
+          ],
+          "value": "http://www.w3.org/1999/xlink"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "badger_opt-1.5.2/documentation/static/img/banner_a.svg",
+            "badger_opt-1.5.2/documentation/static/img/banner_b.svg",
+            "badger_opt-1.5.2/documentation/static/img/banner_c.svg",
+            "badger_opt-1.5.2/documentation/static/img/logo.svg"
+          ],
+          "value": "http://www.w3.org/2000/svg"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/README.md",
+            "badger_opt-1.5.2/documentation/docs/getting-started/installation.md",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "https://anaconda.org/conda-forge/badger-opt"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/documentation/docusaurus.config.js"
+          ],
+          "value": "https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/README.md",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "https://christophermayes.github.io/Xopt/index.html"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/src/badger/gui/components/reorderable_table.py"
+          ],
+          "value": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/src/badger/gui/components/reorderable_table.py"
+          ],
+          "value": "https://creativecommons.org/publicdomain/zero/1.0/legalcode"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/src/badger/gui/components/eliding_label.py"
+          ],
+          "value": "https://doc-snapshots.qt.io/qtforpython-5.15/PySide2/QtCore/Qt.html#PySide2.QtCore.PySide2.QtCore.Qt.WindowType"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/src/badger/gui/components/eliding_label.py"
+          ],
+          "value": "https://doc-snapshots.qt.io/qtforpython-5.15/overviews/qtwidgets-widgets-elidedlabel-example.html"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/documentation/docs/getting-started/installation.md"
+          ],
+          "value": "https://docs.python.org/3/library/venv.html"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/.github/workflows/docs.yml"
+          ],
+          "value": "https://docusaurus.io/docs/deployment#triggering-deployment-with-github-actions"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/documentation/docusaurus.config.js"
+          ],
+          "value": "https://example.edu/docs/are/here"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "badger_opt-1.5.2/LICENSE",
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "https://fsf.org/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/README.md",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/ChristopherMayes/Xopt/tree/main"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/.pre-commit-config.yaml"
+          ],
+          "value": "https://github.com/astral-sh/ruff-pre-commit"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/README.md",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/ocelot-collab/optimizer"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/.pre-commit-config.yaml"
+          ],
+          "value": "https://github.com/pre-commit/pre-commit-hooks.git"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/documentation/blog/authors.yml"
+          ],
+          "value": "https://github.com/ratnerd0"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/documentation/blog/authors.yml"
+          ],
+          "value": "https://github.com/ratnerd0.png"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/documentation/docs/getting-started/tutorial_0.md",
+            "badger_opt-1.5.2/documentation/docusaurus.config.js",
+            "badger_opt-1.5.2/pyproject.toml",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/xopt-org/Badger"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/README.md",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/xopt-org/Badger/actions/workflows/tests.yml/badge.svg?branch=main"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/README.md",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/xopt-org/Badger/actions/workflows/tests.yml?query=branch%3Amain"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/README.md",
+            "badger_opt-1.5.2/pyproject.toml",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/xopt-org/Badger/issues"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/documentation/docs/guides/gui-usage.md"
+          ],
+          "value": "https://github.com/xopt-org/Badger/issues/new"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/README.md",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/xopt-org/Badger/issues/new/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/documentation/docusaurus.config.js"
+          ],
+          "value": "https://github.com/xopt-org/Badger/tree/main/documentation"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/documentation/docs/intro.md"
+          ],
+          "value": "https://github.com/xopt-org/Xopt"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/README.md",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/xopt-org/badger.git"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/src/badger/utils.py"
+          ],
+          "value": "https://github.com/yaml/pyyaml/issues/234#issuecomment-765894586"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/documentation/blog/authors.yml"
+          ],
+          "value": "https://github.com/zhe-slac"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/documentation/blog/authors.yml"
+          ],
+          "value": "https://github.com/zhe-slac.png"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/documentation/docs/guides/more/color-by-environment.md"
+          ],
+          "value": "https://htmlcolorcodes.com/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/README.md",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/badge/Badger-documentation-blue.svg"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/README.md",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/badge/recipe-badger-opt.svg"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/README.md",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/conda/dn/conda-forge/badger-opt.svg"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/README.md",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/conda/pn/conda-forge/badger-opt.svg"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/README.md",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/conda/vn/conda-forge/badger-opt.svg"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/README.md",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "https://jacow.org/ipac2022/papers/tupost058.pdf"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/documentation/docusaurus.config.js"
+          ],
+          "value": "https://join.slack.com/share/enQtNzQ1MzcyNTQ1NjAwNC0zZWVkYWQ1OWUxODViYTdjZmNhODVmNmRhMjkwZTQ3ZmM1MGJjYWIzNGRmMzg5MzA1ZjIwMjIxMjMxYjQ0YTVl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/src/badger/logbook.py"
+          ],
+          "value": "https://pillow.readthedocs.io/en/stable/handbook/image-file-formats.html?highlight=eps#eps"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/.pre-commit-config.yaml"
+          ],
+          "value": "https://pre-commit.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/.pre-commit-config.yaml"
+          ],
+          "value": "https://pre-commit.com/hooks.html"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/documentation/docs/guides/more/create-environments-and-interfaces.md"
+          ],
+          "value": "https://pyepics.github.io/pyepics/ca.html"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/documentation/docs/getting-started/installation.md"
+          ],
+          "value": "https://pypi.org/project/badger-opt/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/README.md",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "https://slac.slack.com/archives/C02AQS1EGB0"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/src/badger/utils.py"
+          ],
+          "value": "https://stackoverflow.com/a/18472142"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/src/badger/utils.py"
+          ],
+          "value": "https://stackoverflow.com/a/39681672/4263605"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/src/badger/gui/components/collapsible_box.py"
+          ],
+          "value": "https://stackoverflow.com/a/52617714/4263605"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/src/badger/gui/components/collapsible_box.py"
+          ],
+          "value": "https://stackoverflow.com/a/56293688"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/src/badger/utils.py"
+          ],
+          "value": "https://stackoverflow.com/a/61901696/4263605"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/src/badger/gui/components/run_monitor.py"
+          ],
+          "value": "https://stackoverflow.com/a/64081483"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/src/badger/gui/components/eliding_label.py"
+          ],
+          "value": "https://stackoverflow.com/a/67628976/4263605"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/src/badger/gui/components/data_table.py"
+          ],
+          "value": "https://stackoverflow.com/questions/60715462/how-to-copy-and-paste-multiple-cells-in-qtablewidget-in-pyqt5"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/documentation/docusaurus.config.js"
+          ],
+          "value": "https://stackoverflow.com/questions/tagged/badger-opt"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "badger_opt-1.5.2/LICENSE",
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "https://www.gnu.org/licenses/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "badger_opt-1.5.2/LICENSE",
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "https://www.gnu.org/licenses/why-not-lgpl.html"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/README.md",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "https://www6.slac.stanford.edu/about/our-people"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/documentation/docusaurus.config.js"
+          ],
+          "value": "https://xopt-org.github.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/README.md",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "https://xopt-org.github.io/Badger"
+        },
+        {
+          "file_count": 8,
+          "files": [
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/README.md",
+            "badger_opt-1.5.2/documentation/README.md",
+            "badger_opt-1.5.2/documentation/algolia.json",
+            "badger_opt-1.5.2/pyproject.toml",
+            "badger_opt-1.5.2/src/badger/actions/install.py",
+            "badger_opt-1.5.2/src/badger/actions/uninstall.py",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "https://xopt-org.github.io/Badger/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "badger_opt-1.5.2/PKG-INFO",
+            "badger_opt-1.5.2/README.md",
+            "badger_opt-1.5.2/src/badger_opt.egg-info/PKG-INFO"
+          ],
+          "value": "https://xopt-org.github.io/Badger/docs/getting-started/tutorial_0"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "badger_opt-1.5.2/documentation/algolia.json"
+          ],
+          "value": "https://xopt-org.github.io/Badger/sitemap.xml"
+        }
+      ]
+    },
+    "package": "badger-opt",
+    "package_slug": "badger-opt",
+    "project_url": "https://pypi.org/project/badger-opt/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T22:03:32.466137+00:00",
+    "risk": "high",
+    "scanned_at": "2026-04-27T22:05:08.395775+00:00",
+    "title": "Personal PyPI Supply Chain Scan: badger-opt 1.5.2",
+    "version": "1.5.2",
+    "version_slug": "1.5.2",
+    "_metadata_path": "reports/packages/badger-opt/1.5.2/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "tiexiu-0.1.1a4-cp38-abi3-win_amd64.whl",
     "finding_count": 7,
     "model": "gpt-5.5",
