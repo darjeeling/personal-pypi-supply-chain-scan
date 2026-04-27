@@ -1,40 +1,27 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "memographix-0.1.6.tar.gz",
-  "finding_count": 26,
+  "distribution": "bitquery_pb2_kafka_package-0.2.27.tar.gz",
+  "finding_count": 23,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "memographix-0.1.6/crates/memographix-core/src/lib.rs"
+          "bitquery_pb2_kafka_package-0.2.27/PKG-INFO",
+          "bitquery_pb2_kafka_package-0.2.27/README.md",
+          "bitquery_pb2_kafka_package-0.2.27/bitquery_pb2_kafka_package.egg-info/PKG-INFO"
         ],
-        "value": "files.push"
+        "value": "docs.bitquery.io"
       },
       {
-        "file_count": 4,
+        "file_count": 3,
         "files": [
-          "memographix-0.1.6/PKG-INFO",
-          "memographix-0.1.6/crates/memographix-core/Cargo.lock",
-          "memographix-0.1.6/crates/memographix-core/Cargo.toml",
-          "memographix-0.1.6/pyproject.toml"
+          "bitquery_pb2_kafka_package-0.2.27/PKG-INFO",
+          "bitquery_pb2_kafka_package-0.2.27/bitquery_pb2_kafka_package.egg-info/PKG-INFO",
+          "bitquery_pb2_kafka_package-0.2.27/pyproject.toml"
         ],
         "value": "github.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "memographix-0.1.6/python/memographix/config.py"
-        ],
-        "value": "raw.items"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "memographix-0.1.6/crates/memographix-core/src/lib.rs"
-        ],
-        "value": "raw.trim"
       }
     ],
     "raw_public_ips": [],
@@ -43,39 +30,42 @@
       {
         "file_count": 3,
         "files": [
-          "memographix-0.1.6/PKG-INFO",
-          "memographix-0.1.6/crates/memographix-core/Cargo.toml",
-          "memographix-0.1.6/pyproject.toml"
+          "bitquery_pb2_kafka_package-0.2.27/PKG-INFO",
+          "bitquery_pb2_kafka_package-0.2.27/README.md",
+          "bitquery_pb2_kafka_package-0.2.27/bitquery_pb2_kafka_package.egg-info/PKG-INFO"
         ],
-        "value": "https://github.com/coderalnaim/memographix"
+        "value": "https://docs.bitquery.io/docs/streams/kafka-streaming-concepts/"
       },
       {
-        "file_count": 2,
+        "file_count": 3,
         "files": [
-          "memographix-0.1.6/PKG-INFO",
-          "memographix-0.1.6/pyproject.toml"
+          "bitquery_pb2_kafka_package-0.2.27/PKG-INFO",
+          "bitquery_pb2_kafka_package-0.2.27/README.md",
+          "bitquery_pb2_kafka_package-0.2.27/bitquery_pb2_kafka_package.egg-info/PKG-INFO"
         ],
-        "value": "https://github.com/coderalnaim/memographix/issues"
+        "value": "https://docs.bitquery.io/docs/trading/price-index/introduction/"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "memographix-0.1.6/crates/memographix-core/Cargo.lock"
+          "bitquery_pb2_kafka_package-0.2.27/PKG-INFO",
+          "bitquery_pb2_kafka_package-0.2.27/bitquery_pb2_kafka_package.egg-info/PKG-INFO",
+          "bitquery_pb2_kafka_package-0.2.27/pyproject.toml"
         ],
-        "value": "https://github.com/rust-lang/crates.io-index"
+        "value": "https://github.com/bitquery/streaming_protobuf/tree/main"
       }
     ]
   },
-  "package": "memographix",
-  "package_slug": "memographix",
-  "project_url": "https://pypi.org/project/memographix/",
+  "package": "bitquery-pb2-kafka-package",
+  "package_slug": "bitquery-pb2-kafka-package",
+  "project_url": "https://pypi.org/project/bitquery-pb2-kafka-package/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T12:56:02.045899+00:00",
+  "published_at": "2026-04-27T13:01:14.666995+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T12:57:50.847926+00:00",
-  "title": "Personal PyPI Supply Chain Scan: memographix 0.1.6",
-  "version": "0.1.6",
-  "version_slug": "0.1.6",
-  "_metadata_path": "reports/packages/memographix/0.1.6/metadata.json"
+  "scanned_at": "2026-04-27T13:02:11.635033+00:00",
+  "title": "Personal PyPI Supply Chain Scan: bitquery-pb2-kafka-package 0.2.27",
+  "version": "0.2.27",
+  "version_slug": "0.2.27",
+  "_metadata_path": "reports/packages/bitquery-pb2-kafka-package/0.2.27/metadata.json"
 }
