@@ -1,652 +1,1177 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "phew_mlx-0.2.6.tar.gz",
-  "finding_count": 748,
+  "distribution": "cssutils-2.15.0.tar.gz",
+  "finding_count": 328,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/README.md"
+          "cssutils-2.15.0/docs/html/docs/encutils.html"
         ],
-        "value": "alyssarosenzweig.ca"
+        "value": "aspn.activestate.com"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/README.md"
+          "cssutils-2.15.0/docs/html/_static/jquery.js"
         ],
-        "value": "arxiv.org"
+        "value": "b.top-e.top"
       },
       {
-        "file_count": 1,
+        "file_count": 6,
         "files": [
-          "phew_mlx-0.2.6/README.md"
+          "cssutils-2.15.0/NEWS.rst",
+          "cssutils-2.15.0/cssutils/__init__.py",
+          "cssutils-2.15.0/cssutils/profiles.py",
+          "cssutils-2.15.0/docs/conf.py",
+          "cssutils-2.15.0/docs/html/CHANGELOG.html",
+          "cssutils-2.15.0/docs/html/README.html"
         ],
-        "value": "developer.apple.com"
+        "value": "bitbucket.org"
       },
       {
-        "file_count": 1,
+        "file_count": 5,
         "files": [
-          "phew_mlx-0.2.6/README.md"
+          "cssutils-2.15.0/.github/workflows/main.yml",
+          "cssutils-2.15.0/AGENTS.md",
+          "cssutils-2.15.0/PKG-INFO",
+          "cssutils-2.15.0/README.rst",
+          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO"
         ],
-        "value": "doi.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "phew_mlx-0.2.6/uv.lock"
-        ],
-        "value": "files.pythonhosted.org"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "phew_mlx-0.2.6/.pre-commit-config.yaml",
-          "phew_mlx-0.2.6/README.md",
-          "phew_mlx-0.2.6/phew/SKILL.md"
-        ],
-        "value": "github.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "phew_mlx-0.2.6/README.md"
-        ],
-        "value": "img.shields.io"
+        "value": "blog.jaraco.com"
       },
       {
         "file_count": 2,
         "files": [
-          "phew_mlx-0.2.6/.github/workflows/ci.yml",
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/examples/sheets/t-HACKS.css",
+          "cssutils-2.15.0/tests/sheets/t-HACKS.css"
+        ],
+        "value": "centricle.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cssutils-2.15.0/docs/html/docs/encutils.html"
+        ],
+        "value": "chardet.feedparser.org"
+      },
+      {
+        "file_count": 7,
+        "files": [
+          "cssutils-2.15.0/NEWS.rst",
+          "cssutils-2.15.0/docs/html/CHANGELOG.html",
+          "cssutils-2.15.0/docs/html/README.html",
+          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt",
+          "cssutils-2.15.0/docs/html/_sources/README.txt",
+          "cssutils-2.15.0/docs/html/_sources/index.txt",
+          "cssutils-2.15.0/docs/html/index.html"
+        ],
+        "value": "code.google.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cssutils-2.15.0/.coveragerc"
+        ],
+        "value": "coverage.readthedocs.io"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cssutils-2.15.0/docs/html/docs/encutils.html"
+        ],
+        "value": "creativecommons.org"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "cssutils-2.15.0/PKG-INFO",
+          "cssutils-2.15.0/README.rst",
+          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO",
+          "cssutils-2.15.0/cssutils/__init__.py"
+        ],
+        "value": "cssutils.readthedocs.io"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "cssutils-2.15.0/NEWS.rst",
+          "cssutils-2.15.0/docs/html/CHANGELOG.html",
+          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
+        ],
+        "value": "csswg.inkedblade.net"
+      },
+      {
+        "file_count": 16,
+        "files": [
+          "cssutils-2.15.0/NEWS.rst",
+          "cssutils-2.15.0/docs/html/CHANGELOG.html",
+          "cssutils-2.15.0/docs/html/README.html",
+          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt",
+          "cssutils-2.15.0/docs/html/_sources/README.txt",
+          "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
+          "cssutils-2.15.0/docs/html/_sources/index.txt",
+          "cssutils-2.15.0/docs/html/docs/encutils.html"
+        ],
+        "value": "cthedot.de"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cssutils-2.15.0/docs/html/docs/scripts.html"
+        ],
+        "value": "cthedot.de&"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cssutils-2.15.0/docs/html/_static/jquery.js"
+        ],
+        "value": "d.top"
+      },
+      {
+        "file_count": 12,
+        "files": [
+          "cssutils-2.15.0/NEWS.rst",
+          "cssutils-2.15.0/PKG-INFO",
+          "cssutils-2.15.0/README.rst",
+          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO",
+          "cssutils-2.15.0/cssutils/__init__.py",
+          "cssutils-2.15.0/cssutils/css/cssnamespacerule.py",
+          "cssutils-2.15.0/cssutils/css/cssrulelist.py",
+          "cssutils-2.15.0/cssutils/css/cssstylesheet.py"
+        ],
+        "value": "dev.w3.org"
+      },
+      {
+        "file_count": 10,
+        "files": [
+          "cssutils-2.15.0/NEWS.rst",
+          "cssutils-2.15.0/PKG-INFO",
+          "cssutils-2.15.0/README.rst",
+          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO",
+          "cssutils-2.15.0/cssutils/css/cssvariablesdeclaration.py",
+          "cssutils-2.15.0/cssutils/css/cssvariablesrule.py",
+          "cssutils-2.15.0/docs/html/CHANGELOG.html",
+          "cssutils-2.15.0/docs/html/README.html"
+        ],
+        "value": "disruptive-innovations.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cssutils-2.15.0/ruff.toml"
+        ],
+        "value": "docs.astral.sh"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "cssutils-2.15.0/docs/conf.py",
+          "cssutils-2.15.0/docs/html/docs/css.html",
+          "cssutils-2.15.0/docs/html/docs/stylesheets.html"
+        ],
+        "value": "docs.python.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cssutils-2.15.0/docs/html/_static/jquery.js"
+        ],
+        "value": "f.style.top"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cssutils-2.15.0/docs/html/_static/jquery.js"
+        ],
+        "value": "f.top"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cssutils-2.15.0/docs/html/docs/encutils.html"
+        ],
+        "value": "feedparser.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cssutils-2.15.0/docs/html/_static/searchtools.js"
+        ],
+        "value": "files.length"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cssutils-2.15.0/LICENSE"
+        ],
+        "value": "fsf.org"
+      },
+      {
+        "file_count": 9,
+        "files": [
+          "cssutils-2.15.0/.pre-commit-config.yaml",
+          "cssutils-2.15.0/NEWS.rst",
+          "cssutils-2.15.0/PKG-INFO",
+          "cssutils-2.15.0/README.rst",
+          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO",
+          "cssutils-2.15.0/docs/conf.py",
+          "cssutils-2.15.0/mypy.ini",
+          "cssutils-2.15.0/pyproject.toml"
+        ],
+        "value": "github.com"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "cssutils-2.15.0/docs/html/README.html",
+          "cssutils-2.15.0/docs/html/_sources/README.txt",
+          "cssutils-2.15.0/docs/html/_sources/index.txt",
+          "cssutils-2.15.0/docs/html/index.html"
+        ],
+        "value": "groups.google.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "cssutils-2.15.0/examples/sheets/sample_5.css",
+          "cssutils-2.15.0/tests/sheets/sample_5.css"
+        ],
+        "value": "gs-shoping.net"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "cssutils-2.15.0/PKG-INFO",
+          "cssutils-2.15.0/README.rst",
+          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO"
+        ],
+        "value": "img.shields.io"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "cssutils-2.15.0/NEWS.rst",
+          "cssutils-2.15.0/docs/html/CHANGELOG.html",
+          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
+        ],
+        "value": "jimmyg.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cssutils-2.15.0/docs/html/_static/jquery.js"
+        ],
+        "value": "jquery.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cssutils-2.15.0/docs/html/_static/jquery.js"
+        ],
+        "value": "jquery.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cssutils-2.15.0/docs/html/README.html"
+        ],
+        "value": "packages.python.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cssutils-2.15.0/docs/conf.py"
+        ],
+        "value": "peps.python.org"
+      },
+      {
+        "file_count": 6,
+        "files": [
+          "cssutils-2.15.0/NEWS.rst",
+          "cssutils-2.15.0/PKG-INFO",
+          "cssutils-2.15.0/README.rst",
+          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO",
+          "cssutils-2.15.0/cssutils/_fetch.py",
+          "cssutils-2.15.0/docs/conf.py"
         ],
         "value": "pypi.org"
       },
       {
+        "file_count": 5,
+        "files": [
+          "cssutils-2.15.0/NEWS.rst",
+          "cssutils-2.15.0/docs/html/CHANGELOG.html",
+          "cssutils-2.15.0/docs/html/README.html",
+          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt",
+          "cssutils-2.15.0/docs/html/_sources/README.txt"
+        ],
+        "value": "pypi.python.org"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "cssutils-2.15.0/PKG-INFO",
+          "cssutils-2.15.0/README.rst",
+          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO"
+        ],
+        "value": "raw.githubusercontent.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "cssutils-2.15.0/PKG-INFO",
+          "cssutils-2.15.0/README.rst",
+          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO"
+        ],
+        "value": "readthedocs.org"
+      },
+      {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/LICENSE.md"
+          "cssutils-2.15.0/tests/test_cssstyledeclaration.py"
         ],
-        "value": "www.apache.org"
+        "value": "s.top"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "cssutils-2.15.0/tests/test_cssutils.py",
+          "cssutils-2.15.0/tools/try.py"
+        ],
+        "value": "seewhatever.de"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cssutils-2.15.0/docs/html/_static/jquery.js"
+        ],
+        "value": "sizzlejs.com"
+      },
+      {
+        "file_count": 21,
+        "files": [
+          "cssutils-2.15.0/docs/html/CHANGELOG.html",
+          "cssutils-2.15.0/docs/html/README.html",
+          "cssutils-2.15.0/docs/html/_2to3 py3.html",
+          "cssutils-2.15.0/docs/html/docs/backlog.html",
+          "cssutils-2.15.0/docs/html/docs/codec.html",
+          "cssutils-2.15.0/docs/html/docs/css.html",
+          "cssutils-2.15.0/docs/html/docs/encutils.html",
+          "cssutils-2.15.0/docs/html/docs/logging.html"
+        ],
+        "value": "sphinx.pocoo.org"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "cssutils-2.15.0/examples/sheets/tigris.css",
+          "cssutils-2.15.0/examples/sheets/tigris2.css",
+          "cssutils-2.15.0/tests/sheets/tigris.css",
+          "cssutils-2.15.0/tests/sheets/tigris2.css"
+        ],
+        "value": "style.tigris.org"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "cssutils-2.15.0/PKG-INFO",
+          "cssutils-2.15.0/README.rst",
+          "cssutils-2.15.0/SECURITY.md",
+          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO"
+        ],
+        "value": "tidelift.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "cssutils-2.15.0/cssutils/__init__.py",
+          "cssutils-2.15.0/cssutils/profiles.py",
+          "cssutils-2.15.0/docs/conf.py"
+        ],
+        "value": "web.archive.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cssutils-2.15.0/docs/conf.py"
+        ],
+        "value": "wikipedia.org"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "cssutils-2.15.0/cssutils/css/cssstyledeclaration.py",
+          "cssutils-2.15.0/cssutils/util.py",
+          "cssutils-2.15.0/docs/html/docs/css.html"
+        ],
+        "value": "www.dustindiaz.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cssutils-2.15.0/tests/test_cssimportrule.py"
+        ],
+        "value": "www.example.com"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "cssutils-2.15.0/LICENSE",
+          "cssutils-2.15.0/docs/html/README.html",
+          "cssutils-2.15.0/docs/html/_sources/README.txt",
+          "cssutils-2.15.0/docs/html/docs/encutils.html"
+        ],
+        "value": "www.gnu.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cssutils-2.15.0/docs/html/docs/encutils.html"
+        ],
+        "value": "www.ietf.org"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "cssutils-2.15.0/examples/sheets/sample_5.css",
+          "cssutils-2.15.0/tests/sheets/sample_5.css"
+        ],
+        "value": "www.ng4a.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "cssutils-2.15.0/examples/sheets/test.css",
+          "cssutils-2.15.0/tests/sheets/test.css"
+        ],
+        "value": "www.steadystate.com"
+      },
+      {
+        "file_count": 52,
+        "files": [
+          "cssutils-2.15.0/NEWS.rst",
+          "cssutils-2.15.0/PKG-INFO",
+          "cssutils-2.15.0/README.rst",
+          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO",
+          "cssutils-2.15.0/cssutils/__init__.py",
+          "cssutils-2.15.0/cssutils/css/__init__.py",
+          "cssutils-2.15.0/cssutils/css/colors.py",
+          "cssutils-2.15.0/cssutils/css/cssfontfacerule.py"
+        ],
+        "value": "www.w3.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cssutils-2.15.0/docs/html/docs/encutils.html"
+        ],
+        "value": "www.xml.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cssutils-2.15.0/tests/test_util.py"
+        ],
+        "value": "x"
       }
     ],
     "raw_public_ips": [],
-    "suspicious_endpoints": [],
+    "suspicious_endpoints": [
+      {
+        "file_count": 3,
+        "files": [
+          "cssutils-2.15.0/PKG-INFO",
+          "cssutils-2.15.0/README.rst",
+          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO"
+        ],
+        "value": "raw.githubusercontent.com"
+      }
+    ],
     "urls": [
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/LICENSE.md"
+          "cssutils-2.15.0/docs/html/docs/encutils.html"
         ],
-        "value": "http://www.apache.org/licenses/"
+        "value": "http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/363841"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/LICENSE.md"
+          "cssutils-2.15.0/docs/html/docs/encutils.html"
         ],
-        "value": "http://www.apache.org/licenses/LICENSE-2.0"
+        "value": "http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/52257"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "phew_mlx-0.2.6/README.md"
+          "cssutils-2.15.0/examples/sheets/t-HACKS.css",
+          "cssutils-2.15.0/tests/sheets/t-HACKS.css"
         ],
-        "value": "https://alyssarosenzweig.ca/blog/asahi-gpu-part-3.html"
+        "value": "http://centricle.com/ref/css/filters/?highlight_columns=true"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/README.md"
+          "cssutils-2.15.0/docs/html/docs/encutils.html"
         ],
-        "value": "https://arxiv.org/abs/2101.01332"
+        "value": "http://chardet.feedparser.org/"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "phew_mlx-0.2.6/README.md"
+          "cssutils-2.15.0/docs/html/_sources/index.txt",
+          "cssutils-2.15.0/docs/html/index.html"
         ],
-        "value": "https://arxiv.org/abs/2405.05751"
+        "value": "http://code.google.com/p/cssutils"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "phew_mlx-0.2.6/README.md"
+          "cssutils-2.15.0/docs/html/README.html",
+          "cssutils-2.15.0/docs/html/_sources/README.txt"
         ],
-        "value": "https://developer.apple.com/videos/play/wwdc2025/315/"
+        "value": "http://code.google.com/p/cssutils/"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "phew_mlx-0.2.6/README.md"
+          "cssutils-2.15.0/NEWS.rst",
+          "cssutils-2.15.0/docs/html/CHANGELOG.html",
+          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
         ],
-        "value": "https://doi.org/10.1145/3434304"
+        "value": "http://code.google.com/p/cssutils/issues/detail?id=21"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/_sources/README.txt"
         ],
-        "value": "https://files.pythonhosted.org/packages/00/71/3a69e86f3eafe8c7a59d008d245888051005bd657760e96d5fbfb0b740c2/tomli-2.4.1-cp314-cp314-musllinux_1_2_aarch64.whl"
+        "value": "http://code.google.com/p/cssutils/issues/list"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/docs/encutils.html"
         ],
-        "value": "https://files.pythonhosted.org/packages/00/c0/8f5d070730d7836adc9c9b6408dec68c6ced86b304a9b26a14df072a6e8c/traitlets-5.14.3-py3-none-any.whl"
+        "value": "http://creativecommons.org/licenses/by/3.0/"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/NEWS.rst",
+          "cssutils-2.15.0/docs/html/CHANGELOG.html",
+          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
         ],
-        "value": "https://files.pythonhosted.org/packages/01/8e/1e35281b8ab6d5d72ebe9911edcdffa3f36b04ed9d51dec6dd140396e220/scipy-1.17.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+        "value": "http://csswg.inkedblade.net/spec/css2.1#issue-23"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
+          "cssutils-2.15.0/docs/scripts.rst"
         ],
-        "value": "https://files.pythonhosted.org/packages/01/c8/dc6ae86e3c61cfec1f178e5c9f7858584049b6093f843bca541f94120920/numpy-2.2.6-cp310-cp310-musllinux_1_2_x86_64.whl"
+        "value": "http://cthedot.de"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/docs/scripts.html"
         ],
-        "value": "https://files.pythonhosted.org/packages/02/e0/3630057d8eb170310785723ed5adcdfb7d50cb7e6455f85ba8a3deed642b/tomli-2.4.1-cp314-cp314t-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl"
+        "value": "http://cthedot.de&#39"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/tests/test_util.py",
+          "cssutils-2.15.0/tools/try.py"
         ],
-        "value": "https://files.pythonhosted.org/packages/03/87/e766c7f2e90c07fb7586cc787c9ae6462b1eedab390191f2b7fc7f6170a9/black-26.3.1-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl"
+        "value": "http://cthedot.de/__UNKNOWN__.css"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
+          "cssutils-2.15.0/docs/html/docs/scripts.html",
+          "cssutils-2.15.0/docs/scripts.rst"
         ],
-        "value": "https://files.pythonhosted.org/packages/04/74/f4c001f4714c3ad9ce037e18cf2b9c64871a84951eaa0baf683a9ca9301c/numpy-2.4.4-pp311-pypy311_pp73-win_amd64.whl"
+        "value": "http://cthedot.de/css/default.css"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/docs/scripts.html"
         ],
-        "value": "https://files.pythonhosted.org/packages/04/78/0acd37ca84ce3ddffaa92ef0f571e073faa6d8ff1f0559ab1272188ea2be/psutil-7.2.2-cp36-abi3-musllinux_1_2_x86_64.whl"
+        "value": "http://cthedot.de/css/default.css&#39"
       },
       {
-        "file_count": 1,
+        "file_count": 4,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/README.html",
+          "cssutils-2.15.0/docs/html/_sources/README.txt",
+          "cssutils-2.15.0/docs/html/_sources/index.txt",
+          "cssutils-2.15.0/docs/html/index.html"
         ],
-        "value": "https://files.pythonhosted.org/packages/04/91/a5935b2a63e31b331060c4a9fdb5a6c725840858c599032a6f3aac94055f/black-26.3.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl"
+        "value": "http://cthedot.de/cssutils/"
       },
       {
-        "file_count": 1,
+        "file_count": 4,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/NEWS.rst",
+          "cssutils-2.15.0/docs/html/CHANGELOG.html",
+          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt",
+          "cssutils-2.15.0/docs/html/docs/encutils.html"
         ],
-        "value": "https://files.pythonhosted.org/packages/04/92/086f89b4d622a18418bac74ab5db7f68cf0c21cf7cc92de6c7b919d76c88/pytokens-0.4.1-cp310-cp310-musllinux_1_2_x86_64.whl"
+        "value": "http://cthedot.de/encutils/"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/docs/encutils.html"
         ],
-        "value": "https://files.pythonhosted.org/packages/05/1a/d8007a5138c179c2bf33ef44503e83d70434d2642877ee8fbb230e7c0548/numpy-2.4.4-cp314-cp314t-macosx_14_0_arm64.whl"
+        "value": "http://cthedot.de/encutils/&#39"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/docs/encutils.html"
         ],
-        "value": "https://files.pythonhosted.org/packages/05/38/30f541baf6a3f6df77b3df16b01ba319221389e2da59427e221ef417ac0c/tomli-2.4.1-cp314-cp314t-musllinux_1_2_aarch64.whl"
+        "value": "http://cthedot.de/encutils/license/"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/examples/website.py",
+          "cssutils-2.15.0/tests/test_parse.py"
         ],
-        "value": "https://files.pythonhosted.org/packages/05/81/a09a32a406e23c18b17c7c27f1c194fbbbda5d6524fcabf47f1678c872ad/egglog-11.4.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+        "value": "http://cthedot.de/not-present.css"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/NEWS.rst",
+          "cssutils-2.15.0/docs/html/CHANGELOG.html",
+          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
         ],
-        "value": "https://files.pythonhosted.org/packages/06/1c/1172a88d507a4baaf72c5a09bb6c018fe2ae0ab622e5830b703a46cc9e44/scipy-1.17.1-cp313-cp313t-win_amd64.whl"
+        "value": "http://cthedot.de/restserver/"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
+          "cssutils-2.15.0/docs/scripts.rst"
         ],
-        "value": "https://files.pythonhosted.org/packages/07/06/b823a7e818c756d9a7123ba2cda7d07bc2dd32835648d1a7b7b7a05d848d/tomli-2.4.1-cp313-cp313-macosx_10_13_x86_64.whl"
+        "value": "http://cthedot.de/static/alternate1.css"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/docs/scripts.html"
         ],
-        "value": "https://files.pythonhosted.org/packages/07/39/338d9219c4e87f3e708f18857ecd24d22a0c3094752393319553096b98af/scipy-1.17.1-cp314-cp314t-win_arm64.whl"
+        "value": "http://cthedot.de/static/alternate1.css&#39"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
+          "cssutils-2.15.0/docs/scripts.rst"
         ],
-        "value": "https://files.pythonhosted.org/packages/07/9c/0ddb0d0abdabe0d181c1793db51f02cd59e4901da6f9f7848e1f96759f0d/scipy-1.15.3-cp312-cp312-macosx_14_0_arm64.whl"
+        "value": "http://cthedot.de/static/alternate2.css"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/docs/scripts.html"
         ],
-        "value": "https://files.pythonhosted.org/packages/07/b6/89d837eddef52b3d0cec5c6ba0456c1bf1b9ef6a6672fc2b7873c3ec4e2e/numpy-2.2.6-cp310-cp310-musllinux_1_2_aarch64.whl"
+        "value": "http://cthedot.de/static/alternate2.css&#39"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
+          "cssutils-2.15.0/docs/html/docs/scripts.html",
+          "cssutils-2.15.0/docs/scripts.rst"
         ],
-        "value": "https://files.pythonhosted.org/packages/07/d2/c4b1b1d9f97cee8ee7376068c90903f0a6a86cee2bff37a81e283ddfb8bf/egglog-13.1.0-cp313-cp313-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl"
+        "value": "http://cthedot.de/static/cssutils/examples/capturefrom.html"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
+          "cssutils-2.15.0/docs/html/docs/scripts.html",
+          "cssutils-2.15.0/docs/scripts.rst"
         ],
-        "value": "https://files.pythonhosted.org/packages/07/f9/3497bb42d91eafde35586e8e63ff76abc1e5cb46a758abe1b783226e2d07/egglog-11.4.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+        "value": "http://cthedot.de/static/cssutils/examples/css/inlineimport2.css"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
+          "cssutils-2.15.0/docs/html/docs/scripts.html",
+          "cssutils-2.15.0/docs/scripts.rst"
         ],
-        "value": "https://files.pythonhosted.org/packages/08/8a/0861bec20485572fbddf3dfba2910e38fe249796cb73ecdeb74e07eeb8d3/zipp-3.23.1-py3-none-any.whl"
+        "value": "http://cthedot.de/static/cssutils/examples/css/inlineimportimport1.css"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
+          "cssutils-2.15.0/docs/html/docs/scripts.html",
+          "cssutils-2.15.0/docs/scripts.rst"
         ],
-        "value": "https://files.pythonhosted.org/packages/08/e7/a851a451b1327af9fb4df3991b9ae87d066b6f6630e854af55c288b0995a/mlx-0.31.2-cp312-cp312-macosx_15_0_arm64.whl"
+        "value": "http://cthedot.de/static/cssutils/examples/css/linkimportimport1.css"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
+          "cssutils-2.15.0/docs/html/docs/scripts.html",
+          "cssutils-2.15.0/docs/scripts.rst"
         ],
-        "value": "https://files.pythonhosted.org/packages/08/f5/456f56bbbfccf696263b47095291040655e3cbaf05d063bdc7c7517f32ac/scipy-1.15.3-cp313-cp313-macosx_14_0_x86_64.whl"
+        "value": "http://cthedot.de/static/cssutils/examples/css/linkimportimport2.css"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
+          "cssutils-2.15.0/docs/html/docs/scripts.html",
+          "cssutils-2.15.0/docs/scripts.rst"
         ],
-        "value": "https://files.pythonhosted.org/packages/09/04/f2f83279d287407cf36a7a8053a5abe7be3622a4363337338f2585e4afda/numpy-2.2.6-cp313-cp313t-win32.whl"
+        "value": "http://cthedot.de/static/cssutils/examples/inlineimport1.css"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
+          "cssutils-2.15.0/docs/html/docs/scripts.html",
+          "cssutils-2.15.0/docs/scripts.rst"
         ],
-        "value": "https://files.pythonhosted.org/packages/09/4d/fe1181967ed03032056fc385dede60058826a11557076b8b837cde28b6bd/egglog-13.1.0-cp314-cp314-manylinux_2_17_ppc64.manylinux2014_ppc64.whl"
+        "value": "http://cthedot.de/static/cssutils/examples/link1.css"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
+          "cssutils-2.15.0/docs/html/docs/scripts.html",
+          "cssutils-2.15.0/docs/scripts.rst"
         ],
-        "value": "https://files.pythonhosted.org/packages/09/7d/af933f0f6e0767995b4e2d705a0665e454d1c19402aa7e895de3951ebb04/scipy-1.17.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+        "value": "http://cthedot.de/static/cssutils/examples/linkimport1.css"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
+          "cssutils-2.15.0/docs/html/docs/scripts.html",
+          "cssutils-2.15.0/docs/scripts.rst"
         ],
-        "value": "https://files.pythonhosted.org/packages/0a/0d/0e3ecece05b7a7e87ab9fb587855548da437a061326fff64a223b6dcb78a/numpy-2.4.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+        "value": "http://cthedot.de/static/cssutils/examples/linkimport2.css"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/tests/test_parse.py"
         ],
-        "value": "https://files.pythonhosted.org/packages/0b/19/aca251d4c5f3532ce9c2c1e95ad76740d9c6c298f406f62d992f465b9be0/mlx-0.31.2-cp313-cp313-manylinux_2_35_aarch64.whl"
+        "value": "http://cthedot.de/test.css"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/examples/customlog.py"
         ],
-        "value": "https://files.pythonhosted.org/packages/0b/1f/03f52c282437a168ee2c7c14a1a0d0781a9a4a8962d84ac05c06b4c5b555/scipy-1.15.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+        "value": "http://cthedot.de/x"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/PKG-INFO",
+          "cssutils-2.15.0/README.rst",
+          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO"
         ],
-        "value": "https://files.pythonhosted.org/packages/0b/2e/7eea398450457ecb54e18e9d10110993fa65561c4f3add5e8eccd2b9cd41/scipy-1.17.1-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+        "value": "http://dev.w3.org/csswg/css-variables/"
       },
       {
-        "file_count": 1,
+        "file_count": 10,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/NEWS.rst",
+          "cssutils-2.15.0/PKG-INFO",
+          "cssutils-2.15.0/README.rst",
+          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO",
+          "cssutils-2.15.0/cssutils/__init__.py",
+          "cssutils-2.15.0/cssutils/css/cssnamespacerule.py",
+          "cssutils-2.15.0/docs/html/CHANGELOG.html",
+          "cssutils-2.15.0/docs/html/README.html"
         ],
-        "value": "https://files.pythonhosted.org/packages/0c/be/49840bd2e589f13cff54eaededf985c994d6bfe4147963121f2d7d6ced12/egglog-11.4.0-cp313-cp313-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl"
+        "value": "http://dev.w3.org/csswg/css3-namespace/"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/NEWS.rst",
+          "cssutils-2.15.0/docs/html/CHANGELOG.html",
+          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
         ],
-        "value": "https://files.pythonhosted.org/packages/0d/59/18aa4e014debbf559670e4048e39260a85c7fcee84acfd761ac01e7b8d35/ruff-0.15.12-py3-none-musllinux_1_2_armv7l.whl"
+        "value": "http://dev.w3.org/csswg/cssom"
       },
       {
-        "file_count": 1,
+        "file_count": 6,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/PKG-INFO",
+          "cssutils-2.15.0/README.rst",
+          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO",
+          "cssutils-2.15.0/cssutils/__init__.py",
+          "cssutils-2.15.0/docs/html/README.html",
+          "cssutils-2.15.0/docs/html/_sources/README.txt"
         ],
-        "value": "https://files.pythonhosted.org/packages/0e/7b/9871acf393f64a5fa33668c19350ca87177b181f44bb3d0c33b2d534f22c/black-26.3.1-cp314-cp314-macosx_11_0_arm64.whl"
+        "value": "http://dev.w3.org/csswg/cssom/"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/NEWS.rst",
+          "cssutils-2.15.0/docs/html/CHANGELOG.html",
+          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
         ],
-        "value": "https://files.pythonhosted.org/packages/0f/37/6964b830433e654ec7485e45a00fc9a27cf868d622838f6b6d9c5ec0d532/scipy-1.15.3.tar.gz"
+        "value": "http://dev.w3.org/csswg/cssom/#selectors"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/NEWS.rst",
+          "cssutils-2.15.0/docs/html/CHANGELOG.html",
+          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
         ],
-        "value": "https://files.pythonhosted.org/packages/0f/95/70d7041273890f9f97a24234c00b746e8da86df462620194cef1d411ddeb/pytokens-0.4.1-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl"
+        "value": "http://dev.w3.org/csswg/cssom/#the-csscharsetrule"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/cssutils/css/cssrulelist.py"
         ],
-        "value": "https://files.pythonhosted.org/packages/10/20/bb00d2701b821adcda80245b79b11c0e370d51d929c4839a0a72d1a30015/egglog-13.1.0-cp314-cp314-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+        "value": "http://dev.w3.org/csswg/cssom/#the-cssrulelist"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/NEWS.rst",
+          "cssutils-2.15.0/docs/html/CHANGELOG.html",
+          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
         ],
-        "value": "https://files.pythonhosted.org/packages/10/7e/5c12285452970be5bdbe8352c619250b97ebf7917d7a9a9e96b8a8140f17/scipy-1.15.3-cp313-cp313t-musllinux_1_2_x86_64.whl"
+        "value": "http://dev.w3.org/csswg/cssom/#the-cssstyledeclaration"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/cssutils/css/cssstylesheet.py"
         ],
-        "value": "https://files.pythonhosted.org/packages/10/8f/d3ddb16c5a4befdf31a23307f72828686ab2096f068eaf56631e136c1fdd/tomli-2.4.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl"
+        "value": "http://dev.w3.org/csswg/cssom/#the-cssstylesheet"
       },
       {
-        "file_count": 1,
+        "file_count": 9,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/NEWS.rst",
+          "cssutils-2.15.0/PKG-INFO",
+          "cssutils-2.15.0/README.rst",
+          "cssutils-2.15.0/cssutils.egg-info/PKG-INFO",
+          "cssutils-2.15.0/cssutils/css/cssvariablesrule.py",
+          "cssutils-2.15.0/docs/html/CHANGELOG.html",
+          "cssutils-2.15.0/docs/html/README.html",
+          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
         ],
-        "value": "https://files.pythonhosted.org/packages/10/90/d62ce007a1c80d0b2c93e02cab211224756240884751b94ca72df8a875ca/tomli-2.4.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl"
+        "value": "http://disruptive-innovations.com/zoo/cssvariables/"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/cssutils/css/cssvariablesdeclaration.py"
         ],
-        "value": "https://files.pythonhosted.org/packages/10/c0/4f5f3eeccc235632aab79b27a74a9130c6c35df358129f7ac8b29f562ac7/scipy-1.15.3-cp311-cp311-musllinux_1_2_x86_64.whl"
+        "value": "http://disruptive-innovations.com/zoo/cssvariables/#mozTocId496530"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/docs/css.html"
         ],
-        "value": "https://files.pythonhosted.org/packages/11/2f/b29eafe4a3fbc3d6de9662b36e028d5f039e72d345e05c250e121a230dd4/scipy-1.17.1-cp314-cp314t-win_amd64.whl"
+        "value": "http://docs.python.org/dev/library/exceptions.html#IndexError"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/docs/css.html"
         ],
-        "value": "https://files.pythonhosted.org/packages/11/c1/a606911aee04c324ddaa883ae418f3569792fd3c4a10c50e0dd0a2311e1e/ruff-0.15.12-py3-none-manylinux_2_17_armv7l.manylinux2014_armv7l.whl"
+        "value": "http://docs.python.org/dev/library/xml.dom.html#xml.dom.HierarchyRequestErr"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/docs/css.html"
         ],
-        "value": "https://files.pythonhosted.org/packages/12/64/da524626d3b9cc40c168a13da8335fe1c51be12c0a63685cc6db7308daae/tomli-2.4.1-cp314-cp314t-win_amd64.whl"
+        "value": "http://docs.python.org/dev/library/xml.dom.html#xml.dom.IndexSizeErr"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/docs/stylesheets.html"
         ],
-        "value": "https://files.pythonhosted.org/packages/12/75/ee20da0e58d3a66f204f38916757e01e33a9737d0b22373b3eb5a27358f9/numpy-2.2.6-cp313-cp313t-musllinux_1_2_aarch64.whl"
+        "value": "http://docs.python.org/dev/library/xml.dom.html#xml.dom.InvalidCharacterErr"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/docs/stylesheets.html"
         ],
-        "value": "https://files.pythonhosted.org/packages/12/fb/9e743f8d4e4d3c710902cf87af3512082ae3d43b945d5d16563f26ec251d/numpy-2.2.6-cp313-cp313t-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+        "value": "http://docs.python.org/dev/library/xml.dom.html#xml.dom.InvalidModificationErr"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/docs/css.html"
         ],
-        "value": "https://files.pythonhosted.org/packages/13/25/a4f555281d975bfdd1eba731450e2fe3a95870274da73fb12c40aeae7625/pytokens-0.4.1-cp311-cp311-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl"
+        "value": "http://docs.python.org/dev/library/xml.dom.html#xml.dom.NamespaceErr"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/docs/css.html",
+          "cssutils-2.15.0/docs/html/docs/stylesheets.html"
         ],
-        "value": "https://files.pythonhosted.org/packages/14/1d/d0a583ce4fefcc3308806a749a536c201ed6b5ad6e1322e227ee4848979d/numpy-2.4.4-cp313-cp313-macosx_10_13_x86_64.whl"
+        "value": "http://docs.python.org/dev/library/xml.dom.html#xml.dom.NoModificationAllowedErr"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/docs/stylesheets.html"
         ],
-        "value": "https://files.pythonhosted.org/packages/14/58/640ac93bf230cd27d002462c9af0d837779f8773bc03dee06b5835208214/tomli-2.4.1-cp314-cp314-win_amd64.whl"
+        "value": "http://docs.python.org/dev/library/xml.dom.html#xml.dom.NotFoundErr"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/docs/css.html"
         ],
-        "value": "https://files.pythonhosted.org/packages/14/6f/12645cf7f08e1a20c7eb8c297c6f11d31c1b50f316a7e7e1e1de6e2e7b7e/tomli-2.4.1-cp313-cp313-macosx_11_0_arm64.whl"
+        "value": "http://docs.python.org/dev/library/xml.dom.html#xml.dom.SyntaxErr"
       },
       {
-        "file_count": 1,
+        "file_count": 8,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/tests/test_cssnamespacerule.py",
+          "cssutils-2.15.0/tests/test_cssstylesheet.py",
+          "cssutils-2.15.0/tests/test_cssutils.py",
+          "cssutils-2.15.0/tests/test_cssvalue.py",
+          "cssutils-2.15.0/tests/test_errorhandler.py",
+          "cssutils-2.15.0/tests/test_parse.py",
+          "cssutils-2.15.0/tests/test_value.py",
+          "cssutils-2.15.0/tools/try.py"
         ],
-        "value": "https://files.pythonhosted.org/packages/14/86/8acc54ae99c0185b4eaceccfd38136ac1430cf0348b0153ca8a70b083f35/egglog-11.4.0-pp311-pypy311_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+        "value": "http://example.com"
       },
       {
-        "file_count": 1,
+        "file_count": 7,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
+          "cssutils-2.15.0/docs/html/docs/scripts.html",
+          "cssutils-2.15.0/docs/scripts.rst",
+          "cssutils-2.15.0/examples/build.py",
+          "cssutils-2.15.0/examples/sheets/import/import2.css",
+          "cssutils-2.15.0/tests/sheets/import/import2.css",
+          "cssutils-2.15.0/tests/test_cssutils.py"
         ],
-        "value": "https://files.pythonhosted.org/packages/16/73/544f23891b22e7efe4d8f812371ab85b57f6a01b2fc45e3ba2e52ba985b8/black-26.3.1-cp311-cp311-win_arm64.whl"
+        "value": "http://example.com/images/example.gif"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/tests/test_cssnamespacerule.py"
         ],
-        "value": "https://files.pythonhosted.org/packages/16/ba/0756dca669f5a9300d0cbcbfae9a4c30e446dfc7440ffe43ded5724bfd93/psutil-7.2.2-cp313-cp313t-win_amd64.whl"
+        "value": "http://example.com/new"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/tests/test_cssimportrule.py"
         ],
-        "value": "https://files.pythonhosted.org/packages/16/f9/229fa3434c590ddf6c0aa9af64d3af4b752540686cace29e6281e3458469/tomli-2.4.1-cp313-cp313-win32.whl"
+        "value": "http://example.com/none"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/tests/test_cssstylesheet.py"
         ],
-        "value": "https://files.pythonhosted.org/packages/17/0a/5cd92e352c1307640d5b6fec1b2ffb06cd0dabe7d7b8227f97933d378422/numpy-2.2.6-cp313-cp313-musllinux_1_2_x86_64.whl"
+        "value": "http://example.com/ns0"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/tests/test_cssstylesheet.py"
         ],
-        "value": "https://files.pythonhosted.org/packages/17/50/bc0394b4ad5b1601be22fa43652173d47e4c9efbf0044c62e9a59b747c56/pytokens-0.4.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl"
+        "value": "http://example.com/ns1"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/tests/test_cssstylesheet.py"
         ],
-        "value": "https://files.pythonhosted.org/packages/17/57/5f11c92861f9c92eb9dddf515530bc2d06db843e44bdcf1c83c1427824bc/black-26.3.1-cp311-cp311-macosx_10_9_x86_64.whl"
+        "value": "http://example.com/ns2"
       },
       {
-        "file_count": 1,
+        "file_count": 4,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/_sources/docs/migrate.txt",
+          "cssutils-2.15.0/docs/migrate.rst",
+          "cssutils-2.15.0/tests/test_util.py",
+          "cssutils-2.15.0/tools/try.py"
         ],
-        "value": "https://files.pythonhosted.org/packages/17/99/f3aaddccf3588bb4aea70ba35328c204cadd89517a1612ecfda5b2dd9d7a/scipy-1.15.3-cp311-cp311-macosx_14_0_x86_64.whl"
+        "value": "http://example.com/test.css"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/docs/migrate.html"
         ],
-        "value": "https://files.pythonhosted.org/packages/17/f4/09b2fa1b58f0fb4f7c7963a1649c64c4d315752240377ed74d9cd878f7b5/numpy-2.2.6-pp310-pypy310_pp73-macosx_14_0_x86_64.whl"
+        "value": "http://example.com/test.css&#39"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/tests/test_cssimportrule.py"
         ],
-        "value": "https://files.pythonhosted.org/packages/18/67/36e9267722cc04a6b9f15c7f3441c2363321a3ea07da7ae0c0707beb2a9c/typing_extensions-4.15.0-py3-none-any.whl"
+        "value": "http://example.com/yes"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/tests/test_cssvalue.py",
+          "cssutils-2.15.0/tests/test_value.py"
         ],
-        "value": "https://files.pythonhosted.org/packages/19/49/4df9123aafa7b539317bf6d342cb6d227e49f7a35b99c287a6109b13dd93/numpy-2.2.6-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+        "value": "http://example.com?"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/docs/encutils.html"
         ],
-        "value": "https://files.pythonhosted.org/packages/1a/11/90e99973a3477e4e1d6950fb0a08fda5b917f20fa70a41289dd077387df1/egglog-11.4.0-pp310-pypy310_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+        "value": "http://feedparser.org/docs/advanced.html"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/LICENSE"
         ],
-        "value": "https://files.pythonhosted.org/packages/1a/7e/caf6496d60152ad4ed09282c1885cca4eea150bfd007da84aea07bcc0a3e/tomli-2.4.1-cp312-cp312-musllinux_1_2_aarch64.whl"
+        "value": "http://fsf.org/"
       },
       {
-        "file_count": 1,
+        "file_count": 4,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/README.html",
+          "cssutils-2.15.0/docs/html/_sources/README.txt",
+          "cssutils-2.15.0/docs/html/_sources/index.txt",
+          "cssutils-2.15.0/docs/html/index.html"
         ],
-        "value": "https://files.pythonhosted.org/packages/1b/a4/e822202dd2e4e7d08671f2ecf7b6500af74f5bad5ceb27086b1aa6902f3a/mlx-0.31.2-cp314-cp314-manylinux_2_35_aarch64.whl"
+        "value": "http://groups.google.com/group/cssutils"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/examples/sheets/sample_5.css",
+          "cssutils-2.15.0/tests/sheets/sample_5.css"
         ],
-        "value": "https://files.pythonhosted.org/packages/1b/e9/7a879c137f7e55b30d75d90ce3eb468197646bc7b443ac036ae3fe109055/scipy-1.15.3-cp313-cp313t-macosx_10_13_x86_64.whl"
+        "value": "http://gs-shoping.net/blog/wp-content/uploads/2010/04/item_list_back.gif"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/NEWS.rst",
+          "cssutils-2.15.0/docs/html/CHANGELOG.html",
+          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
         ],
-        "value": "https://files.pythonhosted.org/packages/1c/61/8fa0e26f33623b49949346de05ec1ddaad02ed8ba64af45f40a147dbfa97/psutil-7.2.2-cp313-cp313t-win_arm64.whl"
+        "value": "http://jimmyg.org/2007/11/08/creating-a-python-package-using-eggs-and-subversion/"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/_static/jquery.js"
         ],
-        "value": "https://files.pythonhosted.org/packages/20/01/7436e9ad693cebda0551203e0bf28f7669976c60ad07d6402098208476de/pytokens-0.4.1-cp312-cp312-musllinux_1_2_x86_64.whl"
+        "value": "http://jquery.com/"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/_static/jquery.js"
         ],
-        "value": "https://files.pythonhosted.org/packages/20/e5/16ff212c1e452235a90aeb09066144d0c5a6a8c0834397e03f5224495c4e/ptyprocess-0.7.0.tar.gz"
+        "value": "http://jquery.org/license"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/README.html"
         ],
-        "value": "https://files.pythonhosted.org/packages/20/f1/886cec7bec2f27fe453cfa32bfcaac08a83aab2a04895af68f93e1c493b8/psygnal-0.15.1-cp310-cp310-musllinux_1_2_x86_64.whl"
+        "value": "http://packages.python.org/cssutils/"
       },
       {
-        "file_count": 1,
+        "file_count": 5,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/NEWS.rst",
+          "cssutils-2.15.0/docs/html/CHANGELOG.html",
+          "cssutils-2.15.0/docs/html/README.html",
+          "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt",
+          "cssutils-2.15.0/docs/html/_sources/README.txt"
         ],
-        "value": "https://files.pythonhosted.org/packages/21/a3/da972a05568ee8a9dc6c6567bee2c0cc5af8c681baebcb9fdbbf3cceb4f7/psygnal-0.15.1-cp310-cp310-win_amd64.whl"
+        "value": "http://pypi.python.org/pypi/distribute"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/tests/test_cssutils.py",
+          "cssutils-2.15.0/tools/try.py"
         ],
-        "value": "https://files.pythonhosted.org/packages/22/a6/858897256d0deac81a172289110f31629fc4cee19b6f01283303e18c8db3/ptyprocess-0.7.0-py2.py3-none-any.whl"
+        "value": "http://seewhatever.de/sheets/import.css"
       },
       {
         "file_count": 1,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/_static/jquery.js"
         ],
-        "value": "https://files.pythonhosted.org/packages/22/c2/4b9221495b2a132cc9d2eb862e21d42a009f5a60e45fc44b00118c174bff/numpy-2.2.6-cp310-cp310-macosx_11_0_arm64.whl"
+        "value": "http://sizzlejs.com/"
       },
       {
-        "file_count": 1,
+        "file_count": 21,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/docs/html/CHANGELOG.html",
+          "cssutils-2.15.0/docs/html/README.html",
+          "cssutils-2.15.0/docs/html/_2to3 py3.html",
+          "cssutils-2.15.0/docs/html/docs/backlog.html",
+          "cssutils-2.15.0/docs/html/docs/codec.html",
+          "cssutils-2.15.0/docs/html/docs/css.html",
+          "cssutils-2.15.0/docs/html/docs/encutils.html",
+          "cssutils-2.15.0/docs/html/docs/logging.html"
         ],
-        "value": "https://files.pythonhosted.org/packages/22/de/48c59722572767841493b26183a0d1cc411d54fd759c5607c4590b6563a6/tomli-2.4.1.tar.gz"
+        "value": "http://sphinx.pocoo.org/"
       },
       {
-        "file_count": 1,
+        "file_count": 4,
         "files": [
-          "phew_mlx-0.2.6/uv.lock"
+          "cssutils-2.15.0/examples/sheets/tigris.css",
+          "cssutils-2.15.0/examples/sheets/tigris2.css",
+          "cssutils-2.15.0/tests/sheets/tigris.css",
+          "cssutils-2.15.0/tests/sheets/tigris2.css"
         ],
-        "value": "https://files.pythonhosted.org/packages/22/e4/5a816ecdd1f8ca51fb756ef684b90f2780afc52fc67f987e3c61d800a46d/tomli-2.4.1-cp311-cp311-musllinux_1_2_aarch64.whl"
+        "value": "http://style.tigris.org/"
       }
     ]
   },
-  "package": "phew-mlx",
-  "package_slug": "phew-mlx",
-  "project_url": "https://pypi.org/project/phew-mlx/",
+  "package": "cssutils",
+  "package_slug": "cssutils",
+  "project_url": "https://pypi.org/project/cssutils/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T20:36:56.612082+00:00",
+  "published_at": "2026-04-27T20:40:35.615360+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T20:37:22.252115+00:00",
-  "title": "Personal PyPI Supply Chain Scan: phew-mlx 0.2.6",
-  "version": "0.2.6",
-  "version_slug": "0.2.6",
-  "_metadata_path": "reports/packages/phew-mlx/0.2.6/metadata.json"
+  "scanned_at": "2026-04-27T20:41:47.799314+00:00",
+  "title": "Personal PyPI Supply Chain Scan: cssutils 2.15.0",
+  "version": "2.15.0",
+  "version_slug": "2.15.0",
+  "_metadata_path": "reports/packages/cssutils/2.15.0/metadata.json"
 }

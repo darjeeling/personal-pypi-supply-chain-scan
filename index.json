@@ -1,6 +1,1183 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "cssutils-2.15.0.tar.gz",
+    "finding_count": 328,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/docs/encutils.html"
+          ],
+          "value": "aspn.activestate.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/_static/jquery.js"
+          ],
+          "value": "b.top-e.top"
+        },
+        {
+          "file_count": 6,
+          "files": [
+            "cssutils-2.15.0/NEWS.rst",
+            "cssutils-2.15.0/cssutils/__init__.py",
+            "cssutils-2.15.0/cssutils/profiles.py",
+            "cssutils-2.15.0/docs/conf.py",
+            "cssutils-2.15.0/docs/html/CHANGELOG.html",
+            "cssutils-2.15.0/docs/html/README.html"
+          ],
+          "value": "bitbucket.org"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "cssutils-2.15.0/.github/workflows/main.yml",
+            "cssutils-2.15.0/AGENTS.md",
+            "cssutils-2.15.0/PKG-INFO",
+            "cssutils-2.15.0/README.rst",
+            "cssutils-2.15.0/cssutils.egg-info/PKG-INFO"
+          ],
+          "value": "blog.jaraco.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cssutils-2.15.0/examples/sheets/t-HACKS.css",
+            "cssutils-2.15.0/tests/sheets/t-HACKS.css"
+          ],
+          "value": "centricle.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/docs/encutils.html"
+          ],
+          "value": "chardet.feedparser.org"
+        },
+        {
+          "file_count": 7,
+          "files": [
+            "cssutils-2.15.0/NEWS.rst",
+            "cssutils-2.15.0/docs/html/CHANGELOG.html",
+            "cssutils-2.15.0/docs/html/README.html",
+            "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt",
+            "cssutils-2.15.0/docs/html/_sources/README.txt",
+            "cssutils-2.15.0/docs/html/_sources/index.txt",
+            "cssutils-2.15.0/docs/html/index.html"
+          ],
+          "value": "code.google.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/.coveragerc"
+          ],
+          "value": "coverage.readthedocs.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/docs/encutils.html"
+          ],
+          "value": "creativecommons.org"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "cssutils-2.15.0/PKG-INFO",
+            "cssutils-2.15.0/README.rst",
+            "cssutils-2.15.0/cssutils.egg-info/PKG-INFO",
+            "cssutils-2.15.0/cssutils/__init__.py"
+          ],
+          "value": "cssutils.readthedocs.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cssutils-2.15.0/NEWS.rst",
+            "cssutils-2.15.0/docs/html/CHANGELOG.html",
+            "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
+          ],
+          "value": "csswg.inkedblade.net"
+        },
+        {
+          "file_count": 16,
+          "files": [
+            "cssutils-2.15.0/NEWS.rst",
+            "cssutils-2.15.0/docs/html/CHANGELOG.html",
+            "cssutils-2.15.0/docs/html/README.html",
+            "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt",
+            "cssutils-2.15.0/docs/html/_sources/README.txt",
+            "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
+            "cssutils-2.15.0/docs/html/_sources/index.txt",
+            "cssutils-2.15.0/docs/html/docs/encutils.html"
+          ],
+          "value": "cthedot.de"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/docs/scripts.html"
+          ],
+          "value": "cthedot.de&"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/_static/jquery.js"
+          ],
+          "value": "d.top"
+        },
+        {
+          "file_count": 12,
+          "files": [
+            "cssutils-2.15.0/NEWS.rst",
+            "cssutils-2.15.0/PKG-INFO",
+            "cssutils-2.15.0/README.rst",
+            "cssutils-2.15.0/cssutils.egg-info/PKG-INFO",
+            "cssutils-2.15.0/cssutils/__init__.py",
+            "cssutils-2.15.0/cssutils/css/cssnamespacerule.py",
+            "cssutils-2.15.0/cssutils/css/cssrulelist.py",
+            "cssutils-2.15.0/cssutils/css/cssstylesheet.py"
+          ],
+          "value": "dev.w3.org"
+        },
+        {
+          "file_count": 10,
+          "files": [
+            "cssutils-2.15.0/NEWS.rst",
+            "cssutils-2.15.0/PKG-INFO",
+            "cssutils-2.15.0/README.rst",
+            "cssutils-2.15.0/cssutils.egg-info/PKG-INFO",
+            "cssutils-2.15.0/cssutils/css/cssvariablesdeclaration.py",
+            "cssutils-2.15.0/cssutils/css/cssvariablesrule.py",
+            "cssutils-2.15.0/docs/html/CHANGELOG.html",
+            "cssutils-2.15.0/docs/html/README.html"
+          ],
+          "value": "disruptive-innovations.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/ruff.toml"
+          ],
+          "value": "docs.astral.sh"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cssutils-2.15.0/docs/conf.py",
+            "cssutils-2.15.0/docs/html/docs/css.html",
+            "cssutils-2.15.0/docs/html/docs/stylesheets.html"
+          ],
+          "value": "docs.python.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/_static/jquery.js"
+          ],
+          "value": "f.style.top"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/_static/jquery.js"
+          ],
+          "value": "f.top"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/docs/encutils.html"
+          ],
+          "value": "feedparser.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/_static/searchtools.js"
+          ],
+          "value": "files.length"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/LICENSE"
+          ],
+          "value": "fsf.org"
+        },
+        {
+          "file_count": 9,
+          "files": [
+            "cssutils-2.15.0/.pre-commit-config.yaml",
+            "cssutils-2.15.0/NEWS.rst",
+            "cssutils-2.15.0/PKG-INFO",
+            "cssutils-2.15.0/README.rst",
+            "cssutils-2.15.0/cssutils.egg-info/PKG-INFO",
+            "cssutils-2.15.0/docs/conf.py",
+            "cssutils-2.15.0/mypy.ini",
+            "cssutils-2.15.0/pyproject.toml"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "cssutils-2.15.0/docs/html/README.html",
+            "cssutils-2.15.0/docs/html/_sources/README.txt",
+            "cssutils-2.15.0/docs/html/_sources/index.txt",
+            "cssutils-2.15.0/docs/html/index.html"
+          ],
+          "value": "groups.google.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cssutils-2.15.0/examples/sheets/sample_5.css",
+            "cssutils-2.15.0/tests/sheets/sample_5.css"
+          ],
+          "value": "gs-shoping.net"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cssutils-2.15.0/PKG-INFO",
+            "cssutils-2.15.0/README.rst",
+            "cssutils-2.15.0/cssutils.egg-info/PKG-INFO"
+          ],
+          "value": "img.shields.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cssutils-2.15.0/NEWS.rst",
+            "cssutils-2.15.0/docs/html/CHANGELOG.html",
+            "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
+          ],
+          "value": "jimmyg.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/_static/jquery.js"
+          ],
+          "value": "jquery.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/_static/jquery.js"
+          ],
+          "value": "jquery.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/README.html"
+          ],
+          "value": "packages.python.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/conf.py"
+          ],
+          "value": "peps.python.org"
+        },
+        {
+          "file_count": 6,
+          "files": [
+            "cssutils-2.15.0/NEWS.rst",
+            "cssutils-2.15.0/PKG-INFO",
+            "cssutils-2.15.0/README.rst",
+            "cssutils-2.15.0/cssutils.egg-info/PKG-INFO",
+            "cssutils-2.15.0/cssutils/_fetch.py",
+            "cssutils-2.15.0/docs/conf.py"
+          ],
+          "value": "pypi.org"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "cssutils-2.15.0/NEWS.rst",
+            "cssutils-2.15.0/docs/html/CHANGELOG.html",
+            "cssutils-2.15.0/docs/html/README.html",
+            "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt",
+            "cssutils-2.15.0/docs/html/_sources/README.txt"
+          ],
+          "value": "pypi.python.org"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cssutils-2.15.0/PKG-INFO",
+            "cssutils-2.15.0/README.rst",
+            "cssutils-2.15.0/cssutils.egg-info/PKG-INFO"
+          ],
+          "value": "raw.githubusercontent.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cssutils-2.15.0/PKG-INFO",
+            "cssutils-2.15.0/README.rst",
+            "cssutils-2.15.0/cssutils.egg-info/PKG-INFO"
+          ],
+          "value": "readthedocs.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/tests/test_cssstyledeclaration.py"
+          ],
+          "value": "s.top"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cssutils-2.15.0/tests/test_cssutils.py",
+            "cssutils-2.15.0/tools/try.py"
+          ],
+          "value": "seewhatever.de"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/_static/jquery.js"
+          ],
+          "value": "sizzlejs.com"
+        },
+        {
+          "file_count": 21,
+          "files": [
+            "cssutils-2.15.0/docs/html/CHANGELOG.html",
+            "cssutils-2.15.0/docs/html/README.html",
+            "cssutils-2.15.0/docs/html/_2to3 py3.html",
+            "cssutils-2.15.0/docs/html/docs/backlog.html",
+            "cssutils-2.15.0/docs/html/docs/codec.html",
+            "cssutils-2.15.0/docs/html/docs/css.html",
+            "cssutils-2.15.0/docs/html/docs/encutils.html",
+            "cssutils-2.15.0/docs/html/docs/logging.html"
+          ],
+          "value": "sphinx.pocoo.org"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "cssutils-2.15.0/examples/sheets/tigris.css",
+            "cssutils-2.15.0/examples/sheets/tigris2.css",
+            "cssutils-2.15.0/tests/sheets/tigris.css",
+            "cssutils-2.15.0/tests/sheets/tigris2.css"
+          ],
+          "value": "style.tigris.org"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "cssutils-2.15.0/PKG-INFO",
+            "cssutils-2.15.0/README.rst",
+            "cssutils-2.15.0/SECURITY.md",
+            "cssutils-2.15.0/cssutils.egg-info/PKG-INFO"
+          ],
+          "value": "tidelift.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cssutils-2.15.0/cssutils/__init__.py",
+            "cssutils-2.15.0/cssutils/profiles.py",
+            "cssutils-2.15.0/docs/conf.py"
+          ],
+          "value": "web.archive.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/conf.py"
+          ],
+          "value": "wikipedia.org"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cssutils-2.15.0/cssutils/css/cssstyledeclaration.py",
+            "cssutils-2.15.0/cssutils/util.py",
+            "cssutils-2.15.0/docs/html/docs/css.html"
+          ],
+          "value": "www.dustindiaz.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/tests/test_cssimportrule.py"
+          ],
+          "value": "www.example.com"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "cssutils-2.15.0/LICENSE",
+            "cssutils-2.15.0/docs/html/README.html",
+            "cssutils-2.15.0/docs/html/_sources/README.txt",
+            "cssutils-2.15.0/docs/html/docs/encutils.html"
+          ],
+          "value": "www.gnu.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/docs/encutils.html"
+          ],
+          "value": "www.ietf.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cssutils-2.15.0/examples/sheets/sample_5.css",
+            "cssutils-2.15.0/tests/sheets/sample_5.css"
+          ],
+          "value": "www.ng4a.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cssutils-2.15.0/examples/sheets/test.css",
+            "cssutils-2.15.0/tests/sheets/test.css"
+          ],
+          "value": "www.steadystate.com"
+        },
+        {
+          "file_count": 52,
+          "files": [
+            "cssutils-2.15.0/NEWS.rst",
+            "cssutils-2.15.0/PKG-INFO",
+            "cssutils-2.15.0/README.rst",
+            "cssutils-2.15.0/cssutils.egg-info/PKG-INFO",
+            "cssutils-2.15.0/cssutils/__init__.py",
+            "cssutils-2.15.0/cssutils/css/__init__.py",
+            "cssutils-2.15.0/cssutils/css/colors.py",
+            "cssutils-2.15.0/cssutils/css/cssfontfacerule.py"
+          ],
+          "value": "www.w3.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/docs/encutils.html"
+          ],
+          "value": "www.xml.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/tests/test_util.py"
+          ],
+          "value": "x"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [
+        {
+          "file_count": 3,
+          "files": [
+            "cssutils-2.15.0/PKG-INFO",
+            "cssutils-2.15.0/README.rst",
+            "cssutils-2.15.0/cssutils.egg-info/PKG-INFO"
+          ],
+          "value": "raw.githubusercontent.com"
+        }
+      ],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/docs/encutils.html"
+          ],
+          "value": "http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/363841"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/docs/encutils.html"
+          ],
+          "value": "http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/52257"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cssutils-2.15.0/examples/sheets/t-HACKS.css",
+            "cssutils-2.15.0/tests/sheets/t-HACKS.css"
+          ],
+          "value": "http://centricle.com/ref/css/filters/?highlight_columns=true"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/docs/encutils.html"
+          ],
+          "value": "http://chardet.feedparser.org/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cssutils-2.15.0/docs/html/_sources/index.txt",
+            "cssutils-2.15.0/docs/html/index.html"
+          ],
+          "value": "http://code.google.com/p/cssutils"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cssutils-2.15.0/docs/html/README.html",
+            "cssutils-2.15.0/docs/html/_sources/README.txt"
+          ],
+          "value": "http://code.google.com/p/cssutils/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cssutils-2.15.0/NEWS.rst",
+            "cssutils-2.15.0/docs/html/CHANGELOG.html",
+            "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
+          ],
+          "value": "http://code.google.com/p/cssutils/issues/detail?id=21"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/_sources/README.txt"
+          ],
+          "value": "http://code.google.com/p/cssutils/issues/list"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/docs/encutils.html"
+          ],
+          "value": "http://creativecommons.org/licenses/by/3.0/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cssutils-2.15.0/NEWS.rst",
+            "cssutils-2.15.0/docs/html/CHANGELOG.html",
+            "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
+          ],
+          "value": "http://csswg.inkedblade.net/spec/css2.1#issue-23"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
+            "cssutils-2.15.0/docs/scripts.rst"
+          ],
+          "value": "http://cthedot.de"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/docs/scripts.html"
+          ],
+          "value": "http://cthedot.de&#39"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cssutils-2.15.0/tests/test_util.py",
+            "cssutils-2.15.0/tools/try.py"
+          ],
+          "value": "http://cthedot.de/__UNKNOWN__.css"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
+            "cssutils-2.15.0/docs/html/docs/scripts.html",
+            "cssutils-2.15.0/docs/scripts.rst"
+          ],
+          "value": "http://cthedot.de/css/default.css"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/docs/scripts.html"
+          ],
+          "value": "http://cthedot.de/css/default.css&#39"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "cssutils-2.15.0/docs/html/README.html",
+            "cssutils-2.15.0/docs/html/_sources/README.txt",
+            "cssutils-2.15.0/docs/html/_sources/index.txt",
+            "cssutils-2.15.0/docs/html/index.html"
+          ],
+          "value": "http://cthedot.de/cssutils/"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "cssutils-2.15.0/NEWS.rst",
+            "cssutils-2.15.0/docs/html/CHANGELOG.html",
+            "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt",
+            "cssutils-2.15.0/docs/html/docs/encutils.html"
+          ],
+          "value": "http://cthedot.de/encutils/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/docs/encutils.html"
+          ],
+          "value": "http://cthedot.de/encutils/&#39"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/docs/encutils.html"
+          ],
+          "value": "http://cthedot.de/encutils/license/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cssutils-2.15.0/examples/website.py",
+            "cssutils-2.15.0/tests/test_parse.py"
+          ],
+          "value": "http://cthedot.de/not-present.css"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cssutils-2.15.0/NEWS.rst",
+            "cssutils-2.15.0/docs/html/CHANGELOG.html",
+            "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
+          ],
+          "value": "http://cthedot.de/restserver/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
+            "cssutils-2.15.0/docs/scripts.rst"
+          ],
+          "value": "http://cthedot.de/static/alternate1.css"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/docs/scripts.html"
+          ],
+          "value": "http://cthedot.de/static/alternate1.css&#39"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
+            "cssutils-2.15.0/docs/scripts.rst"
+          ],
+          "value": "http://cthedot.de/static/alternate2.css"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/docs/scripts.html"
+          ],
+          "value": "http://cthedot.de/static/alternate2.css&#39"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
+            "cssutils-2.15.0/docs/html/docs/scripts.html",
+            "cssutils-2.15.0/docs/scripts.rst"
+          ],
+          "value": "http://cthedot.de/static/cssutils/examples/capturefrom.html"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
+            "cssutils-2.15.0/docs/html/docs/scripts.html",
+            "cssutils-2.15.0/docs/scripts.rst"
+          ],
+          "value": "http://cthedot.de/static/cssutils/examples/css/inlineimport2.css"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
+            "cssutils-2.15.0/docs/html/docs/scripts.html",
+            "cssutils-2.15.0/docs/scripts.rst"
+          ],
+          "value": "http://cthedot.de/static/cssutils/examples/css/inlineimportimport1.css"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
+            "cssutils-2.15.0/docs/html/docs/scripts.html",
+            "cssutils-2.15.0/docs/scripts.rst"
+          ],
+          "value": "http://cthedot.de/static/cssutils/examples/css/linkimportimport1.css"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
+            "cssutils-2.15.0/docs/html/docs/scripts.html",
+            "cssutils-2.15.0/docs/scripts.rst"
+          ],
+          "value": "http://cthedot.de/static/cssutils/examples/css/linkimportimport2.css"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
+            "cssutils-2.15.0/docs/html/docs/scripts.html",
+            "cssutils-2.15.0/docs/scripts.rst"
+          ],
+          "value": "http://cthedot.de/static/cssutils/examples/inlineimport1.css"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
+            "cssutils-2.15.0/docs/html/docs/scripts.html",
+            "cssutils-2.15.0/docs/scripts.rst"
+          ],
+          "value": "http://cthedot.de/static/cssutils/examples/link1.css"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
+            "cssutils-2.15.0/docs/html/docs/scripts.html",
+            "cssutils-2.15.0/docs/scripts.rst"
+          ],
+          "value": "http://cthedot.de/static/cssutils/examples/linkimport1.css"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
+            "cssutils-2.15.0/docs/html/docs/scripts.html",
+            "cssutils-2.15.0/docs/scripts.rst"
+          ],
+          "value": "http://cthedot.de/static/cssutils/examples/linkimport2.css"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/tests/test_parse.py"
+          ],
+          "value": "http://cthedot.de/test.css"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/examples/customlog.py"
+          ],
+          "value": "http://cthedot.de/x"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cssutils-2.15.0/PKG-INFO",
+            "cssutils-2.15.0/README.rst",
+            "cssutils-2.15.0/cssutils.egg-info/PKG-INFO"
+          ],
+          "value": "http://dev.w3.org/csswg/css-variables/"
+        },
+        {
+          "file_count": 10,
+          "files": [
+            "cssutils-2.15.0/NEWS.rst",
+            "cssutils-2.15.0/PKG-INFO",
+            "cssutils-2.15.0/README.rst",
+            "cssutils-2.15.0/cssutils.egg-info/PKG-INFO",
+            "cssutils-2.15.0/cssutils/__init__.py",
+            "cssutils-2.15.0/cssutils/css/cssnamespacerule.py",
+            "cssutils-2.15.0/docs/html/CHANGELOG.html",
+            "cssutils-2.15.0/docs/html/README.html"
+          ],
+          "value": "http://dev.w3.org/csswg/css3-namespace/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cssutils-2.15.0/NEWS.rst",
+            "cssutils-2.15.0/docs/html/CHANGELOG.html",
+            "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
+          ],
+          "value": "http://dev.w3.org/csswg/cssom"
+        },
+        {
+          "file_count": 6,
+          "files": [
+            "cssutils-2.15.0/PKG-INFO",
+            "cssutils-2.15.0/README.rst",
+            "cssutils-2.15.0/cssutils.egg-info/PKG-INFO",
+            "cssutils-2.15.0/cssutils/__init__.py",
+            "cssutils-2.15.0/docs/html/README.html",
+            "cssutils-2.15.0/docs/html/_sources/README.txt"
+          ],
+          "value": "http://dev.w3.org/csswg/cssom/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cssutils-2.15.0/NEWS.rst",
+            "cssutils-2.15.0/docs/html/CHANGELOG.html",
+            "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
+          ],
+          "value": "http://dev.w3.org/csswg/cssom/#selectors"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cssutils-2.15.0/NEWS.rst",
+            "cssutils-2.15.0/docs/html/CHANGELOG.html",
+            "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
+          ],
+          "value": "http://dev.w3.org/csswg/cssom/#the-csscharsetrule"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/cssutils/css/cssrulelist.py"
+          ],
+          "value": "http://dev.w3.org/csswg/cssom/#the-cssrulelist"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cssutils-2.15.0/NEWS.rst",
+            "cssutils-2.15.0/docs/html/CHANGELOG.html",
+            "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
+          ],
+          "value": "http://dev.w3.org/csswg/cssom/#the-cssstyledeclaration"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/cssutils/css/cssstylesheet.py"
+          ],
+          "value": "http://dev.w3.org/csswg/cssom/#the-cssstylesheet"
+        },
+        {
+          "file_count": 9,
+          "files": [
+            "cssutils-2.15.0/NEWS.rst",
+            "cssutils-2.15.0/PKG-INFO",
+            "cssutils-2.15.0/README.rst",
+            "cssutils-2.15.0/cssutils.egg-info/PKG-INFO",
+            "cssutils-2.15.0/cssutils/css/cssvariablesrule.py",
+            "cssutils-2.15.0/docs/html/CHANGELOG.html",
+            "cssutils-2.15.0/docs/html/README.html",
+            "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
+          ],
+          "value": "http://disruptive-innovations.com/zoo/cssvariables/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/cssutils/css/cssvariablesdeclaration.py"
+          ],
+          "value": "http://disruptive-innovations.com/zoo/cssvariables/#mozTocId496530"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/docs/css.html"
+          ],
+          "value": "http://docs.python.org/dev/library/exceptions.html#IndexError"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/docs/css.html"
+          ],
+          "value": "http://docs.python.org/dev/library/xml.dom.html#xml.dom.HierarchyRequestErr"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/docs/css.html"
+          ],
+          "value": "http://docs.python.org/dev/library/xml.dom.html#xml.dom.IndexSizeErr"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/docs/stylesheets.html"
+          ],
+          "value": "http://docs.python.org/dev/library/xml.dom.html#xml.dom.InvalidCharacterErr"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/docs/stylesheets.html"
+          ],
+          "value": "http://docs.python.org/dev/library/xml.dom.html#xml.dom.InvalidModificationErr"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/docs/css.html"
+          ],
+          "value": "http://docs.python.org/dev/library/xml.dom.html#xml.dom.NamespaceErr"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cssutils-2.15.0/docs/html/docs/css.html",
+            "cssutils-2.15.0/docs/html/docs/stylesheets.html"
+          ],
+          "value": "http://docs.python.org/dev/library/xml.dom.html#xml.dom.NoModificationAllowedErr"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/docs/stylesheets.html"
+          ],
+          "value": "http://docs.python.org/dev/library/xml.dom.html#xml.dom.NotFoundErr"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/docs/css.html"
+          ],
+          "value": "http://docs.python.org/dev/library/xml.dom.html#xml.dom.SyntaxErr"
+        },
+        {
+          "file_count": 8,
+          "files": [
+            "cssutils-2.15.0/tests/test_cssnamespacerule.py",
+            "cssutils-2.15.0/tests/test_cssstylesheet.py",
+            "cssutils-2.15.0/tests/test_cssutils.py",
+            "cssutils-2.15.0/tests/test_cssvalue.py",
+            "cssutils-2.15.0/tests/test_errorhandler.py",
+            "cssutils-2.15.0/tests/test_parse.py",
+            "cssutils-2.15.0/tests/test_value.py",
+            "cssutils-2.15.0/tools/try.py"
+          ],
+          "value": "http://example.com"
+        },
+        {
+          "file_count": 7,
+          "files": [
+            "cssutils-2.15.0/docs/html/_sources/docs/scripts.txt",
+            "cssutils-2.15.0/docs/html/docs/scripts.html",
+            "cssutils-2.15.0/docs/scripts.rst",
+            "cssutils-2.15.0/examples/build.py",
+            "cssutils-2.15.0/examples/sheets/import/import2.css",
+            "cssutils-2.15.0/tests/sheets/import/import2.css",
+            "cssutils-2.15.0/tests/test_cssutils.py"
+          ],
+          "value": "http://example.com/images/example.gif"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/tests/test_cssnamespacerule.py"
+          ],
+          "value": "http://example.com/new"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/tests/test_cssimportrule.py"
+          ],
+          "value": "http://example.com/none"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/tests/test_cssstylesheet.py"
+          ],
+          "value": "http://example.com/ns0"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/tests/test_cssstylesheet.py"
+          ],
+          "value": "http://example.com/ns1"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/tests/test_cssstylesheet.py"
+          ],
+          "value": "http://example.com/ns2"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "cssutils-2.15.0/docs/html/_sources/docs/migrate.txt",
+            "cssutils-2.15.0/docs/migrate.rst",
+            "cssutils-2.15.0/tests/test_util.py",
+            "cssutils-2.15.0/tools/try.py"
+          ],
+          "value": "http://example.com/test.css"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/docs/migrate.html"
+          ],
+          "value": "http://example.com/test.css&#39"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/tests/test_cssimportrule.py"
+          ],
+          "value": "http://example.com/yes"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cssutils-2.15.0/tests/test_cssvalue.py",
+            "cssutils-2.15.0/tests/test_value.py"
+          ],
+          "value": "http://example.com?"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/docs/encutils.html"
+          ],
+          "value": "http://feedparser.org/docs/advanced.html"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/LICENSE"
+          ],
+          "value": "http://fsf.org/"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "cssutils-2.15.0/docs/html/README.html",
+            "cssutils-2.15.0/docs/html/_sources/README.txt",
+            "cssutils-2.15.0/docs/html/_sources/index.txt",
+            "cssutils-2.15.0/docs/html/index.html"
+          ],
+          "value": "http://groups.google.com/group/cssutils"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cssutils-2.15.0/examples/sheets/sample_5.css",
+            "cssutils-2.15.0/tests/sheets/sample_5.css"
+          ],
+          "value": "http://gs-shoping.net/blog/wp-content/uploads/2010/04/item_list_back.gif"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cssutils-2.15.0/NEWS.rst",
+            "cssutils-2.15.0/docs/html/CHANGELOG.html",
+            "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt"
+          ],
+          "value": "http://jimmyg.org/2007/11/08/creating-a-python-package-using-eggs-and-subversion/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/_static/jquery.js"
+          ],
+          "value": "http://jquery.com/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/_static/jquery.js"
+          ],
+          "value": "http://jquery.org/license"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/README.html"
+          ],
+          "value": "http://packages.python.org/cssutils/"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "cssutils-2.15.0/NEWS.rst",
+            "cssutils-2.15.0/docs/html/CHANGELOG.html",
+            "cssutils-2.15.0/docs/html/README.html",
+            "cssutils-2.15.0/docs/html/_sources/CHANGELOG.txt",
+            "cssutils-2.15.0/docs/html/_sources/README.txt"
+          ],
+          "value": "http://pypi.python.org/pypi/distribute"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cssutils-2.15.0/tests/test_cssutils.py",
+            "cssutils-2.15.0/tools/try.py"
+          ],
+          "value": "http://seewhatever.de/sheets/import.css"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cssutils-2.15.0/docs/html/_static/jquery.js"
+          ],
+          "value": "http://sizzlejs.com/"
+        },
+        {
+          "file_count": 21,
+          "files": [
+            "cssutils-2.15.0/docs/html/CHANGELOG.html",
+            "cssutils-2.15.0/docs/html/README.html",
+            "cssutils-2.15.0/docs/html/_2to3 py3.html",
+            "cssutils-2.15.0/docs/html/docs/backlog.html",
+            "cssutils-2.15.0/docs/html/docs/codec.html",
+            "cssutils-2.15.0/docs/html/docs/css.html",
+            "cssutils-2.15.0/docs/html/docs/encutils.html",
+            "cssutils-2.15.0/docs/html/docs/logging.html"
+          ],
+          "value": "http://sphinx.pocoo.org/"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "cssutils-2.15.0/examples/sheets/tigris.css",
+            "cssutils-2.15.0/examples/sheets/tigris2.css",
+            "cssutils-2.15.0/tests/sheets/tigris.css",
+            "cssutils-2.15.0/tests/sheets/tigris2.css"
+          ],
+          "value": "http://style.tigris.org/"
+        }
+      ]
+    },
+    "package": "cssutils",
+    "package_slug": "cssutils",
+    "project_url": "https://pypi.org/project/cssutils/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T20:40:35.615360+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T20:41:47.799314+00:00",
+    "title": "Personal PyPI Supply Chain Scan: cssutils 2.15.0",
+    "version": "2.15.0",
+    "version_slug": "2.15.0",
+    "_metadata_path": "reports/packages/cssutils/2.15.0/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "phew_mlx-0.2.6.tar.gz",
     "finding_count": 748,
     "model": "gpt-5.5",
