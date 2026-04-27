@@ -1,75 +1,198 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "saranai-0.1.0.tar.gz",
+  "distribution": "tree_sitter_handlebars-0.1.1.tar.gz",
   "finding_count": 2,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "saranai-0.1.0/README.md"
+          "tree_sitter_handlebars-0.1.1/PKG-INFO",
+          "tree_sitter_handlebars-0.1.1/README.md",
+          "tree_sitter_handlebars-0.1.1/bindings/python/tree_sitter_handlebars.egg-info/PKG-INFO"
         ],
-        "value": "api-production-xxxx.up.railway.app`"
+        "value": "crates.io"
       },
       {
-        "file_count": 1,
+        "file_count": 4,
         "files": [
-          "saranai-0.1.0/saranai/__init__.py"
+          "tree_sitter_handlebars-0.1.1/PKG-INFO",
+          "tree_sitter_handlebars-0.1.1/README.md",
+          "tree_sitter_handlebars-0.1.1/bindings/python/tree_sitter_handlebars.egg-info/PKG-INFO",
+          "tree_sitter_handlebars-0.1.1/pyproject.toml"
         ],
-        "value": "my-ai-api-vbpg.onrender.com"
+        "value": "github.com"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "saranai-0.1.0/README.md"
+          "tree_sitter_handlebars-0.1.1/PKG-INFO",
+          "tree_sitter_handlebars-0.1.1/README.md",
+          "tree_sitter_handlebars-0.1.1/bindings/python/tree_sitter_handlebars.egg-info/PKG-INFO"
         ],
-        "value": "railway.app"
+        "value": "handlebarsjs.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "tree_sitter_handlebars-0.1.1/PKG-INFO",
+          "tree_sitter_handlebars-0.1.1/README.md",
+          "tree_sitter_handlebars-0.1.1/bindings/python/tree_sitter_handlebars.egg-info/PKG-INFO"
+        ],
+        "value": "img.shields.io"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "tree_sitter_handlebars-0.1.1/PKG-INFO",
+          "tree_sitter_handlebars-0.1.1/README.md",
+          "tree_sitter_handlebars-0.1.1/bindings/python/tree_sitter_handlebars.egg-info/PKG-INFO"
+        ],
+        "value": "pypi.org"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "tree_sitter_handlebars-0.1.1/PKG-INFO",
+          "tree_sitter_handlebars-0.1.1/README.md",
+          "tree_sitter_handlebars-0.1.1/bindings/python/tree_sitter_handlebars.egg-info/PKG-INFO"
+        ],
+        "value": "www.npmjs.com"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "saranai-0.1.0/README.md"
+          "tree_sitter_handlebars-0.1.1/PKG-INFO",
+          "tree_sitter_handlebars-0.1.1/README.md",
+          "tree_sitter_handlebars-0.1.1/bindings/python/tree_sitter_handlebars.egg-info/PKG-INFO"
         ],
-        "value": "https://YOUR_URL.up.railway.app"
+        "value": "https://crates.io/crates/tree-sitter-handlebars"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "saranai-0.1.0/README.md"
+          "tree_sitter_handlebars-0.1.1/PKG-INFO",
+          "tree_sitter_handlebars-0.1.1/bindings/python/tree_sitter_handlebars.egg-info/PKG-INFO",
+          "tree_sitter_handlebars-0.1.1/pyproject.toml"
         ],
-        "value": "https://api-production-xxxx.up.railway.app`"
+        "value": "https://github.com/bennypowers/tree-sitter-handlebars"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "saranai-0.1.0/saranai/__init__.py"
+          "tree_sitter_handlebars-0.1.1/PKG-INFO",
+          "tree_sitter_handlebars-0.1.1/README.md",
+          "tree_sitter_handlebars-0.1.1/bindings/python/tree_sitter_handlebars.egg-info/PKG-INFO"
         ],
-        "value": "https://my-ai-api-vbpg.onrender.com/ask"
+        "value": "https://github.com/bennypowers/tree-sitter-handlebars/actions/workflows/ci.yml"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "saranai-0.1.0/README.md"
+          "tree_sitter_handlebars-0.1.1/PKG-INFO",
+          "tree_sitter_handlebars-0.1.1/README.md",
+          "tree_sitter_handlebars-0.1.1/bindings/python/tree_sitter_handlebars.egg-info/PKG-INFO"
         ],
-        "value": "https://railway.app"
+        "value": "https://github.com/tree-sitter/tree-sitter"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "tree_sitter_handlebars-0.1.1/PKG-INFO",
+          "tree_sitter_handlebars-0.1.1/README.md",
+          "tree_sitter_handlebars-0.1.1/bindings/python/tree_sitter_handlebars.egg-info/PKG-INFO"
+        ],
+        "value": "https://handlebarsjs.com/"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "tree_sitter_handlebars-0.1.1/PKG-INFO",
+          "tree_sitter_handlebars-0.1.1/README.md",
+          "tree_sitter_handlebars-0.1.1/bindings/python/tree_sitter_handlebars.egg-info/PKG-INFO"
+        ],
+        "value": "https://handlebarsjs.com/guide/"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "tree_sitter_handlebars-0.1.1/PKG-INFO",
+          "tree_sitter_handlebars-0.1.1/README.md",
+          "tree_sitter_handlebars-0.1.1/bindings/python/tree_sitter_handlebars.egg-info/PKG-INFO"
+        ],
+        "value": "https://handlebarsjs.com/guide/expressions.html"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "tree_sitter_handlebars-0.1.1/PKG-INFO",
+          "tree_sitter_handlebars-0.1.1/README.md",
+          "tree_sitter_handlebars-0.1.1/bindings/python/tree_sitter_handlebars.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/crates/v/tree-sitter-handlebars?logo=rust"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "tree_sitter_handlebars-0.1.1/PKG-INFO",
+          "tree_sitter_handlebars-0.1.1/README.md",
+          "tree_sitter_handlebars-0.1.1/bindings/python/tree_sitter_handlebars.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/github/actions/workflow/status/bennypowers/tree-sitter-handlebars/ci.yml?logo=github&label=CI"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "tree_sitter_handlebars-0.1.1/PKG-INFO",
+          "tree_sitter_handlebars-0.1.1/README.md",
+          "tree_sitter_handlebars-0.1.1/bindings/python/tree_sitter_handlebars.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/npm/v/tree-sitter-handlebars?logo=npm"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "tree_sitter_handlebars-0.1.1/PKG-INFO",
+          "tree_sitter_handlebars-0.1.1/README.md",
+          "tree_sitter_handlebars-0.1.1/bindings/python/tree_sitter_handlebars.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/pypi/v/tree-sitter-handlebars?logo=pypi&logoColor=ffd242"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "tree_sitter_handlebars-0.1.1/PKG-INFO",
+          "tree_sitter_handlebars-0.1.1/README.md",
+          "tree_sitter_handlebars-0.1.1/bindings/python/tree_sitter_handlebars.egg-info/PKG-INFO"
+        ],
+        "value": "https://pypi.org/project/tree-sitter-handlebars"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "tree_sitter_handlebars-0.1.1/PKG-INFO",
+          "tree_sitter_handlebars-0.1.1/README.md",
+          "tree_sitter_handlebars-0.1.1/bindings/python/tree_sitter_handlebars.egg-info/PKG-INFO"
+        ],
+        "value": "https://www.npmjs.com/package/tree-sitter-handlebars"
       }
     ]
   },
-  "package": "saranai",
-  "package_slug": "saranai",
-  "project_url": "https://pypi.org/project/saranai/",
+  "package": "tree-sitter-handlebars",
+  "package_slug": "tree-sitter-handlebars",
+  "project_url": "https://pypi.org/project/tree-sitter-handlebars/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T14:41:28.740889+00:00",
+  "published_at": "2026-04-27T14:46:16.590687+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T14:42:29.277989+00:00",
-  "title": "Personal PyPI Supply Chain Scan: saranai 0.1.0",
-  "version": "0.1.0",
-  "version_slug": "0.1.0",
-  "_metadata_path": "reports/packages/saranai/0.1.0/metadata.json"
+  "scanned_at": "2026-04-27T14:46:49.101385+00:00",
+  "title": "Personal PyPI Supply Chain Scan: tree-sitter-handlebars 0.1.1",
+  "version": "0.1.1",
+  "version_slug": "0.1.1",
+  "_metadata_path": "reports/packages/tree-sitter-handlebars/0.1.1/metadata.json"
 }
