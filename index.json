@@ -1,6 +1,2055 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "specmap-0.3.5.tar.gz",
+    "finding_count": 943,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/src/specmap/server/app.py"
+          ],
+          "value": "*.gitlab.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/docs/deployment/production.md"
+          ],
+          "value": "`"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/src/hooks/useAnnotationPositions.ts"
+          ],
+          "value": "a.top"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "specmap-0.3.5/src/specmap/server/app.py",
+            "specmap-0.3.5/src/specmap/server/forge.py",
+            "specmap-0.3.5/src/specmap/server/github.py"
+          ],
+          "value": "api.github.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "specmap-0.3.5/tests/scenarios/test_branch.py",
+            "specmap-0.3.5/tests/scenarios/test_greenfield.py",
+            "specmap-0.3.5/tests/scenarios/test_iterative.py"
+          ],
+          "value": "api.go"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "specmap-0.3.5/PKG-INFO",
+            "specmap-0.3.5/README.md",
+            "specmap-0.3.5/docs/development.md",
+            "specmap-0.3.5/docs/getting-started/installation.md",
+            "specmap-0.3.5/docs/getting-started/local-dev.md"
+          ],
+          "value": "astral.sh"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/src/specmap/server/app.py"
+          ],
+          "value": "avatars.githubusercontent.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/src/hooks/useAnnotationPositions.ts"
+          ],
+          "value": "b.top"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "baseline-browser-mapping-2.10.9.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "binding-android-arm64-1.0.0-rc.16.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "binding-darwin-arm64-1.0.0-rc.16.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "binding-darwin-x64-1.0.0-rc.16.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "binding-freebsd-x64-1.0.0-rc.16.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "binding-linux-arm-gnueabihf-1.0.0-rc.16.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "binding-linux-arm64-gnu-1.0.0-rc.16.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "binding-linux-arm64-musl-1.0.0-rc.16.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "binding-linux-ppc64-gnu-1.0.0-rc.16.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "binding-linux-s390x-gnu-1.0.0-rc.16.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "binding-linux-x64-gnu-1.0.0-rc.16.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "binding-linux-x64-musl-1.0.0-rc.16.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "binding-openharmony-arm64-1.0.0-rc.16.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "binding-wasm32-wasi-1.0.0-rc.16.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "binding-win32-arm64-msvc-1.0.0-rc.16.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "binding-win32-x64-msvc-1.0.0-rc.16.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "character-entities-html4-2.1.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "character-entities-legacy-3.0.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "character-reference-invalid-2.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "comma-separated-tokens-2.0.3.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/src/hooks/useAnnotationPositions.ts"
+          ],
+          "value": "containerrect.top"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "convert-source-map-2.0.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "decode-named-character-reference-1.3.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "diff-match-patch-1.0.5.tgz"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "specmap-0.3.5/PKG-INFO",
+            "specmap-0.3.5/README.md",
+            "specmap-0.3.5/docs/development.md",
+            "specmap-0.3.5/docs/getting-started/installation.md",
+            "specmap-0.3.5/docs/getting-started/local-dev.md"
+          ],
+          "value": "docs.astral.sh"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "specmap-0.3.5/docs/mcp/llm.md",
+            "specmap-0.3.5/docs/mcp/overview.md"
+          ],
+          "value": "docs.litellm.ai"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "electron-to-chromium-1.5.321.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "escape-string-regexp-4.0.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "eslint-plugin-react-hooks-7.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "eslint-plugin-react-refresh-0.5.2.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "eslint-visitor-keys-3.4.3.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "eslint-visitor-keys-4.2.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "eslint-visitor-keys-5.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "eslint.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "estree-util-is-identifier-name-3.0.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "fast-deep-equal-3.1.3.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "fast-json-stable-stringify-2.1.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "file-entry-cache-8.0.0.tgz"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "specmap-0.3.5/web/src/components/diff/DiffViewer.tsx",
+            "specmap-0.3.5/web/src/components/filetree/FileTree.tsx",
+            "specmap-0.3.5/web/src/components/review/FileJumper.tsx",
+            "specmap-0.3.5/web/src/components/review/ReviewToolbar.tsx",
+            "specmap-0.3.5/web/src/pages/PRReviewPage.tsx"
+          ],
+          "value": "files.length"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/src/components/review/FileJumper.tsx"
+          ],
+          "value": "files.map"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/src/pages/PRReviewPage.tsx"
+          ],
+          "value": "files.reduce"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "specmap-0.3.5/src/specmap/server/app.py",
+            "specmap-0.3.5/web/index.html"
+          ],
+          "value": "fonts.googleapis.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "specmap-0.3.5/src/specmap/server/app.py",
+            "specmap-0.3.5/web/index.html"
+          ],
+          "value": "fonts.gstatic.com"
+        },
+        {
+          "file_count": 16,
+          "files": [
+            "specmap-0.3.5/PKG-INFO",
+            "specmap-0.3.5/README.md",
+            "specmap-0.3.5/docs/cli/ci.md",
+            "specmap-0.3.5/docs/cli/overview.md",
+            "specmap-0.3.5/docs/concepts/versioning.md",
+            "specmap-0.3.5/docs/deployment/production.md",
+            "specmap-0.3.5/docs/development.md",
+            "specmap-0.3.5/docs/getting-started/installation.md"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "specmap-0.3.5/src/specmap/server/app.py",
+            "specmap-0.3.5/src/specmap/server/forge.py",
+            "specmap-0.3.5/src/specmap/server/gitlab.py"
+          ],
+          "value": "gitlab.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "specmap-0.3.5/.env.example",
+            "specmap-0.3.5/docs/deployment/production.md"
+          ],
+          "value": "gitlab.example.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/docs/deployment/production.md"
+          ],
+          "value": "gitlab.example.com`"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "hast-util-parse-selector-4.0.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "hast-util-to-jsx-runtime-2.3.6.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "hast-util-whitespace-3.0.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "helper-compilation-targets-7.28.6.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "helper-module-imports-7.28.6.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "helper-module-transforms-7.28.6.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "helper-string-parser-7.27.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "helper-validator-identifier-7.28.5.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "helper-validator-option-7.27.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "html-url-attributes-3.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "inline-style-parser-0.2.7.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "json-schema-traverse-0.4.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "json-stable-stringify-without-jsonify-1.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/src/hooks/useAnnotationPositions.ts"
+          ],
+          "value": "last.top"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "lightningcss-android-arm64-1.32.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "lightningcss-darwin-arm64-1.32.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "lightningcss-darwin-x64-1.32.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "lightningcss-freebsd-x64-1.32.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "lightningcss-linux-arm-gnueabihf-1.32.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "lightningcss-linux-arm64-gnu-1.32.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "lightningcss-linux-arm64-musl-1.32.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "lightningcss-linux-x64-gnu-1.32.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "lightningcss-linux-x64-musl-1.32.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "lightningcss-win32-arm64-msvc-1.32.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "lightningcss-win32-x64-msvc-1.32.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "mdast-util-from-markdown-2.0.3.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "mdast-util-mdx-expression-2.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "mdast-util-mdx-jsx-3.2.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "mdast-util-mdxjs-esm-2.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "mdast-util-phrasing-4.1.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "mdast-util-to-hast-13.2.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "mdast-util-to-markdown-2.1.2.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "mdast-util-to-string-4.0.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-core-commonmark-2.0.3.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-factory-destination-2.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-factory-label-2.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-factory-space-2.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-factory-title-2.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-factory-whitespace-2.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-util-character-2.1.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-util-chunked-2.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-util-classify-character-2.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-util-combine-extensions-2.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-util-decode-numeric-character-reference-2.0.2.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-util-decode-string-2.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-util-encode-2.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-util-html-tag-name-2.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-util-normalize-identifier-2.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-util-resolve-all-2.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-util-sanitize-uri-2.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-util-subtokenize-2.1.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-util-symbol-2.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-util-types-2.0.2.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/docs/mcp/overview.md"
+          ],
+          "value": "modelcontextprotocol.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/src/specmap/server/gitlab.py"
+          ],
+          "value": "oauth2"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "opencollective.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/README.md"
+          ],
+          "value": "oxc.rs"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "oxide-android-arm64-4.2.2.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "oxide-darwin-arm64-4.2.2.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "oxide-darwin-x64-4.2.2.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "oxide-freebsd-x64-4.2.2.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "oxide-linux-arm-gnueabihf-4.2.2.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "oxide-linux-arm64-gnu-4.2.2.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "oxide-linux-arm64-musl-4.2.2.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "oxide-linux-x64-gnu-4.2.2.tgz"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "baseline-browser-mapping-2.10.9.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "binding-android-arm64-1.0.0-rc.16.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "binding-darwin-arm64-1.0.0-rc.16.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "binding-darwin-x64-1.0.0-rc.16.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "binding-freebsd-x64-1.0.0-rc.16.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "binding-linux-arm-gnueabihf-1.0.0-rc.16.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "binding-linux-arm64-gnu-1.0.0-rc.16.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "binding-linux-arm64-musl-1.0.0-rc.16.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "binding-linux-ppc64-gnu-1.0.0-rc.16.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "binding-linux-s390x-gnu-1.0.0-rc.16.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "binding-linux-x64-gnu-1.0.0-rc.16.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "binding-linux-x64-musl-1.0.0-rc.16.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "binding-openharmony-arm64-1.0.0-rc.16.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "binding-wasm32-wasi-1.0.0-rc.16.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "binding-win32-arm64-msvc-1.0.0-rc.16.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "binding-win32-x64-msvc-1.0.0-rc.16.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "character-entities-html4-2.1.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "character-entities-legacy-3.0.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "character-reference-invalid-2.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "comma-separated-tokens-2.0.3.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "convert-source-map-2.0.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "decode-named-character-reference-1.3.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "diff-match-patch-1.0.5.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "electron-to-chromium-1.5.321.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "escape-string-regexp-4.0.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "eslint-plugin-react-hooks-7.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "eslint-plugin-react-refresh-0.5.2.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "eslint-visitor-keys-3.4.3.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "eslint-visitor-keys-4.2.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "eslint-visitor-keys-5.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "estree-util-is-identifier-name-3.0.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "fast-deep-equal-3.1.3.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "fast-json-stable-stringify-2.1.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "file-entry-cache-8.0.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "hast-util-parse-selector-4.0.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "hast-util-to-jsx-runtime-2.3.6.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "hast-util-whitespace-3.0.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "helper-compilation-targets-7.28.6.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "helper-module-imports-7.28.6.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "helper-module-transforms-7.28.6.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "helper-string-parser-7.27.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "helper-validator-identifier-7.28.5.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "helper-validator-option-7.27.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "html-url-attributes-3.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "inline-style-parser-0.2.7.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "json-schema-traverse-0.4.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "json-stable-stringify-without-jsonify-1.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "lightningcss-android-arm64-1.32.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "lightningcss-darwin-arm64-1.32.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "lightningcss-darwin-x64-1.32.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "lightningcss-freebsd-x64-1.32.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "lightningcss-linux-arm-gnueabihf-1.32.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "lightningcss-linux-arm64-gnu-1.32.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "lightningcss-linux-arm64-musl-1.32.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "lightningcss-linux-x64-gnu-1.32.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "lightningcss-linux-x64-musl-1.32.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "lightningcss-win32-arm64-msvc-1.32.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "lightningcss-win32-x64-msvc-1.32.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "mdast-util-from-markdown-2.0.3.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "mdast-util-mdx-expression-2.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "mdast-util-mdx-jsx-3.2.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "mdast-util-mdxjs-esm-2.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "mdast-util-phrasing-4.1.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "mdast-util-to-hast-13.2.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "mdast-util-to-markdown-2.1.2.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "mdast-util-to-string-4.0.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-core-commonmark-2.0.3.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-factory-destination-2.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-factory-label-2.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-factory-space-2.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-factory-title-2.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-factory-whitespace-2.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-util-character-2.1.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-util-chunked-2.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-util-classify-character-2.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-util-combine-extensions-2.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-util-decode-numeric-character-reference-2.0.2.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-util-decode-string-2.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-util-encode-2.0.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "micromark-util-html-tag-name-2.0.1.tgz"
+        }
+      ],
+      "urls": [
+        {
+          "file_count": 2,
+          "files": [
+            "specmap-0.3.5/web/public/favicon.svg",
+            "specmap-0.3.5/web/public/icons.svg"
+          ],
+          "value": "http://www.w3.org/2000/svg"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/src/specmap/cli/commands/serve.py"
+          ],
+          "value": "http://{"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/src/specmap/server/app.py"
+          ],
+          "value": "https://*.gitlab.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/docs/deployment/production.md"
+          ],
+          "value": "https://`"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "specmap-0.3.5/src/specmap/server/app.py",
+            "specmap-0.3.5/src/specmap/server/forge.py",
+            "specmap-0.3.5/src/specmap/server/github.py"
+          ],
+          "value": "https://api.github.com"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "specmap-0.3.5/PKG-INFO",
+            "specmap-0.3.5/README.md",
+            "specmap-0.3.5/docs/development.md",
+            "specmap-0.3.5/docs/getting-started/installation.md",
+            "specmap-0.3.5/docs/getting-started/local-dev.md"
+          ],
+          "value": "https://astral.sh/uv/install.sh"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/src/specmap/server/app.py"
+          ],
+          "value": "https://avatars.githubusercontent.com"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "specmap-0.3.5/PKG-INFO",
+            "specmap-0.3.5/README.md",
+            "specmap-0.3.5/docs/development.md",
+            "specmap-0.3.5/docs/getting-started/local-dev.md"
+          ],
+          "value": "https://docs.astral.sh/uv/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/docs/getting-started/installation.md"
+          ],
+          "value": "https://docs.astral.sh/uv/getting-started/installation/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "specmap-0.3.5/docs/mcp/llm.md",
+            "specmap-0.3.5/docs/mcp/overview.md"
+          ],
+          "value": "https://docs.litellm.ai/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://eslint.org/donate"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "specmap-0.3.5/src/specmap/server/app.py",
+            "specmap-0.3.5/web/index.html"
+          ],
+          "value": "https://fonts.googleapis.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/index.html"
+          ],
+          "value": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "specmap-0.3.5/src/specmap/server/app.py",
+            "specmap-0.3.5/web/index.html"
+          ],
+          "value": "https://fonts.gstatic.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/README.md"
+          ],
+          "value": "https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/README.md"
+          ],
+          "value": "https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "specmap-0.3.5/PKG-INFO",
+            "specmap-0.3.5/README.md",
+            "specmap-0.3.5/docs/development.md",
+            "specmap-0.3.5/docs/getting-started/local-dev.md"
+          ],
+          "value": "https://github.com/casey/just"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "specmap-0.3.5/PKG-INFO",
+            "specmap-0.3.5/README.md",
+            "specmap-0.3.5/docs/development.md",
+            "specmap-0.3.5/docs/getting-started/local-dev.md"
+          ],
+          "value": "https://github.com/casey/just#installation"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://github.com/chalk/ansi-styles?sponsor=1"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://github.com/chalk/chalk?sponsor=1"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "specmap-0.3.5/PKG-INFO",
+            "specmap-0.3.5/mkdocs.yml",
+            "specmap-0.3.5/pyproject.toml"
+          ],
+          "value": "https://github.com/jdraines/specmap"
+        },
+        {
+          "file_count": 9,
+          "files": [
+            "specmap-0.3.5/PKG-INFO",
+            "specmap-0.3.5/README.md",
+            "specmap-0.3.5/docs/cli/ci.md",
+            "specmap-0.3.5/docs/cli/overview.md",
+            "specmap-0.3.5/docs/deployment/production.md",
+            "specmap-0.3.5/docs/development.md",
+            "specmap-0.3.5/docs/getting-started/installation.md",
+            "specmap-0.3.5/docs/getting-started/local-dev.md"
+          ],
+          "value": "https://github.com/jdraines/specmap.git"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "specmap-0.3.5/PKG-INFO",
+            "specmap-0.3.5/pyproject.toml"
+          ],
+          "value": "https://github.com/jdraines/specmap/issues"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/docs/concepts/versioning.md"
+          ],
+          "value": "https://github.com/jimporter/mike"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/src/specmap/server/github.py"
+          ],
+          "value": "https://github.com/login/oauth/access_token"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/src/specmap/server/github.py"
+          ],
+          "value": "https://github.com/login/oauth/authorize"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "specmap-0.3.5/docs/deployment/production.md",
+            "specmap-0.3.5/docs/development.md"
+          ],
+          "value": "https://github.com/settings/developers"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://github.com/sponsors/Boshen"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://github.com/sponsors/Brooooooklyn"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://github.com/sponsors/SuperchupuDev"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://github.com/sponsors/ai"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://github.com/sponsors/colinhacks"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://github.com/sponsors/epoberezkin"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://github.com/sponsors/isaacs"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://github.com/sponsors/jonschlinkert"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://github.com/sponsors/nzakas"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://github.com/sponsors/sindresorhus"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://github.com/sponsors/unifiedjs"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://github.com/sponsors/wooorm"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/src/specmap/server/forge.py"
+          ],
+          "value": "https://github.com/user/repo.git"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/README.md"
+          ],
+          "value": "https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/README.md"
+          ],
+          "value": "https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://github.com/vitejs/vite?sponsor=1"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "specmap-0.3.5/src/specmap/server/app.py",
+            "specmap-0.3.5/src/specmap/server/forge.py",
+            "specmap-0.3.5/src/specmap/server/gitlab.py"
+          ],
+          "value": "https://gitlab.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "specmap-0.3.5/.env.example",
+            "specmap-0.3.5/docs/deployment/production.md"
+          ],
+          "value": "https://gitlab.example.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/docs/deployment/production.md"
+          ],
+          "value": "https://gitlab.example.com`"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/docs/mcp/overview.md"
+          ],
+          "value": "https://modelcontextprotocol.io/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/src/specmap/server/gitlab.py"
+          ],
+          "value": "https://oauth2:{token"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://opencollective.com/babel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://opencollective.com/browserslist"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://opencollective.com/eslint"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://opencollective.com/express"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://opencollective.com/parcel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://opencollective.com/postcss/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://opencollective.com/typescript-eslint"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://opencollective.com/unified"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://opencollective.com/webpack"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/README.md"
+          ],
+          "value": "https://oxc.rs"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/README.md"
+          ],
+          "value": "https://react.dev/learn/react-compiler/installation"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.29.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.29.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://registry.npmjs.org/@babel/core/-/core-7.29.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://registry.npmjs.org/@babel/generator/-/generator-7.29.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://registry.npmjs.org/@babel/helper-compilation-targets/-/helper-compilation-targets-7.28.6.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://registry.npmjs.org/@babel/helper-globals/-/helper-globals-7.28.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://registry.npmjs.org/@babel/helper-module-imports/-/helper-module-imports-7.28.6.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://registry.npmjs.org/@babel/helper-module-transforms/-/helper-module-transforms-7.28.6.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://registry.npmjs.org/@babel/helper-string-parser/-/helper-string-parser-7.27.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.28.5.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://registry.npmjs.org/@babel/helper-validator-option/-/helper-validator-option-7.27.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://registry.npmjs.org/@babel/helpers/-/helpers-7.29.2.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://registry.npmjs.org/@babel/parser/-/parser-7.29.2.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://registry.npmjs.org/@babel/template/-/template-7.28.6.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://registry.npmjs.org/@babel/traverse/-/traverse-7.29.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://registry.npmjs.org/@babel/types/-/types-7.29.0.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://registry.npmjs.org/@emnapi/core/-/core-1.9.2.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.9.2.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://registry.npmjs.org/@emnapi/wasi-threads/-/wasi-threads-1.2.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://registry.npmjs.org/@eslint-community/eslint-utils/-/eslint-utils-4.9.1.tgz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "specmap-0.3.5/web/package-lock.json"
+          ],
+          "value": "https://registry.npmjs.org/@eslint-community/regexpp/-/regexpp-4.12.2.tgz"
+        }
+      ]
+    },
+    "package": "specmap",
+    "package_slug": "specmap",
+    "project_url": "https://pypi.org/project/specmap/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T19:08:38.681679+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T19:09:34.329747+00:00",
+    "title": "Personal PyPI Supply Chain Scan: specmap 0.3.5",
+    "version": "0.3.5",
+    "version_slug": "0.3.5",
+    "_metadata_path": "reports/packages/specmap/0.3.5/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "alibabacloud_ecd20200930-4.24.3.tar.gz",
     "finding_count": 15,
     "model": "gpt-5.5",
