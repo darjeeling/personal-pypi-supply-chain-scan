@@ -1,6 +1,108 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "repoctx_mcp-1.0.0.tar.gz",
+    "finding_count": 61,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 4,
+          "files": [
+            "repoctx_mcp-1.0.0/PKG-INFO",
+            "repoctx_mcp-1.0.0/README.md",
+            "repoctx_mcp-1.0.0/pyproject.toml",
+            "repoctx_mcp-1.0.0/repoctx_mcp.egg-info/PKG-INFO"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "repoctx_mcp-1.0.0/PKG-INFO",
+            "repoctx_mcp-1.0.0/README.md",
+            "repoctx_mcp-1.0.0/repoctx_mcp.egg-info/PKG-INFO"
+          ],
+          "value": "huggingface.co"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "repoctx_mcp-1.0.0/repoctx/mcp_server.py"
+          ],
+          "value": "raw.split"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "repoctx_mcp-1.0.0/repoctx/authority/extract.py"
+          ],
+          "value": "raw.splitlines"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "repoctx_mcp-1.0.0/repoctx/authority/discovery.py"
+          ],
+          "value": "raw.strip"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 3,
+          "files": [
+            "repoctx_mcp-1.0.0/PKG-INFO",
+            "repoctx_mcp-1.0.0/pyproject.toml",
+            "repoctx_mcp-1.0.0/repoctx_mcp.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/gald33/repoctx"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "repoctx_mcp-1.0.0/PKG-INFO",
+            "repoctx_mcp-1.0.0/README.md",
+            "repoctx_mcp-1.0.0/repoctx_mcp.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/gald33/repoctx.git"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "repoctx_mcp-1.0.0/PKG-INFO",
+            "repoctx_mcp-1.0.0/pyproject.toml",
+            "repoctx_mcp-1.0.0/repoctx_mcp.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/gald33/repoctx/issues"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "repoctx_mcp-1.0.0/PKG-INFO",
+            "repoctx_mcp-1.0.0/README.md",
+            "repoctx_mcp-1.0.0/repoctx_mcp.egg-info/PKG-INFO"
+          ],
+          "value": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B"
+        }
+      ]
+    },
+    "package": "repoctx-mcp",
+    "package_slug": "repoctx-mcp",
+    "project_url": "https://pypi.org/project/repoctx-mcp/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T11:55:53.998538+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T11:56:28.397753+00:00",
+    "title": "Personal PyPI Supply Chain Scan: repoctx-mcp 1.0.0",
+    "version": "1.0.0",
+    "version_slug": "1.0.0",
+    "_metadata_path": "reports/packages/repoctx-mcp/1.0.0/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "mcp_server_zap-0.1.0.tar.gz",
     "finding_count": 6,
     "model": "gpt-5.5",
