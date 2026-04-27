@@ -1,223 +1,138 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "whatsapp_agent_cli-0.1.13.tar.gz",
-  "finding_count": 57,
+  "distribution": "yongle_worker-0.1.2.tar.gz",
+  "finding_count": 6,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "whatsapp_agent_cli-0.1.13/scripts/bootstrap.sh",
-          "whatsapp_agent_cli-0.1.13/scripts/install.sh"
+          "yongle_worker-0.1.2/src/yongle_worker/local_models.py"
         ],
-        "value": "astral.sh"
+        "value": "api.ipify.org"
       },
       {
         "file_count": 1,
         "files": [
-          "whatsapp_agent_cli-0.1.13/scripts/install.sh"
+          "yongle_worker-0.1.2/src/yongle_worker/local_models.py"
         ],
-        "value": "docs.anthropic.com"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "whatsapp_agent_cli-0.1.13/PKG-INFO",
-          "whatsapp_agent_cli-0.1.13/README.md",
-          "whatsapp_agent_cli-0.1.13/pyproject.toml",
-          "whatsapp_agent_cli-0.1.13/scripts/install.sh"
-        ],
-        "value": "github.com"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "whatsapp_agent_cli-0.1.13/PKG-INFO",
-          "whatsapp_agent_cli-0.1.13/README.md"
-        ],
-        "value": "img.shields.io"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "whatsapp_agent_cli-0.1.13/PKG-INFO",
-          "whatsapp_agent_cli-0.1.13/README.md",
-          "whatsapp_agent_cli-0.1.13/server/gateway.py"
-        ],
-        "value": "pypi.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "whatsapp_agent_cli-0.1.13/PKG-INFO",
-          "whatsapp_agent_cli-0.1.13/README.md"
-        ],
-        "value": "raw.githubusercontent.com"
+        "value": "ifconfig.me"
       },
       {
         "file_count": 1,
         "files": [
-          "whatsapp_agent_cli-0.1.13/server/gateway.py"
+          "yongle_worker-0.1.2/src/yongle_worker/executor.py"
         ],
         "value": "raw.split"
       },
       {
         "file_count": 1,
         "files": [
-          "whatsapp_agent_cli-0.1.13/server/gateway.py"
+          "yongle_worker-0.1.2/src/yongle_worker/cli.py"
         ],
         "value": "raw.strip"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "yongle_worker-0.1.2/src/yongle_worker/local_models.py"
+        ],
+        "value": "vacations.ctrip.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "yongle_worker-0.1.2/src/yongle_worker/providers/boss.py"
+        ],
+        "value": "www.zhipin.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "yongle_worker-0.1.2/src/yongle_worker/config.py"
+        ],
+        "value": "xn--fjq883ae1m.icu"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "yongle_worker-0.1.2/src/yongle_worker/local_models.py"
+        ],
+        "value": "you.ctrip.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "yongle_worker-0.1.2/src/yongle_worker/local_models.py"
+        ],
+        "value": "you\\.ctrip\\.com"
       }
     ],
     "raw_public_ips": [],
-    "suspicious_endpoints": [
-      {
-        "file_count": 2,
-        "files": [
-          "whatsapp_agent_cli-0.1.13/PKG-INFO",
-          "whatsapp_agent_cli-0.1.13/README.md"
-        ],
-        "value": "https://raw.githubusercontent.com/kalki-kgp/whatsapp-agent-cli/main/scripts/bootstrap.sh"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "whatsapp_agent_cli-0.1.13/PKG-INFO",
-          "whatsapp_agent_cli-0.1.13/README.md"
-        ],
-        "value": "raw.githubusercontent.com"
-      }
-    ],
+    "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "whatsapp_agent_cli-0.1.13/scripts/bootstrap.sh",
-          "whatsapp_agent_cli-0.1.13/scripts/install.sh"
+          "yongle_worker-0.1.2/src/yongle_worker/local_models.py"
         ],
-        "value": "https://astral.sh/uv/install.sh"
+        "value": "https://api.ipify.org?format=json"
       },
       {
         "file_count": 1,
         "files": [
-          "whatsapp_agent_cli-0.1.13/scripts/install.sh"
+          "yongle_worker-0.1.2/src/yongle_worker/local_models.py"
         ],
-        "value": "https://docs.anthropic.com/claude/cli"
+        "value": "https://ifconfig.me/ip"
       },
       {
         "file_count": 1,
         "files": [
-          "whatsapp_agent_cli-0.1.13/scripts/install.sh"
+          "yongle_worker-0.1.2/src/yongle_worker/local_models.py"
         ],
-        "value": "https://github.com/kalki-kgp/codex-whatsapp.git"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "whatsapp_agent_cli-0.1.13/PKG-INFO",
-          "whatsapp_agent_cli-0.1.13/pyproject.toml"
-        ],
-        "value": "https://github.com/kalki-kgp/whatsapp-agent-cli"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "whatsapp_agent_cli-0.1.13/PKG-INFO",
-          "whatsapp_agent_cli-0.1.13/README.md"
-        ],
-        "value": "https://github.com/kalki-kgp/whatsapp-agent-cli.git"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "whatsapp_agent_cli-0.1.13/PKG-INFO",
-          "whatsapp_agent_cli-0.1.13/README.md"
-        ],
-        "value": "https://github.com/kalki-kgp/whatsapp-agent-cli/blob/main/LICENSE"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "whatsapp_agent_cli-0.1.13/PKG-INFO",
-          "whatsapp_agent_cli-0.1.13/pyproject.toml"
-        ],
-        "value": "https://github.com/kalki-kgp/whatsapp-agent-cli/issues"
+        "value": "https://vacations.ctrip.com/list/whole/sc.html?sv={quote(keyword"
       },
       {
         "file_count": 1,
         "files": [
-          "whatsapp_agent_cli-0.1.13/scripts/install.sh"
+          "yongle_worker-0.1.2/src/yongle_worker/providers/boss.py"
         ],
-        "value": "https://github.com/openai/codex"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "whatsapp_agent_cli-0.1.13/PKG-INFO",
-          "whatsapp_agent_cli-0.1.13/README.md"
-        ],
-        "value": "https://img.shields.io/badge/license-MIT-lightgrey"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "whatsapp_agent_cli-0.1.13/PKG-INFO",
-          "whatsapp_agent_cli-0.1.13/README.md"
-        ],
-        "value": "https://img.shields.io/badge/platform-linux%20%7C%20macOS-lightgrey"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "whatsapp_agent_cli-0.1.13/PKG-INFO",
-          "whatsapp_agent_cli-0.1.13/README.md"
-        ],
-        "value": "https://img.shields.io/pypi/pyversions/whatsapp-agent-cli"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "whatsapp_agent_cli-0.1.13/PKG-INFO",
-          "whatsapp_agent_cli-0.1.13/README.md"
-        ],
-        "value": "https://img.shields.io/pypi/v/whatsapp-agent-cli?color=25D366&label=pypi"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "whatsapp_agent_cli-0.1.13/PKG-INFO",
-          "whatsapp_agent_cli-0.1.13/README.md"
-        ],
-        "value": "https://pypi.org/project/whatsapp-agent-cli/"
+        "value": "https://www.zhipin.com"
       },
       {
         "file_count": 1,
         "files": [
-          "whatsapp_agent_cli-0.1.13/server/gateway.py"
+          "yongle_worker-0.1.2/src/yongle_worker/config.py"
         ],
-        "value": "https://pypi.org/pypi/whatsapp-agent-cli/json"
+        "value": "https://xn--fjq883ae1m.icu/api/v1"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "whatsapp_agent_cli-0.1.13/PKG-INFO",
-          "whatsapp_agent_cli-0.1.13/README.md"
+          "yongle_worker-0.1.2/src/yongle_worker/local_models.py"
         ],
-        "value": "https://raw.githubusercontent.com/kalki-kgp/whatsapp-agent-cli/main/scripts/bootstrap.sh"
+        "value": "https://you.ctrip.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "yongle_worker-0.1.2/src/yongle_worker/local_models.py"
+        ],
+        "value": "https://you\\.ctrip\\.com/sight/[a-zA-Z0-9"
       }
     ]
   },
-  "package": "whatsapp-agent-cli",
-  "package_slug": "whatsapp-agent-cli",
-  "project_url": "https://pypi.org/project/whatsapp-agent-cli/",
+  "package": "yongle-worker",
+  "package_slug": "yongle-worker",
+  "project_url": "https://pypi.org/project/yongle-worker/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T08:46:46.765796+00:00",
+  "published_at": "2026-04-27T08:49:10.939825+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T08:47:35.789066+00:00",
-  "title": "Personal PyPI Supply Chain Scan: whatsapp-agent-cli 0.1.13",
-  "version": "0.1.13",
-  "version_slug": "0.1.13",
-  "_metadata_path": "reports/packages/whatsapp-agent-cli/0.1.13/metadata.json"
+  "scanned_at": "2026-04-27T08:49:55.409436+00:00",
+  "title": "Personal PyPI Supply Chain Scan: yongle-worker 0.1.2",
+  "version": "0.1.2",
+  "version_slug": "0.1.2",
+  "_metadata_path": "reports/packages/yongle-worker/0.1.2/metadata.json"
 }
