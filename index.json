@@ -1,6 +1,60 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "thds_attrs_utils-1.7.20260427205838-py3-none-any.whl",
+    "finding_count": 4,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "thds_attrs_utils-1.7.20260427205838.dist-info/METADATA"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "thds/attrs_utils/jsonschema/jsonschema.py"
+          ],
+          "value": "json-schema.org"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "thds/attrs_utils/jsonschema/jsonschema.py"
+          ],
+          "value": "http://json-schema.org/draft-07/schema"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "thds_attrs_utils-1.7.20260427205838.dist-info/METADATA"
+          ],
+          "value": "https://github.com/TrilliantHealth/ds-monorepo"
+        }
+      ]
+    },
+    "package": "thds.attrs-utils",
+    "package_slug": "thds.attrs-utils",
+    "project_url": "https://pypi.org/project/thds.attrs-utils/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T20:58:58.475118+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T20:59:18.047400+00:00",
+    "title": "Personal PyPI Supply Chain Scan: thds.attrs-utils 1.7.20260427205838",
+    "version": "1.7.20260427205838",
+    "version_slug": "1.7.20260427205838",
+    "_metadata_path": "reports/packages/thds.attrs-utils/1.7.20260427205838/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "cpsl-0.3.53.tar.gz",
     "finding_count": 37,
     "model": "gpt-5.5",
