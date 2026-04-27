@@ -1,6 +1,1638 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "mindroom-2026.4.267.tar.gz",
+    "finding_count": 5446,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-frontend/src/app/auth/login/page.tsx"
+          ],
+          "value": "${host"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-frontend/src/app/auth/callback/route.ts"
+          ],
+          "value": "${request.headers.get("
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-backend/tests/test_admin.py",
+            "mindroom-2026.4.267/saas-platform/platform-backend/tests/test_instances.py",
+            "mindroom-2026.4.267/saas-platform/platform-backend/tests/test_provisioner.py"
+          ],
+          "value": "123.api.mindroom.test"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-backend/tests/test_admin.py",
+            "mindroom-2026.4.267/saas-platform/platform-backend/tests/test_instances.py",
+            "mindroom-2026.4.267/saas-platform/platform-backend/tests/test_provisioner.py"
+          ],
+          "value": "123.matrix.mindroom.test"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-backend/tests/test_admin.py",
+            "mindroom-2026.4.267/saas-platform/platform-backend/tests/test_instances.py",
+            "mindroom-2026.4.267/saas-platform/platform-backend/tests/test_provisioner.py"
+          ],
+          "value": "123.mindroom.test"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-backend/tests/test_instances.py"
+          ],
+          "value": "456.api.mindroom.test"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-backend/tests/test_instances.py"
+          ],
+          "value": "456.matrix.mindroom.test"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-backend/tests/test_instances.py"
+          ],
+          "value": "456.mindroom.test"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/src/mindroom/api/google_integration.py"
+          ],
+          "value": "accounts.google.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/api/test_api.py"
+          ],
+          "value": "accounts.google.test"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/api/test_api.py"
+          ],
+          "value": "accounts.spotify.test"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/cluster/k8s/cert-manager/cluster-issuer-staging.yaml",
+            "mindroom-2026.4.267/cluster/terraform/terraform-k8s/manifests/cert-manager/cluster-issuer-staging.yaml"
+          ],
+          "value": "acme-staging-v02.api.letsencrypt.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/cluster/k8s/cert-manager/cluster-issuer-prod.yaml",
+            "mindroom-2026.4.267/cluster/terraform/terraform-k8s/manifests/cert-manager/cluster-issuer-prod.yaml"
+          ],
+          "value": "acme-v02.api.letsencrypt.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/src/mindroom/tools/shopify.py",
+            "mindroom-2026.4.267/src/mindroom/tools_metadata.json"
+          ],
+          "value": "admin.shopify.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/PKG-INFO",
+            "mindroom-2026.4.267/README.md"
+          ],
+          "value": "agno.dev"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/docs/dev/security/SECURITY_REVIEW_05_TOKENS.md",
+            "mindroom-2026.4.267/docs/dev/security/SECURITY_REVIEW_09_ERROR_HANDLING.md"
+          ],
+          "value": "api"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/cluster/scripts/list-instances.sh"
+          ],
+          "value": "api.${domain"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/src/mindroom/cli/doctor.py"
+          ],
+          "value": "api.anthropic.com"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "mindroom-2026.4.267/docs/tools/project-management.md",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__tools__project-management__index.md",
+            "mindroom-2026.4.267/src/mindroom/tools/bitbucket.py",
+            "mindroom-2026.4.267/src/mindroom/tools_metadata.json"
+          ],
+          "value": "api.bitbucket.org"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "mindroom-2026.4.267/docs/tools/media-and-content.md",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__tools__media-and-content__index.md",
+            "mindroom-2026.4.267/src/mindroom/tools/brandfetch.py",
+            "mindroom-2026.4.267/src/mindroom/tools_metadata.json"
+          ],
+          "value": "api.brandfetch.io"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/docs/tools/calendar-and-scheduling.md",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__tools__calendar-and-scheduling__index.md"
+          ],
+          "value": "api.cal.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-frontend/src/app/dashboard/settings/__tests__/page.test.tsx"
+          ],
+          "value": "api.cancelaccountdeletion"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/src/mindroom/cli/doctor.py"
+          ],
+          "value": "api.cerebras.ai"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "mindroom-2026.4.267/docs/tools/automation-and-platforms.md",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__tools__automation-and-platforms__index.md",
+            "mindroom-2026.4.267/src/mindroom/tools/daytona.py",
+            "mindroom-2026.4.267/src/mindroom/tools_metadata.json"
+          ],
+          "value": "api.daytona.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/src/mindroom/cli/doctor.py"
+          ],
+          "value": "api.deepseek.com"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "mindroom-2026.4.267/docs/dev/security/SECURITY_REVIEW_04_INJECTION.md",
+            "mindroom-2026.4.267/docs/tools/automation-and-platforms.md",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__tools__automation-and-platforms__index.md",
+            "mindroom-2026.4.267/tests/test_error_handling.py"
+          ],
+          "value": "api.example.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-frontend/src/app/dashboard/settings/__tests__/edge-cases.test.tsx",
+            "mindroom-2026.4.267/saas-platform/platform-frontend/src/app/dashboard/settings/__tests__/page.test.tsx"
+          ],
+          "value": "api.exportuserdata"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/docs/tools/data-and-databases.md",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__tools__data-and-databases__index.md"
+          ],
+          "value": "api.financialdatasets.ai"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/docs/tools/data-and-databases.md",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__tools__data-and-databases__index.md"
+          ],
+          "value": "api.financialdatasets.ai`"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "mindroom-2026.4.267/docs/tools/web-scraping-and-browser.md",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__tools__web-scraping-and-browser__index.md",
+            "mindroom-2026.4.267/src/mindroom/tools/firecrawl.py",
+            "mindroom-2026.4.267/src/mindroom/tools_metadata.json"
+          ],
+          "value": "api.firecrawl.dev"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/docs/tools/web-scraping-and-browser.md",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__tools__web-scraping-and-browser__index.md"
+          ],
+          "value": "api.firecrawl.dev`"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-frontend/src/app/dashboard/settings/__tests__/edge-cases.test.tsx",
+            "mindroom-2026.4.267/saas-platform/platform-frontend/src/app/dashboard/settings/__tests__/page.test.tsx"
+          ],
+          "value": "api.getaccount"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/src/mindroom/cli/doctor.py"
+          ],
+          "value": "api.groq.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/frontend/src/types/toolConfig.ts"
+          ],
+          "value": "api.jina.ai"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/scripts/utilities/rewrite_git_commits_ai.py"
+          ],
+          "value": "api.js"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/docs/tools/project-management.md",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__tools__project-management__index.md"
+          ],
+          "value": "api.linear.app"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tach.toml"
+          ],
+          "value": "api.main"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "mindroom-2026.4.267/docs/deployment/kubernetes.md",
+            "mindroom-2026.4.267/docs/dev/security/SECURITY_REVIEW_09_ERROR_HANDLING.md",
+            "mindroom-2026.4.267/docs/dev/security/SECURITY_REVIEW_CHECKLIST.md",
+            "mindroom-2026.4.267/saas-platform/README.md",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__deployment__kubernetes__index.md"
+          ],
+          "value": "api.mindroom.chat"
+        },
+        {
+          "file_count": 8,
+          "files": [
+            "mindroom-2026.4.267/frontend/src/components/MemoryConfig/MemoryConfig.tsx",
+            "mindroom-2026.4.267/frontend/src/components/ModelConfig/ModelConfig.test.tsx",
+            "mindroom-2026.4.267/frontend/src/components/ModelConfig/ModelConfig.tsx",
+            "mindroom-2026.4.267/frontend/src/components/VoiceConfig/VoiceConfig.test.tsx",
+            "mindroom-2026.4.267/frontend/src/components/VoiceConfig/VoiceConfig.tsx",
+            "mindroom-2026.4.267/src/mindroom/cli/doctor.py",
+            "mindroom-2026.4.267/src/mindroom/voice_handler.py",
+            "mindroom-2026.4.267/tests/test_cli_config.py"
+          ],
+          "value": "api.openai.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-frontend/src/app/dashboard/settings/__tests__/edge-cases.test.tsx",
+            "mindroom-2026.4.267/saas-platform/platform-frontend/src/app/dashboard/settings/__tests__/page.test.tsx"
+          ],
+          "value": "api.requestaccountdeletion"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/local/instances/deploy/BRIDGE_MANAGER.md",
+            "mindroom-2026.4.267/local/instances/deploy/bridge.py"
+          ],
+          "value": "api.slack.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/cluster/scripts/setup-stripe-webhooks.py",
+            "mindroom-2026.4.267/cluster/terraform/terraform-k8s/platform-cert.yaml"
+          ],
+          "value": "api.staging.mindroom.chat"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-frontend/middleware.ts"
+          ],
+          "value": "api.stripe.com"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "mindroom-2026.4.267/CLAUDE.md",
+            "mindroom-2026.4.267/docs/dev/exhaustive-live-test-checklist.md",
+            "mindroom-2026.4.267/docs/dev/security/SECURITY_REVIEW_05_TOKENS.md",
+            "mindroom-2026.4.267/docs/dev/security/SECURITY_REVIEW_09_ERROR_HANDLING.md",
+            "mindroom-2026.4.267/saas-platform/API_ENDPOINT_MAPPING.md"
+          ],
+          "value": "api.ts"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-frontend/src/app/dashboard/settings/__tests__/edge-cases.test.tsx",
+            "mindroom-2026.4.267/saas-platform/platform-frontend/src/app/dashboard/settings/__tests__/page.test.tsx"
+          ],
+          "value": "api.updateconsent"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/cluster/scripts/setup-stripe-webhooks.py"
+          ],
+          "value": "api.{os.getenv("
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "mindroom-2026.4.267/cluster/k8s/platform/templates/apex-redirect.yaml",
+            "mindroom-2026.4.267/cluster/terraform/terraform-k8s/README.md",
+            "mindroom-2026.4.267/docs/dev/security/SECURITY_REVIEW_07_DATA_PROTECTION.md",
+            "mindroom-2026.4.267/saas-platform/docs/authentication.md"
+          ],
+          "value": "app"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/frontend/src/App.tsx"
+          ],
+          "value": "app.${base"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/cluster/scripts/list-instances.sh"
+          ],
+          "value": "app.${domain"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-frontend/src/app/auth/callback/route.ts",
+            "mindroom-2026.4.267/saas-platform/platform-frontend/src/app/auth/login/page.tsx"
+          ],
+          "value": "app.${platformdomain"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/src/mindroom/tools/clickup.py",
+            "mindroom-2026.4.267/src/mindroom/tools_metadata.json"
+          ],
+          "value": "app.clickup.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/api/test_api.py"
+          ],
+          "value": "app.example.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/cluster/k8s/kind/.env.example"
+          ],
+          "value": "app.mem0.ai"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "mindroom-2026.4.267/cluster/terraform/terraform-k8s/supabase-auth.tf",
+            "mindroom-2026.4.267/docs/dev/security/SECURITY_REVIEW_12_FRONTEND.md",
+            "mindroom-2026.4.267/frontend/src/App.tsx"
+          ],
+          "value": "app.mindroom.chat"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/cluster/k8s/kind/.env.example"
+          ],
+          "value": "app.supabase.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-backend/tests/test_cors_headers.py"
+          ],
+          "value": "app.test.mindroom.chat"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-backend/src/backend/config.py"
+          ],
+          "value": "app.{domain"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/cluster/k8s/instance/templates/deployment-mindroom.yaml",
+            "mindroom-2026.4.267/cluster/k8s/platform/templates/apex-redirect.yaml"
+          ],
+          "value": "app.{{"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/scripts/testing/prompt_cache_review.py"
+          ],
+          "value": "args.top"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/run-backend.sh"
+          ],
+          "value": "astral.sh"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/test_local_instance_deploy.py"
+          ],
+          "value": "auth-foo.bar.example.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/local/instances/deploy/README.md"
+          ],
+          "value": "auth-{domain"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/local/instances/deploy/deploy.py"
+          ],
+          "value": "auth-{instance.domain"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/src/mindroom/codex_model.py"
+          ],
+          "value": "auth.openai.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/frontend/src/components/Integrations/integrations/google/google.test.tsx",
+            "mindroom-2026.4.267/frontend/src/components/Integrations/integrations/homeassistant/homeassistant.test.tsx"
+          ],
+          "value": "backend.example.test"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-backend/tests/stripe_mock.py",
+            "mindroom-2026.4.267/saas-platform/platform-backend/tests/test_stripe_routes.py",
+            "mindroom-2026.4.267/saas-platform/platform-frontend/src/lib/__tests__/api.test.ts"
+          ],
+          "value": "billing.stripe.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/src/mindroom/tools/bitbucket.py",
+            "mindroom-2026.4.267/src/mindroom/tools_metadata.json"
+          ],
+          "value": "bitbucket.org"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "mindroom-2026.4.267/PKG-INFO",
+            "mindroom-2026.4.267/README.md",
+            "mindroom-2026.4.267/run-frontend.sh"
+          ],
+          "value": "bun.sh"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "mindroom-2026.4.267/PKG-INFO",
+            "mindroom-2026.4.267/README.md",
+            "mindroom-2026.4.267/scripts/local_mindroom_provisioning_service.nix",
+            "mindroom-2026.4.267/scripts/local_mindroom_provisioning_service.py",
+            "mindroom-2026.4.267/tests/test_local_mindroom_provisioning_service.py"
+          ],
+          "value": "chat.mindroom.chat"
+        },
+        {
+          "file_count": 7,
+          "files": [
+            "mindroom-2026.4.267/CLAUDE.md",
+            "mindroom-2026.4.267/docs/deployment/hosted-matrix.md",
+            "mindroom-2026.4.267/docs/deployment/index.md",
+            "mindroom-2026.4.267/docs/getting-started.md",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__deployment__hosted-matrix__index.md",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__deployment__index.md",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__getting-started__index.md"
+          ],
+          "value": "chat.mindroom.chat`"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/src/mindroom/codex_model.py"
+          ],
+          "value": "chatgpt.com"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-backend/tests/stripe_mock.py",
+            "mindroom-2026.4.267/saas-platform/platform-backend/tests/test_stripe_integration.py",
+            "mindroom-2026.4.267/saas-platform/platform-backend/tests/test_stripe_routes.py",
+            "mindroom-2026.4.267/saas-platform/platform-frontend/src/lib/__tests__/api.test.ts"
+          ],
+          "value": "checkout.stripe.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/cluster/k8s/kind/.env.example"
+          ],
+          "value": "console.anthropic.com"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "mindroom-2026.4.267/cluster/terraform/terraform-k8s/terraform.tfvars.example",
+            "mindroom-2026.4.267/docs/deployment/google-services-oauth.md",
+            "mindroom-2026.4.267/docs/deployment/google-services-user-oauth.md",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__deployment__google-services-oauth__index.md",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__deployment__google-services-user-oauth__index.md"
+          ],
+          "value": "console.cloud.google.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/cluster/terraform/terraform-k8s/README.md"
+          ],
+          "value": "console.hetzner.cloud"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/src/mindroom/tools/telegram.py",
+            "mindroom-2026.4.267/src/mindroom/tools_metadata.json"
+          ],
+          "value": "core.telegram.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-frontend/src/components/dashboard/__tests__/InstanceCard.simple.test.tsx",
+            "mindroom-2026.4.267/saas-platform/platform-frontend/src/components/dashboard/__tests__/InstanceCard.test.tsx"
+          ],
+          "value": "customer.api.mindroom.chat"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-frontend/src/components/dashboard/__tests__/InstanceCard.simple.test.tsx",
+            "mindroom-2026.4.267/saas-platform/platform-frontend/src/components/dashboard/__tests__/InstanceCard.test.tsx"
+          ],
+          "value": "customer.matrix.mindroom.chat"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-frontend/src/components/dashboard/__tests__/InstanceCard.simple.test.tsx",
+            "mindroom-2026.4.267/saas-platform/platform-frontend/src/components/dashboard/__tests__/InstanceCard.test.tsx"
+          ],
+          "value": "customer.mindroom.chat"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/docs/plugins.md",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__plugins__index.md"
+          ],
+          "value": "dawarich.app"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/src/mindroom/tools/desi_vocal.py",
+            "mindroom-2026.4.267/src/mindroom/tools_metadata.json"
+          ],
+          "value": "desivocal.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/cluster/terraform/terraform-k8s/README.md",
+            "mindroom-2026.4.267/cluster/terraform/terraform-k8s/scripts/build_snapshots.sh"
+          ],
+          "value": "developer.hashicorp.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/src/mindroom/tools/spotify.py",
+            "mindroom-2026.4.267/src/mindroom/tools_metadata.json"
+          ],
+          "value": "developer.spotify.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/src/mindroom/tools/brandfetch.py",
+            "mindroom-2026.4.267/src/mindroom/tools_metadata.json"
+          ],
+          "value": "developers.brandfetch.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/src/mindroom/api/homeassistant_integration.py"
+          ],
+          "value": "developers.home-assistant.io"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/docs/tools/messaging-and-social.md",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__tools__messaging-and-social__index.md"
+          ],
+          "value": "discord.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/Dockerfile.platform-backend"
+          ],
+          "value": "dl.k8s.io"
+        },
+        {
+          "file_count": 106,
+          "files": [
+            "mindroom-2026.4.267/docs/configuration/agents.md",
+            "mindroom-2026.4.267/docs/configuration/cultures.md",
+            "mindroom-2026.4.267/docs/configuration/models.md",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__configuration__agents__index.md",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__configuration__cultures__index.md",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__configuration__models__index.md",
+            "mindroom-2026.4.267/src/mindroom/tools/agentql.py",
+            "mindroom-2026.4.267/src/mindroom/tools/airflow.py"
+          ],
+          "value": "docs.agno.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/docs/getting-started.md",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__getting-started__index.md"
+          ],
+          "value": "docs.astral.sh"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tach.toml"
+          ],
+          "value": "docs.gauge.sh"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "mindroom-2026.4.267/docs/deployment/bridges/index.md",
+            "mindroom-2026.4.267/docs/deployment/bridges/telegram.md",
+            "mindroom-2026.4.267/local/instances/deploy/templates/bridges/README.md",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__deployment__bridges__index.md",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__deployment__bridges__telegram__index.md"
+          ],
+          "value": "docs.mau.fi"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-frontend/src/components/dashboard/QuickActions.tsx"
+          ],
+          "value": "docs.mindroom.app"
+        },
+        {
+          "file_count": 51,
+          "files": [
+            "mindroom-2026.4.267/.github/scripts/generate_skill_references.py",
+            "mindroom-2026.4.267/PKG-INFO",
+            "mindroom-2026.4.267/README.md",
+            "mindroom-2026.4.267/docs/tools/web-scraping-and-browser.md",
+            "mindroom-2026.4.267/frontend/src/components/GoogleIntegration/GoogleIntegration.tsx",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/llms.txt",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__architecture__index.md",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__architecture__matrix__index.md"
+          ],
+          "value": "docs.mindroom.chat"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/.github/renovate.json"
+          ],
+          "value": "docs.renovatebot.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/tests/api/test_sandbox_runner_api.py",
+            "mindroom-2026.4.267/tests/test_kubernetes_worker_backend.py"
+          ],
+          "value": "dotenv-hs"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/tests/api/test_sandbox_runner_api.py",
+            "mindroom-2026.4.267/tests/test_kubernetes_worker_backend.py"
+          ],
+          "value": "dotenv-hs\\n"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/cluster/terraform/terraform-k8s/hcloud-microos-snapshots.pkr.hcl"
+          ],
+          "value": "download.opensuse.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/test_cli_config.py"
+          ],
+          "value": "env-provisioning.example"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/docs/dev/security/SECURITY_REVIEW_12_FRONTEND.md"
+          ],
+          "value": "evil.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/test_tool_failures.py"
+          ],
+          "value": "example-bucket.s3.amazonaws.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/docs/tools/project-management.md",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__tools__project-management__index.md"
+          ],
+          "value": "example.atlassian.net`"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "mindroom-2026.4.267/tests/api/test_sandbox_runner_api.py",
+            "mindroom-2026.4.267/tests/test_kubernetes_worker_backend.py",
+            "mindroom-2026.4.267/tests/test_sandbox_proxy.py"
+          ],
+          "value": "example.invalid"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/test_config_discovery.py"
+          ],
+          "value": "example.org\\n"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/tests/test_hook_registry.py",
+            "mindroom-2026.4.267/tests/test_tool_output_files.py"
+          ],
+          "value": "example.test"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-backend/tests/test_log_sanitizer.py"
+          ],
+          "value": "eyjhbgcioijiuzi1niisinr5cci6ikpxvcj9.xyz"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/scripts/check_module_privacy.py",
+            "mindroom-2026.4.267/src/mindroom/memory/_file_backend.py"
+          ],
+          "value": "files.extend"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-backend/uv.lock"
+          ],
+          "value": "files.pythonhosted.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/frontend/index.html"
+          ],
+          "value": "fonts.googleapis.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/frontend/index.html"
+          ],
+          "value": "fonts.gstatic.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/frontend/src/components/Integrations/integrations/spotify/spotify.test.tsx"
+          ],
+          "value": "frontend.example.test"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/src/mindroom/cli/doctor.py"
+          ],
+          "value": "generativelanguage.googleapis.com"
+        },
+        {
+          "file_count": 41,
+          "files": [
+            "mindroom-2026.4.267/avatars/agents/analyst.png",
+            "mindroom-2026.4.267/avatars/agents/calculator.png",
+            "mindroom-2026.4.267/avatars/agents/callagent.png",
+            "mindroom-2026.4.267/avatars/agents/code.png",
+            "mindroom-2026.4.267/avatars/agents/data_analyst.png",
+            "mindroom-2026.4.267/avatars/agents/email_assistant.png",
+            "mindroom-2026.4.267/avatars/agents/finance.png",
+            "mindroom-2026.4.267/avatars/agents/general.png"
+          ],
+          "value": "git-lfs.github.com"
+        },
+        {
+          "file_count": 58,
+          "files": [
+            "mindroom-2026.4.267/.github/workflows/security-scan.yml",
+            "mindroom-2026.4.267/.gitignore",
+            "mindroom-2026.4.267/.pre-commit-config.yaml",
+            "mindroom-2026.4.267/CLAUDE.md",
+            "mindroom-2026.4.267/PKG-INFO",
+            "mindroom-2026.4.267/README.md",
+            "mindroom-2026.4.267/cluster/terraform/terraform-k8s/hcloud-microos-snapshots.pkr.hcl",
+            "mindroom-2026.4.267/cluster/terraform/terraform-k8s/kube.tf"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/docs/tools/project-management.md",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__tools__project-management__index.md"
+          ],
+          "value": "github.example.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/docs/tools/messaging-and-social.md",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__tools__messaging-and-social__index.md"
+          ],
+          "value": "graph.facebook.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/tests/api/test_api.py",
+            "mindroom-2026.4.267/tests/test_credentials_api.py"
+          ],
+          "value": "ha.example.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-frontend/.gitignore"
+          ],
+          "value": "help.github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-frontend/middleware.ts"
+          ],
+          "value": "hooks.stripe.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/test_config_discovery.py"
+          ],
+          "value": "hs.example"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/PKG-INFO",
+            "mindroom-2026.4.267/README.md"
+          ],
+          "value": "img.shields.io"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/Dockerfile.platform-backend"
+          ],
+          "value": "https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/cluster/k8s/kind/up.sh"
+          ],
+          "value": "https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/kind/deploy.yaml"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/cluster/k8s/kind/up.sh",
+            "mindroom-2026.4.267/saas-platform/Dockerfile.platform-backend"
+          ],
+          "value": "raw.githubusercontent.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "mindroom-2026.4.267/.env.example",
+            "mindroom-2026.4.267/docs/deployment/google-services-oauth.md",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__deployment__google-services-oauth__index.md"
+          ],
+          "value": "your-app-client-id.apps.googleusercontent.com"
+        }
+      ],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/local/instances/deploy/docker-compose.authelia.yml"
+          ],
+          "value": "http://${INSTANCE_NAME:-mindroom"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/tests/api/test_sandbox_runner_api.py",
+            "mindroom-2026.4.267/tests/test_kubernetes_worker_backend.py"
+          ],
+          "value": "http://dotenv-hs"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/tests/api/test_sandbox_runner_api.py",
+            "mindroom-2026.4.267/tests/test_kubernetes_worker_backend.py"
+          ],
+          "value": "http://dotenv-hs\\n"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "mindroom-2026.4.267/tests/test_edit_response_regeneration.py",
+            "mindroom-2026.4.267/tests/test_markdown_to_html.py",
+            "mindroom-2026.4.267/tests/test_subagents.py",
+            "mindroom-2026.4.267/tests/test_thread_summary.py",
+            "mindroom-2026.4.267/tests/test_thread_summary_tool.py"
+          ],
+          "value": "http://example.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/test_markdown_to_html.py"
+          ],
+          "value": "http://example.com/img.png"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/tests/test_embeddings.py",
+            "mindroom-2026.4.267/tests/test_memory_config.py"
+          ],
+          "value": "http://example.com/v1"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/tests/api/test_sandbox_runner_api.py",
+            "mindroom-2026.4.267/tests/test_sandbox_proxy.py"
+          ],
+          "value": "http://example.invalid/v1"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/test_kubernetes_worker_backend.py"
+          ],
+          "value": "http://example.invalid/v1\\n"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/tests/api/test_sandbox_runner_api.py",
+            "mindroom-2026.4.267/tests/test_sandbox_proxy.py"
+          ],
+          "value": "http://example.invalid/v1\\nCUSTOM_API_TOKEN=custom-secret\\n"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/test_hook_registry.py"
+          ],
+          "value": "http://example.test"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/test_cli_config.py"
+          ],
+          "value": "http://localllm:9292/v1"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/test_cli_config.py"
+          ],
+          "value": "http://localllm:9292/v1\\n"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/test_message_content.py"
+          ],
+          "value": "http://not-mxc-url"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/cluster/k8s/platform/templates/all.yaml",
+            "mindroom-2026.4.267/saas-platform/docker-compose.yml"
+          ],
+          "value": "http://platform-backend:8000"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/docs/dev/security/SECURITY_REVIEW_07_DATA_PROTECTION.md"
+          ],
+          "value": "http://platform-backend:8000/admin/cleanup/run"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/frontend/src/types/toolConfig.ts"
+          ],
+          "value": "http://proxy.example.com:8080"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/api/test_sandbox_runner_api.py"
+          ],
+          "value": "http://runner-env.example/v1"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/test_sandbox_proxy.py"
+          ],
+          "value": "http://sandbox"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/test_sandbox_proxy.py"
+          ],
+          "value": "http://sandbox-runner:8765"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/test_sandbox_proxy.py"
+          ],
+          "value": "http://sandbox-runner:8765/api/sandbox-runner/execute"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "mindroom-2026.4.267/docs/deployment/sandbox-proxy.md",
+            "mindroom-2026.4.267/local/instances/deploy/docker-compose.yml",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__deployment__sandbox-proxy__index.md"
+          ],
+          "value": "http://sandbox-runner:8766"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/test_sandbox_proxy.py"
+          ],
+          "value": "http://sandbox:8765"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/test_sandbox_proxy.py"
+          ],
+          "value": "http://sandbox:8765/api/sandbox-runner/execute"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/cluster/k8s/kind/smoke_instance.py"
+          ],
+          "value": "http://synapse-{instance_id"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/cluster/k8s/instance/templates/deployment-mindroom.yaml"
+          ],
+          "value": "http://synapse-{{"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/local/instances/deploy/docker-compose.synapse.yml"
+          ],
+          "value": "http://synapse:8008"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/test_credentials_sync.py"
+          ],
+          "value": "http://test:11434"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/local/instances/deploy/docker-compose.tuwunel.yml"
+          ],
+          "value": "http://tuwunel:6167"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/tests/api/test_api.py",
+            "mindroom-2026.4.267/tests/test_sandbox_proxy.py"
+          ],
+          "value": "http://worker/api/sandbox-runner/execute"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/LICENSE"
+          ],
+          "value": "http://www.apache.org/licenses/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/LICENSE"
+          ],
+          "value": "http://www.apache.org/licenses/LICENSE-2.0"
+        },
+        {
+          "file_count": 7,
+          "files": [
+            "mindroom-2026.4.267/frontend/public/logo-text.svg",
+            "mindroom-2026.4.267/frontend/public/logo.svg",
+            "mindroom-2026.4.267/saas-platform/platform-frontend/public/file.svg",
+            "mindroom-2026.4.267/saas-platform/platform-frontend/public/globe.svg",
+            "mindroom-2026.4.267/saas-platform/platform-frontend/public/next.svg",
+            "mindroom-2026.4.267/saas-platform/platform-frontend/public/vercel.svg",
+            "mindroom-2026.4.267/saas-platform/platform-frontend/public/window.svg"
+          ],
+          "value": "http://www.w3.org/2000/svg"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/local/instances/deploy/bridge.py"
+          ],
+          "value": "http://{bridge_container"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/src/mindroom/cli/main.py"
+          ],
+          "value": "http://{display_host"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/test_kubernetes_worker_backend.py"
+          ],
+          "value": "http://{handle.worker_id"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/test_claude_agent_tool.py"
+          ],
+          "value": "http://{host"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/local/instances/deploy/bridge.py"
+          ],
+          "value": "http://{instance_name"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/cluster/k8s/kind/smoke_instance.py"
+          ],
+          "value": "http://{matrix_service_host"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/src/mindroom/api/homeassistant_integration.py"
+          ],
+          "value": "http://{normalized"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/src/mindroom/workers/backends/kubernetes_resources.py"
+          ],
+          "value": "http://{service_name"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/.env.example"
+          ],
+          "value": "https://"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/local/instances/deploy/docker-compose.yml"
+          ],
+          "value": "https://${INSTANCE_DOMAIN"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/local/instances/deploy/docker-compose.tuwunel.yml"
+          ],
+          "value": "https://${MATRIX_SERVER_NAME:-m-${INSTANCE_DOMAIN"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-frontend/src/app/auth/login/page.tsx"
+          ],
+          "value": "https://${host"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-frontend/src/app/auth/callback/route.ts"
+          ],
+          "value": "https://${request.headers.get("
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/test_knowledge_manager.py"
+          ],
+          "value": "https://***@example.com/org/repo.git"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "mindroom-2026.4.267/frontend/src/components/Knowledge/Knowledge.test.tsx",
+            "mindroom-2026.4.267/tests/api/test_knowledge_api.py",
+            "mindroom-2026.4.267/tests/test_knowledge_manager.py"
+          ],
+          "value": "https://***@example.com/repo.git"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/test_knowledge_manager.py"
+          ],
+          "value": "https://***@github.com/example/private.git"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/frontend/src/components/Knowledge/Knowledge.test.tsx"
+          ],
+          "value": "https://***@github.com/org/git-docs"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/frontend/src/components/Knowledge/Knowledge.test.tsx"
+          ],
+          "value": "https://***@github.com/org/repo"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-backend/tests/test_admin.py",
+            "mindroom-2026.4.267/saas-platform/platform-backend/tests/test_instances.py",
+            "mindroom-2026.4.267/saas-platform/platform-backend/tests/test_provisioner.py"
+          ],
+          "value": "https://123.api.mindroom.test"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-backend/tests/test_admin.py",
+            "mindroom-2026.4.267/saas-platform/platform-backend/tests/test_instances.py",
+            "mindroom-2026.4.267/saas-platform/platform-backend/tests/test_provisioner.py"
+          ],
+          "value": "https://123.matrix.mindroom.test"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-backend/tests/test_admin.py",
+            "mindroom-2026.4.267/saas-platform/platform-backend/tests/test_instances.py",
+            "mindroom-2026.4.267/saas-platform/platform-backend/tests/test_provisioner.py"
+          ],
+          "value": "https://123.mindroom.test"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-backend/tests/test_instances.py"
+          ],
+          "value": "https://456.api.mindroom.test"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-backend/tests/test_instances.py"
+          ],
+          "value": "https://456.matrix.mindroom.test"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-backend/tests/test_instances.py"
+          ],
+          "value": "https://456.mindroom.test"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/cluster/terraform/terraform-k8s/terraform.tfvars.example"
+          ],
+          "value": "https://YOUR_PROJECT.supabase.co"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/src/mindroom/api/google_integration.py"
+          ],
+          "value": "https://accounts.google.com/o/oauth2/auth"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/api/test_api.py"
+          ],
+          "value": "https://accounts.google.test/o/oauth2/auth"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/api/test_api.py"
+          ],
+          "value": "https://accounts.spotify.test/authorize"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/api/test_api.py"
+          ],
+          "value": "https://accounts.spotify.test/authorize?state={state"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/cluster/k8s/cert-manager/cluster-issuer-staging.yaml",
+            "mindroom-2026.4.267/cluster/terraform/terraform-k8s/manifests/cert-manager/cluster-issuer-staging.yaml"
+          ],
+          "value": "https://acme-staging-v02.api.letsencrypt.org/directory"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/cluster/k8s/cert-manager/cluster-issuer-prod.yaml",
+            "mindroom-2026.4.267/cluster/terraform/terraform-k8s/manifests/cert-manager/cluster-issuer-prod.yaml"
+          ],
+          "value": "https://acme-v02.api.letsencrypt.org/directory"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/src/mindroom/tools/shopify.py",
+            "mindroom-2026.4.267/src/mindroom/tools_metadata.json"
+          ],
+          "value": "https://admin.shopify.com/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/PKG-INFO",
+            "mindroom-2026.4.267/README.md"
+          ],
+          "value": "https://agno.dev/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/tests/test_tool_failures.py",
+            "mindroom-2026.4.267/tests/test_tool_hooks.py"
+          ],
+          "value": "https://alice:***@example.com/private"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/test_tool_failures.py"
+          ],
+          "value": "https://alice:***@example.com/private.git"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/test_tool_failures.py"
+          ],
+          "value": "https://alice:***@example.com/private?"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/tests/test_tool_failures.py",
+            "mindroom-2026.4.267/tests/test_tool_hooks.py"
+          ],
+          "value": "https://alice:secret@example.com/private"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/test_tool_failures.py"
+          ],
+          "value": "https://alice:secret@example.com/private.git"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/tests/test_tool_failures.py"
+          ],
+          "value": "https://alice:secret@example.com/private?"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/docs/dev/security/SECURITY_REVIEW_05_TOKENS.md",
+            "mindroom-2026.4.267/docs/dev/security/SECURITY_REVIEW_09_ERROR_HANDLING.md"
+          ],
+          "value": "https://api"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/cluster/scripts/list-instances.sh"
+          ],
+          "value": "https://api.${DOMAIN"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/cluster/scripts/mindroom-cli.sh"
+          ],
+          "value": "https://api.${PLATFORM_DOMAIN:-staging.mindroom.chat"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/saas-platform/platform-frontend/runtime-config-shared.js"
+          ],
+          "value": "https://api.${env.PLATFORM_DOMAIN"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/cluster/terraform/terraform-k8s/helm.tf"
+          ],
+          "value": "https://api.${local.dns_domain"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mindroom-2026.4.267/src/mindroom/cli/doctor.py"
+          ],
+          "value": "https://api.anthropic.com/v1/models"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/src/mindroom/tools/brandfetch.py",
+            "mindroom-2026.4.267/src/mindroom/tools_metadata.json"
+          ],
+          "value": "https://api.brandfetch.io/v2"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/docs/tools/media-and-content.md",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__tools__media-and-content__index.md"
+          ],
+          "value": "https://api.brandfetch.io/v2`"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mindroom-2026.4.267/docs/tools/calendar-and-scheduling.md",
+            "mindroom-2026.4.267/skills/mindroom-docs/references/page__tools__calendar-and-scheduling__index.md"
+          ],
+          "value": "https://api.cal.com/v2`"
+        }
+      ]
+    },
+    "package": "mindroom",
+    "package_slug": "mindroom",
+    "project_url": "https://pypi.org/project/mindroom/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T20:49:51.262948+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T20:50:39.745462+00:00",
+    "title": "Personal PyPI Supply Chain Scan: mindroom 2026.4.267",
+    "version": "2026.4.267",
+    "version_slug": "2026.4.267",
+    "_metadata_path": "reports/packages/mindroom/2026.4.267/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "plato_sdk_v2-2.83.0.tar.gz",
     "finding_count": 904,
     "model": "gpt-5.5",

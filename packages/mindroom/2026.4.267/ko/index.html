@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal PyPI Supply Chain Scan: mindroom 2026.4.267</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 960px; line-height: 1.55; padding: 0 1rem; color: #1f2933; }
+    a { color: #1f5fbf; }
+    code { background: #f4f4f4; padding: 0.1rem 0.25rem; }
+    h1, h2, h3 { line-height: 1.2; }
+    li { margin: 0.35rem 0; }
+    nav { margin-bottom: 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #e5e9ef; padding: 0.55rem 0.65rem; text-align: left; vertical-align: top; }
+    th { color: #52616f; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; }
+    .scan-groups { margin-top: 1.2rem; }
+    .scan-day { border-top: 1px solid #d8dee4; display: grid; gap: 1rem; grid-template-columns: 10rem minmax(0, 1fr); padding: 1.1rem 0; }
+    .scan-day-date { color: #1f2933; font-weight: 700; }
+    .scan-day-date span { color: #52616f; display: block; font-size: 0.9rem; font-weight: 500; margin-top: 0.2rem; }
+    .scan-day-table { overflow-x: auto; }
+    .risk { display: inline-block; min-width: 4.8rem; text-align: center; border-radius: 999px; padding: 0.15rem 0.45rem; font-size: 0.78rem; font-weight: 700; }
+    .risk-info, .risk-low { background: #dcfce7; color: #166534; }
+    .risk-medium, .risk-unknown { background: #fef3c7; color: #92400e; }
+    .risk-high, .risk-critical { background: #fee2e2; color: #991b1b; }
+    .index-note { color: #52616f; margin-top: -0.35rem; }
+    .version { color: #52616f; margin-left: 0.2rem; white-space: nowrap; }
+    @media (max-width: 720px) {
+      .scan-day { grid-template-columns: 1fr; }
+      th, td { padding: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+<nav><a href='../../../../'>Index</a></nav><h1>Personal PyPI Supply Chain Scan: mindroom 2026.4.267</h1>
+
+<ul>
+<li>Package: mindroom</li>
+<li>Version: 2026.4.267</li>
+<li>Project URL: https://pypi.org/project/mindroom/</li>
+<li>Distribution: mindroom-2026.4.267.tar.gz</li>
+<li>Package published at: 2026-04-27T20:49:51.262948+00:00</li>
+<li>Scan published at: 2026-04-27T20:50:39.745462+00:00</li>
+<li>Language: ko</li>
+<li>Model: gpt-5.5</li>
+<li>Prompt: malicious-supply-chain-review-v2 ([source](../../../../docs/prompts/malicious-supply-chain-review-v2.md))</li>
+<li>Disclaimer: This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</li>
+</ul>
+
+<h2>Deterministic Network Indicators</h2>
+
+<h3>Suspicious Endpoints</h3>
+<ul>
+<li>https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 (1 files: mindroom-2026.4.267/saas-platform/Dockerfile.platform-backend)</li>
+<li>https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/kind/deploy.yaml (1 files: mindroom-2026.4.267/cluster/k8s/kind/up.sh)</li>
+<li>raw.githubusercontent.com (2 files: mindroom-2026.4.267/cluster/k8s/kind/up.sh, mindroom-2026.4.267/saas-platform/Dockerfile.platform-backend)</li>
+<li>your-app-client-id.apps.googleusercontent.com (3 files: mindroom-2026.4.267/.env.example, mindroom-2026.4.267/docs/deployment/google-services-oauth.md, mindroom-2026.4.267/skills/mindroom-docs/references/page__deployment__google-services-oauth__index.md)</li>
+</ul>
+
+<h3>Raw Public IPs</h3>
+
+<p>None</p>
+
+<h3>URLs</h3>
+<ul>
+<li>http://${INSTANCE_NAME:-mindroom (1 files: mindroom-2026.4.267/local/instances/deploy/docker-compose.authelia.yml)</li>
+<li>http://dotenv-hs (2 files: mindroom-2026.4.267/tests/api/test_sandbox_runner_api.py, mindroom-2026.4.267/tests/test_kubernetes_worker_backend.py)</li>
+<li>http://dotenv-hs\n (2 files: mindroom-2026.4.267/tests/api/test_sandbox_runner_api.py, mindroom-2026.4.267/tests/test_kubernetes_worker_backend.py)</li>
+<li>http://example.com (5 files: mindroom-2026.4.267/tests/test_edit_response_regeneration.py, mindroom-2026.4.267/tests/test_markdown_to_html.py, mindroom-2026.4.267/tests/test_subagents.py, mindroom-2026.4.267/tests/test_thread_summary.py, mindroom-2026.4.267/tests/test_thread_summary_tool.py)</li>
+<li>http://example.com/img.png (1 files: mindroom-2026.4.267/tests/test_markdown_to_html.py)</li>
+<li>http://example.com/v1 (2 files: mindroom-2026.4.267/tests/test_embeddings.py, mindroom-2026.4.267/tests/test_memory_config.py)</li>
+<li>http://example.invalid/v1 (2 files: mindroom-2026.4.267/tests/api/test_sandbox_runner_api.py, mindroom-2026.4.267/tests/test_sandbox_proxy.py)</li>
+<li>http://example.invalid/v1\n (1 files: mindroom-2026.4.267/tests/test_kubernetes_worker_backend.py)</li>
+<li>http://example.invalid/v1\nCUSTOM_API_TOKEN=custom-secret\n (2 files: mindroom-2026.4.267/tests/api/test_sandbox_runner_api.py, mindroom-2026.4.267/tests/test_sandbox_proxy.py)</li>
+<li>http://example.test (1 files: mindroom-2026.4.267/tests/test_hook_registry.py)</li>
+<li>http://localllm:9292/v1 (1 files: mindroom-2026.4.267/tests/test_cli_config.py)</li>
+<li>http://localllm:9292/v1\n (1 files: mindroom-2026.4.267/tests/test_cli_config.py)</li>
+<li>http://not-mxc-url (1 files: mindroom-2026.4.267/tests/test_message_content.py)</li>
+<li>http://platform-backend:8000 (2 files: mindroom-2026.4.267/cluster/k8s/platform/templates/all.yaml, mindroom-2026.4.267/saas-platform/docker-compose.yml)</li>
+<li>http://platform-backend:8000/admin/cleanup/run (1 files: mindroom-2026.4.267/docs/dev/security/SECURITY_REVIEW_07_DATA_PROTECTION.md)</li>
+<li>http://proxy.example.com:8080 (1 files: mindroom-2026.4.267/frontend/src/types/toolConfig.ts)</li>
+<li>http://runner-env.example/v1 (1 files: mindroom-2026.4.267/tests/api/test_sandbox_runner_api.py)</li>
+<li>http://sandbox (1 files: mindroom-2026.4.267/tests/test_sandbox_proxy.py)</li>
+<li>http://sandbox-runner:8765 (1 files: mindroom-2026.4.267/tests/test_sandbox_proxy.py)</li>
+<li>http://sandbox-runner:8765/api/sandbox-runner/execute (1 files: mindroom-2026.4.267/tests/test_sandbox_proxy.py)</li>
+<li>http://sandbox-runner:8766 (3 files: mindroom-2026.4.267/docs/deployment/sandbox-proxy.md, mindroom-2026.4.267/local/instances/deploy/docker-compose.yml, mindroom-2026.4.267/skills/mindroom-docs/references/page__deployment__sandbox-proxy__index.md)</li>
+<li>http://sandbox:8765 (1 files: mindroom-2026.4.267/tests/test_sandbox_proxy.py)</li>
+<li>http://sandbox:8765/api/sandbox-runner/execute (1 files: mindroom-2026.4.267/tests/test_sandbox_proxy.py)</li>
+<li>http://synapse-{instance_id (1 files: mindroom-2026.4.267/cluster/k8s/kind/smoke_instance.py)</li>
+<li>http://synapse-{{ (1 files: mindroom-2026.4.267/cluster/k8s/instance/templates/deployment-mindroom.yaml)</li>
+<li>http://synapse:8008 (1 files: mindroom-2026.4.267/local/instances/deploy/docker-compose.synapse.yml)</li>
+<li>http://test:11434 (1 files: mindroom-2026.4.267/tests/test_credentials_sync.py)</li>
+<li>http://tuwunel:6167 (1 files: mindroom-2026.4.267/local/instances/deploy/docker-compose.tuwunel.yml)</li>
+<li>http://worker/api/sandbox-runner/execute (2 files: mindroom-2026.4.267/tests/api/test_api.py, mindroom-2026.4.267/tests/test_sandbox_proxy.py)</li>
+<li>http://www.apache.org/licenses/ (1 files: mindroom-2026.4.267/LICENSE)</li>
+<li>... 50 more</li>
+</ul>
+
+<h3>Domains</h3>
+<ul>
+<li>${host (1 files: mindroom-2026.4.267/saas-platform/platform-frontend/src/app/auth/login/page.tsx)</li>
+<li>${request.headers.get( (1 files: mindroom-2026.4.267/saas-platform/platform-frontend/src/app/auth/callback/route.ts)</li>
+<li>123.api.mindroom.test (3 files: mindroom-2026.4.267/saas-platform/platform-backend/tests/test_admin.py, mindroom-2026.4.267/saas-platform/platform-backend/tests/test_instances.py, mindroom-2026.4.267/saas-platform/platform-backend/tests/test_provisioner.py)</li>
+<li>123.matrix.mindroom.test (3 files: mindroom-2026.4.267/saas-platform/platform-backend/tests/test_admin.py, mindroom-2026.4.267/saas-platform/platform-backend/tests/test_instances.py, mindroom-2026.4.267/saas-platform/platform-backend/tests/test_provisioner.py)</li>
+<li>123.mindroom.test (3 files: mindroom-2026.4.267/saas-platform/platform-backend/tests/test_admin.py, mindroom-2026.4.267/saas-platform/platform-backend/tests/test_instances.py, mindroom-2026.4.267/saas-platform/platform-backend/tests/test_provisioner.py)</li>
+<li>456.api.mindroom.test (1 files: mindroom-2026.4.267/saas-platform/platform-backend/tests/test_instances.py)</li>
+<li>456.matrix.mindroom.test (1 files: mindroom-2026.4.267/saas-platform/platform-backend/tests/test_instances.py)</li>
+<li>456.mindroom.test (1 files: mindroom-2026.4.267/saas-platform/platform-backend/tests/test_instances.py)</li>
+<li>accounts.google.com (1 files: mindroom-2026.4.267/src/mindroom/api/google_integration.py)</li>
+<li>accounts.google.test (1 files: mindroom-2026.4.267/tests/api/test_api.py)</li>
+<li>accounts.spotify.test (1 files: mindroom-2026.4.267/tests/api/test_api.py)</li>
+<li>acme-staging-v02.api.letsencrypt.org (2 files: mindroom-2026.4.267/cluster/k8s/cert-manager/cluster-issuer-staging.yaml, mindroom-2026.4.267/cluster/terraform/terraform-k8s/manifests/cert-manager/cluster-issuer-staging.yaml)</li>
+<li>acme-v02.api.letsencrypt.org (2 files: mindroom-2026.4.267/cluster/k8s/cert-manager/cluster-issuer-prod.yaml, mindroom-2026.4.267/cluster/terraform/terraform-k8s/manifests/cert-manager/cluster-issuer-prod.yaml)</li>
+<li>admin.shopify.com (2 files: mindroom-2026.4.267/src/mindroom/tools/shopify.py, mindroom-2026.4.267/src/mindroom/tools_metadata.json)</li>
+<li>agno.dev (2 files: mindroom-2026.4.267/PKG-INFO, mindroom-2026.4.267/README.md)</li>
+<li>api (2 files: mindroom-2026.4.267/docs/dev/security/SECURITY_REVIEW_05_TOKENS.md, mindroom-2026.4.267/docs/dev/security/SECURITY_REVIEW_09_ERROR_HANDLING.md)</li>
+<li>api.${domain (1 files: mindroom-2026.4.267/cluster/scripts/list-instances.sh)</li>
+<li>api.anthropic.com (1 files: mindroom-2026.4.267/src/mindroom/cli/doctor.py)</li>
+<li>api.bitbucket.org (4 files: mindroom-2026.4.267/docs/tools/project-management.md, mindroom-2026.4.267/skills/mindroom-docs/references/page__tools__project-management__index.md, mindroom-2026.4.267/src/mindroom/tools/bitbucket.py, mindroom-2026.4.267/src/mindroom/tools_metadata.json)</li>
+<li>api.brandfetch.io (4 files: mindroom-2026.4.267/docs/tools/media-and-content.md, mindroom-2026.4.267/skills/mindroom-docs/references/page__tools__media-and-content__index.md, mindroom-2026.4.267/src/mindroom/tools/brandfetch.py, mindroom-2026.4.267/src/mindroom/tools_metadata.json)</li>
+<li>api.cal.com (2 files: mindroom-2026.4.267/docs/tools/calendar-and-scheduling.md, mindroom-2026.4.267/skills/mindroom-docs/references/page__tools__calendar-and-scheduling__index.md)</li>
+<li>api.cancelaccountdeletion (1 files: mindroom-2026.4.267/saas-platform/platform-frontend/src/app/dashboard/settings/__tests__/page.test.tsx)</li>
+<li>api.cerebras.ai (1 files: mindroom-2026.4.267/src/mindroom/cli/doctor.py)</li>
+<li>api.daytona.io (4 files: mindroom-2026.4.267/docs/tools/automation-and-platforms.md, mindroom-2026.4.267/skills/mindroom-docs/references/page__tools__automation-and-platforms__index.md, mindroom-2026.4.267/src/mindroom/tools/daytona.py, mindroom-2026.4.267/src/mindroom/tools_metadata.json)</li>
+<li>api.deepseek.com (1 files: mindroom-2026.4.267/src/mindroom/cli/doctor.py)</li>
+<li>api.example.com (4 files: mindroom-2026.4.267/docs/dev/security/SECURITY_REVIEW_04_INJECTION.md, mindroom-2026.4.267/docs/tools/automation-and-platforms.md, mindroom-2026.4.267/skills/mindroom-docs/references/page__tools__automation-and-platforms__index.md, mindroom-2026.4.267/tests/test_error_handling.py)</li>
+<li>api.exportuserdata (2 files: mindroom-2026.4.267/saas-platform/platform-frontend/src/app/dashboard/settings/__tests__/edge-cases.test.tsx, mindroom-2026.4.267/saas-platform/platform-frontend/src/app/dashboard/settings/__tests__/page.test.tsx)</li>
+<li>api.financialdatasets.ai (2 files: mindroom-2026.4.267/docs/tools/data-and-databases.md, mindroom-2026.4.267/skills/mindroom-docs/references/page__tools__data-and-databases__index.md)</li>
+<li>api.financialdatasets.ai (2 files: mindroom-2026.4.267/docs/tools/data-and-databases.md, mindroom-2026.4.267/skills/mindroom-docs/references/page__tools__data-and-databases__index.md)</li>
+<li>api.firecrawl.dev (4 files: mindroom-2026.4.267/docs/tools/web-scraping-and-browser.md, mindroom-2026.4.267/skills/mindroom-docs/references/page__tools__web-scraping-and-browser__index.md, mindroom-2026.4.267/src/mindroom/tools/firecrawl.py, mindroom-2026.4.267/src/mindroom/tools_metadata.json)</li>
+<li>... 90 more</li>
+</ul>
+
+<h2>판정</h2>
+
+<p>제공된 추출 본문 기준으로는 악성 공급망 침해 징후가 확인되지 않았습니다. 전체 위험도: info.</p>
+
+<h2>악성 공급망 징후</h2>
+
+<p>확인된 악성 공급망 징후 없음.</p>
+
+<h2>자동 실행 경로</h2>
+
+<ul>
+<li>제공된 파일에서 설치 시 또는 Python 인터프리터 시작 시 자동 실행되는 .pth, sitecustomize.py, usercustomize.py, setup.py 실행 로직, PEP 517 빌드 훅, import-time 악성 side effect 근거는 확인되지 않았습니다.</li>
+<li>cluster/k8s/kind/up.sh는 사용자가 직접 실행하는 로컬 kind 클러스터 생성 스크립트로 보이며, 패키지 설치 자동 실행 경로로 볼 근거는 없습니다.</li>
+<li>문서와 Kubernetes startupProbe, “startup prewarm” 관련 문자열은 애플리케이션 초기화/캐시 워밍 설명으로 보이며 공급망 악성 지속성 근거가 아닙니다.</li>
+</ul>
+
+<h2>절취/전송/지속성/측면이동/은닉</h2>
+
+<ul>
+<li>**Credential harvesting:** 제공된 본문에는 광범위한 환경변수 수집, .env, SSH 키, 클라우드 자격증명, CI/CD 토큰, 지갑 파일 등을 탐색·수집하는 코드 근거가 없습니다. Kubernetes Secret/env 참조는 애플리케이션 배포 설정으로 보입니다.</li>
+<li>**Archive staging / exfiltration:** 수집 파일을 압축·base64화하거나 외부 공격자 제어 endpoint로 업로드하는 근거가 없습니다.</li>
+<li>**Persistence:** systemd/cron/launch agent/shell profile 수정 등 호스트 지속성 설치 근거가 없습니다. Kubernetes Deployment/PVC 및 앱 “startup” 설정은 정상 배포 구성으로 보입니다.</li>
+<li>**Lateral movement:** Kubernetes worker/serviceAccount 설정은 제품의 worker backend 배포 기능으로 보이며, Docker socket 접근, hostPath 탈취, kube-system 장악, CI 토큰 탈취 등 공급망식 측면이동 근거는 제공된 본문에서 확인되지 않았습니다.</li>
+<li>**Obfuscation/loader:** eval/exec, base64/zlib/marshal 기반 staged loader 또는 난독화된 드로퍼 근거가 제공된 본문에서 확인되지 않았습니다.</li>
+<li>**외부 다운로드:** cluster/k8s/kind/up.sh의 ingress-nginx manifest 적용 및 Dockerfile.platform-backend의 Helm 설치 스크립트 다운로드가 사전 스캔에 표시되지만, 제공 맥락상 개발/컨테이너 빌드용 정상 설치 절차로 보이며 자격증명 절취·은닉·자동 설치 실행과 결합된 근거는 없습니다.</li>
+</ul>
+
+<h2>배포 무결성 이상</h2>
+
+<ul>
+<li>제공된 본문만으로는 PyPI sdist 내부의 숨김 payload, 목적 불명 native binary, typosquatting, dependency confusion, 갑작스러운 악성 dependency 삽입, wheel/sdist 불일치 근거가 확인되지 않았습니다.</li>
+<li>선택된 파일들은 Kubernetes 템플릿, 개발 스크립트, 문서, 애플리케이션 설정으로 보이며, 그 자체로 공급망 침해를 시사하는 배포 무결성 이상은 확인되지 않았습니다.</li>
+</ul>
+
+<h2>추가 확인 필요</h2>
+
+<ul>
+<li>전체 1329개 파일 중 선택 본문은 11개이므로, 실제 판정을 강화하려면 pyproject.toml, setup.py, setup.cfg, MANIFEST.in, .pth, sitecustomize.py, usercustomize.py, 패키지 최상위 __init__.py, entry point 정의, 포함된 바이너리/대용량 파일을 추가 확인해야 합니다.</li>
+<li>제공 자료는 sdist(.tar.gz) 중심이며 wheel 아티팩트가 있다면 sdist와 wheel 간 파일/동작 불일치 검증이 필요합니다.</li>
+</ul>
+
+<p>---</p>
+
+<p>Prompt source: docs/prompts/malicious-supply-chain-review-v2.md</p>
+
+<p>This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</p>
+
+</body>
+</html>
