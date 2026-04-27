@@ -1,196 +1,56 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "legit_api_client-1.1.4768.tar.gz",
-  "finding_count": 38,
+  "distribution": "mubit_adk-0.5.2.tar.gz",
+  "finding_count": 3,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
         "file_count": 1,
         "files": [
-          "legit_api_client-1.1.4768/legit_api_client/api_client.py"
+          "mubit_adk-0.5.2/examples/bigquery_agent/README.md"
         ],
-        "value": "files.items"
+        "value": "api.mubit.ai"
       },
       {
-        "file_count": 451,
+        "file_count": 2,
         "files": [
-          "legit_api_client-1.1.4768/PKG-INFO",
-          "legit_api_client-1.1.4768/README.md",
-          "legit_api_client-1.1.4768/legit_api_client.egg-info/PKG-INFO",
-          "legit_api_client-1.1.4768/legit_api_client/__init__.py",
-          "legit_api_client-1.1.4768/legit_api_client/api/amazon_ecr_key_integration_api.py",
-          "legit_api_client-1.1.4768/legit_api_client/api/amazon_ecr_role_integration_api.py",
-          "legit_api_client-1.1.4768/legit_api_client/api/brokers_api.py",
-          "legit_api_client-1.1.4768/legit_api_client/api/certificates_api.py"
+          "mubit_adk-0.5.2/PKG-INFO",
+          "mubit_adk-0.5.2/README.md"
         ],
-        "value": "github.com"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "legit_api_client-1.1.4768/PKG-INFO",
-          "legit_api_client-1.1.4768/README.md",
-          "legit_api_client-1.1.4768/legit_api_client.egg-info/PKG-INFO"
-        ],
-        "value": "localhost*"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "legit_api_client-1.1.4768/pyproject.toml"
-        ],
-        "value": "mypy.readthedocs.io"
-      },
-      {
-        "file_count": 450,
-        "files": [
-          "legit_api_client-1.1.4768/PKG-INFO",
-          "legit_api_client-1.1.4768/README.md",
-          "legit_api_client-1.1.4768/legit_api_client.egg-info/PKG-INFO",
-          "legit_api_client-1.1.4768/legit_api_client/__init__.py",
-          "legit_api_client-1.1.4768/legit_api_client/api/amazon_ecr_key_integration_api.py",
-          "legit_api_client-1.1.4768/legit_api_client/api/amazon_ecr_role_integration_api.py",
-          "legit_api_client-1.1.4768/legit_api_client/api/brokers_api.py",
-          "legit_api_client-1.1.4768/legit_api_client/api/certificates_api.py"
-        ],
-        "value": "openapi-generator.tech"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "legit_api_client-1.1.4768/PKG-INFO",
-          "legit_api_client-1.1.4768/README.md",
-          "legit_api_client-1.1.4768/legit_api_client.egg-info/PKG-INFO",
-          "legit_api_client-1.1.4768/setup.py"
-        ],
-        "value": "pypi.python.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "legit_api_client-1.1.4768/legit_api_client/rest.py"
-        ],
-        "value": "urllib3.readthedocs.io"
+        "value": "mubit.ai"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 3,
-        "files": [
-          "legit_api_client-1.1.4768/PKG-INFO",
-          "legit_api_client-1.1.4768/README.md",
-          "legit_api_client-1.1.4768/legit_api_client.egg-info/PKG-INFO"
-        ],
-        "value": "http://localhost*"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "legit_api_client-1.1.4768/PKG-INFO",
-          "legit_api_client-1.1.4768/README.md",
-          "legit_api_client-1.1.4768/legit_api_client.egg-info/PKG-INFO",
-          "legit_api_client-1.1.4768/setup.py"
-        ],
-        "value": "http://pypi.python.org/pypi/setuptools"
-      },
-      {
         "file_count": 1,
         "files": [
-          "legit_api_client-1.1.4768/legit_api_client/rest.py"
+          "mubit_adk-0.5.2/examples/bigquery_agent/README.md"
         ],
-        "value": "http://urllib3.readthedocs.io/en/latest/advanced-usage.html"
+        "value": "https://api.mubit.ai"
       },
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "legit_api_client-1.1.4768/PKG-INFO",
-          "legit_api_client-1.1.4768/legit_api_client.egg-info/PKG-INFO",
-          "legit_api_client-1.1.4768/pyproject.toml"
+          "mubit_adk-0.5.2/PKG-INFO",
+          "mubit_adk-0.5.2/README.md"
         ],
-        "value": "https://github.com/GIT_USER_ID/GIT_REPO_ID"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "legit_api_client-1.1.4768/PKG-INFO",
-          "legit_api_client-1.1.4768/README.md",
-          "legit_api_client-1.1.4768/legit_api_client.egg-info/PKG-INFO"
-        ],
-        "value": "https://github.com/GIT_USER_ID/GIT_REPO_ID.git"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "legit_api_client-1.1.4768/PKG-INFO",
-          "legit_api_client-1.1.4768/README.md",
-          "legit_api_client-1.1.4768/legit_api_client.egg-info/PKG-INFO"
-        ],
-        "value": "https://github.com/GIT_USER_ID/GIT_REPO_ID.git`"
-      },
-      {
-        "file_count": 450,
-        "files": [
-          "legit_api_client-1.1.4768/PKG-INFO",
-          "legit_api_client-1.1.4768/README.md",
-          "legit_api_client-1.1.4768/legit_api_client.egg-info/PKG-INFO",
-          "legit_api_client-1.1.4768/legit_api_client/__init__.py",
-          "legit_api_client-1.1.4768/legit_api_client/api/amazon_ecr_key_integration_api.py",
-          "legit_api_client-1.1.4768/legit_api_client/api/amazon_ecr_role_integration_api.py",
-          "legit_api_client-1.1.4768/legit_api_client/api/brokers_api.py",
-          "legit_api_client-1.1.4768/legit_api_client/api/certificates_api.py"
-        ],
-        "value": "https://github.com/openapitools/openapi-generator"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "legit_api_client-1.1.4768/legit_api_client/rest.py"
-        ],
-        "value": "https://github.com/shazow/urllib3/blob/f9409436f83aeb79fbaf090181cd81b784f1b8ce/urllib3/connectionpool.py#L680"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "legit_api_client-1.1.4768/legit_api_client/rest.py"
-        ],
-        "value": "https://github.com/shazow/urllib3/blob/f9409436f83aeb79fbaf090181cd81b784f1b8ce/urllib3/poolmanager.py#L75"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "legit_api_client-1.1.4768/pyproject.toml"
-        ],
-        "value": "https://mypy.readthedocs.io/en/stable/existing_code.html#introduce-stricter-options"
-      },
-      {
-        "file_count": 450,
-        "files": [
-          "legit_api_client-1.1.4768/PKG-INFO",
-          "legit_api_client-1.1.4768/README.md",
-          "legit_api_client-1.1.4768/legit_api_client.egg-info/PKG-INFO",
-          "legit_api_client-1.1.4768/legit_api_client/__init__.py",
-          "legit_api_client-1.1.4768/legit_api_client/api/amazon_ecr_key_integration_api.py",
-          "legit_api_client-1.1.4768/legit_api_client/api/amazon_ecr_role_integration_api.py",
-          "legit_api_client-1.1.4768/legit_api_client/api/brokers_api.py",
-          "legit_api_client-1.1.4768/legit_api_client/api/certificates_api.py"
-        ],
-        "value": "https://openapi-generator.tech"
+        "value": "https://mubit.ai"
       }
     ]
   },
-  "package": "legit-api-client",
-  "package_slug": "legit-api-client",
-  "project_url": "https://pypi.org/project/legit-api-client/",
+  "package": "mubit-adk",
+  "package_slug": "mubit-adk",
+  "project_url": "https://pypi.org/project/mubit-adk/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T17:06:53.973041+00:00",
+  "published_at": "2026-04-27T17:10:51.293336+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T17:07:33.848138+00:00",
-  "title": "Personal PyPI Supply Chain Scan: legit-api-client 1.1.4768",
-  "version": "1.1.4768",
-  "version_slug": "1.1.4768",
-  "_metadata_path": "reports/packages/legit-api-client/1.1.4768/metadata.json"
+  "scanned_at": "2026-04-27T17:11:57.007252+00:00",
+  "title": "Personal PyPI Supply Chain Scan: mubit-adk 0.5.2",
+  "version": "0.5.2",
+  "version_slug": "0.5.2",
+  "_metadata_path": "reports/packages/mubit-adk/0.5.2/metadata.json"
 }

@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal PyPI Supply Chain Scan: mubit-adk 0.5.2</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 960px; line-height: 1.55; padding: 0 1rem; color: #1f2933; }
+    a { color: #1f5fbf; }
+    code { background: #f4f4f4; padding: 0.1rem 0.25rem; }
+    h1, h2, h3 { line-height: 1.2; }
+    li { margin: 0.35rem 0; }
+    nav { margin-bottom: 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #e5e9ef; padding: 0.55rem 0.65rem; text-align: left; vertical-align: top; }
+    th { color: #52616f; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; }
+    .scan-groups { margin-top: 1.2rem; }
+    .scan-day { border-top: 1px solid #d8dee4; display: grid; gap: 1rem; grid-template-columns: 10rem minmax(0, 1fr); padding: 1.1rem 0; }
+    .scan-day-date { color: #1f2933; font-weight: 700; }
+    .scan-day-date span { color: #52616f; display: block; font-size: 0.9rem; font-weight: 500; margin-top: 0.2rem; }
+    .scan-day-table { overflow-x: auto; }
+    .risk { display: inline-block; min-width: 4.8rem; text-align: center; border-radius: 999px; padding: 0.15rem 0.45rem; font-size: 0.78rem; font-weight: 700; }
+    .risk-info, .risk-low { background: #dcfce7; color: #166534; }
+    .risk-medium, .risk-unknown { background: #fef3c7; color: #92400e; }
+    .risk-high, .risk-critical { background: #fee2e2; color: #991b1b; }
+    .index-note { color: #52616f; margin-top: -0.35rem; }
+    .version { color: #52616f; margin-left: 0.2rem; white-space: nowrap; }
+    @media (max-width: 720px) {
+      .scan-day { grid-template-columns: 1fr; }
+      th, td { padding: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+<nav><a href='../../../../'>Index</a></nav><h1>Personal PyPI Supply Chain Scan: mubit-adk 0.5.2</h1>
+
+<ul>
+<li>Package: mubit-adk</li>
+<li>Version: 0.5.2</li>
+<li>Project URL: https://pypi.org/project/mubit-adk/</li>
+<li>Distribution: mubit_adk-0.5.2.tar.gz</li>
+<li>Package published at: 2026-04-27T17:10:51.293336+00:00</li>
+<li>Scan published at: 2026-04-27T17:11:57.007252+00:00</li>
+<li>Language: en</li>
+<li>Model: gpt-5.5</li>
+<li>Prompt: malicious-supply-chain-review-v2 ([source](../../../../docs/prompts/malicious-supply-chain-review-v2.md))</li>
+<li>Disclaimer: This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</li>
+</ul>
+
+<h2>Deterministic Network Indicators</h2>
+
+<h3>Suspicious Endpoints</h3>
+
+<p>None</p>
+
+<h3>Raw Public IPs</h3>
+
+<p>None</p>
+
+<h3>URLs</h3>
+<ul>
+<li>https://api.mubit.ai (1 files: mubit_adk-0.5.2/examples/bigquery_agent/README.md)</li>
+<li>https://mubit.ai (2 files: mubit_adk-0.5.2/PKG-INFO, mubit_adk-0.5.2/README.md)</li>
+</ul>
+
+<h3>Domains</h3>
+<ul>
+<li>api.mubit.ai (1 files: mubit_adk-0.5.2/examples/bigquery_agent/README.md)</li>
+<li>mubit.ai (2 files: mubit_adk-0.5.2/PKG-INFO, mubit_adk-0.5.2/README.md)</li>
+</ul>
+
+<h2>Verdict</h2>
+
+<p>No confirmed malicious supply-chain indicators — overall risk: info.</p>
+
+<h2>Malicious Supply-Chain Indicators</h2>
+
+<p>No confirmed malicious supply-chain indicators.</p>
+
+<h2>Automatic Execution Paths</h2>
+
+<ul>
+<li>pyproject.toml uses the standard hatchling.build backend; no suspicious custom PEP 517 build hook or install-time execution logic was identified.</li>
+<li>No .pth, sitecustomize.py, usercustomize.py, or setup.py was present in the provided extracted content.</li>
+<li>mubit_adk/__init__.py performs dependency imports and defines classes/functions at import time, but there is no evidence of malicious import-time behavior such as credential harvesting, hidden loader execution, or exfiltration.</li>
+<li>The example if __name__ == &quot;__main__&quot;: asyncio.run(main()) path and ADK agent definitions appear to be user-invoked or framework-loaded example behavior, not install-time or interpreter-start automatic execution.</li>
+</ul>
+
+<h2>Theft / Exfiltration / Persistence / Lateral Movement / Obfuscation</h2>
+
+<ul>
+<li>Credential theft: No broad enumeration of environment variables, .env files, SSH keys, cloud credentials, CI tokens, wallet files, or similar secrets was identified. The code only references documented application configuration such as GOOGLE_API_KEY and MUBIT_API_KEY.</li>
+<li>Exfiltration/staging: SDK calls that store user/session events in the MuBit memory service are consistent with the package purpose. No file archiving, temporary staging, webhook/raw-IP/paste-service upload, or harvested-file transfer evidence was found.</li>
+<li>Persistence: No cron, systemd, launch agent, shell profile modification, startup-folder logic, or self-reinstall loop was identified.</li>
+<li>Lateral movement: No evidence of Kubernetes service-account token abuse, Docker socket access, cloud metadata probing, GitHub Actions token theft, or workflow injection was identified.</li>
+<li>Obfuscation/loaders: No base64/zlib/marshal/eval/exec downloader stub, encrypted payload, or staged loader pattern was identified. The pre-scan “encrypted-payload” match appears to be a false positive from a normal string context.</li>
+</ul>
+
+<h2>Distribution Integrity Anomalies</h2>
+
+<ul>
+<li>The included .gitignore and *.tar.gz ignore pattern appear consistent with a normal source distribution and are not evidence of malicious staging.</li>
+<li>No hidden payload, unexplained native binary, suspicious .dist-info content, or typosquatting evidence was found in the provided files.</li>
+<li>Dependencies such as mubit-sdk&gt;=0.1.0, mubit-integration-base&gt;=0.5.1, and google-adk align with the package description; the provided evidence does not support a conclusion of sudden malicious dependency insertion.</li>
+</ul>
+
+<h2>Additional Verification Needed</h2>
+
+<ul>
+<li>This review is limited to the extracted text provided; only a subset of the 14 files was shown in detail.</li>
+<li>If a wheel artifact exists, compare it against the sdist for wheel/sdist mismatch.</li>
+<li>Dependency packages (mubit-sdk, mubit-integration-base, google-adk) were not included in the input and should be reviewed separately if supply-chain assurance is required.</li>
+</ul>
+
+<p>---</p>
+
+<p>Prompt source: docs/prompts/malicious-supply-chain-review-v2.md</p>
+
+<p>This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</p>
+
+</body>
+</html>
