@@ -1,39 +1,50 @@
-# pypi-codex-scanner
+# Personal PyPI Supply Chain Scan
 
-PyPI RSS updates feed에서 최신 publish 패키지를 가져오고, 호스트에는 패키지를 설치하지 않은 채 Docker 컨테이너 안에서 배포 파일을 다운로드/압축 해제한 뒤 GPT-5.5로 악성 공급망 징후를 정적 검사합니다.
+Personal PyPI Supply Chain Scan watches the PyPI updates RSS feed, downloads newly published package artifacts in an isolated Docker container, performs deterministic pre-scan checks, and asks GPT-5.5 through Codex OAuth to review only malicious supply-chain compromise indicators.
 
-## 동작 방식
+This is a personal automated scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.
 
-1. `reader` 라이브러리로 `https://pypi.org/rss/updates.xml`을 읽습니다.
-2. PyPI JSON API에서 해당 패키지/버전의 sdist 또는 wheel URL을 확인합니다. 설치 스크립트 확인을 우선하기 위해 sdist가 있으면 sdist를 먼저 스캔합니다.
-3. Docker 컨테이너에서만 파일을 다운로드하고 압축을 풉니다.
-4. 추출된 `setup.py`, `pyproject.toml`, `setup.cfg`, Python 소스, 스크립트, 메타데이터를 텍스트 코퍼스로 수집합니다.
-5. Python AST, 텍스트/manifest 휴리스틱, `ast-grep` 구조 검색으로 deterministic pre-scan을 수행합니다.
-6. pre-scan finding과 의심 파일 중심의 짧은 evidence corpus만 LLM에 전달합니다.
-7. `~/.codex/auth.json`의 Codex OAuth access token으로 OpenAI Responses API를 직접 호출해 `gpt-5.5` 보안 검사를 수행합니다.
-8. 추출된 URL/DNS/raw public IP/suspicious endpoint inventory와 LLM 판단 결과를 Markdown report로 저장하고 SQLite에 처리 이력을 남깁니다.
+## What It Does
 
-패키지 설치, build hook 실행, `setup.py` 실행은 하지 않습니다.
+1. Reads `https://pypi.org/rss/updates.xml` with the `reader` library.
+2. Resolves the package/version through the PyPI JSON API.
+3. Prefers sdist over wheel so install/build metadata is visible when available.
+4. Downloads and extracts the package only inside Docker.
+5. Does not install the package, run build hooks, or execute `setup.py`.
+6. Runs deterministic pre-scan checks with Python AST, text/manifest heuristics, and `ast-grep` when installed.
+7. Sends only pre-scan findings and a focused evidence corpus to GPT-5.5 through Codex OAuth.
+8. Writes Korean and English Markdown reports, report metadata, network indicator inventories, and SQLite scan history.
+9. Builds a static GitHub Pages site and can publish it to a `gh-pages` branch.
 
-## 스캔 기준
+## Scan Scope
 
-스캐너는 일반적인 애플리케이션 보안 리스크가 아니라 악성 공급망 공격 징후만 보고하도록 프롬프트되어 있습니다.
+The scanner is intentionally not a general application security scanner. It is tuned for malicious release and supply-chain compromise indicators:
 
-주요 기준은 LiteLLM 2026 PyPI compromise 같은 사례입니다:
+- automatic execution: `.pth`, `sitecustomize.py`, `usercustomize.py`, `setup.py`, PEP 517 hooks, import-time side effects
+- unexpected code in distribution artifacts
+- broad credential harvesting from environment variables, `.env`, SSH keys, cloud credentials, AI provider keys, `~/.aws/credentials`, `~/.kube/config`, CI/CD tokens, registry tokens
+- archive staging plus exfiltration to suspicious endpoints
+- Kubernetes service-account abuse, privileged pods, host mounts, Docker socket access, cloud metadata access
+- persistence through systemd, launch agents, cron, shell profile edits, startup folders, background polling
+- obfuscation and staged loaders using base64, zlib, marshal, pickle, eval, exec, compile, XOR, steganography, downloader stubs
+- dependency confusion, typosquatting, hidden payloads, unexplained native binaries, wheel/sdist mismatch
+- URL, DNS/domain, raw public IP, drop/paste/GitHub raw style network indicators
 
-- `.pth`, `sitecustomize`, `usercustomize`, 설치/인터프리터 시작 시 자동 실행
-- 배포 아티팩트에 삽입된 예상 밖 코드
-- 환경변수, `.env`, SSH 키, cloud credential, AI provider key, `~/.aws/credentials`, `~/.kube/config`, CI/CD token 등 광범위한 credential harvesting
-- 수집 데이터 archive staging 후 C2 exfiltration
-- Kubernetes service account abuse, privileged pod, host mount 등 lateral movement
-- systemd, launch agent, cron, shell profile 수정 등 persistence
-- base64/zlib/marshal/pickle/eval/exec 등으로 숨긴 loader
-- dependency confusion, typosquatting, 숨김 payload, 목적 불명의 native binary
-- URL, DNS/도메인, raw public IP endpoint, drop/paste/GitHub raw 같은 network indicator
+Normal CLI entry points, expected SDK/API calls, documented credential configuration, user-triggered web servers, and normal file/network access should not be reported unless tied to automatic execution, theft, persistence, exfiltration, lateral movement, or stealth.
 
-일반적인 CLI entry point, 정상 SDK/API 호출, 사용자가 명령을 실행해야 동작하는 웹 서버, 정상적인 환경변수 사용은 위 악성 공급망 증거와 연결되지 않으면 finding으로 올리지 않습니다.
+## Requirements
 
-## 사용
+- Python 3.12+
+- Docker
+- `uv`
+- Codex login at `~/.codex/auth.json`
+- optional but recommended: `ast-grep`
+
+```bash
+brew install ast-grep
+```
+
+## Usage
 
 ```bash
 uv run pypi-codex-scanner init-config
@@ -42,16 +53,11 @@ uv run pypi-codex-scanner build-pages --config scanner.toml --site-dir site
 uv run pypi-codex-scanner publish-pages --config scanner.toml --branch gh-pages
 ```
 
-Docker가 필요합니다.
-`ast-grep`이 설치되어 있으면 Python 구조 검색을 pre-scan에 사용합니다.
+`publish-pages` commits to a local `gh-pages` branch by default. It only pushes when `--push` is supplied.
 
-```bash
-brew install ast-grep
-```
+## Configuration
 
-## 설정
-
-`scanner.toml`:
+Example `scanner.toml`:
 
 ```toml
 [schedule]
@@ -61,6 +67,8 @@ scan_windows = ["09:00-18:00"]
 
 [limits]
 max_updates = 10
+max_scans_per_run = 3
+max_llm_calls_per_run = 3
 max_archive_bytes = 52428800
 max_extracted_bytes = 104857600
 max_files_for_model = 30
@@ -75,13 +83,21 @@ reports_dir = "reports"
 model = "gpt-5.5"
 codex_auth_path = "~/.codex/auth.json"
 base_url = "https://chatgpt.com/backend-api/codex"
+request_timeout_seconds = 120
+
+[usage_gate]
+enabled = true
+min_primary_remaining_percent = 20
+min_secondary_remaining_percent = 10
+allow_if_unknown = true
+backend_url = "https://chatgpt.com/backend-api/wham/usage"
 ```
 
-빈 window 목록은 항상 실행을 의미합니다.
+Empty schedule windows mean always allowed.
 
-## GitHub Pages
+## Report Layout
 
-새 스캔 리포트는 다음 구조로 저장됩니다.
+New scans are written as:
 
 ```text
 reports/packages/{package}/{version}/ko.md
@@ -89,7 +105,19 @@ reports/packages/{package}/{version}/en.md
 reports/packages/{package}/{version}/metadata.json
 ```
 
-정적 사이트 생성 결과는 다음 URL 구조를 사용합니다.
+Each report includes:
+
+- package version and PyPI publish time
+- scan publish time
+- model and prompt version
+- disclaimer
+- deterministic network indicators
+- malicious supply-chain review
+- prompt source link
+
+## GitHub Pages Layout
+
+Generated static pages use:
 
 ```text
 /packages/{package}/{version}/ko/
@@ -98,23 +126,25 @@ reports/packages/{package}/{version}/metadata.json
 /packages/{package}/latest/en/
 /latest/ko/
 /latest/en/
+/index.json
+/scans/latest.json
 ```
-
-`publish-pages`는 기본적으로 로컬 `gh-pages` 브랜치에 커밋합니다. 원격 push는 명시적으로 `--push`를 붙일 때만 수행합니다.
 
 ## Resume State
 
-SQLite에는 RSS entries, PyPI release metadata, scan attempts, report artifacts, usage gate decisions가 무제한으로 누적됩니다. 기본 경로는 `data/state.sqlite3`입니다.
+SQLite stores history indefinitely at `data/state.sqlite3` by default:
 
-## Usage Gate
+- RSS entries
+- PyPI release metadata
+- scan attempts
+- report artifacts
+- usage gate decisions
 
-`usage_gate` 설정은 Codex backend usage endpoint를 직접 호출해 5시간/weekly 사용률이 설정 임계값보다 낮을 때만 스캔을 진행합니다.
+This allows later resume, reprocessing, reporting, and audit workflows.
 
-```toml
-[usage_gate]
-enabled = true
-min_primary_remaining_percent = 20
-min_secondary_remaining_percent = 10
-allow_if_unknown = true
-backend_url = "https://chatgpt.com/backend-api/wham/usage"
-```
+## Prompt
+
+The current prompt source is stored at:
+
+- `docs/prompts/malicious-supply-chain-review-v2.md`
+
