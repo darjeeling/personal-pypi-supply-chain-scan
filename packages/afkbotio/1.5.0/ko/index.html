@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal PyPI Supply Chain Scan: afkbotio 1.5.0</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 960px; line-height: 1.55; padding: 0 1rem; color: #1f2933; }
+    a { color: #1f5fbf; }
+    code { background: #f4f4f4; padding: 0.1rem 0.25rem; }
+    h1, h2, h3 { line-height: 1.2; }
+    li { margin: 0.35rem 0; }
+    nav { margin-bottom: 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #e5e9ef; padding: 0.55rem 0.65rem; text-align: left; vertical-align: top; }
+    th { color: #52616f; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; }
+    .scan-groups { margin-top: 1.2rem; }
+    .scan-day { border-top: 1px solid #d8dee4; display: grid; gap: 1rem; grid-template-columns: 10rem minmax(0, 1fr); padding: 1.1rem 0; }
+    .scan-day-date { color: #1f2933; font-weight: 700; }
+    .scan-day-date span { color: #52616f; display: block; font-size: 0.9rem; font-weight: 500; margin-top: 0.2rem; }
+    .scan-day-table { overflow-x: auto; }
+    .risk { display: inline-block; min-width: 4.8rem; text-align: center; border-radius: 999px; padding: 0.15rem 0.45rem; font-size: 0.78rem; font-weight: 700; }
+    .risk-info, .risk-low { background: #dcfce7; color: #166534; }
+    .risk-medium, .risk-unknown { background: #fef3c7; color: #92400e; }
+    .risk-high, .risk-critical { background: #fee2e2; color: #991b1b; }
+    .index-note { color: #52616f; margin-top: -0.35rem; }
+    .version { color: #52616f; margin-left: 0.2rem; white-space: nowrap; }
+    @media (max-width: 720px) {
+      .scan-day { grid-template-columns: 1fr; }
+      th, td { padding: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+<nav><a href='../../../../'>Index</a></nav><h1>Personal PyPI Supply Chain Scan: afkbotio 1.5.0</h1>
+
+<ul>
+<li>Package: afkbotio</li>
+<li>Version: 1.5.0</li>
+<li>Project URL: https://pypi.org/project/afkbotio/</li>
+<li>Distribution: afkbotio-1.5.0.tar.gz</li>
+<li>Package published at: 2026-04-27T20:26:45.881699+00:00</li>
+<li>Scan published at: 2026-04-27T20:28:18.156603+00:00</li>
+<li>Language: ko</li>
+<li>Model: gpt-5.5</li>
+<li>Prompt: malicious-supply-chain-review-v2 ([source](../../../../docs/prompts/malicious-supply-chain-review-v2.md))</li>
+<li>Disclaimer: This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</li>
+</ul>
+
+<h2>Deterministic Network Indicators</h2>
+
+<h3>Suspicious Endpoints</h3>
+<ul>
+<li>https://raw.githubusercontent.com/{owner (1 files: afkbotio-1.5.0/afkbot/services/skills/marketplace_sources.py)</li>
+<li>raw.githubusercontent.com (2 files: afkbotio-1.5.0/afkbot/services/skills/marketplace_sources.py, afkbotio-1.5.0/afkbot/settings.py)</li>
+</ul>
+
+<h3>Raw Public IPs</h3>
+
+<p>None</p>
+
+<h3>URLs</h3>
+<ul>
+<li>http://user:pass@host:port (1 files: afkbotio-1.5.0/afkbot/cli/presentation/setup_provider_prompts.py)</li>
+<li>http://www.apple.com/DTDs/PropertyList-1.0.dtd\ (1 files: afkbotio-1.5.0/afkbot/services/managed_runtime_service.py)</li>
+<li>http://{auth (1 files: afkbotio-1.5.0/afkbot/services/browser_cdp.py)</li>
+<li>http://{cleaned_host (1 files: afkbotio-1.5.0/afkbot/services/browser_cdp.py)</li>
+<li>http://{host (2 files: afkbotio-1.5.0/afkbot/services/automations/service.py, afkbotio-1.5.0/afkbot/services/update_runtime.py)</li>
+<li>http://{probe_host (1 files: afkbotio-1.5.0/afkbot/services/runtime_ports.py)</li>
+<li>http://{raw (1 files: afkbotio-1.5.0/afkbot/services/connect/helpers.py)</li>
+<li>http://{resolved_host (1 files: afkbotio-1.5.0/afkbot/cli/commands/start.py)</li>
+<li>http://{settings.runtime_host (1 files: afkbotio-1.5.0/afkbot/cli/commands/connect.py)</li>
+<li>https://afkbot.io (4 files: afkbotio-1.5.0/PKG-INFO, afkbotio-1.5.0/README.md, afkbotio-1.5.0/afkbotio.egg-info/PKG-INFO, afkbotio-1.5.0/pyproject.toml)</li>
+<li>https://afkbot.io/docs (4 files: afkbotio-1.5.0/PKG-INFO, afkbotio-1.5.0/README.md, afkbotio-1.5.0/afkbotio.egg-info/PKG-INFO, afkbotio-1.5.0/pyproject.toml)</li>
+<li>https://afkbot.io/install.ps1 (3 files: afkbotio-1.5.0/PKG-INFO, afkbotio-1.5.0/README.md, afkbotio-1.5.0/afkbotio.egg-info/PKG-INFO)</li>
+<li>https://afkbot.io/install.sh (3 files: afkbotio-1.5.0/PKG-INFO, afkbotio-1.5.0/README.md, afkbotio-1.5.0/afkbotio.egg-info/PKG-INFO)</li>
+<li>https://aider.chat/install.sh (2 files: afkbotio-1.5.0/afkbot/services/skills/doctor.py, afkbotio-1.5.0/afkbot/skills/aider-cli/SKILL.md)</li>
+<li>https://api.anthropic.com/v1 (2 files: afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py, afkbotio-1.5.0/afkbot/settings.py)</li>
+<li>https://api.deepseek.com (2 files: afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py, afkbotio-1.5.0/afkbot/settings.py)</li>
+<li>https://api.github.com/copilot_internal/v2/token (1 files: afkbotio-1.5.0/afkbot/services/llm/github_copilot_token.py)</li>
+<li>https://api.github.com/repos/{owner (3 files: afkbotio-1.5.0/afkbot/services/skills/marketplace_popularity.py, afkbotio-1.5.0/afkbot/services/skills/marketplace_service.py, afkbotio-1.5.0/afkbot/services/update_runtime.py)</li>
+<li>https://api.individual.githubcopilot.com (3 files: afkbotio-1.5.0/afkbot/services/llm/github_copilot_token.py, afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py, afkbotio-1.5.0/afkbot/settings.py)</li>
+<li>https://api.minimax.io (1 files: afkbotio-1.5.0/afkbot/services/llm/minimax_portal_oauth.py)</li>
+<li>https://api.minimax.io/v1 (3 files: afkbotio-1.5.0/afkbot/services/llm/minimax_portal_oauth.py, afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py, afkbotio-1.5.0/afkbot/settings.py)</li>
+<li>https://api.minimaxi.com (1 files: afkbotio-1.5.0/afkbot/services/llm/minimax_portal_oauth.py)</li>
+<li>https://api.minimaxi.com/v1 (1 files: afkbotio-1.5.0/afkbot/services/llm/minimax_portal_oauth.py)</li>
+<li>https://api.moonshot.ai/v1 (2 files: afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py, afkbotio-1.5.0/afkbot/settings.py)</li>
+<li>https://api.openai.com/v1 (2 files: afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py, afkbotio-1.5.0/afkbot/settings.py)</li>
+<li>https://api.search.brave.com/res/v1/web/search (1 files: afkbotio-1.5.0/afkbot/services/tools/plugins/web_search/plugin.py)</li>
+<li>https://api.telegram.org/bot{token (2 files: afkbotio-1.5.0/afkbot/services/apps/telegram/http_api.py, afkbotio-1.5.0/afkbot/services/health/integration_probes.py)</li>
+<li>https://api.x.ai/v1 (2 files: afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py, afkbotio-1.5.0/afkbot/settings.py)</li>
+<li>https://chatgpt.com/backend-api/codex (2 files: afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py, afkbotio-1.5.0/afkbot/settings.py)</li>
+<li>https://claude.ai/install.sh (2 files: afkbotio-1.5.0/afkbot/services/skills/doctor.py, afkbotio-1.5.0/afkbot/skills/claude-code/SKILL.md)</li>
+<li>... 21 more</li>
+</ul>
+
+<h3>Domains</h3>
+<ul>
+<li>afkbot.io (4 files: afkbotio-1.5.0/PKG-INFO, afkbotio-1.5.0/README.md, afkbotio-1.5.0/afkbotio.egg-info/PKG-INFO, afkbotio-1.5.0/pyproject.toml)</li>
+<li>aider.chat (2 files: afkbotio-1.5.0/afkbot/services/skills/doctor.py, afkbotio-1.5.0/afkbot/skills/aider-cli/SKILL.md)</li>
+<li>api.anthropic.com (2 files: afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py, afkbotio-1.5.0/afkbot/settings.py)</li>
+<li>api.deepseek.com (2 files: afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py, afkbotio-1.5.0/afkbot/settings.py)</li>
+<li>api.github.com (4 files: afkbotio-1.5.0/afkbot/services/llm/github_copilot_token.py, afkbotio-1.5.0/afkbot/services/skills/marketplace_popularity.py, afkbotio-1.5.0/afkbot/services/skills/marketplace_service.py, afkbotio-1.5.0/afkbot/services/update_runtime.py)</li>
+<li>api.individual.githubcopilot.com (3 files: afkbotio-1.5.0/afkbot/services/llm/github_copilot_token.py, afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py, afkbotio-1.5.0/afkbot/settings.py)</li>
+<li>api.minimax.io (3 files: afkbotio-1.5.0/afkbot/services/llm/minimax_portal_oauth.py, afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py, afkbotio-1.5.0/afkbot/settings.py)</li>
+<li>api.minimaxi.com (1 files: afkbotio-1.5.0/afkbot/services/llm/minimax_portal_oauth.py)</li>
+<li>api.moonshot.ai (2 files: afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py, afkbotio-1.5.0/afkbot/settings.py)</li>
+<li>api.ok (3 files: afkbotio-1.5.0/afkbot/cli/commands/doctor.py, afkbotio-1.5.0/afkbot/services/managed_runtime_service.py, afkbotio-1.5.0/afkbot/services/runtime_ports.py)</li>
+<li>api.openai.com (2 files: afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py, afkbotio-1.5.0/afkbot/settings.py)</li>
+<li>api.payload (1 files: afkbotio-1.5.0/afkbot/services/runtime_ports.py)</li>
+<li>api.reason (1 files: afkbotio-1.5.0/afkbot/services/runtime_ports.py)</li>
+<li>api.search.brave.com (4 files: afkbotio-1.5.0/afkbot/cli/commands/setup.py, afkbotio-1.5.0/afkbot/services/policy/engine.py, afkbotio-1.5.0/afkbot/services/setup/contracts.py, afkbotio-1.5.0/afkbot/services/tools/plugins/web_search/plugin.py)</li>
+<li>api.telegram.org (5 files: afkbotio-1.5.0/afkbot/cli/commands/setup.py, afkbotio-1.5.0/afkbot/services/apps/telegram/actions.py, afkbotio-1.5.0/afkbot/services/apps/telegram/http_api.py, afkbotio-1.5.0/afkbot/services/health/integration_probes.py, afkbotio-1.5.0/afkbot/services/setup/contracts.py)</li>
+<li>api.url (3 files: afkbotio-1.5.0/afkbot/cli/commands/doctor.py, afkbotio-1.5.0/afkbot/services/managed_runtime_service.py, afkbotio-1.5.0/afkbot/services/runtime_ports.py)</li>
+<li>api.x.ai (2 files: afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py, afkbotio-1.5.0/afkbot/settings.py)</li>
+<li>chatgpt.com (2 files: afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py, afkbotio-1.5.0/afkbot/settings.py)</li>
+<li>claude.ai (2 files: afkbotio-1.5.0/afkbot/services/skills/doctor.py, afkbotio-1.5.0/afkbot/skills/claude-code/SKILL.md)</li>
+<li>dashscope.aliyuncs.com (2 files: afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py, afkbotio-1.5.0/afkbot/settings.py)</li>
+<li>files.items (2 files: afkbotio-1.5.0/afkbot/services/agent_loop/browser_carryover.py, afkbotio-1.5.0/afkbot/services/tools/plugins/browser_control/plugin.py)</li>
+<li>github.com (11 files: afkbotio-1.5.0/PKG-INFO, afkbotio-1.5.0/afkbot/cli/presentation/plugin_prompts.py, afkbotio-1.5.0/afkbot/services/install_source.py, afkbotio-1.5.0/afkbot/services/lightpanda_runtime.py, afkbotio-1.5.0/afkbot/services/managed_install.py)</li>
+<li>host (1 files: afkbotio-1.5.0/afkbot/cli/presentation/setup_provider_prompts.py)</li>
+<li>openrouter.ai (2 files: afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py, afkbotio-1.5.0/afkbot/settings.py)</li>
+<li>pypi.org (1 files: afkbotio-1.5.0/afkbot/services/update_runtime.py)</li>
+<li>raw.endswith (1 files: afkbotio-1.5.0/afkbot/cli/commands/credentials.py)</li>
+<li>raw.githubusercontent.com (2 files: afkbotio-1.5.0/afkbot/services/skills/marketplace_sources.py, afkbotio-1.5.0/afkbot/settings.py)</li>
+<li>raw.items (4 files: afkbotio-1.5.0/afkbot/services/agent_loop/progress_stream.py, afkbotio-1.5.0/afkbot/services/profile_runtime/runtime_secrets.py, afkbotio-1.5.0/afkbot/services/subagents/runner.py, afkbotio-1.5.0/afkbot/services/task_flow/runtime_service.py)</li>
+<li>raw.rstrip (1 files: afkbotio-1.5.0/afkbot/services/skills/markdown.py)</li>
+<li>raw.split (3 files: afkbotio-1.5.0/afkbot/cli/commands/auth.py, afkbotio-1.5.0/afkbot/cli/commands/channel_telethon_commands/common.py, afkbotio-1.5.0/afkbot/services/setup/defaults.py)</li>
+<li>... 7 more</li>
+</ul>
+
+<h2>판정</h2>
+
+<p>확인된 악성 공급망 침해 징후 없음. 전체 위험도: **info**</p>
+
+<h2>악성 공급망 징후</h2>
+
+<p>확인된 악성 공급망 징후 없음.</p>
+
+<h2>자동 실행 경로</h2>
+
+<ul>
+<li>제공된 추출 코퍼스에서 .pth, sitecustomize.py, usercustomize.py, 설치 시 실행되는 setup.py 코드, PEP 517 빌드 훅의 악성 동작, import-time 실행형 페이로드 증거는 확인되지 않았습니다.</li>
+<li>일반 CLI/서비스 관리 코드 및 console_scripts 성격의 동작은 사용자가 명령을 실행해야 하는 경로로 보이며, 설치 또는 Python 인터프리터 시작만으로 실행되는 악성 자동 실행 근거는 확인되지 않았습니다.</li>
+</ul>
+
+<h2>절취/전송/지속성/측면이동/은닉</h2>
+
+<ul>
+<li>**credential harvesting:** 광범위한 환경변수, .env, SSH 키, 클라우드 자격증명, CI/CD 토큰, 지갑 파일 등을 수집하는 증거는 제공된 코퍼스에서 확인되지 않았습니다.</li>
+<li>**exfiltration/staging:** 수집 파일의 압축·스테이징 또는 공격자 제어 엔드포인트로 업로드하는 증거는 확인되지 않았습니다.</li>
+<li>**persistence:** afkbot/services/managed_runtime_service.py에 systemd/launchd 서비스 파일 생성·시작 로직이 존재합니다. 그러나 파일명·마커가 AFKBOT 관리 런타임 서비스와 일치하고, afk service start/install류 사용자 명령으로 관리되는 정상 백그라운드 서비스 기능으로 보입니다. 설치 시 자동 지속성 확보 또는 은닉형 백도어로 볼 근거는 확인되지 않았습니다.</li>
+<li>**lateral movement:** Kubernetes, Docker socket, cloud metadata, GitHub Actions/CI 토큰 탈취 또는 배포 워크플로 주입 증거는 확인되지 않았습니다.</li>
+<li>**obfuscation/loader:** eval/exec, base64/zlib/marshal 기반 staged loader, 암호화 페이로드, 자체 삭제 드로퍼 등의 증거는 확인되지 않았습니다. 정규식·cryptography 의존성 등 사전탐지 항목은 일반 기능으로 보이며 악성 로더 근거로 충분하지 않습니다.</li>
+</ul>
+
+<h2>배포 무결성 이상</h2>
+
+<ul>
+<li>제공된 정보만으로는 PyPI 아티팩트 내부의 숨김 페이로드, 목적 불명 네이티브 바이너리, sdist/wheel 불일치, 소스 저장소와의 차이를 확인할 수 없습니다.</li>
+<li>raw.githubusercontent.com, afkbot.io/install.sh, LLM/API 서비스 도메인 등 네트워크 문자열이 있으나, 문서의 설치 안내 또는 애플리케이션 기능상 API/마켓플레이스 접근으로 보이며 악성 공급망 전송 근거로 확인되지는 않았습니다.</li>
+</ul>
+
+<h2>추가 확인 필요</h2>
+
+<ul>
+<li>전체 800개 파일 중 선택된 일부 파일 텍스트만 제공되었습니다. 자동 실행 파일(.pth, sitecustomize.py, setup.py, pyproject.toml build backend) 및 대용량/바이너리 파일 전체 검토가 필요합니다.</li>
+<li>PyPI sdist와 공개 GitHub 소스 간 diff, wheel이 존재할 경우 sdist/wheel 차이, 릴리스 전후 의존성 변경 이력은 별도 확인이 필요합니다.</li>
+</ul>
+
+<p>---</p>
+
+<p>Prompt source: docs/prompts/malicious-supply-chain-review-v2.md</p>
+
+<p>This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</p>
+
+</body>
+</html>

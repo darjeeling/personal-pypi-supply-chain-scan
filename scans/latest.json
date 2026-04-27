@@ -1,182 +1,322 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "pbest-0.5.6.tar.gz",
-  "finding_count": 1124,
+  "distribution": "afkbotio-1.5.0.tar.gz",
+  "finding_count": 432,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 1,
+        "file_count": 4,
         "files": [
-          "pbest-0.5.6/docs/CLA.md"
+          "afkbotio-1.5.0/PKG-INFO",
+          "afkbotio-1.5.0/README.md",
+          "afkbotio-1.5.0/afkbotio.egg-info/PKG-INFO",
+          "afkbotio-1.5.0/pyproject.toml"
         ],
-        "value": "apache.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/pbest/execution/remote/batch.py"
-        ],
-        "value": "api.results"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/pbest/execution/remote/single.py"
-        ],
-        "value": "api.simulation"
+        "value": "afkbot.io"
       },
       {
         "file_count": 2,
         "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
+          "afkbotio-1.5.0/afkbot/services/skills/doctor.py",
+          "afkbotio-1.5.0/afkbot/skills/aider-cli/SKILL.md"
         ],
-        "value": "biomodels.net"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/mkdocs.yml"
-        ],
-        "value": "biosimulators.com"
+        "value": "aider.chat"
       },
       {
         "file_count": 2,
         "files": [
-          "pbest-0.5.6/pbest/execution/remote/single.py",
-          "pbest-0.5.6/pbest/execution/remote/utils.py"
+          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
+          "afkbotio-1.5.0/afkbot/settings.py"
         ],
-        "value": "compose.cam.uchc.edu"
+        "value": "api.anthropic.com"
       },
       {
         "file_count": 2,
         "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
+          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
+          "afkbotio-1.5.0/afkbot/settings.py"
         ],
-        "value": "creativecommons.org"
+        "value": "api.deepseek.com"
       },
       {
-        "file_count": 1,
+        "file_count": 4,
         "files": [
-          "pbest-0.5.6/devenv.nix"
+          "afkbotio-1.5.0/afkbot/services/llm/github_copilot_token.py",
+          "afkbotio-1.5.0/afkbot/services/skills/marketplace_popularity.py",
+          "afkbotio-1.5.0/afkbot/services/skills/marketplace_service.py",
+          "afkbotio-1.5.0/afkbot/services/update_runtime.py"
         ],
-        "value": "devenv.sh"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "files.pythonhosted.org"
-      },
-      {
-        "file_count": 12,
-        "files": [
-          "pbest-0.5.6/.pre-commit-config.yaml",
-          "pbest-0.5.6/PKG-INFO",
-          "pbest-0.5.6/README.md",
-          "pbest-0.5.6/docs/CODE_OF_CONDUCT.md",
-          "pbest-0.5.6/docs/CONTRIBUTING.md",
-          "pbest-0.5.6/docs/index.md",
-          "pbest-0.5.6/mkdocs.yml",
-          "pbest-0.5.6/pbest/containerization/container_constructor.py"
-        ],
-        "value": "github.com"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "pbest-0.5.6/PKG-INFO",
-          "pbest-0.5.6/README.md"
-        ],
-        "value": "health.uconn.edu"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
-        ],
-        "value": "identifiers.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/docs/index.md"
-        ],
-        "value": "img.shields.io"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "pbest-0.5.6/pbest/containerization/generic_container.jinja",
-          "pbest-0.5.6/tests/containerization/test_container_constructor.py"
-        ],
-        "value": "micro.mamba.pm"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
-        ],
-        "value": "purl.org"
+        "value": "api.github.com"
       },
       {
         "file_count": 3,
         "files": [
-          "pbest-0.5.6/mkdocs.yml",
-          "pbest-0.5.6/pbest/utils/input_types.py",
-          "pbest-0.5.6/uv.lock"
+          "afkbotio-1.5.0/afkbot/services/llm/github_copilot_token.py",
+          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
+          "afkbotio-1.5.0/afkbot/settings.py"
+        ],
+        "value": "api.individual.githubcopilot.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/llm/minimax_portal_oauth.py",
+          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
+          "afkbotio-1.5.0/afkbot/settings.py"
+        ],
+        "value": "api.minimax.io"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/llm/minimax_portal_oauth.py"
+        ],
+        "value": "api.minimaxi.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
+          "afkbotio-1.5.0/afkbot/settings.py"
+        ],
+        "value": "api.moonshot.ai"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "afkbotio-1.5.0/afkbot/cli/commands/doctor.py",
+          "afkbotio-1.5.0/afkbot/services/managed_runtime_service.py",
+          "afkbotio-1.5.0/afkbot/services/runtime_ports.py"
+        ],
+        "value": "api.ok"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
+          "afkbotio-1.5.0/afkbot/settings.py"
+        ],
+        "value": "api.openai.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/runtime_ports.py"
+        ],
+        "value": "api.payload"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/runtime_ports.py"
+        ],
+        "value": "api.reason"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "afkbotio-1.5.0/afkbot/cli/commands/setup.py",
+          "afkbotio-1.5.0/afkbot/services/policy/engine.py",
+          "afkbotio-1.5.0/afkbot/services/setup/contracts.py",
+          "afkbotio-1.5.0/afkbot/services/tools/plugins/web_search/plugin.py"
+        ],
+        "value": "api.search.brave.com"
+      },
+      {
+        "file_count": 5,
+        "files": [
+          "afkbotio-1.5.0/afkbot/cli/commands/setup.py",
+          "afkbotio-1.5.0/afkbot/services/apps/telegram/actions.py",
+          "afkbotio-1.5.0/afkbot/services/apps/telegram/http_api.py",
+          "afkbotio-1.5.0/afkbot/services/health/integration_probes.py",
+          "afkbotio-1.5.0/afkbot/services/setup/contracts.py"
+        ],
+        "value": "api.telegram.org"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "afkbotio-1.5.0/afkbot/cli/commands/doctor.py",
+          "afkbotio-1.5.0/afkbot/services/managed_runtime_service.py",
+          "afkbotio-1.5.0/afkbot/services/runtime_ports.py"
+        ],
+        "value": "api.url"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
+          "afkbotio-1.5.0/afkbot/settings.py"
+        ],
+        "value": "api.x.ai"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
+          "afkbotio-1.5.0/afkbot/settings.py"
+        ],
+        "value": "chatgpt.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/skills/doctor.py",
+          "afkbotio-1.5.0/afkbot/skills/claude-code/SKILL.md"
+        ],
+        "value": "claude.ai"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
+          "afkbotio-1.5.0/afkbot/settings.py"
+        ],
+        "value": "dashscope.aliyuncs.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/agent_loop/browser_carryover.py",
+          "afkbotio-1.5.0/afkbot/services/tools/plugins/browser_control/plugin.py"
+        ],
+        "value": "files.items"
+      },
+      {
+        "file_count": 11,
+        "files": [
+          "afkbotio-1.5.0/PKG-INFO",
+          "afkbotio-1.5.0/afkbot/cli/presentation/plugin_prompts.py",
+          "afkbotio-1.5.0/afkbot/services/install_source.py",
+          "afkbotio-1.5.0/afkbot/services/lightpanda_runtime.py",
+          "afkbotio-1.5.0/afkbot/services/managed_install.py",
+          "afkbotio-1.5.0/afkbot/services/plugins/service.py",
+          "afkbotio-1.5.0/afkbot/services/setup/provider_secrets.py",
+          "afkbotio-1.5.0/afkbot/services/update_runtime.py"
+        ],
+        "value": "github.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "afkbotio-1.5.0/afkbot/cli/presentation/setup_provider_prompts.py"
+        ],
+        "value": "host"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
+          "afkbotio-1.5.0/afkbot/settings.py"
+        ],
+        "value": "openrouter.ai"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/update_runtime.py"
         ],
         "value": "pypi.org"
       },
       {
         "file_count": 1,
         "files": [
-          "pbest-0.5.6/uv.lock"
+          "afkbotio-1.5.0/afkbot/cli/commands/credentials.py"
         ],
-        "value": "pywin32-ctypes-0.2.3.tar.gz"
+        "value": "raw.endswith"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/skills/marketplace_sources.py",
+          "afkbotio-1.5.0/afkbot/settings.py"
+        ],
+        "value": "raw.githubusercontent.com"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/agent_loop/progress_stream.py",
+          "afkbotio-1.5.0/afkbot/services/profile_runtime/runtime_secrets.py",
+          "afkbotio-1.5.0/afkbot/services/subagents/runner.py",
+          "afkbotio-1.5.0/afkbot/services/task_flow/runtime_service.py"
+        ],
+        "value": "raw.items"
       },
       {
         "file_count": 1,
         "files": [
-          "pbest-0.5.6/LICENSE"
+          "afkbotio-1.5.0/afkbot/services/skills/markdown.py"
         ],
-        "value": "www.apache.org"
+        "value": "raw.rstrip"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "afkbotio-1.5.0/afkbot/cli/commands/auth.py",
+          "afkbotio-1.5.0/afkbot/cli/commands/channel_telethon_commands/common.py",
+          "afkbotio-1.5.0/afkbot/services/setup/defaults.py"
+        ],
+        "value": "raw.split"
       },
       {
         "file_count": 1,
         "files": [
-          "pbest-0.5.6/docs/CODE_OF_CONDUCT.md"
+          "afkbotio-1.5.0/afkbot/services/skills/markdown.py"
         ],
-        "value": "www.contributor-covenant.org"
+        "value": "raw.splitlines"
+      },
+      {
+        "file_count": 20,
+        "files": [
+          "afkbotio-1.5.0/afkbot/cli/commands/memory_support.py",
+          "afkbotio-1.5.0/afkbot/services/agent_loop/context_builder.py",
+          "afkbotio-1.5.0/afkbot/services/agent_loop/progress_stream.py",
+          "afkbotio-1.5.0/afkbot/services/apps/common.py",
+          "afkbotio-1.5.0/afkbot/services/browser_runtime.py",
+          "afkbotio-1.5.0/afkbot/services/channels/endpoint_contracts.py",
+          "afkbotio-1.5.0/afkbot/services/channels/telethon_user/auth.py",
+          "afkbotio-1.5.0/afkbot/services/health/integration_probes.py"
+        ],
+        "value": "raw.strip"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/managed_runtime_service.py"
+        ],
+        "value": "www.apple.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/browser_cdp.py"
+        ],
+        "value": "{auth"
       },
       {
         "file_count": 2,
         "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
+          "afkbotio-1.5.0/afkbot/services/automations/service.py",
+          "afkbotio-1.5.0/afkbot/services/update_runtime.py"
         ],
-        "value": "www.ebi.ac.uk"
+        "value": "{host"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/connect/helpers.py"
+        ],
+        "value": "{raw"
       },
       {
         "file_count": 2,
         "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
+          "afkbotio-1.5.0/afkbot/services/skills/marketplace_popularity.py",
+          "afkbotio-1.5.0/afkbot/services/skills/marketplace_sources.py"
         ],
-        "value": "www.sbml.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
-        ],
-        "value": "www.w3.org"
+        "value": "{source"
       }
     ],
     "raw_public_ips": [],
@@ -184,620 +324,428 @@
       {
         "file_count": 1,
         "files": [
-          "pbest-0.5.6/uv.lock"
+          "afkbotio-1.5.0/afkbot/services/skills/marketplace_sources.py"
         ],
-        "value": "pywin32-ctypes-0.2.3.tar.gz"
+        "value": "https://raw.githubusercontent.com/{owner"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/skills/marketplace_sources.py",
+          "afkbotio-1.5.0/afkbot/settings.py"
+        ],
+        "value": "raw.githubusercontent.com"
       }
     ],
     "urls": [
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
+          "afkbotio-1.5.0/afkbot/cli/presentation/setup_provider_prompts.py"
         ],
-        "value": "http://biomodels.net/biology-qualifiers/"
+        "value": "http://user:pass@host:port"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
+          "afkbotio-1.5.0/afkbot/services/managed_runtime_service.py"
         ],
-        "value": "http://biomodels.net/model-qualifiers/"
+        "value": "http://www.apple.com/DTDs/PropertyList-1.0.dtd\\"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
+          "afkbotio-1.5.0/afkbot/services/browser_cdp.py"
         ],
-        "value": "http://creativecommons.org/publicdomain/zero/1.0/"
+        "value": "http://{auth"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
+          "afkbotio-1.5.0/afkbot/services/browser_cdp.py"
         ],
-        "value": "http://identifiers.org/biomodels.db/BIOMD0000000012"
+        "value": "http://{cleaned_host"
       },
       {
         "file_count": 2,
         "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
+          "afkbotio-1.5.0/afkbot/services/automations/service.py",
+          "afkbotio-1.5.0/afkbot/services/update_runtime.py"
         ],
-        "value": "http://identifiers.org/biomodels.db/MODEL6615351360"
+        "value": "http://{host"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/runtime_ports.py"
+        ],
+        "value": "http://{probe_host"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/connect/helpers.py"
+        ],
+        "value": "http://{raw"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "afkbotio-1.5.0/afkbot/cli/commands/start.py"
+        ],
+        "value": "http://{resolved_host"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "afkbotio-1.5.0/afkbot/cli/commands/connect.py"
+        ],
+        "value": "http://{settings.runtime_host"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "afkbotio-1.5.0/PKG-INFO",
+          "afkbotio-1.5.0/README.md",
+          "afkbotio-1.5.0/afkbotio.egg-info/PKG-INFO",
+          "afkbotio-1.5.0/pyproject.toml"
+        ],
+        "value": "https://afkbot.io"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "afkbotio-1.5.0/PKG-INFO",
+          "afkbotio-1.5.0/README.md",
+          "afkbotio-1.5.0/afkbotio.egg-info/PKG-INFO",
+          "afkbotio-1.5.0/pyproject.toml"
+        ],
+        "value": "https://afkbot.io/docs"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "afkbotio-1.5.0/PKG-INFO",
+          "afkbotio-1.5.0/README.md",
+          "afkbotio-1.5.0/afkbotio.egg-info/PKG-INFO"
+        ],
+        "value": "https://afkbot.io/install.ps1"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "afkbotio-1.5.0/PKG-INFO",
+          "afkbotio-1.5.0/README.md",
+          "afkbotio-1.5.0/afkbotio.egg-info/PKG-INFO"
+        ],
+        "value": "https://afkbot.io/install.sh"
       },
       {
         "file_count": 2,
         "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
+          "afkbotio-1.5.0/afkbot/services/skills/doctor.py",
+          "afkbotio-1.5.0/afkbot/skills/aider-cli/SKILL.md"
         ],
-        "value": "http://identifiers.org/biomodels.kisao/KISAO_0000016"
+        "value": "https://aider.chat/install.sh"
       },
       {
         "file_count": 2,
         "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
+          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
+          "afkbotio-1.5.0/afkbot/settings.py"
         ],
-        "value": "http://identifiers.org/biomodels.kisao/KISAO_0000018"
+        "value": "https://api.anthropic.com/v1"
       },
       {
         "file_count": 2,
         "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
+          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
+          "afkbotio-1.5.0/afkbot/settings.py"
         ],
-        "value": "http://identifiers.org/biomodels.kisao/KISAO_0000019"
+        "value": "https://api.deepseek.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/llm/github_copilot_token.py"
+        ],
+        "value": "https://api.github.com/copilot_internal/v2/token"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/skills/marketplace_popularity.py",
+          "afkbotio-1.5.0/afkbot/services/skills/marketplace_service.py",
+          "afkbotio-1.5.0/afkbot/services/update_runtime.py"
+        ],
+        "value": "https://api.github.com/repos/{owner"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/llm/github_copilot_token.py",
+          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
+          "afkbotio-1.5.0/afkbot/settings.py"
+        ],
+        "value": "https://api.individual.githubcopilot.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/llm/minimax_portal_oauth.py"
+        ],
+        "value": "https://api.minimax.io"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/llm/minimax_portal_oauth.py",
+          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
+          "afkbotio-1.5.0/afkbot/settings.py"
+        ],
+        "value": "https://api.minimax.io/v1"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/llm/minimax_portal_oauth.py"
+        ],
+        "value": "https://api.minimaxi.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/llm/minimax_portal_oauth.py"
+        ],
+        "value": "https://api.minimaxi.com/v1"
       },
       {
         "file_count": 2,
         "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
+          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
+          "afkbotio-1.5.0/afkbot/settings.py"
         ],
-        "value": "http://identifiers.org/biomodels.kisao/KISAO_0000029"
+        "value": "https://api.moonshot.ai/v1"
       },
       {
         "file_count": 2,
         "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
+          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
+          "afkbotio-1.5.0/afkbot/settings.py"
         ],
-        "value": "http://identifiers.org/biomodels.kisao/KISAO_0000035"
+        "value": "https://api.openai.com/v1"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/tools/plugins/web_search/plugin.py"
+        ],
+        "value": "https://api.search.brave.com/res/v1/web/search"
       },
       {
         "file_count": 2,
         "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
+          "afkbotio-1.5.0/afkbot/services/apps/telegram/http_api.py",
+          "afkbotio-1.5.0/afkbot/services/health/integration_probes.py"
         ],
-        "value": "http://identifiers.org/biomodels.kisao/KISAO_0000036"
+        "value": "https://api.telegram.org/bot{token"
       },
       {
         "file_count": 2,
         "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
+          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
+          "afkbotio-1.5.0/afkbot/settings.py"
         ],
-        "value": "http://identifiers.org/biomodels.kisao/KISAO_0000041"
+        "value": "https://api.x.ai/v1"
       },
       {
         "file_count": 2,
         "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
+          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
+          "afkbotio-1.5.0/afkbot/settings.py"
         ],
-        "value": "http://identifiers.org/chebi/CHEBI:33699"
+        "value": "https://chatgpt.com/backend-api/codex"
       },
       {
         "file_count": 2,
         "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
+          "afkbotio-1.5.0/afkbot/services/skills/doctor.py",
+          "afkbotio-1.5.0/afkbot/skills/claude-code/SKILL.md"
         ],
-        "value": "http://identifiers.org/go/GO:0005623"
+        "value": "https://claude.ai/install.sh"
       },
       {
         "file_count": 2,
         "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
+          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
+          "afkbotio-1.5.0/afkbot/settings.py"
         ],
-        "value": "http://identifiers.org/go/GO:0006351"
+        "value": "https://dashscope.aliyuncs.com/compatible-mode/v1"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/health/integration_probes.py"
+        ],
+        "value": "https://example.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "afkbotio-1.5.0/PKG-INFO",
+          "afkbotio-1.5.0/README.md",
+          "afkbotio-1.5.0/afkbotio.egg-info/PKG-INFO"
+        ],
+        "value": "https://example.com/mcp"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/managed_install.py"
+        ],
+        "value": "https://github.com/"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "afkbotio-1.5.0/PKG-INFO",
+          "afkbotio-1.5.0/afkbotio.egg-info/PKG-INFO",
+          "afkbotio-1.5.0/pyproject.toml"
+        ],
+        "value": "https://github.com/afkbot-io/afkbotio"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/install_source.py"
+        ],
+        "value": "https://github.com/afkbot-io/afkbotio/archive/main.tar.gz"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "afkbotio-1.5.0/PKG-INFO",
+          "afkbotio-1.5.0/afkbotio.egg-info/PKG-INFO",
+          "afkbotio-1.5.0/pyproject.toml"
+        ],
+        "value": "https://github.com/afkbot-io/afkbotio/blob/main/CHANGELOG.md"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "afkbotio-1.5.0/PKG-INFO",
+          "afkbotio-1.5.0/afkbotio.egg-info/PKG-INFO",
+          "afkbotio-1.5.0/pyproject.toml"
+        ],
+        "value": "https://github.com/afkbot-io/afkbotio/blob/main/LICENSE"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "afkbotio-1.5.0/PKG-INFO",
+          "afkbotio-1.5.0/afkbotio.egg-info/PKG-INFO",
+          "afkbotio-1.5.0/pyproject.toml"
+        ],
+        "value": "https://github.com/afkbot-io/afkbotio/issues"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/lightpanda_runtime.py"
+        ],
+        "value": "https://github.com/lightpanda-io/browser/releases/download/nightly/lightpanda-aarch64-macos"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/lightpanda_runtime.py"
+        ],
+        "value": "https://github.com/lightpanda-io/browser/releases/download/nightly/lightpanda-x86_64-linux"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/setup/provider_secrets.py"
+        ],
+        "value": "https://github.com/login/device/code"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/setup/provider_secrets.py"
+        ],
+        "value": "https://github.com/login/oauth/access_token"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/plugins/service.py"
+        ],
+        "value": "https://github.com/{owner"
       },
       {
         "file_count": 2,
         "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
+          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
+          "afkbotio-1.5.0/afkbot/settings.py"
         ],
-        "value": "http://identifiers.org/go/GO:0006402"
+        "value": "https://openrouter.ai/api/v1"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/update_runtime.py"
+        ],
+        "value": "https://pypi.org/pypi/{install_source.spec"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/skills/marketplace_sources.py"
+        ],
+        "value": "https://raw.githubusercontent.com/{owner"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/llm/github_copilot_token.py"
+        ],
+        "value": "https://{api_host"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/llm/github_copilot_token.py"
+        ],
+        "value": "https://{proxy_ep"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "afkbotio-1.5.0/afkbot/services/skills/marketplace_popularity.py"
+        ],
+        "value": "https://{self._default_skills_sh_host"
       },
       {
         "file_count": 2,
         "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
+          "afkbotio-1.5.0/afkbot/services/skills/marketplace_popularity.py",
+          "afkbotio-1.5.0/afkbot/services/skills/marketplace_sources.py"
         ],
-        "value": "http://identifiers.org/go/GO:0006412"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
-        ],
-        "value": "http://identifiers.org/go/GO:0030163"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
-        ],
-        "value": "http://identifiers.org/go/GO:0040029"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
-        ],
-        "value": "http://identifiers.org/kegg.compound/C00046"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
-        ],
-        "value": "http://identifiers.org/mamo/MAMO_0000046"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
-        ],
-        "value": "http://identifiers.org/pubmed/10659856"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
-        ],
-        "value": "http://identifiers.org/pubmed/20587024"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
-        ],
-        "value": "http://identifiers.org/taxonomy/562"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
-        ],
-        "value": "http://identifiers.org/uniprot/P03023"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
-        ],
-        "value": "http://identifiers.org/uniprot/P03034"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
-        ],
-        "value": "http://identifiers.org/uniprot/P04483"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
-        ],
-        "value": "http://purl.org/dc/elements/1.1/"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
-        ],
-        "value": "http://purl.org/dc/terms/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/LICENSE"
-        ],
-        "value": "http://www.apache.org/licenses/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/LICENSE"
-        ],
-        "value": "http://www.apache.org/licenses/LICENSE-2.0"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
-        ],
-        "value": "http://www.ebi.ac.uk/biomodels/"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
-        ],
-        "value": "http://www.sbml.org/sbml/level2/version3"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
-        ],
-        "value": "http://www.w3.org/1998/Math/MathML"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
-        ],
-        "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
-        ],
-        "value": "http://www.w3.org/1999/xhtml"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "pbest-0.5.6/tests/resources/BIOMD0000000012_url.xml",
-          "pbest-0.5.6/tests/resources/simulators/phase_cycle.sbml"
-        ],
-        "value": "http://www.w3.org/2001/vcard-rdf/3.0#"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/docs/CLA.md"
-        ],
-        "value": "https://apache.org/licenses/icla.pdf"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/mkdocs.yml"
-        ],
-        "value": "https://biosimulators.com"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "pbest-0.5.6/pbest/execution/remote/single.py",
-          "pbest-0.5.6/pbest/execution/remote/utils.py"
-        ],
-        "value": "https://compose.cam.uchc.edu"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/devenv.nix"
-        ],
-        "value": "https://devenv.sh/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/00/b5/0e8e4b5b081eac6cb3dbb7e60a65907549a1ce035a724368c330112adfdd/pydantic_core-2.41.5-cp312-cp312-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/00/be/dd56c1fd4807bc1eba1cf18b2a850d0de7bacb55e158755eb79f77c41f8e/mypy-1.19.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/00/c0/8f5d070730d7836adc9c9b6408dec68c6ced86b304a9b26a14df072a6e8c/traitlets-5.14.3-py3-none-any.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/00/f9/7638f5cc82ec8a7aa005de48622eecc3ed7c9854b96ba15bd76b7fd27574/matplotlib-3.10.8-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/01/17/b3055b9f82f87a727ed5f745aadda9c363d2e2dd180f99350431e98c0ad4/uv-0.9.22-py3-none-musllinux_1_1_x86_64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/01/51/aaa855bdf73119c7e242ddf1dce6cfc33162df4dbd0e62f1e773f382f359/python_libsedml-2.0.33-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/01/ee/02a2c011bdab74c6fb3c75474d40b3052059d95df7e73351460c8588d963/h11-0.16.0.tar.gz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/02/10/5da547df7a391dcde17f59520a231527b8571e6f46fc8efb02ccb370ab12/docutils-0.22.4-py3-none-any.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/02/49/9d1284d0dc65e2c757b74c6687b6d319b02f822ad039e5c512df9194d9dd/jupyter_core-5.9.1.tar.gz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/02/e3/a4fa1946722c4c7b063cc25043a12d9ce9b4323777f89643be74cef2993c/backrefs-6.1-py39-none-any.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/04/0b/3c9baedbdf613ecaa7aa07027780b8867f57b6293b6ee50de316c9f3222b/pyzmq-27.1.0.tar.gz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/04/11/432f32f8097b03e3cd5fe57e88efb685d964e2e5178a48ed61e841f7fdce/pyyaml_env_tag-1.1-py3-none-any.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/04/26/891bffb23cd8f90aa144e901954fecd5ae69ad4173cb92015455a2e205fd/process_bigraph-1.0.5-py3-none-any.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/04/4b/29cac41a4d98d144bf5f6d33995617b185d14b22401f75ca86f384e87ff1/h11-0.16.0-py3-none-any.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/04/b8/333fdb27840f3bf04022d21b654a35f58e15407183aeb16f3b41aa053446/orjson-3.11.5.tar.gz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/05/0a/a3fe3be3ee2dceb3e615ebb4df97ae6f3828aa915d3e10549ce016302bd1/contourpy-1.3.3-cp312-cp312-musllinux_1_2_aarch64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/05/12/9fbc6a4d39c0198adeebbde20b619790e9236557ca59fc40e0e3cebe6f40/charset_normalizer-3.4.4-cp312-cp312-musllinux_1_2_aarch64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/05/8e/961c0007c59b8dd7729d542c61a4d537767a59645b82a0b521206e1e25c2/pyyaml-6.0.3.tar.gz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/05/c0/b3be26a015601b822b97d9149ff8cb5ead58c66f981e04fedf4e762f4bd4/pyyaml-6.0.3-cp312-cp312-musllinux_1_2_aarch64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/05/e4/ba649102a3bc3fbca54e7239fb924fd434c766f855693d86de0b1f2bec81/jupyter_client-8.8.0.tar.gz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/06/8a/19bfae96f6615aa8a0604915512e0289b1fad33d5909bf7244f02935d33a/mypy-1.19.1-cp312-cp312-macosx_10_13_x86_64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/06/94/82699a10bca87a5556c9c59b5963f2d039dbd239f25bc2a63907a05a14cb/httpcore-1.0.9.tar.gz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/06/c0/ed4a27bc5571b99e3cff68f8a9fa5b56ff7df1c2251cc715a652ddd26402/jaraco.classes-3.4.0.tar.gz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/06/e4/b751cdf839c011a9714a783f120e6a86b7494eb70044d7d81a25a5cd295f/psutil-7.2.1-cp36-abi3-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/07/37/71ff8887011f0ef241e7a3b548459681691c8349dd16acb8e92e497f3899/compose_api_client-0.2.0-py3-none-any.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/07/e0/267e57e387b4ca276b90f0434ff88b2c2241ad72b16d31836adddfd6031b/cffi-2.0.0-cp312-cp312-musllinux_1_2_aarch64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/07/f6/d0e5b343768e8bcb4cda79f0f2f55051bf26177ecd5651f84c07567461cf/watchdog-6.0.0-py3-none-win32.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/08/64/8c3a47eaccfef8ac20e0484e68e0772013eb85802f8a9f7603ca751eb166/ruff-0.14.10-py3-none-musllinux_1_2_armv7l.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/08/a1/73d8250f888fb0ddf1b119b139c382f8903d8bb0c5bd1f64afc7e38dad1d/nh3-0.3.2-cp38-abi3-manylinux_2_5_i686.manylinux1_i686.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/09/32/59b0c7e63e277fa7911c2fc70ccfb45ce4b98991e7ef37110663437005af/pydantic_core-2.41.5-graalpy312-graalpy250_312_native-macosx_10_12_x86_64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/0a/4c/925909008ed5a988ccbb72dcc897407e5d6d3bd72410d69e051fc0c14647/charset_normalizer-3.4.4-py3-none-any.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/0a/ca/d8ace4f98322d01abcd52d381134344bf7b431eba7ed8b42bdea5a3c2ac9/scipy-1.16.3.tar.gz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/0a/ea/f200a4c36d836100e7bc738fc48cd963d3ba6372ebc8298a889e0cfc3359/pillow-12.1.0-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/0c/1a/d7592328d037d36f2d2462f4bc1fbb383eec9278bc786c1b111cbbd44cfa/tornado-6.5.4-cp39-abi3-win32.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/0c/4c/b075da0092003d9a55cf2ecc1cae9384a1ca4f650d51b00fc59875fe76f6/ipdb-0.13.13-py3-none-any.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/0d/04/02102b8d19fdcb009d72d622bb5781e8f3fae1646bf3e18c53d1bc8115b5/orjson-3.11.5-cp312-cp312-win32.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/0d/0c/3a471b6e31951dce2360477420d0a8d1e00dea6cf33b70f3e8c3ab6e28e1/griffe-1.15.0.tar.gz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/0d/1e/14c916087d8598917dbad9b2921d340f7884824ad6e9c55de948a93b106d/ruff-0.14.10-py3-none-musllinux_1_2_x86_64.whl"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pbest-0.5.6/uv.lock"
-        ],
-        "value": "https://files.pythonhosted.org/packages/0d/3b/f3cf2088647d160b87bd8df51bdcfe80bbfd5550bf5560e9096d6c185b15/libroadrunner-2.8.0-cp312-cp312-manylinux_2_28_x86_64.whl"
+        "value": "https://{source"
       }
     ]
   },
-  "package": "pbest",
-  "package_slug": "pbest",
-  "project_url": "https://pypi.org/project/pbest/",
+  "package": "afkbotio",
+  "package_slug": "afkbotio",
+  "project_url": "https://pypi.org/project/afkbotio/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T20:22:55.712294+00:00",
+  "published_at": "2026-04-27T20:26:45.881699+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T20:23:55.812844+00:00",
-  "title": "Personal PyPI Supply Chain Scan: pbest 0.5.6",
-  "version": "0.5.6",
-  "version_slug": "0.5.6",
-  "_metadata_path": "reports/packages/pbest/0.5.6/metadata.json"
+  "scanned_at": "2026-04-27T20:28:18.156603+00:00",
+  "title": "Personal PyPI Supply Chain Scan: afkbotio 1.5.0",
+  "version": "1.5.0",
+  "version_slug": "1.5.0",
+  "_metadata_path": "reports/packages/afkbotio/1.5.0/metadata.json"
 }
