@@ -1,52 +1,126 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "amazon_ads_cli-0.1.3.tar.gz",
-  "finding_count": 8,
+  "distribution": "nvidia_nat_strands-1.7.0a20260427-py3-none-any.whl",
+  "finding_count": 5,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 4,
+        "file_count": 1,
         "files": [
-          "amazon_ads_cli-0.1.3/PKG-INFO",
-          "amazon_ads_cli-0.1.3/README.md",
-          "amazon_ads_cli-0.1.3/amazon_ads_cli.egg-info/PKG-INFO",
-          "amazon_ads_cli-0.1.3/setup.py"
+          "nvidia_nat_strands-1.7.0a20260427.dist-info/METADATA"
+        ],
+        "value": "docs.nvidia.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "nat/meta/pypi.md",
+          "nvidia_nat_strands-1.7.0a20260427.dist-info/METADATA"
         ],
         "value": "github.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "nat/plugins/strands/llm.py"
+        ],
+        "value": "integrate.api.nvidia.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "nat/meta/pypi.md",
+          "nvidia_nat_strands-1.7.0a20260427.dist-info/METADATA"
+        ],
+        "value": "media.githubusercontent.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "nat/plugins/strands/llm.py"
+        ],
+        "value": "strandsagents.com"
+      },
+      {
+        "file_count": 7,
+        "files": [
+          "nat/meta/pypi.md",
+          "nat/plugins/strands/__init__.py",
+          "nat/plugins/strands/callback_handler.py",
+          "nat/plugins/strands/llm.py",
+          "nat/plugins/strands/register.py",
+          "nat/plugins/strands/tool_wrapper.py",
+          "nvidia_nat_strands-1.7.0a20260427.dist-info/METADATA"
+        ],
+        "value": "www.apache.org"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 3,
+        "file_count": 7,
         "files": [
-          "amazon_ads_cli-0.1.3/PKG-INFO",
-          "amazon_ads_cli-0.1.3/amazon_ads_cli.egg-info/PKG-INFO",
-          "amazon_ads_cli-0.1.3/setup.py"
+          "nat/meta/pypi.md",
+          "nat/plugins/strands/__init__.py",
+          "nat/plugins/strands/callback_handler.py",
+          "nat/plugins/strands/llm.py",
+          "nat/plugins/strands/register.py",
+          "nat/plugins/strands/tool_wrapper.py",
+          "nvidia_nat_strands-1.7.0a20260427.dist-info/METADATA"
         ],
-        "value": "https://github.com/stellaraether/amazon-ads-cli"
+        "value": "http://www.apache.org/licenses/LICENSE-2.0"
       },
       {
         "file_count": 1,
         "files": [
-          "amazon_ads_cli-0.1.3/README.md"
+          "nvidia_nat_strands-1.7.0a20260427.dist-info/METADATA"
         ],
-        "value": "https://github.com/stellaraether/amazon-ads-cli.git"
+        "value": "https://docs.nvidia.com/nemo/agent-toolkit/latest/"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "nat/meta/pypi.md",
+          "nvidia_nat_strands-1.7.0a20260427.dist-info/METADATA"
+        ],
+        "value": "https://github.com/NVIDIA/NeMo-Agent-Toolkit"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "nat/plugins/strands/llm.py"
+        ],
+        "value": "https://integrate.api.nvidia.com/v1"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "nat/meta/pypi.md",
+          "nvidia_nat_strands-1.7.0a20260427.dist-info/METADATA"
+        ],
+        "value": "https://media.githubusercontent.com/media/NVIDIA/NeMo-Agent-Toolkit/refs/heads/main/docs/source/_static/banner.png"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "nat/plugins/strands/llm.py"
+        ],
+        "value": "https://strandsagents.com"
       }
     ]
   },
-  "package": "amazon-ads-cli",
-  "package_slug": "amazon-ads-cli",
-  "project_url": "https://pypi.org/project/amazon-ads-cli/",
+  "package": "nvidia-nat-strands",
+  "package_slug": "nvidia-nat-strands",
+  "project_url": "https://pypi.org/project/nvidia-nat-strands/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T09:01:58.323375+00:00",
+  "published_at": "2026-04-27T09:39:41.032861+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T09:02:57.241533+00:00",
-  "title": "Personal PyPI Supply Chain Scan: amazon-ads-cli 0.1.3",
-  "version": "0.1.3",
-  "version_slug": "0.1.3",
-  "_metadata_path": "reports/packages/amazon-ads-cli/0.1.3/metadata.json"
+  "scanned_at": "2026-04-27T10:28:29.891393+00:00",
+  "title": "Personal PyPI Supply Chain Scan: nvidia-nat-strands 1.7.0a20260427",
+  "version": "1.7.0a20260427",
+  "version_slug": "1.7.0a20260427",
+  "_metadata_path": "reports/packages/nvidia-nat-strands/1.7.0a20260427/metadata.json"
 }
