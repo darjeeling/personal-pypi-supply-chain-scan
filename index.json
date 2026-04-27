@@ -1,6 +1,64 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "quonfig_openfeature-0.0.3.tar.gz",
+    "finding_count": 1,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 2,
+          "files": [
+            "quonfig_openfeature-0.0.3/PKG-INFO",
+            "quonfig_openfeature-0.0.3/README.md"
+          ],
+          "value": "openfeature.dev"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "quonfig_openfeature-0.0.3/PKG-INFO",
+            "quonfig_openfeature-0.0.3/README.md"
+          ],
+          "value": "quonfig.com"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 2,
+          "files": [
+            "quonfig_openfeature-0.0.3/PKG-INFO",
+            "quonfig_openfeature-0.0.3/README.md"
+          ],
+          "value": "https://openfeature.dev"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "quonfig_openfeature-0.0.3/PKG-INFO",
+            "quonfig_openfeature-0.0.3/README.md"
+          ],
+          "value": "https://quonfig.com"
+        }
+      ]
+    },
+    "package": "quonfig-openfeature",
+    "package_slug": "quonfig-openfeature",
+    "project_url": "https://pypi.org/project/quonfig-openfeature/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T14:11:08.157262+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T14:11:53.866638+00:00",
+    "title": "Personal PyPI Supply Chain Scan: quonfig-openfeature 0.0.3",
+    "version": "0.0.3",
+    "version_slug": "0.0.3",
+    "_metadata_path": "reports/packages/quonfig-openfeature/0.0.3/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "sage_agent_sdk-6.6.8.tar.gz",
     "finding_count": 11,
     "model": "gpt-5.5",
