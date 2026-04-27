@@ -1,6 +1,375 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "mcp_server_zap-0.1.0.tar.gz",
+    "finding_count": 6,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 2,
+          "files": [
+            "mcp_server_zap-0.1.0/PKG-INFO",
+            "mcp_server_zap-0.1.0/README.md"
+          ],
+          "value": "api.addrs.addr.regex"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mcp_server_zap-0.1.0/PKG-INFO",
+            "mcp_server_zap-0.1.0/README.md"
+          ],
+          "value": "api.disablekey"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mcp_server_zap-0.1.0/src/mcp_server_zap/tools/context.py"
+          ],
+          "value": "auth.example.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mcp_server_zap-0.1.0/SECURITY.md"
+          ],
+          "value": "docs.github.com"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "mcp_server_zap-0.1.0/CONTRIBUTING.md",
+            "mcp_server_zap-0.1.0/PKG-INFO",
+            "mcp_server_zap-0.1.0/README.md",
+            "mcp_server_zap-0.1.0/SECURITY.md",
+            "mcp_server_zap-0.1.0/pyproject.toml"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mcp_server_zap-0.1.0/PKG-INFO",
+            "mcp_server_zap-0.1.0/README.md"
+          ],
+          "value": "img.shields.io"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mcp_server_zap-0.1.0/PKG-INFO",
+            "mcp_server_zap-0.1.0/README.md"
+          ],
+          "value": "juice-shop.example"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mcp_server_zap-0.1.0/CHANGELOG.md"
+          ],
+          "value": "keepachangelog.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mcp_server_zap-0.1.0/PKG-INFO",
+            "mcp_server_zap-0.1.0/README.md"
+          ],
+          "value": "modelcontextprotocol.io"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mcp_server_zap-0.1.0/PKG-INFO",
+            "mcp_server_zap-0.1.0/README.md"
+          ],
+          "value": "pypi.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mcp_server_zap-0.1.0/CHANGELOG.md"
+          ],
+          "value": "semver.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mcp_server_zap-0.1.0/src/mcp_server_zap/tools/traffic.py"
+          ],
+          "value": "target"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mcp_server_zap-0.1.0/src/mcp_server_zap/tools/discovery.py"
+          ],
+          "value": "target.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mcp_server_zap-0.1.0/PKG-INFO",
+            "mcp_server_zap-0.1.0/README.md"
+          ],
+          "value": "target.example.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mcp_server_zap-0.1.0/src/mcp_server_zap/tools/context.py"
+          ],
+          "value": "target\\\\.example\\\\.com.*``"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mcp_server_zap-0.1.0/PKG-INFO",
+            "mcp_server_zap-0.1.0/README.md"
+          ],
+          "value": "www.zaproxy.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mcp_server_zap-0.1.0/PKG-INFO",
+            "mcp_server_zap-0.1.0/README.md"
+          ],
+          "value": "zap"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 2,
+          "files": [
+            "mcp_server_zap-0.1.0/PKG-INFO",
+            "mcp_server_zap-0.1.0/README.md"
+          ],
+          "value": "http://zap:8080`"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mcp_server_zap-0.1.0/src/mcp_server_zap/tools/context.py"
+          ],
+          "value": "https://auth.example.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mcp_server_zap-0.1.0/SECURITY.md"
+          ],
+          "value": "https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/privately-reporting-a-security-vulnerability"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "mcp_server_zap-0.1.0/src/mcp_server_zap/tools/discovery.py",
+            "mcp_server_zap-0.1.0/src/mcp_server_zap/tools/scanning.py",
+            "mcp_server_zap-0.1.0/tests/test_live.py"
+          ],
+          "value": "https://example.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mcp_server_zap-0.1.0/tests/test_remap.py"
+          ],
+          "value": "https://example.com/foo"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mcp_server_zap-0.1.0/PKG-INFO",
+            "mcp_server_zap-0.1.0/pyproject.toml"
+          ],
+          "value": "https://github.com/Karacali/mcp-zap"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "mcp_server_zap-0.1.0/CONTRIBUTING.md",
+            "mcp_server_zap-0.1.0/PKG-INFO",
+            "mcp_server_zap-0.1.0/README.md"
+          ],
+          "value": "https://github.com/Karacali/mcp-zap.git"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mcp_server_zap-0.1.0/PKG-INFO",
+            "mcp_server_zap-0.1.0/README.md"
+          ],
+          "value": "https://github.com/Karacali/mcp-zap/actions/workflows/ci.yml"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mcp_server_zap-0.1.0/PKG-INFO",
+            "mcp_server_zap-0.1.0/README.md"
+          ],
+          "value": "https://github.com/Karacali/mcp-zap/actions/workflows/ci.yml/badge.svg"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mcp_server_zap-0.1.0/PKG-INFO",
+            "mcp_server_zap-0.1.0/pyproject.toml"
+          ],
+          "value": "https://github.com/Karacali/mcp-zap/blob/main/CHANGELOG.md"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mcp_server_zap-0.1.0/PKG-INFO",
+            "mcp_server_zap-0.1.0/pyproject.toml"
+          ],
+          "value": "https://github.com/Karacali/mcp-zap/issues"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "mcp_server_zap-0.1.0/PKG-INFO",
+            "mcp_server_zap-0.1.0/README.md",
+            "mcp_server_zap-0.1.0/SECURITY.md"
+          ],
+          "value": "https://github.com/zaproxy/zaproxy/security"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mcp_server_zap-0.1.0/PKG-INFO",
+            "mcp_server_zap-0.1.0/README.md"
+          ],
+          "value": "https://img.shields.io/badge/License-MIT-yellow.svg"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mcp_server_zap-0.1.0/PKG-INFO",
+            "mcp_server_zap-0.1.0/README.md"
+          ],
+          "value": "https://img.shields.io/badge/MCP-server-blueviolet.svg"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mcp_server_zap-0.1.0/PKG-INFO",
+            "mcp_server_zap-0.1.0/README.md"
+          ],
+          "value": "https://img.shields.io/pypi/pyversions/mcp-server-zap.svg"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mcp_server_zap-0.1.0/PKG-INFO",
+            "mcp_server_zap-0.1.0/README.md"
+          ],
+          "value": "https://img.shields.io/pypi/v/mcp-server-zap.svg"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mcp_server_zap-0.1.0/PKG-INFO",
+            "mcp_server_zap-0.1.0/README.md"
+          ],
+          "value": "https://juice-shop.example"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mcp_server_zap-0.1.0/CHANGELOG.md"
+          ],
+          "value": "https://keepachangelog.com/en/1.1.0/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mcp_server_zap-0.1.0/PKG-INFO",
+            "mcp_server_zap-0.1.0/README.md"
+          ],
+          "value": "https://modelcontextprotocol.io"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mcp_server_zap-0.1.0/PKG-INFO",
+            "mcp_server_zap-0.1.0/README.md"
+          ],
+          "value": "https://pypi.org/project/mcp-server-zap/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mcp_server_zap-0.1.0/CHANGELOG.md"
+          ],
+          "value": "https://semver.org/spec/v2.0.0.html"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mcp_server_zap-0.1.0/src/mcp_server_zap/tools/discovery.py"
+          ],
+          "value": "https://target.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mcp_server_zap-0.1.0/PKG-INFO",
+            "mcp_server_zap-0.1.0/README.md"
+          ],
+          "value": "https://target.example.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mcp_server_zap-0.1.0/src/mcp_server_zap/tools/traffic.py"
+          ],
+          "value": "https://target/api"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mcp_server_zap-0.1.0/src/mcp_server_zap/tools/context.py"
+          ],
+          "value": "https://target\\\\.example\\\\.com.*``"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mcp_server_zap-0.1.0/PKG-INFO",
+            "mcp_server_zap-0.1.0/README.md"
+          ],
+          "value": "https://www.zaproxy.org/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mcp_server_zap-0.1.0/PKG-INFO",
+            "mcp_server_zap-0.1.0/README.md"
+          ],
+          "value": "https://www.zaproxy.org/blog/2026-04-02-zap-mcp-server/"
+        }
+      ]
+    },
+    "package": "mcp-server-zap",
+    "package_slug": "mcp-server-zap",
+    "project_url": "https://pypi.org/project/mcp-server-zap/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T11:51:00.233497+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T11:52:08.143409+00:00",
+    "title": "Personal PyPI Supply Chain Scan: mcp-server-zap 0.1.0",
+    "version": "0.1.0",
+    "version_slug": "0.1.0",
+    "_metadata_path": "reports/packages/mcp-server-zap/0.1.0/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "cdpify-0.2.9.tar.gz",
     "finding_count": 32,
     "model": "gpt-5.5",
