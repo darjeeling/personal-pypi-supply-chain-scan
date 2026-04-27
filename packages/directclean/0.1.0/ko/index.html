@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal PyPI Supply Chain Scan: directclean 0.1.0</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 960px; line-height: 1.55; padding: 0 1rem; color: #1f2933; }
+    a { color: #1f5fbf; }
+    code { background: #f4f4f4; padding: 0.1rem 0.25rem; }
+    h1, h2, h3 { line-height: 1.2; }
+    li { margin: 0.35rem 0; }
+    nav { margin-bottom: 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #e5e9ef; padding: 0.55rem 0.65rem; text-align: left; vertical-align: top; }
+    th { color: #52616f; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; }
+    .scan-groups { margin-top: 1.2rem; }
+    .scan-day { border-top: 1px solid #d8dee4; display: grid; gap: 1rem; grid-template-columns: 10rem minmax(0, 1fr); padding: 1.1rem 0; }
+    .scan-day-date { color: #1f2933; font-weight: 700; }
+    .scan-day-date span { color: #52616f; display: block; font-size: 0.9rem; font-weight: 500; margin-top: 0.2rem; }
+    .scan-day-table { overflow-x: auto; }
+    .risk { display: inline-block; min-width: 4.8rem; text-align: center; border-radius: 999px; padding: 0.15rem 0.45rem; font-size: 0.78rem; font-weight: 700; }
+    .risk-info, .risk-low { background: #dcfce7; color: #166534; }
+    .risk-medium, .risk-unknown { background: #fef3c7; color: #92400e; }
+    .risk-high, .risk-critical { background: #fee2e2; color: #991b1b; }
+    .index-note { color: #52616f; margin-top: -0.35rem; }
+    .version { color: #52616f; margin-left: 0.2rem; white-space: nowrap; }
+    @media (max-width: 720px) {
+      .scan-day { grid-template-columns: 1fr; }
+      th, td { padding: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+<nav><a href='../../../../'>Index</a></nav><h1>Personal PyPI Supply Chain Scan: directclean 0.1.0</h1>
+
+<ul>
+<li>Package: directclean</li>
+<li>Version: 0.1.0</li>
+<li>Project URL: https://pypi.org/project/directclean/</li>
+<li>Distribution: directclean-0.1.0.tar.gz</li>
+<li>Package published at: 2026-04-27T21:55:44.254816+00:00</li>
+<li>Scan published at: 2026-04-27T21:56:18.142733+00:00</li>
+<li>Language: ko</li>
+<li>Model: gpt-5.5</li>
+<li>Prompt: malicious-supply-chain-review-v2 ([source](../../../../docs/prompts/malicious-supply-chain-review-v2.md))</li>
+<li>Disclaimer: This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</li>
+</ul>
+
+<h2>Deterministic Network Indicators</h2>
+
+<h3>Suspicious Endpoints</h3>
+
+<p>None</p>
+
+<h3>Raw Public IPs</h3>
+
+<p>None</p>
+
+<h3>URLs</h3>
+<ul>
+<li>https://cdn.jsdelivr.net/npm/chart.js@4 (1 files: directclean-0.1.0/src/directclean/report/html_report.py)</li>
+<li>https://github.com/Oshlack/restrander (1 files: directclean-0.1.0/src/directclean/external/restrander.py)</li>
+<li>https://github.com/epi2me-labs/pychopper (2 files: directclean-0.1.0/PKG-INFO, directclean-0.1.0/README.md)</li>
+<li>https://github.com/jheinz27/breakinator (2 files: directclean-0.1.0/PKG-INFO, directclean-0.1.0/README.md)</li>
+<li>https://github.com/mritchielab/restrander (2 files: directclean-0.1.0/PKG-INFO, directclean-0.1.0/README.md)</li>
+<li>https://github.com/ylab-hi (2 files: directclean-0.1.0/PKG-INFO, directclean-0.1.0/README.md)</li>
+<li>https://github.com/ylab-hi/DirectClean (2 files: directclean-0.1.0/PKG-INFO, directclean-0.1.0/pyproject.toml)</li>
+<li>https://github.com/your-org/directclean (1 files: directclean-0.1.0/src/directclean/report/html_report.py)</li>
+</ul>
+
+<h3>Domains</h3>
+<ul>
+<li>cdn.jsdelivr.net (1 files: directclean-0.1.0/src/directclean/report/html_report.py)</li>
+<li>github.com (5 files: directclean-0.1.0/PKG-INFO, directclean-0.1.0/README.md, directclean-0.1.0/pyproject.toml, directclean-0.1.0/src/directclean/external/restrander.py, directclean-0.1.0/src/directclean/report/html_report.py)</li>
+<li>raw.fastq (3 files: directclean-0.1.0/src/directclean/external/breakinator.py, directclean-0.1.0/src/directclean/pipeline.py, directclean-0.1.0/src/directclean/report/html_report.py)</li>
+</ul>
+
+<h2>판정</h2>
+
+<p>확인된 악성 공급망 침해 징후 없음 — 전체 위험도: info.</p>
+
+<h2>악성 공급망 징후</h2>
+
+<p>확인된 악성 공급망 징후 없음.</p>
+
+<h2>자동 실행 경로</h2>
+
+<ul>
+<li>pyproject.toml은 poetry-core 빌드 백엔드와 일반 console_scripts에 해당하는 directclean = &quot;directclean.cli.app:app&quot;만 정의합니다.</li>
+<li>.pth, sitecustomize.py, usercustomize.py, setup.py 기반 설치 시 실행, PEP 517 커스텀 악성 빌드 훅, import-time 부작용 근거는 제공된 파일에서 확인되지 않았습니다.</li>
+<li>directclean.__main__ 및 CLI 코드는 사용자가 python -m directclean 또는 directclean 명령을 실행해야 동작하는 일반 CLI 경로로 보입니다.</li>
+</ul>
+
+<h2>절취/전송/지속성/측면이동/은닉</h2>
+
+<ul>
+<li>자격 증명 절취: 환경변수, .env, SSH 키, 클라우드/CI 토큰, 지갑, kubeconfig 등을 광범위하게 탐색하는 코드 근거가 없습니다.</li>
+<li>전송/외부 C2: 의심스러운 HTTP 업로드, 웹훅, 원시 IP, paste/drop 서비스, 공격자 제어 저장소로의 전송 근거가 없습니다.</li>
+<li>스테이징/압축: gzip 사용은 FASTQ 생물정보학 파일 입출력 지원으로 보이며, 절취 파일 아카이브 생성이나 exfiltration staging 근거는 없습니다.</li>
+<li>지속성: cron, systemd, launch agent, shell profile 수정, 백그라운드 루프, 재설치 로직 근거가 없습니다.</li>
+<li>측면이동: Kubernetes, Docker socket, cloud metadata, GitHub Actions/CI 토큰 조작 근거가 없습니다.</li>
+<li>은닉/로더: eval/exec, base64/zlib/marshal/pickle 기반 로더, 난독화된 다운로드 스텁 근거가 없습니다.</li>
+<li>subprocess 호출은 minimap2, samtools, breakinator, restrander 같은 문서화된 외부 생물정보학 도구 실행용이며, 사용자 실행 파이프라인 내 동작으로 보입니다.</li>
+</ul>
+
+<h2>배포 무결성 이상</h2>
+
+<ul>
+<li>제공된 텍스트 범위에서는 숨김 payload, 목적 불명 네이티브 바이너리, .dist-info 변조, dependency confusion/typosquatting, 갑작스러운 의심 dependency 삽입 근거가 확인되지 않았습니다.</li>
+<li>번들 JSON 설정 파일(src/directclean/external/configs/*.json)은 pyproject.toml의 include와 기능 설명에 부합합니다.</li>
+<li>wheel/sdist 불일치 여부는 현재 입력만으로 확인되지 않았습니다.</li>
+</ul>
+
+<h2>추가 확인 필요</h2>
+
+<ul>
+<li>전체 30개 파일 중 선택된 일부 텍스트만 검토되었으므로, 미제공 파일에 숨은 자동 실행 파일 또는 페이로드가 있는지는 별도 확인이 필요합니다.</li>
+<li>wheel 아티팩트가 별도로 존재한다면 sdist와의 파일/동작 차이를 비교해야 합니다.</li>
+</ul>
+
+<p>---</p>
+
+<p>Prompt source: docs/prompts/malicious-supply-chain-review-v2.md</p>
+
+<p>This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</p>
+
+</body>
+</html>
