@@ -1,6 +1,834 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "web3_docs_mcp-0.2.0.tar.gz",
+    "finding_count": 22,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "1inch.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "aave.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "across.to"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/README.md"
+          ],
+          "value": "astral.sh"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "chain.link"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "compound.finance"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "curve.fi"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/README.md"
+          ],
+          "value": "docs.astral.sh"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "docs.opensea.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json",
+            "web3_docs_mcp-0.2.0/parser.py",
+            "web3_docs_mcp-0.2.0/tests/test_enrichment.py"
+          ],
+          "value": "eips.ethereum.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "ens.domains"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "web3_docs_mcp-0.2.0/tests/conftest.py",
+            "web3_docs_mcp-0.2.0/tests/features/retrieval.feature",
+            "web3_docs_mcp-0.2.0/tests/test_db.py",
+            "web3_docs_mcp-0.2.0/tests/test_parsing.py",
+            "web3_docs_mcp-0.2.0/tests/test_retrieval.py"
+          ],
+          "value": "ethereum-magicians.org"
+        },
+        {
+          "file_count": 9,
+          "files": [
+            "web3_docs_mcp-0.2.0/CHANGELOG.md",
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/README.md",
+            "web3_docs_mcp-0.2.0/contracts.json",
+            "web3_docs_mcp-0.2.0/parser.py",
+            "web3_docs_mcp-0.2.0/pyproject.toml",
+            "web3_docs_mcp-0.2.0/server.py",
+            "web3_docs_mcp-0.2.0/tests/test_enrichment.py"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/README.md",
+            "web3_docs_mcp-0.2.0/parser.py"
+          ],
+          "value": "gitlab.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/README.md"
+          ],
+          "value": "img.shields.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/CHANGELOG.md"
+          ],
+          "value": "keepachangelog.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "lido.fi"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "makerdao.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/README.md"
+          ],
+          "value": "modelcontextprotocol.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "multicall3.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/parser.py"
+          ],
+          "value": "raw.strip"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "safe.global"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/CHANGELOG.md"
+          ],
+          "value": "semver.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "tether.to"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "uniswap.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "weth.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "www.circle.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/README.md"
+          ],
+          "value": "www.python.org"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "https://1inch.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "https://aave.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "https://across.to"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/README.md"
+          ],
+          "value": "https://astral.sh/uv/install.sh"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "https://chain.link"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "https://compound.finance"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "https://curve.fi"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/README.md"
+          ],
+          "value": "https://docs.astral.sh/uv/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/README.md"
+          ],
+          "value": "https://docs.astral.sh/uv/getting-started/installation/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "https://docs.opensea.io/docs/seaport"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/tests/test_enrichment.py"
+          ],
+          "value": "https://eips.ethereum.org/EIPS/eip-1153"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/tests/test_enrichment.py"
+          ],
+          "value": "https://eips.ethereum.org/EIPS/eip-1559"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/tests/test_enrichment.py"
+          ],
+          "value": "https://eips.ethereum.org/EIPS/eip-3198"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/tests/test_enrichment.py"
+          ],
+          "value": "https://eips.ethereum.org/EIPS/eip-3529"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "https://eips.ethereum.org/EIPS/eip-4337"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/tests/test_enrichment.py"
+          ],
+          "value": "https://eips.ethereum.org/EIPS/eip-4844"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/parser.py"
+          ],
+          "value": "https://eips.ethereum.org/EIPS/{prop_type"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "https://ens.domains"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "web3_docs_mcp-0.2.0/tests/conftest.py",
+            "web3_docs_mcp-0.2.0/tests/features/retrieval.feature",
+            "web3_docs_mcp-0.2.0/tests/test_db.py",
+            "web3_docs_mcp-0.2.0/tests/test_parsing.py",
+            "web3_docs_mcp-0.2.0/tests/test_retrieval.py"
+          ],
+          "value": "https://ethereum-magicians.org/t/eip-1559"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/tests/test_parsing.py"
+          ],
+          "value": "https://example.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "https://github.com/Uniswap/permit2"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/README.md"
+          ],
+          "value": "https://github.com/avalanche-foundation/ACPs"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/parser.py"
+          ],
+          "value": "https://github.com/avalanche-foundation/ACPs.git"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/tests/test_new_chains.py"
+          ],
+          "value": "https://github.com/avalanche-foundation/ACPs/discussions/78"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/README.md"
+          ],
+          "value": "https://github.com/bitcoin/bips"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/parser.py"
+          ],
+          "value": "https://github.com/bitcoin/bips.git"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/README.md"
+          ],
+          "value": "https://github.com/cardano-foundation/CIPs"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/parser.py"
+          ],
+          "value": "https://github.com/cardano-foundation/CIPs.git"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/tests/test_new_chains.py"
+          ],
+          "value": "https://github.com/cardano-foundation/CIPs/pull/85"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/README.md"
+          ],
+          "value": "https://github.com/cosmos/cosmos-sdk"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/parser.py"
+          ],
+          "value": "https://github.com/cosmos/cosmos-sdk.git"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/tests/test_new_chains.py"
+          ],
+          "value": "https://github.com/dhrubabasu"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "web3_docs_mcp-0.2.0/CHANGELOG.md",
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/README.md",
+            "web3_docs_mcp-0.2.0/pyproject.toml",
+            "web3_docs_mcp-0.2.0/server.py"
+          ],
+          "value": "https://github.com/dioptx/web3-docs"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/README.md"
+          ],
+          "value": "https://github.com/dioptx/web3-docs.git"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/README.md"
+          ],
+          "value": "https://github.com/dioptx/web3-docs/actions/workflows/ci.yml"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/README.md"
+          ],
+          "value": "https://github.com/dioptx/web3-docs/actions/workflows/ci.yml/badge.svg"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/pyproject.toml"
+          ],
+          "value": "https://github.com/dioptx/web3-docs/blob/main/CHANGELOG.md"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/pyproject.toml"
+          ],
+          "value": "https://github.com/dioptx/web3-docs/issues"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/CHANGELOG.md"
+          ],
+          "value": "https://github.com/dioptx/web3-docs/releases/tag/v0.1.0"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/CHANGELOG.md"
+          ],
+          "value": "https://github.com/dioptx/web3-docs/releases/tag/v0.2.0"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/README.md"
+          ],
+          "value": "https://github.com/ethereum/EIPs"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/parser.py"
+          ],
+          "value": "https://github.com/ethereum/EIPs.git"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/tests/test_enrichment.py"
+          ],
+          "value": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1559.md"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/tests/test_enrichment.py"
+          ],
+          "value": "https://github.com/ethereum/EIPs/pull/1"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/README.md"
+          ],
+          "value": "https://github.com/ethereum/ERCs"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/parser.py"
+          ],
+          "value": "https://github.com/ethereum/ERCs.git"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/README.md"
+          ],
+          "value": "https://github.com/ethereum/execution-specs"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/server.py"
+          ],
+          "value": "https://github.com/ethereum/execution-specs.git"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/tests/test_enrichment.py"
+          ],
+          "value": "https://github.com/ethereum/go-ethereum/pull/123"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/tests/test_enrichment.py"
+          ],
+          "value": "https://github.com/ethereum/go-ethereum/pull/12345"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/tests/test_enrichment.py"
+          ],
+          "value": "https://github.com/ethereum/go-ethereum/pull/22837"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/tests/test_enrichment.py"
+          ],
+          "value": "https://github.com/ethereum/go-ethereum/pull/999"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "https://github.com/pcaversaccio/create2deployer"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/README.md"
+          ],
+          "value": "https://github.com/polkadot-fellows/RFCs"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/parser.py"
+          ],
+          "value": "https://github.com/polkadot-fellows/RFCs.git"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/README.md"
+          ],
+          "value": "https://github.com/solana-foundation/solana-improvement-documents"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/parser.py"
+          ],
+          "value": "https://github.com/solana-foundation/solana-improvement-documents.git"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/README.md"
+          ],
+          "value": "https://github.com/stacksgov/sips"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/parser.py"
+          ],
+          "value": "https://github.com/stacksgov/sips.git"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/README.md"
+          ],
+          "value": "https://github.com/sui-foundation/sips"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/parser.py"
+          ],
+          "value": "https://github.com/sui-foundation/sips.git"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/tests/test_enrichment.py"
+          ],
+          "value": "https://github.com/user/repo/blob/main/diagram.png"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/README.md"
+          ],
+          "value": "https://gitlab.com/tezos/tzip"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/parser.py"
+          ],
+          "value": "https://gitlab.com/tezos/tzip.git"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/README.md"
+          ],
+          "value": "https://img.shields.io/badge/License-MIT-yellow.svg"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/README.md"
+          ],
+          "value": "https://img.shields.io/badge/MCP-stdio-green.svg"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/README.md"
+          ],
+          "value": "https://img.shields.io/badge/python-3.11+-blue.svg"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/CHANGELOG.md"
+          ],
+          "value": "https://keepachangelog.com/en/1.1.0/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "https://lido.fi"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "https://makerdao.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/README.md"
+          ],
+          "value": "https://modelcontextprotocol.io/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "https://multicall3.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "https://safe.global"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/CHANGELOG.md"
+          ],
+          "value": "https://semver.org/spec/v2.0.0.html"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "https://tether.to"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "https://uniswap.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "https://weth.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "web3_docs_mcp-0.2.0/contracts.json"
+          ],
+          "value": "https://www.circle.com/usdc"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "web3_docs_mcp-0.2.0/PKG-INFO",
+            "web3_docs_mcp-0.2.0/README.md"
+          ],
+          "value": "https://www.python.org/downloads/"
+        }
+      ]
+    },
+    "package": "web3-docs-mcp",
+    "package_slug": "web3-docs-mcp",
+    "project_url": "https://pypi.org/project/web3-docs-mcp/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T17:54:47.782757+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T17:55:30.715441+00:00",
+    "title": "Personal PyPI Supply Chain Scan: web3-docs-mcp 0.2.0",
+    "version": "0.2.0",
+    "version_slug": "0.2.0",
+    "_metadata_path": "reports/packages/web3-docs-mcp/0.2.0/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "vector_db_sizer-0.1.0.tar.gz",
     "finding_count": 338,
     "model": "gpt-5.5",
