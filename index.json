@@ -1,6 +1,123 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "aja_codeintel-0.1.9.tar.gz",
+    "finding_count": 109,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "aja_codeintel-0.1.9/codeintel_cli/frontend/server.py"
+          ],
+          "value": "fonts.googleapis.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aja_codeintel-0.1.9/codeintel_cli/endpoints/fastapi_scanner.py"
+          ],
+          "value": "raw.depends"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aja_codeintel-0.1.9/codeintel_cli/endpoints/fastapi_scanner.py"
+          ],
+          "value": "raw.file"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aja_codeintel-0.1.9/codeintel_cli/endpoints/fastapi_scanner.py"
+          ],
+          "value": "raw.handler"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aja_codeintel-0.1.9/codeintel_cli/endpoints/fastapi_scanner.py"
+          ],
+          "value": "raw.line"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aja_codeintel-0.1.9/codeintel_cli/context/java_rel.py"
+          ],
+          "value": "raw.lower"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aja_codeintel-0.1.9/codeintel_cli/endpoints/fastapi_scanner.py"
+          ],
+          "value": "raw.method"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aja_codeintel-0.1.9/codeintel_cli/context/java_rel.py"
+          ],
+          "value": "raw.split"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aja_codeintel-0.1.9/codeintel_cli/endpoints/openapi_spec.py"
+          ],
+          "value": "raw.splitlines"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aja_codeintel-0.1.9/codeintel_cli/frontend/server.py"
+          ],
+          "value": "www.w3.org"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "aja_codeintel-0.1.9/codeintel_cli/frontend/server.py"
+          ],
+          "value": "http://www.w3.org/2000/svg"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aja_codeintel-0.1.9/codeintel_cli/frontend/server.py"
+          ],
+          "value": "https://fonts.googleapis.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aja_codeintel-0.1.9/codeintel_cli/frontend/server.py"
+          ],
+          "value": "https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+        }
+      ]
+    },
+    "package": "aja-codeintel",
+    "package_slug": "aja-codeintel",
+    "project_url": "https://pypi.org/project/aja-codeintel/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T12:11:47.949617+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T12:13:50.857343+00:00",
+    "title": "Personal PyPI Supply Chain Scan: aja-codeintel 0.1.9",
+    "version": "0.1.9",
+    "version_slug": "0.1.9",
+    "_metadata_path": "reports/packages/aja-codeintel/0.1.9/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "openclaw_managed_agents-0.2.0.tar.gz",
     "finding_count": 1,
     "model": "gpt-5.5",

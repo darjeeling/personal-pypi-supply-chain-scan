@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal PyPI Supply Chain Scan: aja-codeintel 0.1.9</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 960px; line-height: 1.55; padding: 0 1rem; color: #1f2933; }
+    a { color: #1f5fbf; }
+    code { background: #f4f4f4; padding: 0.1rem 0.25rem; }
+    h1, h2, h3 { line-height: 1.2; }
+    li { margin: 0.35rem 0; }
+    nav { margin-bottom: 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #e5e9ef; padding: 0.55rem 0.65rem; text-align: left; vertical-align: top; }
+    th { color: #52616f; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; }
+    .scan-groups { margin-top: 1.2rem; }
+    .scan-day { border-top: 1px solid #d8dee4; display: grid; gap: 1rem; grid-template-columns: 10rem minmax(0, 1fr); padding: 1.1rem 0; }
+    .scan-day-date { color: #1f2933; font-weight: 700; }
+    .scan-day-date span { color: #52616f; display: block; font-size: 0.9rem; font-weight: 500; margin-top: 0.2rem; }
+    .scan-day-table { overflow-x: auto; }
+    .risk { display: inline-block; min-width: 4.8rem; text-align: center; border-radius: 999px; padding: 0.15rem 0.45rem; font-size: 0.78rem; font-weight: 700; }
+    .risk-info, .risk-low { background: #dcfce7; color: #166534; }
+    .risk-medium, .risk-unknown { background: #fef3c7; color: #92400e; }
+    .risk-high, .risk-critical { background: #fee2e2; color: #991b1b; }
+    .index-note { color: #52616f; margin-top: -0.35rem; }
+    .version { color: #52616f; margin-left: 0.2rem; white-space: nowrap; }
+    @media (max-width: 720px) {
+      .scan-day { grid-template-columns: 1fr; }
+      th, td { padding: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+<nav><a href='../../../../'>Index</a></nav><h1>Personal PyPI Supply Chain Scan: aja-codeintel 0.1.9</h1>
+
+<ul>
+<li>Package: aja-codeintel</li>
+<li>Version: 0.1.9</li>
+<li>Project URL: https://pypi.org/project/aja-codeintel/</li>
+<li>Distribution: aja_codeintel-0.1.9.tar.gz</li>
+<li>Package published at: 2026-04-27T12:11:47.949617+00:00</li>
+<li>Scan published at: 2026-04-27T12:13:50.857343+00:00</li>
+<li>Language: en</li>
+<li>Model: gpt-5.5</li>
+<li>Prompt: malicious-supply-chain-review-v2 ([source](../../../../docs/prompts/malicious-supply-chain-review-v2.md))</li>
+<li>Disclaimer: This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</li>
+</ul>
+
+<h2>Deterministic Network Indicators</h2>
+
+<h3>Suspicious Endpoints</h3>
+
+<p>None</p>
+
+<h3>Raw Public IPs</h3>
+
+<p>None</p>
+
+<h3>URLs</h3>
+<ul>
+<li>http://www.w3.org/2000/svg (1 files: aja_codeintel-0.1.9/codeintel_cli/frontend/server.py)</li>
+<li>https://fonts.googleapis.com (1 files: aja_codeintel-0.1.9/codeintel_cli/frontend/server.py)</li>
+<li>https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap (1 files: aja_codeintel-0.1.9/codeintel_cli/frontend/server.py)</li>
+</ul>
+
+<h3>Domains</h3>
+<ul>
+<li>fonts.googleapis.com (1 files: aja_codeintel-0.1.9/codeintel_cli/frontend/server.py)</li>
+<li>raw.depends (1 files: aja_codeintel-0.1.9/codeintel_cli/endpoints/fastapi_scanner.py)</li>
+<li>raw.file (1 files: aja_codeintel-0.1.9/codeintel_cli/endpoints/fastapi_scanner.py)</li>
+<li>raw.handler (1 files: aja_codeintel-0.1.9/codeintel_cli/endpoints/fastapi_scanner.py)</li>
+<li>raw.line (1 files: aja_codeintel-0.1.9/codeintel_cli/endpoints/fastapi_scanner.py)</li>
+<li>raw.lower (1 files: aja_codeintel-0.1.9/codeintel_cli/context/java_rel.py)</li>
+<li>raw.method (1 files: aja_codeintel-0.1.9/codeintel_cli/endpoints/fastapi_scanner.py)</li>
+<li>raw.split (1 files: aja_codeintel-0.1.9/codeintel_cli/context/java_rel.py)</li>
+<li>raw.splitlines (1 files: aja_codeintel-0.1.9/codeintel_cli/endpoints/openapi_spec.py)</li>
+<li>www.w3.org (1 files: aja_codeintel-0.1.9/codeintel_cli/frontend/server.py)</li>
+</ul>
+
+<h2>Verdict</h2>
+
+<p>No confirmed malicious supply-chain indicators — overall risk: **info**.</p>
+
+<h2>Malicious Supply-Chain Indicators</h2>
+
+<p>No confirmed malicious supply-chain indicators.</p>
+
+<ul>
+<li>Pre-scan obfuscation-loader / encrypted-payload-primitive hits appear to be false positives based on the provided evidence: README “dependency traversal” wording, re.compile patterns, and normal Java/Python static-analysis logic.</li>
+<li>subprocess usage is tied to user-invoked CLI behavior such as mvn compile and opening files in VS Code/the OS, with no evidence linking it to install-time execution, stealth loaders, credential theft, or exfiltration.</li>
+</ul>
+
+<h2>Automatic Execution Paths</h2>
+
+<ul>
+<li>No evidence was found in the provided text for .pth, sitecustomize.py, usercustomize.py, malicious install-time setup.py, PEP 517 build-hook abuse, or malicious import-time side effects.</li>
+<li>entry_points.txt, pyproject.toml, and setup.cfg are listed in the manifest but their contents were not provided. The README suggests an aja CLI, but ordinary console_scripts require user invocation and are not treated as malicious automatic execution by themselves.</li>
+</ul>
+
+<h2>Theft / Exfiltration / Persistence / Lateral Movement / Stealth</h2>
+
+<ul>
+<li>**Credential harvesting:** No evidence of broad collection of environment variables, .env files, SSH keys, cloud credentials, GitHub/PyPI/npm tokens, or CI/CD secrets.</li>
+<li>**Archive staging / exfiltration:** No evidence of archive creation, base64 staging, external uploads, webhooks, C2 domains, or raw-IP exfiltration.</li>
+<li>**Persistence:** No evidence of cron, systemd units, launch agents, shell profile modification, startup-folder registration, or background polling loops.</li>
+<li>**Lateral movement:** No evidence involving Kubernetes tokens, Docker socket access, cloud metadata services, GitHub Actions token theft, or workflow injection.</li>
+<li>**Obfuscation / loaders:** Aside from normal regex-based static analysis logic, no evidence of eval/exec, packed payloads, downloaders, encrypted staged loaders, or similar behavior.</li>
+</ul>
+
+<h2>Distribution Integrity Anomalies</h2>
+
+<ul>
+<li>The provided metadata shows only typer[all]&gt;=0.21.1 as a dependency; there is no evidence of suspicious dependency insertion.</li>
+<li>No evidence was provided for hidden payloads, unexplained native binaries, unexpected executable files in the PyPI artifact, typosquatting, or wheel/sdist mismatch.</li>
+<li>The README and PKG-INFO description are broadly consistent with a local/offline static code-analysis CLI.</li>
+</ul>
+
+<h2>Additional Verification Needed</h2>
+
+<ul>
+<li>The contents of pyproject.toml, setup.cfg, aja_codeintel.egg-info/entry_points.txt, and the unprovided subset of the 103 extracted files were not included in this input and therefore could not be directly verified.</li>
+<li>If a wheel artifact exists separately, it should be compared against the sdist for file and behavior differences.</li>
+</ul>
+
+<p>---</p>
+
+<p>Prompt source: docs/prompts/malicious-supply-chain-review-v2.md</p>
+
+<p>This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</p>
+
+</body>
+</html>
