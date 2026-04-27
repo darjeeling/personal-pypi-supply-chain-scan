@@ -105,6 +105,30 @@ SUSPICIOUS_DOMAIN_SUFFIXES = {
     "workers.dev",
     "pages.dev",
 }
+DOWNLOAD_SUFFIXES = {
+    ".7z",
+    ".bat",
+    ".cmd",
+    ".dll",
+    ".dmg",
+    ".exe",
+    ".gz",
+    ".jar",
+    ".ps1",
+    ".py",
+    ".pyd",
+    ".sh",
+    ".so",
+    ".tar",
+    ".tgz",
+    ".whl",
+    ".zip",
+}
+DOWNLOADER_RE = re.compile(r"(requests\.get|httpx\.get|urlopen|urlretrieve|curl\s+|wget\s+|fetch\s*\()", re.IGNORECASE)
+CRYPTO_PAYLOAD_RE = re.compile(
+    r"(cryptography|fernet|crypto\.cipher|aes|rsa|chacha20|nacl|decrypt\s*\(|cipher|iv\s*=|nonce\s*=)",
+    re.IGNORECASE,
+)
 AST_GREP_RULES = """
 id: py-dynamic-code-exec
 language: python
@@ -239,6 +263,7 @@ def _scan_text(rel: str, text: str) -> list[PreScanFinding]:
         ("archive-staging", "exfiltration", "medium", re.compile(r"(tarfile|zipfile|gzip|shutil\.make_archive|\.tar\.gz|\.zip)"), "archive/staging related code"),
         ("c2-or-drop", "exfiltration", "medium", re.compile(r"(webhook\.site|pastebin|ngrok|raw\.githubusercontent\.com|github\.com/[^\\s'\"]+/(?:Shai-Hulud|tpcp|payload))"), "suspicious drop/C2 endpoint pattern"),
         ("obfuscation-loader", "obfuscation", "medium", re.compile(r"(base64\.b64decode|zlib\.decompress|marshal\.loads|pickle\.loads|exec\s*\(|eval\s*\(|compile\s*\(|fromhex\s*\(|\bxor\b)", re.IGNORECASE), "obfuscation or dynamic loader primitive"),
+        ("encrypted-payload-primitive", "obfuscation", "medium", CRYPTO_PAYLOAD_RE, "cryptography/decryption primitive that may guard an encrypted payload"),
         ("process-exec", "execution", "medium", re.compile(r"(subprocess\.|os\.system|popen\s*\(|pty\.spawn|curl\s+|wget\s+)"), "process execution or downloader primitive"),
     ]
     for rule_id, category, severity, pattern, detail in rules:
@@ -263,6 +288,9 @@ def _scan_text(rel: str, text: str) -> list[PreScanFinding]:
         )
     for url in _extract_urls(text):
         host = _normalize_host(urlparse(url).hostname)
+        download_finding = _external_download_finding(rel, text, url)
+        if download_finding:
+            findings.append(download_finding)
         if host and _is_suspicious_domain(host):
             line = _line_for_substring(text, url)
             findings.append(
@@ -329,14 +357,15 @@ def _scan_encoded_payloads(rel: str, text: str, indicators: "NetworkIndicators")
             decoded_text = _decode_payload_text(payload)
             if not decoded_text:
                 entropy = _entropy(payload[:65536])
+                rule_id = "encrypted-or-packed-payload" if entropy >= 7.2 else "decoded-binary-payload"
                 findings.append(
                     PreScanFinding(
-                        "decoded-binary-payload",
+                        rule_id,
                         "obfuscation",
                         "medium" if entropy >= 7.2 else "low",
                         rel,
                         line,
-                        f"{encoding}/{transform} payload decoded to non-text data ({len(payload)} bytes, entropy {entropy:.2f})",
+                        f"{encoding}/{transform} payload decoded to non-text/high-entropy data ({len(payload)} bytes, entropy {entropy:.2f})",
                     )
                 )
                 continue
@@ -356,6 +385,22 @@ def _scan_encoded_payloads(rel: str, text: str, indicators: "NetworkIndicators")
                         line,
                         f"{encoding}/{transform} decoded payload contains network indicators",
                         _summarize_decoded_indicators(urls, hosts),
+                    )
+                )
+            for url in urls:
+                download_finding = _external_download_finding(rel, decoded_text, url, source=f"{encoding}/{transform}")
+                if download_finding:
+                    findings.append(download_finding)
+            if CRYPTO_PAYLOAD_RE.search(decoded_text):
+                findings.append(
+                    PreScanFinding(
+                        "decoded-payload-crypto-primitive",
+                        "obfuscation",
+                        "high",
+                        rel,
+                        line,
+                        f"{encoding}/{transform} decoded payload contains cryptography/decryption primitive",
+                        _first_crypto_line(decoded_text),
                     )
                 )
             if re.search(r"(exec\s*\(|eval\s*\(|compile\s*\(|marshal\.loads|pickle\.loads|subprocess\.|os\.system|requests\.post|httpx\.post|urlopen)", decoded_text, re.IGNORECASE):
@@ -666,6 +711,38 @@ def _extract_urls(text: str) -> list[str]:
     return [match.group(0).rstrip(".,;:") for match in URL_RE.finditer(text)]
 
 
+def _external_download_finding(rel: str, text: str, url: str, *, source: str = "plain") -> PreScanFinding | None:
+    parsed = urlparse(url)
+    host = _normalize_host(parsed.hostname)
+    if host and _is_private_or_local_host(host):
+        return None
+    line = _line_for_substring(text, url)
+    evidence = _line_at(text, line) if line else url[:240]
+    if not (_looks_like_download_url(url) or DOWNLOADER_RE.search(evidence)):
+        return None
+    severity = "high" if host and _is_suspicious_domain(host) else "medium"
+    return PreScanFinding(
+        "external-download-link",
+        "exfiltration",
+        severity,
+        rel,
+        line,
+        f"external download-capable link found in {source} payload/code: {host or 'unknown host'}",
+        evidence,
+    )
+
+
+def _looks_like_download_url(url: str) -> bool:
+    parsed = urlparse(url)
+    host = _normalize_host(parsed.hostname)
+    path = parsed.path.lower()
+    if host and (host == "raw.githubusercontent.com" or host == "gist.githubusercontent.com"):
+        return True
+    if "/raw/" in path or "/releases/download/" in path:
+        return True
+    return any(path.endswith(suffix) for suffix in DOWNLOAD_SUFFIXES)
+
+
 def _extract_bare_hosts(text: str) -> list[str]:
     hosts: list[str] = []
     for match in HOST_RE.finditer(text):
@@ -848,6 +925,13 @@ def _first_matching_line(text: str) -> str | None:
     pattern = re.compile(r"(exec\s*\(|eval\s*\(|compile\s*\(|marshal\.loads|pickle\.loads|subprocess\.|os\.system|requests\.post|httpx\.post|urlopen)", re.IGNORECASE)
     for line in text.splitlines():
         if pattern.search(line):
+            return line.strip()[:240]
+    return None
+
+
+def _first_crypto_line(text: str) -> str | None:
+    for line in text.splitlines():
+        if CRYPTO_PAYLOAD_RE.search(line):
             return line.strip()[:240]
     return None
 

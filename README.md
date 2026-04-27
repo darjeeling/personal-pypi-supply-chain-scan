@@ -30,6 +30,7 @@ The scanner is intentionally not a general application security scanner. It is t
 - dependency confusion, typosquatting, hidden payloads, unexplained native binaries, wheel/sdist mismatch
 - URL, DNS/domain, raw public IP, drop/paste/GitHub raw style network indicators
 - decoded base64/hex payloads and gzip/zlib/raw-deflate payloads, within strict size limits
+- encrypted/packed payload indicators and external download-capable links
 
 Normal CLI entry points, expected SDK/API calls, documented credential configuration, user-triggered web servers, and normal file/network access should not be reported unless tied to automatic execution, theft, persistence, exfiltration, lateral movement, or stealth.
 
