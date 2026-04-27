@@ -1,6 +1,347 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "superharness-1.41.0.tar.gz",
+    "finding_count": 506,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "superharness-1.41.0/src/superharness/modules/actions/telegram.py"
+          ],
+          "value": "api.telegram.org"
+        },
+        {
+          "file_count": 9,
+          "files": [
+            "superharness-1.41.0/PKG-INFO",
+            "superharness-1.41.0/README.md",
+            "superharness-1.41.0/pyproject.toml",
+            "superharness-1.41.0/src/superharness.egg-info/PKG-INFO",
+            "superharness-1.41.0/src/superharness/adapters/claude-code/.claude-plugin/plugin.json",
+            "superharness-1.41.0/src/superharness/commands/delegate.py",
+            "superharness-1.41.0/src/superharness/engine/detect.py",
+            "superharness-1.41.0/src/superharness/modules/actions/openclaw.py"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "superharness-1.41.0/src/superharness/commands/inbox_watch.py"
+          ],
+          "value": "github\\.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "superharness-1.41.0/src/superharness/module_templates/ntfy.yaml",
+            "superharness-1.41.0/src/superharness/modules/actions/ntfy.py"
+          ],
+          "value": "ntfy.sh"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "superharness-1.41.0/src/superharness/commands/benchmark.py"
+          ],
+          "value": "opts.top"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "superharness-1.41.0/PKG-INFO",
+            "superharness-1.41.0/README.md",
+            "superharness-1.41.0/src/superharness.egg-info/PKG-INFO",
+            "superharness-1.41.0/src/superharness/scripts/install-remote.sh"
+          ],
+          "value": "raw.githubusercontent.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "superharness-1.41.0/src/superharness/commands/workflow_cmd.py"
+          ],
+          "value": "raw.isdigit"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "superharness-1.41.0/src/superharness/scripts/dashboard-ui.py"
+          ],
+          "value": "raw.rstrip"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "superharness-1.41.0/src/superharness/commands/test_type.py"
+          ],
+          "value": "raw.split"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "superharness-1.41.0/src/superharness/commands/doctor.py",
+            "superharness-1.41.0/src/superharness/engine/recall.py",
+            "superharness-1.41.0/src/superharness/scripts/dashboard-ui.py"
+          ],
+          "value": "raw.splitlines"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "superharness-1.41.0/src/superharness/commands/adapter_payload.py",
+            "superharness-1.41.0/src/superharness/engine/orchestrator.py",
+            "superharness-1.41.0/src/superharness/scripts/dashboard-ui.py"
+          ],
+          "value": "raw.strip"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "superharness-1.41.0/LICENSE"
+          ],
+          "value": "www.apache.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "superharness-1.41.0/src/superharness/scripts/install-launchd-inbox-watcher.sh",
+            "superharness-1.41.0/src/superharness/scripts/install-operator-service.sh"
+          ],
+          "value": "www.apple.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "superharness-1.41.0/src/superharness/scripts/init-project.sh"
+          ],
+          "value": "www.python.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "superharness-1.41.0/src/superharness/scripts/init-project.sh"
+          ],
+          "value": "www.ruby-lang.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "superharness-1.41.0/src/superharness/scripts/dashboard.html"
+          ],
+          "value": "www.w3.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "superharness-1.41.0/src/superharness/scripts/dashboard-ui.py"
+          ],
+          "value": "{args.host"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "superharness-1.41.0/src/superharness/scripts/dashboard-ui.py"
+          ],
+          "value": "{host"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "superharness-1.41.0/src/superharness/scripts/dashboard-ui.py"
+          ],
+          "value": "{self.headers.get("
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [
+        {
+          "file_count": 4,
+          "files": [
+            "superharness-1.41.0/PKG-INFO",
+            "superharness-1.41.0/README.md",
+            "superharness-1.41.0/src/superharness.egg-info/PKG-INFO",
+            "superharness-1.41.0/src/superharness/scripts/install-remote.sh"
+          ],
+          "value": "https://raw.githubusercontent.com/celstnblacc/superharness/main/scripts/install-remote.sh"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "superharness-1.41.0/PKG-INFO",
+            "superharness-1.41.0/README.md",
+            "superharness-1.41.0/src/superharness.egg-info/PKG-INFO",
+            "superharness-1.41.0/src/superharness/scripts/install-remote.sh"
+          ],
+          "value": "raw.githubusercontent.com"
+        }
+      ],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "superharness-1.41.0/LICENSE"
+          ],
+          "value": "http://www.apache.org/licenses/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "superharness-1.41.0/LICENSE"
+          ],
+          "value": "http://www.apache.org/licenses/LICENSE-2.0"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "superharness-1.41.0/src/superharness/scripts/install-operator-service.sh"
+          ],
+          "value": "http://www.apple.com/DTDs/PropertyList-1.0.dtd"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "superharness-1.41.0/src/superharness/scripts/install-launchd-inbox-watcher.sh"
+          ],
+          "value": "http://www.apple.com/DTDs/PropertyList-1.0.dtd\\"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "superharness-1.41.0/src/superharness/scripts/dashboard.html"
+          ],
+          "value": "http://www.w3.org/1999/xhtml"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "superharness-1.41.0/src/superharness/scripts/dashboard.html"
+          ],
+          "value": "http://www.w3.org/2000/svg"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "superharness-1.41.0/src/superharness/scripts/dashboard-ui.py"
+          ],
+          "value": "http://{args.host"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "superharness-1.41.0/src/superharness/scripts/dashboard-ui.py"
+          ],
+          "value": "http://{host"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "superharness-1.41.0/src/superharness/scripts/dashboard-ui.py"
+          ],
+          "value": "http://{self.headers.get("
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "superharness-1.41.0/src/superharness/modules/actions/telegram.py"
+          ],
+          "value": "https://api.telegram.org/bot{token"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "superharness-1.41.0/PKG-INFO",
+            "superharness-1.41.0/pyproject.toml",
+            "superharness-1.41.0/src/superharness.egg-info/PKG-INFO",
+            "superharness-1.41.0/src/superharness/adapters/claude-code/.claude-plugin/plugin.json"
+          ],
+          "value": "https://github.com/celstnblacc/superharness"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "superharness-1.41.0/PKG-INFO",
+            "superharness-1.41.0/README.md",
+            "superharness-1.41.0/src/superharness.egg-info/PKG-INFO",
+            "superharness-1.41.0/src/superharness/scripts/install-remote.sh"
+          ],
+          "value": "https://github.com/celstnblacc/superharness.git"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "superharness-1.41.0/PKG-INFO",
+            "superharness-1.41.0/pyproject.toml",
+            "superharness-1.41.0/src/superharness.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/celstnblacc/superharness/issues"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "superharness-1.41.0/src/superharness/commands/delegate.py"
+          ],
+          "value": "https://github.com/org/repo/pull/N"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "superharness-1.41.0/src/superharness/commands/inbox_watch.py"
+          ],
+          "value": "https://github\\.com/[^/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "superharness-1.41.0/src/superharness/module_templates/ntfy.yaml",
+            "superharness-1.41.0/src/superharness/modules/actions/ntfy.py"
+          ],
+          "value": "https://ntfy.sh"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "superharness-1.41.0/PKG-INFO",
+            "superharness-1.41.0/README.md",
+            "superharness-1.41.0/src/superharness.egg-info/PKG-INFO",
+            "superharness-1.41.0/src/superharness/scripts/install-remote.sh"
+          ],
+          "value": "https://raw.githubusercontent.com/celstnblacc/superharness/main/scripts/install-remote.sh"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "superharness-1.41.0/src/superharness/scripts/init-project.sh"
+          ],
+          "value": "https://www.python.org/downloads/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "superharness-1.41.0/src/superharness/scripts/init-project.sh"
+          ],
+          "value": "https://www.ruby-lang.org/en/downloads/"
+        }
+      ]
+    },
+    "package": "superharness",
+    "package_slug": "superharness",
+    "project_url": "https://pypi.org/project/superharness/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T21:24:29.103816+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T21:25:43.833803+00:00",
+    "title": "Personal PyPI Supply Chain Scan: superharness 1.41.0",
+    "version": "1.41.0",
+    "version_slug": "1.41.0",
+    "_metadata_path": "reports/packages/superharness/1.41.0/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "template_engine_ia-0.10.7.tar.gz",
     "finding_count": 157,
     "model": "gpt-5.5",
