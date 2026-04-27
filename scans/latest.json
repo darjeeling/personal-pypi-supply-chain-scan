@@ -1,40 +1,287 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "vscode_common_python_lsp-0.2.0.tar.gz",
-  "finding_count": 26,
+  "distribution": "agi_core-2026.4.27.post9.tar.gz",
+  "finding_count": 9,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "vscode_common_python_lsp-0.2.0/vscode_common_python_lsp/notebook.py"
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/README.md"
         ],
-        "value": "microsoft.github.io"
+        "value": "codecov.io"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/README.md",
+          "agi_core-2026.4.27.post9/pyproject.toml"
+        ],
+        "value": "github.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/README.md"
+        ],
+        "value": "huggingface.co"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/README.md"
+        ],
+        "value": "img.shields.io"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/README.md"
+        ],
+        "value": "kaggle.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/README.md"
+        ],
+        "value": "opensource.org"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/README.md"
+        ],
+        "value": "pypi.org"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/README.md"
+        ],
+        "value": "raw.githubusercontent.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/README.md",
+          "agi_core-2026.4.27.post9/pyproject.toml"
+        ],
+        "value": "thalesgroup.github.io"
       }
     ],
     "raw_public_ips": [],
-    "suspicious_endpoints": [],
+    "suspicious_endpoints": [
+      {
+        "file_count": 2,
+        "files": [
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/README.md"
+        ],
+        "value": "https://raw.githubusercontent.com/ThalesGroup/agilab/main/badges/coverage-agi-core.svg"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/README.md"
+        ],
+        "value": "raw.githubusercontent.com"
+      }
+    ],
     "urls": [
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "vscode_common_python_lsp-0.2.0/vscode_common_python_lsp/notebook.py"
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/README.md"
         ],
-        "value": "https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/#uinteger"
+        "value": "https://codecov.io/gh/ThalesGroup/agilab?flags%5B0%5D=agi-core"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/pyproject.toml"
+        ],
+        "value": "https://github.com/ThalesGroup/agilab"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/README.md"
+        ],
+        "value": "https://github.com/ThalesGroup/agilab/actions/workflows/ci.yml"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/README.md"
+        ],
+        "value": "https://github.com/ThalesGroup/agilab/actions/workflows/ci.yml/badge.svg"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/pyproject.toml"
+        ],
+        "value": "https://github.com/ThalesGroup/agilab/discussions"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/README.md",
+          "agi_core-2026.4.27.post9/pyproject.toml"
+        ],
+        "value": "https://github.com/ThalesGroup/agilab/issues"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/pyproject.toml"
+        ],
+        "value": "https://github.com/ThalesGroup/agilab/releases"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/README.md"
+        ],
+        "value": "https://github.com/ThalesGroup/agilab/tree/main/src/agilab/core/agi-core"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/README.md"
+        ],
+        "value": "https://huggingface.co/spaces/jpmorard/agilab"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/README.md"
+        ],
+        "value": "https://img.shields.io/badge/AGILAB-Space-0F766E?style=for-the-badge"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/README.md"
+        ],
+        "value": "https://img.shields.io/badge/agi--core-notebook-1D4ED8?style=for-the-badge"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/README.md"
+        ],
+        "value": "https://img.shields.io/badge/docs-agilab-brightgreen.svg"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/README.md"
+        ],
+        "value": "https://img.shields.io/pypi/l/agi-core"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/README.md"
+        ],
+        "value": "https://img.shields.io/pypi/pyversions/agi-core.svg"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/README.md"
+        ],
+        "value": "https://img.shields.io/pypi/v/agi-core.svg?cacheSeconds=300"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/README.md"
+        ],
+        "value": "https://kaggle.com/kernels/welcome?src=https://github.com/ThalesGroup/agilab/blob/main/examples/notebook_quickstart/agi_core_kaggle_first_run.ipynb"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/README.md"
+        ],
+        "value": "https://opensource.org/licenses/BSD-3-Clause"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/README.md"
+        ],
+        "value": "https://pypi.org/project/agi-core/"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/README.md"
+        ],
+        "value": "https://raw.githubusercontent.com/ThalesGroup/agilab/main/badges/coverage-agi-core.svg"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/README.md",
+          "agi_core-2026.4.27.post9/pyproject.toml"
+        ],
+        "value": "https://thalesgroup.github.io/agilab"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "agi_core-2026.4.27.post9/PKG-INFO",
+          "agi_core-2026.4.27.post9/README.md"
+        ],
+        "value": "https://thalesgroup.github.io/agilab/notebook-quickstart.html"
       }
     ]
   },
-  "package": "vscode-common-python-lsp",
-  "package_slug": "vscode-common-python-lsp",
-  "project_url": "https://pypi.org/project/vscode-common-python-lsp/",
+  "package": "agi-core",
+  "package_slug": "agi-core",
+  "project_url": "https://pypi.org/project/agi-core/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T20:00:59.023103+00:00",
+  "published_at": "2026-04-27T20:05:56.915399+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T20:02:02.200429+00:00",
-  "title": "Personal PyPI Supply Chain Scan: vscode-common-python-lsp 0.2.0",
-  "version": "0.2.0",
-  "version_slug": "0.2.0",
-  "_metadata_path": "reports/packages/vscode-common-python-lsp/0.2.0/metadata.json"
+  "scanned_at": "2026-04-27T20:06:19.797992+00:00",
+  "title": "Personal PyPI Supply Chain Scan: agi-core 2026.4.27.post9",
+  "version": "2026.4.27.post9",
+  "version_slug": "2026.4.27.post9",
+  "_metadata_path": "reports/packages/agi-core/2026.4.27.post9/metadata.json"
 }
