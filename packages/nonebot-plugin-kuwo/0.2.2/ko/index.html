@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal PyPI Supply Chain Scan: nonebot-plugin-kuwo 0.2.2</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 960px; line-height: 1.55; padding: 0 1rem; color: #1f2933; }
+    a { color: #1f5fbf; }
+    code { background: #f4f4f4; padding: 0.1rem 0.25rem; }
+    h1, h2, h3 { line-height: 1.2; }
+    li { margin: 0.35rem 0; }
+    nav { margin-bottom: 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #e5e9ef; padding: 0.55rem 0.65rem; text-align: left; vertical-align: top; }
+    th { color: #52616f; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; }
+    .scan-groups { margin-top: 1.2rem; }
+    .scan-day { border-top: 1px solid #d8dee4; display: grid; gap: 1rem; grid-template-columns: 10rem minmax(0, 1fr); padding: 1.1rem 0; }
+    .scan-day-date { color: #1f2933; font-weight: 700; }
+    .scan-day-date span { color: #52616f; display: block; font-size: 0.9rem; font-weight: 500; margin-top: 0.2rem; }
+    .scan-day-table { overflow-x: auto; }
+    .risk { display: inline-block; min-width: 4.8rem; text-align: center; border-radius: 999px; padding: 0.15rem 0.45rem; font-size: 0.78rem; font-weight: 700; }
+    .risk-info, .risk-low { background: #dcfce7; color: #166534; }
+    .risk-medium, .risk-unknown { background: #fef3c7; color: #92400e; }
+    .risk-high, .risk-critical { background: #fee2e2; color: #991b1b; }
+    .index-note { color: #52616f; margin-top: -0.35rem; }
+    .version { color: #52616f; margin-left: 0.2rem; white-space: nowrap; }
+    @media (max-width: 720px) {
+      .scan-day { grid-template-columns: 1fr; }
+      th, td { padding: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+<nav><a href='../../../../'>Index</a></nav><h1>Personal PyPI Supply Chain Scan: nonebot-plugin-kuwo 0.2.2</h1>
+
+<ul>
+<li>Package: nonebot-plugin-kuwo</li>
+<li>Version: 0.2.2</li>
+<li>Project URL: https://pypi.org/project/nonebot-plugin-kuwo/</li>
+<li>Distribution: nonebot_plugin_kuwo-0.2.2.tar.gz</li>
+<li>Package published at: 2026-04-27T16:36:37.849648+00:00</li>
+<li>Scan published at: 2026-04-27T16:37:04.126880+00:00</li>
+<li>Language: ko</li>
+<li>Model: gpt-5.5</li>
+<li>Prompt: malicious-supply-chain-review-v2 ([source](../../../../docs/prompts/malicious-supply-chain-review-v2.md))</li>
+<li>Disclaimer: This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</li>
+</ul>
+
+<h2>Deterministic Network Indicators</h2>
+
+<h3>Suspicious Endpoints</h3>
+<ul>
+<li>async-asgi-testclient-1.4.11.tar.gz (1 files: nonebot_plugin_kuwo-0.2.2/uv.lock)</li>
+</ul>
+
+<h3>Raw Public IPs</h3>
+
+<p>None</p>
+
+<h3>URLs</h3>
+<ul>
+<li>http://artistpicserver.kuwo.cn/pic.web (1 files: nonebot_plugin_kuwo-0.2.2/nonebot_plugin_kuwo/data_source.py)</li>
+<li>http://example.com/album.jpg (2 files: nonebot_plugin_kuwo-0.2.2/tests/test_command.py, nonebot_plugin_kuwo-0.2.2/tests/test_data_source.py)</li>
+<li>http://example.com/cover.jpg (2 files: nonebot_plugin_kuwo-0.2.2/tests/test_command.py, nonebot_plugin_kuwo-0.2.2/tests/test_data_source.py)</li>
+<li>http://example.com/song-lossless.flac (1 files: nonebot_plugin_kuwo-0.2.2/tests/test_command.py)</li>
+<li>http://example.com/song.flac (3 files: nonebot_plugin_kuwo-0.2.2/tests/test_command.py, nonebot_plugin_kuwo-0.2.2/tests/test_data_source.py, nonebot_plugin_kuwo-0.2.2/tests/test_utils.py)</li>
+<li>http://example.com/song.flac?bitrate$2000 (1 files: nonebot_plugin_kuwo-0.2.2/tests/test_utils.py)</li>
+<li>http://example.com/song.flac?bitrate$2000&amp;format$flac (1 files: nonebot_plugin_kuwo-0.2.2/tests/test_data_source.py)</li>
+<li>http://example.com/song.mflac (2 files: nonebot_plugin_kuwo-0.2.2/tests/test_command.py, nonebot_plugin_kuwo-0.2.2/tests/test_data_source.py)</li>
+<li>http://example.com/song.mp3 (1 files: nonebot_plugin_kuwo-0.2.2/tests/test_command.py)</li>
+<li>http://example.com/track/F000003qKlqV1PVMB8.flac (1 files: nonebot_plugin_kuwo-0.2.2/tests/test_data_source.py)</li>
+<li>http://img1.kwcdn.kuwo.cn/star/albumcover/ (1 files: nonebot_plugin_kuwo-0.2.2/nonebot_plugin_kuwo/models.py)</li>
+<li>http://img1.kwcdn.kuwo.cn/star/albumcover/120/s4s64/98/1370027605.jpg (1 files: nonebot_plugin_kuwo-0.2.2/tests/test_command.py)</li>
+<li>http://musicpay.kuwo.cn/music.pay (1 files: nonebot_plugin_kuwo-0.2.2/nonebot_plugin_kuwo/data_source.py)</li>
+<li>http://search.kuwo.cn/r.s (1 files: nonebot_plugin_kuwo-0.2.2/nonebot_plugin_kuwo/data_source.py)</li>
+<li>https://files.pythonhosted.org/packages/00/07/575a68c754943058c78f30db02ee03a64b3c638586fba6a6dd56830b30a3/markupsafe-3.0.3-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl (1 files: nonebot_plugin_kuwo-0.2.2/uv.lock)</li>
+<li>https://files.pythonhosted.org/packages/00/71/3a69e86f3eafe8c7a59d008d245888051005bd657760e96d5fbfb0b740c2/tomli-2.4.1-cp314-cp314-musllinux_1_2_aarch64.whl (1 files: nonebot_plugin_kuwo-0.2.2/uv.lock)</li>
+<li>https://files.pythonhosted.org/packages/00/94/69391af5396c6aab723932240803f49e5f3de3dd7c57d32f02d237a0ce32/maturin-1.13.1-py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.musllinux_1_1_x86_64.whl (1 files: nonebot_plugin_kuwo-0.2.2/uv.lock)</li>
+<li>https://files.pythonhosted.org/packages/00/b0/1a6d9b6a587e118482910c244a1c5acf4d192604174132efd12bf0ac486f/pydantic_core-2.46.3-cp314-cp314-manylinux_2_5_i686.manylinux1_i686.whl (1 files: nonebot_plugin_kuwo-0.2.2/uv.lock)</li>
+<li>https://files.pythonhosted.org/packages/00/e3/9b60ed9e23e64c73a5cde95269ef1330678e9c6e34dd4eb6b431b85b5a10/multidict-6.7.1-cp313-cp313t-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (1 files: nonebot_plugin_kuwo-0.2.2/uv.lock)</li>
+<li>https://files.pythonhosted.org/packages/00/fd/7e1c66efad35e1649114fa13f17485f62881ad58edeeb7f49f8c5e748bf9/yarl-1.23.0-cp313-cp313-win_arm64.whl (1 files: nonebot_plugin_kuwo-0.2.2/uv.lock)</li>
+<li>https://files.pythonhosted.org/packages/01/20/b0972d902472da9bcb683fa595099911f4d2e86e5683bcc45de60dd05dc3/propcache-0.4.1-cp314-cp314t-macosx_11_0_arm64.whl (1 files: nonebot_plugin_kuwo-0.2.2/uv.lock)</li>
+<li>https://files.pythonhosted.org/packages/01/5d/1c53f4563490b1d06a684742cc6076ef944bc6457df6051b7d1a877c057b/propcache-0.4.1-cp312-cp312-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl (1 files: nonebot_plugin_kuwo-0.2.2/uv.lock)</li>
+<li>https://files.pythonhosted.org/packages/01/ee/02a2c011bdab74c6fb3c75474d40b3052059d95df7e73351460c8588d963/h11-0.16.0.tar.gz (1 files: nonebot_plugin_kuwo-0.2.2/uv.lock)</li>
+<li>https://files.pythonhosted.org/packages/01/fb/4dbd7e848d2799c6a026ec88ad39cf2b8416aa167fcc903baa55ecaa045c/multidict-6.7.1-cp311-cp311-manylinux2014_armv7l.manylinux_2_17_armv7l.manylinux_2_31_armv7l.whl (1 files: nonebot_plugin_kuwo-0.2.2/uv.lock)</li>
+<li>https://files.pythonhosted.org/packages/02/9a/b759b503d507f375b2b5c153e4d2ee0a75aa215b7f2489cf314f4541f2c0/charset_normalizer-3.4.7-cp314-cp314t-musllinux_1_2_armv7l.whl (1 files: nonebot_plugin_kuwo-0.2.2/uv.lock)</li>
+<li>https://files.pythonhosted.org/packages/02/9e/e5e9b168be58564121efb3de6859c452fccde0ab093d8438905899a3a483/pyyaml-6.0.3-cp314-cp314-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl (1 files: nonebot_plugin_kuwo-0.2.2/uv.lock)</li>
+<li>https://files.pythonhosted.org/packages/02/e0/3630057d8eb170310785723ed5adcdfb7d50cb7e6455f85ba8a3deed642b/tomli-2.4.1-cp314-cp314t-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl (1 files: nonebot_plugin_kuwo-0.2.2/uv.lock)</li>
+<li>https://files.pythonhosted.org/packages/02/e6/9c83094512e9bdbf92e5070b8d816e980677a57c6d08809b186ac04344da/tarina-0.7.3-cp314-cp314-win32.whl (1 files: nonebot_plugin_kuwo-0.2.2/uv.lock)</li>
+<li>https://files.pythonhosted.org/packages/03/65/11492d6a0e259783720f3bc1d9ea55579a76f1407e31ed44045c99542004/multidict-6.7.1-cp310-cp310-musllinux_1_2_aarch64.whl (1 files: nonebot_plugin_kuwo-0.2.2/uv.lock)</li>
+<li>https://files.pythonhosted.org/packages/03/d6/c878a44ba877f366630c860fdf74bfb203c33778f12b6ac274936853c451/multidict-6.7.1-cp313-cp313-manylinux2014_armv7l.manylinux_2_17_armv7l.manylinux_2_31_armv7l.whl (1 files: nonebot_plugin_kuwo-0.2.2/uv.lock)</li>
+<li>... 50 more</li>
+</ul>
+
+<h3>Domains</h3>
+<ul>
+<li>artistpicserver.kuwo.cn (1 files: nonebot_plugin_kuwo-0.2.2/nonebot_plugin_kuwo/data_source.py)</li>
+<li>async-asgi-testclient-1.4.11.tar.gz (1 files: nonebot_plugin_kuwo-0.2.2/uv.lock)</li>
+<li>files.pythonhosted.org (1 files: nonebot_plugin_kuwo-0.2.2/uv.lock)</li>
+<li>fsf.org (1 files: nonebot_plugin_kuwo-0.2.2/LICENSE)</li>
+<li>github.com (5 files: nonebot_plugin_kuwo-0.2.2/Cargo.lock, nonebot_plugin_kuwo-0.2.2/PKG-INFO, nonebot_plugin_kuwo-0.2.2/README.md, nonebot_plugin_kuwo-0.2.2/nonebot_plugin_kuwo/__init__.py, nonebot_plugin_kuwo-0.2.2/pyproject.toml)</li>
+<li>img.shields.io (2 files: nonebot_plugin_kuwo-0.2.2/PKG-INFO, nonebot_plugin_kuwo-0.2.2/README.md)</li>
+<li>img1.kwcdn.kuwo.cn (2 files: nonebot_plugin_kuwo-0.2.2/nonebot_plugin_kuwo/models.py, nonebot_plugin_kuwo-0.2.2/tests/test_command.py)</li>
+<li>musicpay.kuwo.cn (1 files: nonebot_plugin_kuwo-0.2.2/nonebot_plugin_kuwo/data_source.py)</li>
+<li>nmobi.kuwo.cn (1 files: nonebot_plugin_kuwo-0.2.2/nonebot_plugin_kuwo/data_source.py)</li>
+<li>nonebot.dev (2 files: nonebot_plugin_kuwo-0.2.2/PKG-INFO, nonebot_plugin_kuwo-0.2.2/README.md)</li>
+<li>pypi.org (3 files: nonebot_plugin_kuwo-0.2.2/PKG-INFO, nonebot_plugin_kuwo-0.2.2/README.md, nonebot_plugin_kuwo-0.2.2/uv.lock)</li>
+<li>search.kuwo.cn (1 files: nonebot_plugin_kuwo-0.2.2/nonebot_plugin_kuwo/data_source.py)</li>
+<li>www.gnu.org (3 files: nonebot_plugin_kuwo-0.2.2/LICENSE, nonebot_plugin_kuwo-0.2.2/PKG-INFO, nonebot_plugin_kuwo-0.2.2/README.md)</li>
+<li>www.python.org (2 files: nonebot_plugin_kuwo-0.2.2/PKG-INFO, nonebot_plugin_kuwo-0.2.2/README.md)</li>
+<li>www.rust-lang.org (2 files: nonebot_plugin_kuwo-0.2.2/PKG-INFO, nonebot_plugin_kuwo-0.2.2/README.md)</li>
+</ul>
+
+<h2>판정</h2>
+
+<p>확인된 악성 공급망 침해 징후 없음. 전체 위험도: **info**.</p>
+
+<h2>악성 공급망 징후</h2>
+
+<p>확인된 악성 공급망 징후 없음.</p>
+
+<h2>자동 실행 경로</h2>
+
+<ul>
+<li>제공된 추출 텍스트에서 .pth, sitecustomize.py, usercustomize.py, setup.py 기반 자동 실행 근거는 확인되지 않았습니다.</li>
+<li>.github/workflows/release.yml은 wheel/sdist 빌드 및 PyPI/GitHub Release 게시 절차로 보이며, 배포 아티팩트 복사(dist/*.whl, dist/*.tar.gz)는 정상 릴리스 워크플로 범위입니다.</li>
+<li>qmc.py의 동적 import는 사용 시 Rust 확장 모듈(nonebot_plugin_kuwo._qmc_rs)을 로드하는 구조이며, 제공된 근거만으로 설치 시/인터프리터 시작 시 악성 자동 실행으로 볼 수 없습니다.</li>
+<li>일반 플러그인 명령/NoneBot 사용 경로는 사용자 또는 애플리케이션 동작에 따른 것이므로 악성 자동 실행 근거로 분류하지 않았습니다.</li>
+</ul>
+
+<h2>절취/전송/지속성/측면이동/은닉</h2>
+
+<ul>
+<li>자격증명 대량 탐색, .env/SSH/cloud/kube/CI 토큰 수집, 환경변수 광범위 열람 근거는 확인되지 않았습니다.</li>
+<li>외부 네트워크 지표는 Kuwo 음악 서비스 API/이미지/음원 URL 및 PyPI 잠금파일 URL로 보이며, 자격증명 유출 또는 공격자 C2로 연결되는 증거는 확인되지 않았습니다.</li>
+<li>archive/staging 사전탐지 항목은 릴리스 워크플로의 배포 파일 수집 및 uv.lock의 sdist URL로 설명 가능하며, 수집 파일 압축 후 외부 유출 정황은 확인되지 않았습니다.</li>
+<li>cron/systemd/launch agent/shell profile 수정 등 지속성 근거는 확인되지 않았습니다.</li>
+<li>Kubernetes, Docker socket, cloud metadata, GitHub Actions 토큰 탈취/워크플로 주입 등 측면이동 근거는 확인되지 않았습니다.</li>
+<li>Rust/Python의 복호화 함수와 테스트용 .mflac는 패키지 설명의 Kuwo/QMC 음악 파일 복호화 기능과 일치합니다. 악성 페이로드 은닉/로더로 볼 추가 증거는 제공되지 않았습니다.</li>
+</ul>
+
+<h2>배포 무결성 이상</h2>
+
+<ul>
+<li>Rust/PyO3 네이티브 확장 소스(src/lib.rs, src/qmc.rs)는 README/PKG-INFO에 명시된 .mflac 복호화 기능과 일치합니다.</li>
+<li>테스트용 고엔트로피 .mflac 파일은 관련 테스트와 기능 설명상 예상 가능한 샘플로 보이며, 숨김 페이로드 근거는 확인되지 않았습니다.</li>
+<li>uv.lock의 다수 files.pythonhosted.org URL은 의존성 잠금 정보로 보이며, 그 자체로 악성 다운로드/유출 증거는 아닙니다.</li>
+<li>현재 입력만으로 typosquatting, 갑작스러운 의존성 삽입, wheel/sdist 불일치, 목적 불명 네이티브 바이너리는 확인되지 않았습니다.</li>
+</ul>
+
+<h2>추가 확인 필요</h2>
+
+<ul>
+<li>제공된 텍스트 코퍼스에 pyproject.toml, nonebot_plugin_kuwo/__init__.py, data_source.py 등의 전체 내용이 포함되지 않아 자동 등록/ import-time side effect 여부는 완전 검증되지 않았습니다.</li>
+<li>실제 PyPI wheel 내 컴파일된 네이티브 바이너리(_qmc_rs)와 sdist 소스의 일치 여부는 별도 비교가 필요합니다.</li>
+<li>대용량/바이너리 테스트 파일은 정적 텍스트만으로 전체 내용을 검증할 수 없으므로, 필요 시 해시 및 알려진 테스트 샘플 여부를 확인해야 합니다.</li>
+</ul>
+
+<p>---</p>
+
+<p>Prompt source: docs/prompts/malicious-supply-chain-review-v2.md</p>
+
+<p>This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</p>
+
+</body>
+</html>

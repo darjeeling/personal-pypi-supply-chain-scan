@@ -1,6 +1,723 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "nonebot_plugin_kuwo-0.2.2.tar.gz",
+    "finding_count": 1424,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/nonebot_plugin_kuwo/data_source.py"
+          ],
+          "value": "artistpicserver.kuwo.cn"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "async-asgi-testclient-1.4.11.tar.gz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "files.pythonhosted.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/LICENSE"
+          ],
+          "value": "fsf.org"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/Cargo.lock",
+            "nonebot_plugin_kuwo-0.2.2/PKG-INFO",
+            "nonebot_plugin_kuwo-0.2.2/README.md",
+            "nonebot_plugin_kuwo-0.2.2/nonebot_plugin_kuwo/__init__.py",
+            "nonebot_plugin_kuwo-0.2.2/pyproject.toml"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/PKG-INFO",
+            "nonebot_plugin_kuwo-0.2.2/README.md"
+          ],
+          "value": "img.shields.io"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/nonebot_plugin_kuwo/models.py",
+            "nonebot_plugin_kuwo-0.2.2/tests/test_command.py"
+          ],
+          "value": "img1.kwcdn.kuwo.cn"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/nonebot_plugin_kuwo/data_source.py"
+          ],
+          "value": "musicpay.kuwo.cn"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/nonebot_plugin_kuwo/data_source.py"
+          ],
+          "value": "nmobi.kuwo.cn"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/PKG-INFO",
+            "nonebot_plugin_kuwo-0.2.2/README.md"
+          ],
+          "value": "nonebot.dev"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/PKG-INFO",
+            "nonebot_plugin_kuwo-0.2.2/README.md",
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "pypi.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/nonebot_plugin_kuwo/data_source.py"
+          ],
+          "value": "search.kuwo.cn"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/LICENSE",
+            "nonebot_plugin_kuwo-0.2.2/PKG-INFO",
+            "nonebot_plugin_kuwo-0.2.2/README.md"
+          ],
+          "value": "www.gnu.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/PKG-INFO",
+            "nonebot_plugin_kuwo-0.2.2/README.md"
+          ],
+          "value": "www.python.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/PKG-INFO",
+            "nonebot_plugin_kuwo-0.2.2/README.md"
+          ],
+          "value": "www.rust-lang.org"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "async-asgi-testclient-1.4.11.tar.gz"
+        }
+      ],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/nonebot_plugin_kuwo/data_source.py"
+          ],
+          "value": "http://artistpicserver.kuwo.cn/pic.web"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/tests/test_command.py",
+            "nonebot_plugin_kuwo-0.2.2/tests/test_data_source.py"
+          ],
+          "value": "http://example.com/album.jpg"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/tests/test_command.py",
+            "nonebot_plugin_kuwo-0.2.2/tests/test_data_source.py"
+          ],
+          "value": "http://example.com/cover.jpg"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/tests/test_command.py"
+          ],
+          "value": "http://example.com/song-lossless.flac"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/tests/test_command.py",
+            "nonebot_plugin_kuwo-0.2.2/tests/test_data_source.py",
+            "nonebot_plugin_kuwo-0.2.2/tests/test_utils.py"
+          ],
+          "value": "http://example.com/song.flac"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/tests/test_utils.py"
+          ],
+          "value": "http://example.com/song.flac?bitrate$2000"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/tests/test_data_source.py"
+          ],
+          "value": "http://example.com/song.flac?bitrate$2000&format$flac"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/tests/test_command.py",
+            "nonebot_plugin_kuwo-0.2.2/tests/test_data_source.py"
+          ],
+          "value": "http://example.com/song.mflac"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/tests/test_command.py"
+          ],
+          "value": "http://example.com/song.mp3"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/tests/test_data_source.py"
+          ],
+          "value": "http://example.com/track/F000003qKlqV1PVMB8.flac"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/nonebot_plugin_kuwo/models.py"
+          ],
+          "value": "http://img1.kwcdn.kuwo.cn/star/albumcover/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/tests/test_command.py"
+          ],
+          "value": "http://img1.kwcdn.kuwo.cn/star/albumcover/120/s4s64/98/1370027605.jpg"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/nonebot_plugin_kuwo/data_source.py"
+          ],
+          "value": "http://musicpay.kuwo.cn/music.pay"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/nonebot_plugin_kuwo/data_source.py"
+          ],
+          "value": "http://search.kuwo.cn/r.s"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/00/07/575a68c754943058c78f30db02ee03a64b3c638586fba6a6dd56830b30a3/markupsafe-3.0.3-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/00/71/3a69e86f3eafe8c7a59d008d245888051005bd657760e96d5fbfb0b740c2/tomli-2.4.1-cp314-cp314-musllinux_1_2_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/00/94/69391af5396c6aab723932240803f49e5f3de3dd7c57d32f02d237a0ce32/maturin-1.13.1-py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.musllinux_1_1_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/00/b0/1a6d9b6a587e118482910c244a1c5acf4d192604174132efd12bf0ac486f/pydantic_core-2.46.3-cp314-cp314-manylinux_2_5_i686.manylinux1_i686.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/00/e3/9b60ed9e23e64c73a5cde95269ef1330678e9c6e34dd4eb6b431b85b5a10/multidict-6.7.1-cp313-cp313t-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/00/fd/7e1c66efad35e1649114fa13f17485f62881ad58edeeb7f49f8c5e748bf9/yarl-1.23.0-cp313-cp313-win_arm64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/01/20/b0972d902472da9bcb683fa595099911f4d2e86e5683bcc45de60dd05dc3/propcache-0.4.1-cp314-cp314t-macosx_11_0_arm64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/01/5d/1c53f4563490b1d06a684742cc6076ef944bc6457df6051b7d1a877c057b/propcache-0.4.1-cp312-cp312-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/01/ee/02a2c011bdab74c6fb3c75474d40b3052059d95df7e73351460c8588d963/h11-0.16.0.tar.gz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/01/fb/4dbd7e848d2799c6a026ec88ad39cf2b8416aa167fcc903baa55ecaa045c/multidict-6.7.1-cp311-cp311-manylinux2014_armv7l.manylinux_2_17_armv7l.manylinux_2_31_armv7l.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/02/9a/b759b503d507f375b2b5c153e4d2ee0a75aa215b7f2489cf314f4541f2c0/charset_normalizer-3.4.7-cp314-cp314t-musllinux_1_2_armv7l.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/02/9e/e5e9b168be58564121efb3de6859c452fccde0ab093d8438905899a3a483/pyyaml-6.0.3-cp314-cp314-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/02/e0/3630057d8eb170310785723ed5adcdfb7d50cb7e6455f85ba8a3deed642b/tomli-2.4.1-cp314-cp314t-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/02/e6/9c83094512e9bdbf92e5070b8d816e980677a57c6d08809b186ac04344da/tarina-0.7.3-cp314-cp314-win32.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/03/65/11492d6a0e259783720f3bc1d9ea55579a76f1407e31ed44045c99542004/multidict-6.7.1-cp310-cp310-musllinux_1_2_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/03/d6/c878a44ba877f366630c860fdf74bfb203c33778f12b6ac274936853c451/multidict-6.7.1-cp313-cp313-manylinux2014_armv7l.manylinux_2_17_armv7l.manylinux_2_31_armv7l.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/03/e2/59fc4fa41b5cce6a44486c8ec47ff1a178668e0cae279e26d180fd7679ed/tarina-0.7.3-cp314-cp314-musllinux_1_2_riscv64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/04/4b/29cac41a4d98d144bf5f6d33995617b185d14b22401f75ca86f384e87ff1/h11-0.16.0-py3-none-any.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/05/14/52d505b5c59ce73244f59c7a50ecf47093ce4765f116cdb98286a71eeca2/pyyaml-6.0.3-cp310-cp310-macosx_11_0_arm64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/05/18/478f1915898399a96506398b079ddef3303b12a2c2888859ad9d4a0bc739/nonebot_plugin_alconna-0.62.0.tar.gz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/05/38/30f541baf6a3f6df77b3df16b01ba319221389e2da59427e221ef417ac0c/tomli-2.4.1-cp314-cp314t-musllinux_1_2_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/05/73/c4abe620b841b6b791f2edc248f556900667a5a1cf023a6646967ae98335/markupsafe-3.0.3-cp313-cp313-win_amd64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/05/8e/961c0007c59b8dd7729d542c61a4d537767a59645b82a0b521206e1e25c2/pyyaml-6.0.3.tar.gz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/05/c0/b3be26a015601b822b97d9149ff8cb5ead58c66f981e04fedf4e762f4bd4/pyyaml-6.0.3-cp312-cp312-musllinux_1_2_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/06/6d/3be70e827977f20db77c12a97e6a9f973631a45b8d186c084527e53e77a4/charset_normalizer-3.4.7-cp311-cp311-win32.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/06/94/82699a10bca87a5556c9c59b5963f2d039dbd239f25bc2a63907a05a14cb/httpcore-1.0.9.tar.gz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/06/fb/1ae33530a3b88022a7a7c8e4ead78fa42c5cd12fbfb278440a193e58759a/tarina-0.7.3-cp310-cp310-musllinux_1_2_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/07/06/b823a7e818c756d9a7123ba2cda7d07bc2dd32835648d1a7b7b7a05d848d/tomli-2.4.1-cp313-cp313-macosx_10_13_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/07/0c/01f2219d39f7e53d52e5173bcb09c976609ba30209912a0680adfb8c593a/propcache-0.4.1-cp313-cp313t-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/07/0f/1c34a74c8d07136f0d729ffe5e1fdab04fbdaa7684f61a92f92511a84a15/pydantic_core-2.46.3-pp311-pypy311_pp73-win_amd64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/07/d0/c0a72000243756e8f5a277b6b514fa005f2c73d481b7d9e47cd4568aa2e4/multidict-6.7.1-cp314-cp314t-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/08/02/87b25304249a35c0915d236575bc3574a323f60b47939a2262b77632a3ee/propcache-0.4.1-cp314-cp314t-win32.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/08/1f/6f65f59e72d54aa467119b63fc0b0b1762eff0232db1f4720cd89e2f4a17/yarl-1.23.0-cp313-cp313-musllinux_1_2_s390x.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/08/4b/f364b9d161718ff2217160a4b5d41ce38de60aed91c3689ebffa1c939d23/pydantic_core-2.46.3-cp310-cp310-macosx_11_0_arm64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/08/57/8c87e93142b2c1fa2408e45695205a7ba05fb5db458c0bf5c06ba0e09ea6/propcache-0.4.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/08/8a/0861bec20485572fbddf3dfba2910e38fe249796cb73ecdeb74e07eeb8d3/zipp-3.23.1-py3-none-any.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/08/db/fefacb2136439fc8dd20e797950e749aa1f4997ed584c62cfb8ef7c2be0e/markupsafe-3.0.3-cp311-cp311-macosx_10_9_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/09/da/50f576598b2808a7f572172aceffe0e34c93075566630fff8df3301c286c/tarina-0.7.3-cp312-cp312-musllinux_1_2_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0a/44/93f489d16fb63fbd41c670441536541f6e8cfa1e5a69f40bc9c5d30d8c90/pydantic_core-2.46.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0a/b6/5c9a0e42df4d00bfb4a3cbbe5cf9f54260300c88a0e9af1f47ca5ce17ac0/propcache-0.4.1-cp312-cp312-macosx_11_0_arm64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0a/e6/5c744a9b54f4e8007ad35bce96fbc9218338e84812d36f3390cea616881a/yarl-1.23.0-cp314-cp314-musllinux_1_2_riscv64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0a/ff/7196790538f31debe3341283b5b0707e7feb947620fc5e8236ef28d44f72/yarl-1.23.0-cp314-cp314-manylinux2014_armv7l.manylinux_2_17_armv7l.manylinux_2_31_armv7l.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0b/7c/b42eaa5c34b13b07ecb51da21761297a9b8eb43044c864a035999998f328/pydantic_core-2.46.3-cp314-cp314t-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0b/c9/584bc9651441b4ba60cc4d557d8a547b5aff901af35bda3a4ee30c819b82/starlette-1.0.0-py3-none-any.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0b/d7/1959b9648791274998a9c3526f6d0ec8fd2233e4d4acce81bbae76b44b2a/python_dotenv-1.2.2-py3-none-any.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0b/db/d8182a7f1d9343a032265aae186eb063fe26ca4c40f256b21e8da4498e89/pydantic_core-2.46.3-cp314-cp314t-win_arm64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0c/23/e3bfc188d0b400f025bc49d99793d02c9abe15752138dcc27e4eaf0c4a9e/yarl-1.23.0-cp314-cp314-musllinux_1_2_s390x.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0c/29/0348de65b8cc732daa3e33e67806420b2ae89bdce2b04af740289c5c6c8c/loguru-0.7.3-py3-none-any.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0c/2a/a758b47de253636e1b8aef181c0b4f4f204bf0dd964914fb2af90a95b49b/propcache-0.4.1-cp314-cp314-win_amd64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0c/5b/aba28e4ee4006ae4c7df8d327d31025d760ffa992ea23812a601d226e682/multidict-6.7.1-cp312-cp312-win_arm64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0c/62/d2eb46264d4b157dae1275b573017abec435397aa59cbcdab6fc978a8af4/pyyaml-6.0.3-cp311-cp311-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0c/b1/8f08a143b204b418285c88b83d00edbd61afbc2c6415ffafc8905da7038b/propcache-0.4.1-cp314-cp314t-musllinux_1_2_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0c/cd/a32a84217ced5039f53b29f460962abb2d4420def55afabe45b1c3c7483d/charset_normalizer-3.4.7-cp314-cp314-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0c/eb/4fc8d0a7110eb5fc9cc161723a34a8a6c200ce3b4fbf681bc86feee22308/charset_normalizer-3.4.7-cp312-cp312-macosx_10_13_universal2.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0c/f1/dab7ac5e7306fb79c0190766a3c00b4cb8d09a1f390ded68c85a5934faf5/yarl-1.23.0-cp314-cp314t-macosx_11_0_arm64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0c/f7/addf1087b860ac60e6f382240f64fb99f8bfb532bb06f7c542b83c29ca61/multidict-6.7.1-cp314-cp314t-win_amd64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0d/59/18aa4e014debbf559670e4048e39260a85c7fcee84acfd761ac01e7b8d35/ruff-0.15.12-py3-none-musllinux_1_2_armv7l.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0d/ca/d376391a5aff1f2e8188960d7873543608130a870961c2b6b5236627c116/pydantic_core-2.46.3-graalpy311-graalpy242_311_native-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0e/4b/236e60ab9f6d62ed0fd32150d61f1f494cefbf02304c0061e78ed80c1c32/playwright-1.58.0-py3-none-win32.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0e/4e/bf9be0879253f3639dcedde3aee50dc3a56cd2a5d4c3c70b377ca9a8fbd8/tarina-0.7.3-cp311-cp311-win32.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0e/6b/523b9f85c23788755d6ab949329de692a2e3a584bc6beb67fef5e035aa9d/pydantic_core-2.46.3-graalpy311-graalpy242_311_native-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0e/72/e3cc540f351f316e9ed0f092757459afbc595824ca724cbc5a5d4263713f/markupsafe-3.0.3-cp313-cp313t-win_arm64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0f/19/46fbe1efabb5aa2834b43b9454e70f9a83ad9c338c1291e48bdc4fecf167/pydantic_core-2.46.3-cp314-cp314t-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0f/62/d9c46a7f5c9adbeeeda52f5b8d802e1094e9717705a645efc71b0913a0a8/markupsafe-3.0.3-cp311-cp311-win32.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0f/b1/525a16711e7c6d61635fac3b0bd54600b5c5d9f60c6fc5aaab26b64a2297/pydantic_core-2.46.3-cp310-cp310-manylinux_2_31_riscv64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nonebot_plugin_kuwo-0.2.2/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/10/32/d080f32c4c06459a2122a0bf3dbf9625eadb486b865c7f0046b324308c9f/tarina-0.7.3-cp312-cp312-win_arm64.whl"
+        }
+      ]
+    },
+    "package": "nonebot-plugin-kuwo",
+    "package_slug": "nonebot-plugin-kuwo",
+    "project_url": "https://pypi.org/project/nonebot-plugin-kuwo/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T16:36:37.849648+00:00",
+    "risk": "high",
+    "scanned_at": "2026-04-27T16:37:04.126880+00:00",
+    "title": "Personal PyPI Supply Chain Scan: nonebot-plugin-kuwo 0.2.2",
+    "version": "0.2.2",
+    "version_slug": "0.2.2",
+    "_metadata_path": "reports/packages/nonebot-plugin-kuwo/0.2.2/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "wraith_mcp-0.1.1.tar.gz",
     "finding_count": 31,
     "model": "gpt-5.5",
