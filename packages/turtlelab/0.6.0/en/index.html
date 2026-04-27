@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal PyPI Supply Chain Scan: turtlelab 0.6.0</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 960px; line-height: 1.55; padding: 0 1rem; color: #1f2933; }
+    a { color: #1f5fbf; }
+    code { background: #f4f4f4; padding: 0.1rem 0.25rem; }
+    h1, h2, h3 { line-height: 1.2; }
+    li { margin: 0.35rem 0; }
+    nav { margin-bottom: 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #e5e9ef; padding: 0.55rem 0.65rem; text-align: left; vertical-align: top; }
+    th { color: #52616f; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; }
+    .scan-groups { margin-top: 1.2rem; }
+    .scan-day { border-top: 1px solid #d8dee4; display: grid; gap: 1rem; grid-template-columns: 10rem minmax(0, 1fr); padding: 1.1rem 0; }
+    .scan-day-date { color: #1f2933; font-weight: 700; }
+    .scan-day-date span { color: #52616f; display: block; font-size: 0.9rem; font-weight: 500; margin-top: 0.2rem; }
+    .scan-day-table { overflow-x: auto; }
+    .risk { display: inline-block; min-width: 4.8rem; text-align: center; border-radius: 999px; padding: 0.15rem 0.45rem; font-size: 0.78rem; font-weight: 700; }
+    .risk-info, .risk-low { background: #dcfce7; color: #166534; }
+    .risk-medium, .risk-unknown { background: #fef3c7; color: #92400e; }
+    .risk-high, .risk-critical { background: #fee2e2; color: #991b1b; }
+    .index-note { color: #52616f; margin-top: -0.35rem; }
+    .version { color: #52616f; margin-left: 0.2rem; white-space: nowrap; }
+    @media (max-width: 720px) {
+      .scan-day { grid-template-columns: 1fr; }
+      th, td { padding: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+<nav><a href='../../../../'>Index</a></nav><h1>Personal PyPI Supply Chain Scan: turtlelab 0.6.0</h1>
+
+<ul>
+<li>Package: turtlelab</li>
+<li>Version: 0.6.0</li>
+<li>Project URL: https://pypi.org/project/turtlelab/</li>
+<li>Distribution: turtlelab-0.6.0.tar.gz</li>
+<li>Package published at: 2026-04-27T11:47:41.830349+00:00</li>
+<li>Scan published at: 2026-04-27T12:49:08.602604+00:00</li>
+<li>Language: en</li>
+<li>Model: gpt-5.5</li>
+<li>Prompt: malicious-supply-chain-review-v2 ([source](../../../../docs/prompts/malicious-supply-chain-review-v2.md))</li>
+<li>Disclaimer: This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</li>
+</ul>
+
+<h2>Deterministic Network Indicators</h2>
+
+<h3>Suspicious Endpoints</h3>
+
+<p>None</p>
+
+<h3>Raw Public IPs</h3>
+
+<p>None</p>
+
+<h3>URLs</h3>
+<ul>
+<li>https://github.com/arsalan-arish/turtlelab (2 files: turtlelab-0.6.0/PKG-INFO, turtlelab-0.6.0/pyproject.toml)</li>
+</ul>
+
+<h3>Domains</h3>
+<ul>
+<li>github.com (2 files: turtlelab-0.6.0/PKG-INFO, turtlelab-0.6.0/pyproject.toml)</li>
+</ul>
+
+<h2>Verdict</h2>
+
+<p>No confirmed malicious supply-chain compromise indicators. Overall risk: info.</p>
+
+<h2>Malicious Supply-Chain Indicators</h2>
+
+<p>No confirmed malicious supply-chain indicators.</p>
+
+<h2>Automatic Execution Paths</h2>
+
+<ul>
+<li>pyproject.toml uses the uv_build build backend, and the provided text does not show evidence of custom malicious install/build hooks.</li>
+<li>[project.gui-scripts] turtlelab = &quot;turtlelab.__main__:main&quot; defines a normal GUI script entry point that runs only when the user invokes the turtlelab command. This is not evidence of install-time or interpreter-startup execution.</li>
+<li>No .pth, sitecustomize.py, usercustomize.py, setup.py, or similar automatic execution files are present in the provided manifest.</li>
+<li>src/turtlelab/__init__.py is empty, so there is no evidence of malicious import-time side effects.</li>
+</ul>
+
+<h2>Theft / Exfiltration / Persistence / Lateral Movement / Stealth</h2>
+
+<ul>
+<li>Credential harvesting: no evidence of broad collection of environment variables, .env files, SSH keys, cloud/CI/registry tokens, wallet files, or similar secrets.</li>
+<li>Staging/exfiltration: no evidence of archive creation, encoding/staging, webhook/C2 upload, raw IP endpoints, or suspicious external transmission.</li>
+<li>Persistence: no evidence of cron jobs, systemd units, launch agents, shell profile modification, startup items, or self-reinstall loops.</li>
+<li>Lateral movement: no evidence of Kubernetes, Docker socket, cloud metadata, GitHub Actions, or CI token abuse.</li>
+<li>Obfuscation/loader: widgets.py contains exec(code, {&quot;t&quot;: self.t, &quot;s&quot;: self.s, &quot;__builtins__&quot;: __builtins__}), but this appears to be the documented application feature for executing user-provided turtle code in the GUI. It is not paired with automatic execution, stealth loading, credential theft, or exfiltration evidence.</li>
+</ul>
+
+<h2>Distribution Integrity Anomalies</h2>
+
+<ul>
+<li>src/turtlelab/assets/turtle.ico is a binary icon file, but it is referenced as the GUI application icon. The provided evidence does not indicate an unexplained native binary or hidden payload.</li>
+<li>Dependencies are empty (dependencies = []), with no evidence of suspicious dependency insertion.</li>
+<li>No evidence in the provided sdist text of typosquatting, hidden payloads, unexpected .dist-info manipulation, or wheel/sdist mismatch.</li>
+</ul>
+
+<h2>Further Verification Needed</h2>
+
+<ul>
+<li>The large/binary turtle.ico was not fully analyzable as text; if needed, validate its actual icon format and check for embedded data.</li>
+<li>The provided input cannot confirm whether the PyPI sdist differs from the public source repository.</li>
+</ul>
+
+<p>---</p>
+
+<p>Prompt source: docs/prompts/malicious-supply-chain-review-v2.md</p>
+
+<p>This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</p>
+
+</body>
+</html>
