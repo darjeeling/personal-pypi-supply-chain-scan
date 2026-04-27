@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal PyPI Supply Chain Scan: cloudhub-139 1.0.0</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 960px; line-height: 1.55; padding: 0 1rem; }
+    code { background: #f4f4f4; padding: 0.1rem 0.25rem; }
+    h1, h2, h3 { line-height: 1.2; }
+    li { margin: 0.35rem 0; }
+    nav { margin-bottom: 1rem; }
+  </style>
+</head>
+<body>
+<nav><a href='../../../../'>Index</a></nav><h1>Personal PyPI Supply Chain Scan: cloudhub-139 1.0.0</h1>
+
+<ul>
+<li>Package: cloudhub-139</li>
+<li>Version: 1.0.0</li>
+<li>Project URL: https://pypi.org/project/cloudhub-139/</li>
+<li>Distribution: cloudhub_139-1.0.0.tar.gz</li>
+<li>Package published at: 2026-04-27T06:09:40.260094+00:00</li>
+<li>Scan published at: 2026-04-27T07:35:35.608265+00:00</li>
+<li>Language: ko</li>
+<li>Model: gpt-5.5</li>
+<li>Prompt: malicious-supply-chain-review-v2 ([source](../../../../docs/prompts/malicious-supply-chain-review-v2.md))</li>
+<li>Disclaimer: This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</li>
+</ul>
+
+<h2>Deterministic Network Indicators</h2>
+
+<h3>Suspicious Endpoints</h3>
+
+<p>None</p>
+
+<h3>Raw Public IPs</h3>
+
+<p>None</p>
+
+<h3>URLs</h3>
+<ul>
+<li>https://cdn.jsdelivr.net/npm/hls.js@latest (1 files: cloudhub_139-1.0.0/src/cloudhub/app.py)</li>
+<li>https://github.com/kyle-meng/CloudHub-139 (3 files: cloudhub_139-1.0.0/PKG-INFO, cloudhub_139-1.0.0/pyproject.toml, cloudhub_139-1.0.0/src/cloudhub_139.egg-info/PKG-INFO)</li>
+<li>https://share-kd-njs.yun.139.com/yun-share/richlifeApp/devapp/IOutLink/getContentInfoFromOutLink (1 files: cloudhub_139-1.0.0/src/cloudhub/client.py)</li>
+<li>https://share-kd-njs.yun.139.com/yun-share/richlifeApp/devapp/IOutLink/getOutLinkInfoV6 (1 files: cloudhub_139-1.0.0/src/cloudhub/client.py)</li>
+<li>https://yun.139.com (1 files: cloudhub_139-1.0.0/src/cloudhub/client.py)</li>
+<li>https://yun.139.com/ (1 files: cloudhub_139-1.0.0/src/cloudhub/client.py)</li>
+</ul>
+
+<h3>Domains</h3>
+<ul>
+<li>cdn.jsdelivr.net (1 files: cloudhub_139-1.0.0/src/cloudhub/app.py)</li>
+<li>github.com (3 files: cloudhub_139-1.0.0/PKG-INFO, cloudhub_139-1.0.0/pyproject.toml, cloudhub_139-1.0.0/src/cloudhub_139.egg-info/PKG-INFO)</li>
+<li>share-kd-njs.yun.139.com (1 files: cloudhub_139-1.0.0/src/cloudhub/client.py)</li>
+<li>yun.139.com (1 files: cloudhub_139-1.0.0/src/cloudhub/client.py)</li>
+</ul>
+
+<h2>판정</h2>
+
+<p>확인된 악성 공급망 침해 징후 없음 — 전체 위험도: **info**.</p>
+
+<h2>악성 공급망 징후</h2>
+
+<p>확인된 악성 공급망 징후 없음.</p>
+
+<h2>자동 실행 경로</h2>
+
+<ul>
+<li>pyproject.toml의 build backend는 표준 setuptools.build_meta이며, PEP 517 빌드 훅에서 임의 코드 실행을 시사하는 근거는 확인되지 않았습니다.</li>
+<li>setup.cfg는 egg_info 설정만 포함합니다.</li>
+<li>.pth, sitecustomize.py, usercustomize.py, setup.py는 제공된 목록/본문에서 확인되지 않았습니다.</li>
+<li>entry_points.txt / pyproject.toml에는 console_scripts로 cloudhub-139 = cloudhub.app:main만 정의되어 있습니다. 이는 사용자가 명령을 실행해야 동작하는 일반 CLI 진입점이므로 설치 시 자동 실행 근거로 보지 않습니다.</li>
+<li>cloudhub/app.py는 import 시 Flask 앱 객체와 템플릿/함수를 정의하지만, 제공된 범위 내에서 설치 직후 또는 인터프리터 시작 시 악성 동작을 자동 수행하는 근거는 없습니다.</li>
+</ul>
+
+<h2>절취/전송/지속성/측면이동/은닉</h2>
+
+<ul>
+<li>**자격증명 절취:** 광범위한 환경변수, .env, SSH 키, 클라우드/CI 토큰, 지갑, 레지스트리 토큰 등을 탐색하거나 수집하는 코드 근거는 확인되지 않았습니다.</li>
+<li>**전송/네트워크:** client.py의 requests.post/get는 139 Cloud 공유 링크 정보 및 HLS 재생 정보를 가져오기 위한 정상 앱 기능으로 보입니다. 공격자 제어 C2, 웹훅, raw IP, paste/drop 서비스, 토큰 유출 업로드 근거는 없습니다.</li>
+<li>**스테이징/아카이브:** crypto.py의 base64 및 gzip 사용은 API 응답 암복호화/압축 처리로 보이며, 수집 파일을 압축·보관해 유출하는 패턴은 확인되지 않았습니다.</li>
+<li>**지속성:** cron, systemd, launch agent, shell profile 수정, 시작프로그램 등록, 자체 재설치, 백그라운드 폴링 백도어 근거는 없습니다.</li>
+<li>**측면이동:** Kubernetes, Docker socket, cloud metadata, GitHub Actions/CI 토큰, 패키지 레지스트리 토큰 재사용 관련 근거는 없습니다.</li>
+<li>**은닉/로더:** base64.b64decode, AES, gzip 처리는 서비스 프로토콜용 암복호화 로직으로 보이며, eval/exec/compile, 동적 다운로드 실행, marshal/pickle 로더, 난독화된 페이로드 실행 근거는 없습니다.</li>
+</ul>
+
+<h2>배포 무결성 이상</h2>
+
+<ul>
+<li>SOURCES.txt 기준 포함 파일은 README.md, pyproject.toml, src/cloudhub/*.py, egg-info 메타데이터로 구성되어 있으며, 제공된 범위 내에서 숨김 페이로드, 목적 불명 네이티브 바이너리, 비정상 .dist-info/egg-info 실행 로직은 확인되지 않았습니다.</li>
+<li>의존성은 requests, pycryptodome, flask, python-dotenv로 앱 기능과 대체로 일치합니다. 갑작스러운 악성 의존성 삽입으로 볼 명확한 근거는 없습니다.</li>
+<li>패키지명 cloudhub-139가 특정 유명 패키지의 명백한 typosquatting이라는 근거는 제공되지 않았습니다.</li>
+<li>wheel/sdist 불일치 여부는 sdist 내용만 제공되어 판단할 수 없습니다.</li>
+</ul>
+
+<h2>추가 확인 필요</h2>
+
+<ul>
+<li>cloudhub/app.py 본문이 입력에서 중간에 잘려 있어, 파일 후반부의 라우트/main()/환경변수 처리 전체는 확인되지 않았습니다.</li>
+<li>원본 GitHub 저장소와 PyPI sdist 간 파일 차이, wheel 아티팩트가 별도로 존재하는 경우 sdist와의 불일치 여부는 추가 확인이 필요합니다.</li>
+</ul>
+
+<p>---</p>
+
+<p>Prompt source: docs/prompts/malicious-supply-chain-review-v2.md</p>
+
+<p>This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</p>
+
+</body>
+</html>

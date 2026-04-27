@@ -1,0 +1,101 @@
+[
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "cloudhub_139-1.0.0.tar.gz",
+    "finding_count": 9,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "cloudhub_139-1.0.0/src/cloudhub/app.py"
+          ],
+          "value": "cdn.jsdelivr.net"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cloudhub_139-1.0.0/PKG-INFO",
+            "cloudhub_139-1.0.0/pyproject.toml",
+            "cloudhub_139-1.0.0/src/cloudhub_139.egg-info/PKG-INFO"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cloudhub_139-1.0.0/src/cloudhub/client.py"
+          ],
+          "value": "share-kd-njs.yun.139.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cloudhub_139-1.0.0/src/cloudhub/client.py"
+          ],
+          "value": "yun.139.com"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "cloudhub_139-1.0.0/src/cloudhub/app.py"
+          ],
+          "value": "https://cdn.jsdelivr.net/npm/hls.js@latest"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "cloudhub_139-1.0.0/PKG-INFO",
+            "cloudhub_139-1.0.0/pyproject.toml",
+            "cloudhub_139-1.0.0/src/cloudhub_139.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/kyle-meng/CloudHub-139"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cloudhub_139-1.0.0/src/cloudhub/client.py"
+          ],
+          "value": "https://share-kd-njs.yun.139.com/yun-share/richlifeApp/devapp/IOutLink/getContentInfoFromOutLink"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cloudhub_139-1.0.0/src/cloudhub/client.py"
+          ],
+          "value": "https://share-kd-njs.yun.139.com/yun-share/richlifeApp/devapp/IOutLink/getOutLinkInfoV6"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cloudhub_139-1.0.0/src/cloudhub/client.py"
+          ],
+          "value": "https://yun.139.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cloudhub_139-1.0.0/src/cloudhub/client.py"
+          ],
+          "value": "https://yun.139.com/"
+        }
+      ]
+    },
+    "package": "cloudhub-139",
+    "package_slug": "cloudhub-139",
+    "project_url": "https://pypi.org/project/cloudhub-139/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T06:09:40.260094+00:00",
+    "scanned_at": "2026-04-27T07:35:35.608265+00:00",
+    "title": "Personal PyPI Supply Chain Scan: cloudhub-139 1.0.0",
+    "version": "1.0.0",
+    "version_slug": "1.0.0",
+    "_metadata_path": "reports/packages/cloudhub-139/1.0.0/metadata.json"
+  }
+]
