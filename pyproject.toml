@@ -1,0 +1,21 @@
+[project]
+name = "pypi-codex-scanner"
+version = "0.1.0"
+description = "Scan newly published PyPI packages in an isolated container with GPT-5.5 via Codex OAuth."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.27",
+    "reader>=3.15",
+]
+
+[project.scripts]
+pypi-codex-scanner = "pypi_codex_scanner.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pypi_codex_scanner"]
+
