@@ -1,816 +1,515 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "ultralytics_opencv_headless-8.4.42.tar.gz",
-  "finding_count": 573,
+  "distribution": "ainativelang-1.8.0.tar.gz",
+  "finding_count": 940,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/engine/exporter.py"
+          "ainativelang-1.8.0/tests/test_browser_adapter.py"
         ],
-        "value": "ai.google.dev"
+        "value": "a"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "ainativelang-1.8.0/tests/test_a2a_adapter.py",
+          "ainativelang-1.8.0/tests/test_strict_adapter_contracts.py"
+        ],
+        "value": "a.example.com"
+      },
+      {
+        "file_count": 5,
+        "files": [
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO",
+          "ainativelang-1.8.0/cli/main.py",
+          "ainativelang-1.8.0/pyproject.toml"
+        ],
+        "value": "ainativelang.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "ainativelang-1.8.0/tooling/ainl_tool_api.schema.json",
+          "ainativelang-1.8.0/tooling/capabilities.schema.json"
+        ],
+        "value": "ainl.dev"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/data/augment.py"
+          "ainativelang-1.8.0/adapters/airtable/adapter.py"
         ],
-        "value": "albumentations.ai"
+        "value": "api.airtable.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/adapters/airtable/adapter.py"
+        ],
+        "value": "api.airtable.com{path"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/adapters/llm/anthropic.py"
+        ],
+        "value": "api.anthropic.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/adapters/llm/cohere.py"
+        ],
+        "value": "api.cohere.ai"
       },
       {
         "file_count": 3,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+          "ainativelang-1.8.0/adapters/solana.py",
+          "ainativelang-1.8.0/compiler_v2.py",
+          "ainativelang-1.8.0/tooling/canonical_training_pack.json"
         ],
-        "value": "anaconda.org"
+        "value": "api.devnet.solana.com"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/logger.py"
+          "ainativelang-1.8.0/compiler_v2.py"
+        ],
+        "value": "api.devnet.solana.com\\n"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/scripts/generate_corpus.py"
         ],
         "value": "api.example.com"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/downloads.py"
+          "ainativelang-1.8.0/adapters/github.py"
         ],
         "value": "api.github.com"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/hub/utils.py"
+          "ainativelang-1.8.0/tooling/security_profiles.json"
         ],
-        "value": "api.ultralytics.com"
+        "value": "api.internal.example.com"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/Argoverse.yaml"
+          "ainativelang-1.8.0/adapters/embedding_memory.py"
         ],
-        "value": "argoverse-hd.s3.us-east-2.amazonaws.com"
-      },
-      {
-        "file_count": 14,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/models/v8/yolov8-ghost-p2.yaml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/models/v8/yolov8-ghost-p6.yaml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/models/v8/yolov8-ghost.yaml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/data/augment.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/models/rtdetr/model.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/models/sam/modules/encoders.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/models/sam/sam3/vitdet.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/nn/modules/block.py"
-        ],
-        "value": "arxiv.org"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
-        ],
-        "value": "assets.paperspace.io"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
-        ],
-        "value": "aws.amazon.com"
-      },
-      {
-        "file_count": 5,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/DOTAv1.5.yaml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/DOTAv1.yaml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
-        ],
-        "value": "captain-whu.github.io"
+        "value": "api.openai.com"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/tests/test_integrations.py"
+          "ainativelang-1.8.0/intelligence/monitor/alerts/telegram.py"
         ],
-        "value": "catalog.ngc.nvidia.com"
+        "value": "api.telegram.org"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/tests/test_python.py"
+          "ainativelang-1.8.0/scripts/generate_corpus.py"
+        ],
+        "value": "api.test"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/tests/test_browser_adapter.py"
+        ],
+        "value": "b"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/scripts/visualize_ainl.py"
         ],
         "value": "cdn.jsdelivr.net"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/TT100K.yaml"
+          "ainativelang-1.8.0/LICENSE.docs"
         ],
-        "value": "cg.cs.tsinghua.edu.cn"
+        "value": "creativecommons.org"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/xView.yaml"
+          "ainativelang-1.8.0/tests/test_solana_blockchain.py"
         ],
-        "value": "challenge.xviewdataset.org"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
-        ],
-        "value": "clickpy.clickhouse.com"
-      },
-      {
-        "file_count": 6,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco-pose.yaml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco.yaml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/data/scripts/get_coco.sh",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
-        ],
-        "value": "cocodataset.org"
+        "value": "custom.hermes.test"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco-pose.yaml"
+          "ainativelang-1.8.0/runtime/adapters/http_machine_payments.py"
         ],
-        "value": "codalab.lisn.upsaclay.fr"
+        "value": "docs.x402.org"
       },
       {
         "file_count": 3,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+          "ainativelang-1.8.0/tests/test_mcp_exposure_scoping.py",
+          "ainativelang-1.8.0/tests/test_mcp_server.py",
+          "ainativelang-1.8.0/tooling/canonical_training_pack.json"
         ],
-        "value": "colab.research.google.com"
-      },
-      {
-        "file_count": 5,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/__init__.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/__init__.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
-        ],
-        "value": "community.ultralytics.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco.yaml"
-        ],
-        "value": "competitions.codalab.org"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
-        ],
-        "value": "console.paperspace.com"
+        "value": "example.com\\"
       },
       {
         "file_count": 2,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/engine/exporter.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/export/tensorflow.py"
+          "ainativelang-1.8.0/tests/test_airtable_adapter_contracts.py",
+          "ainativelang-1.8.0/tests/test_strict_adapter_contracts.py"
         ],
-        "value": "coral.ai"
+        "value": "files.example.com"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/xView.yaml"
+          "ainativelang-1.8.0/tests/test_hermes_emitter.py"
         ],
-        "value": "d307kc0mrhucc3.cloudfront.net"
+        "value": "files.keys"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/engine/exporter.py"
+          "ainativelang-1.8.0/cli/main.py"
         ],
-        "value": "developer.aitrios.sony-semicon.com"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/engine/exporter.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
-        ],
-        "value": "developer.nvidia.com"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
-        ],
-        "value": "discord.com"
+        "value": "files.values"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/nn/text_model.py"
-        ],
-        "value": "docs-assets.developer.apple.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/callbacks/raytune.py"
-        ],
-        "value": "docs.ray.io"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/trackers/utils/matching.py"
-        ],
-        "value": "docs.scipy.org"
-      },
-      {
-        "file_count": 131,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/pyproject.toml",
-          "ultralytics_opencv_headless-8.4.42/tests/test_python.py",
-          "ultralytics_opencv_headless-8.4.42/tests/test_solutions.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/__init__.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/Argoverse.yaml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/DOTAv1.5.yaml"
-        ],
-        "value": "docs.ultralytics.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/Objects365.yaml"
-        ],
-        "value": "dorc.ks3-cn-beijing.ksyun.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/checks.py"
-        ],
-        "value": "download.pytorch.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/Argoverse.yaml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/downloads.py"
-        ],
-        "value": "drive.google.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/__init__.py"
-        ],
-        "value": "en.wikipedia.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/Argoverse.yaml"
-        ],
-        "value": "eval.ai"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/data/utils.py"
-        ],
-        "value": "file.zip"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/data/loaders.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/benchmarks.py"
-        ],
-        "value": "files.extend"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/solutions/templates/similarity-search.html"
+          "ainativelang-1.8.0/scripts/run_tests_and_emit.py"
         ],
         "value": "fonts.googleapis.com"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/LICENSE"
+          "ainativelang-1.8.0/scripts/run_tests_and_emit.py"
         ],
-        "value": "fsf.org"
+        "value": "fonts.gstatic.com"
       },
       {
-        "file_count": 85,
+        "file_count": 9,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/pyproject.toml",
-          "ultralytics_opencv_headless-8.4.42/tests/test_integrations.py",
-          "ultralytics_opencv_headless-8.4.42/tests/test_python.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/__init__.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/DOTAv1.5.yaml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/DOTAv1.yaml"
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/adapters/code_context.py",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO",
+          "ainativelang-1.8.0/cli/main.py",
+          "ainativelang-1.8.0/pyproject.toml",
+          "ainativelang-1.8.0/tests/test_apollo_x_gateway.py",
+          "ainativelang-1.8.0/tests/test_markdown_importer.py"
         ],
         "value": "github.com"
       },
       {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/VOC.yaml"
-        ],
-        "value": "host.robots.ox.ac.uk"
-      },
-      {
         "file_count": 3,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+          "ainativelang-1.8.0/adapters/solana.py",
+          "ainativelang-1.8.0/tests/test_solana_blockchain.py",
+          "ainativelang-1.8.0/tooling/canonical_training_pack.json"
         ],
-        "value": "hub.docker.com"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/engine/model.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/hub/session.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/hub/utils.py"
-        ],
-        "value": "hub.ultralytics.com"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/nn/modules/block.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/loss.py"
-        ],
-        "value": "ieeexplore.ieee.org"
+        "value": "hermes.pyth.network"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/data/scripts/get_imagenet.sh"
+          "ainativelang-1.8.0/adapters/solana.py"
         ],
-        "value": "image-net.org"
+        "value": "hermes.pyth.network``"
       },
       {
-        "file_count": 5,
+        "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco-pose.yaml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco.yaml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/lvis.yaml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/data/converter.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/data/scripts/get_coco.sh"
+          "ainativelang-1.8.0/tooling/canonical_training_pack.json"
         ],
-        "value": "images.cocodataset.org"
+        "value": "hook.example.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/tests/test_airtable_adapter_contracts.py"
+        ],
+        "value": "hooks.example.com"
       },
       {
         "file_count": 3,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO"
         ],
         "value": "img.shields.io"
       },
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+          "ainativelang-1.8.0/tooling/ainl_tool_api.schema.json",
+          "ainativelang-1.8.0/tooling/capabilities.schema.json"
         ],
-        "value": "kaggle.com"
+        "value": "json-schema.org"
       },
       {
-        "file_count": 3,
+        "file_count": 7,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+          "ainativelang-1.8.0/NOTICE",
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO",
+          "ainativelang-1.8.0/compiler_v2.py",
+          "ainativelang-1.8.0/pyproject.toml",
+          "ainativelang-1.8.0/tooling/project_provenance.json"
         ],
-        "value": "mybinder.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/engine/exporter.py"
-        ],
-        "value": "netron.app"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/__init__.py"
-        ],
-        "value": "o4504521589325824.ingest.us.sentry.io"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
-        ],
-        "value": "onnx.ai"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
-        ],
-        "value": "opencollective.com"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
-        ],
-        "value": "opensource.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/checks.py"
-        ],
-        "value": "org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/export/tensorflow.py"
-        ],
-        "value": "packages.cloud.google.com"
+        "value": "linkedin.com"
       },
       {
         "file_count": 4,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/callbacks/platform.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO",
+          "ainativelang-1.8.0/cli/main.py"
         ],
-        "value": "platform.ultralytics.com"
+        "value": "mermaid.live"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/export/tensorflow.py"
+          "ainativelang-1.8.0/runtime/adapters/http_machine_payments.py"
         ],
-        "value": "pypi.ngc.nvidia.com"
+        "value": "mpp.dev"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/adapters/email.py"
+        ],
+        "value": "myaccount.google.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/adapters/llm/ollama.py"
+        ],
+        "value": "ollama"
       },
       {
         "file_count": 4,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/checks.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/adapters/openclaw_integration.py",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO"
+        ],
+        "value": "openclaw.ai"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ainativelang-1.8.0/adapters/llm/openrouter.py",
+          "ainativelang-1.8.0/adapters/openclaw_integration.py",
+          "ainativelang-1.8.0/tests/test_cost_validator.py"
+        ],
+        "value": "openrouter.ai"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/tests/test_browser_adapter.py"
+        ],
+        "value": "other"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO"
         ],
         "value": "pypi.org"
       },
       {
-        "file_count": 6,
+        "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/__init__.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/export/torchscript.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/torch_utils.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+          "ainativelang-1.8.0/adapters/armaraos_integration.py"
         ],
-        "value": "pytorch.org"
+        "value": "raw.boot"
       },
       {
-        "file_count": 6,
+        "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/data/scripts/get_imagenet.sh",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/solutions/streamlit_inference.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/solutions/templates/similarity-search.html",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+          "ainativelang-1.8.0/compiler_v2.py"
+        ],
+        "value": "raw.endswith"
+      },
+      {
+        "file_count": 5,
+        "files": [
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO",
+          "ainativelang-1.8.0/tests/test_markdown_importer.py",
+          "ainativelang-1.8.0/tooling/markdown_importer.py"
         ],
         "value": "raw.githubusercontent.com"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/callbacks/platform.py"
+          "ainativelang-1.8.0/scripts/benchmark_size.py"
+        ],
+        "value": "raw.items"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/tooling/mcp_ecosystem_import.py"
+        ],
+        "value": "raw.lower"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/tooling/markdown_importer.py"
+        ],
+        "value": "raw.replace"
+      },
+      {
+        "file_count": 6,
+        "files": [
+          "ainativelang-1.8.0/cli/main.py",
+          "ainativelang-1.8.0/runtime/adapters/a2a.py",
+          "ainativelang-1.8.0/runtime/engine.py",
+          "ainativelang-1.8.0/scripts/benchmark_size.py",
+          "ainativelang-1.8.0/tooling/memory_migrate.py",
+          "ainativelang-1.8.0/tooling/security_report.py"
         ],
         "value": "raw.split"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/__init__.py"
+          "ainativelang-1.8.0/scripts/eval_finetuned_model.py"
         ],
-        "value": "ray.run"
+        "value": "raw.splitlines"
       },
       {
-        "file_count": 1,
+        "file_count": 11,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/data/loaders.py"
+          "ainativelang-1.8.0/armaraos/bridge/ainl_graph_memory.py",
+          "ainativelang-1.8.0/cli/main.py",
+          "ainativelang-1.8.0/compiler_v2.py",
+          "ainativelang-1.8.0/intelligence/context_firewall_audit.py",
+          "ainativelang-1.8.0/intelligence/ptc_to_langgraph_bridge.py",
+          "ainativelang-1.8.0/openclaw/bridge/bridge_token_budget_adapter.py",
+          "ainativelang-1.8.0/scripts/ainl_mcp_server.py",
+          "ainativelang-1.8.0/scripts/build_regression_supervision.py"
         ],
-        "value": "rr4---sn-q4flrnek.googlevideo.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/solutions/parking_management.py"
-        ],
-        "value": "self.tk.top"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/data/loaders.py"
-        ],
-        "value": "self.top"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/nn/backends/axelera.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/export/axelera.py"
-        ],
-        "value": "software.axelera.ai"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
-        ],
-        "value": "static.pepy.tech"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/open-images-v7.yaml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/checks.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/uploads.py"
-        ],
-        "value": "storage.googleapis.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/data/converter.py"
-        ],
-        "value": "tech.amikelive.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/SKU-110K.yaml"
-        ],
-        "value": "trax-geometry.s3.amazonaws.com"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
-        ],
-        "value": "twitter.com"
-      },
-      {
-        "file_count": 332,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/pyproject.toml",
-          "ultralytics_opencv_headless-8.4.42/tests/__init__.py",
-          "ultralytics_opencv_headless-8.4.42/tests/conftest.py",
-          "ultralytics_opencv_headless-8.4.42/tests/test_cli.py",
-          "ultralytics_opencv_headless-8.4.42/tests/test_cuda.py",
-          "ultralytics_opencv_headless-8.4.42/tests/test_engine.py"
-        ],
-        "value": "ultralytics.com"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/__init__.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/checks.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/downloads.py"
-        ],
-        "value": "url.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/dog-pose.yaml"
-        ],
-        "value": "vision.stanford.edu"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/Argoverse.yaml"
-        ],
-        "value": "www.cs.cmu.edu"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/downloads.py"
-        ],
-        "value": "www.example.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/GlobalWheat2020.yaml"
-        ],
-        "value": "www.global-wheat.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/LICENSE"
-        ],
-        "value": "www.gnu.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/events.py"
-        ],
-        "value": "www.google-analytics.com"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/ImageNet.yaml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
-        ],
-        "value": "www.image-net.org"
+        "value": "raw.strip"
       },
       {
         "file_count": 7,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco128-seg.yaml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco128.yaml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/data/scripts/get_coco128.sh",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/__init__.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+          "ainativelang-1.8.0/NOTICE",
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO",
+          "ainativelang-1.8.0/compiler_v2.py",
+          "ainativelang-1.8.0/tests/test_conformance.py",
+          "ainativelang-1.8.0/tooling/project_provenance.json"
         ],
-        "value": "www.kaggle.com"
+        "value": "stevenhooley.com"
       },
       {
         "file_count": 3,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO"
         ],
-        "value": "www.linkedin.com"
+        "value": "t.me"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/lvis.yaml"
+          "ainativelang-1.8.0/tests/test_a2a_adapter.py"
         ],
-        "value": "www.lvisdataset.org"
+        "value": "trap.example.com"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/Objects365.yaml"
+          "ainativelang-1.8.0/scripts/run_tests_and_emit.py"
         ],
-        "value": "www.objects365.org"
+        "value": "unpkg.com"
       },
       {
-        "file_count": 4,
+        "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/solutions/parking_management.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+          "ainativelang-1.8.0/LICENSE"
         ],
-        "value": "www.python.org"
+        "value": "www.apache.org"
+      },
+      {
+        "file_count": 7,
+        "files": [
+          "ainativelang-1.8.0/NOTICE",
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO",
+          "ainativelang-1.8.0/compiler_v2.py",
+          "ainativelang-1.8.0/pyproject.toml",
+          "ainativelang-1.8.0/tooling/project_provenance.json"
+        ],
+        "value": "x.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/tests/test_supabase_adapter_contracts.py"
+        ],
+        "value": "x.supabase.co"
       },
       {
         "file_count": 3,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO"
         ],
-        "value": "www.reddit.com"
+        "value": "your-project.supabase.co"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/data/scripts/get_coco.sh"
+          "ainativelang-1.8.0/scripts/http_machine_payment_demo_server.py"
         ],
-        "value": "www.sama.com"
+        "value": "{args.host"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/torch_utils.py"
+          "ainativelang-1.8.0/scripts/mock_executor_bridge.py",
+          "ainativelang-1.8.0/tests/test_a2a_adapter_integration.py"
         ],
-        "value": "www.tensorflow.org"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
-        ],
-        "value": "www.tiktok.com"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/plotting.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
-        ],
-        "value": "www.ultralytics.com"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/data/loaders.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
-        ],
-        "value": "www.youtube.com"
-      },
-      {
-        "file_count": 5,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/tests/test_python.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/__init__.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/data/loaders.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/engine/predictor.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/__init__.py"
-        ],
-        "value": "youtu.be"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/GlobalWheat2020.yaml"
-        ],
-        "value": "zenodo.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/hub/google/__init__.py"
-        ],
-        "value": "{region"
+        "value": "{host"
       }
     ],
     "raw_public_ips": [],
@@ -818,729 +517,751 @@
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/__init__.py"
+          "ainativelang-1.8.0/tooling/markdown_importer.py"
         ],
-        "value": "https://888e5a0778212e1d0314c37d4b9aae5d@o4504521589325824.ingest.us.sentry.io/4504521592406016"
+        "value": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-frontend-developer.md"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/data/scripts/get_imagenet.sh"
+          "ainativelang-1.8.0/tooling/markdown_importer.py"
         ],
-        "value": "https://raw.githubusercontent.com/soumith/imagenetloader.torch/master/valprep.sh"
+        "value": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/specialized/accounts-payable-agent.md"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/data/scripts/get_imagenet.sh"
+          "ainativelang-1.8.0/tooling/markdown_importer.py"
         ],
-        "value": "https://raw.githubusercontent.com/tensorflow/models/master/research/slim/datasets/imagenet_lsvrc_2015_synsets.txt"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
-        ],
-        "value": "https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png"
+        "value": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/specialized/agents-orchestrator.md"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/solutions/streamlit_inference.py"
+          "ainativelang-1.8.0/tooling/markdown_importer.py"
         ],
-        "value": "https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg"
+        "value": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/specialized/specialized-mcp-builder.md"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/solutions/templates/similarity-search.html"
+          "ainativelang-1.8.0/tooling/markdown_importer.py"
         ],
-        "value": "https://raw.githubusercontent.com/ultralytics/assets/main/logo/favicon.png"
+        "value": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/specialized/specialized-workflow-architect.md"
       },
       {
-        "file_count": 3,
+        "file_count": 4,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO",
+          "ainativelang-1.8.0/tooling/markdown_importer.py"
         ],
-        "value": "https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
-        ],
-        "value": "https://raw.githubusercontent.com/ultralytics/assets/refs/heads/main/yolo/performance-comparison.png"
+        "value": "https://raw.githubusercontent.com/nikilster/clawflows/main/workflows/available/community/check-calendar/WORKFLOW.md"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/data/loaders.py"
+          "ainativelang-1.8.0/tooling/markdown_importer.py"
         ],
-        "value": "https://rr4---sn-q4flrnek.googlevideo.com/videoplayback?expire="
+        "value": "https://raw.githubusercontent.com/nikilster/clawflows/main/workflows/available/community/check-email/WORKFLOW.md"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/__init__.py"
+          "ainativelang-1.8.0/tooling/markdown_importer.py"
         ],
-        "value": "o4504521589325824.ingest.us.sentry.io"
+        "value": "https://raw.githubusercontent.com/nikilster/clawflows/main/workflows/available/community/morning-journal/WORKFLOW.md"
       },
       {
-        "file_count": 6,
+        "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/data/scripts/get_imagenet.sh",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/solutions/streamlit_inference.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/solutions/templates/similarity-search.html",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+          "ainativelang-1.8.0/tooling/markdown_importer.py"
+        ],
+        "value": "https://raw.githubusercontent.com/nikilster/clawflows/main/workflows/available/community/plan-week/WORKFLOW.md"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/tooling/markdown_importer.py"
+        ],
+        "value": "https://raw.githubusercontent.com/nikilster/clawflows/main/workflows/available/community/prep-tomorrow/WORKFLOW.md"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/tooling/markdown_importer.py"
+        ],
+        "value": "https://raw.githubusercontent.com/{org"
+      },
+      {
+        "file_count": 5,
+        "files": [
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO",
+          "ainativelang-1.8.0/tests/test_markdown_importer.py",
+          "ainativelang-1.8.0/tooling/markdown_importer.py"
         ],
         "value": "raw.githubusercontent.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/data/loaders.py"
-        ],
-        "value": "rr4---sn-q4flrnek.googlevideo.com"
       }
     ],
     "urls": [
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/VOC.yaml"
+          "ainativelang-1.8.0/tooling/canonical_training_pack.json"
         ],
-        "value": "http://host.robots.ox.ac.uk/pascal/VOC"
+        "value": "http://example.com/\\\\\\"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/data/converter.py"
+          "ainativelang-1.8.0/tests/test_ptc_runner_subprocess.py"
         ],
-        "value": "http://images.cocodataset.org"
+        "value": "http://example.com/run"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/data/scripts/get_coco.sh"
+          "ainativelang-1.8.0/adapters/llm/ollama.py"
         ],
-        "value": "http://images.cocodataset.org/zips/"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco-pose.yaml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco.yaml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/lvis.yaml"
-        ],
-        "value": "http://images.cocodataset.org/zips/test2017.zip"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco-pose.yaml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco.yaml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/lvis.yaml"
-        ],
-        "value": "http://images.cocodataset.org/zips/train2017.zip"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco-pose.yaml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco.yaml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/lvis.yaml"
-        ],
-        "value": "http://images.cocodataset.org/zips/val2017.zip"
+        "value": "http://ollama:11434"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/SKU-110K.yaml"
+          "ainativelang-1.8.0/tests/test_browser_adapter.py"
         ],
-        "value": "http://trax-geometry.s3.amazonaws.com/cvpr_challenge/SKU110K_fixed.tar.gz"
+        "value": "http://other:1234"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/dog-pose.yaml"
+          "ainativelang-1.8.0/tests/test_browser_adapter.py"
         ],
-        "value": "http://vision.stanford.edu/aditya86/ImageNetDogs/"
+        "value": "http://other:1234/mcp"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/lvis.yaml"
+          "ainativelang-1.8.0/LICENSE"
         ],
-        "value": "http://www.lvisdataset.org"
+        "value": "http://www.apache.org/licenses/"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/__init__.py"
+          "ainativelang-1.8.0/LICENSE"
         ],
-        "value": "https://888e5a0778212e1d0314c37d4b9aae5d@o4504521589325824.ingest.us.sentry.io/4504521592406016"
+        "value": "http://www.apache.org/licenses/LICENSE-2.0"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/engine/exporter.py"
+          "ainativelang-1.8.0/scripts/http_machine_payment_demo_server.py"
         ],
-        "value": "https://ai.google.dev/edge/litert/models/metadata"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/data/augment.py"
-        ],
-        "value": "https://albumentations.ai/docs/getting_started/transforms_and_targets/#spatial-level-transforms"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
-        ],
-        "value": "https://anaconda.org/conda-forge/ultralytics"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/logger.py"
-        ],
-        "value": "https://api.example.com/logs"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/downloads.py"
-        ],
-        "value": "https://api.github.com/repos/{repo"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/hub/utils.py"
-        ],
-        "value": "https://api.ultralytics.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/Argoverse.yaml"
-        ],
-        "value": "https://argoverse-hd.s3.us-east-2.amazonaws.com/Argoverse-HD-Full.zip"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/nn/modules/block.py"
-        ],
-        "value": "https://arxiv.org/abs/1406.4729"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/nn/modules/block.py"
-        ],
-        "value": "https://arxiv.org/abs/1605.08803"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/data/augment.py"
-        ],
-        "value": "https://arxiv.org/abs/1710.09412"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/data/augment.py"
-        ],
-        "value": "https://arxiv.org/abs/1905.04899"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/metrics.py"
-        ],
-        "value": "https://arxiv.org/abs/1911.08287v1"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/models/v8/yolov8-ghost-p2.yaml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/models/v8/yolov8-ghost-p6.yaml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/models/v8/yolov8-ghost.yaml"
-        ],
-        "value": "https://arxiv.org/abs/1911.11907v2"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/loss.py"
-        ],
-        "value": "https://arxiv.org/abs/2008.13367"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/nn/modules/transformer.py"
-        ],
-        "value": "https://arxiv.org/abs/2010.11929"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/data/augment.py"
-        ],
-        "value": "https://arxiv.org/abs/2012.07177"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/loss.py"
-        ],
-        "value": "https://arxiv.org/abs/2107.11291"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/models/sam/sam3/vitdet.py"
-        ],
-        "value": "https://arxiv.org/abs/2203.16527"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/models/sam/modules/encoders.py"
-        ],
-        "value": "https://arxiv.org/abs/2311.05613"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/torch_utils.py"
-        ],
-        "value": "https://arxiv.org/pdf/1812.01187.pdf"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/metrics.py"
-        ],
-        "value": "https://arxiv.org/pdf/1902.09630.pdf"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/nms.py"
-        ],
-        "value": "https://arxiv.org/pdf/1904.02689"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/metrics.py"
-        ],
-        "value": "https://arxiv.org/pdf/2106.06072.pdf"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/metrics.py"
-        ],
-        "value": "https://arxiv.org/pdf/2106.06072v1.pdf"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/models/rtdetr/model.py"
-        ],
-        "value": "https://arxiv.org/pdf/2304.08069.pdf"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/nn/modules/head.py"
-        ],
-        "value": "https://arxiv.org/pdf/2405.14458"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
-        ],
-        "value": "https://assets.paperspace.io/img/gradient-badge.svg"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
-        ],
-        "value": "https://aws.amazon.com/ec2/instance-types/p4/"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
-        ],
-        "value": "https://captain-whu.github.io/DOTA/dataset.html"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
-        ],
-        "value": "https://captain-whu.github.io/DOTA/evaluation.html"
+        "value": "http://{args.host"
       },
       {
         "file_count": 2,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/DOTAv1.5.yaml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/DOTAv1.yaml"
+          "ainativelang-1.8.0/scripts/mock_executor_bridge.py",
+          "ainativelang-1.8.0/tests/test_a2a_adapter_integration.py"
         ],
-        "value": "https://captain-whu.github.io/DOTA/index.html"
+        "value": "http://{host"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/tests/test_integrations.py"
+          "ainativelang-1.8.0/tests/test_browser_adapter.py"
         ],
-        "value": "https://catalog.ngc.nvidia.com/orgs/nvidia/containers/tritonserver"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/tests/test_python.py"
-        ],
-        "value": "https://cdn.jsdelivr.net/gh/ultralytics/assets@main/im/boats.jpg"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/tests/test_python.py"
-        ],
-        "value": "https://cdn.jsdelivr.net/gh/ultralytics/assets@main/im/zidane.jpg?token=123"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/TT100K.yaml"
-        ],
-        "value": "https://cg.cs.tsinghua.edu.cn/traffic-sign/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/TT100K.yaml"
-        ],
-        "value": "https://cg.cs.tsinghua.edu.cn/traffic-sign/data_model_code/data.zip"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/TT100K.yaml"
-        ],
-        "value": "https://cg.cs.tsinghua.edu.cn/traffic-sign/tutorial.html"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/xView.yaml"
-        ],
-        "value": "https://challenge.xviewdataset.org"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
-        ],
-        "value": "https://clickpy.clickhouse.com/dashboard/ultralytics"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco-pose.yaml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco.yaml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/data/scripts/get_coco.sh"
-        ],
-        "value": "https://cocodataset.org"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
-        ],
-        "value": "https://cocodataset.org/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco-pose.yaml"
-        ],
-        "value": "https://codalab.lisn.upsaclay.fr/competitions/7403"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
-        ],
-        "value": "https://colab.research.google.com/assets/colab-badge.svg"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
-        ],
-        "value": "https://colab.research.google.com/github/ultralytics/ultralytics/blob/main/examples/tutorial.ipynb"
+        "value": "https://a"
       },
       {
         "file_count": 2,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/__init__.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/__init__.py"
+          "ainativelang-1.8.0/tests/test_a2a_adapter.py",
+          "ainativelang-1.8.0/tests/test_strict_adapter_contracts.py"
         ],
-        "value": "https://community.ultralytics.com"
+        "value": "https://a.example.com"
       },
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+          "ainativelang-1.8.0/tests/test_a2a_adapter.py",
+          "ainativelang-1.8.0/tests/test_strict_adapter_contracts.py"
         ],
-        "value": "https://community.ultralytics.com/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco.yaml"
-        ],
-        "value": "https://competitions.codalab.org/competitions/20794"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
-        ],
-        "value": "https://console.paperspace.com/github/ultralytics/ultralytics"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/engine/exporter.py"
-        ],
-        "value": "https://coral.ai/docs/edgetpu/compiler"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/export/tensorflow.py"
-        ],
-        "value": "https://coral.ai/docs/edgetpu/compiler/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/engine/exporter.py"
-        ],
-        "value": "https://coral.ai/docs/edgetpu/models-intro/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/xView.yaml"
-        ],
-        "value": "https://d307kc0mrhucc3.cloudfront.net/train_images.zip"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/xView.yaml"
-        ],
-        "value": "https://d307kc0mrhucc3.cloudfront.net/train_labels.zip"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/xView.yaml"
-        ],
-        "value": "https://d307kc0mrhucc3.cloudfront.net/val_images.zip"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/engine/exporter.py"
-        ],
-        "value": "https://developer.aitrios.sony-semicon.com/en/docs/raspberry-pi-ai-camera/imx500-converter?version=3.17.3&progLang="
+        "value": "https://a.example.com/a2a"
       },
       {
         "file_count": 4,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/engine/exporter.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO",
+          "ainativelang-1.8.0/pyproject.toml"
         ],
-        "value": "https://developer.nvidia.com/tensorrt"
+        "value": "https://ainativelang.com"
       },
       {
         "file_count": 3,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO"
         ],
-        "value": "https://discord.com/invite/ultralytics"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/nn/text_model.py"
-        ],
-        "value": "https://docs-assets.developer.apple.com/ml-research/datasets/mobileclip/{file"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/callbacks/raytune.py"
-        ],
-        "value": "https://docs.ray.io/en/latest/tune/index.html"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/trackers/utils/matching.py"
-        ],
-        "value": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.linear_sum_assignment.html"
-      },
-      {
-        "file_count": 9,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/pyproject.toml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/__init__.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/engine/exporter.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/engine/model.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/engine/trainer.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/__init__.py",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/torch_utils.py"
-        ],
-        "value": "https://docs.ultralytics.com"
+        "value": "https://ainativelang.com/"
       },
       {
         "file_count": 3,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO"
         ],
-        "value": "https://docs.ultralytics.com/"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
-        ],
-        "value": "https://docs.ultralytics.com/ar/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/data/utils.py"
-        ],
-        "value": "https://docs.ultralytics.com/datasets"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/data/utils.py"
-        ],
-        "value": "https://docs.ultralytics.com/datasets/classify/"
+        "value": "https://ainativelang.com/benchmark"
       },
       {
         "file_count": 4,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/ImageNet.yaml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO",
+          "ainativelang-1.8.0/cli/main.py"
         ],
-        "value": "https://docs.ultralytics.com/datasets/classify/imagenet/"
+        "value": "https://ainativelang.com/docs"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO"
+        ],
+        "value": "https://ainativelang.com/install"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO"
+        ],
+        "value": "https://ainativelang.com/mcp"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO"
+        ],
+        "value": "https://ainativelang.com/quickstart"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO"
+        ],
+        "value": "https://ainativelang.com/what-is-ainl"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/african-wildlife.yaml"
+          "ainativelang-1.8.0/cli/main.py"
         ],
-        "value": "https://docs.ultralytics.com/datasets/detect/african-wildlife/"
+        "value": "https://ainativelang.com/whitepaper"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/Argoverse.yaml"
+          "ainativelang-1.8.0/tooling/ainl_tool_api.schema.json"
         ],
-        "value": "https://docs.ultralytics.com/datasets/detect/argoverse/"
+        "value": "https://ainl.dev/tooling/ainl_tool_api.schema.json"
       },
       {
         "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/brain-tumor.yaml"
+          "ainativelang-1.8.0/tooling/capabilities.schema.json"
         ],
-        "value": "https://docs.ultralytics.com/datasets/detect/brain-tumor/"
+        "value": "https://ainl.dev/tooling/capabilities.schema.json"
       },
       {
-        "file_count": 5,
+        "file_count": 1,
         "files": [
-          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
-          "ultralytics_opencv_headless-8.4.42/README.md",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco.yaml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco128.yaml",
-          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+          "ainativelang-1.8.0/adapters/airtable/adapter.py"
         ],
-        "value": "https://docs.ultralytics.com/datasets/detect/coco/"
+        "value": "https://api.airtable.com{path"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/adapters/airtable/adapter.py"
+        ],
+        "value": "https://api.airtable.com{self._tbl_path(table"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/adapters/llm/anthropic.py"
+        ],
+        "value": "https://api.anthropic.com/v1"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/adapters/llm/cohere.py"
+        ],
+        "value": "https://api.cohere.ai/v1"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ainativelang-1.8.0/adapters/solana.py",
+          "ainativelang-1.8.0/compiler_v2.py",
+          "ainativelang-1.8.0/tooling/canonical_training_pack.json"
+        ],
+        "value": "https://api.devnet.solana.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/compiler_v2.py"
+        ],
+        "value": "https://api.devnet.solana.com\\n"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/scripts/generate_corpus.py"
+        ],
+        "value": "https://api.example.com/data"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/scripts/generate_corpus.py"
+        ],
+        "value": "https://api.example.com/submit"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/adapters/github.py"
+        ],
+        "value": "https://api.github.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/adapters/embedding_memory.py"
+        ],
+        "value": "https://api.openai.com/v1"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/intelligence/monitor/alerts/telegram.py"
+        ],
+        "value": "https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/scripts/generate_corpus.py"
+        ],
+        "value": "https://api.test"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/tests/test_browser_adapter.py"
+        ],
+        "value": "https://b"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/scripts/visualize_ainl.py"
+        ],
+        "value": "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/LICENSE.docs"
+        ],
+        "value": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/LICENSE.docs"
+        ],
+        "value": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/tests/test_solana_blockchain.py"
+        ],
+        "value": "https://custom.hermes.test"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/runtime/adapters/http_machine_payments.py"
+        ],
+        "value": "https://docs.x402.org/core-concepts/http-402"
+      },
+      {
+        "file_count": 11,
+        "files": [
+          "ainativelang-1.8.0/adapters/browser.py",
+          "ainativelang-1.8.0/tests/test_browser_adapter.py",
+          "ainativelang-1.8.0/tests/test_compact_opcode_ir_parity.py",
+          "ainativelang-1.8.0/tests/test_compact_preprocess.py",
+          "ainativelang-1.8.0/tests/test_emit_armaraos_handpack.py",
+          "ainativelang-1.8.0/tests/test_host_adapter_allowlist_env.py",
+          "ainativelang-1.8.0/tests/test_http_adapter_contracts.py",
+          "ainativelang-1.8.0/tests/test_policy_validator.py"
+        ],
+        "value": "https://example.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/tooling/canonical_training_pack.json"
+        ],
+        "value": "https://example.com/\\"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "ainativelang-1.8.0/scripts/ainl_mcp_server.py",
+          "ainativelang-1.8.0/tooling/ainl_get_started.py"
+        ],
+        "value": "https://example.com/api?x=1"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ainativelang-1.8.0/tooling/benchmark_runtime_ci.json",
+          "ainativelang-1.8.0/tooling/benchmark_runtime_results.json",
+          "ainativelang-1.8.0/tooling/canonical_training_pack.json"
+        ],
+        "value": "https://example.com/automation\\"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ainativelang-1.8.0/tooling/benchmark_runtime_ci.json",
+          "ainativelang-1.8.0/tooling/benchmark_runtime_results.json",
+          "ainativelang-1.8.0/tooling/canonical_training_pack.json"
+        ],
+        "value": "https://example.com/products\\"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "ainativelang-1.8.0/tests/test_http_adapter_contracts.py",
+          "ainativelang-1.8.0/tests/test_http_machine_payments.py"
+        ],
+        "value": "https://example.com/r"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ainativelang-1.8.0/tests/test_mcp_exposure_scoping.py",
+          "ainativelang-1.8.0/tests/test_mcp_server.py",
+          "ainativelang-1.8.0/tooling/canonical_training_pack.json"
+        ],
+        "value": "https://example.com\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/tests/test_airtable_adapter_contracts.py"
+        ],
+        "value": "https://files.example.com/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/tests/test_strict_adapter_contracts.py"
+        ],
+        "value": "https://files.example.com/a"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/tests/test_airtable_adapter_contracts.py"
+        ],
+        "value": "https://files.example.com/a.bin"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/scripts/run_tests_and_emit.py"
+        ],
+        "value": "https://fonts.googleapis.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/scripts/run_tests_and_emit.py"
+        ],
+        "value": "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/scripts/run_tests_and_emit.py"
+        ],
+        "value": "https://fonts.gstatic.com"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/adapters/code_context.py",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/BradyD2003/ctxzip"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/NousResearch/hermes-agent"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/RightNow-AI/openfang"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/adapters/code_context.py",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/chrismicah/forgeindex"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/cli/main.py"
+        ],
+        "value": "https://github.com/msitarzewski/agency-agents"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/cli/main.py"
+        ],
+        "value": "https://github.com/nikilster/clawflows"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/tests/test_markdown_importer.py"
+        ],
+        "value": "https://github.com/nikilster/clawflows/blob/main/workflows/foo/WORKFLOW.md"
+      },
+      {
+        "file_count": 6,
+        "files": [
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO",
+          "ainativelang-1.8.0/pyproject.toml",
+          "ainativelang-1.8.0/tests/test_apollo_x_gateway.py",
+          "ainativelang-1.8.0/tooling/markdown_importer.py"
+        ],
+        "value": "https://github.com/sbhooley/ainativelang"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/sbhooley/ainativelang.git"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/sbhooley/ainativelang/actions/workflows/sync-ecosystem.yml"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/sbhooley/ainativelang/actions/workflows/sync-ecosystem.yml/badge.svg"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/sbhooley/ainativelang/discussions"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/sbhooley/ainativelang/tags"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/sbhooley/ainativelang/tree/main/skills/ainl"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/sbhooley/ainativelang/tree/main/skills/ainl`"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/sbhooley/ainativelang/tree/main/skills/openclaw"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/sbhooley/ainl-openclaw-skill"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/sbhooley/ainl-zeroclaw-skill`"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/sbhooley/armaraos/blob/main/PRIOR_ART.md"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ainativelang-1.8.0/adapters/solana.py",
+          "ainativelang-1.8.0/tests/test_solana_blockchain.py",
+          "ainativelang-1.8.0/tooling/canonical_training_pack.json"
+        ],
+        "value": "https://hermes.pyth.network"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/adapters/solana.py"
+        ],
+        "value": "https://hermes.pyth.network``"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/tooling/canonical_training_pack.json"
+        ],
+        "value": "https://hook.example.com/alert\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ainativelang-1.8.0/tests/test_airtable_adapter_contracts.py"
+        ],
+        "value": "https://hooks.example.com/airtable"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/badge/AI%20workflow-language-brightgreen"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/badge/Hermes%20Agent-AINL-blue"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ainativelang-1.8.0/PKG-INFO",
+          "ainativelang-1.8.0/README.md",
+          "ainativelang-1.8.0/ainativelang.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/badge/MCP-v1%20server-blueviolet"
       }
     ]
   },
-  "package": "ultralytics-opencv-headless",
-  "package_slug": "ultralytics-opencv-headless",
-  "project_url": "https://pypi.org/project/ultralytics-opencv-headless/",
+  "package": "ainativelang",
+  "package_slug": "ainativelang",
+  "project_url": "https://pypi.org/project/ainativelang/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T15:48:06.953643+00:00",
-  "risk": "low",
-  "scanned_at": "2026-04-27T15:49:04.217959+00:00",
-  "title": "Personal PyPI Supply Chain Scan: ultralytics-opencv-headless 8.4.42",
-  "version": "8.4.42",
-  "version_slug": "8.4.42",
-  "_metadata_path": "reports/packages/ultralytics-opencv-headless/8.4.42/metadata.json"
+  "published_at": "2026-04-27T15:52:49.881094+00:00",
+  "risk": "info",
+  "scanned_at": "2026-04-27T15:53:30.401557+00:00",
+  "title": "Personal PyPI Supply Chain Scan: ainativelang 1.8.0",
+  "version": "1.8.0",
+  "version_slug": "1.8.0",
+  "_metadata_path": "reports/packages/ainativelang/1.8.0/metadata.json"
 }
