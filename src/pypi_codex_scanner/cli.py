@@ -4,6 +4,7 @@ from pathlib import Path
 import argparse
 import json
 import sys
+import time
 
 from .cleanup import cleanup_scan_artifacts
 from .config import load_config, write_default_config
@@ -19,6 +20,7 @@ from .usage import check_usage_gate
 
 
 def main(argv: list[str] | None = None) -> int:
+    _configure_output_buffering()
     parser = argparse.ArgumentParser(prog="pypi-llm-scanner")
     subparsers = parser.add_subparsers(dest="command", required=True)
 
@@ -29,6 +31,8 @@ def main(argv: list[str] | None = None) -> int:
     run_parser.add_argument("--config", type=Path, default=Path("scanner.toml"))
     run_parser.add_argument("--force", action="store_true", help="Ignore configured crawl and scan time windows.")
     run_parser.add_argument("--dry-run", action="store_true", help="Fetch RSS and resolve packages, but do not extract or scan.")
+    run_parser.add_argument("--loop", action="store_true", help="Run forever, sleeping between scan cycles.")
+    run_parser.add_argument("--sleep-seconds", type=int, default=None, help="Override [run].sleep_seconds for --loop.")
 
     pages_parser = subparsers.add_parser("build-pages")
     pages_parser.add_argument("--config", type=Path, default=Path("scanner.toml"))
@@ -46,7 +50,9 @@ def main(argv: list[str] | None = None) -> int:
         print(f"Wrote {args.path}")
         return 0
     if args.command == "run":
-        return _run(args.config, force=args.force, dry_run=args.dry_run)
+        if args.loop:
+            return _run_loop(args.config, force=args.force, dry_run=args.dry_run, sleep_seconds=args.sleep_seconds)
+        return _run_once(args.config, force=args.force, dry_run=args.dry_run)
     if args.command == "build-pages":
         config = load_config(args.config)
         site_dir = args.site_dir or config.paths.site_dir
@@ -66,7 +72,23 @@ def main(argv: list[str] | None = None) -> int:
     return 2
 
 
-def _run(config_path: Path, *, force: bool, dry_run: bool) -> int:
+def _run_loop(config_path: Path, *, force: bool, dry_run: bool, sleep_seconds: int | None) -> int:
+    config = load_config(config_path)
+    delay = max(1, sleep_seconds if sleep_seconds is not None else config.run.sleep_seconds)
+    print(f"loop start config={config_path} sleep_seconds={delay}")
+    try:
+        while True:
+            started = schedule_now(config.schedule)
+            print(f"loop cycle start at {started.isoformat()}")
+            _run_once(config_path, force=force, dry_run=dry_run)
+            print(f"loop sleep {delay} seconds")
+            time.sleep(delay)
+    except KeyboardInterrupt:
+        print("loop stopped by keyboard interrupt")
+        return 130
+
+
+def _run_once(config_path: Path, *, force: bool, dry_run: bool) -> int:
     config = load_config(config_path)
     now = schedule_now(config.schedule)
     if not force and not is_allowed(now, config.schedule.crawl_windows):
@@ -184,6 +206,12 @@ def _colorize_risk(text: str, risk: str) -> str:
     if risk in {"low", "info"}:
         return f"\033[32m{text}\033[0m"
     return text
+
+
+def _configure_output_buffering() -> None:
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, "reconfigure"):
+            stream.reconfigure(line_buffering=True)
 
 
 if __name__ == "__main__":

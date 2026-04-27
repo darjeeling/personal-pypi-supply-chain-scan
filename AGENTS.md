@@ -73,6 +73,7 @@ Do not elevate ordinary CLI behavior, normal SDK/API calls, expected environment
 - Keep LLM concurrency at 1 unless explicitly changed.
 - Keep `max_scans_per_run` and `max_llm_calls_per_run` configurable.
 - Log usage gate decisions and one-line scan summaries so unattended runs are reviewable from logs.
+- `run` is one-shot by default; `run --loop` should keep cycling forever and use `[run].sleep_seconds` unless `--sleep-seconds` overrides it.
 
 ## Cleanup
 

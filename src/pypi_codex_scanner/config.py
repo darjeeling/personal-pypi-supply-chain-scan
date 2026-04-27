@@ -12,6 +12,9 @@ timezone = "Asia/Seoul"
 crawl_windows = ["09:00-18:00"]
 scan_windows = ["09:00-18:00"]
 
+[run]
+sleep_seconds = 1800
+
 [limits]
 max_updates = 10
 max_scans_per_run = 3
@@ -71,6 +74,11 @@ class ScheduleConfig:
     @property
     def tzinfo(self) -> ZoneInfo:
         return ZoneInfo(self.timezone)
+
+
+@dataclass(frozen=True)
+class RunConfig:
+    sleep_seconds: int = 1800
 
 
 @dataclass(frozen=True)
@@ -139,6 +147,7 @@ class UsageGateConfig:
 class AppConfig:
     rss_url: str = DEFAULT_RSS_URL
     schedule: ScheduleConfig = field(default_factory=ScheduleConfig)
+    run: RunConfig = field(default_factory=RunConfig)
     limits: LimitsConfig = field(default_factory=LimitsConfig)
     paths: PathsConfig = field(default_factory=PathsConfig)
     publish: PublishConfig = field(default_factory=PublishConfig)
@@ -158,6 +167,7 @@ def load_config(path: Path) -> AppConfig:
     return AppConfig(
         rss_url=data.get("rss_url", DEFAULT_RSS_URL),
         schedule=ScheduleConfig(**data.get("schedule", {})),
+        run=RunConfig(**data.get("run", {})),
         limits=LimitsConfig(**data.get("limits", {})),
         paths=PathsConfig(
             state_db=_resolve_path(root, paths_data.get("state_db", "data/state.sqlite3")),

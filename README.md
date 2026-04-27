@@ -49,6 +49,7 @@ brew install ast-grep
 ```bash
 uv run pypi-llm-scanner init-config
 uv run pypi-llm-scanner run --config scanner.toml
+uv run pypi-llm-scanner run --config scanner.toml --loop
 uv run pypi-llm-scanner build-pages --config scanner.toml --site-dir site
 uv run pypi-llm-scanner publish-pages --config scanner.toml --branch gh-pages
 ```
@@ -64,6 +65,9 @@ Example `scanner.toml`:
 timezone = "Asia/Seoul"
 crawl_windows = ["09:00-18:00"]
 scan_windows = ["09:00-18:00"]
+
+[run]
+sleep_seconds = 1800
 
 [limits]
 max_updates = 10
@@ -108,6 +112,8 @@ docker_prune = false
 ```
 
 Empty schedule windows mean always allowed.
+
+`run` is a single scan cycle by default. Add `--loop` to keep running forever and sleep between cycles. The loop delay comes from `[run].sleep_seconds` and can be overridden with `--sleep-seconds`.
 
 The primary 5-hour usage window uses a remaining-percent threshold. The secondary weekly usage window is treated as a conservative daily budget: `100 / secondary_daily_budget_divisor` percent per elapsed day in the current secondary window, with at least one day of budget allowed.
 

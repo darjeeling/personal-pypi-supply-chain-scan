@@ -3,6 +3,9 @@ timezone = "Asia/Seoul"
 crawl_windows = ["09:00-18:00"]
 scan_windows = ["09:00-18:00"]
 
+[run]
+sleep_seconds = 1800
+
 [limits]
 max_updates = 10
 max_scans_per_run = 3
