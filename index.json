@@ -1,6 +1,87 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "memographix-0.1.6.tar.gz",
+    "finding_count": 26,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "memographix-0.1.6/crates/memographix-core/src/lib.rs"
+          ],
+          "value": "files.push"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "memographix-0.1.6/PKG-INFO",
+            "memographix-0.1.6/crates/memographix-core/Cargo.lock",
+            "memographix-0.1.6/crates/memographix-core/Cargo.toml",
+            "memographix-0.1.6/pyproject.toml"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "memographix-0.1.6/python/memographix/config.py"
+          ],
+          "value": "raw.items"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "memographix-0.1.6/crates/memographix-core/src/lib.rs"
+          ],
+          "value": "raw.trim"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 3,
+          "files": [
+            "memographix-0.1.6/PKG-INFO",
+            "memographix-0.1.6/crates/memographix-core/Cargo.toml",
+            "memographix-0.1.6/pyproject.toml"
+          ],
+          "value": "https://github.com/coderalnaim/memographix"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "memographix-0.1.6/PKG-INFO",
+            "memographix-0.1.6/pyproject.toml"
+          ],
+          "value": "https://github.com/coderalnaim/memographix/issues"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "memographix-0.1.6/crates/memographix-core/Cargo.lock"
+          ],
+          "value": "https://github.com/rust-lang/crates.io-index"
+        }
+      ]
+    },
+    "package": "memographix",
+    "package_slug": "memographix",
+    "project_url": "https://pypi.org/project/memographix/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T12:56:02.045899+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T12:57:50.847926+00:00",
+    "title": "Personal PyPI Supply Chain Scan: memographix 0.1.6",
+    "version": "0.1.6",
+    "version_slug": "0.1.6",
+    "_metadata_path": "reports/packages/memographix/0.1.6/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "g3tables-0.2.18.tar.gz",
     "finding_count": 2,
     "model": "gpt-5.5",
