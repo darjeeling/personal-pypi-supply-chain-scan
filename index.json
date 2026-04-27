@@ -1,6 +1,53 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "occam_gitignore-0.1.0-py3-none-any.whl",
+    "finding_count": 2,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "occam_gitignore-0.1.0.dist-info/METADATA"
+          ],
+          "value": "github.com"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "occam_gitignore-0.1.0.dist-info/METADATA"
+          ],
+          "value": "https://github.com/fabriziosalmi/gitignore"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "occam_gitignore-0.1.0.dist-info/METADATA"
+          ],
+          "value": "https://github.com/fabriziosalmi/gitignore/issues"
+        }
+      ]
+    },
+    "package": "occam-gitignore",
+    "package_slug": "occam-gitignore",
+    "project_url": "https://pypi.org/project/occam-gitignore/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T10:49:44.414563+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T10:50:22.345605+00:00",
+    "title": "Personal PyPI Supply Chain Scan: occam-gitignore 0.1.0",
+    "version": "0.1.0",
+    "version_slug": "0.1.0",
+    "_metadata_path": "reports/packages/occam-gitignore/0.1.0/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "testql-1.2.27.tar.gz",
     "finding_count": 111,
     "model": "gpt-5.5",
