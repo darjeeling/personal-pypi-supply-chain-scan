@@ -1,549 +1,637 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "sae_lens-6.40.0.tar.gz",
-  "finding_count": 358,
+  "distribution": "memographix-0.1.1-cp310-abi3-win_amd64.whl",
+  "finding_count": 23,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
         ],
-        "value": "80000hours.org"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "sae_lens-6.40.0/sae_lens/evals.py",
-          "sae_lens-6.40.0/sae_lens/saes/matryoshka_batchtopk_sae.py",
-          "sae_lens-6.40.0/sae_lens/saes/temporal_sae.py",
-          "sae_lens-6.40.0/sae_lens/synthetic/evals.py"
-        ],
-        "value": "arxiv.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "codecov.io"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "colab.research.google.com"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "curttigges.com"
-      },
-      {
-        "file_count": 5,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md",
-          "sae_lens-6.40.0/pyproject.toml",
-          "sae_lens-6.40.0/sae_lens/saes/sae.py",
-          "sae_lens-6.40.0/sae_lens/training/activations_store.py"
-        ],
-        "value": "decoderesearch.github.io"
-      },
-      {
-        "file_count": 7,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md",
-          "sae_lens-6.40.0/pyproject.toml",
-          "sae_lens-6.40.0/sae_lens/evals.py",
-          "sae_lens-6.40.0/sae_lens/saes/topk_sae.py",
-          "sae_lens-6.40.0/sae_lens/synthetic/hierarchy/__init__.py",
-          "sae_lens-6.40.0/sae_lens/training/optim.py"
-        ],
-        "value": "github.com"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "githubtocolab.com"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/sae_lens/loading/pretrained_sae_loaders.py",
-          "sae_lens-6.40.0/sae_lens/training/optim.py"
-        ],
-        "value": "huggingface.co"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "img.shields.io"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "join.slack.com"
+        "value": "docs.rs"
       },
       {
         "file_count": 1,
         "files": [
-          "sae_lens-6.40.0/sae_lens/analysis/neuronpedia_integration.py"
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
         ],
-        "value": "neuronpedia.org"
+        "value": "fizyk20.github.io"
       },
       {
         "file_count": 2,
         "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
+          "memographix-0.1.1.dist-info/METADATA",
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
         ],
-        "value": "opensource.org"
+        "value": "github.com"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
+          "memographix-0.1.1.dist-info/METADATA"
+        ],
+        "value": "img.shields.io"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/METADATA"
         ],
         "value": "pypi.org"
       },
       {
         "file_count": 1,
         "files": [
-          "sae_lens-6.40.0/sae_lens/training/sae_trainer.py"
+          "memographix/config.py"
         ],
-        "value": "pytorch.org"
+        "value": "raw.items"
       },
       {
         "file_count": 1,
         "files": [
-          "sae_lens-6.40.0/sae_lens/saes/sae.py"
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
         ],
-        "value": "transformer-circuits.pub"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "www.decoderesearch.com"
+        "value": "serde.rs"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
         ],
-        "value": "https://80000hours.org/problem-profiles/artificial-intelligence/"
+        "value": "http://fizyk20.github.io/generic-array/generic_array/"
       },
       {
         "file_count": 1,
         "files": [
-          "sae_lens-6.40.0/sae_lens/evals.py"
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
         ],
-        "value": "https://arxiv.org/abs/2404.16014"
+        "value": "https://docs.rs/autocfg/"
       },
       {
         "file_count": 1,
         "files": [
-          "sae_lens-6.40.0/sae_lens/synthetic/evals.py"
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
         ],
-        "value": "https://arxiv.org/abs/2505.20254"
+        "value": "https://docs.rs/block-buffer"
       },
       {
         "file_count": 1,
         "files": [
-          "sae_lens-6.40.0/sae_lens/saes/matryoshka_batchtopk_sae.py"
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
         ],
-        "value": "https://arxiv.org/pdf/2503.17547"
+        "value": "https://docs.rs/bstr"
       },
       {
         "file_count": 1,
         "files": [
-          "sae_lens-6.40.0/sae_lens/saes/temporal_sae.py"
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
         ],
-        "value": "https://arxiv.org/pdf/2511.01836"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "https://codecov.io/gh/decoderesearch/SAELens"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "https://codecov.io/gh/decoderesearch/SAELens/graph/badge.svg?token=N83NGH8CGE"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "https://colab.research.google.com/assets/colab-badge.svg"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "https://curttigges.com/"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/pyproject.toml"
-        ],
-        "value": "https://decoderesearch.github.io/SAELens"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "https://decoderesearch.github.io/SAELens/"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "https://decoderesearch.github.io/SAELens/latest/migrating/"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md",
-          "sae_lens-6.40.0/sae_lens/saes/sae.py"
-        ],
-        "value": "https://decoderesearch.github.io/SAELens/latest/pretrained_saes/"
+        "value": "https://docs.rs/cpufeatures"
       },
       {
         "file_count": 1,
         "files": [
-          "sae_lens-6.40.0/sae_lens/training/activations_store.py"
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
         ],
-        "value": "https://decoderesearch.github.io/SAELens/training_saes/#pretokenizing-datasets"
+        "value": "https://docs.rs/crate/pyo3/"
       },
       {
         "file_count": 1,
         "files": [
-          "sae_lens-6.40.0/sae_lens/saes/topk_sae.py"
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
         ],
-        "value": "https://github.com/EleutherAI/sae/blob/main/sae/sae.py"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "https://github.com/EleutherAI/sparsify"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "https://github.com/KempnerInstitute/overcomplete"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "https://github.com/adamkarvonen/SAEBench"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "https://github.com/anthonyduong9"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "https://github.com/callummcdougall/sae_vis"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "https://github.com/callummcdougall/sae_vis/tree/main"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "https://github.com/chanind"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md",
-          "sae_lens-6.40.0/pyproject.toml"
-        ],
-        "value": "https://github.com/decoderesearch/SAELens"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "https://github.com/decoderesearch/SAELens/actions/workflows/build.yml"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "https://github.com/decoderesearch/SAELens/actions/workflows/build.yml/badge.svg"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "https://github.com/decoderesearch/SAELens/actions/workflows/deploy_docs.yml"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "https://github.com/decoderesearch/SAELens/actions/workflows/deploy_docs.yml/badge.svg"
+        "value": "https://docs.rs/crypto-common"
       },
       {
         "file_count": 1,
         "files": [
-          "sae_lens-6.40.0/sae_lens/training/optim.py"
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
         ],
-        "value": "https://github.com/jbloomAus/DecisionTransformerInterpretability/blob/ee55df35cdb92e81d689c72fb9dd5a7252893363/src/decision_transformer/utils.py#L425"
+        "value": "https://docs.rs/digest"
       },
       {
         "file_count": 1,
         "files": [
-          "sae_lens-6.40.0/sae_lens/synthetic/hierarchy/__init__.py"
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
         ],
-        "value": "https://github.com/noanabeshima/matryoshka-saes/blob/main/toy_model.py"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "https://github.com/saprmarks/dictionary_learning"
+        "value": "https://docs.rs/globset"
       },
       {
         "file_count": 1,
         "files": [
-          "sae_lens-6.40.0/sae_lens/evals.py"
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
         ],
-        "value": "https://github.com/saprmarks/dictionary_learning/blob/main/evaluation.py"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "https://github.com/user-attachments/assets/2a5d752f-b261-4ee4-ad5d-ebf282321371"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "https://githubtocolab.com/decoderesearch/SAELens/blob/main/tutorials/basic_loading_and_analysing.ipynb"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "https://githubtocolab.com/decoderesearch/SAELens/blob/main/tutorials/logits_lens_with_features.ipynb"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "https://githubtocolab.com/decoderesearch/SAELens/blob/main/tutorials/synth_sae_bench.ipynb"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "https://githubtocolab.com/decoderesearch/SAELens/blob/main/tutorials/training_a_sparse_autoencoder.ipynb"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "https://githubtocolab.com/decoderesearch/SAELens/blob/main/tutorials/training_saes_on_synthetic_data.ipynb"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "https://githubtocolab.com/decoderesearch/SAELens/blob/main/tutorials/tutorial_2_0.ipynb"
+        "value": "https://docs.rs/ignore"
       },
       {
         "file_count": 1,
         "files": [
-          "sae_lens-6.40.0/sae_lens/loading/pretrained_sae_loaders.py"
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
         ],
-        "value": "https://huggingface.co/canrager/lm_sae"
+        "value": "https://docs.rs/indoc"
       },
       {
         "file_count": 1,
         "files": [
-          "sae_lens-6.40.0/sae_lens/training/optim.py"
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
         ],
-        "value": "https://huggingface.co/docs/transformers/main_classes/optimizer_schedules"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "https://img.shields.io/badge/License-MIT-yellow.svg"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "https://img.shields.io/pypi/v/sae-lens?color=blue"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "https://join.slack.com/t/opensourcemechanistic/shared_invite/zt-375zalm04-GFd5tdBU1yLKlu_T_JSqZQ"
+        "value": "https://docs.rs/itoa"
       },
       {
         "file_count": 1,
         "files": [
-          "sae_lens-6.40.0/sae_lens/analysis/neuronpedia_integration.py"
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
         ],
-        "value": "https://neuronpedia.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "https://opensource.org/licenses/MIT"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
-        ],
-        "value": "https://pypi.org/project/sae-lens/"
+        "value": "https://docs.rs/log"
       },
       {
         "file_count": 1,
         "files": [
-          "sae_lens-6.40.0/sae_lens/training/sae_trainer.py"
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
         ],
-        "value": "https://pytorch.org/tutorials/recipes/recipes/amp_recipe.html"
+        "value": "https://docs.rs/memchr/"
       },
       {
         "file_count": 1,
         "files": [
-          "sae_lens-6.40.0/sae_lens/saes/sae.py"
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
         ],
-        "value": "https://transformer-circuits.pub/2024/april-update/index.html#training-saes"
+        "value": "https://docs.rs/once_cell"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/proc-macro2"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/quote/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/regex"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/regex-automata"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/regex-syntax"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/rustversion"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/same-file"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/serde"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/serde_core"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/serde_json"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/sha2"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/syn"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/target-lexicon/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/typenum"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/unicode-ident"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/unindent"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/version_check/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/walkdir/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/winapi-util"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/zmij"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/BurntSushi/aho-corasick"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/BurntSushi/bstr"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/BurntSushi/memchr"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/BurntSushi/ripgrep/tree/master/crates/globset"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/BurntSushi/ripgrep/tree/master/crates/ignore"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/BurntSushi/same-file"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/BurntSushi/walkdir"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/BurntSushi/winapi-util"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/Gilnaa/memoffset"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/PyO3"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/RustCrypto/hashes"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/RustCrypto/traits"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/RustCrypto/utils"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/SergioBenitez/version_check"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/bytecodealliance/target-lexicon"
       },
       {
         "file_count": 2,
         "files": [
-          "sae_lens-6.40.0/PKG-INFO",
-          "sae_lens-6.40.0/README.md"
+          "memographix-0.1.1.dist-info/METADATA",
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
         ],
-        "value": "https://www.decoderesearch.com/"
+        "value": "https://github.com/coderalnaim/memographix"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/METADATA"
+        ],
+        "value": "https://github.com/coderalnaim/memographix/actions/workflows/ci.yml"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/METADATA"
+        ],
+        "value": "https://github.com/coderalnaim/memographix/actions/workflows/ci.yml/badge.svg"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/METADATA"
+        ],
+        "value": "https://github.com/coderalnaim/memographix/issues"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/crossbeam-rs/crossbeam"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/crossbeam-rs/crossbeam/tree/master/crossbeam-deque"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/crossbeam-rs/crossbeam/tree/master/crossbeam-epoch"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/crossbeam-rs/crossbeam/tree/master/crossbeam-utils"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/cuviper/autocfg"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/dtolnay/indoc"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/dtolnay/itoa"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/dtolnay/proc-macro2"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/dtolnay/quote"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/dtolnay/rustversion"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/dtolnay/syn"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/dtolnay/unicode-ident"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/dtolnay/zmij"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/fizyk20/generic-array.git"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/matklad/once_cell"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/microsoft/windows-rs"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/paholg/typenum"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/pyo3/pyo3"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/rust-lang/cfg-if"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/rust-lang/crates.io-index#aho-corasick@1.1.4"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/rust-lang/crates.io-index#autocfg@1.5.0"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/rust-lang/crates.io-index#block-buffer@0.10.4"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/rust-lang/crates.io-index#bstr@1.12.1"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/rust-lang/crates.io-index#cfg-if@1.0.4"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/rust-lang/crates.io-index#cpufeatures@0.2.17"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memographix-0.1.1.dist-info/sboms/memographix-core.cyclonedx.json"
+        ],
+        "value": "https://github.com/rust-lang/crates.io-index#crossbeam-deque@0.8.6"
       }
     ]
   },
-  "package": "sae-lens",
-  "package_slug": "sae-lens",
-  "project_url": "https://pypi.org/project/sae-lens/",
+  "package": "memographix",
+  "package_slug": "memographix",
+  "project_url": "https://pypi.org/project/memographix/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T11:28:50.070992+00:00",
+  "published_at": "2026-04-27T11:34:05.437711+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T11:30:04.918309+00:00",
-  "title": "Personal PyPI Supply Chain Scan: sae-lens 6.40.0",
-  "version": "6.40.0",
-  "version_slug": "6.40.0",
-  "_metadata_path": "reports/packages/sae-lens/6.40.0/metadata.json"
+  "scanned_at": "2026-04-27T11:34:31.755730+00:00",
+  "title": "Personal PyPI Supply Chain Scan: memographix 0.1.1",
+  "version": "0.1.1",
+  "version_slug": "0.1.1",
+  "_metadata_path": "reports/packages/memographix/0.1.1/metadata.json"
 }
