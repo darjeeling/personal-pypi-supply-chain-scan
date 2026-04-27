@@ -1,102 +1,225 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "repoctx_mcp-1.0.0.tar.gz",
-  "finding_count": 61,
+  "distribution": "defense_predictor-1.1.2.tar.gz",
+  "finding_count": 0,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 4,
+        "file_count": 2,
         "files": [
-          "repoctx_mcp-1.0.0/PKG-INFO",
-          "repoctx_mcp-1.0.0/README.md",
-          "repoctx_mcp-1.0.0/pyproject.toml",
-          "repoctx_mcp-1.0.0/repoctx_mcp.egg-info/PKG-INFO"
+          "defense_predictor-1.1.2/PKG-INFO",
+          "defense_predictor-1.1.2/README.md"
+        ],
+        "value": "anaconda.org"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "defense_predictor-1.1.2/PKG-INFO",
+          "defense_predictor-1.1.2/README.md"
+        ],
+        "value": "colab.research.google.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "defense_predictor-1.1.2/defense_predictor/downloads.py"
+        ],
+        "value": "dl.fbaipublicfiles.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "defense_predictor-1.1.2/PKG-INFO",
+          "defense_predictor-1.1.2/README.md"
+        ],
+        "value": "ftp.ncbi.nlm.nih.gov"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "defense_predictor-1.1.2/PKG-INFO",
+          "defense_predictor-1.1.2/README.md"
         ],
         "value": "github.com"
       },
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "repoctx_mcp-1.0.0/PKG-INFO",
-          "repoctx_mcp-1.0.0/README.md",
-          "repoctx_mcp-1.0.0/repoctx_mcp.egg-info/PKG-INFO"
+          "defense_predictor-1.1.2/PKG-INFO",
+          "defense_predictor-1.1.2/README.md"
         ],
-        "value": "huggingface.co"
+        "value": "useast.ensembl.org"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "defense_predictor-1.1.2/PKG-INFO",
+          "defense_predictor-1.1.2/README.md"
+        ],
+        "value": "www.ncbi.nlm.nih.gov"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "defense_predictor-1.1.2/PKG-INFO",
+          "defense_predictor-1.1.2/README.md"
+        ],
+        "value": "www.science.org"
       },
       {
         "file_count": 1,
         "files": [
-          "repoctx_mcp-1.0.0/repoctx/mcp_server.py"
+          "defense_predictor-1.1.2/defense_predictor/downloads.py"
         ],
-        "value": "raw.split"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "repoctx_mcp-1.0.0/repoctx/authority/extract.py"
-        ],
-        "value": "raw.splitlines"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "repoctx_mcp-1.0.0/repoctx/authority/discovery.py"
-        ],
-        "value": "raw.strip"
+        "value": "zenodo.org"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "repoctx_mcp-1.0.0/PKG-INFO",
-          "repoctx_mcp-1.0.0/pyproject.toml",
-          "repoctx_mcp-1.0.0/repoctx_mcp.egg-info/PKG-INFO"
+          "defense_predictor-1.1.2/PKG-INFO",
+          "defense_predictor-1.1.2/README.md"
         ],
-        "value": "https://github.com/gald33/repoctx"
+        "value": "https://anaconda.org/anaconda/conda"
       },
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "repoctx_mcp-1.0.0/PKG-INFO",
-          "repoctx_mcp-1.0.0/README.md",
-          "repoctx_mcp-1.0.0/repoctx_mcp.egg-info/PKG-INFO"
+          "defense_predictor-1.1.2/PKG-INFO",
+          "defense_predictor-1.1.2/README.md"
         ],
-        "value": "https://github.com/gald33/repoctx.git"
+        "value": "https://colab.research.google.com/assets/colab-badge.svg"
       },
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "repoctx_mcp-1.0.0/PKG-INFO",
-          "repoctx_mcp-1.0.0/pyproject.toml",
-          "repoctx_mcp-1.0.0/repoctx_mcp.egg-info/PKG-INFO"
+          "defense_predictor-1.1.2/PKG-INFO",
+          "defense_predictor-1.1.2/README.md"
         ],
-        "value": "https://github.com/gald33/repoctx/issues"
+        "value": "https://colab.research.google.com/github/PeterDeWeirdt/defense_predictor/blob/main/defense_predictor_example.ipynb"
       },
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "repoctx_mcp-1.0.0/PKG-INFO",
-          "repoctx_mcp-1.0.0/README.md",
-          "repoctx_mcp-1.0.0/repoctx_mcp.egg-info/PKG-INFO"
+          "defense_predictor-1.1.2/defense_predictor/downloads.py"
         ],
-        "value": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B"
+        "value": "https://dl.fbaipublicfiles.com/fair-esm/models/esm2_t30_150M_UR50D.pt"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "defense_predictor-1.1.2/PKG-INFO",
+          "defense_predictor-1.1.2/README.md"
+        ],
+        "value": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "defense_predictor-1.1.2/PKG-INFO",
+          "defense_predictor-1.1.2/README.md"
+        ],
+        "value": "https://github.com/facebookresearch/esm"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "defense_predictor-1.1.2/PKG-INFO",
+          "defense_predictor-1.1.2/README.md"
+        ],
+        "value": "https://github.com/ncbi/pgap"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "defense_predictor-1.1.2/PKG-INFO",
+          "defense_predictor-1.1.2/README.md"
+        ],
+        "value": "https://github.com/tseemann/prokka"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "defense_predictor-1.1.2/PKG-INFO",
+          "defense_predictor-1.1.2/README.md"
+        ],
+        "value": "https://useast.ensembl.org/info/website/upload/gff3.html?"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "defense_predictor-1.1.2/PKG-INFO",
+          "defense_predictor-1.1.2/README.md"
+        ],
+        "value": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000005845.2/"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "defense_predictor-1.1.2/PKG-INFO",
+          "defense_predictor-1.1.2/README.md"
+        ],
+        "value": "https://www.science.org/doi/10.1126/science.adv7924"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "defense_predictor-1.1.2/defense_predictor/downloads.py"
+        ],
+        "value": "https://zenodo.org/records/17258204/files/beaker_fold_0.pkl?download=1"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "defense_predictor-1.1.2/defense_predictor/downloads.py"
+        ],
+        "value": "https://zenodo.org/records/17258204/files/beaker_fold_1.pkl?download=1"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "defense_predictor-1.1.2/defense_predictor/downloads.py"
+        ],
+        "value": "https://zenodo.org/records/17258204/files/beaker_fold_2.pkl?download=1"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "defense_predictor-1.1.2/defense_predictor/downloads.py"
+        ],
+        "value": "https://zenodo.org/records/17258204/files/beaker_fold_3.pkl?download=1"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "defense_predictor-1.1.2/defense_predictor/downloads.py"
+        ],
+        "value": "https://zenodo.org/records/17258204/files/beaker_fold_4.pkl?download=1"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "defense_predictor-1.1.2/defense_predictor/downloads.py"
+        ],
+        "value": "https://zenodo.org/records/17258204/files/esm2_t30_150M_UR50D-contact-regression.pt?download=1"
       }
     ]
   },
-  "package": "repoctx-mcp",
-  "package_slug": "repoctx-mcp",
-  "project_url": "https://pypi.org/project/repoctx-mcp/",
+  "package": "defense-predictor",
+  "package_slug": "defense-predictor",
+  "project_url": "https://pypi.org/project/defense-predictor/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T11:55:53.998538+00:00",
+  "published_at": "2026-04-27T11:59:42.828698+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T11:56:28.397753+00:00",
-  "title": "Personal PyPI Supply Chain Scan: repoctx-mcp 1.0.0",
-  "version": "1.0.0",
-  "version_slug": "1.0.0",
-  "_metadata_path": "reports/packages/repoctx-mcp/1.0.0/metadata.json"
+  "scanned_at": "2026-04-27T12:00:50.789919+00:00",
+  "title": "Personal PyPI Supply Chain Scan: defense-predictor 1.1.2",
+  "version": "1.1.2",
+  "version_slug": "1.1.2",
+  "_metadata_path": "reports/packages/defense-predictor/1.1.2/metadata.json"
 }
