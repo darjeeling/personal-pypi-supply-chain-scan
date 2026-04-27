@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal PyPI Supply Chain Scan: scitex-agent-container 0.9.0</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 960px; line-height: 1.55; padding: 0 1rem; color: #1f2933; }
+    a { color: #1f5fbf; }
+    code { background: #f4f4f4; padding: 0.1rem 0.25rem; }
+    h1, h2, h3 { line-height: 1.2; }
+    li { margin: 0.35rem 0; }
+    nav { margin-bottom: 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #e5e9ef; padding: 0.55rem 0.65rem; text-align: left; vertical-align: top; }
+    th { color: #52616f; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; }
+    .scan-groups { margin-top: 1.2rem; }
+    .scan-day { border-top: 1px solid #d8dee4; display: grid; gap: 1rem; grid-template-columns: 10rem minmax(0, 1fr); padding: 1.1rem 0; }
+    .scan-day-date { color: #1f2933; font-weight: 700; }
+    .scan-day-date span { color: #52616f; display: block; font-size: 0.9rem; font-weight: 500; margin-top: 0.2rem; }
+    .scan-day-table { overflow-x: auto; }
+    .risk { display: inline-block; min-width: 4.8rem; text-align: center; border-radius: 999px; padding: 0.15rem 0.45rem; font-size: 0.78rem; font-weight: 700; }
+    .risk-info, .risk-low { background: #dcfce7; color: #166534; }
+    .risk-medium, .risk-unknown { background: #fef3c7; color: #92400e; }
+    .risk-high, .risk-critical { background: #fee2e2; color: #991b1b; }
+    .index-note { color: #52616f; margin-top: -0.35rem; }
+    .version { color: #52616f; margin-left: 0.2rem; white-space: nowrap; }
+    @media (max-width: 720px) {
+      .scan-day { grid-template-columns: 1fr; }
+      th, td { padding: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+<nav><a href='../../../../'>Index</a></nav><h1>Personal PyPI Supply Chain Scan: scitex-agent-container 0.9.0</h1>
+
+<ul>
+<li>Package: scitex-agent-container</li>
+<li>Version: 0.9.0</li>
+<li>Project URL: https://pypi.org/project/scitex-agent-container/</li>
+<li>Distribution: scitex_agent_container-0.9.0.tar.gz</li>
+<li>Package published at: 2026-04-27T15:21:55.441121+00:00</li>
+<li>Scan published at: 2026-04-27T15:22:32.592876+00:00</li>
+<li>Language: ko</li>
+<li>Model: gpt-5.5</li>
+<li>Prompt: malicious-supply-chain-review-v2 ([source](../../../../docs/prompts/malicious-supply-chain-review-v2.md))</li>
+<li>Disclaimer: This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</li>
+</ul>
+
+<h2>Deterministic Network Indicators</h2>
+
+<h3>Suspicious Endpoints</h3>
+
+<p>None</p>
+
+<h3>Raw Public IPs</h3>
+
+<p>None</p>
+
+<h3>URLs</h3>
+<ul>
+<li>http://%s:%d (1 files: scitex_agent_container-0.9.0/src/scitex_agent_container/a2a/_server.py)</li>
+<li>http://bad.invalid/ (1 files: scitex_agent_container-0.9.0/tests/test_hooks.py)</li>
+<li>http://testserver/v1/agents/mock-claude (1 files: scitex_agent_container-0.9.0/tests/test_a2a_server.py)</li>
+<li>http://testserver/v1/agents/mock-echo (1 files: scitex_agent_container-0.9.0/tests/test_a2a_server.py)</li>
+<li>http://{eff_host (1 files: scitex_agent_container-0.9.0/src/scitex_agent_container/cli_pkg/a2a_cmds.py)</li>
+<li>http://{host (2 files: scitex_agent_container-0.9.0/src/scitex_agent_container/a2a/_server.py, scitex_agent_container-0.9.0/src/scitex_agent_container/health.py)</li>
+<li>https:// (1 files: scitex_agent_container-0.9.0/src/scitex_agent_container/lifecycle.py)</li>
+<li>https://a2a-protocol.org/ (2 files: scitex_agent_container-0.9.0/src/scitex_agent_container/_skills/scitex-agent-container/07_a2a-protocol.md, scitex_agent_container-0.9.0/src/scitex_agent_container/a2a/__init__.py)</li>
+<li>https://api.anthropic.com/api/oauth/usage (1 files: scitex_agent_container-0.9.0/src/scitex_agent_container/claude_usage.py)</li>
+<li>https://api.anthropic.com/api/oauth/usage (1 files: scitex_agent_container-0.9.0/src/scitex_agent_container/claude_usage.py)</li>
+<li>https://badge.fury.io/py/scitex-agent-container (2 files: scitex_agent_container-0.9.0/PKG-INFO, scitex_agent_container-0.9.0/README.md)</li>
+<li>https://badge.fury.io/py/scitex-agent-container.svg (2 files: scitex_agent_container-0.9.0/PKG-INFO, scitex_agent_container-0.9.0/README.md)</li>
+<li>https://claude.ai/api/auth/oauth/token (1 files: scitex_agent_container-0.9.0/src/scitex_agent_container/claude_usage.py)</li>
+<li>https://docs.python.org/3 (1 files: scitex_agent_container-0.9.0/docs/sphinx/conf.py)</li>
+<li>https://docs.readthedocs.io/en/stable/config-file/v2.html (1 files: scitex_agent_container-0.9.0/.readthedocs.yaml)</li>
+<li>https://example.com/compact (1 files: scitex_agent_container-0.9.0/tests/test_hooks.py)</li>
+<li>https://example.com/compact\n (1 files: scitex_agent_container-0.9.0/tests/test_hooks.py)</li>
+<li>https://example.com/hook (1 files: scitex_agent_container-0.9.0/tests/test_hooks.py)</li>
+<li>https://fsf.org/ (1 files: scitex_agent_container-0.9.0/LICENSE)</li>
+<li>https://github.com/jarrodwatts/claude-hud (1 files: scitex_agent_container-0.9.0/tests/test_pane_state_classifier.py)</li>
+<li>https://github.com/scitex-project/scitex-dev.git@main (1 files: scitex_agent_container-0.9.0/.github/workflows/scitex-quality.yml)</li>
+<li>https://github.com/ywatanabe1989/scitex-agent-container (2 files: scitex_agent_container-0.9.0/PKG-INFO, scitex_agent_container-0.9.0/pyproject.toml)</li>
+<li>https://github.com/ywatanabe1989/scitex-agent-container.git (3 files: scitex_agent_container-0.9.0/PKG-INFO, scitex_agent_container-0.9.0/docs/sphinx/installation.rst, scitex_agent_container-0.9.0/pyproject.toml)</li>
+<li>https://github.com/ywatanabe1989/scitex-agent-container/actions/workflows/ci.yml (2 files: scitex_agent_container-0.9.0/PKG-INFO, scitex_agent_container-0.9.0/README.md)</li>
+<li>https://github.com/ywatanabe1989/scitex-agent-container/actions/workflows/ci.yml/badge.svg (2 files: scitex_agent_container-0.9.0/PKG-INFO, scitex_agent_container-0.9.0/README.md)</li>
+<li>https://github.com/ywatanabe1989/scitex-agent-container/issues (2 files: scitex_agent_container-0.9.0/PKG-INFO, scitex_agent_container-0.9.0/pyproject.toml)</li>
+<li>https://github.com/ywatanabe1989/scitex-orochi (2 files: scitex_agent_container-0.9.0/PKG-INFO, scitex_agent_container-0.9.0/README.md)</li>
+<li>https://github.com/ywatanabe1989/scitex-orochi/blob/develop/docs/a2a-protocol.md (1 files: scitex_agent_container-0.9.0/src/scitex_agent_container/_skills/scitex-agent-container/07_a2a-protocol.md)</li>
+<li>https://github.com/ywatanabe1989/scitex-resource (1 files: scitex_agent_container-0.9.0/src/scitex_agent_container/_skills/scitex-agent-container/04_resource-management.md)</li>
+<li>https://hub.test/ (1 files: scitex_agent_container-0.9.0/tests/test_network_probe.py)</li>
+<li>... 10 more</li>
+</ul>
+
+<h3>Domains</h3>
+<ul>
+<li>%s (1 files: scitex_agent_container-0.9.0/src/scitex_agent_container/a2a/_server.py)</li>
+<li>a2a-protocol.org (2 files: scitex_agent_container-0.9.0/src/scitex_agent_container/_skills/scitex-agent-container/07_a2a-protocol.md, scitex_agent_container-0.9.0/src/scitex_agent_container/a2a/__init__.py)</li>
+<li>api.anthropic.com (1 files: scitex_agent_container-0.9.0/src/scitex_agent_container/claude_usage.py)</li>
+<li>bad.invalid (1 files: scitex_agent_container-0.9.0/tests/test_hooks.py)</li>
+<li>badge.fury.io (2 files: scitex_agent_container-0.9.0/PKG-INFO, scitex_agent_container-0.9.0/README.md)</li>
+<li>claude.ai (1 files: scitex_agent_container-0.9.0/src/scitex_agent_container/claude_usage.py)</li>
+<li>docs.python.org (1 files: scitex_agent_container-0.9.0/docs/sphinx/conf.py)</li>
+<li>docs.readthedocs.io (1 files: scitex_agent_container-0.9.0/.readthedocs.yaml)</li>
+<li>fsf.org (1 files: scitex_agent_container-0.9.0/LICENSE)</li>
+<li>github.com (8 files: scitex_agent_container-0.9.0/.github/workflows/scitex-quality.yml, scitex_agent_container-0.9.0/PKG-INFO, scitex_agent_container-0.9.0/README.md, scitex_agent_container-0.9.0/docs/sphinx/installation.rst, scitex_agent_container-0.9.0/pyproject.toml)</li>
+<li>hub.test (1 files: scitex_agent_container-0.9.0/tests/test_network_probe.py)</li>
+<li>img.shields.io (2 files: scitex_agent_container-0.9.0/PKG-INFO, scitex_agent_container-0.9.0/README.md)</li>
+<li>pypi.org (1 files: scitex_agent_container-0.9.0/.github/workflows/publish-pypi.yml)</li>
+<li>raw.strip (1 files: scitex_agent_container-0.9.0/src/scitex_agent_container/a2a/_handlers.py)</li>
+<li>readthedocs.org (2 files: scitex_agent_container-0.9.0/PKG-INFO, scitex_agent_container-0.9.0/README.md)</li>
+<li>scitex-agent-container.readthedocs.io (2 files: scitex_agent_container-0.9.0/PKG-INFO, scitex_agent_container-0.9.0/README.md)</li>
+<li>scitex-orochi.com (1 files: scitex_agent_container-0.9.0/src/scitex_agent_container/_skills/scitex-agent-container/07_a2a-protocol.md)</li>
+<li>scitex.ai (4 files: scitex_agent_container-0.9.0/PKG-INFO, scitex_agent_container-0.9.0/README.md, scitex_agent_container-0.9.0/docs/sphinx/index.rst, scitex_agent_container-0.9.0/src/scitex_agent_container/a2a/_card.py)</li>
+<li>testserver (1 files: scitex_agent_container-0.9.0/tests/test_a2a_server.py)</li>
+<li>www.gnu.org (3 files: scitex_agent_container-0.9.0/LICENSE, scitex_agent_container-0.9.0/PKG-INFO, scitex_agent_container-0.9.0/README.md)</li>
+<li>www.sphinx-doc.org (1 files: scitex_agent_container-0.9.0/docs/sphinx/conf.py)</li>
+<li>{host (2 files: scitex_agent_container-0.9.0/src/scitex_agent_container/a2a/_server.py, scitex_agent_container-0.9.0/src/scitex_agent_container/health.py)</li>
+</ul>
+
+<h2>판정</h2>
+
+<p>확인된 악성 공급망 침해 징후 없음 — 전체 위험도: info.</p>
+
+<h2>악성 공급망 징후</h2>
+
+<p>확인된 악성 공급망 징후 없음.</p>
+
+<h2>자동 실행 경로</h2>
+
+<ul>
+<li>제공된 코퍼스에서 .pth, sitecustomize.py, usercustomize.py, setup.py 기반 설치 시 실행, PEP 517 빌드 훅 실행, import-time 악성 side effect 근거는 확인되지 않았습니다.</li>
+<li>StartupCommand, startup_commands, hooks, SSH/SLURM 실행 로직은 패키지 설치/인터프리터 시작 시 자동 실행이 아니라 사용자가 에이전트 설정을 로드하고 실행할 때 동작하는 애플리케이션 기능으로 보입니다.</li>
+<li>일반 CLI/원격 실행/서브프로세스 호출 흔적은 있으나, 공급망 악성 자동 실행 경로로 볼 근거는 없습니다.</li>
+</ul>
+
+<h2>절취/전송/지속성/측면이동/은닉</h2>
+
+<ul>
+<li>**Credential harvesting:** credentials.py가 ~/.claude.json, ~/.claude/settings.json, ~/.claude/.credentials.json을 읽는 기능이 있으나, 코드와 문서상 허용 필드만 복사하고 accessToken, refreshToken, apiKey, secret 등은 차단하는 화이트리스트/검증 로직이 포함되어 있습니다. 광범위한 환경변수·SSH 키·클라우드 자격증명 탐색이나 외부 전송 근거는 확인되지 않았습니다.</li>
+<li>**Exfiltration/staging:** 수집 파일 압축, base64 staging, 웹훅/공격자 도메인 업로드, paste/drop 서비스 사용 근거는 확인되지 않았습니다.</li>
+<li>**Persistence:** 05_resource-heartbeat.md에 systemd user service, cron, launchd 예시가 있으나 문서화된 리소스 heartbeat 운영 방법이며 패키지가 이를 몰래 설치/활성화하는 코드 근거는 제공되지 않았습니다.</li>
+<li>**Lateral movement:** SSH 원격 배포, SLURM, tmux/screen 관련 기능은 에이전트 운영 기능으로 보이며, CI 토큰 절취, Kubernetes service-account 탈취, Docker socket 남용, 클라우드 metadata 접근 근거는 확인되지 않았습니다.</li>
+<li>**Obfuscation/loader:** 난독화된 payload, eval/exec 기반 로더, marshal/pickle/zlib/base64 단계형 로더, 자체 삭제 dropper 근거는 확인되지 않았습니다.</li>
+</ul>
+
+<h2>배포 무결성 이상</h2>
+
+<ul>
+<li>문서 이미지 PNG 2개가 고엔트로피 바이너리로 탐지되었으나 문서 자산으로 보이며, 실행 가능한 native binary나 은닉 payload 근거는 없습니다.</li>
+<li>제공된 파일 목록/본문 기준으로 typosquatting, 갑작스러운 의존성 삽입, sdist/wheel 불일치, PyPI artifact 내부의 예상 밖 실행 파일 근거는 확인되지 않았습니다.</li>
+</ul>
+
+<h2>추가 확인 필요</h2>
+
+<ul>
+<li>입력은 선택된 16개 파일 본문과 사전 스캔 요약에 한정되어 있어 전체 163개 파일의 모든 설치 메타데이터와 소스 파일을 직접 검토하지는 못했습니다.</li>
+<li>pyproject.toml 전체 내용, 빌드 백엔드 설정, entry_points, 전체 패키지 파일 및 배포된 wheel이 별도로 존재한다면 sdist와의 차이 검증이 필요합니다.</li>
+<li>PNG 등 바이너리 파일은 본문 분석만으로 은닉 데이터 여부를 완전히 배제할 수는 없으나, 현재 제공 근거만으로는 악성 공급망 징후로 판단하지 않습니다.</li>
+</ul>
+
+<p>---</p>
+
+<p>Prompt source: docs/prompts/malicious-supply-chain-review-v2.md</p>
+
+<p>This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</p>
+
+</body>
+</html>
