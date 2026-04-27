@@ -1,6 +1,160 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "pyssertive-0.6.0.tar.gz",
+    "finding_count": 14,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 3,
+          "files": [
+            "pyssertive-0.6.0/PKG-INFO",
+            "pyssertive-0.6.0/README.md",
+            "pyssertive-0.6.0/tests/http/test_json_schema.py"
+          ],
+          "value": "api.example.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "pyssertive-0.6.0/PKG-INFO",
+            "pyssertive-0.6.0/README.md",
+            "pyssertive-0.6.0/pyproject.toml"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "pyssertive-0.6.0/PKG-INFO",
+            "pyssertive-0.6.0/README.md"
+          ],
+          "value": "json-schema.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "pyssertive-0.6.0/PKG-INFO",
+            "pyssertive-0.6.0/README.md"
+          ],
+          "value": "sonarcloud.io"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "pyssertive-0.6.0/tests/http/test_json_schema.py"
+          ],
+          "value": "https://api.example.com/schemas/sample.json"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "pyssertive-0.6.0/tests/http/test_json_schema.py"
+          ],
+          "value": "https://api.example.com/schemas/strict.json"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "pyssertive-0.6.0/PKG-INFO",
+            "pyssertive-0.6.0/README.md"
+          ],
+          "value": "https://api.example.com/schemas/user.json"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "pyssertive-0.6.0/PKG-INFO",
+            "pyssertive-0.6.0/pyproject.toml"
+          ],
+          "value": "https://github.com/othercodes/pyssertive"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "pyssertive-0.6.0/PKG-INFO",
+            "pyssertive-0.6.0/pyproject.toml"
+          ],
+          "value": "https://github.com/othercodes/pyssertive.git"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "pyssertive-0.6.0/PKG-INFO",
+            "pyssertive-0.6.0/README.md"
+          ],
+          "value": "https://github.com/othercodes/pyssertive/actions/workflows/test.yml"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "pyssertive-0.6.0/PKG-INFO",
+            "pyssertive-0.6.0/README.md"
+          ],
+          "value": "https://github.com/othercodes/pyssertive/actions/workflows/test.yml/badge.svg"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "pyssertive-0.6.0/PKG-INFO",
+            "pyssertive-0.6.0/pyproject.toml"
+          ],
+          "value": "https://github.com/othercodes/pyssertive/issues"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "pyssertive-0.6.0/PKG-INFO",
+            "pyssertive-0.6.0/README.md"
+          ],
+          "value": "https://github.com/seddonym/grimp"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "pyssertive-0.6.0/PKG-INFO",
+            "pyssertive-0.6.0/README.md"
+          ],
+          "value": "https://json-schema.org/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "pyssertive-0.6.0/PKG-INFO",
+            "pyssertive-0.6.0/README.md"
+          ],
+          "value": "https://sonarcloud.io/api/project_badges/measure?project=othercodes_pyssertive&metric=coverage"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "pyssertive-0.6.0/PKG-INFO",
+            "pyssertive-0.6.0/README.md"
+          ],
+          "value": "https://sonarcloud.io/summary/new_code?id=othercodes_pyssertive"
+        }
+      ]
+    },
+    "package": "pyssertive",
+    "package_slug": "pyssertive",
+    "project_url": "https://pypi.org/project/pyssertive/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T10:31:50.486611+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T10:32:49.058137+00:00",
+    "title": "Personal PyPI Supply Chain Scan: pyssertive 0.6.0",
+    "version": "0.6.0",
+    "version_slug": "0.6.0",
+    "_metadata_path": "reports/packages/pyssertive/0.6.0/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "nvidia_nat_strands-1.7.0a20260427-py3-none-any.whl",
     "finding_count": 5,
     "model": "gpt-5.5",

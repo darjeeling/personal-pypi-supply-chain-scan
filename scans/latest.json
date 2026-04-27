@@ -1,126 +1,154 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "nvidia_nat_strands-1.7.0a20260427-py3-none-any.whl",
-  "finding_count": 5,
+  "distribution": "pyssertive-0.6.0.tar.gz",
+  "finding_count": 14,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "nvidia_nat_strands-1.7.0a20260427.dist-info/METADATA"
+          "pyssertive-0.6.0/PKG-INFO",
+          "pyssertive-0.6.0/README.md",
+          "pyssertive-0.6.0/tests/http/test_json_schema.py"
         ],
-        "value": "docs.nvidia.com"
+        "value": "api.example.com"
       },
       {
-        "file_count": 2,
+        "file_count": 3,
         "files": [
-          "nat/meta/pypi.md",
-          "nvidia_nat_strands-1.7.0a20260427.dist-info/METADATA"
+          "pyssertive-0.6.0/PKG-INFO",
+          "pyssertive-0.6.0/README.md",
+          "pyssertive-0.6.0/pyproject.toml"
         ],
         "value": "github.com"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "nat/plugins/strands/llm.py"
+          "pyssertive-0.6.0/PKG-INFO",
+          "pyssertive-0.6.0/README.md"
         ],
-        "value": "integrate.api.nvidia.com"
+        "value": "json-schema.org"
       },
       {
         "file_count": 2,
         "files": [
-          "nat/meta/pypi.md",
-          "nvidia_nat_strands-1.7.0a20260427.dist-info/METADATA"
+          "pyssertive-0.6.0/PKG-INFO",
+          "pyssertive-0.6.0/README.md"
         ],
-        "value": "media.githubusercontent.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "nat/plugins/strands/llm.py"
-        ],
-        "value": "strandsagents.com"
-      },
-      {
-        "file_count": 7,
-        "files": [
-          "nat/meta/pypi.md",
-          "nat/plugins/strands/__init__.py",
-          "nat/plugins/strands/callback_handler.py",
-          "nat/plugins/strands/llm.py",
-          "nat/plugins/strands/register.py",
-          "nat/plugins/strands/tool_wrapper.py",
-          "nvidia_nat_strands-1.7.0a20260427.dist-info/METADATA"
-        ],
-        "value": "www.apache.org"
+        "value": "sonarcloud.io"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 7,
+        "file_count": 1,
         "files": [
-          "nat/meta/pypi.md",
-          "nat/plugins/strands/__init__.py",
-          "nat/plugins/strands/callback_handler.py",
-          "nat/plugins/strands/llm.py",
-          "nat/plugins/strands/register.py",
-          "nat/plugins/strands/tool_wrapper.py",
-          "nvidia_nat_strands-1.7.0a20260427.dist-info/METADATA"
+          "pyssertive-0.6.0/tests/http/test_json_schema.py"
         ],
-        "value": "http://www.apache.org/licenses/LICENSE-2.0"
+        "value": "https://api.example.com/schemas/sample.json"
       },
       {
         "file_count": 1,
         "files": [
-          "nvidia_nat_strands-1.7.0a20260427.dist-info/METADATA"
+          "pyssertive-0.6.0/tests/http/test_json_schema.py"
         ],
-        "value": "https://docs.nvidia.com/nemo/agent-toolkit/latest/"
+        "value": "https://api.example.com/schemas/strict.json"
       },
       {
         "file_count": 2,
         "files": [
-          "nat/meta/pypi.md",
-          "nvidia_nat_strands-1.7.0a20260427.dist-info/METADATA"
+          "pyssertive-0.6.0/PKG-INFO",
+          "pyssertive-0.6.0/README.md"
         ],
-        "value": "https://github.com/NVIDIA/NeMo-Agent-Toolkit"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "nat/plugins/strands/llm.py"
-        ],
-        "value": "https://integrate.api.nvidia.com/v1"
+        "value": "https://api.example.com/schemas/user.json"
       },
       {
         "file_count": 2,
         "files": [
-          "nat/meta/pypi.md",
-          "nvidia_nat_strands-1.7.0a20260427.dist-info/METADATA"
+          "pyssertive-0.6.0/PKG-INFO",
+          "pyssertive-0.6.0/pyproject.toml"
         ],
-        "value": "https://media.githubusercontent.com/media/NVIDIA/NeMo-Agent-Toolkit/refs/heads/main/docs/source/_static/banner.png"
+        "value": "https://github.com/othercodes/pyssertive"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "nat/plugins/strands/llm.py"
+          "pyssertive-0.6.0/PKG-INFO",
+          "pyssertive-0.6.0/pyproject.toml"
         ],
-        "value": "https://strandsagents.com"
+        "value": "https://github.com/othercodes/pyssertive.git"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "pyssertive-0.6.0/PKG-INFO",
+          "pyssertive-0.6.0/README.md"
+        ],
+        "value": "https://github.com/othercodes/pyssertive/actions/workflows/test.yml"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "pyssertive-0.6.0/PKG-INFO",
+          "pyssertive-0.6.0/README.md"
+        ],
+        "value": "https://github.com/othercodes/pyssertive/actions/workflows/test.yml/badge.svg"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "pyssertive-0.6.0/PKG-INFO",
+          "pyssertive-0.6.0/pyproject.toml"
+        ],
+        "value": "https://github.com/othercodes/pyssertive/issues"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "pyssertive-0.6.0/PKG-INFO",
+          "pyssertive-0.6.0/README.md"
+        ],
+        "value": "https://github.com/seddonym/grimp"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "pyssertive-0.6.0/PKG-INFO",
+          "pyssertive-0.6.0/README.md"
+        ],
+        "value": "https://json-schema.org/"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "pyssertive-0.6.0/PKG-INFO",
+          "pyssertive-0.6.0/README.md"
+        ],
+        "value": "https://sonarcloud.io/api/project_badges/measure?project=othercodes_pyssertive&metric=coverage"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "pyssertive-0.6.0/PKG-INFO",
+          "pyssertive-0.6.0/README.md"
+        ],
+        "value": "https://sonarcloud.io/summary/new_code?id=othercodes_pyssertive"
       }
     ]
   },
-  "package": "nvidia-nat-strands",
-  "package_slug": "nvidia-nat-strands",
-  "project_url": "https://pypi.org/project/nvidia-nat-strands/",
+  "package": "pyssertive",
+  "package_slug": "pyssertive",
+  "project_url": "https://pypi.org/project/pyssertive/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T09:39:41.032861+00:00",
+  "published_at": "2026-04-27T10:31:50.486611+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T10:28:29.891393+00:00",
-  "title": "Personal PyPI Supply Chain Scan: nvidia-nat-strands 1.7.0a20260427",
-  "version": "1.7.0a20260427",
-  "version_slug": "1.7.0a20260427",
-  "_metadata_path": "reports/packages/nvidia-nat-strands/1.7.0a20260427/metadata.json"
+  "scanned_at": "2026-04-27T10:32:49.058137+00:00",
+  "title": "Personal PyPI Supply Chain Scan: pyssertive 0.6.0",
+  "version": "0.6.0",
+  "version_slug": "0.6.0",
+  "_metadata_path": "reports/packages/pyssertive/0.6.0/metadata.json"
 }
