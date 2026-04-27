@@ -1,6 +1,606 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "vector_db_sizer-0.1.0.tar.gz",
+    "finding_count": 338,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "files.pythonhosted.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "pypi.org"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/00/b0/1a6d9b6a587e118482910c244a1c5acf4d192604174132efd12bf0ac486f/pydantic_core-2.46.3-cp314-cp314-manylinux_2_5_i686.manylinux1_i686.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/02/9e/e5e9b168be58564121efb3de6859c452fccde0ab093d8438905899a3a483/pyyaml-6.0.3-cp314-cp314-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/05/8e/961c0007c59b8dd7729d542c61a4d537767a59645b82a0b521206e1e25c2/pyyaml-6.0.3.tar.gz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/05/c0/b3be26a015601b822b97d9149ff8cb5ead58c66f981e04fedf4e762f4bd4/pyyaml-6.0.3-cp312-cp312-musllinux_1_2_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/07/0f/1c34a74c8d07136f0d729ffe5e1fdab04fbdaa7684f61a92f92511a84a15/pydantic_core-2.46.3-pp311-pypy311_pp73-win_amd64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0a/44/93f489d16fb63fbd41c670441536541f6e8cfa1e5a69f40bc9c5d30d8c90/pydantic_core-2.46.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0b/7c/b42eaa5c34b13b07ecb51da21761297a9b8eb43044c864a035999998f328/pydantic_core-2.46.3-cp314-cp314t-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0b/db/d8182a7f1d9343a032265aae186eb063fe26ca4c40f256b21e8da4498e89/pydantic_core-2.46.3-cp314-cp314t-win_arm64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0c/62/d2eb46264d4b157dae1275b573017abec435397aa59cbcdab6fc978a8af4/pyyaml-6.0.3-cp311-cp311-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0d/59/18aa4e014debbf559670e4048e39260a85c7fcee84acfd761ac01e7b8d35/ruff-0.15.12-py3-none-musllinux_1_2_armv7l.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0d/ca/d376391a5aff1f2e8188960d7873543608130a870961c2b6b5236627c116/pydantic_core-2.46.3-graalpy311-graalpy242_311_native-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0e/6b/523b9f85c23788755d6ab949329de692a2e3a584bc6beb67fef5e035aa9d/pydantic_core-2.46.3-graalpy311-graalpy242_311_native-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0f/19/46fbe1efabb5aa2834b43b9454e70f9a83ad9c338c1291e48bdc4fecf167/pydantic_core-2.46.3-cp314-cp314t-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/10/5b/8292fc7c1f9111f1b2b7c1b0dcf1179edcd014fc3ea4517499f50b829d71/pydantic_core-2.46.3-cp314-cp314t-manylinux_2_5_i686.manylinux1_i686.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/10/92/7e0e1bd9ca3c68305db037560ca2876f89b2647deb2f8b6319005de37505/pydantic_core-2.46.3-pp311-pypy311_pp73-musllinux_1_1_armv7l.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/10/cb/16c3f2cf3266edd25aaa00d6c4350381c8b012ed6f5276675b9eba8d9ff4/pyyaml-6.0.3-cp311-cp311-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/11/1a/fe857968954d93fb78e0d4b6df5c988c74c4aaa67181c60be7cfe327c0ca/pydantic_core-2.46.3-graalpy312-graalpy250_312_native-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/11/c1/a606911aee04c324ddaa883ae418f3569792fd3c4a10c50e0dd0a2311e1e/ruff-0.15.12-py3-none-manylinux_2_17_armv7l.manylinux2014_armv7l.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/16/19/13de8e4377ed53079ee996e1ab0a9c33ec2faf808a4647b7b4c0d46dd239/pyyaml-6.0.3-cp311-cp311-macosx_11_0_arm64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/17/eb/9d89ad2d9b0ba8cd65393d434471621b98912abb10fbe1df08e480ba57b5/pydantic_core-2.46.3-graalpy312-graalpy250_312_native-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/18/67/36e9267722cc04a6b9f15c7f3441c2363321a3ea07da7ae0c0707beb2a9c/typing_extensions-4.15.0-py3-none-any.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/18/9c/f41951b0d858e343f1cf09398b2a7b3014013799744f2c4a8ad6a3eec4f2/pydantic_core-2.46.3-cp311-cp311-win_amd64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/1a/08/67bd04656199bbb51dbed1439b7f27601dfb576fb864099c7ef0c3e55531/pyyaml-6.0.3-cp312-cp312-win_arm64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/1e/d3/26bf1008eb3d2daa8ef4cacc7f3bfdc11818d111f7e2d0201bc6e3b49d45/annotated_doc-0.0.4-py3-none-any.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/1f/da/99d40830684f81dec901cac521b5b91c095394cc1084b9433393cde1c2df/pydantic_core-2.46.3-pp311-pypy311_pp73-macosx_10_12_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/20/eb/59980e5f1ae54a3b86372bd9f0fa373ea2d402e8cdcd3459334430f91e91/pydantic_core-2.46.3-cp314-cp314-win_amd64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/22/a2/1ba90a83e85a3f94c796b184f3efde9c72f2830dcda493eea8d59ba78e6d/pydantic_core-2.46.3-cp311-cp311-macosx_10_12_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/23/20/bb6982b26a40bb43951265ba29d4c246ef0ff59c9fdcdf0ed04e0687de4d/pyyaml-6.0.3-cp314-cp314-win_amd64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/24/35/e4066358a22e3e99519db370494c7528f5a2aa1367370e80e27e20283543/pydantic_core-2.46.3-cp314-cp314-macosx_11_0_arm64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/24/ac/66cd45129e3915e5ade3b292cb3bc7fd537f58f8f8dbdaba6170f7cabb74/pydantic_core-2.46.3-cp314-cp314-musllinux_1_1_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/25/e7/cc9f16fd0f3b5fddcbd7ec3d6ae30c8f3fde1047f32a4093a98d633c6570/ruff-0.15.12-py3-none-musllinux_1_2_i686.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/26/22/4dc186ac8ea6b257e9855031f51b62a9637beac4d68ac06bee02f046f836/pydantic_core-2.46.3-graalpy311-graalpy242_311_native-macosx_11_0_arm64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/2a/78/8692e3aa72b2d004f7a5d937f1dfdc8552ba26caf0bec75f342c40f00dec/pydantic_core-2.46.3-cp311-cp311-manylinux_2_31_riscv64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/2a/ef/f7abb56c49382a246fd2ce9c799691e3c3e7175ec74b14d99e798bcddb1a/pydantic_core-2.46.3.tar.gz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/2b/9e/f80044e9ec07580f057a89fc131f78dda7a58751ddf52bbe05eaf31db50f/pydantic_core-2.46.3-cp314-cp314t-musllinux_1_1_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/2f/a9/a2dc023eec5aa4b02a467874bad32e2446957d2adcab14e107eab502e978/pydantic_core-2.46.3-cp311-cp311-manylinux_2_17_s390x.manylinux2014_s390x.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/30/b4/d03a7ae14571bc2b6b3c7b122441154720619afe9a336fa3a95434df5e2f/pydantic_core-2.46.3-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/33/f1/9614e03e1cdcbf9437570b5400ced8a720b5db22b28d8e0f1bda429f660d/ruff-0.15.12-py3-none-win_amd64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/34/36/0e730beec4d83c5306f417afbd82ff237d9a21e83c5edf675f31ed84c1fe/pydantic_core-2.46.3-cp311-cp311-manylinux_2_17_armv7l.manylinux2014_armv7l.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/34/42/f426db557e8ab2791bc7562052299944a118655496fbff99914e564c0a94/pydantic_core-2.46.3-graalpy312-graalpy250_312_native-macosx_10_12_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/34/ff/8a6d6cf4ccc23fd67060874e832c18919d1557a0611ebef03fdb01fff11e/ruff-0.15.12-py3-none-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/3d/e0/7966e1a7bfc0a45bf0a7fb6b98ea03fc9b8d84fa7f2229e9659680b69ee3/pyyaml-6.0.3-cp313-cp313-musllinux_1_2_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/3e/b8/2e8e636dc9e3f16c2e16bf0849e24be82c5ee82c603c65fc0326666328fc/pydantic_core-2.46.3-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/3e/db/19c0839feeb728e7df03255581f198dfdf1c2aeb1e174a8420b63c5252e5/pydantic_core-2.46.3-cp314-cp314t-musllinux_1_1_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/45/91/47a6e1c42d9ee337c4839208f30d9f09caa9f720ec7582917b264defc875/pyyaml-6.0.3-cp311-cp311-win32.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/45/b3/ed14c659cbe7605e3ef063077680a64680aec81eb1a04763a05190d49b7f/pydantic_core-2.46.3-cp313-cp313-win32.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/46/06/33f41fe94403e2b755481cdfb9b7ef3e4e0ed031c4581124658d935d52b4/ruff-0.15.12-py3-none-musllinux_1_2_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/49/1e/a55ca81e949270d5d4432fbbd19dfea5321eda7c41a849d443dc92fd1ff7/pyyaml-6.0.3-cp313-cp313-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/4b/cb/5b47425556ecc1f3fe18ed2a0083188aa46e1dd812b06e406475b3a5d536/pydantic_core-2.46.3-cp312-cp312-macosx_10_12_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/4b/f0/3071131f47e39136a17814576e0fada9168569f7f8c0e6ac4d1ede6a4958/pydantic_core-2.46.3-cp311-cp311-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/4e/78/8d08c9fb7ce09ad8c38ad533c1191cf27f7ae1effe5bb9400a46d9437fcf/pyyaml-6.0.3-cp314-cp314t-macosx_11_0_arm64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/50/31/b20f376d3f810b9b2371e72ef5adb33879b25edb7a6d072cb7ca0c486398/pyyaml-6.0.3-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/50/6e/b7348fd30d6556d132cddd5bd79f37f96f2601fe0608afac4f5fb01ec0b3/pydantic_core-2.46.3-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/52/eb/66faefabebfe68bd7788339c9c9127231e680b11906368c67ce112fdb47f/pydantic_core-2.46.3-cp313-cp313-win_arm64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/55/e3/70399cb7dd41c10ac53367ae42139cf4b1ca5f36bb3dc6c9d33acdb43655/typing_inspection-0.4.2.tar.gz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/57/ba/046ceea27344560984e26a590f90bc7f4a75b06701f653222458922b558c/annotated_doc-0.0.4.tar.gz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/57/be/6b5e757b859013ebfbd7adba02f23b428f37c86dcbf78b5bb0b4ffd36e99/pydantic_core-2.46.3-cp312-cp312-win_amd64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/57/c0/b3df9f6a543276eadba0a48487b082ca1f201745329d97dbfa287034a230/pydantic_core-2.46.3-cp314-cp314t-macosx_10_12_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/58/15/8b3609fd3830ef7b27b655beb4b4e9c62313a4e8da8c676e142cc210d58e/shellingham-1.5.4.tar.gz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/5b/f5/4ec618ed16cc4f8fb3b701563655a69816155e79e24a17b651541804721d/markdown_it_py-4.0.0.tar.gz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/5c/4f/86a832a9d14df58e663bfdf4627dc00d3317c2bd583c4fb23390b0f04b8e/pydantic_core-2.46.3-graalpy312-graalpy250_312_native-macosx_11_0_arm64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/5e/d5/e3d9717c9eba10855325650afd2a9cba8e607321697f18953af9d562da2f/pydantic_core-2.46.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/60/62/0c1acfe10945b83a6a59d19fbaa92f48825381509e5701b855c08f13db76/pydantic_core-2.46.3-pp311-pypy311_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/65/30/d7353c338e12baef4ecc1b09e877c1970bd3382789c159b4f89d6a70dc09/pyyaml-6.0.3-cp312-cp312-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/66/57/886a938073b97556c168fd99e1a7305bb363cd30a6d2c76086bf0587b32a/pydantic_core-2.46.3-cp314-cp314t-macosx_11_0_arm64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/66/7f/03dbad45cd3aa9083fbc93c210ae8b005af67e4136a14186950a747c6874/pydantic_core-2.46.3-graalpy311-graalpy242_311_native-macosx_10_12_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/6a/62/e83133f2e7832532060175cebf1f13748f4c7e7e7165cdd1f611f174494b/pydantic_core-2.46.3-cp311-cp311-manylinux_2_5_i686.manylinux1_i686.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/6b/7e/c3f21882bdf1d8d086876f81b5e296206c69c6082551d776895de7801fa0/pydantic_core-2.46.3-cp312-cp312-win32.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/6c/35/68a762e0c1e31f35fa0dac733cbd9f5b118042853698de9509c8e5bf128b/pydantic_core-2.46.3-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/6c/a5/41bfd1df69afad71b5cf0535055bccc73022715ad362edbc124bc1e021d7/pydantic_core-2.46.3-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/6d/16/a95b6757765b7b031c9374925bb718d55e0a9ba8a1b6a12d25962ea44347/pyyaml-6.0.3-cp311-cp311-macosx_10_13_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/6d/53/269caf30e0096e0a8a8f929d1982a27b3879872cca2d917d17c2f9fdf4fe/pydantic_core-2.46.3-cp314-cp314-manylinux_2_31_riscv64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/6d/ec/6a500e3ad7718ee50583fae79c8651f5d37e3abce1fa9ae177ae65842c53/pydantic_core-2.46.3-cp311-cp311-musllinux_1_1_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/71/60/917329f640924b18ff085ab889a11c763e0b573da888e8404ff486657602/pyyaml-6.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/71/e0/3310fc6d1b5e1fdea22bf3b1b807c7e187b581021b0d7d4514cccdb5fb71/ruff-0.15.12-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/72/34/14ca021ce8e5dfedc35312d08ba8bf51fdd999c576889fc2c24cb97f4f10/iniconfig-2.3.0.tar.gz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/72/7a/a9ba7f98c7a575978698f4230c5e8cc54bbc761af34f560818f933dafa0c/ruff-0.15.12-py3-none-musllinux_1_2_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/72/94/1a15dd82efb362ac84269196e94cf00f187f7ed21c242792a923cdb1c61f/typing_extensions-4.15.0.tar.gz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "vector_db_sizer-0.1.0/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/73/e8/2bdf3ca2090f68bb3d75b44da7bbc71843b19c9f2b9cb9b0f4ab7a5a4329/pyyaml-6.0.3-cp313-cp313-win_arm64.whl"
+        }
+      ]
+    },
+    "package": "vector-db-sizer",
+    "package_slug": "vector-db-sizer",
+    "project_url": "https://pypi.org/project/vector-db-sizer/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T17:50:41.044815+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T17:51:10.038319+00:00",
+    "title": "Personal PyPI Supply Chain Scan: vector-db-sizer 0.1.0",
+    "version": "0.1.0",
+    "version_slug": "0.1.0",
+    "_metadata_path": "reports/packages/vector-db-sizer/0.1.0/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "lestash-1.56.3.tar.gz",
     "finding_count": 12,
     "model": "gpt-5.5",
