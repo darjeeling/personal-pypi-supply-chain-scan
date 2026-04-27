@@ -1,6 +1,378 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "yaiv-1.4.5.tar.gz",
+    "finding_count": 122,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "yaiv-1.4.5/LICENSE"
+          ],
+          "value": "fsf.org"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "yaiv-1.4.5/PKG-INFO",
+            "yaiv-1.4.5/README.md",
+            "yaiv-1.4.5/devtools/setup.py",
+            "yaiv-1.4.5/pyproject.toml",
+            "yaiv-1.4.5/yaiv.egg-info/PKG-INFO"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "yaiv-1.4.5/PKG-INFO",
+            "yaiv-1.4.5/README.md",
+            "yaiv-1.4.5/yaiv.egg-info/PKG-INFO"
+          ],
+          "value": "img.shields.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "yaiv-1.4.5/PKG-INFO",
+            "yaiv-1.4.5/README.md",
+            "yaiv-1.4.5/yaiv.egg-info/PKG-INFO"
+          ],
+          "value": "matplotlib.org"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "yaiv-1.4.5/PKG-INFO",
+            "yaiv-1.4.5/README.md",
+            "yaiv-1.4.5/yaiv.egg-info/PKG-INFO"
+          ],
+          "value": "numpy.org"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "yaiv-1.4.5/PKG-INFO",
+            "yaiv-1.4.5/README.md",
+            "yaiv-1.4.5/yaiv.egg-info/PKG-INFO"
+          ],
+          "value": "pint.readthedocs.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "yaiv-1.4.5/PKG-INFO",
+            "yaiv-1.4.5/README.md",
+            "yaiv-1.4.5/yaiv.egg-info/PKG-INFO"
+          ],
+          "value": "scipy.org"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "yaiv-1.4.5/PKG-INFO",
+            "yaiv-1.4.5/README.md",
+            "yaiv-1.4.5/yaiv.egg-info/PKG-INFO"
+          ],
+          "value": "spglib.readthedocs.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "yaiv-1.4.5/PKG-INFO",
+            "yaiv-1.4.5/README.md",
+            "yaiv-1.4.5/yaiv.egg-info/PKG-INFO"
+          ],
+          "value": "wiki.fysik.dtu.dk"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "yaiv-1.4.5/LICENSE"
+          ],
+          "value": "www.gnu.org"
+        },
+        {
+          "file_count": 6,
+          "files": [
+            "yaiv-1.4.5/Tutorial/data/qe/results_bands/Si.bands.pwo",
+            "yaiv-1.4.5/Tutorial/data/qe/results_bands/bands.xml",
+            "yaiv-1.4.5/Tutorial/data/qe/results_matdyn/matdyn.out",
+            "yaiv-1.4.5/Tutorial/data/qe/results_matdyn/q2r.out",
+            "yaiv-1.4.5/Tutorial/data/qe/results_scf/Si.scf.pwo",
+            "yaiv-1.4.5/Tutorial/data/qe/results_scf/scf.xml"
+          ],
+          "value": "www.quantum-espresso.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "yaiv-1.4.5/Tutorial/data/qe/results_bands/bands.xml",
+            "yaiv-1.4.5/Tutorial/data/qe/results_scf/scf.xml"
+          ],
+          "value": "www.w3.org"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 4,
+          "files": [
+            "yaiv-1.4.5/Tutorial/data/qe/results_bands/Si.bands.pwo",
+            "yaiv-1.4.5/Tutorial/data/qe/results_matdyn/matdyn.out",
+            "yaiv-1.4.5/Tutorial/data/qe/results_matdyn/q2r.out",
+            "yaiv-1.4.5/Tutorial/data/qe/results_scf/Si.scf.pwo"
+          ],
+          "value": "http://www.quantum-espresso.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "yaiv-1.4.5/Tutorial/data/qe/results_bands/bands.xml",
+            "yaiv-1.4.5/Tutorial/data/qe/results_scf/scf.xml"
+          ],
+          "value": "http://www.quantum-espresso.org/ns/qes/qes-1.0"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "yaiv-1.4.5/Tutorial/data/qe/results_bands/bands.xml",
+            "yaiv-1.4.5/Tutorial/data/qe/results_scf/scf.xml"
+          ],
+          "value": "http://www.quantum-espresso.org/ns/qes/qes_230310.xsd"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "yaiv-1.4.5/Tutorial/data/qe/results_bands/Si.bands.pwo",
+            "yaiv-1.4.5/Tutorial/data/qe/results_matdyn/matdyn.out",
+            "yaiv-1.4.5/Tutorial/data/qe/results_matdyn/q2r.out",
+            "yaiv-1.4.5/Tutorial/data/qe/results_scf/Si.scf.pwo"
+          ],
+          "value": "http://www.quantum-espresso.org/quote"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "yaiv-1.4.5/Tutorial/data/qe/results_bands/bands.xml",
+            "yaiv-1.4.5/Tutorial/data/qe/results_scf/scf.xml"
+          ],
+          "value": "http://www.w3.org/2001/XMLSchema-instance"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "yaiv-1.4.5/LICENSE"
+          ],
+          "value": "https://fsf.org/"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "yaiv-1.4.5/PKG-INFO",
+            "yaiv-1.4.5/devtools/setup.py",
+            "yaiv-1.4.5/pyproject.toml",
+            "yaiv-1.4.5/yaiv.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/mgamigo/YAIV"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "yaiv-1.4.5/PKG-INFO",
+            "yaiv-1.4.5/README.md",
+            "yaiv-1.4.5/yaiv.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/mgamigo/YAIV.git"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "yaiv-1.4.5/PKG-INFO",
+            "yaiv-1.4.5/README.md",
+            "yaiv-1.4.5/yaiv.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/mgamigo/YAIV/blob/main/Tutorial/grep.ipynb"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "yaiv-1.4.5/PKG-INFO",
+            "yaiv-1.4.5/README.md",
+            "yaiv-1.4.5/yaiv.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/mgamigo/YAIV/blob/main/Tutorial/plot.ipynb"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "yaiv-1.4.5/PKG-INFO",
+            "yaiv-1.4.5/README.md",
+            "yaiv-1.4.5/yaiv.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/mgamigo/YAIV/blob/main/Tutorial/spectrum.ipynb"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "yaiv-1.4.5/PKG-INFO",
+            "yaiv-1.4.5/README.md",
+            "yaiv-1.4.5/pyproject.toml",
+            "yaiv-1.4.5/yaiv.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/mgamigo/YAIV/issues"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "yaiv-1.4.5/PKG-INFO",
+            "yaiv-1.4.5/README.md",
+            "yaiv-1.4.5/yaiv.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/mgamigo/YAIV/tree/main/Tutorial"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "yaiv-1.4.5/PKG-INFO",
+            "yaiv-1.4.5/README.md",
+            "yaiv-1.4.5/yaiv.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/badge/ASE-%23006f5c.svg?style=for-the-badge&logoColor=FF6719"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "yaiv-1.4.5/PKG-INFO",
+            "yaiv-1.4.5/README.md",
+            "yaiv-1.4.5/yaiv.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/badge/Pint-C49C48?style=for-the-badge"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "yaiv-1.4.5/PKG-INFO",
+            "yaiv-1.4.5/README.md",
+            "yaiv-1.4.5/yaiv.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "yaiv-1.4.5/PKG-INFO",
+            "yaiv-1.4.5/README.md",
+            "yaiv-1.4.5/yaiv.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/badge/matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "yaiv-1.4.5/PKG-INFO",
+            "yaiv-1.4.5/README.md",
+            "yaiv-1.4.5/yaiv.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "yaiv-1.4.5/PKG-INFO",
+            "yaiv-1.4.5/README.md",
+            "yaiv-1.4.5/yaiv.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/badge/spglib-E83E8C?style=for-the-badge"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "yaiv-1.4.5/PKG-INFO",
+            "yaiv-1.4.5/README.md",
+            "yaiv-1.4.5/yaiv.egg-info/PKG-INFO"
+          ],
+          "value": "https://matplotlib.org/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "yaiv-1.4.5/PKG-INFO",
+            "yaiv-1.4.5/README.md",
+            "yaiv-1.4.5/yaiv.egg-info/PKG-INFO"
+          ],
+          "value": "https://numpy.org/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "yaiv-1.4.5/PKG-INFO",
+            "yaiv-1.4.5/README.md",
+            "yaiv-1.4.5/yaiv.egg-info/PKG-INFO"
+          ],
+          "value": "https://pint.readthedocs.io/en/stable/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "yaiv-1.4.5/PKG-INFO",
+            "yaiv-1.4.5/README.md",
+            "yaiv-1.4.5/yaiv.egg-info/PKG-INFO"
+          ],
+          "value": "https://scipy.org/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "yaiv-1.4.5/PKG-INFO",
+            "yaiv-1.4.5/README.md",
+            "yaiv-1.4.5/yaiv.egg-info/PKG-INFO"
+          ],
+          "value": "https://spglib.readthedocs.io/en/stable/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "yaiv-1.4.5/PKG-INFO",
+            "yaiv-1.4.5/README.md",
+            "yaiv-1.4.5/yaiv.egg-info/PKG-INFO"
+          ],
+          "value": "https://wiki.fysik.dtu.dk/ase/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "yaiv-1.4.5/LICENSE"
+          ],
+          "value": "https://www.gnu.org/licenses/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "yaiv-1.4.5/LICENSE"
+          ],
+          "value": "https://www.gnu.org/licenses/why-not-lgpl.html"
+        }
+      ]
+    },
+    "package": "yaiv",
+    "package_slug": "yaiv",
+    "project_url": "https://pypi.org/project/yaiv/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T11:31:48.619796+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T11:39:02.135151+00:00",
+    "title": "Personal PyPI Supply Chain Scan: yaiv 1.4.5",
+    "version": "1.4.5",
+    "version_slug": "1.4.5",
+    "_metadata_path": "reports/packages/yaiv/1.4.5/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "memographix-0.1.1-cp310-abi3-win_amd64.whl",
     "finding_count": 23,
     "model": "gpt-5.5",
