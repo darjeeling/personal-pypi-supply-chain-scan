@@ -116,12 +116,24 @@ elif tarfile.is_tarfile(archive):
         planned_size = 0
         for member in tf.getmembers():
             _safe_extract_member(member.name, extract_dir)
-            if member.issym() or member.islnk() or member.isdev():
-                raise RuntimeError(f"unsupported archive member type: {member.name}")
-            planned_size += member.size
+            if member.isfile():
+                planned_size += member.size
+            elif not member.isdir():
+                continue
             if planned_size > max_extracted_bytes:
                 raise RuntimeError(f"archive contents exceed max_extracted_bytes: {planned_size}")
-        tf.extractall(extract_dir)
+        for member in tf.getmembers():
+            _safe_extract_member(member.name, extract_dir)
+            destination = extract_dir / member.name
+            if member.isdir():
+                destination.mkdir(parents=True, exist_ok=True)
+            elif member.isfile():
+                destination.parent.mkdir(parents=True, exist_ok=True)
+                source = tf.extractfile(member)
+                if source is None:
+                    continue
+                with source, destination.open("wb") as output:
+                    shutil.copyfileobj(source, output)
 else:
     raise RuntimeError("unsupported archive format")
 
