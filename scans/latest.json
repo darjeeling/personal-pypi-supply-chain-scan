@@ -1,247 +1,54 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "did_had-0.2.1.tar.gz",
-  "finding_count": 11,
+  "distribution": "cmd_game_chess-0.1.3.tar.gz",
+  "finding_count": 4,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "did_had-0.2.1/PKG-INFO",
-          "did_had-0.2.1/README.md",
-          "did_had-0.2.1/did_had.egg-info/PKG-INFO"
+          "cmd_game_chess-0.1.3/src/cmd_chess/chess.py"
         ],
-        "value": "badge.fury.io"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "did_had-0.2.1/PKG-INFO",
-          "did_had-0.2.1/README.md",
-          "did_had-0.2.1/did_had.egg-info/PKG-INFO",
-          "did_had-0.2.1/pyproject.toml"
-        ],
-        "value": "github.com"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "did_had-0.2.1/PKG-INFO",
-          "did_had-0.2.1/README.md",
-          "did_had-0.2.1/did_had.egg-info/PKG-INFO"
-        ],
-        "value": "img.shields.io"
+        "value": "files.index"
       },
       {
         "file_count": 1,
         "files": [
-          "did_had-0.2.1/CHANGELOG.md"
+          "cmd_game_chess-0.1.3/LICENSE"
         ],
-        "value": "keepachangelog.com"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "did_had-0.2.1/PKG-INFO",
-          "did_had-0.2.1/README.md",
-          "did_had-0.2.1/did_had.egg-info/PKG-INFO"
-        ],
-        "value": "opensource.org"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "did_had-0.2.1/PKG-INFO",
-          "did_had-0.2.1/README.md",
-          "did_had-0.2.1/did_had.egg-info/PKG-INFO"
-        ],
-        "value": "papers.ssrn.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "did_had-0.2.1/tests/test_did_had.py"
-        ],
-        "value": "raw.githubusercontent.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "did_had-0.2.1/CHANGELOG.md"
-        ],
-        "value": "semver.org"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "did_had-0.2.1/PKG-INFO",
-          "did_had-0.2.1/README.md",
-          "did_had-0.2.1/did_had.egg-info/PKG-INFO"
-        ],
-        "value": "www.python.org"
+        "value": "www.apache.org"
       }
     ],
     "raw_public_ips": [],
-    "suspicious_endpoints": [
-      {
-        "file_count": 1,
-        "files": [
-          "did_had-0.2.1/tests/test_did_had.py"
-        ],
-        "value": "https://raw.githubusercontent.com/chaisemartinPackages/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "did_had-0.2.1/tests/test_did_had.py"
-        ],
-        "value": "raw.githubusercontent.com"
-      }
-    ],
+    "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "did_had-0.2.1/PKG-INFO",
-          "did_had-0.2.1/README.md",
-          "did_had-0.2.1/did_had.egg-info/PKG-INFO"
+          "cmd_game_chess-0.1.3/LICENSE"
         ],
-        "value": "https://badge.fury.io/py/did-had"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "did_had-0.2.1/PKG-INFO",
-          "did_had-0.2.1/README.md",
-          "did_had-0.2.1/did_had.egg-info/PKG-INFO"
-        ],
-        "value": "https://badge.fury.io/py/did-had.svg"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "did_had-0.2.1/PKG-INFO",
-          "did_had-0.2.1/README.md",
-          "did_had-0.2.1/did_had.egg-info/PKG-INFO",
-          "did_had-0.2.1/pyproject.toml"
-        ],
-        "value": "https://github.com/anzonyquispe/did-had"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "did_had-0.2.1/PKG-INFO",
-          "did_had-0.2.1/did_had.egg-info/PKG-INFO",
-          "did_had-0.2.1/pyproject.toml"
-        ],
-        "value": "https://github.com/anzonyquispe/did-had#readme"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "did_had-0.2.1/PKG-INFO",
-          "did_had-0.2.1/did_had.egg-info/PKG-INFO",
-          "did_had-0.2.1/pyproject.toml"
-        ],
-        "value": "https://github.com/anzonyquispe/did-had.git"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "did_had-0.2.1/PKG-INFO",
-          "did_had-0.2.1/did_had.egg-info/PKG-INFO",
-          "did_had-0.2.1/pyproject.toml"
-        ],
-        "value": "https://github.com/anzonyquispe/did-had/issues"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "did_had-0.2.1/PKG-INFO",
-          "did_had-0.2.1/README.md",
-          "did_had-0.2.1/did_had.egg-info/PKG-INFO"
-        ],
-        "value": "https://github.com/chaisemartinPackages/did_had"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "did_had-0.2.1/PKG-INFO",
-          "did_had-0.2.1/README.md",
-          "did_had-0.2.1/did_had.egg-info/PKG-INFO"
-        ],
-        "value": "https://img.shields.io/badge/License-MIT-yellow.svg"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "did_had-0.2.1/PKG-INFO",
-          "did_had-0.2.1/README.md",
-          "did_had-0.2.1/did_had.egg-info/PKG-INFO"
-        ],
-        "value": "https://img.shields.io/badge/python-3.8+-blue.svg"
+        "value": "http://www.apache.org/licenses/"
       },
       {
         "file_count": 1,
         "files": [
-          "did_had-0.2.1/CHANGELOG.md"
+          "cmd_game_chess-0.1.3/LICENSE"
         ],
-        "value": "https://keepachangelog.com/en/1.1.0/"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "did_had-0.2.1/PKG-INFO",
-          "did_had-0.2.1/README.md",
-          "did_had-0.2.1/did_had.egg-info/PKG-INFO"
-        ],
-        "value": "https://opensource.org/licenses/MIT"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "did_had-0.2.1/PKG-INFO",
-          "did_had-0.2.1/README.md",
-          "did_had-0.2.1/did_had.egg-info/PKG-INFO"
-        ],
-        "value": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4284811"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "did_had-0.2.1/tests/test_did_had.py"
-        ],
-        "value": "https://raw.githubusercontent.com/chaisemartinPackages/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "did_had-0.2.1/CHANGELOG.md"
-        ],
-        "value": "https://semver.org/spec/v2.0.0.html"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "did_had-0.2.1/PKG-INFO",
-          "did_had-0.2.1/README.md",
-          "did_had-0.2.1/did_had.egg-info/PKG-INFO"
-        ],
-        "value": "https://www.python.org/downloads/"
+        "value": "http://www.apache.org/licenses/LICENSE-2.0"
       }
     ]
   },
-  "package": "did-had",
-  "package_slug": "did-had",
-  "project_url": "https://pypi.org/project/did-had/",
+  "package": "cmd-game-chess",
+  "package_slug": "cmd-game-chess",
+  "project_url": "https://pypi.org/project/cmd-game-chess/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T13:18:41.118707+00:00",
+  "published_at": "2026-04-27T13:22:54.762873+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T13:19:38.513216+00:00",
-  "title": "Personal PyPI Supply Chain Scan: did-had 0.2.1",
-  "version": "0.2.1",
-  "version_slug": "0.2.1",
-  "_metadata_path": "reports/packages/did-had/0.2.1/metadata.json"
+  "scanned_at": "2026-04-27T13:23:56.548016+00:00",
+  "title": "Personal PyPI Supply Chain Scan: cmd-game-chess 0.1.3",
+  "version": "0.1.3",
+  "version_slug": "0.1.3",
+  "_metadata_path": "reports/packages/cmd-game-chess/0.1.3/metadata.json"
 }

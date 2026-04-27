@@ -1,6 +1,60 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "cmd_game_chess-0.1.3.tar.gz",
+    "finding_count": 4,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "cmd_game_chess-0.1.3/src/cmd_chess/chess.py"
+          ],
+          "value": "files.index"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cmd_game_chess-0.1.3/LICENSE"
+          ],
+          "value": "www.apache.org"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "cmd_game_chess-0.1.3/LICENSE"
+          ],
+          "value": "http://www.apache.org/licenses/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cmd_game_chess-0.1.3/LICENSE"
+          ],
+          "value": "http://www.apache.org/licenses/LICENSE-2.0"
+        }
+      ]
+    },
+    "package": "cmd-game-chess",
+    "package_slug": "cmd-game-chess",
+    "project_url": "https://pypi.org/project/cmd-game-chess/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T13:22:54.762873+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T13:23:56.548016+00:00",
+    "title": "Personal PyPI Supply Chain Scan: cmd-game-chess 0.1.3",
+    "version": "0.1.3",
+    "version_slug": "0.1.3",
+    "_metadata_path": "reports/packages/cmd-game-chess/0.1.3/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "did_had-0.2.1.tar.gz",
     "finding_count": 11,
     "model": "gpt-5.5",
