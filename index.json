@@ -1,6 +1,182 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "cpsl-0.3.53.tar.gz",
+    "finding_count": 37,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "cpsl-0.3.53/src/cpsl/session.py"
+          ],
+          "value": "``"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cpsl-0.3.53/src/cpsl/cli/create.py"
+          ],
+          "value": "docs.capsule.new"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cpsl-0.3.53/src/cpsl/client.py",
+            "cpsl-0.3.53/tests/test_channel_http_base.py"
+          ],
+          "value": "gateway.capsule.new"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cpsl-0.3.53/src/cpsl/cli/create.py"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cpsl-0.3.53/src/cpsl/config.py"
+          ],
+          "value": "raw.rsplit"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cpsl-0.3.53/src/cpsl/cli/create.py"
+          ],
+          "value": "raw.rstrip"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cpsl-0.3.53/src/cpsl/config.py"
+          ],
+          "value": "raw.strip"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cpsl-0.3.53/src/cpsl/client.py"
+          ],
+          "value": "{host"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cpsl-0.3.53/src/cpsl/config.py"
+          ],
+          "value": "{hostname"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cpsl-0.3.53/src/cpsl/cli/deploy.py",
+            "cpsl-0.3.53/src/cpsl/cli/serve.py"
+          ],
+          "value": "{res.hostname"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "cpsl-0.3.53/src/cpsl/session.py"
+          ],
+          "value": "http://``"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cpsl-0.3.53/src/cpsl/client.py"
+          ],
+          "value": "http://{host"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cpsl-0.3.53/src/cpsl/config.py"
+          ],
+          "value": "http://{hostname"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cpsl-0.3.53/src/cpsl/session.py"
+          ],
+          "value": "https://``"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cpsl-0.3.53/src/cpsl/cli/create.py"
+          ],
+          "value": "https://docs.capsule.new"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cpsl-0.3.53/src/cpsl/client.py"
+          ],
+          "value": "https://gateway.capsule.new"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cpsl-0.3.53/tests/test_channel_http_base.py"
+          ],
+          "value": "https://gateway.capsule.new/api/v1/channels"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cpsl-0.3.53/src/cpsl/cli/create.py"
+          ],
+          "value": "https://github.com/beam-cloud/capsule-examples/archive/refs/heads/main.zip"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cpsl-0.3.53/src/cpsl/client.py"
+          ],
+          "value": "https://{host"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "cpsl-0.3.53/src/cpsl/config.py"
+          ],
+          "value": "https://{hostname"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "cpsl-0.3.53/src/cpsl/cli/deploy.py",
+            "cpsl-0.3.53/src/cpsl/cli/serve.py"
+          ],
+          "value": "https://{res.hostname"
+        }
+      ]
+    },
+    "package": "cpsl",
+    "package_slug": "cpsl",
+    "project_url": "https://pypi.org/project/cpsl/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T20:53:47.701000+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T20:54:59.114923+00:00",
+    "title": "Personal PyPI Supply Chain Scan: cpsl 0.3.53",
+    "version": "0.3.53",
+    "version_slug": "0.3.53",
+    "_metadata_path": "reports/packages/cpsl/0.3.53/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "mindroom-2026.4.267.tar.gz",
     "finding_count": 5446,
     "model": "gpt-5.5",
