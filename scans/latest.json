@@ -1,155 +1,354 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "memographix-0.1.0.tar.gz",
-  "finding_count": 22,
+  "distribution": "gst_python_ml-1.1.0.tar.gz",
+  "finding_count": 81,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "memographix-0.1.0/crates/memographix-core/src/lib.rs"
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO"
         ],
-        "value": "files.push"
+        "value": "astral.sh"
       },
       {
-        "file_count": 6,
+        "file_count": 3,
         "files": [
-          "memographix-0.1.0/PKG-INFO",
-          "memographix-0.1.0/README.md",
-          "memographix-0.1.0/crates/memographix-core/Cargo.lock",
-          "memographix-0.1.0/crates/memographix-core/Cargo.toml",
-          "memographix-0.1.0/crates/memographix-core/README.md",
-          "memographix-0.1.0/pyproject.toml"
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO"
+        ],
+        "value": "developer.nvidia.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO"
+        ],
+        "value": "download.pytorch.org"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO"
+        ],
+        "value": "download1.rpmfusion.org"
+      },
+      {
+        "file_count": 5,
+        "files": [
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO",
+          "gst_python_ml-1.1.0/plugins/python/superres.py",
+          "gst_python_ml-1.1.0/pyproject.toml"
         ],
         "value": "github.com"
       },
       {
         "file_count": 3,
         "files": [
-          "memographix-0.1.0/PKG-INFO",
-          "memographix-0.1.0/README.md",
-          "memographix-0.1.0/crates/memographix-core/README.md"
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO"
         ],
-        "value": "img.shields.io"
+        "value": "gstreamer.freedesktop.org"
       },
       {
         "file_count": 3,
         "files": [
-          "memographix-0.1.0/PKG-INFO",
-          "memographix-0.1.0/README.md",
-          "memographix-0.1.0/crates/memographix-core/README.md"
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO"
+        ],
+        "value": "huggingface.co"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO"
+        ],
+        "value": "nvidia.github.io"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO"
         ],
         "value": "pypi.org"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "memographix-0.1.0/python/memographix/config.py"
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO"
         ],
-        "value": "raw.items"
+        "value": "python.org"
       },
       {
         "file_count": 1,
         "files": [
-          "memographix-0.1.0/crates/memographix-core/src/lib.rs"
+          "gst_python_ml-1.1.0/plugins/python/engine/ml_engine.py"
         ],
-        "value": "raw.trim"
+        "value": "raw.ndim"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "gst_python_ml-1.1.0/plugins/python/engine/ml_engine.py"
+        ],
+        "value": "raw.shape"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO"
+        ],
+        "value": "rpmfusion-free-release-42.noarch.rpm"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO"
+        ],
+        "value": "rpmfusion-nonfree-release-42.noarch.rpm"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO"
+        ],
+        "value": "www.python.org"
       }
     ],
     "raw_public_ips": [],
-    "suspicious_endpoints": [],
+    "suspicious_endpoints": [
+      {
+        "file_count": 3,
+        "files": [
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO"
+        ],
+        "value": "rpmfusion-free-release-42.noarch.rpm"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO"
+        ],
+        "value": "rpmfusion-nonfree-release-42.noarch.rpm"
+      }
+    ],
     "urls": [
       {
         "file_count": 3,
         "files": [
-          "memographix-0.1.0/PKG-INFO",
-          "memographix-0.1.0/crates/memographix-core/Cargo.toml",
-          "memographix-0.1.0/pyproject.toml"
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO"
         ],
-        "value": "https://github.com/coderalnaim/memographix"
+        "value": "https://#deb"
       },
       {
         "file_count": 3,
         "files": [
-          "memographix-0.1.0/PKG-INFO",
-          "memographix-0.1.0/README.md",
-          "memographix-0.1.0/crates/memographix-core/README.md"
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO"
         ],
-        "value": "https://github.com/coderalnaim/memographix/actions/workflows/ci.yml"
+        "value": "https://#g"
       },
       {
         "file_count": 3,
         "files": [
-          "memographix-0.1.0/PKG-INFO",
-          "memographix-0.1.0/README.md",
-          "memographix-0.1.0/crates/memographix-core/README.md"
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO"
         ],
-        "value": "https://github.com/coderalnaim/memographix/actions/workflows/ci.yml/badge.svg"
+        "value": "https://astral.sh/uv/install.sh"
       },
       {
-        "file_count": 2,
+        "file_count": 3,
         "files": [
-          "memographix-0.1.0/PKG-INFO",
-          "memographix-0.1.0/pyproject.toml"
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO"
         ],
-        "value": "https://github.com/coderalnaim/memographix/issues"
+        "value": "https://developer.nvidia.com/cuda-downloads"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO"
+        ],
+        "value": "https://download.pytorch.org/whl/cu128"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO"
+        ],
+        "value": "https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-42.noarch.rpm"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO"
+        ],
+        "value": "https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-42.noarch.rpm"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO",
+          "gst_python_ml-1.1.0/pyproject.toml"
+        ],
+        "value": "https://github.com/collabora/gst-python-ml"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/collabora/gst-python-ml.git"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/collabora/gst-python-ml/issues/18"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/mjun0812/flash-attention-prebuild-wheels/releases"
       },
       {
         "file_count": 1,
         "files": [
-          "memographix-0.1.0/crates/memographix-core/Cargo.lock"
+          "gst_python_ml-1.1.0/plugins/python/superres.py"
         ],
-        "value": "https://github.com/rust-lang/crates.io-index"
+        "value": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "gst_python_ml-1.1.0/plugins/python/superres.py"
+        ],
+        "value": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.1/RealESRGAN_x2plus.pth"
       },
       {
         "file_count": 3,
         "files": [
-          "memographix-0.1.0/PKG-INFO",
-          "memographix-0.1.0/README.md",
-          "memographix-0.1.0/crates/memographix-core/README.md"
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO"
         ],
-        "value": "https://img.shields.io/badge/License-MIT-blue.svg"
+        "value": "https://gstreamer.freedesktop.org/download/#windows"
       },
       {
         "file_count": 3,
         "files": [
-          "memographix-0.1.0/PKG-INFO",
-          "memographix-0.1.0/README.md",
-          "memographix-0.1.0/crates/memographix-core/README.md"
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO"
         ],
-        "value": "https://img.shields.io/pypi/pyversions/memographix.svg"
+        "value": "https://huggingface.co/models?sort=trending&search=Helsinki"
       },
       {
         "file_count": 3,
         "files": [
-          "memographix-0.1.0/PKG-INFO",
-          "memographix-0.1.0/README.md",
-          "memographix-0.1.0/crates/memographix-core/README.md"
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO"
         ],
-        "value": "https://img.shields.io/pypi/v/memographix.svg"
+        "value": "https://nvidia.github.io/libnvidia-container/gpgkey"
       },
       {
         "file_count": 3,
         "files": [
-          "memographix-0.1.0/PKG-INFO",
-          "memographix-0.1.0/README.md",
-          "memographix-0.1.0/crates/memographix-core/README.md"
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO"
         ],
-        "value": "https://pypi.org/project/memographix/"
+        "value": "https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO"
+        ],
+        "value": "https://nvidia.github.io/libnvidia-container/stable/rpm/nvidia-container-toolkit.repo"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO"
+        ],
+        "value": "https://pypi.org/project/gstreamer-python/"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "gst_python_ml-1.1.0/PKG-INFO",
+          "gst_python_ml-1.1.0/README.md",
+          "gst_python_ml-1.1.0/plugins/python/gst_python_ml.egg-info/PKG-INFO"
+        ],
+        "value": "https://www.python.org/downloads/"
       }
     ]
   },
-  "package": "memographix",
-  "package_slug": "memographix",
-  "project_url": "https://pypi.org/project/memographix/",
+  "package": "gst-python-ml",
+  "package_slug": "gst-python-ml",
+  "project_url": "https://pypi.org/project/gst-python-ml/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T11:15:25.785852+00:00",
+  "published_at": "2026-04-27T11:20:30.514644+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T11:16:56.334573+00:00",
-  "title": "Personal PyPI Supply Chain Scan: memographix 0.1.0",
-  "version": "0.1.0",
-  "version_slug": "0.1.0",
-  "_metadata_path": "reports/packages/memographix/0.1.0/metadata.json"
+  "scanned_at": "2026-04-27T11:21:20.293222+00:00",
+  "title": "Personal PyPI Supply Chain Scan: gst-python-ml 1.1.0",
+  "version": "1.1.0",
+  "version_slug": "1.1.0",
+  "_metadata_path": "reports/packages/gst-python-ml/1.1.0/metadata.json"
 }
