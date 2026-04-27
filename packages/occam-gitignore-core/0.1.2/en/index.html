@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal PyPI Supply Chain Scan: occam-gitignore-core 0.1.2</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 960px; line-height: 1.55; padding: 0 1rem; color: #1f2933; }
+    a { color: #1f5fbf; }
+    code { background: #f4f4f4; padding: 0.1rem 0.25rem; }
+    h1, h2, h3 { line-height: 1.2; }
+    li { margin: 0.35rem 0; }
+    nav { margin-bottom: 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #e5e9ef; padding: 0.55rem 0.65rem; text-align: left; vertical-align: top; }
+    th { color: #52616f; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; }
+    .scan-groups { margin-top: 1.2rem; }
+    .scan-day { border-top: 1px solid #d8dee4; display: grid; gap: 1rem; grid-template-columns: 10rem minmax(0, 1fr); padding: 1.1rem 0; }
+    .scan-day-date { color: #1f2933; font-weight: 700; }
+    .scan-day-date span { color: #52616f; display: block; font-size: 0.9rem; font-weight: 500; margin-top: 0.2rem; }
+    .scan-day-table { overflow-x: auto; }
+    .risk { display: inline-block; min-width: 4.8rem; text-align: center; border-radius: 999px; padding: 0.15rem 0.45rem; font-size: 0.78rem; font-weight: 700; }
+    .risk-info, .risk-low { background: #dcfce7; color: #166534; }
+    .risk-medium, .risk-unknown { background: #fef3c7; color: #92400e; }
+    .risk-high, .risk-critical { background: #fee2e2; color: #991b1b; }
+    .index-note { color: #52616f; margin-top: -0.35rem; }
+    .version { color: #52616f; margin-left: 0.2rem; white-space: nowrap; }
+    @media (max-width: 720px) {
+      .scan-day { grid-template-columns: 1fr; }
+      th, td { padding: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+<nav><a href='../../../../'>Index</a></nav><h1>Personal PyPI Supply Chain Scan: occam-gitignore-core 0.1.2</h1>
+
+<ul>
+<li>Package: occam-gitignore-core</li>
+<li>Version: 0.1.2</li>
+<li>Project URL: https://pypi.org/project/occam-gitignore-core/</li>
+<li>Distribution: occam_gitignore_core-0.1.2.tar.gz</li>
+<li>Package published at: 2026-04-27T11:02:40.886074+00:00</li>
+<li>Scan published at: 2026-04-27T11:03:28.608064+00:00</li>
+<li>Language: en</li>
+<li>Model: gpt-5.5</li>
+<li>Prompt: malicious-supply-chain-review-v2 ([source](../../../../docs/prompts/malicious-supply-chain-review-v2.md))</li>
+<li>Disclaimer: This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</li>
+</ul>
+
+<h2>Deterministic Network Indicators</h2>
+
+<h3>Suspicious Endpoints</h3>
+
+<p>None</p>
+
+<h3>Raw Public IPs</h3>
+
+<p>None</p>
+
+<h3>URLs</h3>
+<ul>
+<li>https://github.com/fabriziosalmi/gitignore (3 files: occam_gitignore_core-0.1.2/PKG-INFO, occam_gitignore_core-0.1.2/README.md, occam_gitignore_core-0.1.2/pyproject.toml)</li>
+<li>https://pypi.org/project/occam-gitignore/ (2 files: occam_gitignore_core-0.1.2/PKG-INFO, occam_gitignore_core-0.1.2/README.md)</li>
+</ul>
+
+<h3>Domains</h3>
+<ul>
+<li>github.com (3 files: occam_gitignore_core-0.1.2/PKG-INFO, occam_gitignore_core-0.1.2/README.md, occam_gitignore_core-0.1.2/pyproject.toml)</li>
+<li>pypi.org (2 files: occam_gitignore_core-0.1.2/PKG-INFO, occam_gitignore_core-0.1.2/README.md)</li>
+<li>raw.strip (1 files: occam_gitignore_core-0.1.2/src/occam_gitignore_core/templates.py)</li>
+</ul>
+
+<h2>Verdict</h2>
+
+<p>No confirmed malicious supply-chain compromise indicators. Overall risk: info.</p>
+
+<h2>Malicious Supply-Chain Indicators</h2>
+
+<p>No confirmed malicious supply-chain indicators.</p>
+
+<h2>Automatic Execution Paths</h2>
+
+<ul>
+<li>pyproject.toml uses the standard hatchling.build backend; no suspicious custom PEP 517 build hook or install-time execution logic was identified.</li>
+<li>No setup.py, .pth, sitecustomize.py, or usercustomize.py files were identified in the provided extraction.</li>
+<li>src/occam_gitignore_core/__init__.py only re-exports internal modules and types; there is no evidence of malicious import-time network access, process execution, or credential access.</li>
+<li>The subprocess.run([sys.executable, ...]) in tests/test_conformance.py appears to run a fixed conformance runner during tests, not during installation or normal import, and is not evidence of malicious supply-chain execution.</li>
+</ul>
+
+<h2>Theft / Exfiltration / Persistence / Lateral Movement / Obfuscation</h2>
+
+<ul>
+<li>Credential harvesting: no broad discovery of environment variables, .env files, SSH keys, cloud credentials, or CI/CD tokens was identified.</li>
+<li>Exfiltration: no HTTP upload, webhook, raw IP, paste/drop service, or apparent attacker-controlled C2 endpoint usage was identified.</li>
+<li>Staging: no pattern of archiving, encoding, or temporarily staging sensitive files for exfiltration was identified.</li>
+<li>Persistence: no cron, systemd, launch agent, shell profile modification, startup registration, or background polling loop was identified.</li>
+<li>Lateral movement: no use of Kubernetes tokens, Docker socket access, cloud metadata access, or GitHub Actions/PyPI/npm token abuse was identified.</li>
+<li>Obfuscation/loaders: no eval/exec, base64/zlib/marshal staged loader, obfuscated downloader stub, or similar loader behavior was identified.</li>
+</ul>
+
+<h2>Distribution Integrity Anomalies</h2>
+
+<ul>
+<li>A hidden .gitignore file is present, but its contents are ordinary development ignore rules and do not indicate an executable hidden payload or loader.</li>
+<li>dependencies = []; there is no sign of an unexpected dependency insertion.</li>
+<li>No unexplained native binaries, hidden executable payloads, suspicious .dist-info manipulation, or typosquatting evidence was identified in the provided extraction.</li>
+<li>The input appears to be the extracted sdist; wheel/sdist mismatch cannot be assessed from this data alone.</li>
+</ul>
+
+<h2>Additional Verification Needed</h2>
+
+<ul>
+<li>This review is based on the extracted text from occam_gitignore_core-0.1.2.tar.gz. If a wheel exists for the same version, it should be compared against the sdist for file or behavior differences.</li>
+<li>A full reproducibility comparison between the remote source repository tag and the PyPI artifact was not performed.</li>
+</ul>
+
+<p>---</p>
+
+<p>Prompt source: docs/prompts/malicious-supply-chain-review-v2.md</p>
+
+<p>This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</p>
+
+</body>
+</html>
