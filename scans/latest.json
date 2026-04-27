@@ -1,69 +1,47 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "nlptoolkit_dictionary_cy-1.0.36.tar.gz",
-  "finding_count": 2,
+  "distribution": "llm_katan-0.15.1.tar.gz",
+  "finding_count": 40,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
         "file_count": 1,
         "files": [
-          "nlptoolkit_dictionary_cy-1.0.36/LICENSE"
+          "llm_katan-0.15.1/llm_katan/server.py"
         ],
-        "value": "fsf.org"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/README.md"
-        ],
-        "value": "git-scm.com"
+        "value": "%s"
       },
       {
         "file_count": 4,
         "files": [
-          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/README.md",
-          "nlptoolkit_dictionary_cy-1.0.36/setup.py"
+          "llm_katan-0.15.1/PKG-INFO",
+          "llm_katan-0.15.1/README.md",
+          "llm_katan-0.15.1/llm_katan.egg-info/PKG-INFO",
+          "llm_katan-0.15.1/pyproject.toml"
         ],
         "value": "github.com"
       },
       {
-        "file_count": 3,
+        "file_count": 14,
         "files": [
-          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/README.md"
+          "llm_katan-0.15.1/tests/test_anthropic.py",
+          "llm_katan-0.15.1/tests/test_azure_openai.py",
+          "llm_katan-0.15.1/tests/test_azure_v1.py",
+          "llm_katan-0.15.1/tests/test_bedrock.py",
+          "llm_katan-0.15.1/tests/test_echo.py",
+          "llm_katan-0.15.1/tests/test_failure_simulation.py",
+          "llm_katan-0.15.1/tests/test_key_validation.py",
+          "llm_katan-0.15.1/tests/test_multimodal.py"
         ],
-        "value": "www.aclweb.org"
+        "value": "test"
       },
       {
         "file_count": 1,
         "files": [
-          "nlptoolkit_dictionary_cy-1.0.36/LICENSE"
+          "llm_katan-0.15.1/LICENSE"
         ],
-        "value": "www.gnu.org"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/README.md"
-        ],
-        "value": "www.python.org"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/README.md"
-        ],
-        "value": "youtu.be"
+        "value": "www.apache.org"
       }
     ],
     "raw_public_ips": [],
@@ -72,180 +50,103 @@
       {
         "file_count": 1,
         "files": [
-          "nlptoolkit_dictionary_cy-1.0.36/LICENSE"
+          "llm_katan-0.15.1/llm_katan/server.py"
         ],
-        "value": "https://fsf.org/"
+        "value": "http://%s:%d/dashboard"
       },
       {
-        "file_count": 3,
+        "file_count": 14,
         "files": [
-          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/README.md"
+          "llm_katan-0.15.1/tests/test_anthropic.py",
+          "llm_katan-0.15.1/tests/test_azure_openai.py",
+          "llm_katan-0.15.1/tests/test_azure_v1.py",
+          "llm_katan-0.15.1/tests/test_bedrock.py",
+          "llm_katan-0.15.1/tests/test_echo.py",
+          "llm_katan-0.15.1/tests/test_failure_simulation.py",
+          "llm_katan-0.15.1/tests/test_key_validation.py",
+          "llm_katan-0.15.1/tests/test_multimodal.py"
         ],
-        "value": "https://git-scm.com/book/en/v2/Getting-Started-Installing-Git"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/setup.py"
-        ],
-        "value": "https://github.com/StarlangSoftware/Dictionary-Cy"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/README.md"
-        ],
-        "value": "https://github.com/StarlangSoftware/Dictionary/blob/master/video1.jpg"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/README.md"
-        ],
-        "value": "https://github.com/StarlangSoftware/Dictionary/blob/master/video2.jpg"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/README.md"
-        ],
-        "value": "https://github.com/starlangsoftware/Dictionary"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/README.md"
-        ],
-        "value": "https://github.com/starlangsoftware/Dictionary-C"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/README.md"
-        ],
-        "value": "https://github.com/starlangsoftware/Dictionary-CPP"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/README.md"
-        ],
-        "value": "https://github.com/starlangsoftware/Dictionary-CS"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/README.md"
-        ],
-        "value": "https://github.com/starlangsoftware/Dictionary-Cy.git"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/README.md"
-        ],
-        "value": "https://github.com/starlangsoftware/Dictionary-Js"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/README.md"
-        ],
-        "value": "https://github.com/starlangsoftware/Dictionary-Py"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/README.md"
-        ],
-        "value": "https://github.com/starlangsoftware/Dictionary-Swift"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/README.md"
-        ],
-        "value": "https://www.aclweb.org/anthology/R19-1156"
+        "value": "http://test"
       },
       {
         "file_count": 1,
         "files": [
-          "nlptoolkit_dictionary_cy-1.0.36/LICENSE"
+          "llm_katan-0.15.1/LICENSE"
         ],
-        "value": "https://www.gnu.org/licenses/"
+        "value": "http://www.apache.org/licenses/"
       },
       {
         "file_count": 1,
         "files": [
-          "nlptoolkit_dictionary_cy-1.0.36/LICENSE"
+          "llm_katan-0.15.1/LICENSE"
         ],
-        "value": "https://www.gnu.org/licenses/why-not-lgpl.html"
+        "value": "http://www.apache.org/licenses/LICENSE-2.0"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "llm_katan-0.15.1/tests/test_multimodal.py"
+        ],
+        "value": "https://example.com/cat.jpg"
       },
       {
         "file_count": 3,
         "files": [
-          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/README.md"
+          "llm_katan-0.15.1/PKG-INFO",
+          "llm_katan-0.15.1/README.md",
+          "llm_katan-0.15.1/llm_katan.egg-info/PKG-INFO"
         ],
-        "value": "https://www.python.org/downloads/"
+        "value": "https://github.com/noyitz"
       },
       {
         "file_count": 3,
         "files": [
-          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/README.md"
+          "llm_katan-0.15.1/PKG-INFO",
+          "llm_katan-0.15.1/README.md",
+          "llm_katan-0.15.1/llm_katan.egg-info/PKG-INFO"
         ],
-        "value": "https://youtu.be/10iAqbfsA2A"
+        "value": "https://github.com/yossiovadia"
       },
       {
         "file_count": 3,
         "files": [
-          "nlptoolkit_dictionary_cy-1.0.36/NlpToolkit_Dictionary_Cy.egg-info/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/PKG-INFO",
-          "nlptoolkit_dictionary_cy-1.0.36/README.md"
+          "llm_katan-0.15.1/PKG-INFO",
+          "llm_katan-0.15.1/llm_katan.egg-info/PKG-INFO",
+          "llm_katan-0.15.1/pyproject.toml"
         ],
-        "value": "https://youtu.be/C-_TZDkFwzQ"
+        "value": "https://github.com/yossiovadia/llm-katan"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "llm_katan-0.15.1/PKG-INFO",
+          "llm_katan-0.15.1/README.md",
+          "llm_katan-0.15.1/llm_katan.egg-info/PKG-INFO",
+          "llm_katan-0.15.1/pyproject.toml"
+        ],
+        "value": "https://github.com/yossiovadia/llm-katan.git"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "llm_katan-0.15.1/PKG-INFO",
+          "llm_katan-0.15.1/llm_katan.egg-info/PKG-INFO",
+          "llm_katan-0.15.1/pyproject.toml"
+        ],
+        "value": "https://github.com/yossiovadia/llm-katan/issues"
       }
     ]
   },
-  "package": "nlptoolkit-dictionary-cy",
-  "package_slug": "nlptoolkit-dictionary-cy",
-  "project_url": "https://pypi.org/project/nlptoolkit-dictionary-cy/",
+  "package": "llm-katan",
+  "package_slug": "llm-katan",
+  "project_url": "https://pypi.org/project/llm-katan/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T18:50:51.116021+00:00",
+  "published_at": "2026-04-27T18:55:47.143722+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T18:52:09.522407+00:00",
-  "title": "Personal PyPI Supply Chain Scan: nlptoolkit-dictionary-cy 1.0.36",
-  "version": "1.0.36",
-  "version_slug": "1.0.36",
-  "_metadata_path": "reports/packages/nlptoolkit-dictionary-cy/1.0.36/metadata.json"
+  "scanned_at": "2026-04-27T18:56:26.390818+00:00",
+  "title": "Personal PyPI Supply Chain Scan: llm-katan 0.15.1",
+  "version": "0.15.1",
+  "version_slug": "0.15.1",
+  "_metadata_path": "reports/packages/llm-katan/0.15.1/metadata.json"
 }

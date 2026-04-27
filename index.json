@@ -1,6 +1,158 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "llm_katan-0.15.1.tar.gz",
+    "finding_count": 40,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "llm_katan-0.15.1/llm_katan/server.py"
+          ],
+          "value": "%s"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "llm_katan-0.15.1/PKG-INFO",
+            "llm_katan-0.15.1/README.md",
+            "llm_katan-0.15.1/llm_katan.egg-info/PKG-INFO",
+            "llm_katan-0.15.1/pyproject.toml"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 14,
+          "files": [
+            "llm_katan-0.15.1/tests/test_anthropic.py",
+            "llm_katan-0.15.1/tests/test_azure_openai.py",
+            "llm_katan-0.15.1/tests/test_azure_v1.py",
+            "llm_katan-0.15.1/tests/test_bedrock.py",
+            "llm_katan-0.15.1/tests/test_echo.py",
+            "llm_katan-0.15.1/tests/test_failure_simulation.py",
+            "llm_katan-0.15.1/tests/test_key_validation.py",
+            "llm_katan-0.15.1/tests/test_multimodal.py"
+          ],
+          "value": "test"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "llm_katan-0.15.1/LICENSE"
+          ],
+          "value": "www.apache.org"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "llm_katan-0.15.1/llm_katan/server.py"
+          ],
+          "value": "http://%s:%d/dashboard"
+        },
+        {
+          "file_count": 14,
+          "files": [
+            "llm_katan-0.15.1/tests/test_anthropic.py",
+            "llm_katan-0.15.1/tests/test_azure_openai.py",
+            "llm_katan-0.15.1/tests/test_azure_v1.py",
+            "llm_katan-0.15.1/tests/test_bedrock.py",
+            "llm_katan-0.15.1/tests/test_echo.py",
+            "llm_katan-0.15.1/tests/test_failure_simulation.py",
+            "llm_katan-0.15.1/tests/test_key_validation.py",
+            "llm_katan-0.15.1/tests/test_multimodal.py"
+          ],
+          "value": "http://test"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "llm_katan-0.15.1/LICENSE"
+          ],
+          "value": "http://www.apache.org/licenses/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "llm_katan-0.15.1/LICENSE"
+          ],
+          "value": "http://www.apache.org/licenses/LICENSE-2.0"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "llm_katan-0.15.1/tests/test_multimodal.py"
+          ],
+          "value": "https://example.com/cat.jpg"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "llm_katan-0.15.1/PKG-INFO",
+            "llm_katan-0.15.1/README.md",
+            "llm_katan-0.15.1/llm_katan.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/noyitz"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "llm_katan-0.15.1/PKG-INFO",
+            "llm_katan-0.15.1/README.md",
+            "llm_katan-0.15.1/llm_katan.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/yossiovadia"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "llm_katan-0.15.1/PKG-INFO",
+            "llm_katan-0.15.1/llm_katan.egg-info/PKG-INFO",
+            "llm_katan-0.15.1/pyproject.toml"
+          ],
+          "value": "https://github.com/yossiovadia/llm-katan"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "llm_katan-0.15.1/PKG-INFO",
+            "llm_katan-0.15.1/README.md",
+            "llm_katan-0.15.1/llm_katan.egg-info/PKG-INFO",
+            "llm_katan-0.15.1/pyproject.toml"
+          ],
+          "value": "https://github.com/yossiovadia/llm-katan.git"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "llm_katan-0.15.1/PKG-INFO",
+            "llm_katan-0.15.1/llm_katan.egg-info/PKG-INFO",
+            "llm_katan-0.15.1/pyproject.toml"
+          ],
+          "value": "https://github.com/yossiovadia/llm-katan/issues"
+        }
+      ]
+    },
+    "package": "llm-katan",
+    "package_slug": "llm-katan",
+    "project_url": "https://pypi.org/project/llm-katan/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T18:55:47.143722+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T18:56:26.390818+00:00",
+    "title": "Personal PyPI Supply Chain Scan: llm-katan 0.15.1",
+    "version": "0.15.1",
+    "version_slug": "0.15.1",
+    "_metadata_path": "reports/packages/llm-katan/0.15.1/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "nlptoolkit_dictionary_cy-1.0.36.tar.gz",
     "finding_count": 2,
     "model": "gpt-5.5",
