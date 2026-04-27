@@ -1,200 +1,223 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "ai302-0.1.3.tar.gz",
-  "finding_count": 1,
+  "distribution": "whatsapp_agent_cli-0.1.13.tar.gz",
+  "finding_count": 57,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
+        "file_count": 2,
+        "files": [
+          "whatsapp_agent_cli-0.1.13/scripts/bootstrap.sh",
+          "whatsapp_agent_cli-0.1.13/scripts/install.sh"
+        ],
+        "value": "astral.sh"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "whatsapp_agent_cli-0.1.13/scripts/install.sh"
+        ],
+        "value": "docs.anthropic.com"
+      },
+      {
         "file_count": 4,
         "files": [
-          "ai302-0.1.3/PKG-INFO",
-          "ai302-0.1.3/README.md",
-          "ai302-0.1.3/ai302/api/http_client.py",
-          "ai302-0.1.3/doc/api.md"
+          "whatsapp_agent_cli-0.1.13/PKG-INFO",
+          "whatsapp_agent_cli-0.1.13/README.md",
+          "whatsapp_agent_cli-0.1.13/pyproject.toml",
+          "whatsapp_agent_cli-0.1.13/scripts/install.sh"
         ],
-        "value": "api.302.ai"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ai302-0.1.3/PKG-INFO",
-          "ai302-0.1.3/README.md",
-          "ai302-0.1.3/doc/api.md"
-        ],
-        "value": "api.302.ai`）"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ai302-0.1.3/ai302/cli/image.py"
-        ],
-        "value": "api.image"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ai302-0.1.3/ai302/cli/image.py",
-          "ai302-0.1.3/ai302/cli/tts.py",
-          "ai302-0.1.3/ai302/cli/video.py"
-        ],
-        "value": "api.record"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ai302-0.1.3/ai302/cli/tts.py"
-        ],
-        "value": "api.tts"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ai302-0.1.3/ai302/cli/video.py"
-        ],
-        "value": "api.video"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-apply/evals/evals.json"
-        ],
-        "value": "cdn.302.ai"
+        "value": "github.com"
       },
       {
         "file_count": 2,
         "files": [
-          "ai302-0.1.3/ai302/assets/commands/302ai-media-studio/apply.md",
-          "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-apply/SKILL.md"
+          "whatsapp_agent_cli-0.1.13/PKG-INFO",
+          "whatsapp_agent_cli-0.1.13/README.md"
         ],
-        "value": "cdn.example.com"
+        "value": "img.shields.io"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "whatsapp_agent_cli-0.1.13/PKG-INFO",
+          "whatsapp_agent_cli-0.1.13/README.md",
+          "whatsapp_agent_cli-0.1.13/server/gateway.py"
+        ],
+        "value": "pypi.org"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "whatsapp_agent_cli-0.1.13/PKG-INFO",
+          "whatsapp_agent_cli-0.1.13/README.md"
+        ],
+        "value": "raw.githubusercontent.com"
       },
       {
         "file_count": 1,
         "files": [
-          "ai302-0.1.3/ai302/core/yaml_edit.py"
+          "whatsapp_agent_cli-0.1.13/server/gateway.py"
         ],
-        "value": "raw.find"
+        "value": "raw.split"
       },
       {
         "file_count": 1,
         "files": [
-          "ai302-0.1.3/ai302/core/yaml_edit.py"
+          "whatsapp_agent_cli-0.1.13/server/gateway.py"
         ],
         "value": "raw.strip"
       }
     ],
     "raw_public_ips": [],
-    "suspicious_endpoints": [],
+    "suspicious_endpoints": [
+      {
+        "file_count": 2,
+        "files": [
+          "whatsapp_agent_cli-0.1.13/PKG-INFO",
+          "whatsapp_agent_cli-0.1.13/README.md"
+        ],
+        "value": "https://raw.githubusercontent.com/kalki-kgp/whatsapp-agent-cli/main/scripts/bootstrap.sh"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "whatsapp_agent_cli-0.1.13/PKG-INFO",
+          "whatsapp_agent_cli-0.1.13/README.md"
+        ],
+        "value": "raw.githubusercontent.com"
+      }
+    ],
     "urls": [
       {
-        "file_count": 4,
+        "file_count": 2,
         "files": [
-          "ai302-0.1.3/PKG-INFO",
-          "ai302-0.1.3/README.md",
-          "ai302-0.1.3/ai302/assets/commands/302ai-media-studio/result.md",
-          "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-result/SKILL.md"
+          "whatsapp_agent_cli-0.1.13/scripts/bootstrap.sh",
+          "whatsapp_agent_cli-0.1.13/scripts/install.sh"
         ],
-        "value": "https://"
+        "value": "https://astral.sh/uv/install.sh"
       },
       {
         "file_count": 1,
         "files": [
-          "ai302-0.1.3/ai302/api/http_client.py"
+          "whatsapp_agent_cli-0.1.13/scripts/install.sh"
         ],
-        "value": "https://api.302.ai"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "ai302-0.1.3/PKG-INFO",
-          "ai302-0.1.3/README.md",
-          "ai302-0.1.3/doc/api.md"
-        ],
-        "value": "https://api.302.ai`）"
+        "value": "https://docs.anthropic.com/claude/cli"
       },
       {
         "file_count": 1,
         "files": [
-          "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-apply/evals/evals.json"
+          "whatsapp_agent_cli-0.1.13/scripts/install.sh"
         ],
-        "value": "https://cdn.302.ai/generated/cat_abc123.jpg"
+        "value": "https://github.com/kalki-kgp/codex-whatsapp.git"
       },
       {
         "file_count": 2,
         "files": [
-          "ai302-0.1.3/ai302/assets/commands/302ai-media-studio/apply.md",
-          "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-apply/SKILL.md"
+          "whatsapp_agent_cli-0.1.13/PKG-INFO",
+          "whatsapp_agent_cli-0.1.13/pyproject.toml"
         ],
-        "value": "https://cdn.example.com/abc123.jpg"
+        "value": "https://github.com/kalki-kgp/whatsapp-agent-cli"
       },
       {
         "file_count": 2,
         "files": [
-          "ai302-0.1.3/ai302/assets/commands/302ai-media-studio/apply.md",
-          "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-apply/SKILL.md"
+          "whatsapp_agent_cli-0.1.13/PKG-INFO",
+          "whatsapp_agent_cli-0.1.13/README.md"
         ],
-        "value": "https://example.com/cat.jpg"
+        "value": "https://github.com/kalki-kgp/whatsapp-agent-cli.git"
       },
       {
         "file_count": 2,
         "files": [
-          "ai302-0.1.3/ai302/assets/commands/302ai-media-studio/apply.md",
-          "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-apply/SKILL.md"
+          "whatsapp_agent_cli-0.1.13/PKG-INFO",
+          "whatsapp_agent_cli-0.1.13/README.md"
         ],
-        "value": "https://example.com/img1.jpg"
+        "value": "https://github.com/kalki-kgp/whatsapp-agent-cli/blob/main/LICENSE"
       },
       {
         "file_count": 2,
         "files": [
-          "ai302-0.1.3/ai302/assets/commands/302ai-media-studio/apply.md",
-          "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-apply/SKILL.md"
+          "whatsapp_agent_cli-0.1.13/PKG-INFO",
+          "whatsapp_agent_cli-0.1.13/pyproject.toml"
         ],
-        "value": "https://example.com/img2.jpg"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "ai302-0.1.3/ai302/assets/commands/302ai-media-studio/result.md",
-          "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-result/SKILL.md"
-        ],
-        "value": "https://example.com/result.mp4"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "ai302-0.1.3/ai302/assets/commands/302ai-media-studio/apply.md",
-          "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-apply/SKILL.md"
-        ],
-        "value": "https://example.com/source.mp4"
+        "value": "https://github.com/kalki-kgp/whatsapp-agent-cli/issues"
       },
       {
         "file_count": 1,
         "files": [
-          "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-propose/evals/evals.json"
+          "whatsapp_agent_cli-0.1.13/scripts/install.sh"
         ],
-        "value": "https://example.com/sunset.jpg"
+        "value": "https://github.com/openai/codex"
       },
       {
         "file_count": 2,
         "files": [
-          "ai302-0.1.3/ai302/assets/commands/302ai-media-studio/propose.md",
-          "ai302-0.1.3/ai302/assets/skills/302ai-media-studio-propose/SKILL.md"
+          "whatsapp_agent_cli-0.1.13/PKG-INFO",
+          "whatsapp_agent_cli-0.1.13/README.md"
         ],
-        "value": "https://example.com/video.mp4"
+        "value": "https://img.shields.io/badge/license-MIT-lightgrey"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "whatsapp_agent_cli-0.1.13/PKG-INFO",
+          "whatsapp_agent_cli-0.1.13/README.md"
+        ],
+        "value": "https://img.shields.io/badge/platform-linux%20%7C%20macOS-lightgrey"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "whatsapp_agent_cli-0.1.13/PKG-INFO",
+          "whatsapp_agent_cli-0.1.13/README.md"
+        ],
+        "value": "https://img.shields.io/pypi/pyversions/whatsapp-agent-cli"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "whatsapp_agent_cli-0.1.13/PKG-INFO",
+          "whatsapp_agent_cli-0.1.13/README.md"
+        ],
+        "value": "https://img.shields.io/pypi/v/whatsapp-agent-cli?color=25D366&label=pypi"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "whatsapp_agent_cli-0.1.13/PKG-INFO",
+          "whatsapp_agent_cli-0.1.13/README.md"
+        ],
+        "value": "https://pypi.org/project/whatsapp-agent-cli/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "whatsapp_agent_cli-0.1.13/server/gateway.py"
+        ],
+        "value": "https://pypi.org/pypi/whatsapp-agent-cli/json"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "whatsapp_agent_cli-0.1.13/PKG-INFO",
+          "whatsapp_agent_cli-0.1.13/README.md"
+        ],
+        "value": "https://raw.githubusercontent.com/kalki-kgp/whatsapp-agent-cli/main/scripts/bootstrap.sh"
       }
     ]
   },
-  "package": "ai302",
-  "package_slug": "ai302",
-  "project_url": "https://pypi.org/project/ai302/",
+  "package": "whatsapp-agent-cli",
+  "package_slug": "whatsapp-agent-cli",
+  "project_url": "https://pypi.org/project/whatsapp-agent-cli/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T08:39:10.615299+00:00",
+  "published_at": "2026-04-27T08:46:46.765796+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T08:39:48.929723+00:00",
-  "title": "Personal PyPI Supply Chain Scan: ai302 0.1.3",
-  "version": "0.1.3",
-  "version_slug": "0.1.3",
-  "_metadata_path": "reports/packages/ai302/0.1.3/metadata.json"
+  "scanned_at": "2026-04-27T08:47:35.789066+00:00",
+  "title": "Personal PyPI Supply Chain Scan: whatsapp-agent-cli 0.1.13",
+  "version": "0.1.13",
+  "version_slug": "0.1.13",
+  "_metadata_path": "reports/packages/whatsapp-agent-cli/0.1.13/metadata.json"
 }
