@@ -1,6 +1,703 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "azure_jobs-0.1.25.tar.gz",
+    "finding_count": 917,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/src/azure_jobs/cli/auth.py"
+          ],
+          "value": "aka.ms"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/src/azure_jobs/core/rest_client/_blob.py"
+          ],
+          "value": "files.items"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "files.pythonhosted.org"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "azure_jobs-0.1.25/.vscode/amlt-config.schema.json",
+            "azure_jobs-0.1.25/src/azure_jobs/cli/init.py",
+            "azure_jobs-0.1.25/src/azure_jobs/cli/pull.py",
+            "azure_jobs-0.1.25/tests/test_cli.py"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/.vscode/amlt-config.schema.json"
+          ],
+          "value": "json-schema.org"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "azure_jobs-0.1.25/docs/rest-api.md",
+            "azure_jobs-0.1.25/src/azure_jobs/cli/auth.py",
+            "azure_jobs-0.1.25/src/azure_jobs/cli/images.py",
+            "azure_jobs-0.1.25/src/azure_jobs/core/rest_client/_auth.py"
+          ],
+          "value": "management.azure.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "azure_jobs-0.1.25/docs/rest-api.md",
+            "azure_jobs-0.1.25/src/azure_jobs/core/rest_client/_ml_client.py"
+          ],
+          "value": "ml.azure.cn"
+        },
+        {
+          "file_count": 6,
+          "files": [
+            "azure_jobs-0.1.25/docs/rest-api.md",
+            "azure_jobs-0.1.25/src/azure_jobs/cli/quota.py",
+            "azure_jobs-0.1.25/src/azure_jobs/core/rest_client/_auth.py",
+            "azure_jobs-0.1.25/src/azure_jobs/core/rest_client/_ml_client.py",
+            "azure_jobs-0.1.25/tests/test_cli.py",
+            "azure_jobs-0.1.25/tests/test_dashboard.py"
+          ],
+          "value": "ml.azure.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/tests/test_submit.py"
+          ],
+          "value": "portal.azure.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "pypi.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/src/azure_jobs/core/client.py"
+          ],
+          "value": "raw.split"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/src/azure_jobs/core/sku.py"
+          ],
+          "value": "raw.strip"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/src/azure_jobs/core/rest_client/_blob.py"
+          ],
+          "value": "storage.azure.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "azure_jobs-0.1.25/src/azure_jobs/tui/helpers.py",
+            "azure_jobs-0.1.25/src/azure_jobs/utils/ui.py"
+          ],
+          "value": "{short"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/src/azure_jobs/cli/auth.py"
+          ],
+          "value": "https://aka.ms/installazurecli"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/tests/test_cli.py"
+          ],
+          "value": "https://example.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/tests/test_cli.py"
+          ],
+          "value": "https://example.com/bad.git"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/tests/test_cli.py"
+          ],
+          "value": "https://example.com/repo.git"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/00/71/3a69e86f3eafe8c7a59d008d245888051005bd657760e96d5fbfb0b740c2/tomli-2.4.1-cp314-cp314-musllinux_1_2_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/00/c0/8f5d070730d7836adc9c9b6408dec68c6ced86b304a9b26a14df072a6e8c/traitlets-5.14.3-py3-none-any.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/01/99/5d239b6156eddf761a636bded1118414d161bd6b7b37a9335549ed159396/msal_extensions-1.3.1.tar.gz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/02/4a/19e3398d0dc66ad2b463e4afa1fc541d697d7bc090305f9dfb948d3dfa29/pyzmq-27.0.1-cp312-abi3-musllinux_1_2_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/02/9a/b759b503d507f375b2b5c153e4d2ee0a75aa215b7f2489cf314f4541f2c0/charset_normalizer-3.4.7-cp314-cp314t-musllinux_1_2_armv7l.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/02/e0/3630057d8eb170310785723ed5adcdfb7d50cb7e6455f85ba8a3deed642b/tomli-2.4.1-cp314-cp314t-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/03/11/5e395f961d6868269835dee1bafec6a1ac176505a167f68b7d8818431068/cryptography-46.0.7-cp314-cp314t-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/04/24/b7721e4845c2f162d26f50521b825fb061bc0a5afcf9a386840f23ea19fa/PyYAML-6.0.2-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/04/8b/30f930733afe425e3cbfc0e1468a30a18942350c1a8816acfade80c005c4/psutil-7.0.0-cp36-abi3-macosx_11_0_arm64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/04/bf/90339ac0f55726dce7d794e6d79a18a91265bdf3aa70b6b9ca52f35e022a/pywin32-311-cp313-cp313-win_arm64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/05/38/30f541baf6a3f6df77b3df16b01ba319221389e2da59427e221ef417ac0c/tomli-2.4.1-cp314-cp314t-musllinux_1_2_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/05/eb/b86f2a2645b62adcfff53b0dd97e8dfafb5c8aa864bd0d9a2c2049a0d551/cffi-2.0.0-cp310-cp310-manylinux2014_ppc64le.manylinux_2_17_ppc64le.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/06/6d/3be70e827977f20db77c12a97e6a9f973631a45b8d186c084527e53e77a4/charset_normalizer-3.4.7-cp311-cp311-win32.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/07/06/b823a7e818c756d9a7123ba2cda7d07bc2dd32835648d1a7b7b7a05d848d/tomli-2.4.1-cp313-cp313-macosx_10_13_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/07/e0/267e57e387b4ca276b90f0434ff88b2c2241ad72b16d31836adddfd6031b/cffi-2.0.0-cp312-cp312-musllinux_1_2_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/09/ce/1eb500eae19f4648281bb2186927bb062d2438c2e5093d1360391afd2f90/tornado-6.5.2.tar.gz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0b/28/dd0967a76aab36731b6ebfe64dec4e981aff7e0608f60c2d46b46982607d/cffi-2.0.0-cp311-cp311-musllinux_1_2_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0b/5d/4a8f770695d73be252331e60e526291e3df0c9b27556a90a6b47bccca4c2/cryptography-46.0.7-cp311-abi3-macosx_10_9_universal2.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0b/9f/a65090624ecf468cdca03533906e7c69ed7588582240cfe7cc9e770b50eb/exceptiongroup-1.3.0.tar.gz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0c/cd/a32a84217ced5039f53b29f460962abb2d4420def55afabe45b1c3c7483d/charset_normalizer-3.4.7-cp314-cp314-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0c/e8/4f648c598b17c3d06e8753d7d13d57542b30d56e6c2dedf9c331ae56312e/PyYAML-6.0.2-cp312-cp312-win_amd64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0c/eb/4fc8d0a7110eb5fc9cc161723a34a8a6c200ce3b4fbf681bc86feee22308/charset_normalizer-3.4.7-cp312-cp312-macosx_10_13_universal2.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0e/28/a81d6ce9f4804818bd1231a9a6e4d56ea84ebbe8385c49591444f0234fa2/textual-8.2.3-py3-none-any.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0e/61/66938bbb5fc52dbdf84594873d5b51fb1f7c7794e9c0f5bd885f30bc507b/idna-3.11-py3-none-any.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0e/9b/c0957041067c7724b310f22c398be46399297c12ed834c3bc42200a2756f/pyzmq-27.0.1-cp312-abi3-macosx_10_15_universal2.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/0f/54/6bbbfc5efe86f9d71041827b793c24811a017c6ac0fd12883e4caa86b8ed/cryptography-46.0.7-cp311-abi3-manylinux_2_28_ppc64le.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/10/8f/d3ddb16c5a4befdf31a23307f72828686ab2096f068eaf56631e136c1fdd/tomli-2.4.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/10/90/d62ce007a1c80d0b2c93e02cab211224756240884751b94ca72df8a875ca/tomli-2.4.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/10/f2/19ceb3b3dc14009373432af0c13f46aa08e3ce334ec6eff13492e1812ccd/cryptography-46.0.7-cp311-abi3-musllinux_1_2_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/11/85/b0394e0b6fcccd2c1eeefc230978a6f8cb0c5df1e4cd3e7625735a0d7d1e/jupyter_client-8.6.3-py3-none-any.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/11/92/fe6d57da897776ad2e01e279170ea8ae726755b045fe5ac73b75357a5a3f/tornado-6.5.2-cp39-abi3-musllinux_1_2_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/12/4a/3dfd5f7850cbf0d06dc84ba9aa00db766b52ca38d8b86e3a38314d52498c/cffi-2.0.0-cp311-cp311-macosx_10_13_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/12/64/da524626d3b9cc40c168a13da8335fe1c51be12c0a63685cc6db7308daae/tomli-2.4.1-cp314-cp314t-win_amd64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/13/33/1ec89c8f21c89d21a2eaff7def3676e21d8248d2675705e72554fb5a6f3f/pyzmq-27.0.1-cp312-abi3-win_arm64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/13/a3/a812df4e2dd5696d1f351d58b8fe16a405b234ad2886a0dab9183fb78109/pycparser-2.22-py3-none-any.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/14/0d/e2c3b43bbce3cf6bd97c840b46088a3031085179e596d4929729d8d68270/PyYAML-6.0.2-cp313-cp313-win32.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/14/25/b208c5683343959b670dc001595f2f3737e051da617f66c31f7c4fa93abc/rich-14.3.3-py3-none-any.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/14/58/640ac93bf230cd27d002462c9af0d837779f8773bc03dee06b5835208214/tomli-2.4.1-cp314-cp314-win_amd64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/14/6f/12645cf7f08e1a20c7eb8c297c6f11d31c1b50f316a7e7e1e1de6e2e7b7e/tomli-2.4.1-cp313-cp313-macosx_11_0_arm64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/16/01/0cd51dd86ab5b9befe0d031e276510491976c3a80e9f6e31810cce46c4ad/cryptography-46.0.7-cp38-abi3-manylinux_2_31_armv7l.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/16/57/34e53ef2b55b1428dac5aabe3a974a16c8bda3bf20549ba500e3ff6cb426/pyzmq-27.0.1-pp311-pypy311_pp73-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/16/f9/229fa3434c590ddf6c0aa9af64d3af4b752540686cace29e6281e3458469/tomli-2.4.1-cp313-cp313-win32.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/17/3e/4296c6b0ad2d07be11ae1395dccf9cae48a0a655cf9be1c3733ad2b591d1/pyzmq-27.0.1-cp313-cp313t-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/17/ab/63133691f56baae417493cba6b7c641571a2130eb7bceba6773367ab9ec5/charset_normalizer-3.4.7-cp311-cp311-musllinux_1_2_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/17/d1/cc1fbfb65b4042016e4e035b2548cdfe0945c817345df83aa2d98490e7fc/pyzmq-27.0.1-pp310-pypy310_pp73-win_amd64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/1a/7e/caf6496d60152ad4ed09282c1885cca4eea150bfd007da84aea07bcc0a3e/tomli-2.4.1-cp312-cp312-musllinux_1_2_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/1a/bb/a5c213c19ee94b15dfccc48f363738633a493812687f5567addbcbba9f6f/cryptography-46.0.7-cp311-abi3-win32.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/1b/22/461e131cf16b8814f3c356fa1ea0912697dbc4c64cddf01f7756ec704c1e/pyzmq-27.0.1-cp314-cp314t-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/1b/4e/619174f52b120efcf23633c817fd3fed867c30bff785e2cd5a53a70e483c/tornado-6.5.2-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/1d/98/3a45bf8247889cf28262ebd3d0872edff11565b2a1e3064ccb132db3fbb0/charset_normalizer-3.4.7-cp310-cp310-musllinux_1_2_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/1d/b2/31537cf4b1ca988837256c910a668b553fceb8f069bedc4b1c826024b52c/pycparser-2.22.tar.gz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/1e/df/3d1f4a03b561d824cbd491394f67591957e2f1acf6dc85d96f970312a76a/pyzmq-27.0.1-cp314-cp314t-musllinux_1_2_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/20/12/38679034af332785aac8774540895e234f4d07f7545804097de4b666afd8/packaging-25.0-py3-none-any.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/20/2a/1b016902351a523aa2bd446b50a5bc1175d7a7d1cf90fe2ef904f9b84ebc/cryptography-46.0.7-pp311-pypy311_pp73-win_amd64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/20/50/fc384631d8282809fb1029a4460d2fe90fa0370a0e866a8318ed75c8d3bb/pyzmq-27.0.1-cp312-abi3-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/20/d9/5f67790f06b735d7c7637171bbfd89882ad67201891b7275e51116ed8207/charset_normalizer-3.4.7-cp311-cp311-win_amd64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/20/e5/16ff212c1e452235a90aeb09066144d0c5a6a8c0834397e03f5224495c4e/ptyprocess-0.7.0.tar.gz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/20/e7/bed0024a0f4ab0c8a9c64d4445f39b30c99bd1acd228291959e3de664247/charset_normalizer-3.4.7-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/20/f7/7b991776844dfa058017e600e6e55ff01984a063290ca5622c0b63162f68/charset_normalizer-3.4.7-cp310-cp310-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/21/7a/13b24e70d2f90a322f2900c5d8e1f14fa7e2a6b3332b7309ba7b2ba51a5a/cffi-2.0.0-cp310-cp310-musllinux_1_2_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/22/5f/956f0f9fc65223a58fbc14459bf34b4cc48dec52e00535c79b8db361aabd/PyYAML-6.0.2-cp311-cp311-win32.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/22/a6/858897256d0deac81a172289110f31629fc4cee19b6f01283303e18c8db3/ptyprocess-0.7.0-py2.py3-none-any.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/22/de/48c59722572767841493b26183a0d1cc411d54fd759c5607c4590b6563a6/tomli-2.4.1.tar.gz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/22/e4/5a816ecdd1f8ca51fb756ef684b90f2780afc52fc67f987e3c61d800a46d/tomli-2.4.1-cp311-cp311-musllinux_1_2_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/23/5b/078aae8fe1c4cdba1a77a598870c548fd52b4d4a11e86b8116bbef47d9f3/pyzmq-27.0.1-cp310-cp310-win32.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/24/22/4daacd05391b92c55759d55eaee21e1dfaea86ce5c571f10083360adf534/tomli-2.4.1-cp312-cp312-win_amd64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/24/47/b192933e94b546f1b1fe4df9cc1f84fcdbf2359f8d1081d46dd029b50207/charset_normalizer-3.4.7-cp310-cp310-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/24/79/6ab420d37a270b89f7195dec5448f79400d9e9c1826df982f3f8e97b24fd/tomli-2.4.1-cp314-cp314t-macosx_11_0_arm64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/24/e1/4471fff36416ebf1ffe43577b9c7dcf2ff4798f2171f0d169640a48d2305/pyzmq-27.0.1-cp310-cp310-win_amd64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/25/8a/c46dcc25341b5bce5472c718902eb3d38600a903b14fa6aeecef3f21a46f/asttokens-3.0.0-py3-none-any.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/25/8e/342a504ff018a2825d395d44d63a767dd8ebc927ebda557fecdaca3ac33a/cffi-2.0.0-cp314-cp314t-musllinux_1_2_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/26/08/0f303cb0b529e456bb116f2d50565a482694fbb94340bf56d44677e7ed03/charset_normalizer-3.4.7-cp310-cp310-macosx_10_9_universal2.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/28/17/b59a741645822ec6d04732b43c5d35e4ef58be7bfa84a81e5ae6f05a1d33/cryptography-46.0.7-cp314-cp314t-musllinux_1_2_aarch64.whl"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/28/e3/55dcc2cfbc3ca9c29519eb6884dd1415ecb53b0e934862d3559ddcb7e20b/stack_data-0.6.3.tar.gz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/2a/80/336820c1ad9286a4ded7e845b2eccfcb27851ab8ac6abece774a6ff4d3de/psutil-7.0.0.tar.gz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "azure_jobs-0.1.25/uv.lock"
+          ],
+          "value": "https://files.pythonhosted.org/packages/2a/d3/414d1f0a5f6f4fe5313c2b002c54e78a3332970feb3f5fed14237aa17064/msal-1.36.0-py3-none-any.whl"
+        }
+      ]
+    },
+    "package": "azure-jobs",
+    "package_slug": "azure-jobs",
+    "project_url": "https://pypi.org/project/azure-jobs/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T17:32:56.655143+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T17:33:58.418496+00:00",
+    "title": "Personal PyPI Supply Chain Scan: azure-jobs 0.1.25",
+    "version": "0.1.25",
+    "version_slug": "0.1.25",
+    "_metadata_path": "reports/packages/azure-jobs/0.1.25/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "django_local_mail_viewer-0.0.3.tar.gz",
     "finding_count": 7,
     "model": "gpt-5.5",
