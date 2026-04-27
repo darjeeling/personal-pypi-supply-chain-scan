@@ -1,6 +1,268 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "scuq-1.0.3.tar.gz",
+    "finding_count": 33,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "scuq-1.0.3/doc/sphinx/conf.py"
+          ],
+          "value": "cdn.jsdelivr.net"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scuq-1.0.3/doc/sphinx/conf.py"
+          ],
+          "value": "docs.python.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scuq-1.0.3/doc/sphinx/conf.py"
+          ],
+          "value": "docs.scipy.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scuq-1.0.3/notebook/cheat-sheet.ipynb"
+          ],
+          "value": "doi.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scuq-1.0.3/LICENSE"
+          ],
+          "value": "fsf.org"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "scuq-1.0.3/PKG-INFO",
+            "scuq-1.0.3/README.md",
+            "scuq-1.0.3/pyproject.toml",
+            "scuq-1.0.3/src/scuq.egg-info/PKG-INFO"
+          ],
+          "value": "gitlab.hrz.tu-chemnitz.de"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scuq-1.0.3/doc/sphinx/conf.py"
+          ],
+          "value": "matplotlib.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scuq-1.0.3/doc/sphinx/conf.py"
+          ],
+          "value": "numpy.org"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "scuq-1.0.3/PKG-INFO",
+            "scuq-1.0.3/README.md",
+            "scuq-1.0.3/pyproject.toml",
+            "scuq-1.0.3/src/scuq.egg-info/PKG-INFO"
+          ],
+          "value": "scuq-b5d96a.gp.hrz.tu-chemnitz.de"
+        },
+        {
+          "file_count": 9,
+          "files": [
+            "scuq-1.0.3/src/scuq/arithmetic.py",
+            "scuq-1.0.3/src/scuq/cucomponents.py",
+            "scuq-1.0.3/src/scuq/operators.py",
+            "scuq-1.0.3/src/scuq/qexceptions.py",
+            "scuq-1.0.3/src/scuq/quantities.py",
+            "scuq-1.0.3/src/scuq/si.py",
+            "scuq-1.0.3/src/scuq/testcases.py",
+            "scuq-1.0.3/src/scuq/ucomponents.py"
+          ],
+          "value": "thomas.reidemeister.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "scuq-1.0.3/LICENSE",
+            "scuq-1.0.3/src/scuq/LICENSE"
+          ],
+          "value": "www.gnu.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "scuq-1.0.3/doc/sphinx/conf.py",
+            "scuq-1.0.3/doc/sphinx/make.bat"
+          ],
+          "value": "www.sphinx-doc.org"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "scuq-1.0.3/PKG-INFO",
+            "scuq-1.0.3/pyproject.toml",
+            "scuq-1.0.3/src/scuq.egg-info/PKG-INFO"
+          ],
+          "value": "www.tu-dresden.de"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 9,
+          "files": [
+            "scuq-1.0.3/src/scuq/arithmetic.py",
+            "scuq-1.0.3/src/scuq/cucomponents.py",
+            "scuq-1.0.3/src/scuq/operators.py",
+            "scuq-1.0.3/src/scuq/qexceptions.py",
+            "scuq-1.0.3/src/scuq/quantities.py",
+            "scuq-1.0.3/src/scuq/si.py",
+            "scuq-1.0.3/src/scuq/testcases.py",
+            "scuq-1.0.3/src/scuq/ucomponents.py"
+          ],
+          "value": "http://thomas.reidemeister.org/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scuq-1.0.3/src/scuq/LICENSE"
+          ],
+          "value": "http://www.gnu.org/licenses/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scuq-1.0.3/doc/sphinx/conf.py"
+          ],
+          "value": "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scuq-1.0.3/doc/sphinx/conf.py"
+          ],
+          "value": "https://docs.python.org/3"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scuq-1.0.3/doc/sphinx/conf.py"
+          ],
+          "value": "https://docs.scipy.org/doc/scipy/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scuq-1.0.3/notebook/cheat-sheet.ipynb"
+          ],
+          "value": "https://doi.org/10.59161/JCGM100-2008E"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scuq-1.0.3/LICENSE"
+          ],
+          "value": "https://fsf.org/"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "scuq-1.0.3/PKG-INFO",
+            "scuq-1.0.3/README.md",
+            "scuq-1.0.3/pyproject.toml",
+            "scuq-1.0.3/src/scuq.egg-info/PKG-INFO"
+          ],
+          "value": "https://gitlab.hrz.tu-chemnitz.de/chair-of-electromagnetic-theory-and-compatibility-at-tu-dresden/mpylab/scuq.git"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scuq-1.0.3/doc/sphinx/conf.py"
+          ],
+          "value": "https://matplotlib.org/stable/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scuq-1.0.3/doc/sphinx/conf.py"
+          ],
+          "value": "https://numpy.org/doc/stable/"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "scuq-1.0.3/PKG-INFO",
+            "scuq-1.0.3/README.md",
+            "scuq-1.0.3/pyproject.toml",
+            "scuq-1.0.3/src/scuq.egg-info/PKG-INFO"
+          ],
+          "value": "https://scuq-b5d96a.gp.hrz.tu-chemnitz.de/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "scuq-1.0.3/LICENSE",
+            "scuq-1.0.3/src/scuq/LICENSE"
+          ],
+          "value": "https://www.gnu.org/licenses/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scuq-1.0.3/LICENSE"
+          ],
+          "value": "https://www.gnu.org/licenses/why-not-lgpl.html"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scuq-1.0.3/doc/sphinx/make.bat"
+          ],
+          "value": "https://www.sphinx-doc.org/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scuq-1.0.3/doc/sphinx/conf.py"
+          ],
+          "value": "https://www.sphinx-doc.org/en/master/usage/configuration.html"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "scuq-1.0.3/PKG-INFO",
+            "scuq-1.0.3/pyproject.toml",
+            "scuq-1.0.3/src/scuq.egg-info/PKG-INFO"
+          ],
+          "value": "https://www.tu-dresden.de/et/tet"
+        }
+      ]
+    },
+    "package": "scuq",
+    "package_slug": "scuq",
+    "project_url": "https://pypi.org/project/scuq/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T10:40:52.922922+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T10:41:42.940780+00:00",
+    "title": "Personal PyPI Supply Chain Scan: scuq 1.0.3",
+    "version": "1.0.3",
+    "version_slug": "1.0.3",
+    "_metadata_path": "reports/packages/scuq/1.0.3/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "aquin-0.6.5.tar.gz",
     "finding_count": 102,
     "model": "gpt-5.5",
