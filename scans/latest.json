@@ -1,168 +1,834 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "alibabacloud_documentparseservice20260414-1.0.1.tar.gz",
-  "finding_count": 2,
+  "distribution": "memtomem_stm-0.1.20.tar.gz",
+  "finding_count": 2148,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 4,
+        "file_count": 1,
         "files": [
-          "alibabacloud_documentparseservice20260414-1.0.1/PKG-INFO",
-          "alibabacloud_documentparseservice20260414-1.0.1/README-CN.md",
-          "alibabacloud_documentparseservice20260414-1.0.1/README.md",
-          "alibabacloud_documentparseservice20260414-1.0.1/alibabacloud_documentparseservice20260414.egg-info/PKG-INFO"
+          "memtomem_stm-0.1.20/tests/test_information_loss.py"
         ],
-        "value": "aliyunsdk-pages.alicdn.com"
+        "value": "admin.example.com"
       },
       {
-        "file_count": 5,
+        "file_count": 3,
         "files": [
-          "alibabacloud_documentparseservice20260414-1.0.1/PKG-INFO",
-          "alibabacloud_documentparseservice20260414-1.0.1/README-CN.md",
-          "alibabacloud_documentparseservice20260414-1.0.1/README.md",
-          "alibabacloud_documentparseservice20260414-1.0.1/alibabacloud_documentparseservice20260414.egg-info/PKG-INFO",
-          "alibabacloud_documentparseservice20260414-1.0.1/setup.py"
+          "memtomem_stm-0.1.20/src/memtomem_stm/proxy/compression.py",
+          "memtomem_stm-0.1.20/src/memtomem_stm/proxy/extraction.py",
+          "memtomem_stm-0.1.20/tests/bench/llm_judge.py"
         ],
-        "value": "github.com"
+        "value": "api.anthropic.com"
       },
       {
-        "file_count": 4,
+        "file_count": 7,
         "files": [
-          "alibabacloud_documentparseservice20260414-1.0.1/PKG-INFO",
-          "alibabacloud_documentparseservice20260414-1.0.1/README-CN.md",
-          "alibabacloud_documentparseservice20260414-1.0.1/README.md",
-          "alibabacloud_documentparseservice20260414-1.0.1/alibabacloud_documentparseservice20260414.egg-info/PKG-INFO"
+          "memtomem_stm-0.1.20/docs/configuration.md",
+          "memtomem_stm-0.1.20/src/memtomem_stm/proxy/compression.py",
+          "memtomem_stm-0.1.20/src/memtomem_stm/proxy/config.py",
+          "memtomem_stm-0.1.20/src/memtomem_stm/proxy/extraction.py",
+          "memtomem_stm-0.1.20/tests/bench/llm_judge.py",
+          "memtomem_stm-0.1.20/tests/test_config_persistence.py",
+          "memtomem_stm-0.1.20/tests/test_query_aware.py"
         ],
-        "value": "pip.pypa.io"
+        "value": "api.openai.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/docs/configuration.md"
+        ],
+        "value": "api.openai.com`"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/test_extraction.py"
+        ],
+        "value": "api.test.io"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/test_information_loss.py"
+        ],
+        "value": "app.example.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/docs/configuration.md"
+        ],
+        "value": "cloud.langfuse.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/test_config_persistence.py"
+        ],
+        "value": "custom-proxy"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "memtomem_stm-0.1.20/PKG-INFO",
+          "memtomem_stm-0.1.20/README.md"
+        ],
+        "value": "docs.astral.sh"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/cli/test_proxy_cli.py"
+        ],
+        "value": "docs.example"
       },
       {
         "file_count": 6,
         "files": [
-          "alibabacloud_documentparseservice20260414-1.0.1/LICENSE",
-          "alibabacloud_documentparseservice20260414-1.0.1/PKG-INFO",
-          "alibabacloud_documentparseservice20260414-1.0.1/README-CN.md",
-          "alibabacloud_documentparseservice20260414-1.0.1/README.md",
-          "alibabacloud_documentparseservice20260414-1.0.1/alibabacloud_documentparseservice20260414.egg-info/PKG-INFO",
-          "alibabacloud_documentparseservice20260414-1.0.1/setup.py"
+          "memtomem_stm-0.1.20/docs/cli.md",
+          "memtomem_stm-0.1.20/tests/bench/datasets.py",
+          "memtomem_stm-0.1.20/tests/bench/datasets_expanded.py",
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s02.json",
+          "memtomem_stm-0.1.20/tests/bench/tasks.py",
+          "memtomem_stm-0.1.20/tests/cli/test_proxy_cli.py"
+        ],
+        "value": "docs.example.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/cli/test_proxy_cli.py"
+        ],
+        "value": "example"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/uv.lock"
+        ],
+        "value": "files.pythonhosted.org"
+      },
+      {
+        "file_count": 7,
+        "files": [
+          "memtomem_stm-0.1.20/.github/workflows/cla.yml",
+          "memtomem_stm-0.1.20/CHANGELOG.md",
+          "memtomem_stm-0.1.20/CONTRIBUTING.md",
+          "memtomem_stm-0.1.20/PKG-INFO",
+          "memtomem_stm-0.1.20/README.md",
+          "memtomem_stm-0.1.20/SECURITY.md",
+          "memtomem_stm-0.1.20/pyproject.toml"
+        ],
+        "value": "github.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/datasets.py"
+        ],
+        "value": "hooks.slack.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "memtomem_stm-0.1.20/PKG-INFO",
+          "memtomem_stm-0.1.20/README.md"
+        ],
+        "value": "img.shields.io"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/CHANGELOG.md"
+        ],
+        "value": "keepachangelog.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "memtomem_stm-0.1.20/PKG-INFO",
+          "memtomem_stm-0.1.20/README.md"
+        ],
+        "value": "memtomem.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "memtomem_stm-0.1.20/src/memtomem_stm/cli/proxy.py",
+          "memtomem_stm-0.1.20/tests/cli/test_proxy_cli.py"
+        ],
+        "value": "no-color.org"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "memtomem_stm-0.1.20/.github/workflows/release.yml",
+          "memtomem_stm-0.1.20/PKG-INFO",
+          "memtomem_stm-0.1.20/README.md",
+          "memtomem_stm-0.1.20/uv.lock"
+        ],
+        "value": "pypi.org"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "memtomem_stm-0.1.20/PKG-INFO",
+          "memtomem_stm-0.1.20/README.md"
+        ],
+        "value": "python.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/test_metrics_store.py"
+        ],
+        "value": "raw.close"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/test_metrics_store.py"
+        ],
+        "value": "raw.commit"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/test_metrics_store.py"
+        ],
+        "value": "raw.execute"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "memtomem_stm-0.1.20/src/memtomem_stm/cli/proxy.py",
+          "memtomem_stm-0.1.20/src/memtomem_stm/proxy/extraction.py",
+          "memtomem_stm-0.1.20/tests/bench/llm_judge.py"
+        ],
+        "value": "raw.strip"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/test_config_persistence.py"
+        ],
+        "value": "remote-ollama"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/test_information_loss.py"
+        ],
+        "value": "staging.example.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/.github/workflows/release.yml"
+        ],
+        "value": "test.pypi.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/LICENSE"
         ],
         "value": "www.apache.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/cli/test_proxy_cli.py"
+        ],
+        "value": "x"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 6,
+        "file_count": 1,
         "files": [
-          "alibabacloud_documentparseservice20260414-1.0.1/LICENSE",
-          "alibabacloud_documentparseservice20260414-1.0.1/PKG-INFO",
-          "alibabacloud_documentparseservice20260414-1.0.1/README-CN.md",
-          "alibabacloud_documentparseservice20260414-1.0.1/README.md",
-          "alibabacloud_documentparseservice20260414-1.0.1/alibabacloud_documentparseservice20260414.egg-info/PKG-INFO",
-          "alibabacloud_documentparseservice20260414-1.0.1/setup.py"
+          "memtomem_stm-0.1.20/tests/test_extraction.py"
+        ],
+        "value": "http://api.test.io"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/test_config_persistence.py"
+        ],
+        "value": "http://custom-proxy:8080"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/test_stm_integration.py"
+        ],
+        "value": "http://example.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/test_config_persistence.py"
+        ],
+        "value": "http://remote-ollama:11434"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/LICENSE"
+        ],
+        "value": "http://www.apache.org/licenses/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/LICENSE"
         ],
         "value": "http://www.apache.org/licenses/LICENSE-2.0"
       },
       {
-        "file_count": 4,
+        "file_count": 1,
         "files": [
-          "alibabacloud_documentparseservice20260414-1.0.1/PKG-INFO",
-          "alibabacloud_documentparseservice20260414-1.0.1/README-CN.md",
-          "alibabacloud_documentparseservice20260414-1.0.1/README.md",
-          "alibabacloud_documentparseservice20260414-1.0.1/alibabacloud_documentparseservice20260414.egg-info/PKG-INFO"
+          "memtomem_stm-0.1.20/tests/cli/test_proxy_cli.py"
         ],
-        "value": "https://aliyunsdk-pages.alicdn.com/icons/AlibabaCloud.svg"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "alibabacloud_documentparseservice20260414-1.0.1/PKG-INFO",
-          "alibabacloud_documentparseservice20260414-1.0.1/alibabacloud_documentparseservice20260414.egg-info/PKG-INFO",
-          "alibabacloud_documentparseservice20260414-1.0.1/setup.py"
-        ],
-        "value": "https://github.com/aliyun/alibabacloud-python-sdk"
+        "value": "http://x"
       },
       {
         "file_count": 1,
         "files": [
-          "alibabacloud_documentparseservice20260414-1.0.1/README-CN.md"
+          "memtomem_stm-0.1.20/tests/test_information_loss.py"
         ],
-        "value": "https://github.com/aliyun/alibabacloud-python-sdk/"
+        "value": "https://admin.example.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "memtomem_stm-0.1.20/src/memtomem_stm/proxy/compression.py",
+          "memtomem_stm-0.1.20/src/memtomem_stm/proxy/extraction.py",
+          "memtomem_stm-0.1.20/tests/bench/llm_judge.py"
+        ],
+        "value": "https://api.anthropic.com/v1/messages"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "memtomem_stm-0.1.20/src/memtomem_stm/proxy/config.py",
+          "memtomem_stm-0.1.20/tests/test_config_persistence.py",
+          "memtomem_stm-0.1.20/tests/test_query_aware.py"
+        ],
+        "value": "https://api.openai.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "memtomem_stm-0.1.20/src/memtomem_stm/proxy/compression.py",
+          "memtomem_stm-0.1.20/src/memtomem_stm/proxy/extraction.py",
+          "memtomem_stm-0.1.20/tests/bench/llm_judge.py"
+        ],
+        "value": "https://api.openai.com/v1/chat/completions"
       },
       {
         "file_count": 1,
         "files": [
-          "alibabacloud_documentparseservice20260414-1.0.1/README-CN.md"
+          "memtomem_stm-0.1.20/docs/configuration.md"
         ],
-        "value": "https://github.com/aliyun/alibabacloud-python-sdk/blob/master/docs/0-Usage-CN.md#%E5%BF%AB%E9%80%9F%E4%BD%BF%E7%94%A8"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "alibabacloud_documentparseservice20260414-1.0.1/PKG-INFO",
-          "alibabacloud_documentparseservice20260414-1.0.1/README.md",
-          "alibabacloud_documentparseservice20260414-1.0.1/alibabacloud_documentparseservice20260414.egg-info/PKG-INFO"
-        ],
-        "value": "https://github.com/aliyun/alibabacloud-python-sdk/blob/master/docs/0-Usage-EN.md#quick-examples"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "alibabacloud_documentparseservice20260414-1.0.1/PKG-INFO",
-          "alibabacloud_documentparseservice20260414-1.0.1/README-CN.md",
-          "alibabacloud_documentparseservice20260414-1.0.1/README.md",
-          "alibabacloud_documentparseservice20260414-1.0.1/alibabacloud_documentparseservice20260414.egg-info/PKG-INFO"
-        ],
-        "value": "https://github.com/aliyun/alibabacloud-python-sdk/blob/master/documentparseservice-20260414/ChangeLog.md"
+        "value": "https://api.openai.com`"
       },
       {
         "file_count": 1,
         "files": [
-          "alibabacloud_documentparseservice20260414-1.0.1/README-CN.md"
+          "memtomem_stm-0.1.20/tests/test_information_loss.py"
         ],
-        "value": "https://github.com/aliyun/alibabacloud-python-sdk/issues/new"
+        "value": "https://app.example.com"
       },
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "alibabacloud_documentparseservice20260414-1.0.1/PKG-INFO",
-          "alibabacloud_documentparseservice20260414-1.0.1/README.md",
-          "alibabacloud_documentparseservice20260414-1.0.1/alibabacloud_documentparseservice20260414.egg-info/PKG-INFO"
+          "memtomem_stm-0.1.20/docs/configuration.md"
         ],
-        "value": "https://github.com/aliyun/alibabacloud-sdk/issues/new"
+        "value": "https://cloud.langfuse.com"
       },
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "alibabacloud_documentparseservice20260414-1.0.1/PKG-INFO",
-          "alibabacloud_documentparseservice20260414-1.0.1/README.md",
-          "alibabacloud_documentparseservice20260414-1.0.1/alibabacloud_documentparseservice20260414.egg-info/PKG-INFO"
+          "memtomem_stm-0.1.20/PKG-INFO",
+          "memtomem_stm-0.1.20/README.md"
         ],
-        "value": "https://github.com/aliyun/alibabacloud-sdk/tree/master/python"
+        "value": "https://docs.astral.sh/uv/"
       },
       {
-        "file_count": 4,
+        "file_count": 1,
         "files": [
-          "alibabacloud_documentparseservice20260414-1.0.1/PKG-INFO",
-          "alibabacloud_documentparseservice20260414-1.0.1/README-CN.md",
-          "alibabacloud_documentparseservice20260414-1.0.1/README.md",
-          "alibabacloud_documentparseservice20260414-1.0.1/alibabacloud_documentparseservice20260414.egg-info/PKG-INFO"
+          "memtomem_stm-0.1.20/tests/bench/tasks.py"
         ],
-        "value": "https://pip.pypa.io/en/stable/installing/"
+        "value": "https://docs.example.com/api/endpoint/{i"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/datasets.py"
+        ],
+        "value": "https://docs.example.com/api/v3/users"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s02.json"
+        ],
+        "value": "https://docs.example.com/api/v3/users\\"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "memtomem_stm-0.1.20/docs/cli.md",
+          "memtomem_stm-0.1.20/tests/cli/test_proxy_cli.py"
+        ],
+        "value": "https://docs.example.com/mcp"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/cli/test_proxy_cli.py"
+        ],
+        "value": "https://docs.example.com/mcp\\n"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/datasets_expanded.py"
+        ],
+        "value": "https://docs.example.com/rate-limiting"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/cli/test_proxy_cli.py"
+        ],
+        "value": "https://docs.example/mcp"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "memtomem_stm-0.1.20/tests/test_auto_select_adversarial.py",
+          "memtomem_stm-0.1.20/tests/test_extraction.py"
+        ],
+        "value": "https://example.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/test_effectiveness.py"
+        ],
+        "value": "https://example.com/api"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/test_extraction.py"
+        ],
+        "value": "https://example.com/docs"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/tasks.py"
+        ],
+        "value": "https://example.com/link/{i"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/cli/test_proxy_cli.py"
+        ],
+        "value": "https://example.com/mcp"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/test_effectiveness.py"
+        ],
+        "value": "https://example.com/page{i"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-001\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-002\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-003\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-004\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-005\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-006\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-007\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-008\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-009\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-010\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-011\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-012\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-013\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-014\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-015\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-016\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-017\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-018\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-019\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-020\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-021\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-022\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-023\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-024\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-025\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-026\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-027\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-028\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-029\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-030\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-031\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-032\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-033\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-034\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-035\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-036\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-037\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-038\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-039\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-040\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-041\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-042\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-043\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-044\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-045\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-046\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-047\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-048\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-049\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/fixtures/s07.json"
+        ],
+        "value": "https://example.com/papers/r-050\\"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/bench/tasks.py"
+        ],
+        "value": "https://example.com/resource/{i"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "memtomem_stm-0.1.20/tests/cli/test_proxy_cli.py"
+        ],
+        "value": "https://example.com/sse"
       }
     ]
   },
-  "package": "alibabacloud-documentparseservice20260414",
-  "package_slug": "alibabacloud-documentparseservice20260414",
-  "project_url": "https://pypi.org/project/alibabacloud-documentparseservice20260414/",
+  "package": "memtomem-stm",
+  "package_slug": "memtomem-stm",
+  "project_url": "https://pypi.org/project/memtomem-stm/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T14:14:55.271766+00:00",
+  "published_at": "2026-04-27T14:19:56.941372+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T14:16:11.797210+00:00",
-  "title": "Personal PyPI Supply Chain Scan: alibabacloud-documentparseservice20260414 1.0.1",
-  "version": "1.0.1",
-  "version_slug": "1.0.1",
-  "_metadata_path": "reports/packages/alibabacloud-documentparseservice20260414/1.0.1/metadata.json"
+  "scanned_at": "2026-04-27T14:20:37.194850+00:00",
+  "title": "Personal PyPI Supply Chain Scan: memtomem-stm 0.1.20",
+  "version": "0.1.20",
+  "version_slug": "0.1.20",
+  "_metadata_path": "reports/packages/memtomem-stm/0.1.20/metadata.json"
 }

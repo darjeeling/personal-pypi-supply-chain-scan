@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal PyPI Supply Chain Scan: memtomem-stm 0.1.20</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 960px; line-height: 1.55; padding: 0 1rem; color: #1f2933; }
+    a { color: #1f5fbf; }
+    code { background: #f4f4f4; padding: 0.1rem 0.25rem; }
+    h1, h2, h3 { line-height: 1.2; }
+    li { margin: 0.35rem 0; }
+    nav { margin-bottom: 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #e5e9ef; padding: 0.55rem 0.65rem; text-align: left; vertical-align: top; }
+    th { color: #52616f; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; }
+    .scan-groups { margin-top: 1.2rem; }
+    .scan-day { border-top: 1px solid #d8dee4; display: grid; gap: 1rem; grid-template-columns: 10rem minmax(0, 1fr); padding: 1.1rem 0; }
+    .scan-day-date { color: #1f2933; font-weight: 700; }
+    .scan-day-date span { color: #52616f; display: block; font-size: 0.9rem; font-weight: 500; margin-top: 0.2rem; }
+    .scan-day-table { overflow-x: auto; }
+    .risk { display: inline-block; min-width: 4.8rem; text-align: center; border-radius: 999px; padding: 0.15rem 0.45rem; font-size: 0.78rem; font-weight: 700; }
+    .risk-info, .risk-low { background: #dcfce7; color: #166534; }
+    .risk-medium, .risk-unknown { background: #fef3c7; color: #92400e; }
+    .risk-high, .risk-critical { background: #fee2e2; color: #991b1b; }
+    .index-note { color: #52616f; margin-top: -0.35rem; }
+    .version { color: #52616f; margin-left: 0.2rem; white-space: nowrap; }
+    @media (max-width: 720px) {
+      .scan-day { grid-template-columns: 1fr; }
+      th, td { padding: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+<nav><a href='../../../../'>Index</a></nav><h1>Personal PyPI Supply Chain Scan: memtomem-stm 0.1.20</h1>
+
+<ul>
+<li>Package: memtomem-stm</li>
+<li>Version: 0.1.20</li>
+<li>Project URL: https://pypi.org/project/memtomem-stm/</li>
+<li>Distribution: memtomem_stm-0.1.20.tar.gz</li>
+<li>Package published at: 2026-04-27T14:19:56.941372+00:00</li>
+<li>Scan published at: 2026-04-27T14:20:37.194850+00:00</li>
+<li>Language: en</li>
+<li>Model: gpt-5.5</li>
+<li>Prompt: malicious-supply-chain-review-v2 ([source](../../../../docs/prompts/malicious-supply-chain-review-v2.md))</li>
+<li>Disclaimer: This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</li>
+</ul>
+
+<h2>Deterministic Network Indicators</h2>
+
+<h3>Suspicious Endpoints</h3>
+
+<p>None</p>
+
+<h3>Raw Public IPs</h3>
+
+<p>None</p>
+
+<h3>URLs</h3>
+<ul>
+<li>http://api.test.io (1 files: memtomem_stm-0.1.20/tests/test_extraction.py)</li>
+<li>http://custom-proxy:8080 (1 files: memtomem_stm-0.1.20/tests/test_config_persistence.py)</li>
+<li>http://example.com (1 files: memtomem_stm-0.1.20/tests/test_stm_integration.py)</li>
+<li>http://remote-ollama:11434 (1 files: memtomem_stm-0.1.20/tests/test_config_persistence.py)</li>
+<li>http://www.apache.org/licenses/ (1 files: memtomem_stm-0.1.20/LICENSE)</li>
+<li>http://www.apache.org/licenses/LICENSE-2.0 (1 files: memtomem_stm-0.1.20/LICENSE)</li>
+<li>http://x (1 files: memtomem_stm-0.1.20/tests/cli/test_proxy_cli.py)</li>
+<li>https://admin.example.com (1 files: memtomem_stm-0.1.20/tests/test_information_loss.py)</li>
+<li>https://api.anthropic.com/v1/messages (3 files: memtomem_stm-0.1.20/src/memtomem_stm/proxy/compression.py, memtomem_stm-0.1.20/src/memtomem_stm/proxy/extraction.py, memtomem_stm-0.1.20/tests/bench/llm_judge.py)</li>
+<li>https://api.openai.com (3 files: memtomem_stm-0.1.20/src/memtomem_stm/proxy/config.py, memtomem_stm-0.1.20/tests/test_config_persistence.py, memtomem_stm-0.1.20/tests/test_query_aware.py)</li>
+<li>https://api.openai.com/v1/chat/completions (3 files: memtomem_stm-0.1.20/src/memtomem_stm/proxy/compression.py, memtomem_stm-0.1.20/src/memtomem_stm/proxy/extraction.py, memtomem_stm-0.1.20/tests/bench/llm_judge.py)</li>
+<li>https://api.openai.com (1 files: memtomem_stm-0.1.20/docs/configuration.md)</li>
+<li>https://app.example.com (1 files: memtomem_stm-0.1.20/tests/test_information_loss.py)</li>
+<li>https://cloud.langfuse.com (1 files: memtomem_stm-0.1.20/docs/configuration.md)</li>
+<li>https://docs.astral.sh/uv/ (2 files: memtomem_stm-0.1.20/PKG-INFO, memtomem_stm-0.1.20/README.md)</li>
+<li>https://docs.example.com/api/endpoint/{i (1 files: memtomem_stm-0.1.20/tests/bench/tasks.py)</li>
+<li>https://docs.example.com/api/v3/users (1 files: memtomem_stm-0.1.20/tests/bench/datasets.py)</li>
+<li>https://docs.example.com/api/v3/users\ (1 files: memtomem_stm-0.1.20/tests/bench/fixtures/s02.json)</li>
+<li>https://docs.example.com/mcp (2 files: memtomem_stm-0.1.20/docs/cli.md, memtomem_stm-0.1.20/tests/cli/test_proxy_cli.py)</li>
+<li>https://docs.example.com/mcp\n (1 files: memtomem_stm-0.1.20/tests/cli/test_proxy_cli.py)</li>
+<li>https://docs.example.com/rate-limiting (1 files: memtomem_stm-0.1.20/tests/bench/datasets_expanded.py)</li>
+<li>https://docs.example/mcp (1 files: memtomem_stm-0.1.20/tests/cli/test_proxy_cli.py)</li>
+<li>https://example.com (2 files: memtomem_stm-0.1.20/tests/test_auto_select_adversarial.py, memtomem_stm-0.1.20/tests/test_extraction.py)</li>
+<li>https://example.com/api (1 files: memtomem_stm-0.1.20/tests/test_effectiveness.py)</li>
+<li>https://example.com/docs (1 files: memtomem_stm-0.1.20/tests/test_extraction.py)</li>
+<li>https://example.com/link/{i (1 files: memtomem_stm-0.1.20/tests/bench/tasks.py)</li>
+<li>https://example.com/mcp (1 files: memtomem_stm-0.1.20/tests/cli/test_proxy_cli.py)</li>
+<li>https://example.com/page{i (1 files: memtomem_stm-0.1.20/tests/test_effectiveness.py)</li>
+<li>https://example.com/papers/r-001\ (1 files: memtomem_stm-0.1.20/tests/bench/fixtures/s07.json)</li>
+<li>https://example.com/papers/r-002\ (1 files: memtomem_stm-0.1.20/tests/bench/fixtures/s07.json)</li>
+<li>... 50 more</li>
+</ul>
+
+<h3>Domains</h3>
+<ul>
+<li>admin.example.com (1 files: memtomem_stm-0.1.20/tests/test_information_loss.py)</li>
+<li>api.anthropic.com (3 files: memtomem_stm-0.1.20/src/memtomem_stm/proxy/compression.py, memtomem_stm-0.1.20/src/memtomem_stm/proxy/extraction.py, memtomem_stm-0.1.20/tests/bench/llm_judge.py)</li>
+<li>api.openai.com (7 files: memtomem_stm-0.1.20/docs/configuration.md, memtomem_stm-0.1.20/src/memtomem_stm/proxy/compression.py, memtomem_stm-0.1.20/src/memtomem_stm/proxy/config.py, memtomem_stm-0.1.20/src/memtomem_stm/proxy/extraction.py, memtomem_stm-0.1.20/tests/bench/llm_judge.py)</li>
+<li>api.openai.com (1 files: memtomem_stm-0.1.20/docs/configuration.md)</li>
+<li>api.test.io (1 files: memtomem_stm-0.1.20/tests/test_extraction.py)</li>
+<li>app.example.com (1 files: memtomem_stm-0.1.20/tests/test_information_loss.py)</li>
+<li>cloud.langfuse.com (1 files: memtomem_stm-0.1.20/docs/configuration.md)</li>
+<li>custom-proxy (1 files: memtomem_stm-0.1.20/tests/test_config_persistence.py)</li>
+<li>docs.astral.sh (2 files: memtomem_stm-0.1.20/PKG-INFO, memtomem_stm-0.1.20/README.md)</li>
+<li>docs.example (1 files: memtomem_stm-0.1.20/tests/cli/test_proxy_cli.py)</li>
+<li>docs.example.com (6 files: memtomem_stm-0.1.20/docs/cli.md, memtomem_stm-0.1.20/tests/bench/datasets.py, memtomem_stm-0.1.20/tests/bench/datasets_expanded.py, memtomem_stm-0.1.20/tests/bench/fixtures/s02.json, memtomem_stm-0.1.20/tests/bench/tasks.py)</li>
+<li>example (1 files: memtomem_stm-0.1.20/tests/cli/test_proxy_cli.py)</li>
+<li>files.pythonhosted.org (1 files: memtomem_stm-0.1.20/uv.lock)</li>
+<li>github.com (7 files: memtomem_stm-0.1.20/.github/workflows/cla.yml, memtomem_stm-0.1.20/CHANGELOG.md, memtomem_stm-0.1.20/CONTRIBUTING.md, memtomem_stm-0.1.20/PKG-INFO, memtomem_stm-0.1.20/README.md)</li>
+<li>hooks.slack.com (1 files: memtomem_stm-0.1.20/tests/bench/datasets.py)</li>
+<li>img.shields.io (2 files: memtomem_stm-0.1.20/PKG-INFO, memtomem_stm-0.1.20/README.md)</li>
+<li>keepachangelog.com (1 files: memtomem_stm-0.1.20/CHANGELOG.md)</li>
+<li>memtomem.com (2 files: memtomem_stm-0.1.20/PKG-INFO, memtomem_stm-0.1.20/README.md)</li>
+<li>no-color.org (2 files: memtomem_stm-0.1.20/src/memtomem_stm/cli/proxy.py, memtomem_stm-0.1.20/tests/cli/test_proxy_cli.py)</li>
+<li>pypi.org (4 files: memtomem_stm-0.1.20/.github/workflows/release.yml, memtomem_stm-0.1.20/PKG-INFO, memtomem_stm-0.1.20/README.md, memtomem_stm-0.1.20/uv.lock)</li>
+<li>python.org (2 files: memtomem_stm-0.1.20/PKG-INFO, memtomem_stm-0.1.20/README.md)</li>
+<li>raw.close (1 files: memtomem_stm-0.1.20/tests/test_metrics_store.py)</li>
+<li>raw.commit (1 files: memtomem_stm-0.1.20/tests/test_metrics_store.py)</li>
+<li>raw.execute (1 files: memtomem_stm-0.1.20/tests/test_metrics_store.py)</li>
+<li>raw.strip (3 files: memtomem_stm-0.1.20/src/memtomem_stm/cli/proxy.py, memtomem_stm-0.1.20/src/memtomem_stm/proxy/extraction.py, memtomem_stm-0.1.20/tests/bench/llm_judge.py)</li>
+<li>remote-ollama (1 files: memtomem_stm-0.1.20/tests/test_config_persistence.py)</li>
+<li>staging.example.com (1 files: memtomem_stm-0.1.20/tests/test_information_loss.py)</li>
+<li>test.pypi.org (1 files: memtomem_stm-0.1.20/.github/workflows/release.yml)</li>
+<li>www.apache.org (1 files: memtomem_stm-0.1.20/LICENSE)</li>
+<li>x (1 files: memtomem_stm-0.1.20/tests/cli/test_proxy_cli.py)</li>
+</ul>
+
+<h2>Verdict</h2>
+
+<p>No confirmed malicious supply-chain compromise indicators — overall risk: **info**.</p>
+
+<h2>Malicious Supply-Chain Indicators</h2>
+
+<p>No confirmed malicious supply-chain indicators.</p>
+
+<h2>Automatic Execution Paths</h2>
+
+<ul>
+<li>The provided evidence does not show .pth, sitecustomize.py, usercustomize.py, setup.py execution logic, PEP 517 build hooks, install-time scripts, or interpreter-startup auto-execution.</li>
+<li>pyproject.toml console scripts and the mms / memtomem-stm CLI appear to be user- or MCP-client-invoked entry points, with no evidence of execution immediately upon installation.</li>
+<li>The CHANGELOG reference to “bare invocation with piped stdin” describes normal CLI/server behavior after MCP registration, not malicious supply-chain auto-execution.</li>
+</ul>
+
+<h2>Theft / Exfiltration / Persistence / Lateral Movement / Obfuscation</h2>
+
+<ul>
+<li>**Credential theft:** No evidence found. References to OPENAI_API_KEY, ANTHROPIC_API_KEY, and GITHUB_TOKEN appear in documentation/configuration/tests or normal SDK usage contexts. There is no provided evidence of broad environment harvesting, .env/SSH/cloud/CI token discovery, staging, or exfiltration.</li>
+<li>**Exfiltration/staging:** OpenAI/Anthropic API use and example domains appear consistent with package functionality. No attacker-controlled C2, webhook upload, archive staging, raw IP endpoint, or suspicious upload behavior was confirmed.</li>
+<li>**Persistence:** No evidence of systemd units, cron jobs, launch agents, shell profile modification, startup-folder registration, or self-reinstall loops. “Startup” references appear to describe normal application startup or tests.</li>
+<li>**Lateral movement:** No evidence of Kubernetes service-account abuse, Docker socket access, cloud metadata access, GitHub Actions token theft, or workflow injection.</li>
+<li>**Obfuscation/loaders:** Pre-scan matches include regexes and sensitive-content detection logic, but no evidence was provided for eval/exec, base64/zlib/marshal loaders, encrypted payloads, downloader stubs, or staged malware loaders.</li>
+</ul>
+
+<h2>Distribution Integrity Anomalies</h2>
+
+<ul>
+<li>The provided manifest/text does not show hidden payloads, unexplained native binaries, typosquatting, suspicious sudden dependency insertion, or wheel/sdist mismatch evidence.</li>
+<li>Inclusion of .github/workflows, tests, documentation, and notebooks is common in open-source sdists and is insufficient by itself to indicate a malicious supply-chain attack.</li>
+</ul>
+
+<h2>Additional Verification Needed</h2>
+
+<ul>
+<li>The supplied text covers only part of the 174-file artifact; the full source code and build metadata were not reviewed in detail.</li>
+<li>To strengthen the conclusion, separately verify pyproject.toml, build backend configuration, import-time side effects across all src/ modules, sdist-vs-wheel file differences, and any large/binary files.</li>
+</ul>
+
+<p>---</p>
+
+<p>Prompt source: docs/prompts/malicious-supply-chain-review-v2.md</p>
+
+<p>This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</p>
+
+</body>
+</html>
