@@ -1,751 +1,143 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "afkbotio-1.5.0.tar.gz",
-  "finding_count": 432,
+  "distribution": "grood-0.1.1.tar.gz",
+  "finding_count": 6,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 4,
-        "files": [
-          "afkbotio-1.5.0/PKG-INFO",
-          "afkbotio-1.5.0/README.md",
-          "afkbotio-1.5.0/afkbotio.egg-info/PKG-INFO",
-          "afkbotio-1.5.0/pyproject.toml"
-        ],
-        "value": "afkbot.io"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/skills/doctor.py",
-          "afkbotio-1.5.0/afkbot/skills/aider-cli/SKILL.md"
-        ],
-        "value": "aider.chat"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
-          "afkbotio-1.5.0/afkbot/settings.py"
-        ],
-        "value": "api.anthropic.com"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
-          "afkbotio-1.5.0/afkbot/settings.py"
-        ],
-        "value": "api.deepseek.com"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/llm/github_copilot_token.py",
-          "afkbotio-1.5.0/afkbot/services/skills/marketplace_popularity.py",
-          "afkbotio-1.5.0/afkbot/services/skills/marketplace_service.py",
-          "afkbotio-1.5.0/afkbot/services/update_runtime.py"
-        ],
-        "value": "api.github.com"
-      },
-      {
         "file_count": 3,
         "files": [
-          "afkbotio-1.5.0/afkbot/services/llm/github_copilot_token.py",
-          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
-          "afkbotio-1.5.0/afkbot/settings.py"
+          "grood-0.1.1/PKG-INFO",
+          "grood-0.1.1/README.md",
+          "grood-0.1.1/src/grood.egg-info/PKG-INFO"
         ],
-        "value": "api.individual.githubcopilot.com"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/llm/minimax_portal_oauth.py",
-          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
-          "afkbotio-1.5.0/afkbot/settings.py"
-        ],
-        "value": "api.minimax.io"
+        "value": "doi.org"
       },
       {
         "file_count": 1,
         "files": [
-          "afkbotio-1.5.0/afkbot/services/llm/minimax_portal_oauth.py"
+          "grood-0.1.1/LICENSE"
         ],
-        "value": "api.minimaxi.com"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
-          "afkbotio-1.5.0/afkbot/settings.py"
-        ],
-        "value": "api.moonshot.ai"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "afkbotio-1.5.0/afkbot/cli/commands/doctor.py",
-          "afkbotio-1.5.0/afkbot/services/managed_runtime_service.py",
-          "afkbotio-1.5.0/afkbot/services/runtime_ports.py"
-        ],
-        "value": "api.ok"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
-          "afkbotio-1.5.0/afkbot/settings.py"
-        ],
-        "value": "api.openai.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/runtime_ports.py"
-        ],
-        "value": "api.payload"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/runtime_ports.py"
-        ],
-        "value": "api.reason"
+        "value": "fsf.org"
       },
       {
         "file_count": 4,
         "files": [
-          "afkbotio-1.5.0/afkbot/cli/commands/setup.py",
-          "afkbotio-1.5.0/afkbot/services/policy/engine.py",
-          "afkbotio-1.5.0/afkbot/services/setup/contracts.py",
-          "afkbotio-1.5.0/afkbot/services/tools/plugins/web_search/plugin.py"
-        ],
-        "value": "api.search.brave.com"
-      },
-      {
-        "file_count": 5,
-        "files": [
-          "afkbotio-1.5.0/afkbot/cli/commands/setup.py",
-          "afkbotio-1.5.0/afkbot/services/apps/telegram/actions.py",
-          "afkbotio-1.5.0/afkbot/services/apps/telegram/http_api.py",
-          "afkbotio-1.5.0/afkbot/services/health/integration_probes.py",
-          "afkbotio-1.5.0/afkbot/services/setup/contracts.py"
-        ],
-        "value": "api.telegram.org"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "afkbotio-1.5.0/afkbot/cli/commands/doctor.py",
-          "afkbotio-1.5.0/afkbot/services/managed_runtime_service.py",
-          "afkbotio-1.5.0/afkbot/services/runtime_ports.py"
-        ],
-        "value": "api.url"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
-          "afkbotio-1.5.0/afkbot/settings.py"
-        ],
-        "value": "api.x.ai"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
-          "afkbotio-1.5.0/afkbot/settings.py"
-        ],
-        "value": "chatgpt.com"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/skills/doctor.py",
-          "afkbotio-1.5.0/afkbot/skills/claude-code/SKILL.md"
-        ],
-        "value": "claude.ai"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
-          "afkbotio-1.5.0/afkbot/settings.py"
-        ],
-        "value": "dashscope.aliyuncs.com"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/agent_loop/browser_carryover.py",
-          "afkbotio-1.5.0/afkbot/services/tools/plugins/browser_control/plugin.py"
-        ],
-        "value": "files.items"
-      },
-      {
-        "file_count": 11,
-        "files": [
-          "afkbotio-1.5.0/PKG-INFO",
-          "afkbotio-1.5.0/afkbot/cli/presentation/plugin_prompts.py",
-          "afkbotio-1.5.0/afkbot/services/install_source.py",
-          "afkbotio-1.5.0/afkbot/services/lightpanda_runtime.py",
-          "afkbotio-1.5.0/afkbot/services/managed_install.py",
-          "afkbotio-1.5.0/afkbot/services/plugins/service.py",
-          "afkbotio-1.5.0/afkbot/services/setup/provider_secrets.py",
-          "afkbotio-1.5.0/afkbot/services/update_runtime.py"
+          "grood-0.1.1/PKG-INFO",
+          "grood-0.1.1/README.md",
+          "grood-0.1.1/pyproject.toml",
+          "grood-0.1.1/src/grood.egg-info/PKG-INFO"
         ],
         "value": "github.com"
       },
       {
         "file_count": 1,
         "files": [
-          "afkbotio-1.5.0/afkbot/cli/presentation/setup_provider_prompts.py"
+          "grood-0.1.1/LICENSE"
         ],
-        "value": "host"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
-          "afkbotio-1.5.0/afkbot/settings.py"
-        ],
-        "value": "openrouter.ai"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/update_runtime.py"
-        ],
-        "value": "pypi.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/cli/commands/credentials.py"
-        ],
-        "value": "raw.endswith"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/skills/marketplace_sources.py",
-          "afkbotio-1.5.0/afkbot/settings.py"
-        ],
-        "value": "raw.githubusercontent.com"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/agent_loop/progress_stream.py",
-          "afkbotio-1.5.0/afkbot/services/profile_runtime/runtime_secrets.py",
-          "afkbotio-1.5.0/afkbot/services/subagents/runner.py",
-          "afkbotio-1.5.0/afkbot/services/task_flow/runtime_service.py"
-        ],
-        "value": "raw.items"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/skills/markdown.py"
-        ],
-        "value": "raw.rstrip"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "afkbotio-1.5.0/afkbot/cli/commands/auth.py",
-          "afkbotio-1.5.0/afkbot/cli/commands/channel_telethon_commands/common.py",
-          "afkbotio-1.5.0/afkbot/services/setup/defaults.py"
-        ],
-        "value": "raw.split"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/skills/markdown.py"
-        ],
-        "value": "raw.splitlines"
-      },
-      {
-        "file_count": 20,
-        "files": [
-          "afkbotio-1.5.0/afkbot/cli/commands/memory_support.py",
-          "afkbotio-1.5.0/afkbot/services/agent_loop/context_builder.py",
-          "afkbotio-1.5.0/afkbot/services/agent_loop/progress_stream.py",
-          "afkbotio-1.5.0/afkbot/services/apps/common.py",
-          "afkbotio-1.5.0/afkbot/services/browser_runtime.py",
-          "afkbotio-1.5.0/afkbot/services/channels/endpoint_contracts.py",
-          "afkbotio-1.5.0/afkbot/services/channels/telethon_user/auth.py",
-          "afkbotio-1.5.0/afkbot/services/health/integration_probes.py"
-        ],
-        "value": "raw.strip"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/managed_runtime_service.py"
-        ],
-        "value": "www.apple.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/browser_cdp.py"
-        ],
-        "value": "{auth"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/automations/service.py",
-          "afkbotio-1.5.0/afkbot/services/update_runtime.py"
-        ],
-        "value": "{host"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/connect/helpers.py"
-        ],
-        "value": "{raw"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/skills/marketplace_popularity.py",
-          "afkbotio-1.5.0/afkbot/services/skills/marketplace_sources.py"
-        ],
-        "value": "{source"
+        "value": "www.gnu.org"
       }
     ],
     "raw_public_ips": [],
-    "suspicious_endpoints": [
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/skills/marketplace_sources.py"
-        ],
-        "value": "https://raw.githubusercontent.com/{owner"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/skills/marketplace_sources.py",
-          "afkbotio-1.5.0/afkbot/settings.py"
-        ],
-        "value": "raw.githubusercontent.com"
-      }
-    ],
+    "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "afkbotio-1.5.0/afkbot/cli/presentation/setup_provider_prompts.py"
+          "grood-0.1.1/PKG-INFO",
+          "grood-0.1.1/README.md",
+          "grood-0.1.1/src/grood.egg-info/PKG-INFO"
         ],
-        "value": "http://user:pass@host:port"
+        "value": "https://doi.org/10.64898/2026.03.03.709368"
       },
       {
         "file_count": 1,
         "files": [
-          "afkbotio-1.5.0/afkbot/services/managed_runtime_service.py"
+          "grood-0.1.1/LICENSE"
         ],
-        "value": "http://www.apple.com/DTDs/PropertyList-1.0.dtd\\"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/browser_cdp.py"
-        ],
-        "value": "http://{auth"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/browser_cdp.py"
-        ],
-        "value": "http://{cleaned_host"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/automations/service.py",
-          "afkbotio-1.5.0/afkbot/services/update_runtime.py"
-        ],
-        "value": "http://{host"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/runtime_ports.py"
-        ],
-        "value": "http://{probe_host"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/connect/helpers.py"
-        ],
-        "value": "http://{raw"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/cli/commands/start.py"
-        ],
-        "value": "http://{resolved_host"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/cli/commands/connect.py"
-        ],
-        "value": "http://{settings.runtime_host"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "afkbotio-1.5.0/PKG-INFO",
-          "afkbotio-1.5.0/README.md",
-          "afkbotio-1.5.0/afkbotio.egg-info/PKG-INFO",
-          "afkbotio-1.5.0/pyproject.toml"
-        ],
-        "value": "https://afkbot.io"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "afkbotio-1.5.0/PKG-INFO",
-          "afkbotio-1.5.0/README.md",
-          "afkbotio-1.5.0/afkbotio.egg-info/PKG-INFO",
-          "afkbotio-1.5.0/pyproject.toml"
-        ],
-        "value": "https://afkbot.io/docs"
+        "value": "https://fsf.org/"
       },
       {
         "file_count": 3,
         "files": [
-          "afkbotio-1.5.0/PKG-INFO",
-          "afkbotio-1.5.0/README.md",
-          "afkbotio-1.5.0/afkbotio.egg-info/PKG-INFO"
+          "grood-0.1.1/PKG-INFO",
+          "grood-0.1.1/README.md",
+          "grood-0.1.1/src/grood.egg-info/PKG-INFO"
         ],
-        "value": "https://afkbot.io/install.ps1"
+        "value": "https://github.com/MaikTungsten/Deconvolution_benchmarking"
       },
       {
         "file_count": 3,
         "files": [
-          "afkbotio-1.5.0/PKG-INFO",
-          "afkbotio-1.5.0/README.md",
-          "afkbotio-1.5.0/afkbotio.egg-info/PKG-INFO"
+          "grood-0.1.1/PKG-INFO",
+          "grood-0.1.1/pyproject.toml",
+          "grood-0.1.1/src/grood.egg-info/PKG-INFO"
         ],
-        "value": "https://afkbot.io/install.sh"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/skills/doctor.py",
-          "afkbotio-1.5.0/afkbot/skills/aider-cli/SKILL.md"
-        ],
-        "value": "https://aider.chat/install.sh"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
-          "afkbotio-1.5.0/afkbot/settings.py"
-        ],
-        "value": "https://api.anthropic.com/v1"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
-          "afkbotio-1.5.0/afkbot/settings.py"
-        ],
-        "value": "https://api.deepseek.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/llm/github_copilot_token.py"
-        ],
-        "value": "https://api.github.com/copilot_internal/v2/token"
+        "value": "https://github.com/MaikTungsten/GrooD"
       },
       {
         "file_count": 3,
         "files": [
-          "afkbotio-1.5.0/afkbot/services/skills/marketplace_popularity.py",
-          "afkbotio-1.5.0/afkbot/services/skills/marketplace_service.py",
-          "afkbotio-1.5.0/afkbot/services/update_runtime.py"
+          "grood-0.1.1/PKG-INFO",
+          "grood-0.1.1/pyproject.toml",
+          "grood-0.1.1/src/grood.egg-info/PKG-INFO"
         ],
-        "value": "https://api.github.com/repos/{owner"
+        "value": "https://github.com/MaikTungsten/GrooD/issues"
       },
       {
         "file_count": 3,
         "files": [
-          "afkbotio-1.5.0/afkbot/services/llm/github_copilot_token.py",
-          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
-          "afkbotio-1.5.0/afkbot/settings.py"
+          "grood-0.1.1/PKG-INFO",
+          "grood-0.1.1/README.md",
+          "grood-0.1.1/src/grood.egg-info/PKG-INFO"
         ],
-        "value": "https://api.individual.githubcopilot.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/llm/minimax_portal_oauth.py"
-        ],
-        "value": "https://api.minimax.io"
+        "value": "https://github.com/MaikTungsten/PseudobulkSimulators"
       },
       {
         "file_count": 3,
         "files": [
-          "afkbotio-1.5.0/afkbot/services/llm/minimax_portal_oauth.py",
-          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
-          "afkbotio-1.5.0/afkbot/settings.py"
+          "grood-0.1.1/PKG-INFO",
+          "grood-0.1.1/README.md",
+          "grood-0.1.1/src/grood.egg-info/PKG-INFO"
         ],
-        "value": "https://api.minimax.io/v1"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/llm/minimax_portal_oauth.py"
-        ],
-        "value": "https://api.minimaxi.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/llm/minimax_portal_oauth.py"
-        ],
-        "value": "https://api.minimaxi.com/v1"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
-          "afkbotio-1.5.0/afkbot/settings.py"
-        ],
-        "value": "https://api.moonshot.ai/v1"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
-          "afkbotio-1.5.0/afkbot/settings.py"
-        ],
-        "value": "https://api.openai.com/v1"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/tools/plugins/web_search/plugin.py"
-        ],
-        "value": "https://api.search.brave.com/res/v1/web/search"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/apps/telegram/http_api.py",
-          "afkbotio-1.5.0/afkbot/services/health/integration_probes.py"
-        ],
-        "value": "https://api.telegram.org/bot{token"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
-          "afkbotio-1.5.0/afkbot/settings.py"
-        ],
-        "value": "https://api.x.ai/v1"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
-          "afkbotio-1.5.0/afkbot/settings.py"
-        ],
-        "value": "https://chatgpt.com/backend-api/codex"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/skills/doctor.py",
-          "afkbotio-1.5.0/afkbot/skills/claude-code/SKILL.md"
-        ],
-        "value": "https://claude.ai/install.sh"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
-          "afkbotio-1.5.0/afkbot/settings.py"
-        ],
-        "value": "https://dashscope.aliyuncs.com/compatible-mode/v1"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/health/integration_probes.py"
-        ],
-        "value": "https://example.com"
+        "value": "https://github.com/MaikTungsten/RNAseq_pipeline"
       },
       {
         "file_count": 3,
         "files": [
-          "afkbotio-1.5.0/PKG-INFO",
-          "afkbotio-1.5.0/README.md",
-          "afkbotio-1.5.0/afkbotio.egg-info/PKG-INFO"
+          "grood-0.1.1/PKG-INFO",
+          "grood-0.1.1/README.md",
+          "grood-0.1.1/src/grood.egg-info/PKG-INFO"
         ],
-        "value": "https://example.com/mcp"
+        "value": "https://github.com/poseidonchan/TAPE"
       },
       {
         "file_count": 1,
         "files": [
-          "afkbotio-1.5.0/afkbot/services/managed_install.py"
+          "grood-0.1.1/LICENSE"
         ],
-        "value": "https://github.com/"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "afkbotio-1.5.0/PKG-INFO",
-          "afkbotio-1.5.0/afkbotio.egg-info/PKG-INFO",
-          "afkbotio-1.5.0/pyproject.toml"
-        ],
-        "value": "https://github.com/afkbot-io/afkbotio"
+        "value": "https://www.gnu.org/licenses/"
       },
       {
         "file_count": 1,
         "files": [
-          "afkbotio-1.5.0/afkbot/services/install_source.py"
+          "grood-0.1.1/LICENSE"
         ],
-        "value": "https://github.com/afkbot-io/afkbotio/archive/main.tar.gz"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "afkbotio-1.5.0/PKG-INFO",
-          "afkbotio-1.5.0/afkbotio.egg-info/PKG-INFO",
-          "afkbotio-1.5.0/pyproject.toml"
-        ],
-        "value": "https://github.com/afkbot-io/afkbotio/blob/main/CHANGELOG.md"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "afkbotio-1.5.0/PKG-INFO",
-          "afkbotio-1.5.0/afkbotio.egg-info/PKG-INFO",
-          "afkbotio-1.5.0/pyproject.toml"
-        ],
-        "value": "https://github.com/afkbot-io/afkbotio/blob/main/LICENSE"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "afkbotio-1.5.0/PKG-INFO",
-          "afkbotio-1.5.0/afkbotio.egg-info/PKG-INFO",
-          "afkbotio-1.5.0/pyproject.toml"
-        ],
-        "value": "https://github.com/afkbot-io/afkbotio/issues"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/lightpanda_runtime.py"
-        ],
-        "value": "https://github.com/lightpanda-io/browser/releases/download/nightly/lightpanda-aarch64-macos"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/lightpanda_runtime.py"
-        ],
-        "value": "https://github.com/lightpanda-io/browser/releases/download/nightly/lightpanda-x86_64-linux"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/setup/provider_secrets.py"
-        ],
-        "value": "https://github.com/login/device/code"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/setup/provider_secrets.py"
-        ],
-        "value": "https://github.com/login/oauth/access_token"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/plugins/service.py"
-        ],
-        "value": "https://github.com/{owner"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/llm/provider_catalog.py",
-          "afkbotio-1.5.0/afkbot/settings.py"
-        ],
-        "value": "https://openrouter.ai/api/v1"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/update_runtime.py"
-        ],
-        "value": "https://pypi.org/pypi/{install_source.spec"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/skills/marketplace_sources.py"
-        ],
-        "value": "https://raw.githubusercontent.com/{owner"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/llm/github_copilot_token.py"
-        ],
-        "value": "https://{api_host"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/llm/github_copilot_token.py"
-        ],
-        "value": "https://{proxy_ep"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/skills/marketplace_popularity.py"
-        ],
-        "value": "https://{self._default_skills_sh_host"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "afkbotio-1.5.0/afkbot/services/skills/marketplace_popularity.py",
-          "afkbotio-1.5.0/afkbot/services/skills/marketplace_sources.py"
-        ],
-        "value": "https://{source"
+        "value": "https://www.gnu.org/licenses/why-not-lgpl.html"
       }
     ]
   },
-  "package": "afkbotio",
-  "package_slug": "afkbotio",
-  "project_url": "https://pypi.org/project/afkbotio/",
+  "package": "grood",
+  "package_slug": "grood",
+  "project_url": "https://pypi.org/project/grood/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T20:26:45.881699+00:00",
+  "published_at": "2026-04-27T20:31:36.140067+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T20:28:18.156603+00:00",
-  "title": "Personal PyPI Supply Chain Scan: afkbotio 1.5.0",
-  "version": "1.5.0",
-  "version_slug": "1.5.0",
-  "_metadata_path": "reports/packages/afkbotio/1.5.0/metadata.json"
+  "scanned_at": "2026-04-27T20:33:01.001137+00:00",
+  "title": "Personal PyPI Supply Chain Scan: grood 0.1.1",
+  "version": "0.1.1",
+  "version_slug": "0.1.1",
+  "_metadata_path": "reports/packages/grood/0.1.1/metadata.json"
 }
