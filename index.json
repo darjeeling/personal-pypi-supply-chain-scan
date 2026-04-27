@@ -1,6 +1,141 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "iap_messenger-2.0.0rc4.tar.gz",
+    "finding_count": 12,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 2,
+          "files": [
+            "iap_messenger-2.0.0rc4/PKG-INFO",
+            "iap_messenger-2.0.0rc4/README.md"
+          ],
+          "value": "badge.fury.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "iap_messenger-2.0.0rc4/Cargo.lock"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "iap_messenger-2.0.0rc4/PKG-INFO",
+            "iap_messenger-2.0.0rc4/pyproject.toml"
+          ],
+          "value": "gitlab.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "iap_messenger-2.0.0rc4/PKG-INFO",
+            "iap_messenger-2.0.0rc4/README.md"
+          ],
+          "value": "img.shields.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "iap_messenger-2.0.0rc4/LICENSE",
+            "iap_messenger-2.0.0rc4/PKG-INFO",
+            "iap_messenger-2.0.0rc4/README.md"
+          ],
+          "value": "www.apache.org"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "iap_messenger-2.0.0rc4/LICENSE"
+          ],
+          "value": "http://www.apache.org/licenses/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "iap_messenger-2.0.0rc4/LICENSE"
+          ],
+          "value": "http://www.apache.org/licenses/LICENSE-2.0"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "iap_messenger-2.0.0rc4/PKG-INFO",
+            "iap_messenger-2.0.0rc4/README.md"
+          ],
+          "value": "https://badge.fury.io/py/iaparc-inference"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "iap_messenger-2.0.0rc4/PKG-INFO",
+            "iap_messenger-2.0.0rc4/README.md"
+          ],
+          "value": "https://badge.fury.io/py/iaparc-inference.svg"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "iap_messenger-2.0.0rc4/Cargo.lock"
+          ],
+          "value": "https://github.com/rust-lang/crates.io-index"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "iap_messenger-2.0.0rc4/PKG-INFO",
+            "iap_messenger-2.0.0rc4/pyproject.toml"
+          ],
+          "value": "https://gitlab.com/ia-parc/public/pypi/iap_messenger"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "iap_messenger-2.0.0rc4/PKG-INFO",
+            "iap_messenger-2.0.0rc4/pyproject.toml"
+          ],
+          "value": "https://gitlab.com/ia-parc/public/pypi/iap_messenger/issues"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "iap_messenger-2.0.0rc4/PKG-INFO",
+            "iap_messenger-2.0.0rc4/README.md"
+          ],
+          "value": "https://img.shields.io/pypi/l/iaparc-inference"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "iap_messenger-2.0.0rc4/PKG-INFO",
+            "iap_messenger-2.0.0rc4/README.md"
+          ],
+          "value": "https://www.apache.org/licenses/LICENSE-2.0"
+        }
+      ]
+    },
+    "package": "iap-messenger",
+    "package_slug": "iap-messenger",
+    "project_url": "https://pypi.org/project/iap-messenger/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T12:17:48.056151+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T12:18:20.382023+00:00",
+    "title": "Personal PyPI Supply Chain Scan: iap-messenger 2.0.0rc4",
+    "version": "2.0.0rc4",
+    "version_slug": "2.0.0rc4",
+    "_metadata_path": "reports/packages/iap-messenger/2.0.0rc4/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "aja_codeintel-0.1.9.tar.gz",
     "finding_count": 109,
     "model": "gpt-5.5",

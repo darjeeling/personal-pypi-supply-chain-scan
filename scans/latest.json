@@ -1,79 +1,49 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "aja_codeintel-0.1.9.tar.gz",
-  "finding_count": 109,
+  "distribution": "iap_messenger-2.0.0rc4.tar.gz",
+  "finding_count": 12,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "aja_codeintel-0.1.9/codeintel_cli/frontend/server.py"
+          "iap_messenger-2.0.0rc4/PKG-INFO",
+          "iap_messenger-2.0.0rc4/README.md"
         ],
-        "value": "fonts.googleapis.com"
+        "value": "badge.fury.io"
       },
       {
         "file_count": 1,
         "files": [
-          "aja_codeintel-0.1.9/codeintel_cli/endpoints/fastapi_scanner.py"
+          "iap_messenger-2.0.0rc4/Cargo.lock"
         ],
-        "value": "raw.depends"
+        "value": "github.com"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "aja_codeintel-0.1.9/codeintel_cli/endpoints/fastapi_scanner.py"
+          "iap_messenger-2.0.0rc4/PKG-INFO",
+          "iap_messenger-2.0.0rc4/pyproject.toml"
         ],
-        "value": "raw.file"
+        "value": "gitlab.com"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "aja_codeintel-0.1.9/codeintel_cli/endpoints/fastapi_scanner.py"
+          "iap_messenger-2.0.0rc4/PKG-INFO",
+          "iap_messenger-2.0.0rc4/README.md"
         ],
-        "value": "raw.handler"
+        "value": "img.shields.io"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "aja_codeintel-0.1.9/codeintel_cli/endpoints/fastapi_scanner.py"
+          "iap_messenger-2.0.0rc4/LICENSE",
+          "iap_messenger-2.0.0rc4/PKG-INFO",
+          "iap_messenger-2.0.0rc4/README.md"
         ],
-        "value": "raw.line"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "aja_codeintel-0.1.9/codeintel_cli/context/java_rel.py"
-        ],
-        "value": "raw.lower"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "aja_codeintel-0.1.9/codeintel_cli/endpoints/fastapi_scanner.py"
-        ],
-        "value": "raw.method"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "aja_codeintel-0.1.9/codeintel_cli/context/java_rel.py"
-        ],
-        "value": "raw.split"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "aja_codeintel-0.1.9/codeintel_cli/endpoints/openapi_spec.py"
-        ],
-        "value": "raw.splitlines"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "aja_codeintel-0.1.9/codeintel_cli/frontend/server.py"
-        ],
-        "value": "www.w3.org"
+        "value": "www.apache.org"
       }
     ],
     "raw_public_ips": [],
@@ -82,36 +52,84 @@
       {
         "file_count": 1,
         "files": [
-          "aja_codeintel-0.1.9/codeintel_cli/frontend/server.py"
+          "iap_messenger-2.0.0rc4/LICENSE"
         ],
-        "value": "http://www.w3.org/2000/svg"
+        "value": "http://www.apache.org/licenses/"
       },
       {
         "file_count": 1,
         "files": [
-          "aja_codeintel-0.1.9/codeintel_cli/frontend/server.py"
+          "iap_messenger-2.0.0rc4/LICENSE"
         ],
-        "value": "https://fonts.googleapis.com"
+        "value": "http://www.apache.org/licenses/LICENSE-2.0"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "iap_messenger-2.0.0rc4/PKG-INFO",
+          "iap_messenger-2.0.0rc4/README.md"
+        ],
+        "value": "https://badge.fury.io/py/iaparc-inference"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "iap_messenger-2.0.0rc4/PKG-INFO",
+          "iap_messenger-2.0.0rc4/README.md"
+        ],
+        "value": "https://badge.fury.io/py/iaparc-inference.svg"
       },
       {
         "file_count": 1,
         "files": [
-          "aja_codeintel-0.1.9/codeintel_cli/frontend/server.py"
+          "iap_messenger-2.0.0rc4/Cargo.lock"
         ],
-        "value": "https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+        "value": "https://github.com/rust-lang/crates.io-index"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "iap_messenger-2.0.0rc4/PKG-INFO",
+          "iap_messenger-2.0.0rc4/pyproject.toml"
+        ],
+        "value": "https://gitlab.com/ia-parc/public/pypi/iap_messenger"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "iap_messenger-2.0.0rc4/PKG-INFO",
+          "iap_messenger-2.0.0rc4/pyproject.toml"
+        ],
+        "value": "https://gitlab.com/ia-parc/public/pypi/iap_messenger/issues"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "iap_messenger-2.0.0rc4/PKG-INFO",
+          "iap_messenger-2.0.0rc4/README.md"
+        ],
+        "value": "https://img.shields.io/pypi/l/iaparc-inference"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "iap_messenger-2.0.0rc4/PKG-INFO",
+          "iap_messenger-2.0.0rc4/README.md"
+        ],
+        "value": "https://www.apache.org/licenses/LICENSE-2.0"
       }
     ]
   },
-  "package": "aja-codeintel",
-  "package_slug": "aja-codeintel",
-  "project_url": "https://pypi.org/project/aja-codeintel/",
+  "package": "iap-messenger",
+  "package_slug": "iap-messenger",
+  "project_url": "https://pypi.org/project/iap-messenger/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T12:11:47.949617+00:00",
+  "published_at": "2026-04-27T12:17:48.056151+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T12:13:50.857343+00:00",
-  "title": "Personal PyPI Supply Chain Scan: aja-codeintel 0.1.9",
-  "version": "0.1.9",
-  "version_slug": "0.1.9",
-  "_metadata_path": "reports/packages/aja-codeintel/0.1.9/metadata.json"
+  "scanned_at": "2026-04-27T12:18:20.382023+00:00",
+  "title": "Personal PyPI Supply Chain Scan: iap-messenger 2.0.0rc4",
+  "version": "2.0.0rc4",
+  "version_slug": "2.0.0rc4",
+  "_metadata_path": "reports/packages/iap-messenger/2.0.0rc4/metadata.json"
 }
