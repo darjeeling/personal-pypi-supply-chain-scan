@@ -1,6 +1,731 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "nemo_safe_synthesizer-0.0.5-py3-none-any.whl",
+    "finding_count": 229,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/pii_replacer/ner/regexes/slack.py"
+          ],
+          "value": "api.slack.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "nemo_safe_synthesizer/evaluation/components/attribute_inference_protection.py",
+            "nemo_safe_synthesizer/evaluation/components/membership_inference_protection.py",
+            "nemo_safe_synthesizer/privacy/dp_transformers/privacy_args.py"
+          ],
+          "value": "arxiv.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/pii_replacer/nemo_pii.py"
+          ],
+          "value": "build.nvidia.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/evaluation/assets/jinja/reports/multi_modal_report.j2"
+          ],
+          "value": "cdn.plot.ly"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/generation/regex_manager.py"
+          ],
+          "value": "cswr.github.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/pii_replacer/ner/regexes/facebook.py"
+          ],
+          "value": "developers.facebook.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/training/huggingface_backend.py"
+          ],
+          "value": "discuss.huggingface.co"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "nemo_safe_synthesizer-0.0.5.dist-info/METADATA",
+            "nemo_safe_synthesizer/data_processing/actions/data_actions.py"
+          ],
+          "value": "docs.astral.sh"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "nemo_safe_synthesizer/pii_replacer/ner/regexes/aba_routing_number.py",
+            "nemo_safe_synthesizer/pii_replacer/ner/regexes/iban.py",
+            "nemo_safe_synthesizer/pii_replacer/ner/regexes/swift.py"
+          ],
+          "value": "docs.microsoft.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/data_processing/actions/distributions.py"
+          ],
+          "value": "docs.pydantic.dev"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/cli/utils.py"
+          ],
+          "value": "docs.vllm.ai"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer-0.0.5.dist-info/METADATA"
+          ],
+          "value": "download.pytorch.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "nemo_safe_synthesizer/pii_replacer/ner/regexes/iban.py",
+            "nemo_safe_synthesizer/pii_replacer/ner/regexes/swift.py"
+          ],
+          "value": "en.wikipedia.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer-0.0.5.dist-info/METADATA"
+          ],
+          "value": "flashinfer.ai"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/evaluation/assets/jinja/reports/multi_modal_report.j2"
+          ],
+          "value": "fonts.googleapis.com"
+        },
+        {
+          "file_count": 13,
+          "files": [
+            "nemo_safe_synthesizer-0.0.5.dist-info/METADATA",
+            "nemo_safe_synthesizer/generation/regex_manager.py",
+            "nemo_safe_synthesizer/pii_replacer/ner/datetime.py",
+            "nemo_safe_synthesizer/pii_replacer/ner/fasttext.py",
+            "nemo_safe_synthesizer/pii_replacer/ner/regexes/github.py",
+            "nemo_safe_synthesizer/pii_replacer/ner/regexes/iban.py",
+            "nemo_safe_synthesizer/pii_replacer/ner/regexes/jwt.py",
+            "nemo_safe_synthesizer/pii_replacer/ner/regexes/sex_gender.py"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/pii_replacer/ner/regexes/slack.py"
+          ],
+          "value": "hooks.slack.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "nemo_safe_synthesizer-0.0.5.dist-info/METADATA",
+            "nemo_safe_synthesizer/defaults.py"
+          ],
+          "value": "integrate.api.nvidia.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "nemo_safe_synthesizer/data_processing/dataset.py",
+            "nemo_safe_synthesizer/defaults.py"
+          ],
+          "value": "json-schema.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/pii_replacer/data_editor/filters.py"
+          ],
+          "value": "learn.microsoft.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer-0.0.5.dist-info/METADATA"
+          ],
+          "value": "mise.jdx.dev"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer-0.0.5.dist-info/METADATA"
+          ],
+          "value": "myhost.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer-0.0.5.dist-info/METADATA"
+          ],
+          "value": "nvidia-nemo.github.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/privacy/dp_transformers/dp_utils.py"
+          ],
+          "value": "pandas.pydata.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/data_processing/records/json_record.py"
+          ],
+          "value": "raw.items"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/data_processing/records/json_record.py"
+          ],
+          "value": "raw.values"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/privacy/dp_transformers/dp_utils.py"
+          ],
+          "value": "tpdp.journalprivacyconfidentiality.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "nemo_safe_synthesizer-0.0.5.dist-info/licenses/LICENSE",
+            "nemo_safe_synthesizer/package_info.py"
+          ],
+          "value": "www.apache.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/pii_replacer/ner/regexes/iban.py"
+          ],
+          "value": "www.iban.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "nemo_safe_synthesizer/evaluation/components/attribute_inference_protection.py",
+            "nemo_safe_synthesizer/pii_replacer/ner/datetime.py"
+          ],
+          "value": "www.localeplanet.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/evaluation/assets/css/multi_modal_report.css::base64/raw"
+          ],
+          "value": "www.w3.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/pii_replacer/ner/regexes/iban.py"
+          ],
+          "value": "www.xe.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer-0.0.5.dist-info/METADATA"
+          ],
+          "value": "your-local-nim-endpoint"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer-0.0.5.dist-info/licenses/LICENSE"
+          ],
+          "value": "http://www.apache.org/licenses/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "nemo_safe_synthesizer-0.0.5.dist-info/licenses/LICENSE",
+            "nemo_safe_synthesizer/package_info.py"
+          ],
+          "value": "http://www.apache.org/licenses/LICENSE-2.0"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/evaluation/assets/css/multi_modal_report.css::base64/raw"
+          ],
+          "value": "http://www.w3.org/1999/xlink"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/evaluation/assets/css/multi_modal_report.css::base64/raw"
+          ],
+          "value": "http://www.w3.org/2000/svg"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/pii_replacer/ner/regexes/slack.py"
+          ],
+          "value": "https://api.slack.com/authentication/token-types"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/privacy/dp_transformers/privacy_args.py"
+          ],
+          "value": "https://arxiv.org/abs/2106.02848"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "nemo_safe_synthesizer/evaluation/components/attribute_inference_protection.py",
+            "nemo_safe_synthesizer/evaluation/components/membership_inference_protection.py"
+          ],
+          "value": "https://arxiv.org/abs/2501.03941"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/pii_replacer/nemo_pii.py"
+          ],
+          "value": "https://build.nvidia.com/settings/api-keys"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/evaluation/assets/jinja/reports/multi_modal_report.j2"
+          ],
+          "value": "https://cdn.plot.ly/plotly-2.35.3.min.js"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/generation/regex_manager.py"
+          ],
+          "value": "https://cswr.github.io/JsonSchema/spec/multiple_types/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/pii_replacer/ner/regexes/facebook.py"
+          ],
+          "value": "https://developers.facebook.com/docs/facebook-login/access-tokens/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/training/huggingface_backend.py"
+          ],
+          "value": "https://discuss.huggingface.co/t/cuda-out-of-memory-when-using-trainer-with-compute-metrics/2941/13"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/training/huggingface_backend.py"
+          ],
+          "value": "https://discuss.huggingface.co/t/i-used-to-have-no-problem-with-peft-fine-tuning-after-hundreds-of-trainings-but-now-i-have-encountered-the-error-runtimeerror-element-0-of-tensors-does-not-require-grad-and-does-not-have-a-grad-fn/168829/3"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/data_processing/actions/data_actions.py"
+          ],
+          "value": "https://docs.astral.sh/ty/reference/typing-faq/#why-does-ty-say-callable-has-no-attribute-__name__"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer-0.0.5.dist-info/METADATA"
+          ],
+          "value": "https://docs.astral.sh/uv/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/pii_replacer/ner/regexes/aba_routing_number.py"
+          ],
+          "value": "https://docs.microsoft.com/en-us/exchange/policy-and-compliance/data-loss-prevention/sensitive-information-types?view=exchserver-2019#aba-routing-number"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/pii_replacer/ner/regexes/iban.py"
+          ],
+          "value": "https://docs.microsoft.com/en-us/exchange/policy-and-compliance/data-loss-prevention/sensitive-information-types?view=exchserver-2019#international-banking-account-number-iban"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/pii_replacer/ner/regexes/swift.py"
+          ],
+          "value": "https://docs.microsoft.com/en-us/exchange/policy-and-compliance/data-loss-prevention/sensitive-information-types?view=exchserver-2019#swift-code"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/data_processing/actions/distributions.py"
+          ],
+          "value": "https://docs.pydantic.dev/2.2/usage/types/datetime/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/cli/utils.py"
+          ],
+          "value": "https://docs.vllm.ai/en/latest/examples/others/logging_configuration/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer-0.0.5.dist-info/METADATA"
+          ],
+          "value": "https://download.pytorch.org/whl/cu128"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/pii_replacer/ner/regexes/swift.py"
+          ],
+          "value": "https://en.wikipedia.org/wiki/ISO_9362"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/pii_replacer/ner/regexes/iban.py"
+          ],
+          "value": "https://en.wikipedia.org/wiki/International_Bank_Account_Number"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer-0.0.5.dist-info/METADATA"
+          ],
+          "value": "https://flashinfer.ai/whl/cu128"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/evaluation/assets/jinja/reports/multi_modal_report.j2"
+          ],
+          "value": "https://fonts.googleapis.com/css?family=Inter"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/pii_replacer/ner/regexes/github.py"
+          ],
+          "value": "https://github.com/.*?/.*?/commit/{"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/pii_replacer/ner/regexes/sex_gender.py"
+          ],
+          "value": "https://github.com/Gretellabs/monogretel/issues/190"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer-0.0.5.dist-info/METADATA"
+          ],
+          "value": "https://github.com/NVIDIA-NeMo/Safe-Synthesizer.git"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer-0.0.5.dist-info/METADATA"
+          ],
+          "value": "https://github.com/NVIDIA-NeMo/Safe-Synthesizer/blob/main/LICENSE"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer-0.0.5.dist-info/METADATA"
+          ],
+          "value": "https://github.com/NVIDIA-NeMo/Safe-Synthesizer/discussions"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer-0.0.5.dist-info/METADATA"
+          ],
+          "value": "https://github.com/NVIDIA-NeMo/Safe-Synthesizer/issues/new?template=bug-report.yml"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer-0.0.5.dist-info/METADATA"
+          ],
+          "value": "https://github.com/NVIDIA-NeMo/Safe-Synthesizer/issues/new?template=feature-request.yml"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer-0.0.5.dist-info/METADATA"
+          ],
+          "value": "https://github.com/NVIDIA-NeMo/Safe-Synthesizer/security/policy"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/pii_replacer/ner/regexes/jwt.py"
+          ],
+          "value": "https://github.com/Yelp/detect-secrets/blob/master/detect_secrets/plugins/jwt.py"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/generation/regex_manager.py"
+          ],
+          "value": "https://github.com/dottxt-ai/outlines/blob/0b4d12b0b/outlines/fsm/json_schema.py#L99"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/generation/regex_manager.py"
+          ],
+          "value": "https://github.com/dottxt-ai/outlines/commit/1b7ec18a91b6d39e0279dd91cfe9bab415dc80c4#diff-90728716bf5e6de30e84bb0588f3aac4a78a3ec0773564726f7ff65e1017b647"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/pii_replacer/ner/fasttext.py"
+          ],
+          "value": "https://github.com/facebookresearch/fastText/blob/master/src/dictionary.cc"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/privacy/dp_transformers/dp_utils.py"
+          ],
+          "value": "https://github.com/huggingface/transformers/blob/5c1c72be5f864d10d0efe8ece0768d9ed6ee4fdd/src/transformers/models/mistral/modeling_mistral.py#L379"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/training/callbacks.py"
+          ],
+          "value": "https://github.com/huggingface/transformers/blob/v4.29.0/src/transformers/trainer.py#L2279"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/pii_replacer/ner/regexes/jwt.py"
+          ],
+          "value": "https://github.com/jpadilla/pyjwt/blob/3d47b0ea9e5d489f9c90ee6dde9e3d9d69244e3a/jwt/utils.py#L33"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/pii_replacer/ner/regexes/jwt.py"
+          ],
+          "value": "https://github.com/magical/jwt-python/blob/2fd976b41111031313107792b40d5cfd1a8baf90/jwt.py#L49"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/privacy/dp_transformers/linear.py"
+          ],
+          "value": "https://github.com/microsoft/dp-transformers/blob/main/research/fine_tune_llm_w_qlora/linear.py"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/privacy/dp_transformers/privacy_args.py"
+          ],
+          "value": "https://github.com/microsoft/dp-transformers/blob/main/src/dp_transformers/arguments.py"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/privacy/dp_transformers/dp_utils.py"
+          ],
+          "value": "https://github.com/microsoft/dp-transformers/blob/main/src/dp_transformers/dp_utils.py"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/privacy/dp_transformers/sampler.py"
+          ],
+          "value": "https://github.com/microsoft/dp-transformers/blob/main/src/dp_transformers/sampler.py"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/pii_replacer/ner/regexes/iban.py"
+          ],
+          "value": "https://github.com/microsoft/presidio/blob/master/presidio-analyzer/presidio_analyzer/predefined_recognizers/iban_recognizer.py"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/privacy/dp_transformers/privacy_args.py"
+          ],
+          "value": "https://github.com/microsoft/prv_accountant/blob/main/prv_accountant/dpsgd.py#L39"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/pii_replacer/ner/datetime.py"
+          ],
+          "value": "https://github.com/scrapinghub/dateparser/issues/679"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/pii_replacer/ner/regexes/slack.py"
+          ],
+          "value": "https://hooks.slack.com/services/T[a-zA-Z0-9_"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/defaults.py"
+          ],
+          "value": "https://integrate.api.nvidia.com/v1"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer-0.0.5.dist-info/METADATA"
+          ],
+          "value": "https://integrate.api.nvidia.com/v1`"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/data_processing/dataset.py"
+          ],
+          "value": "https://json-schema.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/defaults.py"
+          ],
+          "value": "https://json-schema.org/draft/2020-12/json-schema-validation#name-a-vocabulary-for-structural"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/pii_replacer/data_editor/filters.py"
+          ],
+          "value": "https://learn.microsoft.com/en-us/sql/relational-databases/security/dynamic-data-masking?view=sql-server-ver16#define-a-dynamic-data-mask"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer-0.0.5.dist-info/METADATA"
+          ],
+          "value": "https://mise.jdx.dev/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer-0.0.5.dist-info/METADATA"
+          ],
+          "value": "https://myhost.com/path/to/dataset.json"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer-0.0.5.dist-info/METADATA"
+          ],
+          "value": "https://nvidia-nemo.github.io/Safe-Synthesizer/tutorials/safe-synthesizer-101/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer-0.0.5.dist-info/METADATA"
+          ],
+          "value": "https://nvidia-nemo.github.io/Safe-Synthesizer/user-guide/getting-started/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/privacy/dp_transformers/dp_utils.py"
+          ],
+          "value": "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/privacy/dp_transformers/dp_utils.py"
+          ],
+          "value": "https://tpdp.journalprivacyconfidentiality.org/2022/papers/HaneyDHSH22.pdf"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/pii_replacer/ner/regexes/iban.py"
+          ],
+          "value": "https://www.iban.com/iban-checker"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "nemo_safe_synthesizer/evaluation/components/attribute_inference_protection.py",
+            "nemo_safe_synthesizer/pii_replacer/ner/datetime.py"
+          ],
+          "value": "https://www.localeplanet.com/icu/mgh/index.html"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer/pii_replacer/ner/regexes/iban.py"
+          ],
+          "value": "https://www.xe.com/ibancalculator/countrylist"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "nemo_safe_synthesizer-0.0.5.dist-info/METADATA"
+          ],
+          "value": "https://your-local-nim-endpoint"
+        }
+      ]
+    },
+    "package": "nemo-safe-synthesizer",
+    "package_slug": "nemo-safe-synthesizer",
+    "project_url": "https://pypi.org/project/nemo-safe-synthesizer/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T18:33:52.123065+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T18:34:46.453863+00:00",
+    "title": "Personal PyPI Supply Chain Scan: nemo-safe-synthesizer 0.0.5",
+    "version": "0.0.5",
+    "version_slug": "0.0.5",
+    "_metadata_path": "reports/packages/nemo-safe-synthesizer/0.0.5/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "scse_toolkit-1.0.5.tar.gz",
     "finding_count": 5,
     "model": "gpt-5.5",
