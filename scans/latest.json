@@ -1,797 +1,178 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "django_connectwise-1.20.0-py3-none-any.whl",
-  "finding_count": 77,
+  "distribution": "runplz-3.14.1.tar.gz",
+  "finding_count": 297,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 2,
-        "files": [
-          "djconnectwise/api.py",
-          "djconnectwise/tests/test_api.py"
-        ],
-        "value": "api-na.myconnectwise.net"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "djconnectwise/sync.py",
-          "djconnectwise/tests/test_api.py"
-        ],
-        "value": "api.companyapiclient"
-      },
-      {
         "file_count": 1,
         "files": [
-          "djconnectwise/tests/test_api.py"
+          "runplz-3.14.1/runplz/backends/brev.py"
         ],
-        "value": "api.companyinfomanager"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "djconnectwise/models.py",
-          "djconnectwise/sync.py"
-        ],
-        "value": "api.configurationapiclient"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/test_api.py"
-        ],
-        "value": "api.connectwiseapiclient"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/management/commands/cwsync.py"
-        ],
-        "value": "api.connectwiseapierror"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "djconnectwise/sync.py",
-          "djconnectwise/tests/test_views.py"
-        ],
-        "value": "api.connectwiserecordnotfounderror"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "djconnectwise/sync.py",
-          "djconnectwise/tests/test_api.py"
-        ],
-        "value": "api.financeapiclient"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/test_api.py"
-        ],
-        "value": "api.hostedapiclient"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/test_api.py"
-        ],
-        "value": "api.hostedreportapiclient"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "djconnectwise/models.py",
-          "djconnectwise/sync.py",
-          "djconnectwise/tests/test_api.py"
-        ],
-        "value": "api.projectapiclient"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "djconnectwise/models.py",
-          "djconnectwise/sync.py",
-          "djconnectwise/tests/test_api.py"
-        ],
-        "value": "api.salesapiclient"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "djconnectwise/models.py",
-          "djconnectwise/sync.py",
-          "djconnectwise/tests/test_api.py"
-        ],
-        "value": "api.scheduleapiclient"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "djconnectwise/models.py",
-          "djconnectwise/sync.py",
-          "djconnectwise/tests/test_api.py"
-        ],
-        "value": "api.serviceapiclient"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "djconnectwise/sync.py",
-          "djconnectwise/tests/test_api.py"
-        ],
-        "value": "api.systemapiclient"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "djconnectwise/models.py",
-          "djconnectwise/sync.py",
-          "djconnectwise/tests/test_api.py"
-        ],
-        "value": "api.timeapiclient"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "django_connectwise-1.20.0.dist-info/METADATA"
-        ],
-        "value": "connectwise.example.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "cw.com"
+        "value": "developer.nvidia.com"
       },
       {
         "file_count": 4,
         "files": [
-          "djconnectwise/api.py",
-          "djconnectwise/callbacks.py",
-          "djconnectwise/sync.py",
-          "djconnectwise/views.py"
+          "runplz-3.14.1/runplz/backends/_ssh_common.py",
+          "runplz-3.14.1/tests/test_app_extras.py",
+          "runplz-3.14.1/tests/test_brev_backend.py",
+          "runplz-3.14.1/tests/test_modal_backend.py"
         ],
-        "value": "developer.connectwise.com"
+        "value": "download.pytorch.org"
       },
       {
         "file_count": 1,
         "files": [
-          "djconnectwise/sync.py"
+          "runplz-3.14.1/runplz/backends/_ssh_common.py"
         ],
-        "value": "docs.djangoproject.com"
+        "value": "get.docker.com"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "django_connectwise-1.20.0.dist-info/METADATA"
-        ],
-        "value": "easy-thumbnails.readthedocs.io"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "django_connectwise-1.20.0.dist-info/METADATA"
+          "runplz-3.14.1/PKG-INFO",
+          "runplz-3.14.1/pyproject.toml",
+          "runplz-3.14.1/runplz.egg-info/PKG-INFO"
         ],
         "value": "github.com"
       },
       {
-        "file_count": 2,
+        "file_count": 3,
         "files": [
-          "djconnectwise/api.py",
-          "djconnectwise/tests/test_api.py"
+          "runplz-3.14.1/PKG-INFO",
+          "runplz-3.14.1/README.md",
+          "runplz-3.14.1/runplz.egg-info/PKG-INFO"
         ],
-        "value": "na.myconnectwise.net"
+        "value": "img.shields.io"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "runplz-3.14.1/PKG-INFO",
+          "runplz-3.14.1/README.md",
+          "runplz-3.14.1/runplz.egg-info/PKG-INFO"
+        ],
+        "value": "pypi.org"
       },
       {
         "file_count": 1,
         "files": [
-          "django_connectwise-1.20.0.dist-info/METADATA"
+          "runplz-3.14.1/runplz/app.py"
         ],
-        "value": "na.myconnectwise.net`-"
+        "value": "raw.items"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "djconnectwise/tests/fixtures.py"
+          "runplz-3.14.1/LICENSE",
+          "runplz-3.14.1/PKG-INFO",
+          "runplz-3.14.1/runplz.egg-info/PKG-INFO"
         ],
-        "value": "opprimo.serveo.net"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/utils.py"
-        ],
-        "value": "stackoverflow.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "university.connectwise.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/management/commands/cwsync.py"
-        ],
-        "value": "www.python.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/test_api.py"
-        ],
-        "value": "{"
+        "value": "www.apache.org"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/test_api.py"
-        ],
-        "value": "http://example.com/"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "djconnectwise/api.py",
-          "djconnectwise/tests/test_api.py"
-        ],
-        "value": "https://api-na.myconnectwise.net"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "django_connectwise-1.20.0.dist-info/METADATA"
-        ],
-        "value": "https://connectwise.example.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://cw.com/v4_6_release/apis/3.0/finance/agreements/types"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://cw.com/v4_6_release/apis/3.0/time/workRoles/18"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://cw.com/v4_6_release/apis/3.0/time/workTypes/3"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/api.py"
-        ],
-        "value": "https://developer.connectwise.com/Manage/Developer_Guide#HTTP_Response_Codes"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/api.py"
-        ],
-        "value": "https://developer.connectwise.com/Manage/Developer_Guide#Patch"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/views.py"
-        ],
-        "value": "https://developer.connectwise.com/Manage/Developer_Guide#Verifying_the_Callback_Source"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/api.py"
-        ],
-        "value": "https://developer.connectwise.com/Products/Manage/Developer_Guide#Authentication"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/callbacks.py"
-        ],
-        "value": "https://developer.connectwise.com/Products/Manage/Developer_Guide#Callbacks_(Webhooks"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/api.py"
-        ],
-        "value": "https://developer.connectwise.com/Products/Manage/Developer_Guide#Cloud_URLs"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/sync.py"
-        ],
-        "value": "https://developer.connectwise.com/Products/Manage/REST#/TimeEntries"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/sync.py"
-        ],
-        "value": "https://docs.djangoproject.com/en/dev/ref/models/fields"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "django_connectwise-1.20.0.dist-info/METADATA"
-        ],
-        "value": "https://easy-thumbnails.readthedocs.io/en/stable/ref/settings/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/test_api.py"
-        ],
-        "value": "https://example.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/company/companies/10/sites/9"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/company/companies/24/sites/28"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/company/companies/8"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/company/companies/8/sites/7"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/company/contacts/2"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/company/contacts/20"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/company/contacts/26"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/finance/agreements/3"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/finance/currencies/7"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/finance/invoices/4"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/finance/taxCodes/11"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/marketing/campaigns/3"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/project/phaseStatuses/1"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/project/projects/4/phases/1"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/project/securityroles/1/settings"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/sales/opportunities/2/notes"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/sales/opportunities/ratings/4"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/sales/opportunities/statuses/1"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/schedule/statuses/1"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/service/boards/1"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/service/boards/1/statuses/1"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/service/boards/3"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/service/boards/3/statuses/1"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/service/priorities/4"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/service/sources/2"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/service/sources/3"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/service/tickets/69/activities"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/service/tickets/69/configurations"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/service/tickets/69/documents"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/service/tickets/69/notes"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/service/tickets/69/products"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/service/tickets/69/scheduleentries"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/service/tickets/69/tasks"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/service/tickets/69/timeentries"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/system/departments/10"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/system/documents/267"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/system/documents/267/download"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/system/locations/2"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/system/members/176"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/system/members/186"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/system/members/189"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/system/members/196"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/system/workTypes/3"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/time/sheets/2"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/apis/3.0/time/workRoles/11"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://example.com/v4_6_release/test"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "django_connectwise-1.20.0.dist-info/METADATA"
-        ],
-        "value": "https://github.com/KerkhoffTechnologies/django-connectwise"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "django_connectwise-1.20.0.dist-info/METADATA"
-        ],
-        "value": "https://github.com/jazzband/django-constance"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "djconnectwise/api.py",
-          "djconnectwise/tests/test_api.py"
-        ],
-        "value": "https://na.myconnectwise.net"
-      },
-      {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "django_connectwise-1.20.0.dist-info/METADATA"
+          "runplz-3.14.1/LICENSE",
+          "runplz-3.14.1/PKG-INFO",
+          "runplz-3.14.1/runplz.egg-info/PKG-INFO"
         ],
-        "value": "https://na.myconnectwise.net`-"
+        "value": "http://www.apache.org/licenses/"
       },
       {
-        "file_count": 1,
-        "files": [
-          "djconnectwise/tests/fixtures.py"
-        ],
-        "value": "https://opprimo.serveo.net/"
-      },
-      {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "djconnectwise/tests/fixtures.py"
+          "runplz-3.14.1/LICENSE",
+          "runplz-3.14.1/PKG-INFO",
+          "runplz-3.14.1/runplz.egg-info/PKG-INFO"
         ],
-        "value": "https://opprimo.serveo.net/all-tickets/cwhostedembed/"
+        "value": "http://www.apache.org/licenses/LICENSE-2.0"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "djconnectwise/utils.py"
+          "runplz-3.14.1/PKG-INFO",
+          "runplz-3.14.1/README.md",
+          "runplz-3.14.1/runplz.egg-info/PKG-INFO"
         ],
-        "value": "https://stackoverflow.com/questions/37048807/python-image-library-and-keyerror-jpg"
+        "value": "https://"
       },
       {
         "file_count": 1,
         "files": [
-          "djconnectwise/tests/fixtures.py"
+          "runplz-3.14.1/runplz/backends/brev.py"
         ],
-        "value": "https://university.connectwise.com/university/"
+        "value": "https://developer.nvidia.com/brev"
       },
       {
         "file_count": 1,
         "files": [
-          "djconnectwise/tests/fixtures.py"
+          "runplz-3.14.1/runplz/backends/_ssh_common.py"
         ],
-        "value": "https://v4_6_release/apis/3.0/service/boards/23"
+        "value": "https://download.pytorch.org/whl/cpu"
       },
       {
-        "file_count": 1,
+        "file_count": 4,
         "files": [
-          "djconnectwise/tests/fixtures.py"
+          "runplz-3.14.1/runplz/backends/_ssh_common.py",
+          "runplz-3.14.1/tests/test_app_extras.py",
+          "runplz-3.14.1/tests/test_brev_backend.py",
+          "runplz-3.14.1/tests/test_modal_backend.py"
         ],
-        "value": "https://v4_6_release/apis/3.0/service/boards/23/items/267"
+        "value": "https://download.pytorch.org/whl/cu121"
       },
       {
         "file_count": 1,
         "files": [
-          "djconnectwise/tests/fixtures.py"
+          "runplz-3.14.1/runplz/backends/_ssh_common.py"
         ],
-        "value": "https://v4_6_release/apis/3.0/service/boards/23/subtypes/1895"
+        "value": "https://get.docker.com"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "djconnectwise/tests/fixtures.py"
+          "runplz-3.14.1/PKG-INFO",
+          "runplz-3.14.1/pyproject.toml",
+          "runplz-3.14.1/runplz.egg-info/PKG-INFO"
         ],
-        "value": "https://v4_6_release/apis/3.0/service/boards/23/types/275"
+        "value": "https://github.com/pirl-unc/runplz"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "djconnectwise/management/commands/cwsync.py"
+          "runplz-3.14.1/PKG-INFO",
+          "runplz-3.14.1/README.md",
+          "runplz-3.14.1/runplz.egg-info/PKG-INFO"
         ],
-        "value": "https://www.python.org/dev/peps/pep-0468/"
+        "value": "https://img.shields.io/pypi/v/runplz.svg"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "djconnectwise/tests/test_api.py"
+          "runplz-3.14.1/PKG-INFO",
+          "runplz-3.14.1/README.md",
+          "runplz-3.14.1/runplz.egg-info/PKG-INFO"
         ],
-        "value": "https://{"
+        "value": "https://pypi.org/project/runplz/"
       }
     ]
   },
-  "package": "django-connectwise",
-  "package_slug": "django-connectwise",
-  "project_url": "https://pypi.org/project/django-connectwise/",
+  "package": "runplz",
+  "package_slug": "runplz",
+  "project_url": "https://pypi.org/project/runplz/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T19:12:34.413832+00:00",
+  "published_at": "2026-04-27T19:17:47.884244+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T19:14:00.987504+00:00",
-  "title": "Personal PyPI Supply Chain Scan: django-connectwise 1.20.0",
-  "version": "1.20.0",
-  "version_slug": "1.20.0",
-  "_metadata_path": "reports/packages/django-connectwise/1.20.0/metadata.json"
+  "scanned_at": "2026-04-27T19:18:23.404564+00:00",
+  "title": "Personal PyPI Supply Chain Scan: runplz 3.14.1",
+  "version": "3.14.1",
+  "version_slug": "3.14.1",
+  "_metadata_path": "reports/packages/runplz/3.14.1/metadata.json"
 }
