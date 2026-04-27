@@ -5,6 +5,7 @@ from pathlib import Path
 import ast
 import base64
 import binascii
+import gzip
 import ipaddress
 import json
 import math
@@ -12,6 +13,7 @@ import re
 import shutil
 import subprocess
 import tempfile
+import zlib
 from urllib.parse import urlparse
 
 
@@ -47,6 +49,8 @@ HIGH_VALUE_NAMES = {
 BASE64_BLOB_RE = re.compile(
     r"(?<![A-Za-z0-9+/=])(?:[A-Za-z0-9+/]{80,}={0,2})(?![A-Za-z0-9+/=])"
 )
+HEX_BLOB_RE = re.compile(r"(?<![A-Fa-f0-9])(?:[A-Fa-f0-9]{160,})(?![A-Fa-f0-9])")
+MAX_DECODED_PAYLOAD_BYTES = 1024 * 1024
 URL_RE = re.compile(r"https?://[^\s'\"<>)\]}]+")
 HOST_RE = re.compile(r"(?<![A-Za-z0-9_-])(?:[A-Za-z0-9-]{1,63}\.)+[A-Za-z]{2,63}(?![A-Za-z0-9_-])")
 KNOWN_BENIGN_DOMAINS = {
@@ -174,6 +178,7 @@ def scan_extracted_package(
             continue
         indicators.add_text(rel, text)
         findings.extend(_scan_text(rel, text))
+        findings.extend(_scan_encoded_payloads(rel, text, indicators))
         if rel.endswith((".py", ".pyw", ".pth")):
             findings.extend(_scan_python(rel, text))
 
@@ -302,6 +307,69 @@ def _scan_text(rel: str, text: str) -> list[PreScanFinding]:
                 _line_at(text, line),
             )
         )
+    return findings
+
+
+def _scan_encoded_payloads(rel: str, text: str, indicators: "NetworkIndicators") -> list[PreScanFinding]:
+    findings: list[PreScanFinding] = []
+    candidates: list[tuple[str, int, bytes]] = []
+    for match in BASE64_BLOB_RE.finditer(text):
+        decoded = _decode_base64_blob(match.group(0))
+        if decoded:
+            candidates.append(("base64", match.start(), decoded))
+    for match in HEX_BLOB_RE.finditer(text):
+        decoded = _decode_hex_blob(match.group(0))
+        if decoded:
+            candidates.append(("hex", match.start(), decoded))
+
+    for encoding, start, decoded in candidates[:20]:
+        line = text.count("\n", 0, start) + 1
+        decoded_items = _expand_encoded_payload(decoded)
+        for transform, payload in decoded_items:
+            decoded_text = _decode_payload_text(payload)
+            if not decoded_text:
+                entropy = _entropy(payload[:65536])
+                findings.append(
+                    PreScanFinding(
+                        "decoded-binary-payload",
+                        "obfuscation",
+                        "medium" if entropy >= 7.2 else "low",
+                        rel,
+                        line,
+                        f"{encoding}/{transform} payload decoded to non-text data ({len(payload)} bytes, entropy {entropy:.2f})",
+                    )
+                )
+                continue
+
+            synthetic_path = f"{rel}::{encoding}/{transform}"
+            indicators.add_text(synthetic_path, decoded_text)
+            urls = _extract_urls(decoded_text)
+            hosts = _extract_bare_hosts(decoded_text)
+            suspicious_hosts = sorted({host for host in hosts if _is_suspicious_domain(host)})
+            if urls or hosts:
+                findings.append(
+                    PreScanFinding(
+                        "decoded-payload-network-indicators",
+                        "obfuscation",
+                        "high" if suspicious_hosts else "medium",
+                        rel,
+                        line,
+                        f"{encoding}/{transform} decoded payload contains network indicators",
+                        _summarize_decoded_indicators(urls, hosts),
+                    )
+                )
+            if re.search(r"(exec\s*\(|eval\s*\(|compile\s*\(|marshal\.loads|pickle\.loads|subprocess\.|os\.system|requests\.post|httpx\.post|urlopen)", decoded_text, re.IGNORECASE):
+                findings.append(
+                    PreScanFinding(
+                        "decoded-payload-loader-code",
+                        "obfuscation",
+                        "high",
+                        rel,
+                        line,
+                        f"{encoding}/{transform} decoded payload contains loader/execution/exfiltration primitives",
+                        _first_matching_line(decoded_text),
+                    )
+                )
     return findings
 
 
@@ -707,6 +775,81 @@ def _decoded_base64_size(value: str) -> int | None:
         return len(base64.b64decode(value, validate=True))
     except (binascii.Error, ValueError):
         return None
+
+
+def _decode_base64_blob(value: str) -> bytes | None:
+    try:
+        decoded = base64.b64decode(value, validate=True)
+    except (binascii.Error, ValueError):
+        return None
+    if not 48 <= len(decoded) <= MAX_DECODED_PAYLOAD_BYTES:
+        return None
+    return decoded
+
+
+def _decode_hex_blob(value: str) -> bytes | None:
+    if len(value) % 2:
+        return None
+    try:
+        decoded = bytes.fromhex(value)
+    except ValueError:
+        return None
+    if not 48 <= len(decoded) <= MAX_DECODED_PAYLOAD_BYTES:
+        return None
+    return decoded
+
+
+def _expand_encoded_payload(data: bytes) -> list[tuple[str, bytes]]:
+    items = [("raw", data)]
+    if len(data) > MAX_DECODED_PAYLOAD_BYTES:
+        return items
+    if data.startswith(b"\x1f\x8b"):
+        try:
+            inflated = gzip.decompress(data)
+            if len(inflated) <= MAX_DECODED_PAYLOAD_BYTES:
+                items.append(("gzip", inflated))
+        except (OSError, EOFError, zlib.error):
+            pass
+    for window_bits, label in ((zlib.MAX_WBITS, "zlib"), (-zlib.MAX_WBITS, "raw-deflate")):
+        try:
+            inflated = zlib.decompress(data, window_bits)
+            if len(inflated) <= MAX_DECODED_PAYLOAD_BYTES:
+                items.append((label, inflated))
+        except zlib.error:
+            pass
+    return items
+
+
+def _decode_payload_text(data: bytes) -> str | None:
+    if b"\x00" in data[:4096]:
+        return None
+    for encoding in ("utf-8", "utf-8-sig", "latin-1"):
+        try:
+            text = data.decode(encoding)
+        except UnicodeDecodeError:
+            continue
+        printable = sum(ch.isprintable() or ch.isspace() for ch in text[:4096])
+        sample = max(1, min(len(text), 4096))
+        if printable / sample >= 0.85:
+            return text
+    return None
+
+
+def _summarize_decoded_indicators(urls: list[str], hosts: list[str]) -> str:
+    parts = []
+    if urls:
+        parts.append("urls=" + ", ".join(urls[:5]))
+    if hosts:
+        parts.append("hosts=" + ", ".join(sorted(set(hosts))[:8]))
+    return "; ".join(parts)[:240]
+
+
+def _first_matching_line(text: str) -> str | None:
+    pattern = re.compile(r"(exec\s*\(|eval\s*\(|compile\s*\(|marshal\.loads|pickle\.loads|subprocess\.|os\.system|requests\.post|httpx\.post|urlopen)", re.IGNORECASE)
+    for line in text.splitlines():
+        if pattern.search(line):
+            return line.strip()[:240]
+    return None
 
 
 def _entropy(data: bytes) -> float:

@@ -34,6 +34,7 @@ Do not elevate ordinary CLI behavior, normal SDK/API calls, expected environment
 - Prefer deterministic pre-scan reduction before LLM calls to reduce token use and latency.
 - Use `ast-grep` when available, with Python AST/text/manifest heuristics as fallback and supplement.
 - Keep network indicator extraction deterministic and include domains/URLs in reports.
+- Decode likely base64/hex payload candidates and bounded gzip/zlib/raw-deflate payloads during pre-scan, then rescan decoded text for network indicators and loader primitives.
 - Exclude local/private/reserved IP ranges from raw public IP indicators.
 
 ## Reports
