@@ -1,353 +1,816 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "datasets-4.8.5.tar.gz",
-  "finding_count": 381,
+  "distribution": "ultralytics_opencv_headless-8.4.42.tar.gz",
+  "finding_count": 573,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "datasets-4.8.5/PKG-INFO",
-          "datasets-4.8.5/README.md",
-          "datasets-4.8.5/src/datasets.egg-info/PKG-INFO"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/engine/exporter.py"
         ],
-        "value": "aclanthology.org"
+        "value": "ai.google.dev"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/src/datasets/features/features.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/data/augment.py"
         ],
-        "value": "arrow.apache.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "datasets-4.8.5/src/datasets/utils/file_utils.py",
-          "datasets-4.8.5/tests/test_search.py"
-        ],
-        "value": "bugs.python.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/src/datasets/config.py"
-        ],
-        "value": "cdn-datasets.huggingface.co"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/src/datasets/utils/extract.py"
-        ],
-        "value": "cve.mitre.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/src/datasets/packaged_modules/hdf5/hdf5.py"
-        ],
-        "value": "docs.h5py.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/src/datasets/utils/py_utils.py"
-        ],
-        "value": "docs.python.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/src/datasets/features/video.py"
-        ],
-        "value": "docs.pytorch.org"
+        "value": "albumentations.ai"
       },
       {
         "file_count": 3,
         "files": [
-          "datasets-4.8.5/src/datasets/arrow_dataset.py",
-          "datasets-4.8.5/src/datasets/iterable_dataset.py",
-          "datasets-4.8.5/src/datasets/packaged_modules/sql/sql.py"
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
         ],
-        "value": "docs.sqlalchemy.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "datasets-4.8.5/tests/test_file_utils.py",
-          "datasets-4.8.5/tests/test_streaming_download_manager.py"
-        ],
-        "value": "domain.org"
+        "value": "anaconda.org"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/src/datasets/inspect.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/logger.py"
         ],
-        "value": "download.downloadconfig"
+        "value": "api.example.com"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/tests/test_file_utils.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/downloads.py"
         ],
-        "value": "download.php"
+        "value": "api.github.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/hub/utils.py"
+        ],
+        "value": "api.ultralytics.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/Argoverse.yaml"
+        ],
+        "value": "argoverse-hd.s3.us-east-2.amazonaws.com"
+      },
+      {
+        "file_count": 14,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/models/v8/yolov8-ghost-p2.yaml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/models/v8/yolov8-ghost-p6.yaml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/models/v8/yolov8-ghost.yaml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/data/augment.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/models/rtdetr/model.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/models/sam/modules/encoders.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/models/sam/sam3/vitdet.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/nn/modules/block.py"
+        ],
+        "value": "arxiv.org"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "assets.paperspace.io"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "aws.amazon.com"
+      },
+      {
+        "file_count": 5,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/DOTAv1.5.yaml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/DOTAv1.yaml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "captain-whu.github.io"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/tests/test_integrations.py"
+        ],
+        "value": "catalog.ngc.nvidia.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/tests/test_python.py"
+        ],
+        "value": "cdn.jsdelivr.net"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/TT100K.yaml"
+        ],
+        "value": "cg.cs.tsinghua.edu.cn"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/xView.yaml"
+        ],
+        "value": "challenge.xviewdataset.org"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "clickpy.clickhouse.com"
+      },
+      {
+        "file_count": 6,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco-pose.yaml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco.yaml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/data/scripts/get_coco.sh",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "cocodataset.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco-pose.yaml"
+        ],
+        "value": "codalab.lisn.upsaclay.fr"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "colab.research.google.com"
+      },
+      {
+        "file_count": 5,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/__init__.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/__init__.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "community.ultralytics.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco.yaml"
+        ],
+        "value": "competitions.codalab.org"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "console.paperspace.com"
       },
       {
         "file_count": 2,
         "files": [
-          "datasets-4.8.5/tests/test_file_utils.py",
-          "datasets-4.8.5/tests/test_streaming_download_manager.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/engine/exporter.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/export/tensorflow.py"
+        ],
+        "value": "coral.ai"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/xView.yaml"
+        ],
+        "value": "d307kc0mrhucc3.cloudfront.net"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/engine/exporter.py"
+        ],
+        "value": "developer.aitrios.sony-semicon.com"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/engine/exporter.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "developer.nvidia.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "discord.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/nn/text_model.py"
+        ],
+        "value": "docs-assets.developer.apple.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/callbacks/raytune.py"
+        ],
+        "value": "docs.ray.io"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/trackers/utils/matching.py"
+        ],
+        "value": "docs.scipy.org"
+      },
+      {
+        "file_count": 131,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/pyproject.toml",
+          "ultralytics_opencv_headless-8.4.42/tests/test_python.py",
+          "ultralytics_opencv_headless-8.4.42/tests/test_solutions.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/__init__.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/Argoverse.yaml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/DOTAv1.5.yaml"
+        ],
+        "value": "docs.ultralytics.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/Objects365.yaml"
+        ],
+        "value": "dorc.ks3-cn-beijing.ksyun.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/checks.py"
+        ],
+        "value": "download.pytorch.org"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/Argoverse.yaml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/downloads.py"
         ],
         "value": "drive.google.com"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/src/datasets/features/nifti.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/__init__.py"
         ],
         "value": "en.wikipedia.org"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/tests/test_streaming_download_manager.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/Argoverse.yaml"
         ],
-        "value": "f.oo"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "datasets-4.8.5/tests/test_data_files.py",
-          "datasets-4.8.5/tests/test_file_utils.py"
-        ],
-        "value": "files.sort"
-      },
-      {
-        "file_count": 7,
-        "files": [
-          "datasets-4.8.5/src/datasets/download/streaming_download_manager.py",
-          "datasets-4.8.5/src/datasets/filesystems/compression.py",
-          "datasets-4.8.5/src/datasets/utils/file_utils.py",
-          "datasets-4.8.5/tests/test_file_utils.py",
-          "datasets-4.8.5/tests/test_info.py",
-          "datasets-4.8.5/tests/test_iterable_dataset.py",
-          "datasets-4.8.5/tests/test_streaming_download_manager.py"
-        ],
-        "value": "foo.bar"
+        "value": "eval.ai"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/src/datasets/arrow_dataset.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/data/utils.py"
         ],
-        "value": "gist.github.com"
-      },
-      {
-        "file_count": 28,
-        "files": [
-          "datasets-4.8.5/PKG-INFO",
-          "datasets-4.8.5/README.md",
-          "datasets-4.8.5/setup.py",
-          "datasets-4.8.5/src/datasets.egg-info/PKG-INFO",
-          "datasets-4.8.5/src/datasets/arrow_dataset.py",
-          "datasets-4.8.5/src/datasets/config.py",
-          "datasets-4.8.5/src/datasets/features/features.py",
-          "datasets-4.8.5/src/datasets/features/image.py"
-        ],
-        "value": "github.com"
-      },
-      {
-        "file_count": 5,
-        "files": [
-          "datasets-4.8.5/PKG-INFO",
-          "datasets-4.8.5/README.md",
-          "datasets-4.8.5/src/datasets.egg-info/PKG-INFO",
-          "datasets-4.8.5/src/datasets/exceptions.py",
-          "datasets-4.8.5/tests/test_dataset_dict.py"
-        ],
-        "value": "hf.co"
+        "value": "file.zip"
       },
       {
         "file_count": 2,
         "files": [
-          "datasets-4.8.5/src/datasets/utils/file_utils.py",
-          "datasets-4.8.5/tests/test_file_utils.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/data/loaders.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/benchmarks.py"
         ],
-        "value": "host.com"
+        "value": "files.extend"
       },
       {
-        "file_count": 14,
+        "file_count": 1,
         "files": [
-          "datasets-4.8.5/PKG-INFO",
-          "datasets-4.8.5/README.md",
-          "datasets-4.8.5/src/datasets.egg-info/PKG-INFO",
-          "datasets-4.8.5/src/datasets/config.py",
-          "datasets-4.8.5/src/datasets/download/download_manager.py",
-          "datasets-4.8.5/src/datasets/download/streaming_download_manager.py",
-          "datasets-4.8.5/src/datasets/load.py",
-          "datasets-4.8.5/src/datasets/utils/_dataset_viewer.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/solutions/templates/similarity-search.html"
         ],
-        "value": "huggingface.co"
+        "value": "fonts.googleapis.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/LICENSE"
+        ],
+        "value": "fsf.org"
+      },
+      {
+        "file_count": 85,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/pyproject.toml",
+          "ultralytics_opencv_headless-8.4.42/tests/test_integrations.py",
+          "ultralytics_opencv_headless-8.4.42/tests/test_python.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/__init__.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/DOTAv1.5.yaml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/DOTAv1.yaml"
+        ],
+        "value": "github.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/VOC.yaml"
+        ],
+        "value": "host.robots.ox.ac.uk"
       },
       {
         "file_count": 3,
         "files": [
-          "datasets-4.8.5/PKG-INFO",
-          "datasets-4.8.5/README.md",
-          "datasets-4.8.5/src/datasets.egg-info/PKG-INFO"
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "hub.docker.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/engine/model.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/hub/session.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/hub/utils.py"
+        ],
+        "value": "hub.ultralytics.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/nn/modules/block.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/loss.py"
+        ],
+        "value": "ieeexplore.ieee.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/data/scripts/get_imagenet.sh"
+        ],
+        "value": "image-net.org"
+      },
+      {
+        "file_count": 5,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco-pose.yaml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco.yaml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/lvis.yaml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/data/converter.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/data/scripts/get_coco.sh"
+        ],
+        "value": "images.cocodataset.org"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
         ],
         "value": "img.shields.io"
       },
       {
         "file_count": 3,
         "files": [
-          "datasets-4.8.5/setup.py",
-          "datasets-4.8.5/src/datasets/features/features.py",
-          "datasets-4.8.5/src/datasets/formatting/formatting.py"
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
         ],
-        "value": "issues.apache.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/src/datasets/formatting/jax_formatter.py"
-        ],
-        "value": "jax.readthedocs.io"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "datasets-4.8.5/src/datasets/arrow_dataset.py",
-          "datasets-4.8.5/src/datasets/iterable_dataset.py"
-        ],
-        "value": "jsonlines.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/tests/test_file_utils.py"
-        ],
-        "value": "opus.nlpl.eu"
+        "value": "kaggle.com"
       },
       {
         "file_count": 3,
         "files": [
-          "datasets-4.8.5/src/datasets/arrow_dataset.py",
-          "datasets-4.8.5/src/datasets/features/features.py",
-          "datasets-4.8.5/src/datasets/iterable_dataset.py"
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
         ],
-        "value": "pandas.pydata.org"
+        "value": "mybinder.org"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/setup.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/engine/exporter.py"
+        ],
+        "value": "netron.app"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/__init__.py"
+        ],
+        "value": "o4504521589325824.ingest.us.sentry.io"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "onnx.ai"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "opencollective.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "opensource.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/checks.py"
+        ],
+        "value": "org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/export/tensorflow.py"
+        ],
+        "value": "packages.cloud.google.com"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/callbacks/platform.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "platform.ultralytics.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/export/tensorflow.py"
+        ],
+        "value": "pypi.ngc.nvidia.com"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/checks.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
         ],
         "value": "pypi.org"
       },
       {
-        "file_count": 7,
+        "file_count": 6,
         "files": [
-          "datasets-4.8.5/PKG-INFO",
-          "datasets-4.8.5/README.md",
-          "datasets-4.8.5/src/datasets.egg-info/PKG-INFO",
-          "datasets-4.8.5/src/datasets/config.py",
-          "datasets-4.8.5/src/datasets/utils/file_utils.py",
-          "datasets-4.8.5/tests/test_data_files.py",
-          "datasets-4.8.5/tests/test_file_utils.py"
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/__init__.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/export/torchscript.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/torch_utils.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "pytorch.org"
+      },
+      {
+        "file_count": 6,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/data/scripts/get_imagenet.sh",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/solutions/streamlit_inference.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/solutions/templates/similarity-search.html",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
         ],
         "value": "raw.githubusercontent.com"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/tests/test_fingerprint_tokenizer_stability.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/callbacks/platform.py"
         ],
-        "value": "raw.map"
+        "value": "raw.split"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/tests/test_file_utils.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/__init__.py"
         ],
-        "value": "repo.org"
+        "value": "ray.run"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/src/datasets/config.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/data/loaders.py"
         ],
-        "value": "s3.amazonaws.com"
+        "value": "rr4---sn-q4flrnek.googlevideo.com"
       },
       {
-        "file_count": 6,
+        "file_count": 1,
         "files": [
-          "datasets-4.8.5/src/datasets/features/nifti.py",
-          "datasets-4.8.5/src/datasets/formatting/np_formatter.py",
-          "datasets-4.8.5/src/datasets/load.py",
-          "datasets-4.8.5/src/datasets/utils/extract.py",
-          "datasets-4.8.5/src/datasets/utils/py_utils.py",
-          "datasets-4.8.5/tests/test_search.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/solutions/parking_management.py"
         ],
-        "value": "stackoverflow.com"
+        "value": "self.tk.top"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/data/loaders.py"
+        ],
+        "value": "self.top"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/nn/backends/axelera.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/export/axelera.py"
+        ],
+        "value": "software.axelera.ai"
       },
       {
         "file_count": 3,
         "files": [
-          "datasets-4.8.5/src/datasets/arrow_reader.py",
-          "datasets-4.8.5/src/datasets/download/download_manager.py",
-          "datasets-4.8.5/src/datasets/download/streaming_download_manager.py"
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "static.pepy.tech"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/open-images-v7.yaml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/checks.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/uploads.py"
         ],
         "value": "storage.googleapis.com"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/setup.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/data/converter.py"
         ],
-        "value": "test.pypi.org"
+        "value": "tech.amikelive.com"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/tests/test_tqdm.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/SKU-110K.yaml"
         ],
-        "value": "waylonwalker.com"
+        "value": "trax-geometry.s3.amazonaws.com"
       },
       {
-        "file_count": 26,
+        "file_count": 3,
         "files": [
-          "datasets-4.8.5/LICENSE",
-          "datasets-4.8.5/src/datasets/__init__.py",
-          "datasets-4.8.5/src/datasets/arrow_dataset.py",
-          "datasets-4.8.5/src/datasets/arrow_reader.py",
-          "datasets-4.8.5/src/datasets/builder.py",
-          "datasets-4.8.5/src/datasets/download/download_manager.py",
-          "datasets-4.8.5/src/datasets/features/features.py",
-          "datasets-4.8.5/src/datasets/formatting/__init__.py"
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
         ],
-        "value": "www.apache.org"
+        "value": "twitter.com"
       },
       {
-        "file_count": 2,
+        "file_count": 332,
         "files": [
-          "datasets-4.8.5/src/datasets/arrow_dataset.py",
-          "datasets-4.8.5/src/datasets/iterable_dataset.py"
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/pyproject.toml",
+          "ultralytics_opencv_headless-8.4.42/tests/__init__.py",
+          "ultralytics_opencv_headless-8.4.42/tests/conftest.py",
+          "ultralytics_opencv_headless-8.4.42/tests/test_cli.py",
+          "ultralytics_opencv_headless-8.4.42/tests/test_cuda.py",
+          "ultralytics_opencv_headless-8.4.42/tests/test_engine.py"
         ],
-        "value": "www.json.org"
+        "value": "ultralytics.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/__init__.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/checks.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/downloads.py"
+        ],
+        "value": "url.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/dog-pose.yaml"
+        ],
+        "value": "vision.stanford.edu"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/Argoverse.yaml"
+        ],
+        "value": "www.cs.cmu.edu"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/downloads.py"
+        ],
+        "value": "www.example.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/GlobalWheat2020.yaml"
+        ],
+        "value": "www.global-wheat.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/LICENSE"
+        ],
+        "value": "www.gnu.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/events.py"
+        ],
+        "value": "www.google-analytics.com"
       },
       {
         "file_count": 4,
         "files": [
-          "datasets-4.8.5/PKG-INFO",
-          "datasets-4.8.5/README.md",
-          "datasets-4.8.5/src/datasets.egg-info/PKG-INFO",
-          "datasets-4.8.5/tests/test_file_utils.py"
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/ImageNet.yaml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "www.image-net.org"
+      },
+      {
+        "file_count": 7,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco128-seg.yaml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco128.yaml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/data/scripts/get_coco128.sh",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/__init__.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "www.kaggle.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "www.linkedin.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/lvis.yaml"
+        ],
+        "value": "www.lvisdataset.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/Objects365.yaml"
+        ],
+        "value": "www.objects365.org"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/solutions/parking_management.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "www.python.org"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "www.reddit.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/data/scripts/get_coco.sh"
+        ],
+        "value": "www.sama.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/torch_utils.py"
+        ],
+        "value": "www.tensorflow.org"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "www.tiktok.com"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/plotting.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "www.ultralytics.com"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/data/loaders.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "www.youtube.com"
+      },
+      {
+        "file_count": 5,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/tests/test_python.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/__init__.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/data/loaders.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/engine/predictor.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/__init__.py"
+        ],
+        "value": "youtu.be"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/GlobalWheat2020.yaml"
         ],
         "value": "zenodo.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/hub/google/__init__.py"
+        ],
+        "value": "{region"
       }
     ],
     "raw_public_ips": [],
@@ -355,659 +818,729 @@
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/src/datasets/utils/file_utils.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/__init__.py"
         ],
-        "value": "https://raw.githubusercontent.com/"
+        "value": "https://888e5a0778212e1d0314c37d4b9aae5d@o4504521589325824.ingest.us.sentry.io/4504521592406016"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/tests/test_file_utils.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/data/scripts/get_imagenet.sh"
         ],
-        "value": "https://raw.githubusercontent.com/data.txt"
+        "value": "https://raw.githubusercontent.com/soumith/imagenetloader.torch/master/valprep.sh"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/tests/test_data_files.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/data/scripts/get_imagenet.sh"
         ],
-        "value": "https://raw.githubusercontent.com/huggingface/datasets/9675a5a1e7b99a86f9c250f6ea5fa5d1e6d5cc7d/setup.py"
+        "value": "https://raw.githubusercontent.com/tensorflow/models/master/research/slim/datasets/imagenet_lsvrc_2015_synsets.txt"
       },
       {
         "file_count": 3,
         "files": [
-          "datasets-4.8.5/PKG-INFO",
-          "datasets-4.8.5/README.md",
-          "datasets-4.8.5/src/datasets.egg-info/PKG-INFO"
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
         ],
-        "value": "https://raw.githubusercontent.com/huggingface/datasets/main/docs/source/imgs/course_banner.png"
+        "value": "https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/src/datasets/config.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/solutions/streamlit_inference.py"
         ],
-        "value": "https://raw.githubusercontent.com/huggingface/datasets/{revision"
+        "value": "https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg"
       },
       {
-        "file_count": 7,
+        "file_count": 1,
         "files": [
-          "datasets-4.8.5/PKG-INFO",
-          "datasets-4.8.5/README.md",
-          "datasets-4.8.5/src/datasets.egg-info/PKG-INFO",
-          "datasets-4.8.5/src/datasets/config.py",
-          "datasets-4.8.5/src/datasets/utils/file_utils.py",
-          "datasets-4.8.5/tests/test_data_files.py",
-          "datasets-4.8.5/tests/test_file_utils.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/solutions/templates/similarity-search.html"
+        ],
+        "value": "https://raw.githubusercontent.com/ultralytics/assets/main/logo/favicon.png"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "https://raw.githubusercontent.com/ultralytics/assets/refs/heads/main/yolo/performance-comparison.png"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/data/loaders.py"
+        ],
+        "value": "https://rr4---sn-q4flrnek.googlevideo.com/videoplayback?expire="
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/__init__.py"
+        ],
+        "value": "o4504521589325824.ingest.us.sentry.io"
+      },
+      {
+        "file_count": 6,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/data/scripts/get_imagenet.sh",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/solutions/streamlit_inference.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/solutions/templates/similarity-search.html",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
         ],
         "value": "raw.githubusercontent.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/data/loaders.py"
+        ],
+        "value": "rr4---sn-q4flrnek.googlevideo.com"
       }
     ],
     "urls": [
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/src/datasets/packaged_modules/sql/sql.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/VOC.yaml"
         ],
-        "value": "http://docs.sqlalchemy.org/en/latest/faq/sqlexpressions.html"
+        "value": "http://host.robots.ox.ac.uk/pascal/VOC"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/src/datasets/filesystems/compression.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/data/converter.py"
         ],
-        "value": "http://foo.bar/file.txt.gz"
+        "value": "http://images.cocodataset.org"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/tests/test_file_utils.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/data/scripts/get_coco.sh"
         ],
-        "value": "http://host.com/data.zip"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/tests/test_file_utils.py"
-        ],
-        "value": "http://opus.nlpl.eu/download.php?f=Bianet/v1/moses/en-ku.txt.zip"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/LICENSE"
-        ],
-        "value": "http://www.apache.org/licenses/"
-      },
-      {
-        "file_count": 26,
-        "files": [
-          "datasets-4.8.5/LICENSE",
-          "datasets-4.8.5/src/datasets/__init__.py",
-          "datasets-4.8.5/src/datasets/arrow_dataset.py",
-          "datasets-4.8.5/src/datasets/arrow_reader.py",
-          "datasets-4.8.5/src/datasets/builder.py",
-          "datasets-4.8.5/src/datasets/download/download_manager.py",
-          "datasets-4.8.5/src/datasets/features/features.py",
-          "datasets-4.8.5/src/datasets/formatting/__init__.py"
-        ],
-        "value": "http://www.apache.org/licenses/LICENSE-2.0"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/tests/test_hub.py"
-        ],
-        "value": "https:///hub-ci.huggingface.co/datasets/__DUMMY_USER__/__DUMMY_DATASET__/refs%2Fpr%2F1"
+        "value": "http://images.cocodataset.org/zips/"
       },
       {
         "file_count": 3,
         "files": [
-          "datasets-4.8.5/PKG-INFO",
-          "datasets-4.8.5/README.md",
-          "datasets-4.8.5/src/datasets.egg-info/PKG-INFO"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco-pose.yaml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco.yaml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/lvis.yaml"
         ],
-        "value": "https://aclanthology.org/2021.emnlp-demo.21"
+        "value": "http://images.cocodataset.org/zips/test2017.zip"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco-pose.yaml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco.yaml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/lvis.yaml"
+        ],
+        "value": "http://images.cocodataset.org/zips/train2017.zip"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco-pose.yaml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco.yaml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/lvis.yaml"
+        ],
+        "value": "http://images.cocodataset.org/zips/val2017.zip"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/src/datasets/features/features.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/SKU-110K.yaml"
         ],
-        "value": "https://arrow.apache.org/docs/python/api/datatypes.html#factory-functions"
+        "value": "http://trax-geometry.s3.amazonaws.com/cvpr_challenge/SKU110K_fixed.tar.gz"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/src/datasets/features/features.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/dog-pose.yaml"
         ],
-        "value": "https://arrow.apache.org/docs/python/generated/pyarrow.Array.html#pyarrow.Array.to_numpy"
+        "value": "http://vision.stanford.edu/aditya86/ImageNetDogs/"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/src/datasets/features/features.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/lvis.yaml"
         ],
-        "value": "https://arrow.apache.org/docs/python/generated/pyarrow.decimal128.html"
+        "value": "http://www.lvisdataset.org"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/src/datasets/features/features.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/__init__.py"
         ],
-        "value": "https://arrow.apache.org/docs/python/generated/pyarrow.decimal256.html"
+        "value": "https://888e5a0778212e1d0314c37d4b9aae5d@o4504521589325824.ingest.us.sentry.io/4504521592406016"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/src/datasets/features/features.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/engine/exporter.py"
         ],
-        "value": "https://arrow.apache.org/docs/python/generated/pyarrow.duration.html"
+        "value": "https://ai.google.dev/edge/litert/models/metadata"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/src/datasets/features/features.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/data/augment.py"
         ],
-        "value": "https://arrow.apache.org/docs/python/generated/pyarrow.time32.html"
+        "value": "https://albumentations.ai/docs/getting_started/transforms_and_targets/#spatial-level-transforms"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "https://anaconda.org/conda-forge/ultralytics"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/src/datasets/features/features.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/logger.py"
         ],
-        "value": "https://arrow.apache.org/docs/python/generated/pyarrow.time64.html"
+        "value": "https://api.example.com/logs"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/src/datasets/features/features.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/downloads.py"
         ],
-        "value": "https://arrow.apache.org/docs/python/generated/pyarrow.timestamp.html"
+        "value": "https://api.github.com/repos/{repo"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/tests/test_search.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/hub/utils.py"
         ],
-        "value": "https://bugs.python.org/issue14243"
+        "value": "https://api.ultralytics.com"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/src/datasets/utils/file_utils.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/Argoverse.yaml"
         ],
-        "value": "https://bugs.python.org/issue26440"
+        "value": "https://argoverse-hd.s3.us-east-2.amazonaws.com/Argoverse-HD-Full.zip"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/src/datasets/utils/file_utils.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/nn/modules/block.py"
         ],
-        "value": "https://bugs.python.org/issue42215"
+        "value": "https://arxiv.org/abs/1406.4729"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/src/datasets/config.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/nn/modules/block.py"
         ],
-        "value": "https://cdn-datasets.huggingface.co/datasets/datasets"
+        "value": "https://arxiv.org/abs/1605.08803"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/src/datasets/utils/extract.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/data/augment.py"
         ],
-        "value": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-4559"
+        "value": "https://arxiv.org/abs/1710.09412"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/src/datasets/packaged_modules/hdf5/hdf5.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/data/augment.py"
         ],
-        "value": "https://docs.h5py.org/en/stable/special.html#variable-length-strings"
+        "value": "https://arxiv.org/abs/1905.04899"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/src/datasets/utils/py_utils.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/metrics.py"
         ],
-        "value": "https://docs.python.org/3/library/dataclasses.html#dataclasses.asdict"
+        "value": "https://arxiv.org/abs/1911.08287v1"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/models/v8/yolov8-ghost-p2.yaml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/models/v8/yolov8-ghost-p6.yaml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/models/v8/yolov8-ghost.yaml"
+        ],
+        "value": "https://arxiv.org/abs/1911.11907v2"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/src/datasets/utils/py_utils.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/loss.py"
         ],
-        "value": "https://docs.python.org/3/library/dataclasses.html#dataclasses.is_dataclass"
+        "value": "https://arxiv.org/abs/2008.13367"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/src/datasets/features/video.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/nn/modules/transformer.py"
         ],
-        "value": "https://docs.pytorch.org/torchcodec/stable/generated_examples/approximate_mode.html#sphx-glr-generated-examples-approximate-mode-py"
+        "value": "https://arxiv.org/abs/2010.11929"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/data/augment.py"
+        ],
+        "value": "https://arxiv.org/abs/2012.07177"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/loss.py"
+        ],
+        "value": "https://arxiv.org/abs/2107.11291"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/models/sam/sam3/vitdet.py"
+        ],
+        "value": "https://arxiv.org/abs/2203.16527"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/models/sam/modules/encoders.py"
+        ],
+        "value": "https://arxiv.org/abs/2311.05613"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/torch_utils.py"
+        ],
+        "value": "https://arxiv.org/pdf/1812.01187.pdf"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/metrics.py"
+        ],
+        "value": "https://arxiv.org/pdf/1902.09630.pdf"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/nms.py"
+        ],
+        "value": "https://arxiv.org/pdf/1904.02689"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/metrics.py"
+        ],
+        "value": "https://arxiv.org/pdf/2106.06072.pdf"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/metrics.py"
+        ],
+        "value": "https://arxiv.org/pdf/2106.06072v1.pdf"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/models/rtdetr/model.py"
+        ],
+        "value": "https://arxiv.org/pdf/2304.08069.pdf"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/nn/modules/head.py"
+        ],
+        "value": "https://arxiv.org/pdf/2405.14458"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "https://assets.paperspace.io/img/gradient-badge.svg"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "https://aws.amazon.com/ec2/instance-types/p4/"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "https://captain-whu.github.io/DOTA/dataset.html"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "https://captain-whu.github.io/DOTA/evaluation.html"
       },
       {
         "file_count": 2,
         "files": [
-          "datasets-4.8.5/src/datasets/arrow_dataset.py",
-          "datasets-4.8.5/src/datasets/iterable_dataset.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/DOTAv1.5.yaml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/DOTAv1.yaml"
         ],
-        "value": "https://docs.sqlalchemy.org/en/13/core/engines.html#database-urls"
+        "value": "https://captain-whu.github.io/DOTA/index.html"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/tests/test_streaming_download_manager.py"
+          "ultralytics_opencv_headless-8.4.42/tests/test_integrations.py"
         ],
-        "value": "https://domain.org/archive.zip"
+        "value": "https://catalog.ngc.nvidia.com/orgs/nvidia/containers/tritonserver"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/tests/test_file_utils.py"
+          "ultralytics_opencv_headless-8.4.42/tests/test_python.py"
         ],
-        "value": "https://domain.org/data.txt"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "datasets-4.8.5/tests/test_file_utils.py",
-          "datasets-4.8.5/tests/test_streaming_download_manager.py"
-        ],
-        "value": "https://drive.google.com/uc?export=download&id=17bOgBDc3hRCoPZ89EYtKDzK-yXAWat94"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "datasets-4.8.5/tests/test_file_utils.py",
-          "datasets-4.8.5/tests/test_streaming_download_manager.py"
-        ],
-        "value": "https://drive.google.com/uc?export=download&id=1Bt4Garpf0QLiwkJhHJzXaVa0I0H5Qhwz"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "datasets-4.8.5/tests/test_file_utils.py",
-          "datasets-4.8.5/tests/test_streaming_download_manager.py"
-        ],
-        "value": "https://drive.google.com/uc?export=download&id=1k92sUfpHxKq8PXWRr7Y5aNHXwOCNUmqh"
+        "value": "https://cdn.jsdelivr.net/gh/ultralytics/assets@main/im/boats.jpg"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/src/datasets/features/nifti.py"
+          "ultralytics_opencv_headless-8.4.42/tests/test_python.py"
         ],
-        "value": "https://en.wikipedia.org/wiki/Gzip"
+        "value": "https://cdn.jsdelivr.net/gh/ultralytics/assets@main/im/zidane.jpg?token=123"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/tests/test_streaming_download_manager.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/TT100K.yaml"
         ],
-        "value": "https://f.oo/bar.txt"
+        "value": "https://cg.cs.tsinghua.edu.cn/traffic-sign/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/TT100K.yaml"
+        ],
+        "value": "https://cg.cs.tsinghua.edu.cn/traffic-sign/data_model_code/data.zip"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/TT100K.yaml"
+        ],
+        "value": "https://cg.cs.tsinghua.edu.cn/traffic-sign/tutorial.html"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/xView.yaml"
+        ],
+        "value": "https://challenge.xviewdataset.org"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "https://clickpy.clickhouse.com/dashboard/ultralytics"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco-pose.yaml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco.yaml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/data/scripts/get_coco.sh"
+        ],
+        "value": "https://cocodataset.org"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "https://cocodataset.org/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco-pose.yaml"
+        ],
+        "value": "https://codalab.lisn.upsaclay.fr/competitions/7403"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "https://colab.research.google.com/assets/colab-badge.svg"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "https://colab.research.google.com/github/ultralytics/ultralytics/blob/main/examples/tutorial.ipynb"
       },
       {
         "file_count": 2,
         "files": [
-          "datasets-4.8.5/tests/test_info.py",
-          "datasets-4.8.5/tests/test_iterable_dataset.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/__init__.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/__init__.py"
         ],
-        "value": "https://foo.bar"
+        "value": "https://community.ultralytics.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "https://community.ultralytics.com/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco.yaml"
+        ],
+        "value": "https://competitions.codalab.org/competitions/20794"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "https://console.paperspace.com/github/ultralytics/ultralytics"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/engine/exporter.py"
+        ],
+        "value": "https://coral.ai/docs/edgetpu/compiler"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/export/tensorflow.py"
+        ],
+        "value": "https://coral.ai/docs/edgetpu/compiler/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/engine/exporter.py"
+        ],
+        "value": "https://coral.ai/docs/edgetpu/models-intro/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/xView.yaml"
+        ],
+        "value": "https://d307kc0mrhucc3.cloudfront.net/train_images.zip"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/xView.yaml"
+        ],
+        "value": "https://d307kc0mrhucc3.cloudfront.net/train_labels.zip"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/xView.yaml"
+        ],
+        "value": "https://d307kc0mrhucc3.cloudfront.net/val_images.zip"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/ultralytics/engine/exporter.py"
+        ],
+        "value": "https://developer.aitrios.sony-semicon.com/en/docs/raspberry-pi-ai-camera/imx500-converter?version=3.17.3&progLang="
       },
       {
         "file_count": 4,
         "files": [
-          "datasets-4.8.5/src/datasets/download/streaming_download_manager.py",
-          "datasets-4.8.5/src/datasets/utils/file_utils.py",
-          "datasets-4.8.5/tests/test_file_utils.py",
-          "datasets-4.8.5/tests/test_streaming_download_manager.py"
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/engine/exporter.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
         ],
-        "value": "https://foo.bar/data.zip"
+        "value": "https://developer.nvidia.com/tensorrt"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "https://discord.com/invite/ultralytics"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/src/datasets/utils/file_utils.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/nn/text_model.py"
         ],
-        "value": "https://foo.bar/train.json.gz"
+        "value": "https://docs-assets.developer.apple.com/ml-research/datasets/mobileclip/{file"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/tests/test_file_utils.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/callbacks/raytune.py"
         ],
-        "value": "https://foo.bar/train.json.gz?dl=1"
+        "value": "https://docs.ray.io/en/latest/tune/index.html"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/tests/test_streaming_download_manager.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/trackers/utils/matching.py"
         ],
-        "value": "https://foo.bar/train.tar"
+        "value": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.linear_sum_assignment.html"
+      },
+      {
+        "file_count": 9,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/pyproject.toml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/__init__.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/engine/exporter.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/engine/model.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/engine/trainer.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/__init__.py",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/utils/torch_utils.py"
+        ],
+        "value": "https://docs.ultralytics.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "https://docs.ultralytics.com/"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
+        ],
+        "value": "https://docs.ultralytics.com/ar/"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/tests/test_streaming_download_manager.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/data/utils.py"
         ],
-        "value": "https://foo.bar/train.tar.gz"
+        "value": "https://docs.ultralytics.com/datasets"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/tests/test_streaming_download_manager.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/data/utils.py"
         ],
-        "value": "https://foo.bar/train.tgz"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/src/datasets/arrow_dataset.py"
-        ],
-        "value": "https://gist.github.com/mariosasko/0248288a2e3a7556873969717c1fe52b"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/src/datasets/utils/file_utils.py"
-        ],
-        "value": "https://github.com/allenai/allennlp"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/setup.py"
-        ],
-        "value": "https://github.com/allenai/allennlp/blob/master/setup.py"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/src/datasets/config.py"
-        ],
-        "value": "https://github.com/apache/arrow/blob/master/docs/source/cpp/arrays.rst#size-limitations-and-recommendations"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/setup.py"
-        ],
-        "value": "https://github.com/elastic/elasticsearch-py/pull/2551"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/src/datasets/search.py"
-        ],
-        "value": "https://github.com/facebookresearch/faiss/wiki/Faiss-on-the-GPU"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "datasets-4.8.5/src/datasets/arrow_dataset.py",
-          "datasets-4.8.5/src/datasets/search.py"
-        ],
-        "value": "https://github.com/facebookresearch/faiss/wiki/The-index-factory"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/src/datasets/utils/py_utils.py"
-        ],
-        "value": "https://github.com/fsspec/filesystem_spec/blob/697d0f8133d8a5fbc3926e4761d7ecd51337ce50/fsspec/asyn.py#L735"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/src/datasets/utils/file_utils.py"
-        ],
-        "value": "https://github.com/fsspec/filesystem_spec/issues/389"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/setup.py"
-        ],
-        "value": "https://github.com/fsspec/filesystem_spec/pull/1143"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/src/datasets/iterable_dataset.py"
-        ],
-        "value": "https://github.com/fsspec/gcsfs/issues/379"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/src/datasets/formatting/jax_formatter.py"
-        ],
-        "value": "https://github.com/google/jax/issues/4486"
+        "value": "https://docs.ultralytics.com/datasets/classify/"
       },
       {
         "file_count": 4,
         "files": [
-          "datasets-4.8.5/PKG-INFO",
-          "datasets-4.8.5/README.md",
-          "datasets-4.8.5/setup.py",
-          "datasets-4.8.5/src/datasets.egg-info/PKG-INFO"
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/ImageNet.yaml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
         ],
-        "value": "https://github.com/huggingface/datasets"
+        "value": "https://docs.ultralytics.com/datasets/classify/imagenet/"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/src/datasets/arrow_dataset.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/african-wildlife.yaml"
         ],
-        "value": "https://github.com/huggingface/datasets/actions/runs/4026734820/jobs/6921621805"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "datasets-4.8.5/PKG-INFO",
-          "datasets-4.8.5/README.md",
-          "datasets-4.8.5/src/datasets.egg-info/PKG-INFO"
-        ],
-        "value": "https://github.com/huggingface/datasets/actions/workflows/ci.yml/badge.svg?branch=main"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "datasets-4.8.5/PKG-INFO",
-          "datasets-4.8.5/README.md",
-          "datasets-4.8.5/src/datasets.egg-info/PKG-INFO"
-        ],
-        "value": "https://github.com/huggingface/datasets/actions/workflows/ci.yml?query=branch%3Amain"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "datasets-4.8.5/PKG-INFO",
-          "datasets-4.8.5/README.md",
-          "datasets-4.8.5/src/datasets.egg-info/PKG-INFO"
-        ],
-        "value": "https://github.com/huggingface/datasets/blob/main/LICENSE"
+        "value": "https://docs.ultralytics.com/datasets/detect/african-wildlife/"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/src/datasets/packaged_modules/json/json.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/Argoverse.yaml"
         ],
-        "value": "https://github.com/huggingface/datasets/issues/2799"
+        "value": "https://docs.ultralytics.com/datasets/detect/argoverse/"
       },
       {
         "file_count": 1,
         "files": [
-          "datasets-4.8.5/tests/test_iterable_dataset.py"
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/brain-tumor.yaml"
         ],
-        "value": "https://github.com/huggingface/datasets/issues/3505"
+        "value": "https://docs.ultralytics.com/datasets/detect/brain-tumor/"
       },
       {
-        "file_count": 1,
+        "file_count": 5,
         "files": [
-          "datasets-4.8.5/tests/test_fingerprint_tokenizer_stability.py"
+          "ultralytics_opencv_headless-8.4.42/PKG-INFO",
+          "ultralytics_opencv_headless-8.4.42/README.md",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco.yaml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics/cfg/datasets/coco128.yaml",
+          "ultralytics_opencv_headless-8.4.42/ultralytics_opencv_headless.egg-info/PKG-INFO"
         ],
-        "value": "https://github.com/huggingface/datasets/issues/3847"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/tests/test_iterable_dataset.py"
-        ],
-        "value": "https://github.com/huggingface/datasets/issues/3888"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/src/datasets/utils/tqdm.py"
-        ],
-        "value": "https://github.com/huggingface/datasets/issues/6066"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/src/datasets/filesystems/compression.py"
-        ],
-        "value": "https://github.com/huggingface/datasets/pull/5459"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/setup.py"
-        ],
-        "value": "https://github.com/huggingface/datasets/pull/new/dev-version"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/setup.py"
-        ],
-        "value": "https://github.com/huggingface/datasets/pull/new/release-VERSION"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "datasets-4.8.5/PKG-INFO",
-          "datasets-4.8.5/README.md",
-          "datasets-4.8.5/src/datasets.egg-info/PKG-INFO"
-        ],
-        "value": "https://github.com/huggingface/datasets/releases"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/setup.py"
-        ],
-        "value": "https://github.com/huggingface/datasets/releases/new"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "datasets-4.8.5/PKG-INFO",
-          "datasets-4.8.5/setup.py",
-          "datasets-4.8.5/src/datasets.egg-info/PKG-INFO"
-        ],
-        "value": "https://github.com/huggingface/datasets/tags"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/setup.py"
-        ],
-        "value": "https://github.com/huggingface/datasets@main#egg=datasets"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/setup.py"
-        ],
-        "value": "https://github.com/huggingface/datasets@main#egg=datasets`"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/src/datasets/utils/metadata.py"
-        ],
-        "value": "https://github.com/huggingface/huggingface.js/blob/main/packages/tasks/src/pipelines.ts"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/tests/test_metadata_util.py"
-        ],
-        "value": "https://github.com/huggingface/huggingface_hub/issues/1546"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/src/datasets/arrow_dataset.py"
-        ],
-        "value": "https://github.com/huggingface/tokenizers/blob/bb668bc439dc34389b71dbb8ce0c597f15707b53/tokenizers/src/utils/parallelism.rs#L22"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/src/datasets/packaged_modules/__init__.py"
-        ],
-        "value": "https://github.com/ndjson/ndjson-spec/issues/35#issuecomment-1285673417"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/tests/test_tqdm.py"
-        ],
-        "value": "https://github.com/pytest-dev/pytest/issues/2504#issuecomment-309475790"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/src/datasets/features/image.py"
-        ],
-        "value": "https://github.com/python-pillow/Pillow/blob/698951e19e19972aeed56df686868f1329981c12/src/PIL/Image.py#L3126"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/src/datasets/utils/file_utils.py"
-        ],
-        "value": "https://github.com/python/cpython/blob/d27e2f4d118e7a9909b6a3e5da06c5ff95806a85/Lib/_pyio.py#L525"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/tests/test_arrow_dataset.py"
-        ],
-        "value": "https://github.com/python/cpython/issues/100090"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "datasets-4.8.5/src/datasets/utils/extract.py",
-          "datasets-4.8.5/tests/test_extract.py"
-        ],
-        "value": "https://github.com/python/cpython/pull/5053"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "datasets-4.8.5/src/datasets/arrow_dataset.py"
-        ],
-        "value": "https://github.com/scikit-learn/scikit-learn/blob/fd237278e895b42abe8d8d09105cbb82dc2cbba7/sklearn/model_selection/_split.py#L1750"
+        "value": "https://docs.ultralytics.com/datasets/detect/coco/"
       }
     ]
   },
-  "package": "datasets",
-  "package_slug": "datasets",
-  "project_url": "https://pypi.org/project/datasets/",
+  "package": "ultralytics-opencv-headless",
+  "package_slug": "ultralytics-opencv-headless",
+  "project_url": "https://pypi.org/project/ultralytics-opencv-headless/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T15:43:57.384747+00:00",
-  "risk": "info",
-  "scanned_at": "2026-04-27T15:44:30.676361+00:00",
-  "title": "Personal PyPI Supply Chain Scan: datasets 4.8.5",
-  "version": "4.8.5",
-  "version_slug": "4.8.5",
-  "_metadata_path": "reports/packages/datasets/4.8.5/metadata.json"
+  "published_at": "2026-04-27T15:48:06.953643+00:00",
+  "risk": "low",
+  "scanned_at": "2026-04-27T15:49:04.217959+00:00",
+  "title": "Personal PyPI Supply Chain Scan: ultralytics-opencv-headless 8.4.42",
+  "version": "8.4.42",
+  "version_slug": "8.4.42",
+  "_metadata_path": "reports/packages/ultralytics-opencv-headless/8.4.42/metadata.json"
 }
