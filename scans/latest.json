@@ -1,225 +1,58 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "psengine-2.5.2.tar.gz",
-  "finding_count": 7,
+  "distribution": "p4cmd-2.10.2.tar.gz",
+  "finding_count": 44,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
         "file_count": 3,
         "files": [
-          "psengine-2.5.2/psengine/endpoints.py",
-          "psengine-2.5.2/psengine/playbook_alerts/markdown/markdown.py",
-          "psengine-2.5.2/psengine/rf_client.py"
-        ],
-        "value": "api.recordedfuture.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "psengine-2.5.2/psengine/endpoints.py"
-        ],
-        "value": "api.securitytrails.com"
-      },
-      {
-        "file_count": 5,
-        "files": [
-          "psengine-2.5.2/psengine/analyst_notes/constants.py",
-          "psengine-2.5.2/psengine/constants.py",
-          "psengine-2.5.2/psengine/playbook_alerts/markdown/markdown.py",
-          "psengine-2.5.2/psengine/playbook_alerts/markdown/markdown_geopolitics_facility.py",
-          "psengine-2.5.2/psengine/playbook_alerts/markdown/markdown_identity_exposure.py"
-        ],
-        "value": "app.recordedfuture.com"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "psengine-2.5.2/PKG-INFO",
-          "psengine-2.5.2/README.md",
-          "psengine-2.5.2/psengine.egg-info/PKG-INFO"
+          "p4cmd-2.10.2/PKG-INFO",
+          "p4cmd-2.10.2/p4cmd.egg-info/PKG-INFO",
+          "p4cmd-2.10.2/setup.py"
         ],
         "value": "github.com"
       },
       {
-        "file_count": 3,
-        "files": [
-          "psengine-2.5.2/PKG-INFO",
-          "psengine-2.5.2/README.md",
-          "psengine-2.5.2/psengine.egg-info/PKG-INFO"
-        ],
-        "value": "pypi.org"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "psengine-2.5.2/PKG-INFO",
-          "psengine-2.5.2/README.md",
-          "psengine-2.5.2/psengine.egg-info/PKG-INFO",
-          "psengine-2.5.2/pyproject.toml"
-        ],
-        "value": "recordedfuture-professionalservices.github.io"
-      },
-      {
         "file_count": 1,
         "files": [
-          "psengine-2.5.2/psengine/identity/identity_mgr.py"
+          "p4cmd-2.10.2/p4cmd/p4cmd.py"
         ],
-        "value": "support.recordedfuture.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "psengine-2.5.2/psengine/helpers/helpers.py"
-        ],
-        "value": "www.elastic.co"
+        "value": "stackoverflow.com"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 1,
-        "files": [
-          "psengine-2.5.2/psengine/endpoints.py"
-        ],
-        "value": "https://api.recordedfuture.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "psengine-2.5.2/psengine/rf_client.py"
-        ],
-        "value": "https://api.recordedfuture.com/identity/credentials/search"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "psengine-2.5.2/psengine/playbook_alerts/markdown/markdown.py"
-        ],
-        "value": "https://api.recordedfuture.com/playbook-alert/{"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "psengine-2.5.2/psengine/rf_client.py"
-        ],
-        "value": "https://api.recordedfuture.com/v2/ip/search"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "psengine-2.5.2/psengine/endpoints.py"
-        ],
-        "value": "https://api.securitytrails.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "psengine-2.5.2/psengine/constants.py"
-        ],
-        "value": "https://app.recordedfuture.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "psengine-2.5.2/psengine/analyst_notes/constants.py"
-        ],
-        "value": "https://app.recordedfuture.com/portal/analyst-note/shared/true/{"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "psengine-2.5.2/psengine/playbook_alerts/markdown/markdown_identity_exposure.py"
-        ],
-        "value": "https://app.recordedfuture.com/portal/identity/domain-configuration"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "psengine-2.5.2/psengine/playbook_alerts/markdown/markdown_geopolitics_facility.py"
-        ],
-        "value": "https://app.recordedfuture.com/portal/intelligence-card/{"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "psengine-2.5.2/psengine/playbook_alerts/markdown/markdown.py",
-          "psengine-2.5.2/psengine/playbook_alerts/markdown/markdown_identity_exposure.py"
-        ],
-        "value": "https://app.recordedfuture.com/portal/playbook-alerts/{"
-      },
-      {
         "file_count": 3,
         "files": [
-          "psengine-2.5.2/PKG-INFO",
-          "psengine-2.5.2/README.md",
-          "psengine-2.5.2/psengine.egg-info/PKG-INFO"
+          "p4cmd-2.10.2/PKG-INFO",
+          "p4cmd-2.10.2/p4cmd.egg-info/PKG-INFO",
+          "p4cmd-2.10.2/setup.py"
         ],
-        "value": "https://github.com/RecordedFuture-ProfessionalServices/psengine"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "psengine-2.5.2/PKG-INFO",
-          "psengine-2.5.2/README.md",
-          "psengine-2.5.2/psengine.egg-info/PKG-INFO"
-        ],
-        "value": "https://pypi.org/project/psengine/"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "psengine-2.5.2/PKG-INFO",
-          "psengine-2.5.2/README.md",
-          "psengine-2.5.2/psengine.egg-info/PKG-INFO"
-        ],
-        "value": "https://recordedfuture-professionalservices.github.io/psengine/"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "psengine-2.5.2/PKG-INFO",
-          "psengine-2.5.2/psengine.egg-info/PKG-INFO",
-          "psengine-2.5.2/pyproject.toml"
-        ],
-        "value": "https://recordedfuture-professionalservices.github.io/psengine/latest/"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "psengine-2.5.2/PKG-INFO",
-          "psengine-2.5.2/psengine.egg-info/PKG-INFO",
-          "psengine-2.5.2/pyproject.toml"
-        ],
-        "value": "https://recordedfuture-professionalservices.github.io/psengine/latest/CHANGELOG/"
+        "value": "https://github.com/nielsvaes/p4cmd"
       },
       {
         "file_count": 1,
         "files": [
-          "psengine-2.5.2/psengine/identity/identity_mgr.py"
+          "p4cmd-2.10.2/p4cmd/p4cmd.py"
         ],
-        "value": "https://support.recordedfuture.com/hc/en-us/articles/33694346668819-Identity-Lookup-API"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "psengine-2.5.2/psengine/helpers/helpers.py"
-        ],
-        "value": "https://www.elastic.co/guide/en/elasticsearch/reference/current/date.html"
+        "value": "https://stackoverflow.com/questions/37427683/python-search-for-a-file-in-current-directory-and-all-its-parents"
       }
     ]
   },
-  "package": "psengine",
-  "package_slug": "psengine",
-  "project_url": "https://pypi.org/project/psengine/",
+  "package": "p4cmd",
+  "package_slug": "p4cmd",
+  "project_url": "https://pypi.org/project/p4cmd/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T14:24:10.425447+00:00",
+  "published_at": "2026-04-27T14:27:57.494176+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T14:24:56.233995+00:00",
-  "title": "Personal PyPI Supply Chain Scan: psengine 2.5.2",
-  "version": "2.5.2",
-  "version_slug": "2.5.2",
-  "_metadata_path": "reports/packages/psengine/2.5.2/metadata.json"
+  "scanned_at": "2026-04-27T14:29:16.747295+00:00",
+  "title": "Personal PyPI Supply Chain Scan: p4cmd 2.10.2",
+  "version": "2.10.2",
+  "version_slug": "2.10.2",
+  "_metadata_path": "reports/packages/p4cmd/2.10.2/metadata.json"
 }
