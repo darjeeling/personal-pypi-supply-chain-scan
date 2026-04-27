@@ -1,6 +1,217 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "agentia-0.1.39.tar.gz",
+    "finding_count": 31,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "agentia-0.1.39/agentia/llm/providers/vercel.py"
+          ],
+          "value": "ai-gateway.vercel.sh"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agentia-0.1.39/agentia/llm/providers/openai.py"
+          ],
+          "value": "api.openai.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agentia-0.1.39/agentia/llm/providers/cloudflare.py"
+          ],
+          "value": "developers.cloudflare.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agentia-0.1.39/agentia/llm/providers/openai.py"
+          ],
+          "value": "developers.openai.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agentia-0.1.39/agentia/models/chat.py"
+          ],
+          "value": "files.extend"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agentia-0.1.39/agentia/llm/providers/cloudflare.py"
+          ],
+          "value": "gateway.ai.cloudflare.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "agentia-0.1.39/.gitignore",
+            "agentia-0.1.39/PKG-INFO",
+            "agentia-0.1.39/pyproject.toml"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agentia-0.1.39/agentia/llm/providers/ollama.py"
+          ],
+          "value": "ollama.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agentia-0.1.39/agentia/llm/providers/openrouter.py"
+          ],
+          "value": "openrouter.ai"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agentia-0.1.39/.gitignore"
+          ],
+          "value": "pdm.fming.dev"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agentia-0.1.39/.gitignore"
+          ],
+          "value": "python-poetry.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agentia-0.1.39/agentia/llm/providers/vercel.py"
+          ],
+          "value": "vercel.com"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "agentia-0.1.39/agentia/llm/providers/vercel.py"
+          ],
+          "value": "https://ai-gateway.vercel.sh/v1"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agentia-0.1.39/agentia/llm/providers/openai.py"
+          ],
+          "value": "https://api.openai.com/v1"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agentia-0.1.39/agentia/llm/providers/cloudflare.py"
+          ],
+          "value": "https://developers.cloudflare.com/ai-gateway/usage/providers/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agentia-0.1.39/agentia/llm/providers/openai.py"
+          ],
+          "value": "https://developers.openai.com/api/docs/models"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agentia-0.1.39/agentia/llm/providers/cloudflare.py"
+          ],
+          "value": "https://gateway.ai.cloudflare.com/v1/{account_id"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agentia-0.1.39/.gitignore"
+          ],
+          "value": "https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "agentia-0.1.39/PKG-INFO",
+            "agentia-0.1.39/pyproject.toml"
+          ],
+          "value": "https://github.com/wenyuzhao/agentia"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agentia-0.1.39/agentia/llm/providers/ollama.py"
+          ],
+          "value": "https://ollama.com/library"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agentia-0.1.39/agentia/llm/providers/openrouter.py"
+          ],
+          "value": "https://openrouter.ai/api/v1"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agentia-0.1.39/agentia/llm/providers/openrouter.py"
+          ],
+          "value": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agentia-0.1.39/agentia/llm/providers/openrouter.py"
+          ],
+          "value": "https://openrouter.ai/models"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agentia-0.1.39/.gitignore"
+          ],
+          "value": "https://pdm.fming.dev/#use-with-ide"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agentia-0.1.39/.gitignore"
+          ],
+          "value": "https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agentia-0.1.39/agentia/llm/providers/vercel.py"
+          ],
+          "value": "https://vercel.com/ai-gateway/models"
+        }
+      ]
+    },
+    "package": "agentia",
+    "package_slug": "agentia",
+    "project_url": "https://pypi.org/project/agentia/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T13:58:03.674408+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T13:58:54.729266+00:00",
+    "title": "Personal PyPI Supply Chain Scan: agentia 0.1.39",
+    "version": "0.1.39",
+    "version_slug": "0.1.39",
+    "_metadata_path": "reports/packages/agentia/0.1.39/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "code_session_recall-0.1.1.tar.gz",
     "finding_count": 26,
     "model": "gpt-5.5",
