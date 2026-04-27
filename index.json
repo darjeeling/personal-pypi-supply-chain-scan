@@ -1,6 +1,158 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "passagemath_sws2rst-10.8.5rc0-py3-none-any.whl",
+    "finding_count": 24,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "passagemath_sws2rst-10.8.5rc0.dist-info/METADATA"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "sage_sws2rst/worksheet2rst.py"
+          ],
+          "value": "groups.google.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "sage_sws2rst/comments2rst.py"
+          ],
+          "value": "stackoverflow.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "passagemath_sws2rst-10.8.5rc0.data/scripts/sage-sws2rst"
+          ],
+          "value": "www.gnu.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "passagemath_sws2rst-10.8.5rc0.data/scripts/sage-sws2rst"
+          ],
+          "value": "www.mathjax.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "sage_sws2rst/comments2rst.py"
+          ],
+          "value": "www.regular-expressions.info"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "passagemath_sws2rst-10.8.5rc0.dist-info/METADATA"
+          ],
+          "value": "www.sagemath.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "passagemath_sws2rst-10.8.5rc0.data/scripts/sage-sws2rst"
+          ],
+          "value": "www.sphinx-doc.org"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "sage_sws2rst/worksheet2rst.py"
+          ],
+          "value": "http://groups.google.com/group/sage-devel/browse_thread/thread/d82cb049ac102f3a"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "passagemath_sws2rst-10.8.5rc0.data/scripts/sage-sws2rst"
+          ],
+          "value": "http://www.mathjax.org/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "sage_sws2rst/comments2rst.py"
+          ],
+          "value": "http://www.regular-expressions.info/lookaround.html"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "passagemath_sws2rst-10.8.5rc0.dist-info/METADATA"
+          ],
+          "value": "https://github.com/sagemath/sage/issues/28838"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "passagemath_sws2rst-10.8.5rc0.dist-info/METADATA"
+          ],
+          "value": "https://github.com/sagemath/sagenb"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "sage_sws2rst/comments2rst.py"
+          ],
+          "value": "https://stackoverflow.com/questions/11856011/beautifulsoup-has-no-attribute-html-entities"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "passagemath_sws2rst-10.8.5rc0.data/scripts/sage-sws2rst"
+          ],
+          "value": "https://www.gnu.org/licenses/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "passagemath_sws2rst-10.8.5rc0.dist-info/METADATA"
+          ],
+          "value": "https://www.sagemath.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "passagemath_sws2rst-10.8.5rc0.data/scripts/sage-sws2rst"
+          ],
+          "value": "https://www.sphinx-doc.org/en/master/usage/quickstart.html"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "passagemath_sws2rst-10.8.5rc0.data/scripts/sage-sws2rst"
+          ],
+          "value": "https://www.sphinx-doc.org/en/master/usage/quickstart.html#defining-document-structure"
+        }
+      ]
+    },
+    "package": "passagemath-sws2rst",
+    "package_slug": "passagemath-sws2rst",
+    "project_url": "https://pypi.org/project/passagemath-sws2rst/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T12:29:44.728256+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T12:31:40.344032+00:00",
+    "title": "Personal PyPI Supply Chain Scan: passagemath-sws2rst 10.8.5rc0",
+    "version": "10.8.5rc0",
+    "version_slug": "10.8.5rc0",
+    "_metadata_path": "reports/packages/passagemath-sws2rst/10.8.5rc0/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "cimsparql-9.13.0.tar.gz",
     "finding_count": 21,
     "model": "gpt-5.5",
