@@ -1,125 +1,1001 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "repo_context_hooks-0.5.0.tar.gz",
-  "finding_count": 104,
+  "distribution": "increase-0.495.1.tar.gz",
+  "finding_count": 415,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 7,
+        "file_count": 3,
         "files": [
-          "repo_context_hooks-0.5.0/PKG-INFO",
-          "repo_context_hooks-0.5.0/pyproject.toml",
-          "repo_context_hooks-0.5.0/repo_context_hooks.egg-info/PKG-INFO",
-          "repo_context_hooks-0.5.0/repo_context_hooks/bundle/scripts/session_context.py",
-          "repo_context_hooks-0.5.0/repo_context_hooks/bundle/skills/context-handoff-hooks/scripts/session_context.py",
-          "repo_context_hooks-0.5.0/tests/test_platform_playbooks.py",
-          "repo_context_hooks-0.5.0/tests/test_telemetry.py"
+          "increase-0.495.1/src/increase/types/entity.py",
+          "increase-0.495.1/src/increase/types/entity_create_params.py",
+          "increase-0.495.1/src/increase/types/entity_update_params.py"
+        ],
+        "value": "alloy.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "increase-0.495.1/src/increase/_client.py",
+          "increase-0.495.1/tests/test_client.py"
+        ],
+        "value": "api.increase.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "increase-0.495.1/src/increase/resources/intrafi_exclusions.py",
+          "increase-0.495.1/src/increase/types/intrafi_exclusion_create_params.py"
+        ],
+        "value": "banks.data.fdic.gov"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "increase-0.495.1/src/increase/resources/simulations/card_authentications.py",
+          "increase-0.495.1/src/increase/types/event_subscription.py"
+        ],
+        "value": "dashboard.increase.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "increase-0.495.1/src/increase/_utils/_path.py",
+          "increase-0.495.1/src/increase/resources/files.py",
+          "increase-0.495.1/src/increase/types/file_create_params.py"
+        ],
+        "value": "datatracker.ietf.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/src/increase/_base_client.py"
+        ],
+        "value": "developer.mozilla.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/src/increase/_base_client.py"
+        ],
+        "value": "distro.readthedocs.io"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "increase-0.495.1/PKG-INFO",
+          "increase-0.495.1/README.md",
+          "increase-0.495.1/src/increase/_models.py",
+          "increase-0.495.1/tests/utils.py"
+        ],
+        "value": "docs.pydantic.dev"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "increase-0.495.1/CONTRIBUTING.md",
+          "increase-0.495.1/PKG-INFO",
+          "increase-0.495.1/README.md"
+        ],
+        "value": "docs.python.org"
+      },
+      {
+        "file_count": 99,
+        "files": [
+          "increase-0.495.1/src/increase/resources/ach_prenotifications.py",
+          "increase-0.495.1/src/increase/resources/simulations/inbound_wire_drawdown_requests.py",
+          "increase-0.495.1/src/increase/resources/simulations/physical_cards.py",
+          "increase-0.495.1/src/increase/resources/swift_transfers.py",
+          "increase-0.495.1/src/increase/types/account.py",
+          "increase-0.495.1/src/increase/types/account_list_params.py",
+          "increase-0.495.1/src/increase/types/account_number.py",
+          "increase-0.495.1/src/increase/types/account_number_list_params.py"
+        ],
+        "value": "en.wikipedia.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/src/increase/_client.py"
+        ],
+        "value": "files.asyncfilesresourcewithrawresponse"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/src/increase/_client.py"
+        ],
+        "value": "files.asyncfilesresourcewithstreamingresponse"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "increase-0.495.1/src/increase/resources/files.py",
+          "increase-0.495.1/tests/api_resources/test_files.py"
+        ],
+        "value": "files.create"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/src/increase/_utils/_utils.py"
+        ],
+        "value": "files.extend"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/src/increase/_client.py"
+        ],
+        "value": "files.filesresourcewithrawresponse"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/src/increase/_client.py"
+        ],
+        "value": "files.filesresourcewithstreamingresponse"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/src/increase/_files.py"
+        ],
+        "value": "files.items"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "increase-0.495.1/src/increase/resources/files.py",
+          "increase-0.495.1/tests/api_resources/test_files.py"
+        ],
+        "value": "files.list"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "increase-0.495.1/src/increase/resources/files.py",
+          "increase-0.495.1/tests/api_resources/test_files.py"
+        ],
+        "value": "files.retrieve"
+      },
+      {
+        "file_count": 15,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md",
+          "increase-0.495.1/CONTRIBUTING.md",
+          "increase-0.495.1/PKG-INFO",
+          "increase-0.495.1/README.md",
+          "increase-0.495.1/pyproject.toml",
+          "increase-0.495.1/src/increase/_base_client.py",
+          "increase-0.495.1/src/increase/_files.py",
+          "increase-0.495.1/src/increase/_models.py"
         ],
         "value": "github.com"
       },
       {
         "file_count": 1,
         "files": [
-          "repo_context_hooks-0.5.0/tests/test_visual_contract.py"
+          "increase-0.495.1/src/increase/_streaming.py"
         ],
-        "value": "raw.split"
+        "value": "html.spec.whatwg.org"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "repo_context_hooks-0.5.0/repo_context_hooks/badge.py"
+          "increase-0.495.1/PKG-INFO",
+          "increase-0.495.1/README.md"
         ],
-        "value": "www.w3.org"
-      }
-    ],
-    "raw_public_ips": [],
-    "suspicious_endpoints": [],
-    "urls": [
-      {
-        "file_count": 1,
-        "files": [
-          "repo_context_hooks-0.5.0/repo_context_hooks/badge.py"
-        ],
-        "value": "http://www.w3.org/1999/xlink"
+        "value": "img.shields.io"
       },
       {
-        "file_count": 1,
+        "file_count": 108,
         "files": [
-          "repo_context_hooks-0.5.0/repo_context_hooks/badge.py"
+          "increase-0.495.1/PKG-INFO",
+          "increase-0.495.1/README.md",
+          "increase-0.495.1/src/increase/resources/account_numbers.py",
+          "increase-0.495.1/src/increase/resources/account_transfers.py",
+          "increase-0.495.1/src/increase/resources/accounts.py",
+          "increase-0.495.1/src/increase/resources/ach_prenotifications.py",
+          "increase-0.495.1/src/increase/resources/ach_transfers.py",
+          "increase-0.495.1/src/increase/resources/beneficial_owners.py"
         ],
-        "value": "http://www.w3.org/2000/svg"
+        "value": "increase.com"
       },
       {
         "file_count": 3,
         "files": [
-          "repo_context_hooks-0.5.0/PKG-INFO",
-          "repo_context_hooks-0.5.0/pyproject.toml",
-          "repo_context_hooks-0.5.0/repo_context_hooks.egg-info/PKG-INFO"
+          "increase-0.495.1/src/increase/types/entity.py",
+          "increase-0.495.1/src/increase/types/entity_create_params.py",
+          "increase-0.495.1/src/increase/types/entity_update_params.py"
         ],
-        "value": "https://github.com/narendranathe/repo-context-hooks"
+        "value": "middesk.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "increase-0.495.1/PKG-INFO",
+          "increase-0.495.1/README.md"
+        ],
+        "value": "my.test.proxy.example.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "increase-0.495.1/PKG-INFO",
+          "increase-0.495.1/README.md"
+        ],
+        "value": "my.test.server.example.com"
       },
       {
         "file_count": 1,
         "files": [
-          "repo_context_hooks-0.5.0/tests/test_telemetry.py"
+          "increase-0.495.1/tests/test_client.py"
         ],
-        "value": "https://github.com/narendranathe/repo-context-hooks.git"
+        "value": "myapi.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "increase-0.495.1/src/increase/types/entity.py",
+          "increase-0.495.1/src/increase/types/entity_create_params.py",
+          "increase-0.495.1/src/increase/types/entity_update_params.py"
+        ],
+        "value": "oscilar.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "increase-0.495.1/PKG-INFO",
+          "increase-0.495.1/README.md"
+        ],
+        "value": "pypi.org"
       },
       {
         "file_count": 1,
         "files": [
-          "repo_context_hooks-0.5.0/tests/test_platform_playbooks.py"
+          "increase-0.495.1/release-please-config.json"
         ],
-        "value": "https://github.com/narendranathe/repo-context-hooks/issues/2"
+        "value": "raw.githubusercontent.com"
       },
       {
         "file_count": 1,
         "files": [
-          "repo_context_hooks-0.5.0/tests/test_platform_playbooks.py"
+          "increase-0.495.1/CONTRIBUTING.md"
         ],
-        "value": "https://github.com/narendranathe/repo-context-hooks/issues/3"
+        "value": "rye.astral.sh"
       },
       {
         "file_count": 1,
         "files": [
-          "repo_context_hooks-0.5.0/tests/test_platform_playbooks.py"
+          "increase-0.495.1/src/increase/_client.py"
         ],
-        "value": "https://github.com/narendranathe/repo-context-hooks/issues/4"
+        "value": "sandbox.increase.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "increase-0.495.1/PKG-INFO",
+          "increase-0.495.1/README.md"
+        ],
+        "value": "semver.org"
       },
       {
         "file_count": 1,
         "files": [
-          "repo_context_hooks-0.5.0/tests/test_platform_playbooks.py"
+          "increase-0.495.1/SECURITY.md"
         ],
-        "value": "https://github.com/narendranathe/repo-context-hooks/issues/5"
+        "value": "stainless.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "increase-0.495.1/src/increase/types/entity.py",
+          "increase-0.495.1/src/increase/types/entity_create_params.py",
+          "increase-0.495.1/src/increase/types/entity_update_params.py"
+        ],
+        "value": "taktile.com"
       },
       {
         "file_count": 1,
         "files": [
-          "repo_context_hooks-0.5.0/tests/test_platform_playbooks.py"
+          "increase-0.495.1/tests/api_resources/test_event_subscriptions.py"
         ],
-        "value": "https://github.com/narendranathe/repo-context-hooks/issues/6"
+        "value": "website.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "increase-0.495.1/src/increase/types/entity.py",
+          "increase-0.495.1/src/increase/types/entity_create_params.py",
+          "increase-0.495.1/src/increase/types/entity_update_params.py"
+        ],
+        "value": "withpersona.com"
       },
       {
         "file_count": 1,
         "files": [
-          "repo_context_hooks-0.5.0/tests/test_platform_playbooks.py"
+          "increase-0.495.1/LICENSE"
         ],
-        "value": "https://github.com/narendranathe/repo-context-hooks/issues/8"
+        "value": "www.apache.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/src/increase/types/ach_transfer.py"
+        ],
+        "value": "www.frbservices.org"
+      },
+      {
+        "file_count": 92,
+        "files": [
+          "increase-0.495.1/CONTRIBUTING.md",
+          "increase-0.495.1/PKG-INFO",
+          "increase-0.495.1/README.md",
+          "increase-0.495.1/src/increase/resources/account_numbers.py",
+          "increase-0.495.1/src/increase/resources/account_statements.py",
+          "increase-0.495.1/src/increase/resources/account_transfers.py",
+          "increase-0.495.1/src/increase/resources/accounts.py",
+          "increase-0.495.1/src/increase/resources/ach_prenotifications.py"
+        ],
+        "value": "www.github.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/src/increase/types/intrafi_account_enrollment.py"
+        ],
+        "value": "www.intrafi.com"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "increase-0.495.1/PKG-INFO",
+          "increase-0.495.1/README.md",
+          "increase-0.495.1/src/increase/_base_client.py",
+          "increase-0.495.1/src/increase/_client.py"
+        ],
+        "value": "www.python-httpx.org"
+      },
+      {
+        "file_count": 8,
+        "files": [
+          "increase-0.495.1/src/increase/resources/simulations/inbound_wire_drawdown_requests.py",
+          "increase-0.495.1/src/increase/types/fednow_transfer.py",
+          "increase-0.495.1/src/increase/types/inbound_wire_drawdown_request.py",
+          "increase-0.495.1/src/increase/types/inbound_wire_transfer.py",
+          "increase-0.495.1/src/increase/types/simulations/inbound_wire_drawdown_request_create_params.py",
+          "increase-0.495.1/src/increase/types/swift_transfer.py",
+          "increase-0.495.1/src/increase/types/transaction.py",
+          "increase-0.495.1/src/increase/types/wire_transfer.py"
+        ],
+        "value": "www.swift.com"
+      }
+    ],
+    "raw_public_ips": [],
+    "suspicious_endpoints": [
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/release-please-config.json"
+        ],
+        "value": "https://raw.githubusercontent.com/stainless-api/release-please/main/schemas/config.json"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/release-please-config.json"
+        ],
+        "value": "raw.githubusercontent.com"
+      }
+    ],
+    "urls": [
+      {
+        "file_count": 2,
+        "files": [
+          "increase-0.495.1/PKG-INFO",
+          "increase-0.495.1/README.md"
+        ],
+        "value": "http://my.test.proxy.example.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "increase-0.495.1/PKG-INFO",
+          "increase-0.495.1/README.md"
+        ],
+        "value": "http://my.test.server.example.com:8083"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/SECURITY.md"
+        ],
+        "value": "http://stainless.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/LICENSE"
+        ],
+        "value": "http://www.apache.org/licenses/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/LICENSE"
+        ],
+        "value": "http://www.apache.org/licenses/LICENSE-2.0"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "increase-0.495.1/src/increase/types/entity.py",
+          "increase-0.495.1/src/increase/types/entity_create_params.py",
+          "increase-0.495.1/src/increase/types/entity_update_params.py"
+        ],
+        "value": "https://alloy.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "increase-0.495.1/src/increase/_client.py",
+          "increase-0.495.1/tests/test_client.py"
+        ],
+        "value": "https://api.increase.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "increase-0.495.1/src/increase/resources/intrafi_exclusions.py",
+          "increase-0.495.1/src/increase/types/intrafi_exclusion_create_params.py"
+        ],
+        "value": "https://banks.data.fdic.gov/bankfind-suite/bankfind"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/src/increase/resources/simulations/card_authentications.py"
+        ],
+        "value": "https://dashboard.increase.com/card_authentication_simulation/:card_payment_id"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/src/increase/types/event_subscription.py"
+        ],
+        "value": "https://dashboard.increase.com/developers/webhooks"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/src/increase/_utils/_path.py"
+        ],
+        "value": "https://datatracker.ietf.org/doc/html/rfc3986#section-3.3"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/src/increase/_utils/_path.py"
+        ],
+        "value": "https://datatracker.ietf.org/doc/html/rfc3986#section-3.4"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/src/increase/_utils/_path.py"
+        ],
+        "value": "https://datatracker.ietf.org/doc/html/rfc3986#section-3.5"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "increase-0.495.1/src/increase/resources/files.py",
+          "increase-0.495.1/src/increase/types/file_create_params.py"
+        ],
+        "value": "https://datatracker.ietf.org/doc/html/rfc7578"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/src/increase/_base_client.py"
+        ],
+        "value": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Retry-After"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/src/increase/_base_client.py"
+        ],
+        "value": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Retry-After#syntax"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/src/increase/_base_client.py"
+        ],
+        "value": "https://distro.readthedocs.io/en/latest/#distro.id"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "increase-0.495.1/PKG-INFO",
+          "increase-0.495.1/README.md"
+        ],
+        "value": "https://docs.pydantic.dev"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/tests/utils.py"
+        ],
+        "value": "https://docs.pydantic.dev/2.0/migration/#required-optional-and-nullable-fields"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/src/increase/_models.py"
+        ],
+        "value": "https://docs.pydantic.dev/2.4/concepts/serialization/#modelmodel_dump"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/src/increase/_models.py"
+        ],
+        "value": "https://docs.pydantic.dev/2.4/concepts/serialization/#modelmodel_dump_json"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "increase-0.495.1/PKG-INFO",
+          "increase-0.495.1/README.md"
+        ],
+        "value": "https://docs.pydantic.dev/latest/api/base_model/#pydantic.BaseModel.model_extra"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "increase-0.495.1/PKG-INFO",
+          "increase-0.495.1/README.md"
+        ],
+        "value": "https://docs.python.org/3/library/logging.html"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "increase-0.495.1/PKG-INFO",
+          "increase-0.495.1/README.md"
+        ],
+        "value": "https://docs.python.org/3/library/os.html#os.PathLike"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "increase-0.495.1/PKG-INFO",
+          "increase-0.495.1/README.md"
+        ],
+        "value": "https://docs.python.org/3/library/typing.html#typing.TypedDict"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CONTRIBUTING.md"
+        ],
+        "value": "https://docs.python.org/3/library/venv.html#how-venvs-work"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "increase-0.495.1/PKG-INFO",
+          "increase-0.495.1/README.md"
+        ],
+        "value": "https://docs.python.org/3/reference/datamodel.html#object.__del__"
+      },
+      {
+        "file_count": 5,
+        "files": [
+          "increase-0.495.1/src/increase/types/inbound_ach_transfer.py",
+          "increase-0.495.1/src/increase/types/swift_transfer.py",
+          "increase-0.495.1/src/increase/types/swift_transfer_create_params.py",
+          "increase-0.495.1/src/increase/types/wire_drawdown_request.py",
+          "increase-0.495.1/src/increase/types/wire_drawdown_request_create_params.py"
+        ],
+        "value": "https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2"
+      },
+      {
+        "file_count": 28,
+        "files": [
+          "increase-0.495.1/src/increase/resources/simulations/inbound_wire_drawdown_requests.py",
+          "increase-0.495.1/src/increase/resources/swift_transfers.py",
+          "increase-0.495.1/src/increase/types/account.py",
+          "increase-0.495.1/src/increase/types/account_transfer.py",
+          "increase-0.495.1/src/increase/types/ach_transfer.py",
+          "increase-0.495.1/src/increase/types/card_dispute.py",
+          "increase-0.495.1/src/increase/types/card_payment.py",
+          "increase-0.495.1/src/increase/types/card_purchase_supplement.py"
+        ],
+        "value": "https://en.wikipedia.org/wiki/ISO_4217"
+      },
+      {
+        "file_count": 92,
+        "files": [
+          "increase-0.495.1/src/increase/resources/ach_prenotifications.py",
+          "increase-0.495.1/src/increase/resources/simulations/physical_cards.py",
+          "increase-0.495.1/src/increase/types/account.py",
+          "increase-0.495.1/src/increase/types/account_list_params.py",
+          "increase-0.495.1/src/increase/types/account_number.py",
+          "increase-0.495.1/src/increase/types/account_number_list_params.py",
+          "increase-0.495.1/src/increase/types/account_statement.py",
+          "increase-0.495.1/src/increase/types/account_statement_list_params.py"
+        ],
+        "value": "https://en.wikipedia.org/wiki/ISO_8601"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "increase-0.495.1/tests/api_resources/test_digital_card_profiles.py",
+          "increase-0.495.1/tests/api_resources/test_entities.py"
+        ],
+        "value": "https://example.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/tests/test_client.py"
+        ],
+        "value": "https://example.com/from_init"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/tests/test_client.py"
+        ],
+        "value": "https://example.com/from_init/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/tests/test_client.py"
+        ],
+        "value": "https://example.com/from_setter"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/tests/test_client.py"
+        ],
+        "value": "https://example.com/from_setter/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/tests/api_resources/test_entity_onboarding_sessions.py"
+        ],
+        "value": "https://example.com/onboarding/session"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/tests/test_client.py"
+        ],
+        "value": "https://example.org"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "increase-0.495.1/PKG-INFO",
+          "increase-0.495.1/pyproject.toml"
+        ],
+        "value": "https://github.com/Increase/increase-python"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/00029ce17ffc3592e2e68b69adf6747505d07645"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/000f5c10cd65512c29995564e6adafd9b94164b3"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/0110ffd691ef3f9640dfe950fa369bcf5235f0d5"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/0185e52a90d5996888fbb55d4723d716cd78f053"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/01bab6fc34f7e9eae7a8007bb965779ee2d83661"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/01f436cd45cde255e88824a27cf655a4e10a061a"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/0257e0e3f3a59836adb64beb39bd99b6d7a6790c"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/02a8dd8c9e94f2e6d8f7bca8b259c0a357506a53"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/02aa81f8ed6e4b804fac6174ec7122cc0dca176f"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/03c7db452c705ce02fa89d8fceced4e164d548ec"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/04322ae0ae31fd7a121f067bbbb1083067cb6b38"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/0477418f355153c984a20a677843819af32eef69"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/0483ba4268f9509fd6c22777cbaf8d734dff8642"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/048542a172f2d22d0cc956cecf5cb429af1d20d0"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/048926c8d1c225b6c8e2b7ba519bad05e333833c"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/048e16fec48ce4eb99bf14cdc4fd86f93fe695ba"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/04e0143ff4a27faad29e01991de8d03317579588"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/04e7686cc57529002d5a82b227883f902dab118f"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/04f167fe6734538703843121e9301f5208b61163"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/0518d173f428dff40e9b3e19cdf460d97da88601"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/052c7bfd0fafe8c4c8ef7c68dc22e857eb7933d2"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/0534c07bbe42983c94a0e907fd321382493eb77b"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/05366ec5dd9db014cad46d13038886b51a114ae7"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/05625f9e01e3ad51054bb28d032aeab3ed0c351a"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/05bb5ca50f06b071f5ceea8af3d41b6659076348"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/05c6b3a7a9a88e4841e365075b2883db38d24135"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/05e643990605887ec18c34c31c98eb39fb485626"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/064483b3c8e3bc077af6259f5d3d9febf2f5843e"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/06735fa90e80c07382f7bafd2a9daf0ff74a96d8"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/069c1470c6b072cf20de909113799d2427a972cf"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/070d55af2aa290df6ad3ffa7ae3de6be1e78293e"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/070f8cb3c8862e81c49567a9dfabc79da6584d4d"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/072b28a73f3db917ffc1e31b80196d11bf29dd32"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/078074e7457cd643e562615e1e9d8c14a1ff03df"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/07d4ac29bc5a67d6f6410067b5d2f09583d450b7"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/07fcd2166ef7de92cabb461d4e7b499fff209d45"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/08076c5ac118e0e65a425009b2d0a988c7aec18c"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/08591966c8a62e4a60a61947cb37002599bc3c87"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/08b5525071291ba208394d70ed63cf8f42434bff"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/08e6afc6b3c5a7d3da3673a750d70b6f426a77f0"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/090d44376c5c6e693e4e581d926ebe39c0e1e4cd"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "increase-0.495.1/CHANGELOG.md"
+        ],
+        "value": "https://github.com/Increase/increase-python/commit/0913a8fce577a214bb55344319f89f68d2288dba"
       }
     ]
   },
-  "package": "repo-context-hooks",
-  "package_slug": "repo-context-hooks",
-  "project_url": "https://pypi.org/project/repo-context-hooks/",
+  "package": "increase",
+  "package_slug": "increase",
+  "project_url": "https://pypi.org/project/increase/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T15:04:08.403927+00:00",
+  "published_at": "2026-04-27T15:08:15.998723+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T15:04:49.425654+00:00",
-  "title": "Personal PyPI Supply Chain Scan: repo-context-hooks 0.5.0",
-  "version": "0.5.0",
-  "version_slug": "0.5.0",
-  "_metadata_path": "reports/packages/repo-context-hooks/0.5.0/metadata.json"
+  "scanned_at": "2026-04-27T15:09:12.837691+00:00",
+  "title": "Personal PyPI Supply Chain Scan: increase 0.495.1",
+  "version": "0.495.1",
+  "version_slug": "0.495.1",
+  "_metadata_path": "reports/packages/increase/0.495.1/metadata.json"
 }
