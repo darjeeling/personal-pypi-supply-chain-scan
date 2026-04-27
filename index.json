@@ -96,6 +96,7 @@
     "title": "Personal PyPI Supply Chain Scan: cloudhub-139 1.0.0",
     "version": "1.0.0",
     "version_slug": "1.0.0",
-    "_metadata_path": "reports/packages/cloudhub-139/1.0.0/metadata.json"
+    "_metadata_path": "reports/packages/cloudhub-139/1.0.0/metadata.json",
+    "risk": "info"
   }
 ]
