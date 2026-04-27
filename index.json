@@ -1,6 +1,116 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "sage_agent_sdk-6.6.8.tar.gz",
+    "finding_count": 11,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 4,
+          "files": [
+            "sage_agent_sdk-6.6.8/PKG-INFO",
+            "sage_agent_sdk-6.6.8/README.md",
+            "sage_agent_sdk-6.6.8/pyproject.toml",
+            "sage_agent_sdk-6.6.8/src/sage_agent_sdk.egg-info/PKG-INFO"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "sage_agent_sdk-6.6.8/PKG-INFO",
+            "sage_agent_sdk-6.6.8/pyproject.toml",
+            "sage_agent_sdk-6.6.8/src/sage_agent_sdk.egg-info/PKG-INFO"
+          ],
+          "value": "l33tdawg.github.io"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "sage_agent_sdk-6.6.8/PKG-INFO",
+            "sage_agent_sdk-6.6.8/README.md",
+            "sage_agent_sdk-6.6.8/src/sage_agent_sdk.egg-info/PKG-INFO",
+            "sage_agent_sdk-6.6.8/tests/test_tls.py"
+          ],
+          "value": "sage-node"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 3,
+          "files": [
+            "sage_agent_sdk-6.6.8/PKG-INFO",
+            "sage_agent_sdk-6.6.8/pyproject.toml",
+            "sage_agent_sdk-6.6.8/src/sage_agent_sdk.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/l33tdawg/sage"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "sage_agent_sdk-6.6.8/PKG-INFO",
+            "sage_agent_sdk-6.6.8/README.md",
+            "sage_agent_sdk-6.6.8/src/sage_agent_sdk.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/l33tdawg/sage.git"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "sage_agent_sdk-6.6.8/PKG-INFO",
+            "sage_agent_sdk-6.6.8/pyproject.toml",
+            "sage_agent_sdk-6.6.8/src/sage_agent_sdk.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/l33tdawg/sage/issues"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "sage_agent_sdk-6.6.8/PKG-INFO",
+            "sage_agent_sdk-6.6.8/pyproject.toml",
+            "sage_agent_sdk-6.6.8/src/sage_agent_sdk.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/l33tdawg/sage/releases"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "sage_agent_sdk-6.6.8/PKG-INFO",
+            "sage_agent_sdk-6.6.8/pyproject.toml",
+            "sage_agent_sdk-6.6.8/src/sage_agent_sdk.egg-info/PKG-INFO"
+          ],
+          "value": "https://l33tdawg.github.io/sage/"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "sage_agent_sdk-6.6.8/PKG-INFO",
+            "sage_agent_sdk-6.6.8/README.md",
+            "sage_agent_sdk-6.6.8/src/sage_agent_sdk.egg-info/PKG-INFO",
+            "sage_agent_sdk-6.6.8/tests/test_tls.py"
+          ],
+          "value": "https://sage-node:8443"
+        }
+      ]
+    },
+    "package": "sage-agent-sdk",
+    "package_slug": "sage-agent-sdk",
+    "project_url": "https://pypi.org/project/sage-agent-sdk/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T14:06:50.637951+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T14:07:37.102075+00:00",
+    "title": "Personal PyPI Supply Chain Scan: sage-agent-sdk 6.6.8",
+    "version": "6.6.8",
+    "version_slug": "6.6.8",
+    "_metadata_path": "reports/packages/sage-agent-sdk/6.6.8/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "ait_vcs-0.6.6.tar.gz",
     "finding_count": 130,
     "model": "gpt-5.5",
