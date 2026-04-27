@@ -1,6 +1,229 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "aether_core-0.8.0.tar.gz",
+    "finding_count": 110,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 4,
+          "files": [
+            "aether_core-0.8.0/PKG-INFO",
+            "aether_core-0.8.0/README.md",
+            "aether_core-0.8.0/aether_core.egg-info/PKG-INFO",
+            "aether_core-0.8.0/pyproject.toml"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aether_core-0.8.0/PKG-INFO",
+            "aether_core-0.8.0/README.md",
+            "aether_core-0.8.0/aether_core.egg-info/PKG-INFO"
+          ],
+          "value": "img.shields.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aether_core-0.8.0/PKG-INFO",
+            "aether_core-0.8.0/README.md",
+            "aether_core-0.8.0/aether_core.egg-info/PKG-INFO"
+          ],
+          "value": "opensource.microsoft.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aether_core-0.8.0/PKG-INFO",
+            "aether_core-0.8.0/README.md",
+            "aether_core-0.8.0/aether_core.egg-info/PKG-INFO"
+          ],
+          "value": "pypi.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aether_core-0.8.0/aether/memory/slots.py"
+          ],
+          "value": "raw.lower"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aether_core-0.8.0/PKG-INFO",
+            "aether_core-0.8.0/README.md",
+            "aether_core-0.8.0/aether_core.egg-info/PKG-INFO"
+          ],
+          "value": "transformer-circuits.pub"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aether_core-0.8.0/PKG-INFO",
+            "aether_core-0.8.0/README.md",
+            "aether_core-0.8.0/aether_core.egg-info/PKG-INFO"
+          ],
+          "value": "www.python.org"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 3,
+          "files": [
+            "aether_core-0.8.0/PKG-INFO",
+            "aether_core-0.8.0/README.md",
+            "aether_core-0.8.0/aether_core.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/blockhead22"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aether_core-0.8.0/PKG-INFO",
+            "aether_core-0.8.0/aether_core.egg-info/PKG-INFO",
+            "aether_core-0.8.0/pyproject.toml"
+          ],
+          "value": "https://github.com/blockhead22/aether-core"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aether_core-0.8.0/PKG-INFO",
+            "aether_core-0.8.0/aether_core.egg-info/PKG-INFO",
+            "aether_core-0.8.0/pyproject.toml"
+          ],
+          "value": "https://github.com/blockhead22/aether-core#readme"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aether_core-0.8.0/PKG-INFO",
+            "aether_core-0.8.0/README.md",
+            "aether_core-0.8.0/aether_core.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/blockhead22/aether-core.git"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aether_core-0.8.0/PKG-INFO",
+            "aether_core-0.8.0/README.md",
+            "aether_core-0.8.0/aether_core.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/blockhead22/aether-core/actions/workflows/tests.yml"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aether_core-0.8.0/PKG-INFO",
+            "aether_core-0.8.0/README.md",
+            "aether_core-0.8.0/aether_core.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/blockhead22/aether-core/actions/workflows/tests.yml/badge.svg"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aether_core-0.8.0/PKG-INFO",
+            "aether_core-0.8.0/README.md",
+            "aether_core-0.8.0/aether_core.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/blockhead22/aether-core/blob/master/AGENTS.md"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aether_core-0.8.0/PKG-INFO",
+            "aether_core-0.8.0/aether_core.egg-info/PKG-INFO",
+            "aether_core-0.8.0/pyproject.toml"
+          ],
+          "value": "https://github.com/blockhead22/aether-core/issues"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aether_core-0.8.0/PKG-INFO",
+            "aether_core-0.8.0/README.md",
+            "aether_core-0.8.0/aether_core.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/badge/license-MIT-green.svg"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aether_core-0.8.0/PKG-INFO",
+            "aether_core-0.8.0/README.md",
+            "aether_core-0.8.0/aether_core.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/badge/python-3.10%2B-blue.svg"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aether_core-0.8.0/PKG-INFO",
+            "aether_core-0.8.0/README.md",
+            "aether_core-0.8.0/aether_core.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/pypi/v/aether-core?cacheSeconds=300"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aether_core-0.8.0/PKG-INFO",
+            "aether_core-0.8.0/README.md",
+            "aether_core-0.8.0/aether_core.egg-info/PKG-INFO"
+          ],
+          "value": "https://opensource.microsoft.com/blog/2026/04/02/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-agents/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aether_core-0.8.0/PKG-INFO",
+            "aether_core-0.8.0/README.md",
+            "aether_core-0.8.0/aether_core.egg-info/PKG-INFO"
+          ],
+          "value": "https://pypi.org/project/aether-core/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aether_core-0.8.0/PKG-INFO",
+            "aether_core-0.8.0/README.md",
+            "aether_core-0.8.0/aether_core.egg-info/PKG-INFO"
+          ],
+          "value": "https://transformer-circuits.pub/2026/emotions/index.html"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aether_core-0.8.0/PKG-INFO",
+            "aether_core-0.8.0/README.md",
+            "aether_core-0.8.0/aether_core.egg-info/PKG-INFO"
+          ],
+          "value": "https://www.python.org/downloads/"
+        }
+      ]
+    },
+    "package": "aether-core",
+    "package_slug": "aether-core",
+    "project_url": "https://pypi.org/project/aether-core/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T20:09:48.838073+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T20:10:43.824339+00:00",
+    "title": "Personal PyPI Supply Chain Scan: aether-core 0.8.0",
+    "version": "0.8.0",
+    "version_slug": "0.8.0",
+    "_metadata_path": "reports/packages/aether-core/0.8.0/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "agi_core-2026.4.27.post9.tar.gz",
     "finding_count": 9,
     "model": "gpt-5.5",
