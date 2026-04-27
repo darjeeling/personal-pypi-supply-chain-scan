@@ -1,6 +1,142 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "fairlearn_fhe-0.2.1.tar.gz",
+    "finding_count": 125,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 4,
+          "files": [
+            "fairlearn_fhe-0.2.1/PKG-INFO",
+            "fairlearn_fhe-0.2.1/mkdocs.yml",
+            "fairlearn_fhe-0.2.1/pyproject.toml",
+            "fairlearn_fhe-0.2.1/src/fairlearn_fhe.egg-info/PKG-INFO"
+          ],
+          "value": "bader82t.github.io"
+        },
+        {
+          "file_count": 7,
+          "files": [
+            "fairlearn_fhe-0.2.1/PKG-INFO",
+            "fairlearn_fhe-0.2.1/README.md",
+            "fairlearn_fhe-0.2.1/docs/index.md",
+            "fairlearn_fhe-0.2.1/docs/threat-model.md",
+            "fairlearn_fhe-0.2.1/mkdocs.yml",
+            "fairlearn_fhe-0.2.1/pyproject.toml",
+            "fairlearn_fhe-0.2.1/src/fairlearn_fhe.egg-info/PKG-INFO"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "fairlearn_fhe-0.2.1/src/fairlearn_fhe/envelope.py"
+          ],
+          "value": "json-schema.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "fairlearn_fhe-0.2.1/mkdocs.yml"
+          ],
+          "value": "navigation.top"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "fairlearn_fhe-0.2.1/src/fairlearn_fhe/context.py"
+          ],
+          "value": "raw.scale"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "fairlearn_fhe-0.2.1/LICENSE"
+          ],
+          "value": "www.apache.org"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "fairlearn_fhe-0.2.1/LICENSE"
+          ],
+          "value": "http://www.apache.org/licenses/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "fairlearn_fhe-0.2.1/LICENSE"
+          ],
+          "value": "http://www.apache.org/licenses/LICENSE-2.0"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "fairlearn_fhe-0.2.1/PKG-INFO",
+            "fairlearn_fhe-0.2.1/mkdocs.yml",
+            "fairlearn_fhe-0.2.1/pyproject.toml",
+            "fairlearn_fhe-0.2.1/src/fairlearn_fhe.egg-info/PKG-INFO"
+          ],
+          "value": "https://bader82t.github.io/fairlearn-fhe/"
+        },
+        {
+          "file_count": 6,
+          "files": [
+            "fairlearn_fhe-0.2.1/PKG-INFO",
+            "fairlearn_fhe-0.2.1/README.md",
+            "fairlearn_fhe-0.2.1/docs/index.md",
+            "fairlearn_fhe-0.2.1/mkdocs.yml",
+            "fairlearn_fhe-0.2.1/pyproject.toml",
+            "fairlearn_fhe-0.2.1/src/fairlearn_fhe.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/BAder82t/fairlearn-fhe"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "fairlearn_fhe-0.2.1/PKG-INFO",
+            "fairlearn_fhe-0.2.1/pyproject.toml",
+            "fairlearn_fhe-0.2.1/src/fairlearn_fhe.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/BAder82t/fairlearn-fhe/issues"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "fairlearn_fhe-0.2.1/docs/threat-model.md"
+          ],
+          "value": "https://github.com/BAder82t/fhe-attack-replay"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "fairlearn_fhe-0.2.1/src/fairlearn_fhe/envelope.py"
+          ],
+          "value": "https://json-schema.org/draft/2020-12/schema"
+        }
+      ]
+    },
+    "package": "fairlearn-fhe",
+    "package_slug": "fairlearn-fhe",
+    "project_url": "https://pypi.org/project/fairlearn-fhe/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T17:41:57.237415+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T17:42:31.733853+00:00",
+    "title": "Personal PyPI Supply Chain Scan: fairlearn-fhe 0.2.1",
+    "version": "0.2.1",
+    "version_slug": "0.2.1",
+    "_metadata_path": "reports/packages/fairlearn-fhe/0.2.1/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "belgie_testing-0.1.0.tar.gz",
     "finding_count": 0,
     "model": "gpt-5.5",
