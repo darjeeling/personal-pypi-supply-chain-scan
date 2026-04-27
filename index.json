@@ -1,6 +1,376 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "unit3dwebup-0.0.20.tar.gz",
+    "finding_count": 15,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "unit3dwebup-0.0.20/unit3dwup/config/host_data.py"
+          ],
+          "value": "api.imgbb.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "unit3dwebup-0.0.20/unit3dwup/services/tmdb.py"
+          ],
+          "value": "api.themoviedb.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "unit3dwebup-0.0.20/unit3dwup/services/tvdb.py"
+          ],
+          "value": "api4.thetvdb.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "unit3dwebup-0.0.20/PKG-INFO",
+            "unit3dwebup-0.0.20/README.md",
+            "unit3dwebup-0.0.20/Unit3DwebUp.egg-info/PKG-INFO"
+          ],
+          "value": "discord.gg"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "unit3dwebup-0.0.20/unit3dwup/start.py"
+          ],
+          "value": "fastapi.tiangolo.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "unit3dwebup-0.0.20/unit3dwup/services/itt_tracker_helper.py"
+          ],
+          "value": "files.items"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "unit3dwebup-0.0.20/unit3dwup/services/auto_async_service.py"
+          ],
+          "value": "files.sort"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "unit3dwebup-0.0.20/unit3dwup/config/host_data.py"
+          ],
+          "value": "freeimage.host"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "unit3dwebup-0.0.20/PKG-INFO",
+            "unit3dwebup-0.0.20/README.md",
+            "unit3dwebup-0.0.20/Unit3DwebUp.egg-info/PKG-INFO",
+            "unit3dwebup-0.0.20/pyproject.toml",
+            "unit3dwebup-0.0.20/unit3dwup/services/video_service.py"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "unit3dwebup-0.0.20/PKG-INFO",
+            "unit3dwebup-0.0.20/README.md",
+            "unit3dwebup-0.0.20/Unit3DwebUp.egg-info/PKG-INFO"
+          ],
+          "value": "img.shields.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "unit3dwebup-0.0.20/unit3dwup/config/host_data.py"
+          ],
+          "value": "imgfi.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "unit3dwebup-0.0.20/PKG-INFO",
+            "unit3dwebup-0.0.20/README.md",
+            "unit3dwebup-0.0.20/Unit3DwebUp.egg-info/PKG-INFO"
+          ],
+          "value": "itatorrents.xyz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "unit3dwebup-0.0.20/unit3dwup/config/host_data.py"
+          ],
+          "value": "lensdump.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "unit3dwebup-0.0.20/unit3dwup/config/host_data.py"
+          ],
+          "value": "passtheima.ge"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "unit3dwebup-0.0.20/unit3dwup/config/host_data.py"
+          ],
+          "value": "ptscreens.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "unit3dwebup-0.0.20/PKG-INFO",
+            "unit3dwebup-0.0.20/README.md",
+            "unit3dwebup-0.0.20/Unit3DwebUp.egg-info/PKG-INFO"
+          ],
+          "value": "streamable.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "unit3dwebup-0.0.20/unit3dwup/config/host_data.py"
+          ],
+          "value": "www.imageride.net"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "unit3dwebup-0.0.20/unit3dwup/config/host_data.py"
+          ],
+          "value": "https://api.imgbb.com/1/upload"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "unit3dwebup-0.0.20/unit3dwup/services/tmdb.py"
+          ],
+          "value": "https://api.themoviedb.org/3"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "unit3dwebup-0.0.20/unit3dwup/services/tvdb.py"
+          ],
+          "value": "https://api4.thetvdb.com/v4/login"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "unit3dwebup-0.0.20/unit3dwup/services/tvdb.py"
+          ],
+          "value": "https://api4.thetvdb.com/v4/search?query={query"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "unit3dwebup-0.0.20/PKG-INFO",
+            "unit3dwebup-0.0.20/README.md",
+            "unit3dwebup-0.0.20/Unit3DwebUp.egg-info/PKG-INFO"
+          ],
+          "value": "https://discord.gg/8RpwN2Khcz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "unit3dwebup-0.0.20/unit3dwup/start.py"
+          ],
+          "value": "https://fastapi.tiangolo.com/advanced/events/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "unit3dwebup-0.0.20/unit3dwup/config/host_data.py"
+          ],
+          "value": "https://freeimage.host/api/1/upload"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "unit3dwebup-0.0.20/PKG-INFO",
+            "unit3dwebup-0.0.20/Unit3DwebUp.egg-info/PKG-INFO",
+            "unit3dwebup-0.0.20/pyproject.toml",
+            "unit3dwebup-0.0.20/unit3dwup/services/video_service.py"
+          ],
+          "value": "https://github.com/31December99/Unit3DWebUp"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "unit3dwebup-0.0.20/PKG-INFO",
+            "unit3dwebup-0.0.20/README.md",
+            "unit3dwebup-0.0.20/Unit3DwebUp.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/31December99/Unit3Dup"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "unit3dwebup-0.0.20/PKG-INFO",
+            "unit3dwebup-0.0.20/README.md",
+            "unit3dwebup-0.0.20/Unit3DwebUp.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/AstraeLabs/VibraVid"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "unit3dwebup-0.0.20/PKG-INFO",
+            "unit3dwebup-0.0.20/README.md",
+            "unit3dwebup-0.0.20/Unit3DwebUp.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/badge/AstraeLabs-blue.svg"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "unit3dwebup-0.0.20/PKG-INFO",
+            "unit3dwebup-0.0.20/README.md",
+            "unit3dwebup-0.0.20/Unit3DwebUp.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/badge/Debian-12+-blue"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "unit3dwebup-0.0.20/PKG-INFO",
+            "unit3dwebup-0.0.20/README.md",
+            "unit3dwebup-0.0.20/Unit3DwebUp.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/badge/Online-green"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "unit3dwebup-0.0.20/PKG-INFO",
+            "unit3dwebup-0.0.20/README.md",
+            "unit3dwebup-0.0.20/Unit3DwebUp.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/badge/Python-3.12+-blue"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "unit3dwebup-0.0.20/PKG-INFO",
+            "unit3dwebup-0.0.20/README.md",
+            "unit3dwebup-0.0.20/Unit3DwebUp.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/badge/Status-Active-brightgreen"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "unit3dwebup-0.0.20/PKG-INFO",
+            "unit3dwebup-0.0.20/README.md",
+            "unit3dwebup-0.0.20/Unit3DwebUp.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/badge/Ubuntu-22+-blue"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "unit3dwebup-0.0.20/PKG-INFO",
+            "unit3dwebup-0.0.20/README.md",
+            "unit3dwebup-0.0.20/Unit3DwebUp.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/badge/Windows-11-blue"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "unit3dwebup-0.0.20/PKG-INFO",
+            "unit3dwebup-0.0.20/README.md",
+            "unit3dwebup-0.0.20/Unit3DwebUp.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/discord/1214696147600408698?label=Discord\\&logo=discord\\&style=flat"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "unit3dwebup-0.0.20/PKG-INFO",
+            "unit3dwebup-0.0.20/README.md",
+            "unit3dwebup-0.0.20/Unit3DwebUp.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/pypi/v/unit3dupWeb.svg"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "unit3dwebup-0.0.20/unit3dwup/config/host_data.py"
+          ],
+          "value": "https://imgfi.com/api/1/upload"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "unit3dwebup-0.0.20/PKG-INFO",
+            "unit3dwebup-0.0.20/README.md",
+            "unit3dwebup-0.0.20/Unit3DwebUp.egg-info/PKG-INFO"
+          ],
+          "value": "https://itatorrents.xyz/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "unit3dwebup-0.0.20/unit3dwup/config/host_data.py"
+          ],
+          "value": "https://lensdump.com/api/1/upload"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "unit3dwebup-0.0.20/unit3dwup/config/host_data.py"
+          ],
+          "value": "https://passtheima.ge/api/1/upload"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "unit3dwebup-0.0.20/unit3dwup/config/host_data.py"
+          ],
+          "value": "https://ptscreens.com/api/1/upload"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "unit3dwebup-0.0.20/PKG-INFO",
+            "unit3dwebup-0.0.20/README.md",
+            "unit3dwebup-0.0.20/Unit3DwebUp.egg-info/PKG-INFO"
+          ],
+          "value": "https://streamable.com/agoizj"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "unit3dwebup-0.0.20/unit3dwup/config/host_data.py"
+          ],
+          "value": "https://www.imageride.net/api/1/upload"
+        }
+      ]
+    },
+    "package": "Unit3DwebUp",
+    "package_slug": "unit3dwebup",
+    "project_url": "https://pypi.org/project/Unit3DwebUp/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T21:06:53.358571+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T21:08:01.886724+00:00",
+    "title": "Personal PyPI Supply Chain Scan: Unit3DwebUp 0.0.20",
+    "version": "0.0.20",
+    "version_slug": "0.0.20",
+    "_metadata_path": "reports/packages/unit3dwebup/0.0.20/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "jarify-0.2.0.tar.gz",
     "finding_count": 95,
     "model": "gpt-5.5",
