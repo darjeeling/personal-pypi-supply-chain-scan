@@ -1,332 +1,185 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "shadow_diff-2.4.3.tar.gz",
-  "finding_count": 120,
+  "distribution": "opp_repl-0.1.3.tar.gz",
+  "finding_count": 60,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
         "file_count": 1,
         "files": [
-          "shadow_diff-2.4.3/src/shadow/importers/a2a.py"
+          "opp_repl-0.1.3/opp_repl/common/github.py"
         ],
-        "value": "a2a-protocol.org"
+        "value": "api.github.com"
       },
       {
         "file_count": 1,
         "files": [
-          "shadow_diff-2.4.3/src/shadow/importers/pydantic_ai.py"
+          "opp_repl-0.1.3/doc/github_actions.md"
         ],
-        "value": "ai.pydantic.dev"
+        "value": "docs.github.com"
       },
       {
         "file_count": 1,
         "files": [
-          "shadow_diff-2.4.3/crates/shadow-core/Cargo.toml"
+          "opp_repl-0.1.3/LICENSE"
         ],
-        "value": "docs.rs"
+        "value": "fsf.org"
       },
       {
-        "file_count": 11,
+        "file_count": 6,
         "files": [
-          "shadow_diff-2.4.3/Cargo.lock",
-          "shadow_diff-2.4.3/Cargo.toml",
-          "shadow_diff-2.4.3/PKG-INFO",
-          "shadow_diff-2.4.3/README.md",
-          "shadow_diff-2.4.3/crates/shadow-core/README.md",
-          "shadow_diff-2.4.3/pyproject.toml",
-          "shadow_diff-2.4.3/src/shadow/certify_sign.py",
-          "shadow_diff-2.4.3/src/shadow/cli/app.py"
+          "opp_repl-0.1.3/PKG-INFO",
+          "opp_repl-0.1.3/doc/github_actions.md",
+          "opp_repl-0.1.3/doc/installation.md",
+          "opp_repl-0.1.3/doc/profiling.md",
+          "opp_repl-0.1.3/opp_repl.egg-info/PKG-INFO",
+          "opp_repl-0.1.3/pyproject.toml"
         ],
         "value": "github.com"
       },
       {
-        "file_count": 1,
-        "files": [
-          "shadow_diff-2.4.3/crates/shadow-core/README.md"
-        ],
-        "value": "img.shields.io"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "shadow_diff-2.4.3/src/shadow/cli/app.py"
-        ],
-        "value": "raw.items"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "shadow_diff-2.4.3/src/shadow/importers/pydantic_ai.py"
-        ],
-        "value": "raw.lower"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "shadow_diff-2.4.3/src/shadow/sdk/_autostart.py"
-        ],
-        "value": "raw.split"
-      },
-      {
         "file_count": 3,
         "files": [
-          "shadow_diff-2.4.3/src/shadow/enterprise/audit_log.py",
-          "shadow_diff-2.4.3/src/shadow/importers/otel.py",
-          "shadow_diff-2.4.3/src/shadow/suggest_fixes.py"
+          "opp_repl-0.1.3/PKG-INFO",
+          "opp_repl-0.1.3/opp_repl.egg-info/PKG-INFO",
+          "opp_repl-0.1.3/pyproject.toml"
         ],
-        "value": "raw.strip"
+        "value": "omnetpp.org"
       },
       {
         "file_count": 1,
         "files": [
-          "shadow_diff-2.4.3/crates/shadow-core/README.md"
+          "opp_repl-0.1.3/.github/workflows/publish-to-pypi.yml"
         ],
-        "value": "sh.rustup.rs"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "shadow_diff-2.4.3/src/shadow/certify_sign.py"
-        ],
-        "value": "token.actions.githubusercontent.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "shadow_diff-2.4.3/src/shadow/cli/app.py"
-        ],
-        "value": "token.actions.githubusercontent.com`"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "shadow_diff-2.4.3/LICENSE-APACHE",
-          "shadow_diff-2.4.3/crates/shadow-core/LICENSE-APACHE"
-        ],
-        "value": "www.apache.org"
+        "value": "pypi.org"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "shadow_diff-2.4.3/LICENSE-APACHE",
-          "shadow_diff-2.4.3/crates/shadow-core/LICENSE-APACHE"
+          "opp_repl-0.1.3/opp_repl/common/github.py"
         ],
-        "value": "http://www.apache.org/licenses/"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "shadow_diff-2.4.3/LICENSE-APACHE",
-          "shadow_diff-2.4.3/crates/shadow-core/LICENSE-APACHE"
-        ],
-        "value": "http://www.apache.org/licenses/LICENSE-2.0"
+        "value": "https://api.github.com/repos/{owner"
       },
       {
         "file_count": 1,
         "files": [
-          "shadow_diff-2.4.3/src/shadow/importers/a2a.py"
+          "opp_repl-0.1.3/doc/github_actions.md"
         ],
-        "value": "https://a2a-protocol.org/"
+        "value": "https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_dispatch"
       },
       {
         "file_count": 1,
         "files": [
-          "shadow_diff-2.4.3/src/shadow/importers/pydantic_ai.py"
+          "opp_repl-0.1.3/LICENSE"
         ],
-        "value": "https://ai.pydantic.dev"
+        "value": "https://fsf.org/"
       },
       {
         "file_count": 1,
         "files": [
-          "shadow_diff-2.4.3/src/shadow/importers/pydantic_ai.py"
+          "opp_repl-0.1.3/doc/profiling.md"
         ],
-        "value": "https://ai.pydantic.dev/api/messages/"
+        "value": "https://github.com/KDAB/hotspot"
       },
       {
         "file_count": 1,
         "files": [
-          "shadow_diff-2.4.3/crates/shadow-core/Cargo.toml"
+          "opp_repl-0.1.3/doc/github_actions.md"
         ],
-        "value": "https://docs.rs/shadow-core"
-      },
-      {
-        "file_count": 5,
-        "files": [
-          "shadow_diff-2.4.3/Cargo.toml",
-          "shadow_diff-2.4.3/PKG-INFO",
-          "shadow_diff-2.4.3/pyproject.toml",
-          "shadow_diff-2.4.3/src/shadow/quickstart_data/README.md",
-          "shadow_diff-2.4.3/src/shadow/report/github_pr.py"
-        ],
-        "value": "https://github.com/manav8498/Shadow"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "shadow_diff-2.4.3/PKG-INFO",
-          "shadow_diff-2.4.3/pyproject.toml"
-        ],
-        "value": "https://github.com/manav8498/Shadow#readme"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "shadow_diff-2.4.3/PKG-INFO",
-          "shadow_diff-2.4.3/README.md"
-        ],
-        "value": "https://github.com/manav8498/Shadow**"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "shadow_diff-2.4.3/crates/shadow-core/README.md"
-        ],
-        "value": "https://github.com/manav8498/Shadow/actions/workflows/ci.yml"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "shadow_diff-2.4.3/crates/shadow-core/README.md"
-        ],
-        "value": "https://github.com/manav8498/Shadow/actions/workflows/ci.yml/badge.svg"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "shadow_diff-2.4.3/PKG-INFO",
-          "shadow_diff-2.4.3/pyproject.toml"
-        ],
-        "value": "https://github.com/manav8498/Shadow/blob/main/CHANGELOG.md"
+        "value": "https://github.com/inet-framework/inet/actions"
       },
       {
         "file_count": 3,
         "files": [
-          "shadow_diff-2.4.3/PKG-INFO",
-          "shadow_diff-2.4.3/pyproject.toml",
-          "shadow_diff-2.4.3/src/shadow/quickstart_data/README.md"
+          "opp_repl-0.1.3/PKG-INFO",
+          "opp_repl-0.1.3/opp_repl.egg-info/PKG-INFO",
+          "opp_repl-0.1.3/pyproject.toml"
         ],
-        "value": "https://github.com/manav8498/Shadow/blob/main/SPEC.md"
+        "value": "https://github.com/omnetpp/opp_repl"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "opp_repl-0.1.3/doc/installation.md"
+        ],
+        "value": "https://github.com/omnetpp/opp_repl.git"
       },
       {
         "file_count": 3,
         "files": [
-          "shadow_diff-2.4.3/PKG-INFO",
-          "shadow_diff-2.4.3/crates/shadow-core/README.md",
-          "shadow_diff-2.4.3/pyproject.toml"
+          "opp_repl-0.1.3/PKG-INFO",
+          "opp_repl-0.1.3/opp_repl.egg-info/PKG-INFO",
+          "opp_repl-0.1.3/pyproject.toml"
         ],
-        "value": "https://github.com/manav8498/Shadow/discussions"
+        "value": "https://github.com/omnetpp/opp_repl/blob/main/CHANGES.md"
       },
       {
-        "file_count": 4,
+        "file_count": 3,
         "files": [
-          "shadow_diff-2.4.3/PKG-INFO",
-          "shadow_diff-2.4.3/crates/shadow-core/README.md",
-          "shadow_diff-2.4.3/pyproject.toml",
-          "shadow_diff-2.4.3/src/shadow/sdk/_autostart.py"
+          "opp_repl-0.1.3/PKG-INFO",
+          "opp_repl-0.1.3/opp_repl.egg-info/PKG-INFO",
+          "opp_repl-0.1.3/pyproject.toml"
         ],
-        "value": "https://github.com/manav8498/Shadow/issues"
+        "value": "https://github.com/omnetpp/opp_repl/blob/main/README.md"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "shadow_diff-2.4.3/src/shadow/certify_sign.py"
+          "opp_repl-0.1.3/PKG-INFO",
+          "opp_repl-0.1.3/opp_repl.egg-info/PKG-INFO",
+          "opp_repl-0.1.3/pyproject.toml"
         ],
-        "value": "https://github.com/org/repo/.github/"
+        "value": "https://github.com/omnetpp/opp_repl/commits/main"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "shadow_diff-2.4.3/src/shadow/cli/app.py"
+          "opp_repl-0.1.3/PKG-INFO",
+          "opp_repl-0.1.3/opp_repl.egg-info/PKG-INFO",
+          "opp_repl-0.1.3/pyproject.toml"
         ],
-        "value": "https://github.com/org/repo/.github/workflows/release.yml@refs/tags/v1.8.0`"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "shadow_diff-2.4.3/crates/shadow-core/README.md"
-        ],
-        "value": "https://github.com/org/repo/.github/workflows/release.yml@refs/tags/v2.3.0"
+        "value": "https://github.com/omnetpp/opp_repl/issues"
       },
       {
         "file_count": 1,
         "files": [
-          "shadow_diff-2.4.3/Cargo.lock"
+          "opp_repl-0.1.3/doc/github_actions.md"
         ],
-        "value": "https://github.com/rust-lang/crates.io-index"
+        "value": "https://github.com/settings/tokens"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "opp_repl-0.1.3/PKG-INFO",
+          "opp_repl-0.1.3/opp_repl.egg-info/PKG-INFO",
+          "opp_repl-0.1.3/pyproject.toml"
+        ],
+        "value": "https://omnetpp.org"
       },
       {
         "file_count": 1,
         "files": [
-          "shadow_diff-2.4.3/crates/shadow-core/README.md"
+          "opp_repl-0.1.3/.github/workflows/publish-to-pypi.yml"
         ],
-        "value": "https://img.shields.io/badge/.agentlog-v0.1%20%2B%20v0.2%20kinds-6f4cff.svg"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "shadow_diff-2.4.3/crates/shadow-core/README.md"
-        ],
-        "value": "https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-blue.svg"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "shadow_diff-2.4.3/crates/shadow-core/README.md"
-        ],
-        "value": "https://img.shields.io/badge/python-3.11+-3776ab.svg"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "shadow_diff-2.4.3/crates/shadow-core/README.md"
-        ],
-        "value": "https://img.shields.io/badge/rust-1.95+-orange.svg"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "shadow_diff-2.4.3/crates/shadow-core/README.md"
-        ],
-        "value": "https://img.shields.io/badge/version-2.4.3-brightgreen.svg"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "shadow_diff-2.4.3/crates/shadow-core/README.md"
-        ],
-        "value": "https://sh.rustup.rs"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "shadow_diff-2.4.3/src/shadow/certify_sign.py"
-        ],
-        "value": "https://token.actions.githubusercontent.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "shadow_diff-2.4.3/src/shadow/cli/app.py"
-        ],
-        "value": "https://token.actions.githubusercontent.com`"
+        "value": "https://pypi.org/p/opp-repl"
       }
     ]
   },
-  "package": "shadow-diff",
-  "package_slug": "shadow-diff",
-  "project_url": "https://pypi.org/project/shadow-diff/",
+  "package": "opp-repl",
+  "package_slug": "opp-repl",
+  "project_url": "https://pypi.org/project/opp-repl/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T16:01:23.618508+00:00",
+  "published_at": "2026-04-27T16:05:55.710014+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T16:02:14.319183+00:00",
-  "title": "Personal PyPI Supply Chain Scan: shadow-diff 2.4.3",
-  "version": "2.4.3",
-  "version_slug": "2.4.3",
-  "_metadata_path": "reports/packages/shadow-diff/2.4.3/metadata.json"
+  "scanned_at": "2026-04-27T16:06:38.034877+00:00",
+  "title": "Personal PyPI Supply Chain Scan: opp-repl 0.1.3",
+  "version": "0.1.3",
+  "version_slug": "0.1.3",
+  "_metadata_path": "reports/packages/opp-repl/0.1.3/metadata.json"
 }
