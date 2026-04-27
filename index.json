@@ -1,6 +1,87 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "code_session_recall-0.1.1.tar.gz",
+    "finding_count": 26,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 3,
+          "files": [
+            "code_session_recall-0.1.1/PKG-INFO",
+            "code_session_recall-0.1.1/README.md",
+            "code_session_recall-0.1.1/code_session_recall.egg-info/PKG-INFO"
+          ],
+          "value": "devblogs.microsoft.com"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "code_session_recall-0.1.1/PKG-INFO",
+            "code_session_recall-0.1.1/README.md",
+            "code_session_recall-0.1.1/code_session_recall.egg-info/PKG-INFO",
+            "code_session_recall-0.1.1/pyproject.toml"
+          ],
+          "value": "github.com"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 3,
+          "files": [
+            "code_session_recall-0.1.1/PKG-INFO",
+            "code_session_recall-0.1.1/README.md",
+            "code_session_recall-0.1.1/code_session_recall.egg-info/PKG-INFO"
+          ],
+          "value": "https://devblogs.microsoft.com/all-things-azure/i-wasted-68-minutes-a-day-re-explaining-my-code-then-i-built-auto-memory/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "code_session_recall-0.1.1/PKG-INFO",
+            "code_session_recall-0.1.1/README.md",
+            "code_session_recall-0.1.1/code_session_recall.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/dezgit2025/auto-memory"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "code_session_recall-0.1.1/PKG-INFO",
+            "code_session_recall-0.1.1/code_session_recall.egg-info/PKG-INFO",
+            "code_session_recall-0.1.1/pyproject.toml"
+          ],
+          "value": "https://github.com/sle118/code-session-recall"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "code_session_recall-0.1.1/PKG-INFO",
+            "code_session_recall-0.1.1/code_session_recall.egg-info/PKG-INFO",
+            "code_session_recall-0.1.1/pyproject.toml"
+          ],
+          "value": "https://github.com/sle118/code-session-recall/issues"
+        }
+      ]
+    },
+    "package": "code-session-recall",
+    "package_slug": "code-session-recall",
+    "project_url": "https://pypi.org/project/code-session-recall/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T13:53:52.487050+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T13:54:29.957638+00:00",
+    "title": "Personal PyPI Supply Chain Scan: code-session-recall 0.1.1",
+    "version": "0.1.1",
+    "version_slug": "0.1.1",
+    "_metadata_path": "reports/packages/code-session-recall/0.1.1/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "lib_6107-2026.0.0.3.tar.gz",
     "finding_count": 14,
     "model": "gpt-5.5",

@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal PyPI Supply Chain Scan: code-session-recall 0.1.1</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 960px; line-height: 1.55; padding: 0 1rem; color: #1f2933; }
+    a { color: #1f5fbf; }
+    code { background: #f4f4f4; padding: 0.1rem 0.25rem; }
+    h1, h2, h3 { line-height: 1.2; }
+    li { margin: 0.35rem 0; }
+    nav { margin-bottom: 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #e5e9ef; padding: 0.55rem 0.65rem; text-align: left; vertical-align: top; }
+    th { color: #52616f; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; }
+    .scan-groups { margin-top: 1.2rem; }
+    .scan-day { border-top: 1px solid #d8dee4; display: grid; gap: 1rem; grid-template-columns: 10rem minmax(0, 1fr); padding: 1.1rem 0; }
+    .scan-day-date { color: #1f2933; font-weight: 700; }
+    .scan-day-date span { color: #52616f; display: block; font-size: 0.9rem; font-weight: 500; margin-top: 0.2rem; }
+    .scan-day-table { overflow-x: auto; }
+    .risk { display: inline-block; min-width: 4.8rem; text-align: center; border-radius: 999px; padding: 0.15rem 0.45rem; font-size: 0.78rem; font-weight: 700; }
+    .risk-info, .risk-low { background: #dcfce7; color: #166534; }
+    .risk-medium, .risk-unknown { background: #fef3c7; color: #92400e; }
+    .risk-high, .risk-critical { background: #fee2e2; color: #991b1b; }
+    .index-note { color: #52616f; margin-top: -0.35rem; }
+    .version { color: #52616f; margin-left: 0.2rem; white-space: nowrap; }
+    @media (max-width: 720px) {
+      .scan-day { grid-template-columns: 1fr; }
+      th, td { padding: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+<nav><a href='../../../../'>Index</a></nav><h1>Personal PyPI Supply Chain Scan: code-session-recall 0.1.1</h1>
+
+<ul>
+<li>Package: code-session-recall</li>
+<li>Version: 0.1.1</li>
+<li>Project URL: https://pypi.org/project/code-session-recall/</li>
+<li>Distribution: code_session_recall-0.1.1.tar.gz</li>
+<li>Package published at: 2026-04-27T13:53:52.487050+00:00</li>
+<li>Scan published at: 2026-04-27T13:54:29.957638+00:00</li>
+<li>Language: ko</li>
+<li>Model: gpt-5.5</li>
+<li>Prompt: malicious-supply-chain-review-v2 ([source](../../../../docs/prompts/malicious-supply-chain-review-v2.md))</li>
+<li>Disclaimer: This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</li>
+</ul>
+
+<h2>Deterministic Network Indicators</h2>
+
+<h3>Suspicious Endpoints</h3>
+
+<p>None</p>
+
+<h3>Raw Public IPs</h3>
+
+<p>None</p>
+
+<h3>URLs</h3>
+<ul>
+<li>https://devblogs.microsoft.com/all-things-azure/i-wasted-68-minutes-a-day-re-explaining-my-code-then-i-built-auto-memory/ (3 files: code_session_recall-0.1.1/PKG-INFO, code_session_recall-0.1.1/README.md, code_session_recall-0.1.1/code_session_recall.egg-info/PKG-INFO)</li>
+<li>https://github.com/dezgit2025/auto-memory (3 files: code_session_recall-0.1.1/PKG-INFO, code_session_recall-0.1.1/README.md, code_session_recall-0.1.1/code_session_recall.egg-info/PKG-INFO)</li>
+<li>https://github.com/sle118/code-session-recall (3 files: code_session_recall-0.1.1/PKG-INFO, code_session_recall-0.1.1/code_session_recall.egg-info/PKG-INFO, code_session_recall-0.1.1/pyproject.toml)</li>
+<li>https://github.com/sle118/code-session-recall/issues (3 files: code_session_recall-0.1.1/PKG-INFO, code_session_recall-0.1.1/code_session_recall.egg-info/PKG-INFO, code_session_recall-0.1.1/pyproject.toml)</li>
+</ul>
+
+<h3>Domains</h3>
+<ul>
+<li>devblogs.microsoft.com (3 files: code_session_recall-0.1.1/PKG-INFO, code_session_recall-0.1.1/README.md, code_session_recall-0.1.1/code_session_recall.egg-info/PKG-INFO)</li>
+<li>github.com (4 files: code_session_recall-0.1.1/PKG-INFO, code_session_recall-0.1.1/README.md, code_session_recall-0.1.1/code_session_recall.egg-info/PKG-INFO, code_session_recall-0.1.1/pyproject.toml)</li>
+</ul>
+
+<h2>판정</h2>
+
+<p>확인된 악성 공급망 침해 징후는 없습니다. 전체 위험도: **info**.</p>
+
+<h2>악성 공급망 징후</h2>
+
+<p>확인된 악성 공급망 징후 없음.</p>
+
+<h2>자동 실행 경로</h2>
+
+<ul>
+<li>제공된 본문에서 .pth, sitecustomize.py, usercustomize.py, 설치 시 실행되는 setup.py 코드, PEP 517 커스텀 빌드 훅, import-time 실행 부작용 근거는 확인되지 않았습니다.</li>
+<li>패키지는 csr CLI 사용을 문서화하고 있으며, 일반 console_scripts/CLI 실행은 사용자가 명령을 실행해야 하므로 악성 자동 실행 근거로 보지 않았습니다.</li>
+</ul>
+
+<h2>절취/전송/지속성/측면이동/은닉</h2>
+
+<ul>
+<li>**Credential harvesting:** 확인되지 않았습니다. csr.py는 VS Code/GitHub Copilot 세션, workspaceStorage, state.vscdb, chatSessions/*.jsonl 등을 읽어 인덱싱하는 기능을 포함하지만, 이는 패키지 설명과 일치하는 로컬 세션 회수 CLI 동작입니다. .env, SSH 키, 클라우드 자격 증명, CI 토큰 등을 광범위하게 찾는 근거는 제공된 본문에서 확인되지 않았습니다.</li>
+<li>**Exfiltration/staging:** 확인되지 않았습니다. zlib/gzip 사용은 VS Code blob/JSON 데이터 디코딩 용도로 보이며, 아카이브 생성, 임시 staging 후 업로드, 웹훅/외부 C2 전송 근거는 없습니다.</li>
+<li>**Persistence:** systemd, cron, launch agent, shell profile 수정, 백그라운드 루프 등 지속성 근거는 확인되지 않았습니다.</li>
+<li>**Lateral movement:** Kubernetes, Docker socket, cloud metadata, GitHub Actions/CI 토큰 사용 또는 워크플로 주입 근거는 확인되지 않았습니다.</li>
+<li>**Obfuscation/loader:** zlib.decompress, gzip.decompress, 정규식 사용이 탐지되었지만, eval/exec/동적 코드 실행/다운로더/암호화 페이로드 로더와 결합된 근거는 없습니다. 현재 증거상 악성 은닉 로더로 보기 어렵습니다.</li>
+</ul>
+
+<h2>배포 무결성 이상</h2>
+
+<ul>
+<li>제공된 매니페스트상 파일 수는 10개이며, 주요 파일은 csr.py, README/PKG-INFO, egg-info, pyproject.toml, setup.cfg입니다.</li>
+<li>예상 밖 네이티브 바이너리, 숨김 페이로드, typosquatting, 의심스러운 의존성 삽입, wheel/sdist 불일치 근거는 제공된 자료에서 확인되지 않았습니다.</li>
+<li>문서의 외부 URL은 GitHub 저장소 및 Microsoft DevBlogs 링크로, 악성 C2/드롭사이트로 볼 만한 근거는 없습니다.</li>
+</ul>
+
+<h2>추가 확인 필요</h2>
+
+<ul>
+<li>입력 본문에서 csr.py 후반부와 pyproject.toml/setup.cfg의 실제 내용은 일부만 또는 전혀 제공되지 않았으므로, 최종 판단을 위해 전체 파일 원문 확인이 필요합니다.</li>
+<li>PyPI sdist와 GitHub 소스 저장소 간 diff, 빌드 산출물 전체, wheel이 별도로 존재하는 경우 sdist/wheel 불일치 여부 확인이 필요합니다.</li>
+</ul>
+
+<p>---</p>
+
+<p>Prompt source: docs/prompts/malicious-supply-chain-review-v2.md</p>
+
+<p>This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</p>
+
+</body>
+</html>
