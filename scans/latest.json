@@ -1,113 +1,213 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "distillcore-0.7.0.tar.gz",
-  "finding_count": 30,
+  "distribution": "nsj_integracao_api_client-2.2502.0.52.tar.gz",
+  "finding_count": 12,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
         "file_count": 1,
         "files": [
-          "distillcore-0.7.0/tests/test_extractors.py"
+          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/infra/api_client.py"
         ],
-        "value": "file.xyz"
+        "value": "api.nasajon.dev"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/infra/api_client.py"
+        ],
+        "value": "api.nasajon.qa"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/infra/api_client.py"
+        ],
+        "value": "api4.nasajon.app"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/infra/api_client.py"
+        ],
+        "value": "dir.nasajon.dev"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/infra/api_client.py"
+        ],
+        "value": "dir.nasajon.qa"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/infra/api_client.py"
+        ],
+        "value": "diretorio.nasajon.com.br"
       },
       {
         "file_count": 3,
         "files": [
-          "distillcore-0.7.0/PKG-INFO",
-          "distillcore-0.7.0/docs/ROADMAP.md",
-          "distillcore-0.7.0/pyproject.toml"
+          "nsj_integracao_api_client-2.2502.0.52/PKG-INFO",
+          "nsj_integracao_api_client-2.2502.0.52/README.md",
+          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client.egg-info/PKG-INFO"
+        ],
+        "value": "gist.github.com"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "nsj_integracao_api_client-2.2502.0.52/PKG-INFO",
+          "nsj_integracao_api_client-2.2502.0.52/README.md",
+          "nsj_integracao_api_client-2.2502.0.52/setup.cfg",
+          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client.egg-info/PKG-INFO"
         ],
         "value": "github.com"
       },
       {
         "file_count": 1,
         "files": [
-          "distillcore-0.7.0/tests/test_batch.py"
+          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/client_console.py"
         ],
-        "value": "nonexistent.xyz"
+        "value": "sentry.nasajon.com.br"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "distillcore-0.7.0/src/distillcore/embedding/ollama.py"
+          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/infra/telemetria/config.py",
+          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/service/integrador.py"
         ],
-        "value": "ollama.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "distillcore-0.7.0/src/distillcore/llm/json_repair.py"
-        ],
-        "value": "raw.count"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "distillcore-0.7.0/src/distillcore/llm/json_repair.py"
-        ],
-        "value": "raw.rstrip"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "distillcore-0.7.0/tests/test_embedding.py"
-        ],
-        "value": "remote"
+        "value": "telemetria.nasajon.com.br"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 1,
-        "files": [
-          "distillcore-0.7.0/tests/test_embedding.py"
-        ],
-        "value": "http://remote:8080"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "distillcore-0.7.0/tests/test_embedding.py"
-        ],
-        "value": "http://remote:8080/api/embed"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "distillcore-0.7.0/docs/ROADMAP.md"
-        ],
-        "value": "https://github.com/asg017/sqlite-vec"
-      },
-      {
         "file_count": 2,
         "files": [
-          "distillcore-0.7.0/PKG-INFO",
-          "distillcore-0.7.0/pyproject.toml"
+          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/infra/telemetria/config.py",
+          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/service/integrador.py"
         ],
-        "value": "https://github.com/mfbaig35r/distillcore"
+        "value": "http://telemetria.nasajon.com.br/api/events"
       },
       {
         "file_count": 1,
         "files": [
-          "distillcore-0.7.0/src/distillcore/embedding/ollama.py"
+          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/infra/api_client.py"
         ],
-        "value": "https://ollama.com"
+        "value": "https://api.nasajon.dev/integracao-pessoas-api/66"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/infra/api_client.py"
+        ],
+        "value": "https://api.nasajon.qa/integracao-pessoas-api/66"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/infra/api_client.py"
+        ],
+        "value": "https://api4.nasajon.app/integracao-pessoas-api/66"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/infra/api_client.py"
+        ],
+        "value": "https://dir.nasajon.dev"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/infra/api_client.py"
+        ],
+        "value": "https://dir.nasajon.qa"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/infra/api_client.py"
+        ],
+        "value": "https://diretorio.nasajon.com.br"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client/client_console.py"
+        ],
+        "value": "https://f35985d919a74482949f2d06c29b94dc@sentry.nasajon.com.br/80"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "nsj_integracao_api_client-2.2502.0.52/PKG-INFO",
+          "nsj_integracao_api_client-2.2502.0.52/README.md",
+          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client.egg-info/PKG-INFO"
+        ],
+        "value": "https://gist.github.com/r00tdaemon/1dcd57542bdaf3c9d1b0dd526ccd44ff"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "nsj_integracao_api_client-2.2502.0.52/PKG-INFO",
+          "nsj_integracao_api_client-2.2502.0.52/README.md",
+          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/Nasajon/Jobmanager?#integracao_apis"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "nsj_integracao_api_client-2.2502.0.52/PKG-INFO",
+          "nsj_integracao_api_client-2.2502.0.52/README.md",
+          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/Nasajon/integracao-pessoas-api"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "nsj_integracao_api_client-2.2502.0.52/PKG-INFO",
+          "nsj_integracao_api_client-2.2502.0.52/setup.cfg",
+          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/Nasajon/nsj_integracao_api_client"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "nsj_integracao_api_client-2.2502.0.52/PKG-INFO",
+          "nsj_integracao_api_client-2.2502.0.52/README.md",
+          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/Nasajon/nsj_integracao_api_entidades"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "nsj_integracao_api_client-2.2502.0.52/PKG-INFO",
+          "nsj_integracao_api_client-2.2502.0.52/README.md",
+          "nsj_integracao_api_client-2.2502.0.52/src/nsj_integracao_api_client.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/Nasajon/nsj_rest_lib"
       }
     ]
   },
-  "package": "distillcore",
-  "package_slug": "distillcore",
-  "project_url": "https://pypi.org/project/distillcore/",
+  "package": "nsj-integracao-api-client",
+  "package_slug": "nsj-integracao-api-client",
+  "project_url": "https://pypi.org/project/nsj-integracao-api-client/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T19:30:48.659244+00:00",
+  "published_at": "2026-04-27T19:34:56.709792+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T19:31:24.657624+00:00",
-  "title": "Personal PyPI Supply Chain Scan: distillcore 0.7.0",
-  "version": "0.7.0",
-  "version_slug": "0.7.0",
-  "_metadata_path": "reports/packages/distillcore/0.7.0/metadata.json"
+  "scanned_at": "2026-04-27T19:35:48.401495+00:00",
+  "title": "Personal PyPI Supply Chain Scan: nsj-integracao-api-client 2.2502.0.52",
+  "version": "2.2502.0.52",
+  "version_slug": "2.2502.0.52",
+  "_metadata_path": "reports/packages/nsj-integracao-api-client/2.2502.0.52/metadata.json"
 }
