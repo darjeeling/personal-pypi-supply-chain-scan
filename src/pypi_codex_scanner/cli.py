@@ -62,7 +62,7 @@ def _run(config_path: Path, *, force: bool, dry_run: bool) -> int:
             try:
                 extracted = extract_in_container(config, release)
                 result = scan_release(client, release, extracted)
-                report_path = write_report(config.paths.reports_dir, release, result)
+                report_path = write_report(config.paths.reports_dir, release, result, extracted.prescan)
                 store.mark(package, "scanned", report_path=report_path)
                 print(f"report {report_path}")
             except Exception as exc:
@@ -75,4 +75,3 @@ def _run(config_path: Path, *, force: bool, dry_run: bool) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

@@ -11,7 +11,7 @@ PyPI RSS updates feed에서 최신 publish 패키지를 가져오고, 호스트�
 5. Python AST, 텍스트/manifest 휴리스틱, `ast-grep` 구조 검색으로 deterministic pre-scan을 수행합니다.
 6. pre-scan finding과 의심 파일 중심의 짧은 evidence corpus만 LLM에 전달합니다.
 7. `~/.codex/auth.json`의 Codex OAuth access token으로 OpenAI Responses API를 직접 호출해 `gpt-5.5` 보안 검사를 수행합니다.
-8. 결과를 Markdown report로 저장하고 SQLite에 처리 이력을 남깁니다.
+8. 추출된 URL/DNS/raw public IP/suspicious endpoint inventory와 LLM 판단 결과를 Markdown report로 저장하고 SQLite에 처리 이력을 남깁니다.
 
 패키지 설치, build hook 실행, `setup.py` 실행은 하지 않습니다.
 

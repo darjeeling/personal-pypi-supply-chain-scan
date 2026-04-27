@@ -59,8 +59,36 @@ KNOWN_BENIGN_DOMAINS = {
     "files.pythonhosted.org",
     "readthedocs.io",
     "docs.python.org",
-    "example.com",
     "localhost",
+}
+IGNORED_INVENTORY_DOMAINS = {"example.com", "example.org", "example.net"}
+COMMON_CODE_SUFFIXES = {
+    "add",
+    "append",
+    "classlist",
+    "click",
+    "decode",
+    "decrypt",
+    "disabled",
+    "encode",
+    "encrypt",
+    "get",
+    "href",
+    "id",
+    "innerhtml",
+    "innertext",
+    "json",
+    "match",
+    "name",
+    "now",
+    "post",
+    "route",
+    "run",
+    "startswith",
+    "text",
+    "tree",
+    "type",
+    "util",
 }
 SUSPICIOUS_DOMAIN_SUFFIXES = {
     "webhook.site",
@@ -243,7 +271,7 @@ def _scan_text(rel: str, text: str) -> list[PreScanFinding]:
                     _line_at(text, line) if line else url[:240],
                 )
             )
-    for host in _extract_hosts(text):
+    for host in _extract_bare_hosts(text):
         if _is_suspicious_domain(host):
             line = _line_for_substring(text, host)
             findings.append(
@@ -296,7 +324,7 @@ class NetworkIndicators:
                     self._add(self.suspicious_endpoints, url, rel)
                 if _is_public_ip_literal(host):
                     self._add(self.raw_public_ips, host, rel)
-        for host in _extract_hosts(text):
+        for host in _extract_bare_hosts(text):
             self._add_host(rel, host)
             if _is_suspicious_domain(host):
                 self._add(self.suspicious_endpoints, host, rel)
@@ -570,11 +598,11 @@ def _extract_urls(text: str) -> list[str]:
     return [match.group(0).rstrip(".,;:") for match in URL_RE.finditer(text)]
 
 
-def _extract_hosts(text: str) -> list[str]:
+def _extract_bare_hosts(text: str) -> list[str]:
     hosts: list[str] = []
     for match in HOST_RE.finditer(text):
         host = _normalize_host(match.group(0))
-        if host and not _looks_like_filename(host):
+        if host and not _looks_like_filename(host) and _should_keep_bare_host(host):
             hosts.append(host)
     return hosts
 
@@ -601,7 +629,19 @@ def _is_suspicious_domain(host: str) -> bool:
     return False
 
 
+def _should_keep_bare_host(host: str) -> bool:
+    if host in KNOWN_BENIGN_DOMAINS or _is_suspicious_domain(host):
+        return True
+    if host.startswith(("api.", "cdn.", "download.", "files.", "raw.")):
+        return True
+    if host.endswith((".cloud", ".zone", ".top", ".xyz", ".icu", ".click")):
+        return True
+    return False
+
+
 def _should_ignore_host(host: str) -> bool:
+    if host in IGNORED_INVENTORY_DOMAINS:
+        return True
     if host in KNOWN_BENIGN_DOMAINS:
         return False
     if _is_private_or_local_host(host):
@@ -610,6 +650,9 @@ def _should_ignore_host(host: str) -> bool:
 
 
 def _looks_like_filename(host: str) -> bool:
+    labels = host.split(".")
+    if labels[-1] in COMMON_CODE_SUFFIXES:
+        return True
     suffix = Path(host).suffix.lower()
     return suffix in TEXT_SUFFIXES or suffix in BINARY_SUFFIXES or suffix in {".pyc", ".dist-info", ".egg-info"}
 
