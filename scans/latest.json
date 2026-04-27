@@ -1,58 +1,168 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "quonfig_openfeature-0.0.3.tar.gz",
-  "finding_count": 1,
+  "distribution": "alibabacloud_documentparseservice20260414-1.0.1.tar.gz",
+  "finding_count": 2,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 2,
+        "file_count": 4,
         "files": [
-          "quonfig_openfeature-0.0.3/PKG-INFO",
-          "quonfig_openfeature-0.0.3/README.md"
+          "alibabacloud_documentparseservice20260414-1.0.1/PKG-INFO",
+          "alibabacloud_documentparseservice20260414-1.0.1/README-CN.md",
+          "alibabacloud_documentparseservice20260414-1.0.1/README.md",
+          "alibabacloud_documentparseservice20260414-1.0.1/alibabacloud_documentparseservice20260414.egg-info/PKG-INFO"
         ],
-        "value": "openfeature.dev"
+        "value": "aliyunsdk-pages.alicdn.com"
       },
       {
-        "file_count": 2,
+        "file_count": 5,
         "files": [
-          "quonfig_openfeature-0.0.3/PKG-INFO",
-          "quonfig_openfeature-0.0.3/README.md"
+          "alibabacloud_documentparseservice20260414-1.0.1/PKG-INFO",
+          "alibabacloud_documentparseservice20260414-1.0.1/README-CN.md",
+          "alibabacloud_documentparseservice20260414-1.0.1/README.md",
+          "alibabacloud_documentparseservice20260414-1.0.1/alibabacloud_documentparseservice20260414.egg-info/PKG-INFO",
+          "alibabacloud_documentparseservice20260414-1.0.1/setup.py"
         ],
-        "value": "quonfig.com"
+        "value": "github.com"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "alibabacloud_documentparseservice20260414-1.0.1/PKG-INFO",
+          "alibabacloud_documentparseservice20260414-1.0.1/README-CN.md",
+          "alibabacloud_documentparseservice20260414-1.0.1/README.md",
+          "alibabacloud_documentparseservice20260414-1.0.1/alibabacloud_documentparseservice20260414.egg-info/PKG-INFO"
+        ],
+        "value": "pip.pypa.io"
+      },
+      {
+        "file_count": 6,
+        "files": [
+          "alibabacloud_documentparseservice20260414-1.0.1/LICENSE",
+          "alibabacloud_documentparseservice20260414-1.0.1/PKG-INFO",
+          "alibabacloud_documentparseservice20260414-1.0.1/README-CN.md",
+          "alibabacloud_documentparseservice20260414-1.0.1/README.md",
+          "alibabacloud_documentparseservice20260414-1.0.1/alibabacloud_documentparseservice20260414.egg-info/PKG-INFO",
+          "alibabacloud_documentparseservice20260414-1.0.1/setup.py"
+        ],
+        "value": "www.apache.org"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 2,
+        "file_count": 6,
         "files": [
-          "quonfig_openfeature-0.0.3/PKG-INFO",
-          "quonfig_openfeature-0.0.3/README.md"
+          "alibabacloud_documentparseservice20260414-1.0.1/LICENSE",
+          "alibabacloud_documentparseservice20260414-1.0.1/PKG-INFO",
+          "alibabacloud_documentparseservice20260414-1.0.1/README-CN.md",
+          "alibabacloud_documentparseservice20260414-1.0.1/README.md",
+          "alibabacloud_documentparseservice20260414-1.0.1/alibabacloud_documentparseservice20260414.egg-info/PKG-INFO",
+          "alibabacloud_documentparseservice20260414-1.0.1/setup.py"
         ],
-        "value": "https://openfeature.dev"
+        "value": "http://www.apache.org/licenses/LICENSE-2.0"
       },
       {
-        "file_count": 2,
+        "file_count": 4,
         "files": [
-          "quonfig_openfeature-0.0.3/PKG-INFO",
-          "quonfig_openfeature-0.0.3/README.md"
+          "alibabacloud_documentparseservice20260414-1.0.1/PKG-INFO",
+          "alibabacloud_documentparseservice20260414-1.0.1/README-CN.md",
+          "alibabacloud_documentparseservice20260414-1.0.1/README.md",
+          "alibabacloud_documentparseservice20260414-1.0.1/alibabacloud_documentparseservice20260414.egg-info/PKG-INFO"
         ],
-        "value": "https://quonfig.com"
+        "value": "https://aliyunsdk-pages.alicdn.com/icons/AlibabaCloud.svg"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "alibabacloud_documentparseservice20260414-1.0.1/PKG-INFO",
+          "alibabacloud_documentparseservice20260414-1.0.1/alibabacloud_documentparseservice20260414.egg-info/PKG-INFO",
+          "alibabacloud_documentparseservice20260414-1.0.1/setup.py"
+        ],
+        "value": "https://github.com/aliyun/alibabacloud-python-sdk"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "alibabacloud_documentparseservice20260414-1.0.1/README-CN.md"
+        ],
+        "value": "https://github.com/aliyun/alibabacloud-python-sdk/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "alibabacloud_documentparseservice20260414-1.0.1/README-CN.md"
+        ],
+        "value": "https://github.com/aliyun/alibabacloud-python-sdk/blob/master/docs/0-Usage-CN.md#%E5%BF%AB%E9%80%9F%E4%BD%BF%E7%94%A8"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "alibabacloud_documentparseservice20260414-1.0.1/PKG-INFO",
+          "alibabacloud_documentparseservice20260414-1.0.1/README.md",
+          "alibabacloud_documentparseservice20260414-1.0.1/alibabacloud_documentparseservice20260414.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/aliyun/alibabacloud-python-sdk/blob/master/docs/0-Usage-EN.md#quick-examples"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "alibabacloud_documentparseservice20260414-1.0.1/PKG-INFO",
+          "alibabacloud_documentparseservice20260414-1.0.1/README-CN.md",
+          "alibabacloud_documentparseservice20260414-1.0.1/README.md",
+          "alibabacloud_documentparseservice20260414-1.0.1/alibabacloud_documentparseservice20260414.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/aliyun/alibabacloud-python-sdk/blob/master/documentparseservice-20260414/ChangeLog.md"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "alibabacloud_documentparseservice20260414-1.0.1/README-CN.md"
+        ],
+        "value": "https://github.com/aliyun/alibabacloud-python-sdk/issues/new"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "alibabacloud_documentparseservice20260414-1.0.1/PKG-INFO",
+          "alibabacloud_documentparseservice20260414-1.0.1/README.md",
+          "alibabacloud_documentparseservice20260414-1.0.1/alibabacloud_documentparseservice20260414.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/aliyun/alibabacloud-sdk/issues/new"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "alibabacloud_documentparseservice20260414-1.0.1/PKG-INFO",
+          "alibabacloud_documentparseservice20260414-1.0.1/README.md",
+          "alibabacloud_documentparseservice20260414-1.0.1/alibabacloud_documentparseservice20260414.egg-info/PKG-INFO"
+        ],
+        "value": "https://github.com/aliyun/alibabacloud-sdk/tree/master/python"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "alibabacloud_documentparseservice20260414-1.0.1/PKG-INFO",
+          "alibabacloud_documentparseservice20260414-1.0.1/README-CN.md",
+          "alibabacloud_documentparseservice20260414-1.0.1/README.md",
+          "alibabacloud_documentparseservice20260414-1.0.1/alibabacloud_documentparseservice20260414.egg-info/PKG-INFO"
+        ],
+        "value": "https://pip.pypa.io/en/stable/installing/"
       }
     ]
   },
-  "package": "quonfig-openfeature",
-  "package_slug": "quonfig-openfeature",
-  "project_url": "https://pypi.org/project/quonfig-openfeature/",
+  "package": "alibabacloud-documentparseservice20260414",
+  "package_slug": "alibabacloud-documentparseservice20260414",
+  "project_url": "https://pypi.org/project/alibabacloud-documentparseservice20260414/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T14:11:08.157262+00:00",
+  "published_at": "2026-04-27T14:14:55.271766+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T14:11:53.866638+00:00",
-  "title": "Personal PyPI Supply Chain Scan: quonfig-openfeature 0.0.3",
-  "version": "0.0.3",
-  "version_slug": "0.0.3",
-  "_metadata_path": "reports/packages/quonfig-openfeature/0.0.3/metadata.json"
+  "scanned_at": "2026-04-27T14:16:11.797210+00:00",
+  "title": "Personal PyPI Supply Chain Scan: alibabacloud-documentparseservice20260414 1.0.1",
+  "version": "1.0.1",
+  "version_slug": "1.0.1",
+  "_metadata_path": "reports/packages/alibabacloud-documentparseservice20260414/1.0.1/metadata.json"
 }
