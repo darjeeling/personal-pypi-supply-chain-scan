@@ -1,6 +1,119 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "distillcore-0.7.0.tar.gz",
+    "finding_count": 30,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "distillcore-0.7.0/tests/test_extractors.py"
+          ],
+          "value": "file.xyz"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "distillcore-0.7.0/PKG-INFO",
+            "distillcore-0.7.0/docs/ROADMAP.md",
+            "distillcore-0.7.0/pyproject.toml"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "distillcore-0.7.0/tests/test_batch.py"
+          ],
+          "value": "nonexistent.xyz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "distillcore-0.7.0/src/distillcore/embedding/ollama.py"
+          ],
+          "value": "ollama.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "distillcore-0.7.0/src/distillcore/llm/json_repair.py"
+          ],
+          "value": "raw.count"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "distillcore-0.7.0/src/distillcore/llm/json_repair.py"
+          ],
+          "value": "raw.rstrip"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "distillcore-0.7.0/tests/test_embedding.py"
+          ],
+          "value": "remote"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "distillcore-0.7.0/tests/test_embedding.py"
+          ],
+          "value": "http://remote:8080"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "distillcore-0.7.0/tests/test_embedding.py"
+          ],
+          "value": "http://remote:8080/api/embed"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "distillcore-0.7.0/docs/ROADMAP.md"
+          ],
+          "value": "https://github.com/asg017/sqlite-vec"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "distillcore-0.7.0/PKG-INFO",
+            "distillcore-0.7.0/pyproject.toml"
+          ],
+          "value": "https://github.com/mfbaig35r/distillcore"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "distillcore-0.7.0/src/distillcore/embedding/ollama.py"
+          ],
+          "value": "https://ollama.com"
+        }
+      ]
+    },
+    "package": "distillcore",
+    "package_slug": "distillcore",
+    "project_url": "https://pypi.org/project/distillcore/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T19:30:48.659244+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T19:31:24.657624+00:00",
+    "title": "Personal PyPI Supply Chain Scan: distillcore 0.7.0",
+    "version": "0.7.0",
+    "version_slug": "0.7.0",
+    "_metadata_path": "reports/packages/distillcore/0.7.0/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "llama_agents_agentcore-0.9.1.tar.gz",
     "finding_count": 4,
     "model": "gpt-5.5",
