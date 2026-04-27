@@ -1,343 +1,618 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "sysnet_soft_delete-0.2.0.tar.gz",
-  "finding_count": 6,
+  "distribution": "truefoundry-0.15.0rc2.tar.gz",
+  "finding_count": 83,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
         "file_count": 2,
         "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/README.md"
+          "truefoundry-0.15.0rc2/truefoundry/autodeploy/constants.py",
+          "truefoundry-0.15.0rc2/truefoundry/ml/constants.py"
         ],
-        "value": "beanie-odm.dev"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/README.md"
-        ],
-        "value": "docs.python.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sysnet_soft_delete-0.2.0/LICENSE.md",
-          "sysnet_soft_delete-0.2.0/PKG-INFO"
-        ],
-        "value": "fsf.org"
-      },
-      {
-        "file_count": 5,
-        "files": [
-          "sysnet_soft_delete-0.2.0/.gitignore",
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/README.md",
-          "sysnet_soft_delete-0.2.0/docs/technical.md",
-          "sysnet_soft_delete-0.2.0/pyproject.toml"
-        ],
-        "value": "github.com"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/README.md"
-        ],
-        "value": "img.shields.io"
+        "value": "app.truefoundry.com"
       },
       {
         "file_count": 1,
         "files": [
-          "sysnet_soft_delete-0.2.0/CHANGELOG.md"
+          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
         ],
-        "value": "keepachangelog.com"
+        "value": "cloud.google.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/builder/utils.py"
+        ],
+        "value": "deb.debian.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+        ],
+        "value": "docs.aws.amazon.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+        ],
+        "value": "docs.nvidia.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/logger.py"
+        ],
+        "value": "docs.python.org"
+      },
+      {
+        "file_count": 5,
+        "files": [
+          "truefoundry-0.15.0rc2/PKG-INFO",
+          "truefoundry-0.15.0rc2/README.md",
+          "truefoundry-0.15.0rc2/truefoundry/cli/__main__.py",
+          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py",
+          "truefoundry-0.15.0rc2/truefoundry/deploy/v2/lib/patched_models.py"
+        ],
+        "value": "docs.truefoundry.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/ml/cli/commands/download.py"
+        ],
+        "value": "download.command"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api_client.py"
+        ],
+        "value": "files.items"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/builder/builders/tfy_spark_buildpack/dockerfile_template.py"
+        ],
+        "value": "git.io"
+      },
+      {
+        "file_count": 250,
+        "files": [
+          "truefoundry-0.15.0rc2/.gitignore",
+          "truefoundry-0.15.0rc2/PKG-INFO",
+          "truefoundry-0.15.0rc2/README.md",
+          "truefoundry-0.15.0rc2/truefoundry/autodeploy/tools/docker_build.py",
+          "truefoundry-0.15.0rc2/truefoundry/deploy/builder/builders/tfy_spark_buildpack/tfy_execute_notebook.py",
+          "truefoundry-0.15.0rc2/truefoundry/deploy/cli/commands/deploy_command.py",
+          "truefoundry-0.15.0rc2/truefoundry/deploy/cli/commands/patch_application_command.py",
+          "truefoundry-0.15.0rc2/truefoundry/deploy/lib/win32.py"
+        ],
+        "value": "github.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+        ],
+        "value": "hub.docker.com"
       },
       {
         "file_count": 2,
         "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/README.md"
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/models/transformers_framework.py",
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/entities/artifacts.py"
         ],
-        "value": "mypy.readthedocs.io"
+        "value": "huggingface.co"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/README.md"
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client_README.md"
         ],
-        "value": "peps.python.org"
+        "value": "localhost*"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/README.md"
+          "truefoundry-0.15.0rc2/truefoundry/deploy/lib/win32.py"
         ],
-        "value": "pymongo.readthedocs.io"
+        "value": "msdn.microsoft.com"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/README.md"
+          "truefoundry-0.15.0rc2/truefoundry/deploy/builder/builders/tfy_spark_buildpack/tfy_execute_notebook.py"
         ],
-        "value": "pypi.org"
+        "value": "nbconvert.readthedocs.io"
       },
       {
-        "file_count": 4,
+        "file_count": 1,
         "files": [
-          "sysnet_soft_delete-0.2.0/CHANGELOG.md",
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/README.md",
-          "sysnet_soft_delete-0.2.0/docs/technical.md"
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/models/schema.py"
         ],
-        "value": "semver.org"
+        "value": "numpy.org"
       },
       {
-        "file_count": 2,
+        "file_count": 238,
         "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/README.md"
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/__init__.py",
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/auth_api.py",
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/deprecated_api.py",
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/experiments_api.py",
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/generate_code_snippet_api.py",
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/health_api.py",
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/metrics_api.py",
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/mlfoundry_artifacts_api.py"
         ],
-        "value": "www.mongodb.com"
+        "value": "openapi-generator.tech"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/README.md"
+          "truefoundry-0.15.0rc2/truefoundry/deploy/builder/builders/tfy_spark_buildpack/tfy_execute_notebook.py"
         ],
-        "value": "www.python.org"
+        "value": "papermill.readthedocs.io"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/builder/builders/tfy_python_buildpack/dockerfile_template.py"
+        ],
+        "value": "ppa.launchpadcontent.net"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+        ],
+        "value": "spark.apache.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+        ],
+        "value": "spot.io"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/rest.py"
+        ],
+        "value": "urllib3.readthedocs.io"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/models/utils.py"
+        ],
+        "value": "www.mlflow.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/common/request_utils.py"
+        ],
+        "value": "www.peterbe.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+        ],
+        "value": "www.truefoundry.com"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/README.md"
+          "truefoundry-0.15.0rc2/truefoundry/deploy/builder/utils.py"
         ],
-        "value": "https://beanie-odm.dev/"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/README.md"
-        ],
-        "value": "https://docs.python.org/3/library/asyncio.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sysnet_soft_delete-0.2.0/LICENSE.md",
-          "sysnet_soft_delete-0.2.0/PKG-INFO"
-        ],
-        "value": "https://fsf.org/"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/README.md",
-          "sysnet_soft_delete-0.2.0/docs/technical.md",
-          "sysnet_soft_delete-0.2.0/pyproject.toml"
-        ],
-        "value": "https://github.com/sysnet-cz/sysnet-soft-delete"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/pyproject.toml"
-        ],
-        "value": "https://github.com/sysnet-cz/sysnet-soft-delete/blob/main/CHANGELOG.md"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/pyproject.toml"
-        ],
-        "value": "https://github.com/sysnet-cz/sysnet-soft-delete/issues"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/pyproject.toml"
-        ],
-        "value": "https://github.com/sysnet-cz/sysnet-soft-delete/tree/main/docs"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/README.md"
-        ],
-        "value": "https://img.shields.io/badge/MongoDB-5%2B-4db33d?logo=mongodb&logoColor=white"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/README.md"
-        ],
-        "value": "https://img.shields.io/badge/asyncio-native-brightgreen?logo=python&logoColor=white"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/README.md"
-        ],
-        "value": "https://img.shields.io/badge/beanie-2.x-4db33d?logo=mongodb&logoColor=white"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/README.md"
-        ],
-        "value": "https://img.shields.io/badge/license-AGPLv3%2B-blue.svg"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/README.md"
-        ],
-        "value": "https://img.shields.io/badge/mypy-strict-2a6db5"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/README.md"
-        ],
-        "value": "https://img.shields.io/badge/pymongo-4%2B-green"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/README.md"
-        ],
-        "value": "https://img.shields.io/badge/python-3.10%2B-blue?logo=python&logoColor=white"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/README.md"
-        ],
-        "value": "https://img.shields.io/badge/tests-47%20passed-brightgreen?logo=pytest&logoColor=white"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/README.md"
-        ],
-        "value": "https://img.shields.io/badge/typing-py.typed-blueviolet"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/README.md"
-        ],
-        "value": "https://img.shields.io/pypi/v/sysnet-soft-delete?logo=pypi&logoColor=white"
+        "value": "http://deb.debian.org"
       },
       {
         "file_count": 1,
         "files": [
-          "sysnet_soft_delete-0.2.0/CHANGELOG.md"
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client_README.md"
         ],
-        "value": "https://keepachangelog.com/en/1.0.0/"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/README.md"
-        ],
-        "value": "https://mypy.readthedocs.io/"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/README.md"
-        ],
-        "value": "https://peps.python.org/pep-0561/"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/README.md"
-        ],
-        "value": "https://pymongo.readthedocs.io/"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/README.md"
-        ],
-        "value": "https://pypi.org/project/sysnet-soft-delete/"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/README.md",
-          "sysnet_soft_delete-0.2.0/docs/technical.md"
-        ],
-        "value": "https://semver.org/"
+        "value": "http://localhost*"
       },
       {
         "file_count": 1,
         "files": [
-          "sysnet_soft_delete-0.2.0/CHANGELOG.md"
+          "truefoundry-0.15.0rc2/truefoundry/deploy/lib/win32.py"
         ],
-        "value": "https://semver.org/spec/v2.0.0.html"
+        "value": "http://msdn.microsoft.com/en-us/library/ms686016.aspx"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/rest.py"
+        ],
+        "value": "http://urllib3.readthedocs.io/en/latest/advanced-usage.html"
       },
       {
         "file_count": 2,
         "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/README.md"
+          "truefoundry-0.15.0rc2/truefoundry/autodeploy/constants.py",
+          "truefoundry-0.15.0rc2/truefoundry/ml/constants.py"
         ],
-        "value": "https://www.mongodb.com/"
+        "value": "https://app.truefoundry.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+        ],
+        "value": "https://cloud.google.com/kubernetes-engine/docs/concepts/tpus#plan-tpu-configuration"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+        ],
+        "value": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-short-and-long-polling.html"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+        ],
+        "value": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-visibility-timeout.html"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+        ],
+        "value": "https://docs.nvidia.com/datacenter/tesla/mig-user-guide/#supported-mig-profiles"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/logger.py"
+        ],
+        "value": "https://docs.python.org/3/howto/logging.html#library-config"
       },
       {
         "file_count": 2,
         "files": [
-          "sysnet_soft_delete-0.2.0/PKG-INFO",
-          "sysnet_soft_delete-0.2.0/README.md"
+          "truefoundry-0.15.0rc2/PKG-INFO",
+          "truefoundry-0.15.0rc2/README.md"
         ],
-        "value": "https://www.python.org/"
+        "value": "https://docs.truefoundry.com/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/cli/__main__.py"
+        ],
+        "value": "https://docs.truefoundry.com/docs"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/v2/lib/patched_models.py"
+        ],
+        "value": "https://docs.truefoundry.com/docs/checking-configured-domain"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+        ],
+        "value": "https://docs.truefoundry.com/docs/define-ports-and-domains"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+        ],
+        "value": "https://docs.truefoundry.com/docs/deploy-a-cron-job"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+        ],
+        "value": "https://docs.truefoundry.com/docs/download-and-cache-models"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+        ],
+        "value": "https://docs.truefoundry.com/docs/env-variables"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+        ],
+        "value": "https://docs.truefoundry.com/docs/environment-variables-and-secrets-jobs"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+        ],
+        "value": "https://docs.truefoundry.com/docs/list-of-supported-timezones"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+        ],
+        "value": "https://docs.truefoundry.com/docs/liveness-readiness-probe"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+        ],
+        "value": "https://docs.truefoundry.com/docs/mounting-volumes-job"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+        ],
+        "value": "https://docs.truefoundry.com/docs/mounting-volumes-service"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+        ],
+        "value": "https://docs.truefoundry.com/docs/rollout-strategy"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/cli/__main__.py"
+        ],
+        "value": "https://docs.truefoundry.com/docs[/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/builder/builders/tfy_spark_buildpack/dockerfile_template.py"
+        ],
+        "value": "https://git.io/coursier-cli"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/logger.py"
+        ],
+        "value": "https://github.com/Textualize/rich/discussions/344"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/autodeploy/tools/docker_build.py"
+        ],
+        "value": "https://github.com/docker/docker-py/blob/9ad4bddc9ee23f3646f256280a21ef86274e39bc/docker/models/images.py#L220"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/builder/builders/tfy_spark_buildpack/tfy_execute_notebook.py"
+        ],
+        "value": "https://github.com/gaul/s3proxy/issues/765"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/ml/git_info.py"
+        ],
+        "value": "https://github.com/gitpython-developers/GitPython/blob/cd29f07b2efda24bdc690626ed557590289d11a6/git/cmd.py#L365"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/ml/log_types/image/image_normalizer.py"
+        ],
+        "value": "https://github.com/matplotlib/matplotlib/blob/06567e021f21be046b6d6dcf00380c1cb9adaf3c/lib/matplotlib/image.py#L684"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/models/utils.py"
+        ],
+        "value": "https://github.com/mlflow/mlflow/pull/10125#discussion_r1372751487"
+      },
+      {
+        "file_count": 238,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/__init__.py",
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/auth_api.py",
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/deprecated_api.py",
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/experiments_api.py",
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/generate_code_snippet_api.py",
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/health_api.py",
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/metrics_api.py",
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/mlfoundry_artifacts_api.py"
+        ],
+        "value": "https://github.com/openapitools/openapi-generator"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/cli/commands/deploy_command.py",
+          "truefoundry-0.15.0rc2/truefoundry/deploy/cli/commands/patch_application_command.py"
+        ],
+        "value": "https://github.com/pallets/click/blob/2d610e36a429bfebf0adb0ca90cdc0585f296369/docs/options.md?plain=1#L295"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/logger.py"
+        ],
+        "value": "https://github.com/pycontribs/enrich/blob/main/src/enrich/logging.py"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/rest.py"
+        ],
+        "value": "https://github.com/shazow/urllib3/blob/f9409436f83aeb79fbaf090181cd81b784f1b8ce/urllib3/connectionpool.py#L680"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/rest.py"
+        ],
+        "value": "https://github.com/shazow/urllib3/blob/f9409436f83aeb79fbaf090181cd81b784f1b8ce/urllib3/poolmanager.py#L75"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "truefoundry-0.15.0rc2/PKG-INFO",
+          "truefoundry-0.15.0rc2/README.md"
+        ],
+        "value": "https://github.com/truefoundry/getting-started-examples"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/ml/log_types/image/image_normalizer.py"
+        ],
+        "value": "https://github.com/truefoundry/mlfoundry-server/blob/c2334ace8f35322cd5e50c275b8df08327688c01/mlflow/tracking/client.py#L1188"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/lib/win32.py"
+        ],
+        "value": "https://github.com/zeromq/pyzmq/blob/3e7e83a841829fcb46b7e1a881d968fb5471ef62/zmq/utils/win32.py"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+        ],
+        "value": "https://hub.docker.com/_/python"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+        ],
+        "value": "https://hub.docker.com/r/nvidia/cuda/tags"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/models/transformers_framework.py",
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/entities/artifacts.py"
+        ],
+        "value": "https://huggingface.co/docs/transformers/main/en/main_classes/pipelines#transformers.pipeline.task"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/builder/builders/tfy_spark_buildpack/tfy_execute_notebook.py"
+        ],
+        "value": "https://nbconvert.readthedocs.io/en/latest/customizing.html#where-are-nbconvert-templates-installed"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/models/schema.py"
+        ],
+        "value": "https://numpy.org/devdocs/reference/generated/numpy.dtype.html#numpy.dtype"
+      },
+      {
+        "file_count": 238,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/__init__.py",
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/auth_api.py",
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/deprecated_api.py",
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/experiments_api.py",
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/generate_code_snippet_api.py",
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/health_api.py",
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/metrics_api.py",
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/client/api/mlfoundry_artifacts_api.py"
+        ],
+        "value": "https://openapi-generator.tech"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/builder/builders/tfy_spark_buildpack/tfy_execute_notebook.py"
+        ],
+        "value": "https://papermill.readthedocs.io/en/latest/extending-entry-points.html"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/builder/builders/tfy_python_buildpack/dockerfile_template.py"
+        ],
+        "value": "https://ppa.launchpadcontent.net/deadsnakes/ppa/ubuntu"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+        ],
+        "value": "https://spark.apache.org/docs/latest/configuration.html"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+        ],
+        "value": "https://spot.io/resources/kubernetes-autoscaling/5-kubernetes-deployment-strategies-roll-out-like-the-pros/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/ml/_autogen/models/utils.py"
+        ],
+        "value": "https://www.mlflow.org/docs/latest/models.html#"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/common/request_utils.py"
+        ],
+        "value": "https://www.peterbe.com/plog/best-practice-with-retries-with-requests"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+        ],
+        "value": "https://www.truefoundry.com/docs/docker-build-secrets"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "truefoundry-0.15.0rc2/truefoundry/deploy/_autogen/models.py"
+        ],
+        "value": "https://www.truefoundry.com/docs/resources-cpu-memory-storage"
       }
     ]
   },
-  "package": "sysnet-soft-delete",
-  "package_slug": "sysnet-soft-delete",
-  "project_url": "https://pypi.org/project/sysnet-soft-delete/",
+  "package": "truefoundry",
+  "package_slug": "truefoundry",
+  "project_url": "https://pypi.org/project/truefoundry/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T18:02:56.587824+00:00",
+  "published_at": "2026-04-27T18:07:58.752403+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T18:04:04.226231+00:00",
-  "title": "Personal PyPI Supply Chain Scan: sysnet-soft-delete 0.2.0",
-  "version": "0.2.0",
-  "version_slug": "0.2.0",
-  "_metadata_path": "reports/packages/sysnet-soft-delete/0.2.0/metadata.json"
+  "scanned_at": "2026-04-27T18:08:30.085141+00:00",
+  "title": "Personal PyPI Supply Chain Scan: truefoundry 0.15.0rc2",
+  "version": "0.15.0rc2",
+  "version_slug": "0.15.0rc2",
+  "_metadata_path": "reports/packages/truefoundry/0.15.0rc2/metadata.json"
 }
