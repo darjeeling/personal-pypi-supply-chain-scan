@@ -1,123 +1,284 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "ait_vcs-0.11.0.tar.gz",
-  "finding_count": 136,
+  "distribution": "odoo_addon_energy_selfconsumption-16.0.0.6.0.tar.gz",
+  "finding_count": 35,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
+        "file_count": 1,
+        "files": [
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/views/website_inscription_data_template.xml"
+        ],
+        "value": "ajax.googleapis.com"
+      },
+      {
+        "file_count": 13,
+        "files": [
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/models/contract_line.py",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/models/distribution_table.py",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/models/inscription.py",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/models/participation.py",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/models/selfconsumption.py",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/models/supply_point.py",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/models/supply_point_assignation.py",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/wizards/change_distribution_table_import_wizard.py"
+        ],
+        "value": "api.constrains"
+      },
+      {
+        "file_count": 7,
+        "files": [
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/models/distribution_table.py",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/models/participation.py",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/models/supply_point.py",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/models/supply_point_assignation.py",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/wizards/change_distribution_table_import_wizard.py",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/wizards/contract_generation_wizard.py",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/wizards/invoicing_wizard.py"
+        ],
+        "value": "api.depends"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/migrations/16.0.0.5.7/post-migration.py"
+        ],
+        "value": "api.environment"
+      },
+      {
+        "file_count": 6,
+        "files": [
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/models/participation.py",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/wizards/change_distribution_table_import_wizard.py",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/wizards/change_state_inscription_wizard.py",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/wizards/create_distribution_table_wizard.py",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/wizards/selfconsumption_import_wizard.py",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/wizards/set_iban_inscriptions_wizard.py"
+        ],
+        "value": "api.model"
+      },
+      {
+        "file_count": 7,
+        "files": [
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/models/contract_line.py",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/models/inscription.py",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/models/supply_point.py",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/models/supply_point_assignation.py",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/wizards/change_state_inscription_wizard.py",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/wizards/create_distribution_table_wizard.py",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/wizards/define_invoicing_mode_wizard.py"
+        ],
+        "value": "api.onchange"
+      },
+      {
         "file_count": 2,
         "files": [
-          "ait_vcs-0.11.0/src/ait/context.py",
-          "ait_vcs-0.11.0/tests/test_context.py"
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/PKG-INFO",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/README.rst"
         ],
-        "value": "files.changed"
+        "value": "coopdevs.org"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/PKG-INFO",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/README.rst",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/__manifest__.py"
+        ],
+        "value": "git.coopdevs.org"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/PKG-INFO",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/README.rst"
+        ],
+        "value": "img.shields.io"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/PKG-INFO",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/README.rst"
+        ],
+        "value": "odoo-community.org"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/PKG-INFO",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/README.rst",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/__manifest__.py",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/components/contract_utils.py"
+        ],
+        "value": "www.gnu.org"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/PKG-INFO",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/README.rst"
+        ],
+        "value": "www.somenergia.coop"
       },
       {
         "file_count": 1,
         "files": [
-          "ait_vcs-0.11.0/src/ait/app.py"
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/views/website_inscription_data_template.xml"
         ],
-        "value": "files.items"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "ait_vcs-0.11.0/PKG-INFO",
-          "ait_vcs-0.11.0/README.md",
-          "ait_vcs-0.11.0/src/ait/context.py",
-          "ait_vcs-0.11.0/src/ait_vcs.egg-info/PKG-INFO"
-        ],
-        "value": "files.read"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "ait_vcs-0.11.0/src/ait/app.py"
-        ],
-        "value": "files.setdefault"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "ait_vcs-0.11.0/PKG-INFO",
-          "ait_vcs-0.11.0/README.md",
-          "ait_vcs-0.11.0/src/ait/context.py",
-          "ait_vcs-0.11.0/src/ait_vcs.egg-info/PKG-INFO"
-        ],
-        "value": "files.touched"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "ait_vcs-0.11.0/PKG-INFO",
-          "ait_vcs-0.11.0/README.md",
-          "ait_vcs-0.11.0/pyproject.toml",
-          "ait_vcs-0.11.0/src/ait_vcs.egg-info/PKG-INFO"
-        ],
-        "value": "github.com"
+        "value": "www.w3.org"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "ait_vcs-0.11.0/PKG-INFO",
-          "ait_vcs-0.11.0/pyproject.toml",
-          "ait_vcs-0.11.0/src/ait_vcs.egg-info/PKG-INFO"
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/PKG-INFO",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/README.rst"
         ],
-        "value": "https://github.com/m24927605/ait"
+        "value": "http://www.gnu.org/licenses/agpl-3.0-standalone.html"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/views/website_inscription_data_template.xml"
+        ],
+        "value": "http://www.w3.org/2000/svg"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/views/website_inscription_data_template.xml"
+        ],
+        "value": "https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/views/website_inscription_data_template.xml"
+        ],
+        "value": "https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/views/website_inscription_data_template.xml"
+        ],
+        "value": "https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-lightness/jquery-ui.css"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/PKG-INFO",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/README.rst"
+        ],
+        "value": "https://coopdevs.org"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/PKG-INFO",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/README.rst"
+        ],
+        "value": "https://coopdevs.org/logo.png"
       },
       {
         "file_count": 3,
         "files": [
-          "ait_vcs-0.11.0/PKG-INFO",
-          "ait_vcs-0.11.0/README.md",
-          "ait_vcs-0.11.0/src/ait_vcs.egg-info/PKG-INFO"
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/PKG-INFO",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/README.rst",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/__manifest__.py"
         ],
-        "value": "https://github.com/m24927605/ait.git"
+        "value": "https://git.coopdevs.org/coopdevs/comunitats-energetiques/odoo-ce"
       },
       {
         "file_count": 3,
         "files": [
-          "ait_vcs-0.11.0/PKG-INFO",
-          "ait_vcs-0.11.0/README.md",
-          "ait_vcs-0.11.0/src/ait_vcs.egg-info/PKG-INFO"
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/PKG-INFO",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/README.rst",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/__manifest__.py"
         ],
-        "value": "https://github.com/m24927605/ait.git@v0.11.0"
+        "value": "https://git.coopdevs.org/coopdevs/comunitats-energetiques/odoo-ce/issues"
       },
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "ait_vcs-0.11.0/PKG-INFO",
-          "ait_vcs-0.11.0/pyproject.toml",
-          "ait_vcs-0.11.0/src/ait_vcs.egg-info/PKG-INFO"
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/PKG-INFO",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/README.rst"
         ],
-        "value": "https://github.com/m24927605/ait/blob/main/CHANGELOG.md"
+        "value": "https://git.coopdevs.org/coopdevs/comunitats-energetiques/odoo-ce/issues/new"
       },
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "ait_vcs-0.11.0/PKG-INFO",
-          "ait_vcs-0.11.0/pyproject.toml",
-          "ait_vcs-0.11.0/src/ait_vcs.egg-info/PKG-INFO"
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/PKG-INFO",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/README.rst"
         ],
-        "value": "https://github.com/m24927605/ait/issues"
+        "value": "https://img.shields.io/badge/github-coopdevs%2Fcomunitats--energetiques-lightgray.png?logo=github"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/PKG-INFO",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/README.rst"
+        ],
+        "value": "https://img.shields.io/badge/licence-AGPL--3-blue.png"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/PKG-INFO",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/README.rst"
+        ],
+        "value": "https://img.shields.io/badge/maturity-Production%2FStable-green.png"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/PKG-INFO",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/README.rst"
+        ],
+        "value": "https://odoo-community.org/page/development-status"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/__manifest__.py",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/components/contract_utils.py"
+        ],
+        "value": "https://www.gnu.org/licenses/agpl"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/PKG-INFO",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/README.rst"
+        ],
+        "value": "https://www.somenergia.coop"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/PKG-INFO",
+          "odoo_addon_energy_selfconsumption-16.0.0.6.0/README.rst"
+        ],
+        "value": "https://www.somenergia.coop/logo.png"
       }
     ]
   },
-  "package": "ait-vcs",
-  "package_slug": "ait-vcs",
-  "project_url": "https://pypi.org/project/ait-vcs/",
+  "package": "odoo-addon-energy-selfconsumption",
+  "package_slug": "odoo-addon-energy-selfconsumption",
+  "project_url": "https://pypi.org/project/odoo-addon-energy-selfconsumption/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T15:12:52.939906+00:00",
+  "published_at": "2026-04-27T15:16:51.535003+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T15:13:44.470183+00:00",
-  "title": "Personal PyPI Supply Chain Scan: ait-vcs 0.11.0",
-  "version": "0.11.0",
-  "version_slug": "0.11.0",
-  "_metadata_path": "reports/packages/ait-vcs/0.11.0/metadata.json"
+  "scanned_at": "2026-04-27T15:18:10.428065+00:00",
+  "title": "Personal PyPI Supply Chain Scan: odoo-addon-energy-selfconsumption 16.0.0.6.0",
+  "version": "16.0.0.6.0",
+  "version_slug": "16.0.0.6.0",
+  "_metadata_path": "reports/packages/odoo-addon-energy-selfconsumption/16.0.0.6.0/metadata.json"
 }
