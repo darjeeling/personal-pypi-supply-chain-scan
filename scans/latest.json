@@ -1,262 +1,569 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "scuq-1.0.3.tar.gz",
-  "finding_count": 33,
+  "distribution": "testql-1.2.27.tar.gz",
+  "finding_count": 111,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
         "file_count": 1,
         "files": [
-          "scuq-1.0.3/doc/sphinx/conf.py"
+          "testql-1.2.27/tests/test_reporters.py"
         ],
-        "value": "cdn.jsdelivr.net"
+        "value": "$host"
       },
       {
         "file_count": 1,
         "files": [
-          "scuq-1.0.3/doc/sphinx/conf.py"
+          "testql-1.2.27/tests/test_converter_handlers.py"
         ],
-        "value": "docs.python.org"
+        "value": "a"
       },
       {
         "file_count": 1,
         "files": [
-          "scuq-1.0.3/doc/sphinx/conf.py"
+          "testql-1.2.27/tests/test_converter.py"
         ],
-        "value": "docs.scipy.org"
+        "value": "a.com"
       },
       {
         "file_count": 1,
         "files": [
-          "scuq-1.0.3/notebook/cheat-sheet.ipynb"
+          "testql-1.2.27/tests/test_sources.py"
         ],
-        "value": "doi.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "scuq-1.0.3/LICENSE"
-        ],
-        "value": "fsf.org"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "scuq-1.0.3/PKG-INFO",
-          "scuq-1.0.3/README.md",
-          "scuq-1.0.3/pyproject.toml",
-          "scuq-1.0.3/src/scuq.egg-info/PKG-INFO"
-        ],
-        "value": "gitlab.hrz.tu-chemnitz.de"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "scuq-1.0.3/doc/sphinx/conf.py"
-        ],
-        "value": "matplotlib.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "scuq-1.0.3/doc/sphinx/conf.py"
-        ],
-        "value": "numpy.org"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "scuq-1.0.3/PKG-INFO",
-          "scuq-1.0.3/README.md",
-          "scuq-1.0.3/pyproject.toml",
-          "scuq-1.0.3/src/scuq.egg-info/PKG-INFO"
-        ],
-        "value": "scuq-b5d96a.gp.hrz.tu-chemnitz.de"
-      },
-      {
-        "file_count": 9,
-        "files": [
-          "scuq-1.0.3/src/scuq/arithmetic.py",
-          "scuq-1.0.3/src/scuq/cucomponents.py",
-          "scuq-1.0.3/src/scuq/operators.py",
-          "scuq-1.0.3/src/scuq/qexceptions.py",
-          "scuq-1.0.3/src/scuq/quantities.py",
-          "scuq-1.0.3/src/scuq/si.py",
-          "scuq-1.0.3/src/scuq/testcases.py",
-          "scuq-1.0.3/src/scuq/ucomponents.py"
-        ],
-        "value": "thomas.reidemeister.org"
+        "value": "api"
       },
       {
         "file_count": 2,
         "files": [
-          "scuq-1.0.3/LICENSE",
-          "scuq-1.0.3/src/scuq/LICENSE"
+          "testql-1.2.27/testql/ir_runner/executors/__init__.py",
+          "testql-1.2.27/tests/test_ir_runner_executors.py"
         ],
-        "value": "www.gnu.org"
+        "value": "api.execute"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/tests/test_converter.py"
+        ],
+        "value": "api.iql"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/tests/test_converter.py"
+        ],
+        "value": "api.tql"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/tests/test_converter_handlers.py"
+        ],
+        "value": "b"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/tests/test_converter.py"
+        ],
+        "value": "c.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/tests/test_suite_execution.py"
+        ],
+        "value": "custom"
       },
       {
         "file_count": 2,
         "files": [
-          "scuq-1.0.3/doc/sphinx/conf.py",
-          "scuq-1.0.3/doc/sphinx/make.bat"
+          "testql-1.2.27/tests/test_browser_discovery.py",
+          "testql-1.2.27/tests/test_network_discovery.py"
         ],
-        "value": "www.sphinx-doc.org"
+        "value": "example.test"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/tests/test_network_discovery.py"
+        ],
+        "value": "external.example"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "testql-1.2.27/testql/adapters/proto/proto_adapter.py",
+          "testql-1.2.27/testql/commands/suite/collection.py",
+          "testql-1.2.27/testql/discovery/probes/filesystem/package_python.py",
+          "testql-1.2.27/testql/pipeline.py"
+        ],
+        "value": "files.extend"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/testql/interpreter/_gui.py"
+        ],
+        "value": "google.com"
       },
       {
         "file_count": 3,
         "files": [
-          "scuq-1.0.3/PKG-INFO",
-          "scuq-1.0.3/pyproject.toml",
-          "scuq-1.0.3/src/scuq.egg-info/PKG-INFO"
+          "testql-1.2.27/PKG-INFO",
+          "testql-1.2.27/README.md",
+          "testql-1.2.27/testql.egg-info/PKG-INFO"
         ],
-        "value": "www.tu-dresden.de"
+        "value": "img.shields.io"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/tests/test_converter.py"
+        ],
+        "value": "localhost\\nclick"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/tests/test_runner.py"
+        ],
+        "value": "myserver"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "testql-1.2.27/PKG-INFO",
+          "testql-1.2.27/README.md",
+          "testql-1.2.27/testql.egg-info/PKG-INFO"
+        ],
+        "value": "openrouter.ai"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/testql/cli.py"
+        ],
+        "value": "pypi.org"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/testql/adapters/proto/message_validator.py"
+        ],
+        "value": "raw.endswith"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/testql/commands/suite/collection.py"
+        ],
+        "value": "raw.extend"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/testql/interpreter/converter/parsers.py"
+        ],
+        "value": "raw.replace"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/testql/adapters/nl/grammar.py"
+        ],
+        "value": "raw.rstrip"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "testql-1.2.27/testql/interpreter/_parser.py",
+          "testql-1.2.27/testql/interpreter/_testtoon_parser.py",
+          "testql-1.2.27/testql/interpreter/converter/parsers.py"
+        ],
+        "value": "raw.strip"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/tests/test_network_discovery.py"
+        ],
+        "value": "spa.example.test"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "testql-1.2.27/PKG-INFO",
+          "testql-1.2.27/README.md",
+          "testql-1.2.27/testql.egg-info/PKG-INFO"
+        ],
+        "value": "tom.sapletta.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/LICENSE"
+        ],
+        "value": "www.apache.org"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "testql-1.2.27/tests/test_api_handler.py",
+          "testql-1.2.27/tests/test_converter_handlers.py",
+          "testql-1.2.27/tests/test_generate_from_page_cli.py",
+          "testql-1.2.27/tests/test_ir.py"
+        ],
+        "value": "x"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "testql-1.2.27/tests/test_converter.py",
+          "testql-1.2.27/tests/test_converter_handlers.py"
+        ],
+        "value": "x.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/tests/test_converter_handlers.py"
+        ],
+        "value": "x.com\\n\\nclick"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/testql/interpreter/_dom_scan.py"
+        ],
+        "value": "your-app-url"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 9,
+        "file_count": 1,
         "files": [
-          "scuq-1.0.3/src/scuq/arithmetic.py",
-          "scuq-1.0.3/src/scuq/cucomponents.py",
-          "scuq-1.0.3/src/scuq/operators.py",
-          "scuq-1.0.3/src/scuq/qexceptions.py",
-          "scuq-1.0.3/src/scuq/quantities.py",
-          "scuq-1.0.3/src/scuq/si.py",
-          "scuq-1.0.3/src/scuq/testcases.py",
-          "scuq-1.0.3/src/scuq/ucomponents.py"
+          "testql-1.2.27/tests/test_reporters.py"
         ],
-        "value": "http://thomas.reidemeister.org/"
+        "value": "http://$host:8000"
       },
       {
         "file_count": 1,
         "files": [
-          "scuq-1.0.3/src/scuq/LICENSE"
+          "testql-1.2.27/tests/test_converter_handlers.py"
         ],
-        "value": "http://www.gnu.org/licenses/"
+        "value": "http://a"
       },
       {
         "file_count": 1,
         "files": [
-          "scuq-1.0.3/doc/sphinx/conf.py"
+          "testql-1.2.27/tests/test_converter.py"
         ],
-        "value": "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+        "value": "http://a.com"
       },
       {
         "file_count": 1,
         "files": [
-          "scuq-1.0.3/doc/sphinx/conf.py"
+          "testql-1.2.27/tests/test_converter_handlers.py"
         ],
-        "value": "https://docs.python.org/3"
+        "value": "http://b"
       },
       {
         "file_count": 1,
         "files": [
-          "scuq-1.0.3/doc/sphinx/conf.py"
+          "testql-1.2.27/tests/test_converter.py"
         ],
-        "value": "https://docs.scipy.org/doc/scipy/"
+        "value": "http://c.com"
       },
       {
         "file_count": 1,
         "files": [
-          "scuq-1.0.3/notebook/cheat-sheet.ipynb"
+          "testql-1.2.27/tests/test_suite_execution.py"
         ],
-        "value": "https://doi.org/10.59161/JCGM100-2008E"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "scuq-1.0.3/LICENSE"
-        ],
-        "value": "https://fsf.org/"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "scuq-1.0.3/PKG-INFO",
-          "scuq-1.0.3/README.md",
-          "scuq-1.0.3/pyproject.toml",
-          "scuq-1.0.3/src/scuq.egg-info/PKG-INFO"
-        ],
-        "value": "https://gitlab.hrz.tu-chemnitz.de/chair-of-electromagnetic-theory-and-compatibility-at-tu-dresden/mpylab/scuq.git"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "scuq-1.0.3/doc/sphinx/conf.py"
-        ],
-        "value": "https://matplotlib.org/stable/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "scuq-1.0.3/doc/sphinx/conf.py"
-        ],
-        "value": "https://numpy.org/doc/stable/"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "scuq-1.0.3/PKG-INFO",
-          "scuq-1.0.3/README.md",
-          "scuq-1.0.3/pyproject.toml",
-          "scuq-1.0.3/src/scuq.egg-info/PKG-INFO"
-        ],
-        "value": "https://scuq-b5d96a.gp.hrz.tu-chemnitz.de/"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "scuq-1.0.3/LICENSE",
-          "scuq-1.0.3/src/scuq/LICENSE"
-        ],
-        "value": "https://www.gnu.org/licenses/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "scuq-1.0.3/LICENSE"
-        ],
-        "value": "https://www.gnu.org/licenses/why-not-lgpl.html"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "scuq-1.0.3/doc/sphinx/make.bat"
-        ],
-        "value": "https://www.sphinx-doc.org/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "scuq-1.0.3/doc/sphinx/conf.py"
-        ],
-        "value": "https://www.sphinx-doc.org/en/master/usage/configuration.html"
+        "value": "http://custom:9000"
       },
       {
         "file_count": 3,
         "files": [
-          "scuq-1.0.3/PKG-INFO",
-          "scuq-1.0.3/pyproject.toml",
-          "scuq-1.0.3/src/scuq.egg-info/PKG-INFO"
+          "testql-1.2.27/tests/test_converter.py",
+          "testql-1.2.27/tests/test_converter_handlers.py",
+          "testql-1.2.27/tests/test_ir_runner_executors.py"
         ],
-        "value": "https://www.tu-dresden.de/et/tet"
+        "value": "http://example.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/tests/test_ir_runner_executors.py"
+        ],
+        "value": "http://example.com/foo"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/testql/interpreter/_gui.py"
+        ],
+        "value": "http://google.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/tests/test_converter.py"
+        ],
+        "value": "http://localhost\\nCLICK"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/tests/test_runner.py"
+        ],
+        "value": "http://myserver:9000"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/tests/test_runner.py"
+        ],
+        "value": "http://myserver:9000/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/LICENSE"
+        ],
+        "value": "http://www.apache.org/licenses/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/LICENSE"
+        ],
+        "value": "http://www.apache.org/licenses/LICENSE-2.0"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "testql-1.2.27/tests/test_api_handler.py",
+          "testql-1.2.27/tests/test_converter_handlers.py",
+          "testql-1.2.27/tests/test_ir.py"
+        ],
+        "value": "http://x"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "testql-1.2.27/tests/test_converter.py",
+          "testql-1.2.27/tests/test_converter_handlers.py"
+        ],
+        "value": "http://x.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/tests/test_converter_handlers.py"
+        ],
+        "value": "http://x.com\\n\\nCLICK"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/tests/test_generate_from_page_cli.py"
+        ],
+        "value": "http://x/y"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/testql/interpreter/_dom_scan.py"
+        ],
+        "value": "http://your-app-url"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/tests/test_sources.py"
+        ],
+        "value": "https://api/graphql"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "testql-1.2.27/testql/generators/page_analyzer.py",
+          "testql-1.2.27/tests/test_scenario_yaml_adapter.py"
+        ],
+        "value": "https://example.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "testql-1.2.27/tests/test_browser_discovery.py",
+          "testql-1.2.27/tests/test_network_discovery.py"
+        ],
+        "value": "https://example.test/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/tests/test_browser_discovery.py"
+        ],
+        "value": "https://example.test/about"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/tests/test_browser_discovery.py"
+        ],
+        "value": "https://example.test/api"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/tests/test_browser_discovery.py"
+        ],
+        "value": "https://example.test/app.js"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/tests/test_browser_discovery.py"
+        ],
+        "value": "https://example.test/contact"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/tests/test_network_discovery.py"
+        ],
+        "value": "https://external.example/docs"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "testql-1.2.27/PKG-INFO",
+          "testql-1.2.27/README.md",
+          "testql-1.2.27/testql.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/badge/AI%20Cost-$7.50-orange"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "testql-1.2.27/PKG-INFO",
+          "testql-1.2.27/README.md",
+          "testql-1.2.27/testql.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/badge/Human%20Time-41.0h-blue"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "testql-1.2.27/PKG-INFO",
+          "testql-1.2.27/README.md",
+          "testql-1.2.27/testql.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/badge/Model-openrouter%2Fqwen%2Fqwen3--coder--next-lightgrey"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "testql-1.2.27/PKG-INFO",
+          "testql-1.2.27/README.md",
+          "testql-1.2.27/testql.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/badge/license-Apache--2.0-green"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "testql-1.2.27/PKG-INFO",
+          "testql-1.2.27/README.md",
+          "testql-1.2.27/testql.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/badge/pypi-costs-blue"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "testql-1.2.27/PKG-INFO",
+          "testql-1.2.27/README.md",
+          "testql-1.2.27/testql.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/badge/pypi-testql-blue"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "testql-1.2.27/PKG-INFO",
+          "testql-1.2.27/README.md",
+          "testql-1.2.27/testql.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/badge/python-3.10+-blue"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "testql-1.2.27/PKG-INFO",
+          "testql-1.2.27/README.md",
+          "testql-1.2.27/testql.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/badge/python-3.9+-blue"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "testql-1.2.27/PKG-INFO",
+          "testql-1.2.27/README.md",
+          "testql-1.2.27/testql.egg-info/PKG-INFO"
+        ],
+        "value": "https://img.shields.io/badge/version-1.2.27-blue"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "testql-1.2.27/PKG-INFO",
+          "testql-1.2.27/README.md",
+          "testql-1.2.27/testql.egg-info/PKG-INFO"
+        ],
+        "value": "https://openrouter.ai/qwen/qwen3-coder-next"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/testql/cli.py"
+        ],
+        "value": "https://pypi.org/pypi/testql/json"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "testql-1.2.27/tests/test_network_discovery.py"
+        ],
+        "value": "https://spa.example.test/"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "testql-1.2.27/PKG-INFO",
+          "testql-1.2.27/README.md",
+          "testql-1.2.27/testql.egg-info/PKG-INFO"
+        ],
+        "value": "https://tom.sapletta.com/"
       }
     ]
   },
-  "package": "scuq",
-  "package_slug": "scuq",
-  "project_url": "https://pypi.org/project/scuq/",
+  "package": "testql",
+  "package_slug": "testql",
+  "project_url": "https://pypi.org/project/testql/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T10:40:52.922922+00:00",
+  "published_at": "2026-04-27T10:45:36.818345+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T10:41:42.940780+00:00",
-  "title": "Personal PyPI Supply Chain Scan: scuq 1.0.3",
-  "version": "1.0.3",
-  "version_slug": "1.0.3",
-  "_metadata_path": "reports/packages/scuq/1.0.3/metadata.json"
+  "scanned_at": "2026-04-27T10:46:04.027225+00:00",
+  "title": "Personal PyPI Supply Chain Scan: testql 1.2.27",
+  "version": "1.2.27",
+  "version_slug": "1.2.27",
+  "_metadata_path": "reports/packages/testql/1.2.27/metadata.json"
 }

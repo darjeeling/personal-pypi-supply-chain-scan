@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal PyPI Supply Chain Scan: testql 1.2.27</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 960px; line-height: 1.55; padding: 0 1rem; color: #1f2933; }
+    a { color: #1f5fbf; }
+    code { background: #f4f4f4; padding: 0.1rem 0.25rem; }
+    h1, h2, h3 { line-height: 1.2; }
+    li { margin: 0.35rem 0; }
+    nav { margin-bottom: 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #e5e9ef; padding: 0.55rem 0.65rem; text-align: left; vertical-align: top; }
+    th { color: #52616f; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; }
+    .scan-groups { margin-top: 1.2rem; }
+    .scan-day { border-top: 1px solid #d8dee4; display: grid; gap: 1rem; grid-template-columns: 10rem minmax(0, 1fr); padding: 1.1rem 0; }
+    .scan-day-date { color: #1f2933; font-weight: 700; }
+    .scan-day-date span { color: #52616f; display: block; font-size: 0.9rem; font-weight: 500; margin-top: 0.2rem; }
+    .scan-day-table { overflow-x: auto; }
+    .risk { display: inline-block; min-width: 4.8rem; text-align: center; border-radius: 999px; padding: 0.15rem 0.45rem; font-size: 0.78rem; font-weight: 700; }
+    .risk-info, .risk-low { background: #dcfce7; color: #166534; }
+    .risk-medium, .risk-unknown { background: #fef3c7; color: #92400e; }
+    .risk-high, .risk-critical { background: #fee2e2; color: #991b1b; }
+    .index-note { color: #52616f; margin-top: -0.35rem; }
+    .version { color: #52616f; margin-left: 0.2rem; white-space: nowrap; }
+    @media (max-width: 720px) {
+      .scan-day { grid-template-columns: 1fr; }
+      th, td { padding: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+<nav><a href='../../../../'>Index</a></nav><h1>Personal PyPI Supply Chain Scan: testql 1.2.27</h1>
+
+<ul>
+<li>Package: testql</li>
+<li>Version: 1.2.27</li>
+<li>Project URL: https://pypi.org/project/testql/</li>
+<li>Distribution: testql-1.2.27.tar.gz</li>
+<li>Package published at: 2026-04-27T10:45:36.818345+00:00</li>
+<li>Scan published at: 2026-04-27T10:46:04.027225+00:00</li>
+<li>Language: en</li>
+<li>Model: gpt-5.5</li>
+<li>Prompt: malicious-supply-chain-review-v2 ([source](../../../../docs/prompts/malicious-supply-chain-review-v2.md))</li>
+<li>Disclaimer: This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</li>
+</ul>
+
+<h2>Deterministic Network Indicators</h2>
+
+<h3>Suspicious Endpoints</h3>
+
+<p>None</p>
+
+<h3>Raw Public IPs</h3>
+
+<p>None</p>
+
+<h3>URLs</h3>
+<ul>
+<li>http://$host:8000 (1 files: testql-1.2.27/tests/test_reporters.py)</li>
+<li>http://a (1 files: testql-1.2.27/tests/test_converter_handlers.py)</li>
+<li>http://a.com (1 files: testql-1.2.27/tests/test_converter.py)</li>
+<li>http://b (1 files: testql-1.2.27/tests/test_converter_handlers.py)</li>
+<li>http://c.com (1 files: testql-1.2.27/tests/test_converter.py)</li>
+<li>http://custom:9000 (1 files: testql-1.2.27/tests/test_suite_execution.py)</li>
+<li>http://example.com (3 files: testql-1.2.27/tests/test_converter.py, testql-1.2.27/tests/test_converter_handlers.py, testql-1.2.27/tests/test_ir_runner_executors.py)</li>
+<li>http://example.com/foo (1 files: testql-1.2.27/tests/test_ir_runner_executors.py)</li>
+<li>http://google.com (1 files: testql-1.2.27/testql/interpreter/_gui.py)</li>
+<li>http://localhost\nCLICK (1 files: testql-1.2.27/tests/test_converter.py)</li>
+<li>http://myserver:9000 (1 files: testql-1.2.27/tests/test_runner.py)</li>
+<li>http://myserver:9000/ (1 files: testql-1.2.27/tests/test_runner.py)</li>
+<li>http://www.apache.org/licenses/ (1 files: testql-1.2.27/LICENSE)</li>
+<li>http://www.apache.org/licenses/LICENSE-2.0 (1 files: testql-1.2.27/LICENSE)</li>
+<li>http://x (3 files: testql-1.2.27/tests/test_api_handler.py, testql-1.2.27/tests/test_converter_handlers.py, testql-1.2.27/tests/test_ir.py)</li>
+<li>http://x.com (2 files: testql-1.2.27/tests/test_converter.py, testql-1.2.27/tests/test_converter_handlers.py)</li>
+<li>http://x.com\n\nCLICK (1 files: testql-1.2.27/tests/test_converter_handlers.py)</li>
+<li>http://x/y (1 files: testql-1.2.27/tests/test_generate_from_page_cli.py)</li>
+<li>http://your-app-url (1 files: testql-1.2.27/testql/interpreter/_dom_scan.py)</li>
+<li>https://api/graphql (1 files: testql-1.2.27/tests/test_sources.py)</li>
+<li>https://example.com (2 files: testql-1.2.27/testql/generators/page_analyzer.py, testql-1.2.27/tests/test_scenario_yaml_adapter.py)</li>
+<li>https://example.test/ (2 files: testql-1.2.27/tests/test_browser_discovery.py, testql-1.2.27/tests/test_network_discovery.py)</li>
+<li>https://example.test/about (1 files: testql-1.2.27/tests/test_browser_discovery.py)</li>
+<li>https://example.test/api (1 files: testql-1.2.27/tests/test_browser_discovery.py)</li>
+<li>https://example.test/app.js (1 files: testql-1.2.27/tests/test_browser_discovery.py)</li>
+<li>https://example.test/contact (1 files: testql-1.2.27/tests/test_browser_discovery.py)</li>
+<li>https://external.example/docs (1 files: testql-1.2.27/tests/test_network_discovery.py)</li>
+<li>https://img.shields.io/badge/AI%20Cost-$7.50-orange (3 files: testql-1.2.27/PKG-INFO, testql-1.2.27/README.md, testql-1.2.27/testql.egg-info/PKG-INFO)</li>
+<li>https://img.shields.io/badge/Human%20Time-41.0h-blue (3 files: testql-1.2.27/PKG-INFO, testql-1.2.27/README.md, testql-1.2.27/testql.egg-info/PKG-INFO)</li>
+<li>https://img.shields.io/badge/Model-openrouter%2Fqwen%2Fqwen3--coder--next-lightgrey (3 files: testql-1.2.27/PKG-INFO, testql-1.2.27/README.md, testql-1.2.27/testql.egg-info/PKG-INFO)</li>
+<li>... 10 more</li>
+</ul>
+
+<h3>Domains</h3>
+<ul>
+<li>$host (1 files: testql-1.2.27/tests/test_reporters.py)</li>
+<li>a (1 files: testql-1.2.27/tests/test_converter_handlers.py)</li>
+<li>a.com (1 files: testql-1.2.27/tests/test_converter.py)</li>
+<li>api (1 files: testql-1.2.27/tests/test_sources.py)</li>
+<li>api.execute (2 files: testql-1.2.27/testql/ir_runner/executors/__init__.py, testql-1.2.27/tests/test_ir_runner_executors.py)</li>
+<li>api.iql (1 files: testql-1.2.27/tests/test_converter.py)</li>
+<li>api.tql (1 files: testql-1.2.27/tests/test_converter.py)</li>
+<li>b (1 files: testql-1.2.27/tests/test_converter_handlers.py)</li>
+<li>c.com (1 files: testql-1.2.27/tests/test_converter.py)</li>
+<li>custom (1 files: testql-1.2.27/tests/test_suite_execution.py)</li>
+<li>example.test (2 files: testql-1.2.27/tests/test_browser_discovery.py, testql-1.2.27/tests/test_network_discovery.py)</li>
+<li>external.example (1 files: testql-1.2.27/tests/test_network_discovery.py)</li>
+<li>files.extend (4 files: testql-1.2.27/testql/adapters/proto/proto_adapter.py, testql-1.2.27/testql/commands/suite/collection.py, testql-1.2.27/testql/discovery/probes/filesystem/package_python.py, testql-1.2.27/testql/pipeline.py)</li>
+<li>google.com (1 files: testql-1.2.27/testql/interpreter/_gui.py)</li>
+<li>img.shields.io (3 files: testql-1.2.27/PKG-INFO, testql-1.2.27/README.md, testql-1.2.27/testql.egg-info/PKG-INFO)</li>
+<li>localhost\nclick (1 files: testql-1.2.27/tests/test_converter.py)</li>
+<li>myserver (1 files: testql-1.2.27/tests/test_runner.py)</li>
+<li>openrouter.ai (3 files: testql-1.2.27/PKG-INFO, testql-1.2.27/README.md, testql-1.2.27/testql.egg-info/PKG-INFO)</li>
+<li>pypi.org (1 files: testql-1.2.27/testql/cli.py)</li>
+<li>raw.endswith (1 files: testql-1.2.27/testql/adapters/proto/message_validator.py)</li>
+<li>raw.extend (1 files: testql-1.2.27/testql/commands/suite/collection.py)</li>
+<li>raw.replace (1 files: testql-1.2.27/testql/interpreter/converter/parsers.py)</li>
+<li>raw.rstrip (1 files: testql-1.2.27/testql/adapters/nl/grammar.py)</li>
+<li>raw.strip (3 files: testql-1.2.27/testql/interpreter/_parser.py, testql-1.2.27/testql/interpreter/_testtoon_parser.py, testql-1.2.27/testql/interpreter/converter/parsers.py)</li>
+<li>spa.example.test (1 files: testql-1.2.27/tests/test_network_discovery.py)</li>
+<li>tom.sapletta.com (3 files: testql-1.2.27/PKG-INFO, testql-1.2.27/README.md, testql-1.2.27/testql.egg-info/PKG-INFO)</li>
+<li>www.apache.org (1 files: testql-1.2.27/LICENSE)</li>
+<li>x (4 files: testql-1.2.27/tests/test_api_handler.py, testql-1.2.27/tests/test_converter_handlers.py, testql-1.2.27/tests/test_generate_from_page_cli.py, testql-1.2.27/tests/test_ir.py)</li>
+<li>x.com (2 files: testql-1.2.27/tests/test_converter.py, testql-1.2.27/tests/test_converter_handlers.py)</li>
+<li>x.com\n\nclick (1 files: testql-1.2.27/tests/test_converter_handlers.py)</li>
+<li>... 1 more</li>
+</ul>
+
+<h2>Verdict</h2>
+
+<p>No confirmed indicators of a malicious supply-chain compromise were found. Overall risk: info.</p>
+
+<h2>Malicious Supply-Chain Indicators</h2>
+
+<p>No confirmed malicious supply-chain indicators.</p>
+
+<h2>Automatic Execution Paths</h2>
+
+<ul>
+<li>In the provided extracted text, there is no evidence of .pth, sitecustomize.py, usercustomize.py, install-time hooks, or malicious import-time execution.</li>
+<li>testql/cli.py contains logic in main() to check the PyPI version and, after user confirmation, run pip install --upgrade testql. This path requires the user to invoke the CLI, targets the official PyPI API and the same package, and is not treated as malicious automatic execution evidence.</li>
+<li>Normal console_scripts/CLI behavior was excluded as automatic execution evidence.</li>
+</ul>
+
+<h2>Theft / Exfiltration / Persistence / Lateral Movement / Stealth</h2>
+
+<ul>
+<li>Credential harvesting: No evidence in the provided files of broad discovery or collection of environment variables, .env files, SSH keys, cloud/CI tokens, wallets, or kubeconfig.</li>
+<li>Exfiltration/staging: No evidence of uploads to attacker-controlled domains, webhooks, raw IPs, paste/drop services, or archive/base64 staging of harvested files.</li>
+<li>Persistence: No evidence of cron, systemd, launch agents, shell profile edits, background polling, or self-reinstall persistence loops.</li>
+<li>Lateral movement: No evidence of Kubernetes service-account abuse, Docker socket access, cloud metadata access, or GitHub Actions/package-registry token abuse.</li>
+<li>Obfuscation/loaders: The many pre-scan re.compile hits appear to be parser/grammar regular expressions. No evidence of base64/zlib/marshal/eval/exec staged loaders was identified.</li>
+<li>Network and process-execution hits appear tied to test/CLI/runner functionality, with insufficient evidence connecting them to malicious supply-chain behavior.</li>
+</ul>
+
+<h2>Distribution Integrity Anomalies</h2>
+
+<ul>
+<li>Based on the provided file text, there is no evidence of hidden payloads, unexplained native binaries, typosquatting, sudden dependency insertion, or wheel/sdist mismatch.</li>
+<li>External links in testql.egg-info/PKG-INFO, README.md, and related metadata appear to be badges/documentation links and are not evidence of malicious distribution integrity anomalies.</li>
+</ul>
+
+<h2>Additional Verification Needed</h2>
+
+<ul>
+<li>The input is limited to 21 selected files out of 302 plus pre-scan results. If present, full setup.py, pyproject.toml, setup.cfg, MANIFEST.in, all package files, binaries/large files, and wheel artifacts should be reviewed.</li>
+<li>Differences between sdist and wheel artifacts, and dependency/entry-point changes compared with prior known-good versions, were not verifiable from the provided information alone.</li>
+</ul>
+
+<p>---</p>
+
+<p>Prompt source: docs/prompts/malicious-supply-chain-review-v2.md</p>
+
+<p>This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</p>
+
+</body>
+</html>
