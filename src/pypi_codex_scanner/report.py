@@ -53,6 +53,7 @@ def write_report(reports_dir: Path, release: PypiRelease, result: ScanResult, pr
         "model": result.model,
         "prompt_version": result.prompt_version,
         "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+        "risk": _extract_risk(result.markdown_en + "\n" + result.markdown_ko),
         "disclaimer": DISCLAIMER,
         "network_indicators": (prescan or {}).get("network_indicators", {}),
         "finding_count": (prescan or {}).get("finding_count", 0),
@@ -89,6 +90,16 @@ def write_report(reports_dir: Path, release: PypiRelease, result: ScanResult, pr
 
 def normalize_slug(value: str) -> str:
     return re.sub(r"[^a-z0-9_.-]+", "-", value.lower()).strip("-")
+
+
+def _extract_risk(markdown: str) -> str:
+    lowered = markdown.lower()
+    for risk in ("critical", "high", "medium", "low", "info"):
+        if re.search(rf"\b{risk}\b", lowered):
+            return risk
+    if "없음" in markdown or "no confirmed" in lowered:
+        return "info"
+    return "unknown"
 
 
 def _document_header(release: PypiRelease, scanned_at: str, result: ScanResult, language: str) -> str:

@@ -58,6 +58,7 @@ def _load_report_metadata(reports_dir: Path) -> list[dict]:
     for path in reports_dir.glob("packages/*/*/metadata.json"):
         data = json.loads(path.read_text(encoding="utf-8"))
         data["_metadata_path"] = path.as_posix()
+        data.setdefault("risk", _infer_risk_from_report(reports_dir, data))
         rows.append(data)
     return sorted(rows, key=lambda row: row.get("scanned_at") or "", reverse=True)
 
@@ -67,13 +68,17 @@ def _write_index(site_dir: Path, reports: list[dict]) -> None:
     for report in reports[:200]:
         ko_href = f"packages/{report['package_slug']}/{report['version_slug']}/ko/"
         en_href = f"packages/{report['package_slug']}/{report['version_slug']}/en/"
+        risk = report.get("risk") or "unknown"
         items.append(
-            f"<li><strong>{html.escape(report['package'])} {html.escape(report['version'])}</strong> "
-            f"<a href='{ko_href}'>ko</a> <a href='{en_href}'>en</a><br>"
-            f"<small>published {html.escape(str(report.get('published_at') or 'unknown'))}; "
-            f"scanned {html.escape(report['scanned_at'])}</small></li>"
+            "<li class='scan-card'>"
+            f"<div><span class='risk risk-{html.escape(risk)}'>{html.escape(risk.upper())}</span> "
+            f"<strong>{html.escape(report['package'])} {html.escape(report['version'])}</strong> "
+            f"<a href='{ko_href}'>ko</a> <a href='{en_href}'>en</a></div>"
+            f"<div class='dates'><span>Package published:</span> <time>{html.escape(str(report.get('published_at') or 'unknown'))}</time></div>"
+            f"<div class='dates'><span>Scan published:</span> <time>{html.escape(report['scanned_at'])}</time></div>"
+            "</li>"
         )
-    body = "<h1>Personal PyPI Supply Chain Scan</h1><p>" + html.escape(_disclaimer(reports)) + "</p><ul>" + "\n".join(items) + "</ul>"
+    body = "<h1>Personal PyPI Supply Chain Scan</h1><p>" + html.escape(_disclaimer(reports)) + "</p><ul class='scan-list'>" + "\n".join(items) + "</ul>"
     (site_dir / "index.html").write_text(_html_page("Personal PyPI Supply Chain Scan", body), encoding="utf-8")
 
 
@@ -156,11 +161,20 @@ def _html_page(title: str, body: str) -> str:
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{html.escape(title)}</title>
   <style>
-    body {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 960px; line-height: 1.55; padding: 0 1rem; }}
+    body {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 960px; line-height: 1.55; padding: 0 1rem; color: #1f2933; }}
+    a {{ color: #1f5fbf; }}
     code {{ background: #f4f4f4; padding: 0.1rem 0.25rem; }}
     h1, h2, h3 {{ line-height: 1.2; }}
     li {{ margin: 0.35rem 0; }}
     nav {{ margin-bottom: 1rem; }}
+    .scan-list {{ list-style: none; padding: 0; }}
+    .scan-card {{ border: 1px solid #d8dee4; border-radius: 6px; padding: 0.85rem 1rem; margin: 0.75rem 0; }}
+    .risk {{ display: inline-block; min-width: 4.8rem; text-align: center; border-radius: 999px; padding: 0.15rem 0.45rem; margin-right: 0.45rem; font-size: 0.78rem; font-weight: 700; }}
+    .risk-info, .risk-low {{ background: #dcfce7; color: #166534; }}
+    .risk-medium, .risk-unknown {{ background: #fef3c7; color: #92400e; }}
+    .risk-high, .risk-critical {{ background: #fee2e2; color: #991b1b; }}
+    .dates {{ color: #52616f; font-size: 0.92rem; margin-top: 0.2rem; }}
+    .dates span {{ display: inline-block; min-width: 9.5rem; font-weight: 600; color: #39434d; }}
   </style>
 </head>
 <body>
@@ -174,6 +188,19 @@ def _disclaimer(reports: list[dict]) -> str:
     if reports:
         return reports[0].get("disclaimer") or ""
     return "This is a personal automated PyPI supply-chain scan and not an official advisory."
+
+
+def _infer_risk_from_report(reports_dir: Path, report: dict) -> str:
+    source = reports_dir / "packages" / report["package_slug"] / report["version_slug"] / "en.md"
+    if not source.exists():
+        source = reports_dir / "packages" / report["package_slug"] / report["version_slug"] / "ko.md"
+    if not source.exists():
+        return "unknown"
+    lowered = source.read_text(encoding="utf-8").lower()
+    for risk in ("critical", "high", "medium", "low", "info"):
+        if risk in lowered:
+            return risk
+    return "unknown"
 
 
 def _branch_exists(branch: str) -> bool:
