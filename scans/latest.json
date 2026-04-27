@@ -1,127 +1,125 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "bella_baxter-0.1.1rc74.tar.gz",
-  "finding_count": 906,
+  "distribution": "repo_context_hooks-0.5.0.tar.gz",
+  "finding_count": 104,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 6,
+        "file_count": 7,
         "files": [
-          "bella_baxter-0.1.1rc74/PKG-INFO",
-          "bella_baxter-0.1.1rc74/README.md",
-          "bella_baxter-0.1.1rc74/src/bella_baxter.egg-info/PKG-INFO",
-          "bella_baxter-0.1.1rc74/src/bella_baxter/__init__.py",
-          "bella_baxter-0.1.1rc74/src/bella_baxter/client.py",
-          "bella_baxter-0.1.1rc74/src/bella_baxter/e2ee.py"
-        ],
-        "value": "api.bella-baxter.io"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bella_baxter-0.1.1rc74/src/bella_baxter/client.py"
-        ],
-        "value": "api.v1.projects"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bella_baxter-0.1.1rc74/src/bella_baxter/models.py"
-        ],
-        "value": "baxter.example.com"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "bella_baxter-0.1.1rc74/PKG-INFO",
-          "bella_baxter-0.1.1rc74/README.md",
-          "bella_baxter-0.1.1rc74/pyproject.toml",
-          "bella_baxter-0.1.1rc74/src/bella_baxter.egg-info/PKG-INFO"
-        ],
-        "value": "bella-baxter.io"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "bella_baxter-0.1.1rc74/PKG-INFO",
-          "bella_baxter-0.1.1rc74/pyproject.toml",
-          "bella_baxter-0.1.1rc74/src/bella_baxter.egg-info/PKG-INFO"
-        ],
-        "value": "docs.bella-baxter.io"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "bella_baxter-0.1.1rc74/PKG-INFO",
-          "bella_baxter-0.1.1rc74/pyproject.toml",
-          "bella_baxter-0.1.1rc74/src/bella_baxter.egg-info/PKG-INFO"
+          "repo_context_hooks-0.5.0/PKG-INFO",
+          "repo_context_hooks-0.5.0/pyproject.toml",
+          "repo_context_hooks-0.5.0/repo_context_hooks.egg-info/PKG-INFO",
+          "repo_context_hooks-0.5.0/repo_context_hooks/bundle/scripts/session_context.py",
+          "repo_context_hooks-0.5.0/repo_context_hooks/bundle/skills/context-handoff-hooks/scripts/session_context.py",
+          "repo_context_hooks-0.5.0/tests/test_platform_playbooks.py",
+          "repo_context_hooks-0.5.0/tests/test_telemetry.py"
         ],
         "value": "github.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "repo_context_hooks-0.5.0/tests/test_visual_contract.py"
+        ],
+        "value": "raw.split"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "repo_context_hooks-0.5.0/repo_context_hooks/badge.py"
+        ],
+        "value": "www.w3.org"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 6,
+        "file_count": 1,
         "files": [
-          "bella_baxter-0.1.1rc74/PKG-INFO",
-          "bella_baxter-0.1.1rc74/README.md",
-          "bella_baxter-0.1.1rc74/src/bella_baxter.egg-info/PKG-INFO",
-          "bella_baxter-0.1.1rc74/src/bella_baxter/__init__.py",
-          "bella_baxter-0.1.1rc74/src/bella_baxter/client.py",
-          "bella_baxter-0.1.1rc74/src/bella_baxter/e2ee.py"
+          "repo_context_hooks-0.5.0/repo_context_hooks/badge.py"
         ],
-        "value": "https://api.bella-baxter.io"
+        "value": "http://www.w3.org/1999/xlink"
       },
       {
         "file_count": 1,
         "files": [
-          "bella_baxter-0.1.1rc74/src/bella_baxter/models.py"
+          "repo_context_hooks-0.5.0/repo_context_hooks/badge.py"
         ],
-        "value": "https://baxter.example.com"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "bella_baxter-0.1.1rc74/PKG-INFO",
-          "bella_baxter-0.1.1rc74/README.md",
-          "bella_baxter-0.1.1rc74/pyproject.toml",
-          "bella_baxter-0.1.1rc74/src/bella_baxter.egg-info/PKG-INFO"
-        ],
-        "value": "https://bella-baxter.io"
+        "value": "http://www.w3.org/2000/svg"
       },
       {
         "file_count": 3,
         "files": [
-          "bella_baxter-0.1.1rc74/PKG-INFO",
-          "bella_baxter-0.1.1rc74/pyproject.toml",
-          "bella_baxter-0.1.1rc74/src/bella_baxter.egg-info/PKG-INFO"
+          "repo_context_hooks-0.5.0/PKG-INFO",
+          "repo_context_hooks-0.5.0/pyproject.toml",
+          "repo_context_hooks-0.5.0/repo_context_hooks.egg-info/PKG-INFO"
         ],
-        "value": "https://docs.bella-baxter.io"
+        "value": "https://github.com/narendranathe/repo-context-hooks"
       },
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "bella_baxter-0.1.1rc74/PKG-INFO",
-          "bella_baxter-0.1.1rc74/pyproject.toml",
-          "bella_baxter-0.1.1rc74/src/bella_baxter.egg-info/PKG-INFO"
+          "repo_context_hooks-0.5.0/tests/test_telemetry.py"
         ],
-        "value": "https://github.com/cosmic-chimps/bella-baxter-python"
+        "value": "https://github.com/narendranathe/repo-context-hooks.git"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "repo_context_hooks-0.5.0/tests/test_platform_playbooks.py"
+        ],
+        "value": "https://github.com/narendranathe/repo-context-hooks/issues/2"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "repo_context_hooks-0.5.0/tests/test_platform_playbooks.py"
+        ],
+        "value": "https://github.com/narendranathe/repo-context-hooks/issues/3"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "repo_context_hooks-0.5.0/tests/test_platform_playbooks.py"
+        ],
+        "value": "https://github.com/narendranathe/repo-context-hooks/issues/4"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "repo_context_hooks-0.5.0/tests/test_platform_playbooks.py"
+        ],
+        "value": "https://github.com/narendranathe/repo-context-hooks/issues/5"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "repo_context_hooks-0.5.0/tests/test_platform_playbooks.py"
+        ],
+        "value": "https://github.com/narendranathe/repo-context-hooks/issues/6"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "repo_context_hooks-0.5.0/tests/test_platform_playbooks.py"
+        ],
+        "value": "https://github.com/narendranathe/repo-context-hooks/issues/8"
       }
     ]
   },
-  "package": "bella-baxter",
-  "package_slug": "bella-baxter",
-  "project_url": "https://pypi.org/project/bella-baxter/",
+  "package": "repo-context-hooks",
+  "package_slug": "repo-context-hooks",
+  "project_url": "https://pypi.org/project/repo-context-hooks/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T14:59:52.411395+00:00",
+  "published_at": "2026-04-27T15:04:08.403927+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T15:00:21.599103+00:00",
-  "title": "Personal PyPI Supply Chain Scan: bella-baxter 0.1.1rc74",
-  "version": "0.1.1rc74",
-  "version_slug": "0.1.1rc74",
-  "_metadata_path": "reports/packages/bella-baxter/0.1.1rc74/metadata.json"
+  "scanned_at": "2026-04-27T15:04:49.425654+00:00",
+  "title": "Personal PyPI Supply Chain Scan: repo-context-hooks 0.5.0",
+  "version": "0.5.0",
+  "version_slug": "0.5.0",
+  "_metadata_path": "reports/packages/repo-context-hooks/0.5.0/metadata.json"
 }

@@ -1,6 +1,131 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "repo_context_hooks-0.5.0.tar.gz",
+    "finding_count": 104,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 7,
+          "files": [
+            "repo_context_hooks-0.5.0/PKG-INFO",
+            "repo_context_hooks-0.5.0/pyproject.toml",
+            "repo_context_hooks-0.5.0/repo_context_hooks.egg-info/PKG-INFO",
+            "repo_context_hooks-0.5.0/repo_context_hooks/bundle/scripts/session_context.py",
+            "repo_context_hooks-0.5.0/repo_context_hooks/bundle/skills/context-handoff-hooks/scripts/session_context.py",
+            "repo_context_hooks-0.5.0/tests/test_platform_playbooks.py",
+            "repo_context_hooks-0.5.0/tests/test_telemetry.py"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "repo_context_hooks-0.5.0/tests/test_visual_contract.py"
+          ],
+          "value": "raw.split"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "repo_context_hooks-0.5.0/repo_context_hooks/badge.py"
+          ],
+          "value": "www.w3.org"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "repo_context_hooks-0.5.0/repo_context_hooks/badge.py"
+          ],
+          "value": "http://www.w3.org/1999/xlink"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "repo_context_hooks-0.5.0/repo_context_hooks/badge.py"
+          ],
+          "value": "http://www.w3.org/2000/svg"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "repo_context_hooks-0.5.0/PKG-INFO",
+            "repo_context_hooks-0.5.0/pyproject.toml",
+            "repo_context_hooks-0.5.0/repo_context_hooks.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/narendranathe/repo-context-hooks"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "repo_context_hooks-0.5.0/tests/test_telemetry.py"
+          ],
+          "value": "https://github.com/narendranathe/repo-context-hooks.git"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "repo_context_hooks-0.5.0/tests/test_platform_playbooks.py"
+          ],
+          "value": "https://github.com/narendranathe/repo-context-hooks/issues/2"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "repo_context_hooks-0.5.0/tests/test_platform_playbooks.py"
+          ],
+          "value": "https://github.com/narendranathe/repo-context-hooks/issues/3"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "repo_context_hooks-0.5.0/tests/test_platform_playbooks.py"
+          ],
+          "value": "https://github.com/narendranathe/repo-context-hooks/issues/4"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "repo_context_hooks-0.5.0/tests/test_platform_playbooks.py"
+          ],
+          "value": "https://github.com/narendranathe/repo-context-hooks/issues/5"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "repo_context_hooks-0.5.0/tests/test_platform_playbooks.py"
+          ],
+          "value": "https://github.com/narendranathe/repo-context-hooks/issues/6"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "repo_context_hooks-0.5.0/tests/test_platform_playbooks.py"
+          ],
+          "value": "https://github.com/narendranathe/repo-context-hooks/issues/8"
+        }
+      ]
+    },
+    "package": "repo-context-hooks",
+    "package_slug": "repo-context-hooks",
+    "project_url": "https://pypi.org/project/repo-context-hooks/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T15:04:08.403927+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T15:04:49.425654+00:00",
+    "title": "Personal PyPI Supply Chain Scan: repo-context-hooks 0.5.0",
+    "version": "0.5.0",
+    "version_slug": "0.5.0",
+    "_metadata_path": "reports/packages/repo-context-hooks/0.5.0/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "bella_baxter-0.1.1rc74.tar.gz",
     "finding_count": 906,
     "model": "gpt-5.5",
