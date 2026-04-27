@@ -1,6 +1,149 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "grood-0.1.0.tar.gz",
+    "finding_count": 6,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 3,
+          "files": [
+            "grood-0.1.0/PKG-INFO",
+            "grood-0.1.0/README.md",
+            "grood-0.1.0/src/grood.egg-info/PKG-INFO"
+          ],
+          "value": "doi.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "grood-0.1.0/LICENSE"
+          ],
+          "value": "fsf.org"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "grood-0.1.0/PKG-INFO",
+            "grood-0.1.0/README.md",
+            "grood-0.1.0/pyproject.toml",
+            "grood-0.1.0/src/grood.egg-info/PKG-INFO"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "grood-0.1.0/LICENSE"
+          ],
+          "value": "www.gnu.org"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 3,
+          "files": [
+            "grood-0.1.0/PKG-INFO",
+            "grood-0.1.0/README.md",
+            "grood-0.1.0/src/grood.egg-info/PKG-INFO"
+          ],
+          "value": "https://doi.org/10.64898/2026.03.03.709368"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "grood-0.1.0/LICENSE"
+          ],
+          "value": "https://fsf.org/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "grood-0.1.0/PKG-INFO",
+            "grood-0.1.0/README.md",
+            "grood-0.1.0/src/grood.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/MaikTungsten/Deconvolution_benchmarking"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "grood-0.1.0/PKG-INFO",
+            "grood-0.1.0/pyproject.toml",
+            "grood-0.1.0/src/grood.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/MaikTungsten/GrooD"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "grood-0.1.0/PKG-INFO",
+            "grood-0.1.0/pyproject.toml",
+            "grood-0.1.0/src/grood.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/MaikTungsten/GrooD/issues"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "grood-0.1.0/PKG-INFO",
+            "grood-0.1.0/README.md",
+            "grood-0.1.0/src/grood.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/MaikTungsten/PseudobulkSimulators"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "grood-0.1.0/PKG-INFO",
+            "grood-0.1.0/README.md",
+            "grood-0.1.0/src/grood.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/MaikTungsten/RNAseq_pipeline"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "grood-0.1.0/PKG-INFO",
+            "grood-0.1.0/README.md",
+            "grood-0.1.0/src/grood.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/poseidonchan/TAPE"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "grood-0.1.0/LICENSE"
+          ],
+          "value": "https://www.gnu.org/licenses/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "grood-0.1.0/LICENSE"
+          ],
+          "value": "https://www.gnu.org/licenses/why-not-lgpl.html"
+        }
+      ]
+    },
+    "package": "grood",
+    "package_slug": "grood",
+    "project_url": "https://pypi.org/project/grood/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T17:14:55.754666+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T17:16:16.638348+00:00",
+    "title": "Personal PyPI Supply Chain Scan: grood 0.1.0",
+    "version": "0.1.0",
+    "version_slug": "0.1.0",
+    "_metadata_path": "reports/packages/grood/0.1.0/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "mubit_adk-0.5.2.tar.gz",
     "finding_count": 3,
     "model": "gpt-5.5",
