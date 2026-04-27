@@ -1,156 +1,106 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "churnkit-1.1.9a9.tar.gz",
-  "finding_count": 375,
+  "distribution": "aidial_adapter_anthropic-0.8.0.dev5.tar.gz",
+  "finding_count": 18,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 2,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
-        ],
-        "value": "aladjov.github.io"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "churnkit-1.1.9a9/src/customer_retention/core/compat/__init__.py",
-          "churnkit-1.1.9a9/src/customer_retention/core/compat/bulk_profiling.py",
-          "churnkit-1.1.9a9/src/customer_retention/stages/profiling/type_detector.py"
-        ],
-        "value": "api.types"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
-        ],
-        "value": "codecov.io"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
-        ],
-        "value": "databricks.com"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
-        ],
-        "value": "docs.pydantic.dev"
-      },
-      {
         "file_count": 1,
         "files": [
-          "churnkit-1.1.9a9/pyproject.toml"
+          "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/_utils/resource.py"
         ],
-        "value": "download.pytorch.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "churnkit-1.1.9a9/src/customer_retention/generators/spec_generator/mlflow_pipeline_generator.py"
-        ],
-        "value": "files.items"
+        "value": "developer.mozilla.org"
       },
       {
         "file_count": 2,
         "files": [
-          "churnkit-1.1.9a9/apps/databricks_app/src/default_profile.css",
-          "churnkit-1.1.9a9/apps/databricks_app/src/theme.css"
+          "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+          "aidial_adapter_anthropic-0.8.0.dev5/README.md"
         ],
-        "value": "fonts.googleapis.com"
+        "value": "dialx.ai"
       },
       {
-        "file_count": 4,
+        "file_count": 2,
         "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md",
-          "churnkit-1.1.9a9/pyproject.toml",
-          "churnkit-1.1.9a9/scripts/notebooks/init_project.py"
+          "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+          "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+        ],
+        "value": "discord.gg"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/adapter/_claude/adapter.py",
+          "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/adapter/_claude/tokenizer/approximate.py"
+        ],
+        "value": "docs.anthropic.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+          "aidial_adapter_anthropic-0.8.0.dev5/pyproject.toml"
+        ],
+        "value": "epam-rail.com"
+      },
+      {
+        "file_count": 6,
+        "files": [
+          "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+          "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/adapter/_claude/adapter.py",
+          "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/adapter/_claude/params.py",
+          "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/adapter/_claude/tokenizer/approximate.py",
+          "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/dial/resource.py",
+          "aidial_adapter_anthropic-0.8.0.dev5/pyproject.toml"
         ],
         "value": "github.com"
       },
       {
-        "file_count": 1,
-        "files": [
-          "churnkit-1.1.9a9/scripts/databricks/dbr_init.sh"
-        ],
-        "value": "hf-user"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "churnkit-1.1.9a9/scripts/databricks/dbr_init.sh"
-        ],
-        "value": "huggingface.co"
-      },
-      {
         "file_count": 2,
         "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
+          "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+          "aidial_adapter_anthropic-0.8.0.dev5/README.md"
         ],
         "value": "img.shields.io"
       },
       {
-        "file_count": 2,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
-        ],
-        "value": "mlflow.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "churnkit-1.1.9a9/src/customer_retention/stages/features/feature_selector.py",
-          "churnkit-1.1.9a9/src/customer_retention/stages/validation/leakage_gate.py"
-        ],
-        "value": "raw.items"
-      },
-      {
         "file_count": 3,
         "files": [
-          "churnkit-1.1.9a9/src/customer_retention/analysis/auto_explorer/session.py",
-          "churnkit-1.1.9a9/src/customer_retention/stages/causal/dashboard_views.py",
-          "churnkit-1.1.9a9/src/customer_retention/stages/causal/interpretation/markdown_bootstrap.py"
+          "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+          "aidial_adapter_anthropic-0.8.0.dev5/README.md",
+          "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/adapter/_claude/tokenizer/approximate.py"
         ],
-        "value": "raw.strip"
+        "value": "platform.claude.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+          "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+        ],
+        "value": "pypi.org"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+          "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+        ],
+        "value": "python-poetry.org"
       },
       {
         "file_count": 1,
         "files": [
-          "churnkit-1.1.9a9/LICENSE"
+          "aidial_adapter_anthropic-0.8.0.dev5/LICENSE"
         ],
         "value": "www.apache.org"
       },
       {
-        "file_count": 1,
-        "files": [
-          "churnkit-1.1.9a9/exploration_notebooks/-1_sample_datasets.ipynb"
-        ],
-        "value": "www.kaggle.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "churnkit-1.1.9a9/exploration_notebooks/-1_sample_datasets.ipynb"
-        ],
-        "value": "www.kaggle.com\\n"
-      },
-      {
         "file_count": 2,
         "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
+          "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+          "aidial_adapter_anthropic-0.8.0.dev5/README.md"
         ],
         "value": "www.python.org"
       }
@@ -161,358 +111,242 @@
       {
         "file_count": 1,
         "files": [
-          "churnkit-1.1.9a9/LICENSE"
+          "aidial_adapter_anthropic-0.8.0.dev5/LICENSE"
         ],
         "value": "http://www.apache.org/licenses/"
       },
       {
         "file_count": 1,
         "files": [
-          "churnkit-1.1.9a9/LICENSE"
+          "aidial_adapter_anthropic-0.8.0.dev5/LICENSE"
         ],
         "value": "http://www.apache.org/licenses/LICENSE-2.0"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
+          "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/_utils/resource.py"
         ],
-        "value": "https://aladjov.github.io/CR/tutorial/customer-emails/"
+        "value": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URLs"
       },
       {
         "file_count": 2,
         "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
+          "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+          "aidial_adapter_anthropic-0.8.0.dev5/README.md"
         ],
-        "value": "https://aladjov.github.io/CR/tutorial/retail-churn/"
+        "value": "https://dialx.ai/"
       },
       {
         "file_count": 2,
         "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
+          "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+          "aidial_adapter_anthropic-0.8.0.dev5/README.md"
         ],
-        "value": "https://codecov.io/gh/aladjov/CR"
+        "value": "https://dialx.ai/dial_api#operation/sendChatCompletionRequest"
       },
       {
         "file_count": 2,
         "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
+          "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+          "aidial_adapter_anthropic-0.8.0.dev5/README.md"
         ],
-        "value": "https://codecov.io/gh/aladjov/CR/branch/master/graph/badge.svg"
+        "value": "https://dialx.ai/logo/dialx_logo.svg"
       },
       {
         "file_count": 2,
         "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
+          "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+          "aidial_adapter_anthropic-0.8.0.dev5/README.md"
         ],
-        "value": "https://databricks.com/"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
-        ],
-        "value": "https://docs.pydantic.dev/"
+        "value": "https://discord.gg/ukzj9U9tEe"
       },
       {
         "file_count": 1,
         "files": [
-          "churnkit-1.1.9a9/pyproject.toml"
+          "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/adapter/_claude/adapter.py"
         ],
-        "value": "https://download.pytorch.org/whl/cu128"
+        "value": "https://docs.anthropic.com/en/docs/build-with-claude/pdf-support#supported-platforms-and-models"
       },
       {
         "file_count": 1,
         "files": [
-          "churnkit-1.1.9a9/apps/databricks_app/src/default_profile.css"
+          "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/adapter/_claude/tokenizer/approximate.py"
         ],
-        "value": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Geist:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        "value": "https://docs.anthropic.com/en/docs/build-with-claude/token-counting"
       },
       {
         "file_count": 1,
         "files": [
-          "churnkit-1.1.9a9/apps/databricks_app/src/theme.css"
+          "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/adapter/_claude/tokenizer/approximate.py"
         ],
-        "value": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Geist:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/pyproject.toml",
-          "churnkit-1.1.9a9/scripts/notebooks/init_project.py"
-        ],
-        "value": "https://github.com/aladjov/CR"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
-        ],
-        "value": "https://github.com/aladjov/CR/actions/workflows/ci.yaml"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
-        ],
-        "value": "https://github.com/aladjov/CR/actions/workflows/ci.yaml/badge.svg"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/pyproject.toml"
-        ],
-        "value": "https://github.com/aladjov/CR/issues"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md",
-          "churnkit-1.1.9a9/pyproject.toml"
-        ],
-        "value": "https://github.com/aladjov/CR/wiki"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
-        ],
-        "value": "https://github.com/aladjov/CR/wiki/Acknowledgments"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
-        ],
-        "value": "https://github.com/aladjov/CR/wiki/Architecture"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
-        ],
-        "value": "https://github.com/aladjov/CR/wiki/Databricks-Installation"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
-        ],
-        "value": "https://github.com/aladjov/CR/wiki/Databricks-Track"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
-        ],
-        "value": "https://github.com/aladjov/CR/wiki/Exploration-Loop"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
-        ],
-        "value": "https://github.com/aladjov/CR/wiki/Feature-Store"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
-        ],
-        "value": "https://github.com/aladjov/CR/wiki/Getting-Started"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
-        ],
-        "value": "https://github.com/aladjov/CR/wiki/Local-Track"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
-        ],
-        "value": "https://github.com/aladjov/CR/wiki/Temporal-Framework"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
-        ],
-        "value": "https://github.com/aladjov/CR/wiki/Tutorial-Bank-Churn"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
-        ],
-        "value": "https://github.com/aladjov/CR/wiki/Tutorial-Customer-Emails"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
-        ],
-        "value": "https://github.com/aladjov/CR/wiki/Tutorial-Netflix-Churn"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
-        ],
-        "value": "https://github.com/aladjov/CR/wiki/Tutorial-Retail-Churn"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
-        ],
-        "value": "https://github.com/pre-commit/pre-commit"
+        "value": "https://docs.anthropic.com/en/docs/build-with-claude/tool-use#pricing"
       },
       {
         "file_count": 1,
         "files": [
-          "churnkit-1.1.9a9/scripts/databricks/dbr_init.sh"
+          "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/adapter/_claude/tokenizer/approximate.py"
         ],
-        "value": "https://hf-user:${HF_TOKEN"
+        "value": "https://docs.anthropic.com/en/docs/build-with-claude/vision#calculate-image-costs"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+          "aidial_adapter_anthropic-0.8.0.dev5/pyproject.toml"
+        ],
+        "value": "https://epam-rail.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+          "aidial_adapter_anthropic-0.8.0.dev5/pyproject.toml"
+        ],
+        "value": "https://epam-rail.com/dial_api"
       },
       {
         "file_count": 1,
         "files": [
-          "churnkit-1.1.9a9/scripts/databricks/dbr_init.sh"
+          "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/adapter/_claude/tokenizer/approximate.py"
         ],
-        "value": "https://huggingface.co/${DBR_HF_REPO"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
-        ],
-        "value": "https://img.shields.io/badge/Databricks-compatible-FF3621?logo=databricks"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
-        ],
-        "value": "https://img.shields.io/badge/License-Apache_2.0-green.svg"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
-        ],
-        "value": "https://img.shields.io/badge/MLflow-integrated-0194E2?logo=mlflow"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
-        ],
-        "value": "https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
-        ],
-        "value": "https://img.shields.io/badge/python-3.10+-blue.svg"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
-        ],
-        "value": "https://img.shields.io/badge/typed-Pydantic-blue"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
-        ],
-        "value": "https://mlflow.org/"
+        "value": "https://github.com/anthropics/anthropic-sdk-python/blob/246a2978694b584429d4bbd5b44245ff8eac2ac2/src/anthropic/_client.py#L270-L283"
       },
       {
         "file_count": 1,
         "files": [
-          "churnkit-1.1.9a9/exploration_notebooks/-1_sample_datasets.ipynb"
+          "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/adapter/_claude/tokenizer/approximate.py"
         ],
-        "value": "https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset"
+        "value": "https://github.com/anthropics/anthropic-sdk-python/blob/599f2b9a9501b8c98fb3132043c3ec71e3026f84/src/anthropic/lib/bedrock/_client.py#L61-L62"
       },
       {
         "file_count": 1,
         "files": [
-          "churnkit-1.1.9a9/exploration_notebooks/-1_sample_datasets.ipynb"
+          "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/adapter/_claude/params.py"
         ],
-        "value": "https://www.kaggle.com/datasets/vasifasad/netflix-customer-churn-prediction"
+        "value": "https://github.com/anthropics/anthropic-sdk-python/blob/v0.95.0/src/anthropic/resources/beta/messages/messages.py#L1505-L1536"
       },
       {
         "file_count": 1,
         "files": [
-          "churnkit-1.1.9a9/exploration_notebooks/-1_sample_datasets.ipynb"
+          "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/adapter/_claude/adapter.py"
         ],
-        "value": "https://www.kaggle.com/settings\\"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "churnkit-1.1.9a9/exploration_notebooks/-1_sample_datasets.ipynb"
-        ],
-        "value": "https://www.kaggle.com\\n"
+        "value": "https://github.com/anthropics/anthropic-sdk-python/issues/656"
       },
       {
         "file_count": 2,
         "files": [
-          "churnkit-1.1.9a9/PKG-INFO",
-          "churnkit-1.1.9a9/README.md"
+          "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+          "aidial_adapter_anthropic-0.8.0.dev5/pyproject.toml"
+        ],
+        "value": "https://github.com/epam/ai-dial-adapter-anthropic/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/dial/resource.py"
+        ],
+        "value": "https://github.com/epam/ai-dial-sdk/blob/2835107e950c89645a2b619fecba2518fa2d7bb1/aidial_sdk/chat_completion/request.py#L22"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+          "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+        ],
+        "value": "https://img.shields.io/pypi/v/aidial-adapter-anthropic.svg"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+          "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+        ],
+        "value": "https://img.shields.io/static/v1?label=DIALX%20Community%20on&message=Discord&color=blue&logo=Discord&style=flat-square"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/adapter/_claude/tokenizer/approximate.py"
+        ],
+        "value": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview#pricing"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+          "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+        ],
+        "value": "https://platform.claude.com/docs/en/api/messages"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+          "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+        ],
+        "value": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching#automatic-caching"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+          "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+        ],
+        "value": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching#explicit-cache-breakpoints"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+          "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+        ],
+        "value": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching#ttl-support"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+          "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+        ],
+        "value": "https://pypi.org/project/aidial-adapter-anthropic/"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+          "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+        ],
+        "value": "https://python-poetry.org/"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+          "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+        ],
+        "value": "https://python-poetry.org/docs/#installation"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+          "aidial_adapter_anthropic-0.8.0.dev5/README.md"
         ],
         "value": "https://www.python.org/downloads/"
       }
     ]
   },
-  "package": "churnkit",
-  "package_slug": "churnkit",
-  "project_url": "https://pypi.org/project/churnkit/",
+  "package": "aidial-adapter-anthropic",
+  "package_slug": "aidial-adapter-anthropic",
+  "project_url": "https://pypi.org/project/aidial-adapter-anthropic/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-27T10:54:04.228549+00:00",
+  "published_at": "2026-04-27T10:57:57.201159+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-27T10:54:50.023406+00:00",
-  "title": "Personal PyPI Supply Chain Scan: churnkit 1.1.9a9",
-  "version": "1.1.9a9",
-  "version_slug": "1.1.9a9",
-  "_metadata_path": "reports/packages/churnkit/1.1.9a9/metadata.json"
+  "scanned_at": "2026-04-27T10:59:10.174963+00:00",
+  "title": "Personal PyPI Supply Chain Scan: aidial-adapter-anthropic 0.8.0.dev5",
+  "version": "0.8.0.dev5",
+  "version_slug": "0.8.0.dev5",
+  "_metadata_path": "reports/packages/aidial-adapter-anthropic/0.8.0.dev5/metadata.json"
 }

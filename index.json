@@ -1,6 +1,358 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "aidial_adapter_anthropic-0.8.0.dev5.tar.gz",
+    "finding_count": 18,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/_utils/resource.py"
+          ],
+          "value": "developer.mozilla.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+            "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+          ],
+          "value": "dialx.ai"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+            "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+          ],
+          "value": "discord.gg"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/adapter/_claude/adapter.py",
+            "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/adapter/_claude/tokenizer/approximate.py"
+          ],
+          "value": "docs.anthropic.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+            "aidial_adapter_anthropic-0.8.0.dev5/pyproject.toml"
+          ],
+          "value": "epam-rail.com"
+        },
+        {
+          "file_count": 6,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+            "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/adapter/_claude/adapter.py",
+            "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/adapter/_claude/params.py",
+            "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/adapter/_claude/tokenizer/approximate.py",
+            "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/dial/resource.py",
+            "aidial_adapter_anthropic-0.8.0.dev5/pyproject.toml"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+            "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+          ],
+          "value": "img.shields.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+            "aidial_adapter_anthropic-0.8.0.dev5/README.md",
+            "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/adapter/_claude/tokenizer/approximate.py"
+          ],
+          "value": "platform.claude.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+            "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+          ],
+          "value": "pypi.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+            "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+          ],
+          "value": "python-poetry.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/LICENSE"
+          ],
+          "value": "www.apache.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+            "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+          ],
+          "value": "www.python.org"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/LICENSE"
+          ],
+          "value": "http://www.apache.org/licenses/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/LICENSE"
+          ],
+          "value": "http://www.apache.org/licenses/LICENSE-2.0"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/_utils/resource.py"
+          ],
+          "value": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URLs"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+            "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+          ],
+          "value": "https://dialx.ai/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+            "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+          ],
+          "value": "https://dialx.ai/dial_api#operation/sendChatCompletionRequest"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+            "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+          ],
+          "value": "https://dialx.ai/logo/dialx_logo.svg"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+            "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+          ],
+          "value": "https://discord.gg/ukzj9U9tEe"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/adapter/_claude/adapter.py"
+          ],
+          "value": "https://docs.anthropic.com/en/docs/build-with-claude/pdf-support#supported-platforms-and-models"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/adapter/_claude/tokenizer/approximate.py"
+          ],
+          "value": "https://docs.anthropic.com/en/docs/build-with-claude/token-counting"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/adapter/_claude/tokenizer/approximate.py"
+          ],
+          "value": "https://docs.anthropic.com/en/docs/build-with-claude/tool-use#pricing"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/adapter/_claude/tokenizer/approximate.py"
+          ],
+          "value": "https://docs.anthropic.com/en/docs/build-with-claude/vision#calculate-image-costs"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+            "aidial_adapter_anthropic-0.8.0.dev5/pyproject.toml"
+          ],
+          "value": "https://epam-rail.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+            "aidial_adapter_anthropic-0.8.0.dev5/pyproject.toml"
+          ],
+          "value": "https://epam-rail.com/dial_api"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/adapter/_claude/tokenizer/approximate.py"
+          ],
+          "value": "https://github.com/anthropics/anthropic-sdk-python/blob/246a2978694b584429d4bbd5b44245ff8eac2ac2/src/anthropic/_client.py#L270-L283"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/adapter/_claude/tokenizer/approximate.py"
+          ],
+          "value": "https://github.com/anthropics/anthropic-sdk-python/blob/599f2b9a9501b8c98fb3132043c3ec71e3026f84/src/anthropic/lib/bedrock/_client.py#L61-L62"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/adapter/_claude/params.py"
+          ],
+          "value": "https://github.com/anthropics/anthropic-sdk-python/blob/v0.95.0/src/anthropic/resources/beta/messages/messages.py#L1505-L1536"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/adapter/_claude/adapter.py"
+          ],
+          "value": "https://github.com/anthropics/anthropic-sdk-python/issues/656"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+            "aidial_adapter_anthropic-0.8.0.dev5/pyproject.toml"
+          ],
+          "value": "https://github.com/epam/ai-dial-adapter-anthropic/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/dial/resource.py"
+          ],
+          "value": "https://github.com/epam/ai-dial-sdk/blob/2835107e950c89645a2b619fecba2518fa2d7bb1/aidial_sdk/chat_completion/request.py#L22"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+            "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+          ],
+          "value": "https://img.shields.io/pypi/v/aidial-adapter-anthropic.svg"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+            "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+          ],
+          "value": "https://img.shields.io/static/v1?label=DIALX%20Community%20on&message=Discord&color=blue&logo=Discord&style=flat-square"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/aidial_adapter_anthropic/adapter/_claude/tokenizer/approximate.py"
+          ],
+          "value": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview#pricing"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+            "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+          ],
+          "value": "https://platform.claude.com/docs/en/api/messages"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+            "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+          ],
+          "value": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching#automatic-caching"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+            "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+          ],
+          "value": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching#explicit-cache-breakpoints"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+            "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+          ],
+          "value": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching#ttl-support"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+            "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+          ],
+          "value": "https://pypi.org/project/aidial-adapter-anthropic/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+            "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+          ],
+          "value": "https://python-poetry.org/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+            "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+          ],
+          "value": "https://python-poetry.org/docs/#installation"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "aidial_adapter_anthropic-0.8.0.dev5/PKG-INFO",
+            "aidial_adapter_anthropic-0.8.0.dev5/README.md"
+          ],
+          "value": "https://www.python.org/downloads/"
+        }
+      ]
+    },
+    "package": "aidial-adapter-anthropic",
+    "package_slug": "aidial-adapter-anthropic",
+    "project_url": "https://pypi.org/project/aidial-adapter-anthropic/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T10:57:57.201159+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T10:59:10.174963+00:00",
+    "title": "Personal PyPI Supply Chain Scan: aidial-adapter-anthropic 0.8.0.dev5",
+    "version": "0.8.0.dev5",
+    "version_slug": "0.8.0.dev5",
+    "_metadata_path": "reports/packages/aidial-adapter-anthropic/0.8.0.dev5/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "churnkit-1.1.9a9.tar.gz",
     "finding_count": 375,
     "model": "gpt-5.5",
