@@ -5,6 +5,8 @@ scan_windows = ["09:00-18:00"]
 
 [limits]
 max_updates = 10
+max_scans_per_run = 3
+max_llm_calls_per_run = 3
 max_archive_bytes = 52428800
 max_extracted_bytes = 104857600
 max_files_for_model = 30
@@ -21,6 +23,13 @@ model = "gpt-5.5"
 codex_auth_path = "~/.codex/auth.json"
 base_url = "https://chatgpt.com/backend-api/codex"
 request_timeout_seconds = 120
+
+[usage_gate]
+enabled = true
+min_primary_remaining_percent = 20
+min_secondary_remaining_percent = 10
+allow_if_unknown = true
+backend_url = "https://chatgpt.com/backend-api/wham/usage"
 
 [docker]
 image = "python:3.12-slim"

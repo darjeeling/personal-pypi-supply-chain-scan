@@ -12,6 +12,14 @@ from .state import PackageVersion
 
 
 @dataclass(frozen=True)
+class PypiUpdate:
+    package: PackageVersion
+    title: str | None
+    link: str | None
+    published_at: datetime | None
+
+
+@dataclass(frozen=True)
 class PypiRelease:
     package: PackageVersion
     published: datetime | None
@@ -22,14 +30,27 @@ class PypiRelease:
 
 
 def latest_updates(rss_url: str, limit: int) -> list[PackageVersion]:
+    return [update.package for update in latest_update_entries(rss_url, limit)]
+
+
+def latest_update_entries(rss_url: str, limit: int) -> list[PypiUpdate]:
     feed = reader.make_reader(":memory:")
     feed.add_feed(rss_url)
     feed.update_feeds()
-    updates: list[PackageVersion] = []
+    updates: list[PypiUpdate] = []
+    seen: set[PackageVersion] = set()
     for entry in feed.get_entries(limit=limit * 3):
         package = _package_from_entry(entry)
-        if package and package not in updates:
-            updates.append(package)
+        if package and package not in seen:
+            seen.add(package)
+            updates.append(
+                PypiUpdate(
+                    package=package,
+                    title=getattr(entry, "title", None),
+                    link=getattr(entry, "link", None),
+                    published_at=getattr(entry, "published", None) or getattr(entry, "updated", None),
+                )
+            )
         if len(updates) >= limit:
             break
     feed.close()

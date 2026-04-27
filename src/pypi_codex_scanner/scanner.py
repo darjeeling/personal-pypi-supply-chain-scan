@@ -69,7 +69,10 @@ Do not claim that code executed.
 
 @dataclass(frozen=True)
 class ScanResult:
-    markdown: str
+    markdown_ko: str
+    markdown_en: str
+    prompt_version: str = "malicious-supply-chain-review-v2"
+    model: str = "gpt-5.5"
 
 
 def scan_release(client: OpenAIResponsesClient, release: PypiRelease, extracted: ExtractedPackage) -> ScanResult:
@@ -130,11 +133,23 @@ PyPI artifact 내부의 예상 밖 파일, 갑작스러운 dependency 삽입, ty
 모델 입력 한계, 바이너리/대용량 파일, 배포 아티팩트와 소스 불일치 가능성 등
 악성 공급망 판단에 필요한 미확인 사항만 적으세요.
 
+Also write an English version with equivalent content.
+Return exactly this structure:
+
+<ko_report>
+Korean Markdown report here.
+</ko_report>
+<en_report>
+English Markdown report here.
+</en_report>
+
 # Extracted Text Corpus
 
 {extracted.corpus}
 """
-    return ScanResult(markdown=client.create_markdown_scan(SECURITY_INSTRUCTIONS, prompt))
+    raw = client.create_markdown_scan(SECURITY_INSTRUCTIONS, prompt)
+    ko, en = _split_bilingual_report(raw)
+    return ScanResult(markdown_ko=ko, markdown_en=en, model=client.config.model)
 
 
 def _format_prescan(prescan: dict) -> str:
@@ -149,3 +164,19 @@ def _format_prescan(prescan: dict) -> str:
     if len(findings) > 80:
         compact["truncated_findings"] = len(findings) - 80
     return json.dumps(compact, ensure_ascii=False, indent=2)
+
+
+def _split_bilingual_report(raw: str) -> tuple[str, str]:
+    ko = _extract_tag(raw, "ko_report")
+    en = _extract_tag(raw, "en_report")
+    if ko and en:
+        return ko.strip(), en.strip()
+    return raw.strip(), raw.strip()
+
+
+def _extract_tag(text: str, tag: str) -> str | None:
+    start = text.find(f"<{tag}>")
+    end = text.find(f"</{tag}>")
+    if start < 0 or end < 0 or end <= start:
+        return None
+    return text[start + len(tag) + 2 : end]

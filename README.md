@@ -38,6 +38,8 @@ PyPI RSS updates feed에서 최신 publish 패키지를 가져오고, 호스트�
 ```bash
 uv run pypi-codex-scanner init-config
 uv run pypi-codex-scanner run --config scanner.toml
+uv run pypi-codex-scanner build-pages --config scanner.toml --site-dir site
+uv run pypi-codex-scanner publish-pages --config scanner.toml --branch gh-pages
 ```
 
 Docker가 필요합니다.
@@ -76,3 +78,43 @@ base_url = "https://chatgpt.com/backend-api/codex"
 ```
 
 빈 window 목록은 항상 실행을 의미합니다.
+
+## GitHub Pages
+
+새 스캔 리포트는 다음 구조로 저장됩니다.
+
+```text
+reports/packages/{package}/{version}/ko.md
+reports/packages/{package}/{version}/en.md
+reports/packages/{package}/{version}/metadata.json
+```
+
+정적 사이트 생성 결과는 다음 URL 구조를 사용합니다.
+
+```text
+/packages/{package}/{version}/ko/
+/packages/{package}/{version}/en/
+/packages/{package}/latest/ko/
+/packages/{package}/latest/en/
+/latest/ko/
+/latest/en/
+```
+
+`publish-pages`는 기본적으로 로컬 `gh-pages` 브랜치에 커밋합니다. 원격 push는 명시적으로 `--push`를 붙일 때만 수행합니다.
+
+## Resume State
+
+SQLite에는 RSS entries, PyPI release metadata, scan attempts, report artifacts, usage gate decisions가 무제한으로 누적됩니다. 기본 경로는 `data/state.sqlite3`입니다.
+
+## Usage Gate
+
+`usage_gate` 설정은 Codex backend usage endpoint를 직접 호출해 5시간/weekly 사용률이 설정 임계값보다 낮을 때만 스캔을 진행합니다.
+
+```toml
+[usage_gate]
+enabled = true
+min_primary_remaining_percent = 20
+min_secondary_remaining_percent = 10
+allow_if_unknown = true
+backend_url = "https://chatgpt.com/backend-api/wham/usage"
+```

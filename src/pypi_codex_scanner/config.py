@@ -14,6 +14,8 @@ scan_windows = ["09:00-18:00"]
 
 [limits]
 max_updates = 10
+max_scans_per_run = 3
+max_llm_calls_per_run = 3
 max_archive_bytes = 52428800
 max_extracted_bytes = 104857600
 max_files_for_model = 30
@@ -30,6 +32,13 @@ model = "gpt-5.5"
 codex_auth_path = "~/.codex/auth.json"
 base_url = "https://chatgpt.com/backend-api/codex"
 request_timeout_seconds = 120
+
+[usage_gate]
+enabled = true
+min_primary_remaining_percent = 20
+min_secondary_remaining_percent = 10
+allow_if_unknown = true
+backend_url = "https://chatgpt.com/backend-api/wham/usage"
 
 [docker]
 image = "python:3.12-slim"
@@ -53,6 +62,8 @@ class ScheduleConfig:
 @dataclass(frozen=True)
 class LimitsConfig:
     max_updates: int = 10
+    max_scans_per_run: int = 3
+    max_llm_calls_per_run: int = 3
     max_archive_bytes: int = 50 * 1024 * 1024
     max_extracted_bytes: int = 100 * 1024 * 1024
     max_files_for_model: int = 30
@@ -84,6 +95,15 @@ class DockerConfig:
 
 
 @dataclass(frozen=True)
+class UsageGateConfig:
+    enabled: bool = True
+    min_primary_remaining_percent: int = 20
+    min_secondary_remaining_percent: int = 10
+    allow_if_unknown: bool = True
+    backend_url: str = "https://chatgpt.com/backend-api/wham/usage"
+
+
+@dataclass(frozen=True)
 class AppConfig:
     rss_url: str = DEFAULT_RSS_URL
     schedule: ScheduleConfig = field(default_factory=ScheduleConfig)
@@ -91,6 +111,7 @@ class AppConfig:
     paths: PathsConfig = field(default_factory=PathsConfig)
     openai: OpenAIConfig = field(default_factory=OpenAIConfig)
     docker: DockerConfig = field(default_factory=DockerConfig)
+    usage_gate: UsageGateConfig = field(default_factory=UsageGateConfig)
 
 
 def load_config(path: Path) -> AppConfig:
@@ -116,6 +137,7 @@ def load_config(path: Path) -> AppConfig:
             request_timeout_seconds=openai_data.get("request_timeout_seconds", 120),
         ),
         docker=DockerConfig(**data.get("docker", {})),
+        usage_gate=UsageGateConfig(**data.get("usage_gate", {})),
     )
 
 
