@@ -1,6 +1,162 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "lib_6107-2026.0.0.3.tar.gz",
+    "finding_count": 14,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 3,
+          "files": [
+            "lib_6107-2026.0.0.3/PKG-INFO",
+            "lib_6107-2026.0.0.3/pyproject.toml",
+            "lib_6107-2026.0.0.3/src/lib_6107.egg-info/PKG-INFO"
+          ],
+          "value": "cyberjagzz.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lib_6107-2026.0.0.3/src/lib_6107/pykit/autolog.py"
+          ],
+          "value": "docs.python.org"
+        },
+        {
+          "file_count": 10,
+          "files": [
+            "lib_6107-2026.0.0.3/PKG-INFO",
+            "lib_6107-2026.0.0.3/README.md",
+            "lib_6107-2026.0.0.3/pyproject.toml",
+            "lib_6107-2026.0.0.3/src/lib_6107.egg-info/PKG-INFO",
+            "lib_6107-2026.0.0.3/src/lib_6107/commands/_command_template.py",
+            "lib_6107-2026.0.0.3/src/lib_6107/commands/_commandgroup_template.py",
+            "lib_6107-2026.0.0.3/src/lib_6107/commands/vision/approach_tag.py",
+            "lib_6107-2026.0.0.3/src/lib_6107/physics.py"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lib_6107-2026.0.0.3/src/lib_6107/physics.py"
+          ],
+          "value": "robotpy.readthedocs.io"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 3,
+          "files": [
+            "lib_6107-2026.0.0.3/PKG-INFO",
+            "lib_6107-2026.0.0.3/pyproject.toml",
+            "lib_6107-2026.0.0.3/src/lib_6107.egg-info/PKG-INFO"
+          ],
+          "value": "https://cyberjagzz.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lib_6107-2026.0.0.3/src/lib_6107/pykit/autolog.py"
+          ],
+          "value": "https://docs.python.org/3/library/dataclasses.html#dataclasses.__post_init__"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lib_6107-2026.0.0.3/src/lib_6107/pykit/autolog.py"
+          ],
+          "value": "https://docs.python.org/3/reference/expressions.html#private-name-mangling"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lib_6107-2026.0.0.3/src/lib_6107/pykit/logtracer.py"
+          ],
+          "value": "https://github.com/1757WestwoodRobotics/2026-Rebuilt"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "lib_6107-2026.0.0.3/PKG-INFO",
+            "lib_6107-2026.0.0.3/README.md",
+            "lib_6107-2026.0.0.3/src/lib_6107.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/6107/2026-Rebuilt"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "lib_6107-2026.0.0.3/PKG-INFO",
+            "lib_6107-2026.0.0.3/pyproject.toml",
+            "lib_6107-2026.0.0.3/src/lib_6107.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/CyberJagzz/frclib-6107"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "lib_6107-2026.0.0.3/PKG-INFO",
+            "lib_6107-2026.0.0.3/pyproject.toml",
+            "lib_6107-2026.0.0.3/src/lib_6107.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/CyberJagzz/frclib-6107/docs"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lib_6107-2026.0.0.3/src/lib_6107/util/elastic_utils.py"
+          ],
+          "value": "https://github.com/Gold872/elastic_dashboard/blob/main/elasticlib/elasticlib.py"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "lib_6107-2026.0.0.3/src/lib_6107/commands/_command_template.py",
+            "lib_6107-2026.0.0.3/src/lib_6107/commands/_commandgroup_template.py"
+          ],
+          "value": "https://github.com/aesatchien/FRC2429_2025"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lib_6107-2026.0.0.3/src/lib_6107/commands/vision/approach_tag.py"
+          ],
+          "value": "https://github.com/epanov1602/CommandRevSwerve/blob/main/docs/Adding_Camera.md"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lib_6107-2026.0.0.3/src/lib_6107/physics.py"
+          ],
+          "value": "https://github.com/robotpy/examples"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "lib_6107-2026.0.0.3/src/lib_6107/physics.py"
+          ],
+          "value": "https://robotpy.readthedocs.io/projects/pyfrc/en/latest/physics.html"
+        }
+      ]
+    },
+    "package": "lib_6107",
+    "package_slug": "lib_6107",
+    "project_url": "https://pypi.org/project/lib_6107/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-27T13:48:58.450058+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-27T13:50:09.595489+00:00",
+    "title": "Personal PyPI Supply Chain Scan: lib_6107 2026.0.0.3",
+    "version": "2026.0.0.3",
+    "version_slug": "2026.0.0.3",
+    "_metadata_path": "reports/packages/lib_6107/2026.0.0.3/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "template_engine_ia-0.9.3.tar.gz",
     "finding_count": 84,
     "model": "gpt-5.5",
