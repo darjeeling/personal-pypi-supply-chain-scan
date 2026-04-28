@@ -1,6 +1,290 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "sqllens-0.0.1.tar.gz",
+    "finding_count": 282,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "sqllens-0.0.1/mcpb/manifest.json"
+          ],
+          "value": "console.anthropic.com"
+        },
+        {
+          "file_count": 9,
+          "files": [
+            "sqllens-0.0.1/.github/workflows/docker.yml",
+            "sqllens-0.0.1/CONTRIBUTING.md",
+            "sqllens-0.0.1/PKG-INFO",
+            "sqllens-0.0.1/README.md",
+            "sqllens-0.0.1/examples/sqlite-demo/README.md",
+            "sqllens-0.0.1/mcpb/README.md",
+            "sqllens-0.0.1/mcpb/manifest.json",
+            "sqllens-0.0.1/pyproject.toml"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "sqllens-0.0.1/CHANGELOG.md"
+          ],
+          "value": "keepachangelog.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "sqllens-0.0.1/PKG-INFO",
+            "sqllens-0.0.1/README.md"
+          ],
+          "value": "modelcontextprotocol.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "sqllens-0.0.1/.github/workflows/release.yml"
+          ],
+          "value": "pypi.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "sqllens-0.0.1/mcpb/manifest.json"
+          ],
+          "value": "raw.githubusercontent.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "sqllens-0.0.1/src/sqllens/agent/core/rich_component.py"
+          ],
+          "value": "raw.items"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "sqllens-0.0.1/src/sqllens/auth/bearer.py"
+          ],
+          "value": "raw.split"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "sqllens-0.0.1/CHANGELOG.md"
+          ],
+          "value": "semver.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "sqllens-0.0.1/LICENSE"
+          ],
+          "value": "www.apache.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "sqllens-0.0.1/tests/integration/conftest.py"
+          ],
+          "value": "{host"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [
+        {
+          "file_count": 1,
+          "files": [
+            "sqllens-0.0.1/mcpb/manifest.json"
+          ],
+          "value": "https://raw.githubusercontent.com/anthropics/mcpb/main/schemas/mcpb-manifest-v0.4.schema.json"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "sqllens-0.0.1/mcpb/manifest.json"
+          ],
+          "value": "raw.githubusercontent.com"
+        }
+      ],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "sqllens-0.0.1/LICENSE"
+          ],
+          "value": "http://www.apache.org/licenses/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "sqllens-0.0.1/LICENSE"
+          ],
+          "value": "http://www.apache.org/licenses/LICENSE-2.0"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "sqllens-0.0.1/tests/integration/conftest.py"
+          ],
+          "value": "http://{host"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "sqllens-0.0.1/mcpb/manifest.json"
+          ],
+          "value": "https://console.anthropic.com/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "sqllens-0.0.1/tests/unit/test_auth.py"
+          ],
+          "value": "https://example.com/.well-known/jwks.json"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "sqllens-0.0.1/tests/unit/test_auth.py"
+          ],
+          "value": "https://example.com/jwks.json"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "sqllens-0.0.1/PKG-INFO",
+            "sqllens-0.0.1/README.md"
+          ],
+          "value": "https://github.com/Radman-LLC/guidoo"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "sqllens-0.0.1/PKG-INFO",
+            "sqllens-0.0.1/mcpb/manifest.json",
+            "sqllens-0.0.1/pyproject.toml",
+            "sqllens-0.0.1/src/sqllens/cli.py"
+          ],
+          "value": "https://github.com/The01Geek/sqllens"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "sqllens-0.0.1/mcpb/manifest.json"
+          ],
+          "value": "https://github.com/The01Geek/sqllens#readme"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "sqllens-0.0.1/CONTRIBUTING.md",
+            "sqllens-0.0.1/PKG-INFO",
+            "sqllens-0.0.1/README.md"
+          ],
+          "value": "https://github.com/The01Geek/sqllens.git"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "sqllens-0.0.1/PKG-INFO",
+            "sqllens-0.0.1/mcpb/manifest.json",
+            "sqllens-0.0.1/pyproject.toml"
+          ],
+          "value": "https://github.com/The01Geek/sqllens/issues"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "sqllens-0.0.1/mcpb/README.md"
+          ],
+          "value": "https://github.com/anthropics/mcpb"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "sqllens-0.0.1/examples/sqlite-demo/README.md"
+          ],
+          "value": "https://github.com/lerocha/chinook-database"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "sqllens-0.0.1/PKG-INFO",
+            "sqllens-0.0.1/README.md"
+          ],
+          "value": "https://github.com/modelcontextprotocol/inspector"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "sqllens-0.0.1/.github/workflows/docker.yml"
+          ],
+          "value": "https://github.com/sigstore/cosign/releases/download/v2.4.1/cosign-linux-amd64"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "sqllens-0.0.1/PKG-INFO",
+            "sqllens-0.0.1/README.md"
+          ],
+          "value": "https://github.com/tobymao/sqlglot"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "sqllens-0.0.1/CHANGELOG.md"
+          ],
+          "value": "https://keepachangelog.com/en/1.1.0/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "sqllens-0.0.1/PKG-INFO",
+            "sqllens-0.0.1/README.md"
+          ],
+          "value": "https://modelcontextprotocol.io/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "sqllens-0.0.1/.github/workflows/release.yml"
+          ],
+          "value": "https://pypi.org/p/sqllens"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "sqllens-0.0.1/mcpb/manifest.json"
+          ],
+          "value": "https://raw.githubusercontent.com/anthropics/mcpb/main/schemas/mcpb-manifest-v0.4.schema.json"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "sqllens-0.0.1/CHANGELOG.md"
+          ],
+          "value": "https://semver.org/"
+        }
+      ]
+    },
+    "package": "sqllens",
+    "package_slug": "sqllens",
+    "project_url": "https://pypi.org/project/sqllens/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-28T03:01:01.347441+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-28T03:01:37.751998+00:00",
+    "title": "Personal PyPI Supply Chain Scan: sqllens 0.0.1",
+    "version": "0.0.1",
+    "version_slug": "0.0.1",
+    "_metadata_path": "reports/packages/sqllens/0.0.1/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "pyfies-0.1.1.tar.gz",
     "finding_count": 6,
     "model": "gpt-5.5",

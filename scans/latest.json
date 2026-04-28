@@ -1,354 +1,284 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "pyfies-0.1.1.tar.gz",
-  "finding_count": 6,
+  "distribution": "sqllens-0.0.1.tar.gz",
+  "finding_count": 282,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
         "file_count": 1,
         "files": [
-          "pyfies-0.1.1/scripts/generate_r_fixtures.R"
+          "sqllens-0.0.1/mcpb/manifest.json"
         ],
-        "value": "cloud.r-project.org"
+        "value": "console.anthropic.com"
       },
       {
-        "file_count": 4,
+        "file_count": 9,
         "files": [
-          "pyfies-0.1.1/PKG-INFO",
-          "pyfies-0.1.1/README.md",
-          "pyfies-0.1.1/docs/index.md",
-          "pyfies-0.1.1/docs/parity.md"
-        ],
-        "value": "cran.r-project.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pyfies-0.1.1/PUBLISHING.md"
-        ],
-        "value": "docs.pypi.org"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "pyfies-0.1.1/PKG-INFO",
-          "pyfies-0.1.1/README.md",
-          "pyfies-0.1.1/docs/index.md"
-        ],
-        "value": "doi.org"
-      },
-      {
-        "file_count": 7,
-        "files": [
-          "pyfies-0.1.1/.pre-commit-config.yaml",
-          "pyfies-0.1.1/PKG-INFO",
-          "pyfies-0.1.1/PUBLISHING.md",
-          "pyfies-0.1.1/docs/index.md",
-          "pyfies-0.1.1/docs/quickstart.md",
-          "pyfies-0.1.1/mkdocs.yml",
-          "pyfies-0.1.1/pyproject.toml"
+          "sqllens-0.0.1/.github/workflows/docker.yml",
+          "sqllens-0.0.1/CONTRIBUTING.md",
+          "sqllens-0.0.1/PKG-INFO",
+          "sqllens-0.0.1/README.md",
+          "sqllens-0.0.1/examples/sqlite-demo/README.md",
+          "sqllens-0.0.1/mcpb/README.md",
+          "sqllens-0.0.1/mcpb/manifest.json",
+          "sqllens-0.0.1/pyproject.toml"
         ],
         "value": "github.com"
       },
       {
         "file_count": 1,
         "files": [
-          "pyfies-0.1.1/CHANGELOG.md"
+          "sqllens-0.0.1/CHANGELOG.md"
         ],
         "value": "keepachangelog.com"
       },
       {
-        "file_count": 1,
-        "files": [
-          "pyfies-0.1.1/mkdocs.yml"
-        ],
-        "value": "navigation.top"
-      },
-      {
-        "file_count": 5,
-        "files": [
-          "pyfies-0.1.1/CHANGELOG.md",
-          "pyfies-0.1.1/PKG-INFO",
-          "pyfies-0.1.1/PUBLISHING.md",
-          "pyfies-0.1.1/mkdocs.yml",
-          "pyfies-0.1.1/pyproject.toml"
-        ],
-        "value": "nejohnson2.github.io"
-      },
-      {
         "file_count": 2,
         "files": [
-          "pyfies-0.1.1/.github/workflows/release.yml",
-          "pyfies-0.1.1/PUBLISHING.md"
+          "sqllens-0.0.1/PKG-INFO",
+          "sqllens-0.0.1/README.md"
+        ],
+        "value": "modelcontextprotocol.io"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sqllens-0.0.1/.github/workflows/release.yml"
         ],
         "value": "pypi.org"
       },
       {
         "file_count": 1,
         "files": [
-          "pyfies-0.1.1/CHANGELOG.md"
+          "sqllens-0.0.1/mcpb/manifest.json"
+        ],
+        "value": "raw.githubusercontent.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sqllens-0.0.1/src/sqllens/agent/core/rich_component.py"
+        ],
+        "value": "raw.items"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sqllens-0.0.1/src/sqllens/auth/bearer.py"
+        ],
+        "value": "raw.split"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sqllens-0.0.1/CHANGELOG.md"
         ],
         "value": "semver.org"
       },
       {
-        "file_count": 2,
-        "files": [
-          "pyfies-0.1.1/.github/workflows/release.yml",
-          "pyfies-0.1.1/PUBLISHING.md"
-        ],
-        "value": "test.pypi.org"
-      },
-      {
         "file_count": 1,
         "files": [
-          "pyfies-0.1.1/mkdocs.yml"
-        ],
-        "value": "unpkg.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pyfies-0.1.1/LICENSE"
+          "sqllens-0.0.1/LICENSE"
         ],
         "value": "www.apache.org"
       },
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "pyfies-0.1.1/PKG-INFO",
-          "pyfies-0.1.1/README.md",
-          "pyfies-0.1.1/docs/methodology.md"
+          "sqllens-0.0.1/tests/integration/conftest.py"
         ],
-        "value": "www.fao.org"
+        "value": "{host"
       }
     ],
     "raw_public_ips": [],
-    "suspicious_endpoints": [],
+    "suspicious_endpoints": [
+      {
+        "file_count": 1,
+        "files": [
+          "sqllens-0.0.1/mcpb/manifest.json"
+        ],
+        "value": "https://raw.githubusercontent.com/anthropics/mcpb/main/schemas/mcpb-manifest-v0.4.schema.json"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sqllens-0.0.1/mcpb/manifest.json"
+        ],
+        "value": "raw.githubusercontent.com"
+      }
+    ],
     "urls": [
       {
         "file_count": 1,
         "files": [
-          "pyfies-0.1.1/LICENSE"
+          "sqllens-0.0.1/LICENSE"
         ],
         "value": "http://www.apache.org/licenses/"
       },
       {
         "file_count": 1,
         "files": [
-          "pyfies-0.1.1/LICENSE"
+          "sqllens-0.0.1/LICENSE"
         ],
         "value": "http://www.apache.org/licenses/LICENSE-2.0"
       },
       {
         "file_count": 1,
         "files": [
-          "pyfies-0.1.1/scripts/generate_r_fixtures.R"
+          "sqllens-0.0.1/tests/integration/conftest.py"
         ],
-        "value": "https://cloud.r-project.org"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "pyfies-0.1.1/PKG-INFO",
-          "pyfies-0.1.1/README.md",
-          "pyfies-0.1.1/docs/index.md",
-          "pyfies-0.1.1/docs/parity.md"
-        ],
-        "value": "https://cran.r-project.org/package=RM.weights"
+        "value": "http://{host"
       },
       {
         "file_count": 1,
         "files": [
-          "pyfies-0.1.1/PUBLISHING.md"
+          "sqllens-0.0.1/mcpb/manifest.json"
         ],
-        "value": "https://docs.pypi.org/trusted-publishers/"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "pyfies-0.1.1/PKG-INFO",
-          "pyfies-0.1.1/README.md",
-          "pyfies-0.1.1/docs/index.md"
-        ],
-        "value": "https://doi.org/10.1016/j.measurement.2017.10.065"
+        "value": "https://console.anthropic.com/"
       },
       {
         "file_count": 1,
         "files": [
-          "pyfies-0.1.1/.pre-commit-config.yaml"
+          "sqllens-0.0.1/tests/unit/test_auth.py"
         ],
-        "value": "https://github.com/astral-sh/ruff-pre-commit"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "pyfies-0.1.1/PKG-INFO",
-          "pyfies-0.1.1/docs/quickstart.md",
-          "pyfies-0.1.1/mkdocs.yml",
-          "pyfies-0.1.1/pyproject.toml"
-        ],
-        "value": "https://github.com/nejohnson2/pyFIES"
+        "value": "https://example.com/.well-known/jwks.json"
       },
       {
         "file_count": 1,
         "files": [
-          "pyfies-0.1.1/docs/index.md"
+          "sqllens-0.0.1/tests/unit/test_auth.py"
         ],
-        "value": "https://github.com/nejohnson2/pyFIES/blob/main/LICENSE"
+        "value": "https://example.com/jwks.json"
       },
       {
         "file_count": 2,
         "files": [
-          "pyfies-0.1.1/PKG-INFO",
-          "pyfies-0.1.1/pyproject.toml"
+          "sqllens-0.0.1/PKG-INFO",
+          "sqllens-0.0.1/README.md"
         ],
-        "value": "https://github.com/nejohnson2/pyFIES/issues"
+        "value": "https://github.com/Radman-LLC/guidoo"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "sqllens-0.0.1/PKG-INFO",
+          "sqllens-0.0.1/mcpb/manifest.json",
+          "sqllens-0.0.1/pyproject.toml",
+          "sqllens-0.0.1/src/sqllens/cli.py"
+        ],
+        "value": "https://github.com/The01Geek/sqllens"
       },
       {
         "file_count": 1,
         "files": [
-          "pyfies-0.1.1/.pre-commit-config.yaml"
+          "sqllens-0.0.1/mcpb/manifest.json"
         ],
-        "value": "https://github.com/pre-commit/pre-commit-hooks"
+        "value": "https://github.com/The01Geek/sqllens#readme"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "sqllens-0.0.1/CONTRIBUTING.md",
+          "sqllens-0.0.1/PKG-INFO",
+          "sqllens-0.0.1/README.md"
+        ],
+        "value": "https://github.com/The01Geek/sqllens.git"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "sqllens-0.0.1/PKG-INFO",
+          "sqllens-0.0.1/mcpb/manifest.json",
+          "sqllens-0.0.1/pyproject.toml"
+        ],
+        "value": "https://github.com/The01Geek/sqllens/issues"
       },
       {
         "file_count": 1,
         "files": [
-          "pyfies-0.1.1/CHANGELOG.md"
+          "sqllens-0.0.1/mcpb/README.md"
+        ],
+        "value": "https://github.com/anthropics/mcpb"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sqllens-0.0.1/examples/sqlite-demo/README.md"
+        ],
+        "value": "https://github.com/lerocha/chinook-database"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sqllens-0.0.1/PKG-INFO",
+          "sqllens-0.0.1/README.md"
+        ],
+        "value": "https://github.com/modelcontextprotocol/inspector"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sqllens-0.0.1/.github/workflows/docker.yml"
+        ],
+        "value": "https://github.com/sigstore/cosign/releases/download/v2.4.1/cosign-linux-amd64"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "sqllens-0.0.1/PKG-INFO",
+          "sqllens-0.0.1/README.md"
+        ],
+        "value": "https://github.com/tobymao/sqlglot"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sqllens-0.0.1/CHANGELOG.md"
         ],
         "value": "https://keepachangelog.com/en/1.1.0/"
       },
       {
-        "file_count": 4,
-        "files": [
-          "pyfies-0.1.1/CHANGELOG.md",
-          "pyfies-0.1.1/PKG-INFO",
-          "pyfies-0.1.1/mkdocs.yml",
-          "pyfies-0.1.1/pyproject.toml"
-        ],
-        "value": "https://nejohnson2.github.io/pyFIES/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pyfies-0.1.1/PUBLISHING.md"
-        ],
-        "value": "https://nejohnson2.github.io/pyFIES/`"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pyfies-0.1.1/PUBLISHING.md"
-        ],
-        "value": "https://pypi.org/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pyfies-0.1.1/PUBLISHING.md"
-        ],
-        "value": "https://pypi.org/account/register/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pyfies-0.1.1/.github/workflows/release.yml"
-        ],
-        "value": "https://pypi.org/p/pyfies"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pyfies-0.1.1/PUBLISHING.md"
-        ],
-        "value": "https://pypi.org/simple/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pyfies-0.1.1/CHANGELOG.md"
-        ],
-        "value": "https://semver.org/spec/v2.0.0.html"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pyfies-0.1.1/PUBLISHING.md"
-        ],
-        "value": "https://test.pypi.org/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pyfies-0.1.1/PUBLISHING.md"
-        ],
-        "value": "https://test.pypi.org/account/register/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pyfies-0.1.1/.github/workflows/release.yml"
-        ],
-        "value": "https://test.pypi.org/legacy/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pyfies-0.1.1/.github/workflows/release.yml"
-        ],
-        "value": "https://test.pypi.org/p/pyfies"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pyfies-0.1.1/PUBLISHING.md"
-        ],
-        "value": "https://test.pypi.org/project/pyfies/`"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pyfies-0.1.1/PUBLISHING.md"
-        ],
-        "value": "https://test.pypi.org/simple/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "pyfies-0.1.1/mkdocs.yml"
-        ],
-        "value": "https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "pyfies-0.1.1/PKG-INFO",
-          "pyfies-0.1.1/README.md",
-          "pyfies-0.1.1/docs/methodology.md"
-        ],
-        "value": "https://www.fao.org/fileadmin/templates/ess/voh/FIES_Technical_Paper_v1.1.pdf"
-      },
-      {
         "file_count": 2,
         "files": [
-          "pyfies-0.1.1/PKG-INFO",
-          "pyfies-0.1.1/README.md"
+          "sqllens-0.0.1/PKG-INFO",
+          "sqllens-0.0.1/README.md"
         ],
-        "value": "https://www.fao.org/measuring-hunger/access-to-food/about-the-food-insecurity-experience-scale-(fies"
+        "value": "https://modelcontextprotocol.io/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sqllens-0.0.1/.github/workflows/release.yml"
+        ],
+        "value": "https://pypi.org/p/sqllens"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sqllens-0.0.1/mcpb/manifest.json"
+        ],
+        "value": "https://raw.githubusercontent.com/anthropics/mcpb/main/schemas/mcpb-manifest-v0.4.schema.json"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "sqllens-0.0.1/CHANGELOG.md"
+        ],
+        "value": "https://semver.org/"
       }
     ]
   },
-  "package": "pyfies",
-  "package_slug": "pyfies",
-  "project_url": "https://pypi.org/project/pyfies/",
+  "package": "sqllens",
+  "package_slug": "sqllens",
+  "project_url": "https://pypi.org/project/sqllens/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-28T02:56:29.150379+00:00",
+  "published_at": "2026-04-28T03:01:01.347441+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-28T02:57:13.199832+00:00",
-  "title": "Personal PyPI Supply Chain Scan: pyfies 0.1.1",
-  "version": "0.1.1",
-  "version_slug": "0.1.1",
-  "_metadata_path": "reports/packages/pyfies/0.1.1/metadata.json"
+  "scanned_at": "2026-04-28T03:01:37.751998+00:00",
+  "title": "Personal PyPI Supply Chain Scan: sqllens 0.0.1",
+  "version": "0.0.1",
+  "version_slug": "0.0.1",
+  "_metadata_path": "reports/packages/sqllens/0.0.1/metadata.json"
 }
