@@ -1,110 +1,24 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "deltacat_io_core-0.1.7.tar.gz",
-  "finding_count": 34,
+  "distribution": "odoo_addons_oca_l10n_spain-19.0.20260427.0-py3-none-any.whl",
+  "finding_count": 2,
   "model": "gpt-5.5",
   "network_indicators": {
-    "domains": [
-      {
-        "file_count": 1,
-        "files": [
-          "deltacat_io_core-0.1.7/storage_credentials.py"
-        ],
-        "value": "``"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "deltacat_io_core-0.1.7/execution.py",
-          "deltacat_io_core-0.1.7/models.py"
-        ],
-        "value": "files.extend"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "deltacat_io_core-0.1.7/.gitignore",
-          "deltacat_io_core-0.1.7/metrics.py",
-          "deltacat_io_core-0.1.7/pk_hash_support.py"
-        ],
-        "value": "github.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "deltacat_io_core-0.1.7/storage_credentials.py"
-        ],
-        "value": "s3.cn-north-1.amazonaws.com.cn``"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "deltacat_io_core-0.1.7/filesystem_support.py",
-          "deltacat_io_core-0.1.7/storage_credentials.py"
-        ],
-        "value": "s3.us-gov-west-1.amazonaws.com``"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "deltacat_io_core-0.1.7/data_root.py",
-          "deltacat_io_core-0.1.7/storage_credentials.py"
-        ],
-        "value": "s3.{region"
-      }
-    ],
+    "domains": [],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
-    "urls": [
-      {
-        "file_count": 1,
-        "files": [
-          "deltacat_io_core-0.1.7/storage_credentials.py"
-        ],
-        "value": "http://``"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "deltacat_io_core-0.1.7/pk_hash_support.py"
-        ],
-        "value": "https://github.com/apache/arrow/issues/38835"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "deltacat_io_core-0.1.7/storage_credentials.py"
-        ],
-        "value": "https://s3.cn-north-1.amazonaws.com.cn``"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "deltacat_io_core-0.1.7/filesystem_support.py",
-          "deltacat_io_core-0.1.7/storage_credentials.py"
-        ],
-        "value": "https://s3.us-gov-west-1.amazonaws.com``"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "deltacat_io_core-0.1.7/data_root.py",
-          "deltacat_io_core-0.1.7/storage_credentials.py"
-        ],
-        "value": "https://s3.{region"
-      }
-    ]
+    "urls": []
   },
-  "package": "deltacat-io-core",
-  "package_slug": "deltacat-io-core",
-  "project_url": "https://pypi.org/project/deltacat-io-core/",
+  "package": "odoo-addons-oca-l10n-spain",
+  "package_slug": "odoo-addons-oca-l10n-spain",
+  "project_url": "https://pypi.org/project/odoo-addons-oca-l10n-spain/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-28T03:22:53.781994+00:00",
+  "published_at": "2026-04-28T03:26:46.652287+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-28T03:23:44.118188+00:00",
-  "title": "Personal PyPI Supply Chain Scan: deltacat-io-core 0.1.7",
-  "version": "0.1.7",
-  "version_slug": "0.1.7",
-  "_metadata_path": "reports/packages/deltacat-io-core/0.1.7/metadata.json"
+  "scanned_at": "2026-04-28T03:27:59.777268+00:00",
+  "title": "Personal PyPI Supply Chain Scan: odoo-addons-oca-l10n-spain 19.0.20260427.0",
+  "version": "19.0.20260427.0",
+  "version_slug": "19.0.20260427.0",
+  "_metadata_path": "reports/packages/odoo-addons-oca-l10n-spain/19.0.20260427.0/metadata.json"
 }
