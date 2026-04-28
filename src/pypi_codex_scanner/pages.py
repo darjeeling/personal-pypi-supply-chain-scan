@@ -3,6 +3,7 @@ from __future__ import annotations
 from pathlib import Path
 import html
 import json
+import re
 import shutil
 import subprocess
 import tempfile
@@ -251,6 +252,14 @@ def _infer_risk_from_report(reports_dir: Path, report: dict) -> str:
     if not source.exists():
         return "unknown"
     lowered = source.read_text(encoding="utf-8").lower()
+    for pattern in (
+        r"overall\s+risk\s*[:：]\s*[*_` ]*(critical|high|medium|low|info)",
+        r"전체\s*위험도\s*[:：]\s*[*_` ]*(critical|high|medium|low|info)",
+        r"위험도\s*[:：]\s*[*_` ]*(critical|high|medium|low|info)",
+    ):
+        match = re.search(pattern, lowered)
+        if match:
+            return match.group(1)
     for risk in ("critical", "high", "medium", "low", "info"):
         if risk in lowered:
             return risk

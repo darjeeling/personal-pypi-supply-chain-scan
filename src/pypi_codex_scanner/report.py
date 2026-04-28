@@ -95,9 +95,9 @@ def normalize_slug(value: str) -> str:
 def _extract_risk(markdown: str) -> str:
     lowered = markdown.lower()
     for pattern in (
-        r"overall\s+risk\s*[:：]\s*(critical|high|medium|low|info)",
-        r"전체\s*위험도\s*[:：]\s*(critical|high|medium|low|info)",
-        r"위험도\s*[:：]\s*(critical|high|medium|low|info)",
+        r"overall\s+risk\s*[:：]\s*[*_` ]*(critical|high|medium|low|info)",
+        r"전체\s*위험도\s*[:：]\s*[*_` ]*(critical|high|medium|low|info)",
+        r"위험도\s*[:：]\s*[*_` ]*(critical|high|medium|low|info)",
     ):
         match = re.search(pattern, lowered)
         if match:
