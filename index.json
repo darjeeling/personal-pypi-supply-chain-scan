@@ -1,6 +1,400 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "alphainfo-1.5.28.tar.gz",
+    "finding_count": 17,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "alphainfo-1.5.28/CHANGELOG.md"
+          ],
+          "value": "alphainfo.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "alphainfo-1.5.28/PKG-INFO",
+            "alphainfo-1.5.28/README.md",
+            "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
+          ],
+          "value": "colab.research.google.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "alphainfo-1.5.28/tests/test_sdk.py"
+          ],
+          "value": "custom.example.com"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "alphainfo-1.5.28/PKG-INFO",
+            "alphainfo-1.5.28/README.md",
+            "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO",
+            "alphainfo-1.5.28/pyproject.toml",
+            "alphainfo-1.5.28/setup.py"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "alphainfo-1.5.28/PKG-INFO",
+            "alphainfo-1.5.28/README.md",
+            "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
+          ],
+          "value": "img.shields.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "alphainfo-1.5.28/PKG-INFO",
+            "alphainfo-1.5.28/README.md",
+            "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
+          ],
+          "value": "pypi.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "alphainfo-1.5.28/DEBUGGING_GUIDE.md",
+            "alphainfo-1.5.28/alphainfo/guides/DEBUGGING_GUIDE.md"
+          ],
+          "value": "raw.headers"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "alphainfo-1.5.28/alphainfo/client.py"
+          ],
+          "value": "raw.items"
+        },
+        {
+          "file_count": 13,
+          "files": [
+            "alphainfo-1.5.28/CHANGELOG.md",
+            "alphainfo-1.5.28/DEBUGGING_GUIDE.md",
+            "alphainfo-1.5.28/PKG-INFO",
+            "alphainfo-1.5.28/README.md",
+            "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO",
+            "alphainfo-1.5.28/alphainfo/__init__.py",
+            "alphainfo-1.5.28/alphainfo/client.py",
+            "alphainfo-1.5.28/alphainfo/exceptions.py"
+          ],
+          "value": "www.alphainfo.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "alphainfo-1.5.28/CHANGELOG.md"
+          ],
+          "value": "www.alphainfo.io`"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "alphainfo-1.5.28/PKG-INFO",
+            "alphainfo-1.5.28/README.md",
+            "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
+          ],
+          "value": "www.python-httpx.org"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "alphainfo-1.5.28/PKG-INFO",
+            "alphainfo-1.5.28/README.md",
+            "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
+          ],
+          "value": "www.python.org"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "alphainfo-1.5.28/CHANGELOG.md"
+          ],
+          "value": "https://alphainfo.io/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "alphainfo-1.5.28/CHANGELOG.md"
+          ],
+          "value": "https://alphainfo.io/recipes"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "alphainfo-1.5.28/CHANGELOG.md"
+          ],
+          "value": "https://alphainfo.io/register"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "alphainfo-1.5.28/PKG-INFO",
+            "alphainfo-1.5.28/README.md",
+            "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
+          ],
+          "value": "https://colab.research.google.com/assets/colab-badge.svg"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "alphainfo-1.5.28/PKG-INFO",
+            "alphainfo-1.5.28/README.md",
+            "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
+          ],
+          "value": "https://colab.research.google.com/github/qgidev/alphainfo-notebooks/blob/main/quickstart.ipynb"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "alphainfo-1.5.28/tests/test_sdk.py"
+          ],
+          "value": "https://custom.example.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "alphainfo-1.5.28/tests/test_sdk.py"
+          ],
+          "value": "https://custom.example.com/"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "alphainfo-1.5.28/PKG-INFO",
+            "alphainfo-1.5.28/README.md",
+            "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO",
+            "alphainfo-1.5.28/pyproject.toml",
+            "alphainfo-1.5.28/setup.py"
+          ],
+          "value": "https://github.com/info-dev-13/alphainfo-walkthroughs"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "alphainfo-1.5.28/PKG-INFO",
+            "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO",
+            "alphainfo-1.5.28/pyproject.toml",
+            "alphainfo-1.5.28/setup.py"
+          ],
+          "value": "https://github.com/qgidev/alphainfo-notebooks"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "alphainfo-1.5.28/PKG-INFO",
+            "alphainfo-1.5.28/README.md",
+            "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/badge/License-MIT-green.svg"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "alphainfo-1.5.28/PKG-INFO",
+            "alphainfo-1.5.28/README.md",
+            "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/badge/python-3.8+-blue.svg"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "alphainfo-1.5.28/PKG-INFO",
+            "alphainfo-1.5.28/README.md",
+            "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/pypi/v/alphainfo.svg"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "alphainfo-1.5.28/PKG-INFO",
+            "alphainfo-1.5.28/README.md",
+            "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
+          ],
+          "value": "https://pypi.org/project/alphainfo/"
+        },
+        {
+          "file_count": 8,
+          "files": [
+            "alphainfo-1.5.28/PKG-INFO",
+            "alphainfo-1.5.28/README.md",
+            "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO",
+            "alphainfo-1.5.28/alphainfo/__init__.py",
+            "alphainfo-1.5.28/alphainfo/client.py",
+            "alphainfo-1.5.28/pyproject.toml",
+            "alphainfo-1.5.28/setup.py",
+            "alphainfo-1.5.28/tests/test_sdk.py"
+          ],
+          "value": "https://www.alphainfo.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "alphainfo-1.5.28/CHANGELOG.md"
+          ],
+          "value": "https://www.alphainfo.io/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "alphainfo-1.5.28/PKG-INFO",
+            "alphainfo-1.5.28/README.md",
+            "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
+          ],
+          "value": "https://www.alphainfo.io/benchmarks"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "alphainfo-1.5.28/PKG-INFO",
+            "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO",
+            "alphainfo-1.5.28/pyproject.toml"
+          ],
+          "value": "https://www.alphainfo.io/changelog"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "alphainfo-1.5.28/PKG-INFO",
+            "alphainfo-1.5.28/README.md",
+            "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
+          ],
+          "value": "https://www.alphainfo.io/dashboard"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "alphainfo-1.5.28/DEBUGGING_GUIDE.md",
+            "alphainfo-1.5.28/alphainfo/guides/DEBUGGING_GUIDE.md"
+          ],
+          "value": "https://www.alphainfo.io/dashboard/billing"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "alphainfo-1.5.28/DEBUGGING_GUIDE.md",
+            "alphainfo-1.5.28/PKG-INFO",
+            "alphainfo-1.5.28/README.md",
+            "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO",
+            "alphainfo-1.5.28/alphainfo/guides/DEBUGGING_GUIDE.md"
+          ],
+          "value": "https://www.alphainfo.io/docs"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "alphainfo-1.5.28/DEBUGGING_GUIDE.md",
+            "alphainfo-1.5.28/alphainfo/guides/DEBUGGING_GUIDE.md"
+          ],
+          "value": "https://www.alphainfo.io/health"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "alphainfo-1.5.28/PKG-INFO",
+            "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO",
+            "alphainfo-1.5.28/alphainfo/__init__.py",
+            "alphainfo-1.5.28/pyproject.toml",
+            "alphainfo-1.5.28/setup.py"
+          ],
+          "value": "https://www.alphainfo.io/quickstart"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "alphainfo-1.5.28/PKG-INFO",
+            "alphainfo-1.5.28/README.md",
+            "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO",
+            "alphainfo-1.5.28/pyproject.toml",
+            "alphainfo-1.5.28/setup.py"
+          ],
+          "value": "https://www.alphainfo.io/recipes"
+        },
+        {
+          "file_count": 7,
+          "files": [
+            "alphainfo-1.5.28/PKG-INFO",
+            "alphainfo-1.5.28/README.md",
+            "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO",
+            "alphainfo-1.5.28/alphainfo/__init__.py",
+            "alphainfo-1.5.28/alphainfo/client.py",
+            "alphainfo-1.5.28/alphainfo/exceptions.py",
+            "alphainfo-1.5.28/examples/quickstart.py"
+          ],
+          "value": "https://www.alphainfo.io/register"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "alphainfo-1.5.28/DEBUGGING_GUIDE.md",
+            "alphainfo-1.5.28/alphainfo/guides/DEBUGGING_GUIDE.md"
+          ],
+          "value": "https://www.alphainfo.io/v1/analyze/stream"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "alphainfo-1.5.28/PKG-INFO",
+            "alphainfo-1.5.28/README.md",
+            "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
+          ],
+          "value": "https://www.alphainfo.io/v1/recipes"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "alphainfo-1.5.28/CHANGELOG.md"
+          ],
+          "value": "https://www.alphainfo.io`"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "alphainfo-1.5.28/PKG-INFO",
+            "alphainfo-1.5.28/README.md",
+            "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
+          ],
+          "value": "https://www.python-httpx.org/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "alphainfo-1.5.28/PKG-INFO",
+            "alphainfo-1.5.28/README.md",
+            "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
+          ],
+          "value": "https://www.python.org"
+        }
+      ]
+    },
+    "package": "alphainfo",
+    "package_slug": "alphainfo",
+    "project_url": "https://pypi.org/project/alphainfo/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-28T02:20:56.124108+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-28T02:22:01.599815+00:00",
+    "title": "Personal PyPI Supply Chain Scan: alphainfo 1.5.28",
+    "version": "1.5.28",
+    "version_slug": "1.5.28",
+    "_metadata_path": "reports/packages/alphainfo/1.5.28/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "agent_quant-0.2.11.tar.gz",
     "finding_count": 81,
     "model": "gpt-5.5",

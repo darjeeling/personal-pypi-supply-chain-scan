@@ -1,169 +1,115 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "agent_quant-0.2.11.tar.gz",
-  "finding_count": 81,
+  "distribution": "alphainfo-1.5.28.tar.gz",
+  "finding_count": 17,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 3,
-        "files": [
-          "agent_quant-0.2.11/claw_quant/src/core/container.py",
-          "agent_quant-0.2.11/claw_quant/src/core/events.py",
-          "agent_quant-0.2.11/claw_quant/src/core/plugin.py"
-        ],
-        "value": "api.core"
-      },
-      {
         "file_count": 1,
         "files": [
-          "agent_quant-0.2.11/claw_quant/src/scripts/update_daily.py"
+          "alphainfo-1.5.28/CHANGELOG.md"
         ],
-        "value": "api.data"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "agent_quant-0.2.11/claw_quant/examples/data_api_demo.py",
-          "agent_quant-0.2.11/claw_quant/tests/test_data_api.py"
-        ],
-        "value": "api.download"
-      },
-      {
-        "file_count": 8,
-        "files": [
-          "agent_quant-0.2.11/claw_quant/cli.py",
-          "agent_quant-0.2.11/claw_quant/src/api/backtest_api.py",
-          "agent_quant-0.2.11/claw_quant/src/backtest/engines/cskhquant_simple.py",
-          "agent_quant-0.2.11/tests/test_api_comprehensive.py",
-          "agent_quant-0.2.11/tests/test_debug_0420.py",
-          "agent_quant-0.2.11/tests/test_new_api.py",
-          "agent_quant-0.2.11/tests/test_unified_backtest.py",
-          "agent_quant-0.2.11/tests/test_update_pingan_0417.py"
-        ],
-        "value": "api.ping"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "agent_quant-0.2.11/README.md"
-        ],
-        "value": "api.star-history.com"
+        "value": "alphainfo.io"
       },
       {
         "file_count": 3,
         "files": [
-          "agent_quant-0.2.11/PKG-INFO",
-          "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
-          "agent_quant-0.2.11/pyproject.toml"
+          "alphainfo-1.5.28/PKG-INFO",
+          "alphainfo-1.5.28/README.md",
+          "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
         ],
-        "value": "clawquant.github.io"
+        "value": "colab.research.google.com"
       },
       {
-        "file_count": 4,
+        "file_count": 1,
         "files": [
-          "agent_quant-0.2.11/PKG-INFO",
-          "agent_quant-0.2.11/README.md",
-          "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
-          "agent_quant-0.2.11/claw_quant/README.md"
+          "alphainfo-1.5.28/tests/test_sdk.py"
         ],
-        "value": "duckdb.org"
+        "value": "custom.example.com"
       },
       {
-        "file_count": 7,
+        "file_count": 5,
         "files": [
-          "agent_quant-0.2.11/PKG-INFO",
-          "agent_quant-0.2.11/README.md",
-          "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
-          "agent_quant-0.2.11/claw_quant/CHANGELOG.md",
-          "agent_quant-0.2.11/claw_quant/CONTRIBUTING.md",
-          "agent_quant-0.2.11/claw_quant/README.md",
-          "agent_quant-0.2.11/pyproject.toml"
+          "alphainfo-1.5.28/PKG-INFO",
+          "alphainfo-1.5.28/README.md",
+          "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO",
+          "alphainfo-1.5.28/pyproject.toml",
+          "alphainfo-1.5.28/setup.py"
         ],
         "value": "github.com"
       },
       {
-        "file_count": 4,
+        "file_count": 3,
         "files": [
-          "agent_quant-0.2.11/PKG-INFO",
-          "agent_quant-0.2.11/README.md",
-          "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
-          "agent_quant-0.2.11/claw_quant/README.md"
+          "alphainfo-1.5.28/PKG-INFO",
+          "alphainfo-1.5.28/README.md",
+          "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
         ],
         "value": "img.shields.io"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "agent_quant-0.2.11/claw_quant/CHANGELOG.md"
-        ],
-        "value": "keepachangelog.com"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "agent_quant-0.2.11/PKG-INFO",
-          "agent_quant-0.2.11/README.md",
-          "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
-          "agent_quant-0.2.11/claw_quant/README.md"
-        ],
-        "value": "pandas.pydata.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "agent_quant-0.2.11/README.md",
-          "agent_quant-0.2.11/claw_quant/PUBLISH.md"
+          "alphainfo-1.5.28/PKG-INFO",
+          "alphainfo-1.5.28/README.md",
+          "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
         ],
         "value": "pypi.org"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "agent_quant-0.2.11/claw_quant/CHANGELOG.md"
+          "alphainfo-1.5.28/DEBUGGING_GUIDE.md",
+          "alphainfo-1.5.28/alphainfo/guides/DEBUGGING_GUIDE.md"
         ],
-        "value": "semver.org"
+        "value": "raw.headers"
       },
       {
         "file_count": 1,
         "files": [
-          "agent_quant-0.2.11/README.md"
+          "alphainfo-1.5.28/alphainfo/client.py"
         ],
-        "value": "star-history.com"
+        "value": "raw.items"
+      },
+      {
+        "file_count": 13,
+        "files": [
+          "alphainfo-1.5.28/CHANGELOG.md",
+          "alphainfo-1.5.28/DEBUGGING_GUIDE.md",
+          "alphainfo-1.5.28/PKG-INFO",
+          "alphainfo-1.5.28/README.md",
+          "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO",
+          "alphainfo-1.5.28/alphainfo/__init__.py",
+          "alphainfo-1.5.28/alphainfo/client.py",
+          "alphainfo-1.5.28/alphainfo/exceptions.py"
+        ],
+        "value": "www.alphainfo.io"
       },
       {
         "file_count": 1,
         "files": [
-          "agent_quant-0.2.11/claw_quant/PUBLISH.md"
+          "alphainfo-1.5.28/CHANGELOG.md"
         ],
-        "value": "test.pypi.org"
+        "value": "www.alphainfo.io`"
       },
       {
-        "file_count": 4,
+        "file_count": 3,
         "files": [
-          "agent_quant-0.2.11/PKG-INFO",
-          "agent_quant-0.2.11/README.md",
-          "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
-          "agent_quant-0.2.11/claw_quant/README.md"
+          "alphainfo-1.5.28/PKG-INFO",
+          "alphainfo-1.5.28/README.md",
+          "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
+        ],
+        "value": "www.python-httpx.org"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "alphainfo-1.5.28/PKG-INFO",
+          "alphainfo-1.5.28/README.md",
+          "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
         ],
         "value": "www.python.org"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "agent_quant-0.2.11/PKG-INFO",
-          "agent_quant-0.2.11/README.md",
-          "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
-          "agent_quant-0.2.11/claw_quant/README.md"
-        ],
-        "value": "www.vnpy.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "agent_quant-0.2.11/claw_quant/database/storage/db_http_client.py"
-        ],
-        "value": "{host"
       }
     ],
     "raw_public_ips": [],
@@ -172,246 +118,277 @@
       {
         "file_count": 1,
         "files": [
-          "agent_quant-0.2.11/claw_quant/database/storage/db_http_client.py"
+          "alphainfo-1.5.28/CHANGELOG.md"
         ],
-        "value": "http://{host"
+        "value": "https://alphainfo.io/"
       },
       {
         "file_count": 1,
         "files": [
-          "agent_quant-0.2.11/README.md"
+          "alphainfo-1.5.28/CHANGELOG.md"
         ],
-        "value": "https://api.star-history.com/svg?repos=clawquant/claw_quant&type=Date"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "agent_quant-0.2.11/PKG-INFO",
-          "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
-          "agent_quant-0.2.11/pyproject.toml"
-        ],
-        "value": "https://clawquant.github.io/claw_quant"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "agent_quant-0.2.11/PKG-INFO",
-          "agent_quant-0.2.11/README.md",
-          "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
-          "agent_quant-0.2.11/claw_quant/README.md"
-        ],
-        "value": "https://duckdb.org/"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "agent_quant-0.2.11/PKG-INFO",
-          "agent_quant-0.2.11/README.md",
-          "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
-          "agent_quant-0.2.11/claw_quant/README.md"
-        ],
-        "value": "https://github.com/"
+        "value": "https://alphainfo.io/recipes"
       },
       {
         "file_count": 1,
         "files": [
-          "agent_quant-0.2.11/claw_quant/CONTRIBUTING.md"
+          "alphainfo-1.5.28/CHANGELOG.md"
         ],
-        "value": "https://github.com/YOUR_USERNAME/claw_quant.git"
+        "value": "https://alphainfo.io/register"
       },
       {
         "file_count": 3,
         "files": [
-          "agent_quant-0.2.11/PKG-INFO",
-          "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
-          "agent_quant-0.2.11/pyproject.toml"
+          "alphainfo-1.5.28/PKG-INFO",
+          "alphainfo-1.5.28/README.md",
+          "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
         ],
-        "value": "https://github.com/clawquant/claw_quant"
-      },
-      {
-        "file_count": 6,
-        "files": [
-          "agent_quant-0.2.11/PKG-INFO",
-          "agent_quant-0.2.11/README.md",
-          "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
-          "agent_quant-0.2.11/claw_quant/CONTRIBUTING.md",
-          "agent_quant-0.2.11/claw_quant/README.md",
-          "agent_quant-0.2.11/pyproject.toml"
-        ],
-        "value": "https://github.com/clawquant/claw_quant.git"
+        "value": "https://colab.research.google.com/assets/colab-badge.svg"
       },
       {
         "file_count": 3,
         "files": [
-          "agent_quant-0.2.11/PKG-INFO",
-          "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
-          "agent_quant-0.2.11/pyproject.toml"
+          "alphainfo-1.5.28/PKG-INFO",
+          "alphainfo-1.5.28/README.md",
+          "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
         ],
-        "value": "https://github.com/clawquant/claw_quant/blob/main/CHANGELOG.md"
+        "value": "https://colab.research.google.com/github/qgidev/alphainfo-notebooks/blob/main/quickstart.ipynb"
       },
       {
         "file_count": 1,
         "files": [
-          "agent_quant-0.2.11/claw_quant/CHANGELOG.md"
+          "alphainfo-1.5.28/tests/test_sdk.py"
         ],
-        "value": "https://github.com/clawquant/claw_quant/compare/v0.1.0...HEAD"
+        "value": "https://custom.example.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "alphainfo-1.5.28/tests/test_sdk.py"
+        ],
+        "value": "https://custom.example.com/"
       },
       {
         "file_count": 5,
         "files": [
-          "agent_quant-0.2.11/PKG-INFO",
-          "agent_quant-0.2.11/README.md",
-          "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
-          "agent_quant-0.2.11/claw_quant/CONTRIBUTING.md",
-          "agent_quant-0.2.11/claw_quant/README.md"
+          "alphainfo-1.5.28/PKG-INFO",
+          "alphainfo-1.5.28/README.md",
+          "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO",
+          "alphainfo-1.5.28/pyproject.toml",
+          "alphainfo-1.5.28/setup.py"
         ],
-        "value": "https://github.com/clawquant/claw_quant/discussions"
+        "value": "https://github.com/info-dev-13/alphainfo-walkthroughs"
       },
       {
-        "file_count": 5,
+        "file_count": 4,
         "files": [
-          "agent_quant-0.2.11/PKG-INFO",
-          "agent_quant-0.2.11/README.md",
-          "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
-          "agent_quant-0.2.11/claw_quant/README.md",
-          "agent_quant-0.2.11/pyproject.toml"
+          "alphainfo-1.5.28/PKG-INFO",
+          "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO",
+          "alphainfo-1.5.28/pyproject.toml",
+          "alphainfo-1.5.28/setup.py"
         ],
-        "value": "https://github.com/clawquant/claw_quant/issues"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "agent_quant-0.2.11/claw_quant/CHANGELOG.md"
-        ],
-        "value": "https://github.com/clawquant/claw_quant/releases/tag/v0.1.0"
+        "value": "https://github.com/qgidev/alphainfo-notebooks"
       },
       {
         "file_count": 3,
         "files": [
-          "agent_quant-0.2.11/PKG-INFO",
-          "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
-          "agent_quant-0.2.11/claw_quant/README.md"
+          "alphainfo-1.5.28/PKG-INFO",
+          "alphainfo-1.5.28/README.md",
+          "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
         ],
-        "value": "https://github.com/openclaw/openclaw"
+        "value": "https://img.shields.io/badge/License-MIT-green.svg"
       },
       {
-        "file_count": 4,
+        "file_count": 3,
         "files": [
-          "agent_quant-0.2.11/PKG-INFO",
-          "agent_quant-0.2.11/README.md",
-          "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
-          "agent_quant-0.2.11/claw_quant/README.md"
+          "alphainfo-1.5.28/PKG-INFO",
+          "alphainfo-1.5.28/README.md",
+          "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
         ],
-        "value": "https://img.shields.io/badge/license-MIT-green"
+        "value": "https://img.shields.io/badge/python-3.8+-blue.svg"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "agent_quant-0.2.11/README.md"
+          "alphainfo-1.5.28/PKG-INFO",
+          "alphainfo-1.5.28/README.md",
+          "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
         ],
-        "value": "https://img.shields.io/badge/pypi-claw__quant-blue"
+        "value": "https://img.shields.io/pypi/v/alphainfo.svg"
       },
       {
-        "file_count": 4,
+        "file_count": 3,
         "files": [
-          "agent_quant-0.2.11/PKG-INFO",
-          "agent_quant-0.2.11/README.md",
-          "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
-          "agent_quant-0.2.11/claw_quant/README.md"
+          "alphainfo-1.5.28/PKG-INFO",
+          "alphainfo-1.5.28/README.md",
+          "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
         ],
-        "value": "https://img.shields.io/badge/python-3.8%2B-blue"
+        "value": "https://pypi.org/project/alphainfo/"
       },
       {
-        "file_count": 1,
+        "file_count": 8,
         "files": [
-          "agent_quant-0.2.11/claw_quant/CHANGELOG.md"
+          "alphainfo-1.5.28/PKG-INFO",
+          "alphainfo-1.5.28/README.md",
+          "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO",
+          "alphainfo-1.5.28/alphainfo/__init__.py",
+          "alphainfo-1.5.28/alphainfo/client.py",
+          "alphainfo-1.5.28/pyproject.toml",
+          "alphainfo-1.5.28/setup.py",
+          "alphainfo-1.5.28/tests/test_sdk.py"
         ],
-        "value": "https://keepachangelog.com/zh-CN/1.0.0/"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "agent_quant-0.2.11/PKG-INFO",
-          "agent_quant-0.2.11/README.md",
-          "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
-          "agent_quant-0.2.11/claw_quant/README.md"
-        ],
-        "value": "https://pandas.pydata.org/"
+        "value": "https://www.alphainfo.io"
       },
       {
         "file_count": 1,
         "files": [
-          "agent_quant-0.2.11/claw_quant/PUBLISH.md"
+          "alphainfo-1.5.28/CHANGELOG.md"
         ],
-        "value": "https://pypi.org"
+        "value": "https://www.alphainfo.io/"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "alphainfo-1.5.28/PKG-INFO",
+          "alphainfo-1.5.28/README.md",
+          "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
+        ],
+        "value": "https://www.alphainfo.io/benchmarks"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "alphainfo-1.5.28/PKG-INFO",
+          "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO",
+          "alphainfo-1.5.28/pyproject.toml"
+        ],
+        "value": "https://www.alphainfo.io/changelog"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "alphainfo-1.5.28/PKG-INFO",
+          "alphainfo-1.5.28/README.md",
+          "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
+        ],
+        "value": "https://www.alphainfo.io/dashboard"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "alphainfo-1.5.28/DEBUGGING_GUIDE.md",
+          "alphainfo-1.5.28/alphainfo/guides/DEBUGGING_GUIDE.md"
+        ],
+        "value": "https://www.alphainfo.io/dashboard/billing"
+      },
+      {
+        "file_count": 5,
+        "files": [
+          "alphainfo-1.5.28/DEBUGGING_GUIDE.md",
+          "alphainfo-1.5.28/PKG-INFO",
+          "alphainfo-1.5.28/README.md",
+          "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO",
+          "alphainfo-1.5.28/alphainfo/guides/DEBUGGING_GUIDE.md"
+        ],
+        "value": "https://www.alphainfo.io/docs"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "alphainfo-1.5.28/DEBUGGING_GUIDE.md",
+          "alphainfo-1.5.28/alphainfo/guides/DEBUGGING_GUIDE.md"
+        ],
+        "value": "https://www.alphainfo.io/health"
+      },
+      {
+        "file_count": 5,
+        "files": [
+          "alphainfo-1.5.28/PKG-INFO",
+          "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO",
+          "alphainfo-1.5.28/alphainfo/__init__.py",
+          "alphainfo-1.5.28/pyproject.toml",
+          "alphainfo-1.5.28/setup.py"
+        ],
+        "value": "https://www.alphainfo.io/quickstart"
+      },
+      {
+        "file_count": 5,
+        "files": [
+          "alphainfo-1.5.28/PKG-INFO",
+          "alphainfo-1.5.28/README.md",
+          "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO",
+          "alphainfo-1.5.28/pyproject.toml",
+          "alphainfo-1.5.28/setup.py"
+        ],
+        "value": "https://www.alphainfo.io/recipes"
+      },
+      {
+        "file_count": 7,
+        "files": [
+          "alphainfo-1.5.28/PKG-INFO",
+          "alphainfo-1.5.28/README.md",
+          "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO",
+          "alphainfo-1.5.28/alphainfo/__init__.py",
+          "alphainfo-1.5.28/alphainfo/client.py",
+          "alphainfo-1.5.28/alphainfo/exceptions.py",
+          "alphainfo-1.5.28/examples/quickstart.py"
+        ],
+        "value": "https://www.alphainfo.io/register"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "alphainfo-1.5.28/DEBUGGING_GUIDE.md",
+          "alphainfo-1.5.28/alphainfo/guides/DEBUGGING_GUIDE.md"
+        ],
+        "value": "https://www.alphainfo.io/v1/analyze/stream"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "alphainfo-1.5.28/PKG-INFO",
+          "alphainfo-1.5.28/README.md",
+          "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
+        ],
+        "value": "https://www.alphainfo.io/v1/recipes"
       },
       {
         "file_count": 1,
         "files": [
-          "agent_quant-0.2.11/claw_quant/PUBLISH.md"
+          "alphainfo-1.5.28/CHANGELOG.md"
         ],
-        "value": "https://pypi.org/manage/account/token"
+        "value": "https://www.alphainfo.io`"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "agent_quant-0.2.11/README.md"
+          "alphainfo-1.5.28/PKG-INFO",
+          "alphainfo-1.5.28/README.md",
+          "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
         ],
-        "value": "https://pypi.org/project/claw-quant/"
+        "value": "https://www.python-httpx.org/"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "agent_quant-0.2.11/claw_quant/CHANGELOG.md"
+          "alphainfo-1.5.28/PKG-INFO",
+          "alphainfo-1.5.28/README.md",
+          "alphainfo-1.5.28/alphainfo.egg-info/PKG-INFO"
         ],
-        "value": "https://semver.org/lang/zh-CN/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "agent_quant-0.2.11/README.md"
-        ],
-        "value": "https://star-history.com/#clawquant/claw_quant&Date"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "agent_quant-0.2.11/claw_quant/PUBLISH.md"
-        ],
-        "value": "https://test.pypi.org/simple/"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "agent_quant-0.2.11/PKG-INFO",
-          "agent_quant-0.2.11/README.md",
-          "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
-          "agent_quant-0.2.11/claw_quant/README.md"
-        ],
-        "value": "https://www.python.org/"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "agent_quant-0.2.11/PKG-INFO",
-          "agent_quant-0.2.11/README.md",
-          "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
-          "agent_quant-0.2.11/claw_quant/README.md"
-        ],
-        "value": "https://www.vnpy.com/"
+        "value": "https://www.python.org"
       }
     ]
   },
-  "package": "agent-quant",
-  "package_slug": "agent-quant",
-  "project_url": "https://pypi.org/project/agent-quant/",
+  "package": "alphainfo",
+  "package_slug": "alphainfo",
+  "project_url": "https://pypi.org/project/alphainfo/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-28T02:16:54.633695+00:00",
+  "published_at": "2026-04-28T02:20:56.124108+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-28T02:17:34.615451+00:00",
-  "title": "Personal PyPI Supply Chain Scan: agent-quant 0.2.11",
-  "version": "0.2.11",
-  "version_slug": "0.2.11",
-  "_metadata_path": "reports/packages/agent-quant/0.2.11/metadata.json"
+  "scanned_at": "2026-04-28T02:22:01.599815+00:00",
+  "title": "Personal PyPI Supply Chain Scan: alphainfo 1.5.28",
+  "version": "1.5.28",
+  "version_slug": "1.5.28",
+  "_metadata_path": "reports/packages/alphainfo/1.5.28/metadata.json"
 }
