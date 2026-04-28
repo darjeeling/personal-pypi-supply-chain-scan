@@ -1,6 +1,376 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "ltiprobe-0.7.0.tar.gz",
+    "finding_count": 22,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "ltiprobe-0.7.0/tests/test_core.py"
+          ],
+          "value": "93.184.216.34"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ltiprobe-0.7.0/PKG-INFO",
+            "ltiprobe-0.7.0/README.md",
+            "ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO"
+          ],
+          "value": "amazon.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ltiprobe-0.7.0/PKG-INFO",
+            "ltiprobe-0.7.0/README.md",
+            "ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO"
+          ],
+          "value": "api.example.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ltiprobe-0.7.0/PKG-INFO",
+            "ltiprobe-0.7.0/README.md",
+            "ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO"
+          ],
+          "value": "api.exemple.com"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "ltiprobe-0.7.0/PKG-INFO",
+            "ltiprobe-0.7.0/README.md",
+            "ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO",
+            "ltiprobe-0.7.0/ltiprobe/config.py"
+          ],
+          "value": "apple.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ltiprobe-0.7.0/PKG-INFO",
+            "ltiprobe-0.7.0/README.md",
+            "ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO"
+          ],
+          "value": "badge.fury.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ltiprobe-0.7.0/tests/test_core.py"
+          ],
+          "value": "example.com,30.0,100.0,200.0,8.0,20.0\\n"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ltiprobe-0.7.0/tests/test_core.py"
+          ],
+          "value": "example.com,38.0,145.0,200.0,8.2,28.3\\n"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ltiprobe-0.7.0/tests/test_core.py"
+          ],
+          "value": "example.com,40.0,120.0,220.0,9.0,25.0\\n"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ltiprobe-0.7.0/tests/test_core.py"
+          ],
+          "value": "example.com,50.0,110.0,210.0,7.0,30.0\\n"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ltiprobe-0.7.0/tests/test_core.py"
+          ],
+          "value": "example.com\\n"
+        },
+        {
+          "file_count": 6,
+          "files": [
+            "ltiprobe-0.7.0/PKG-INFO",
+            "ltiprobe-0.7.0/README.md",
+            "ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO",
+            "ltiprobe-0.7.0/ltiprobe/config.py",
+            "ltiprobe-0.7.0/ltiprobe/main.py",
+            "ltiprobe-0.7.0/pyproject.toml"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 6,
+          "files": [
+            "ltiprobe-0.7.0/PKG-INFO",
+            "ltiprobe-0.7.0/README.md",
+            "ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO",
+            "ltiprobe-0.7.0/ltiprobe/config.py",
+            "ltiprobe-0.7.0/ltiprobe/main.py",
+            "ltiprobe-0.7.0/tests/test_core.py"
+          ],
+          "value": "google.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ltiprobe-0.7.0/tests/test_core.py"
+          ],
+          "value": "hote.inexistant.invalid"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ltiprobe-0.7.0/PKG-INFO",
+            "ltiprobe-0.7.0/README.md",
+            "ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO"
+          ],
+          "value": "pypi.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ltiprobe-0.7.0/tests/test_core.py"
+          ],
+          "value": "test.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ltiprobe-0.7.0/tests/test_core.py"
+          ],
+          "value": "www.cloudflare.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ltiprobe-0.7.0/ltiprobe/config.py"
+          ],
+          "value": "youtube.com"
+        }
+      ],
+      "raw_public_ips": [
+        {
+          "file_count": 1,
+          "files": [
+            "ltiprobe-0.7.0/tests/test_core.py"
+          ],
+          "value": "93.184.216.34"
+        }
+      ],
+      "suspicious_endpoints": [
+        {
+          "file_count": 1,
+          "files": [
+            "ltiprobe-0.7.0/tests/test_core.py"
+          ],
+          "value": "http://93.184.216.34"
+        }
+      ],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "ltiprobe-0.7.0/tests/test_core.py"
+          ],
+          "value": "http://93.184.216.34"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ltiprobe-0.7.0/PKG-INFO",
+            "ltiprobe-0.7.0/README.md",
+            "ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO"
+          ],
+          "value": "https://amazon.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ltiprobe-0.7.0/PKG-INFO",
+            "ltiprobe-0.7.0/README.md",
+            "ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO"
+          ],
+          "value": "https://api.example.com/health"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ltiprobe-0.7.0/PKG-INFO",
+            "ltiprobe-0.7.0/README.md",
+            "ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO"
+          ],
+          "value": "https://api.exemple.com/health"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "ltiprobe-0.7.0/PKG-INFO",
+            "ltiprobe-0.7.0/README.md",
+            "ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO",
+            "ltiprobe-0.7.0/ltiprobe/config.py"
+          ],
+          "value": "https://apple.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ltiprobe-0.7.0/PKG-INFO",
+            "ltiprobe-0.7.0/README.md",
+            "ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO"
+          ],
+          "value": "https://badge.fury.io/py/ltiprobe.svg"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ltiprobe-0.7.0/tests/test_core.py"
+          ],
+          "value": "https://example.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ltiprobe-0.7.0/tests/test_core.py"
+          ],
+          "value": "https://example.com,30.0,100.0,200.0,8.0,20.0\\n"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ltiprobe-0.7.0/tests/test_core.py"
+          ],
+          "value": "https://example.com,38.0,145.0,200.0,8.2,28.3\\n"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ltiprobe-0.7.0/tests/test_core.py"
+          ],
+          "value": "https://example.com,40.0,120.0,220.0,9.0,25.0\\n"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ltiprobe-0.7.0/tests/test_core.py"
+          ],
+          "value": "https://example.com,50.0,110.0,210.0,7.0,30.0\\n"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ltiprobe-0.7.0/tests/test_core.py"
+          ],
+          "value": "https://example.com\\n"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "ltiprobe-0.7.0/ltiprobe/config.py",
+            "ltiprobe-0.7.0/ltiprobe/main.py"
+          ],
+          "value": "https://github.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ltiprobe-0.7.0/PKG-INFO",
+            "ltiprobe-0.7.0/README.md",
+            "ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/HdrHistogram/HdrHistogram_py"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ltiprobe-0.7.0/PKG-INFO",
+            "ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO",
+            "ltiprobe-0.7.0/pyproject.toml"
+          ],
+          "value": "https://github.com/bglatence/ltiprobe"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ltiprobe-0.7.0/PKG-INFO",
+            "ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO",
+            "ltiprobe-0.7.0/pyproject.toml"
+          ],
+          "value": "https://github.com/bglatence/ltiprobe/issues"
+        },
+        {
+          "file_count": 6,
+          "files": [
+            "ltiprobe-0.7.0/PKG-INFO",
+            "ltiprobe-0.7.0/README.md",
+            "ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO",
+            "ltiprobe-0.7.0/ltiprobe/config.py",
+            "ltiprobe-0.7.0/ltiprobe/main.py",
+            "ltiprobe-0.7.0/tests/test_core.py"
+          ],
+          "value": "https://google.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ltiprobe-0.7.0/tests/test_core.py"
+          ],
+          "value": "https://hote.inexistant.invalid"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "ltiprobe-0.7.0/PKG-INFO",
+            "ltiprobe-0.7.0/README.md",
+            "ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO"
+          ],
+          "value": "https://pypi.org/project/ltiprobe/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ltiprobe-0.7.0/tests/test_core.py"
+          ],
+          "value": "https://test.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ltiprobe-0.7.0/tests/test_core.py"
+          ],
+          "value": "https://www.cloudflare.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "ltiprobe-0.7.0/ltiprobe/config.py"
+          ],
+          "value": "https://youtube.com"
+        }
+      ]
+    },
+    "package": "ltiprobe",
+    "package_slug": "ltiprobe",
+    "project_url": "https://pypi.org/project/ltiprobe/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-28T02:25:50.972034+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-28T02:26:25.871260+00:00",
+    "title": "Personal PyPI Supply Chain Scan: ltiprobe 0.7.0",
+    "version": "0.7.0",
+    "version_slug": "0.7.0",
+    "_metadata_path": "reports/packages/ltiprobe/0.7.0/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "alphainfo-1.5.28.tar.gz",
     "finding_count": 17,
     "model": "gpt-5.5",

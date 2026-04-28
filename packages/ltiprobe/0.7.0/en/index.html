@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal PyPI Supply Chain Scan: ltiprobe 0.7.0</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 960px; line-height: 1.55; padding: 0 1rem; color: #1f2933; }
+    a { color: #1f5fbf; }
+    code { background: #f4f4f4; padding: 0.1rem 0.25rem; }
+    h1, h2, h3 { line-height: 1.2; }
+    li { margin: 0.35rem 0; }
+    nav { margin-bottom: 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #e5e9ef; padding: 0.55rem 0.65rem; text-align: left; vertical-align: top; }
+    th { color: #52616f; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; }
+    .scan-groups { margin-top: 1.2rem; }
+    .scan-day { border-top: 1px solid #d8dee4; display: grid; gap: 1rem; grid-template-columns: 10rem minmax(0, 1fr); padding: 1.1rem 0; }
+    .scan-day-date { color: #1f2933; font-weight: 700; }
+    .scan-day-date span { color: #52616f; display: block; font-size: 0.9rem; font-weight: 500; margin-top: 0.2rem; }
+    .scan-day-table { overflow-x: auto; }
+    .risk { display: inline-block; min-width: 4.8rem; text-align: center; border-radius: 999px; padding: 0.15rem 0.45rem; font-size: 0.78rem; font-weight: 700; }
+    .risk-info, .risk-low { background: #dcfce7; color: #166534; }
+    .risk-medium, .risk-unknown { background: #fef3c7; color: #92400e; }
+    .risk-high, .risk-critical { background: #fee2e2; color: #991b1b; }
+    .index-note { color: #52616f; margin-top: -0.35rem; }
+    .version { color: #52616f; margin-left: 0.2rem; white-space: nowrap; }
+    @media (max-width: 720px) {
+      .scan-day { grid-template-columns: 1fr; }
+      th, td { padding: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+<nav><a href='../../../../'>Index</a></nav><h1>Personal PyPI Supply Chain Scan: ltiprobe 0.7.0</h1>
+
+<ul>
+<li>Package: ltiprobe</li>
+<li>Version: 0.7.0</li>
+<li>Project URL: https://pypi.org/project/ltiprobe/</li>
+<li>Distribution: ltiprobe-0.7.0.tar.gz</li>
+<li>Package published at: 2026-04-28T02:25:50.972034+00:00</li>
+<li>Scan published at: 2026-04-28T02:26:25.871260+00:00</li>
+<li>Language: en</li>
+<li>Model: gpt-5.5</li>
+<li>Prompt: malicious-supply-chain-review-v2 ([source](../../../../docs/prompts/malicious-supply-chain-review-v2.md))</li>
+<li>Disclaimer: This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</li>
+</ul>
+
+<h2>Deterministic Network Indicators</h2>
+
+<h3>Suspicious Endpoints</h3>
+<ul>
+<li>http://93.184.216.34 (1 files: ltiprobe-0.7.0/tests/test_core.py)</li>
+</ul>
+
+<h3>Raw Public IPs</h3>
+<ul>
+<li>93.184.216.34 (1 files: ltiprobe-0.7.0/tests/test_core.py)</li>
+</ul>
+
+<h3>URLs</h3>
+<ul>
+<li>http://93.184.216.34 (1 files: ltiprobe-0.7.0/tests/test_core.py)</li>
+<li>https://amazon.com (3 files: ltiprobe-0.7.0/PKG-INFO, ltiprobe-0.7.0/README.md, ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO)</li>
+<li>https://api.example.com/health (3 files: ltiprobe-0.7.0/PKG-INFO, ltiprobe-0.7.0/README.md, ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO)</li>
+<li>https://api.exemple.com/health (3 files: ltiprobe-0.7.0/PKG-INFO, ltiprobe-0.7.0/README.md, ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO)</li>
+<li>https://apple.com (4 files: ltiprobe-0.7.0/PKG-INFO, ltiprobe-0.7.0/README.md, ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO, ltiprobe-0.7.0/ltiprobe/config.py)</li>
+<li>https://badge.fury.io/py/ltiprobe.svg (3 files: ltiprobe-0.7.0/PKG-INFO, ltiprobe-0.7.0/README.md, ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO)</li>
+<li>https://example.com (1 files: ltiprobe-0.7.0/tests/test_core.py)</li>
+<li>https://example.com,30.0,100.0,200.0,8.0,20.0\n (1 files: ltiprobe-0.7.0/tests/test_core.py)</li>
+<li>https://example.com,38.0,145.0,200.0,8.2,28.3\n (1 files: ltiprobe-0.7.0/tests/test_core.py)</li>
+<li>https://example.com,40.0,120.0,220.0,9.0,25.0\n (1 files: ltiprobe-0.7.0/tests/test_core.py)</li>
+<li>https://example.com,50.0,110.0,210.0,7.0,30.0\n (1 files: ltiprobe-0.7.0/tests/test_core.py)</li>
+<li>https://example.com\n (1 files: ltiprobe-0.7.0/tests/test_core.py)</li>
+<li>https://github.com (2 files: ltiprobe-0.7.0/ltiprobe/config.py, ltiprobe-0.7.0/ltiprobe/main.py)</li>
+<li>https://github.com/HdrHistogram/HdrHistogram_py (3 files: ltiprobe-0.7.0/PKG-INFO, ltiprobe-0.7.0/README.md, ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO)</li>
+<li>https://github.com/bglatence/ltiprobe (3 files: ltiprobe-0.7.0/PKG-INFO, ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO, ltiprobe-0.7.0/pyproject.toml)</li>
+<li>https://github.com/bglatence/ltiprobe/issues (3 files: ltiprobe-0.7.0/PKG-INFO, ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO, ltiprobe-0.7.0/pyproject.toml)</li>
+<li>https://google.com (6 files: ltiprobe-0.7.0/PKG-INFO, ltiprobe-0.7.0/README.md, ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO, ltiprobe-0.7.0/ltiprobe/config.py, ltiprobe-0.7.0/ltiprobe/main.py)</li>
+<li>https://hote.inexistant.invalid (1 files: ltiprobe-0.7.0/tests/test_core.py)</li>
+<li>https://pypi.org/project/ltiprobe/ (3 files: ltiprobe-0.7.0/PKG-INFO, ltiprobe-0.7.0/README.md, ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO)</li>
+<li>https://test.com (1 files: ltiprobe-0.7.0/tests/test_core.py)</li>
+<li>https://www.cloudflare.com (1 files: ltiprobe-0.7.0/tests/test_core.py)</li>
+<li>https://youtube.com (1 files: ltiprobe-0.7.0/ltiprobe/config.py)</li>
+</ul>
+
+<h3>Domains</h3>
+<ul>
+<li>93.184.216.34 (1 files: ltiprobe-0.7.0/tests/test_core.py)</li>
+<li>amazon.com (3 files: ltiprobe-0.7.0/PKG-INFO, ltiprobe-0.7.0/README.md, ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO)</li>
+<li>api.example.com (3 files: ltiprobe-0.7.0/PKG-INFO, ltiprobe-0.7.0/README.md, ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO)</li>
+<li>api.exemple.com (3 files: ltiprobe-0.7.0/PKG-INFO, ltiprobe-0.7.0/README.md, ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO)</li>
+<li>apple.com (4 files: ltiprobe-0.7.0/PKG-INFO, ltiprobe-0.7.0/README.md, ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO, ltiprobe-0.7.0/ltiprobe/config.py)</li>
+<li>badge.fury.io (3 files: ltiprobe-0.7.0/PKG-INFO, ltiprobe-0.7.0/README.md, ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO)</li>
+<li>example.com,30.0,100.0,200.0,8.0,20.0\n (1 files: ltiprobe-0.7.0/tests/test_core.py)</li>
+<li>example.com,38.0,145.0,200.0,8.2,28.3\n (1 files: ltiprobe-0.7.0/tests/test_core.py)</li>
+<li>example.com,40.0,120.0,220.0,9.0,25.0\n (1 files: ltiprobe-0.7.0/tests/test_core.py)</li>
+<li>example.com,50.0,110.0,210.0,7.0,30.0\n (1 files: ltiprobe-0.7.0/tests/test_core.py)</li>
+<li>example.com\n (1 files: ltiprobe-0.7.0/tests/test_core.py)</li>
+<li>github.com (6 files: ltiprobe-0.7.0/PKG-INFO, ltiprobe-0.7.0/README.md, ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO, ltiprobe-0.7.0/ltiprobe/config.py, ltiprobe-0.7.0/ltiprobe/main.py)</li>
+<li>google.com (6 files: ltiprobe-0.7.0/PKG-INFO, ltiprobe-0.7.0/README.md, ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO, ltiprobe-0.7.0/ltiprobe/config.py, ltiprobe-0.7.0/ltiprobe/main.py)</li>
+<li>hote.inexistant.invalid (1 files: ltiprobe-0.7.0/tests/test_core.py)</li>
+<li>pypi.org (3 files: ltiprobe-0.7.0/PKG-INFO, ltiprobe-0.7.0/README.md, ltiprobe-0.7.0/ltiprobe.egg-info/PKG-INFO)</li>
+<li>test.com (1 files: ltiprobe-0.7.0/tests/test_core.py)</li>
+<li>www.cloudflare.com (1 files: ltiprobe-0.7.0/tests/test_core.py)</li>
+<li>youtube.com (1 files: ltiprobe-0.7.0/ltiprobe/config.py)</li>
+</ul>
+
+<h2>Verdict</h2>
+
+<p>No confirmed malicious supply-chain indicators; overall risk: **info**.</p>
+
+<h2>Malicious Supply-Chain Indicators</h2>
+
+<p>No confirmed malicious supply-chain indicators.</p>
+
+<h2>Automatic Execution Paths</h2>
+
+<ul>
+<li>In the provided source text, there is no evidence of .pth, sitecustomize.py, usercustomize.py, setup.py execution logic, PEP 517 build hooks, install-time execution, or interpreter-startup execution.</li>
+<li>ltiprobe/core.py mainly defines functions; network measurement and subprocess.run calls appear tied to user-invoked CLI functionality.</li>
+<li>Normal CLI entry_points/console_scripts require user execution and were not treated as malicious automatic execution evidence.</li>
+</ul>
+
+<h2>Theft / Exfiltration / Persistence / Lateral Movement / Stealth</h2>
+
+<ul>
+<li>**Credential harvesting:** No evidence of broad discovery of environment variables, .env files, SSH keys, cloud credentials, CI/CD tokens, wallets, or kubeconfig files.</li>
+<li>**Exfiltration/staging:** No pattern of archiving/staging harvested files and uploading them externally was found. urllib.request.urlopen usage is consistent with the package’s documented HTTP/DNS/ICMP/TCP/TLS latency-measurement purpose.</li>
+<li>**Persistence:** README/PKG-INFO references to ~/.bashrc are PATH setup instructions for pipx ensurepath or ~/.local/bin, not evidence of malicious persistence.</li>
+<li>**Lateral movement:** No evidence of Kubernetes, Docker socket, cloud metadata, GitHub Actions/CI token reuse, or developer/cloud infrastructure lateral movement.</li>
+<li>**Obfuscation/loader:** No evidence of eval/exec, base64/zlib/marshal loaders, obfuscated downloaders, or self-deleting droppers.</li>
+</ul>
+
+<h2>Distribution Integrity Anomalies</h2>
+
+<ul>
+<li>From the provided manifest and text, no unexplained native binaries, hidden payloads, suspicious dependency additions, or typosquatting indicators were identified.</li>
+<li>Dependencies tqdm, hdrhistogram, and pyyaml align with the documented CLI, histogram, and YAML functionality.</li>
+<li>Test URLs such as http://93.184.216.34 and example.com appear in test/example context and are not evidence of C2 or data exfiltration.</li>
+</ul>
+
+<h2>Additional Verification Needed</h2>
+
+<ul>
+<li>The input did not include the full contents of all 18 files, so full source review of files such as pyproject.toml, setup.cfg, and entry_points.txt should be performed separately.</li>
+<li>The reviewed artifact appears to be the sdist (.tar.gz); if a wheel exists for the same version, sdist/wheel mismatch should be checked separately.</li>
+<li>A diff between the upstream GitHub source and the PyPI artifact was not possible from the provided material alone.</li>
+</ul>
+
+<p>---</p>
+
+<p>Prompt source: docs/prompts/malicious-supply-chain-review-v2.md</p>
+
+<p>This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</p>
+
+</body>
+</html>
