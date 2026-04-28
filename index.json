@@ -1,6 +1,423 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "agent_quant-0.2.11.tar.gz",
+    "finding_count": 81,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 3,
+          "files": [
+            "agent_quant-0.2.11/claw_quant/src/core/container.py",
+            "agent_quant-0.2.11/claw_quant/src/core/events.py",
+            "agent_quant-0.2.11/claw_quant/src/core/plugin.py"
+          ],
+          "value": "api.core"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agent_quant-0.2.11/claw_quant/src/scripts/update_daily.py"
+          ],
+          "value": "api.data"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "agent_quant-0.2.11/claw_quant/examples/data_api_demo.py",
+            "agent_quant-0.2.11/claw_quant/tests/test_data_api.py"
+          ],
+          "value": "api.download"
+        },
+        {
+          "file_count": 8,
+          "files": [
+            "agent_quant-0.2.11/claw_quant/cli.py",
+            "agent_quant-0.2.11/claw_quant/src/api/backtest_api.py",
+            "agent_quant-0.2.11/claw_quant/src/backtest/engines/cskhquant_simple.py",
+            "agent_quant-0.2.11/tests/test_api_comprehensive.py",
+            "agent_quant-0.2.11/tests/test_debug_0420.py",
+            "agent_quant-0.2.11/tests/test_new_api.py",
+            "agent_quant-0.2.11/tests/test_unified_backtest.py",
+            "agent_quant-0.2.11/tests/test_update_pingan_0417.py"
+          ],
+          "value": "api.ping"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agent_quant-0.2.11/README.md"
+          ],
+          "value": "api.star-history.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "agent_quant-0.2.11/PKG-INFO",
+            "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
+            "agent_quant-0.2.11/pyproject.toml"
+          ],
+          "value": "clawquant.github.io"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "agent_quant-0.2.11/PKG-INFO",
+            "agent_quant-0.2.11/README.md",
+            "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
+            "agent_quant-0.2.11/claw_quant/README.md"
+          ],
+          "value": "duckdb.org"
+        },
+        {
+          "file_count": 7,
+          "files": [
+            "agent_quant-0.2.11/PKG-INFO",
+            "agent_quant-0.2.11/README.md",
+            "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
+            "agent_quant-0.2.11/claw_quant/CHANGELOG.md",
+            "agent_quant-0.2.11/claw_quant/CONTRIBUTING.md",
+            "agent_quant-0.2.11/claw_quant/README.md",
+            "agent_quant-0.2.11/pyproject.toml"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "agent_quant-0.2.11/PKG-INFO",
+            "agent_quant-0.2.11/README.md",
+            "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
+            "agent_quant-0.2.11/claw_quant/README.md"
+          ],
+          "value": "img.shields.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agent_quant-0.2.11/claw_quant/CHANGELOG.md"
+          ],
+          "value": "keepachangelog.com"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "agent_quant-0.2.11/PKG-INFO",
+            "agent_quant-0.2.11/README.md",
+            "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
+            "agent_quant-0.2.11/claw_quant/README.md"
+          ],
+          "value": "pandas.pydata.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "agent_quant-0.2.11/README.md",
+            "agent_quant-0.2.11/claw_quant/PUBLISH.md"
+          ],
+          "value": "pypi.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agent_quant-0.2.11/claw_quant/CHANGELOG.md"
+          ],
+          "value": "semver.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agent_quant-0.2.11/README.md"
+          ],
+          "value": "star-history.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agent_quant-0.2.11/claw_quant/PUBLISH.md"
+          ],
+          "value": "test.pypi.org"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "agent_quant-0.2.11/PKG-INFO",
+            "agent_quant-0.2.11/README.md",
+            "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
+            "agent_quant-0.2.11/claw_quant/README.md"
+          ],
+          "value": "www.python.org"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "agent_quant-0.2.11/PKG-INFO",
+            "agent_quant-0.2.11/README.md",
+            "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
+            "agent_quant-0.2.11/claw_quant/README.md"
+          ],
+          "value": "www.vnpy.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agent_quant-0.2.11/claw_quant/database/storage/db_http_client.py"
+          ],
+          "value": "{host"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "agent_quant-0.2.11/claw_quant/database/storage/db_http_client.py"
+          ],
+          "value": "http://{host"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agent_quant-0.2.11/README.md"
+          ],
+          "value": "https://api.star-history.com/svg?repos=clawquant/claw_quant&type=Date"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "agent_quant-0.2.11/PKG-INFO",
+            "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
+            "agent_quant-0.2.11/pyproject.toml"
+          ],
+          "value": "https://clawquant.github.io/claw_quant"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "agent_quant-0.2.11/PKG-INFO",
+            "agent_quant-0.2.11/README.md",
+            "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
+            "agent_quant-0.2.11/claw_quant/README.md"
+          ],
+          "value": "https://duckdb.org/"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "agent_quant-0.2.11/PKG-INFO",
+            "agent_quant-0.2.11/README.md",
+            "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
+            "agent_quant-0.2.11/claw_quant/README.md"
+          ],
+          "value": "https://github.com/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agent_quant-0.2.11/claw_quant/CONTRIBUTING.md"
+          ],
+          "value": "https://github.com/YOUR_USERNAME/claw_quant.git"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "agent_quant-0.2.11/PKG-INFO",
+            "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
+            "agent_quant-0.2.11/pyproject.toml"
+          ],
+          "value": "https://github.com/clawquant/claw_quant"
+        },
+        {
+          "file_count": 6,
+          "files": [
+            "agent_quant-0.2.11/PKG-INFO",
+            "agent_quant-0.2.11/README.md",
+            "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
+            "agent_quant-0.2.11/claw_quant/CONTRIBUTING.md",
+            "agent_quant-0.2.11/claw_quant/README.md",
+            "agent_quant-0.2.11/pyproject.toml"
+          ],
+          "value": "https://github.com/clawquant/claw_quant.git"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "agent_quant-0.2.11/PKG-INFO",
+            "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
+            "agent_quant-0.2.11/pyproject.toml"
+          ],
+          "value": "https://github.com/clawquant/claw_quant/blob/main/CHANGELOG.md"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agent_quant-0.2.11/claw_quant/CHANGELOG.md"
+          ],
+          "value": "https://github.com/clawquant/claw_quant/compare/v0.1.0...HEAD"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "agent_quant-0.2.11/PKG-INFO",
+            "agent_quant-0.2.11/README.md",
+            "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
+            "agent_quant-0.2.11/claw_quant/CONTRIBUTING.md",
+            "agent_quant-0.2.11/claw_quant/README.md"
+          ],
+          "value": "https://github.com/clawquant/claw_quant/discussions"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "agent_quant-0.2.11/PKG-INFO",
+            "agent_quant-0.2.11/README.md",
+            "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
+            "agent_quant-0.2.11/claw_quant/README.md",
+            "agent_quant-0.2.11/pyproject.toml"
+          ],
+          "value": "https://github.com/clawquant/claw_quant/issues"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agent_quant-0.2.11/claw_quant/CHANGELOG.md"
+          ],
+          "value": "https://github.com/clawquant/claw_quant/releases/tag/v0.1.0"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "agent_quant-0.2.11/PKG-INFO",
+            "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
+            "agent_quant-0.2.11/claw_quant/README.md"
+          ],
+          "value": "https://github.com/openclaw/openclaw"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "agent_quant-0.2.11/PKG-INFO",
+            "agent_quant-0.2.11/README.md",
+            "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
+            "agent_quant-0.2.11/claw_quant/README.md"
+          ],
+          "value": "https://img.shields.io/badge/license-MIT-green"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agent_quant-0.2.11/README.md"
+          ],
+          "value": "https://img.shields.io/badge/pypi-claw__quant-blue"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "agent_quant-0.2.11/PKG-INFO",
+            "agent_quant-0.2.11/README.md",
+            "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
+            "agent_quant-0.2.11/claw_quant/README.md"
+          ],
+          "value": "https://img.shields.io/badge/python-3.8%2B-blue"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agent_quant-0.2.11/claw_quant/CHANGELOG.md"
+          ],
+          "value": "https://keepachangelog.com/zh-CN/1.0.0/"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "agent_quant-0.2.11/PKG-INFO",
+            "agent_quant-0.2.11/README.md",
+            "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
+            "agent_quant-0.2.11/claw_quant/README.md"
+          ],
+          "value": "https://pandas.pydata.org/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agent_quant-0.2.11/claw_quant/PUBLISH.md"
+          ],
+          "value": "https://pypi.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agent_quant-0.2.11/claw_quant/PUBLISH.md"
+          ],
+          "value": "https://pypi.org/manage/account/token"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agent_quant-0.2.11/README.md"
+          ],
+          "value": "https://pypi.org/project/claw-quant/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agent_quant-0.2.11/claw_quant/CHANGELOG.md"
+          ],
+          "value": "https://semver.org/lang/zh-CN/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agent_quant-0.2.11/README.md"
+          ],
+          "value": "https://star-history.com/#clawquant/claw_quant&Date"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "agent_quant-0.2.11/claw_quant/PUBLISH.md"
+          ],
+          "value": "https://test.pypi.org/simple/"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "agent_quant-0.2.11/PKG-INFO",
+            "agent_quant-0.2.11/README.md",
+            "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
+            "agent_quant-0.2.11/claw_quant/README.md"
+          ],
+          "value": "https://www.python.org/"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "agent_quant-0.2.11/PKG-INFO",
+            "agent_quant-0.2.11/README.md",
+            "agent_quant-0.2.11/agent_quant.egg-info/PKG-INFO",
+            "agent_quant-0.2.11/claw_quant/README.md"
+          ],
+          "value": "https://www.vnpy.com/"
+        }
+      ]
+    },
+    "package": "agent-quant",
+    "package_slug": "agent-quant",
+    "project_url": "https://pypi.org/project/agent-quant/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-28T02:16:54.633695+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-28T02:17:34.615451+00:00",
+    "title": "Personal PyPI Supply Chain Scan: agent-quant 0.2.11",
+    "version": "0.2.11",
+    "version_slug": "0.2.11",
+    "_metadata_path": "reports/packages/agent-quant/0.2.11/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "sensei_tutor-0.1.0a26.tar.gz",
     "finding_count": 30,
     "model": "gpt-5.5",
