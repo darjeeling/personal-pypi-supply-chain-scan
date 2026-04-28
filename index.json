@@ -1,6 +1,159 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "mysetuptool-1.0.0.tar.gz",
+    "finding_count": 23,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 6,
+          "files": [
+            "mysetuptool-1.0.0/PKG-INFO",
+            "mysetuptool-1.0.0/README.md",
+            "mysetuptool-1.0.0/pyproject.toml",
+            "mysetuptool-1.0.0/src/mysetuptool.egg-info/PKG-INFO",
+            "mysetuptool-1.0.0/src/mysetuptool/mac_tool.py",
+            "mysetuptool-1.0.0/src/mysetuptool/ubuntu_tool.py"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "mysetuptool-1.0.0/PKG-INFO",
+            "mysetuptool-1.0.0/README.md",
+            "mysetuptool-1.0.0/src/mysetuptool.egg-info/PKG-INFO"
+          ],
+          "value": "img.shields.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "mysetuptool-1.0.0/PKG-INFO",
+            "mysetuptool-1.0.0/README.md",
+            "mysetuptool-1.0.0/src/mysetuptool.egg-info/PKG-INFO"
+          ],
+          "value": "pypi.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mysetuptool-1.0.0/src/mysetuptool/mac_tool.py"
+          ],
+          "value": "raw.githubusercontent.com"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [
+        {
+          "file_count": 1,
+          "files": [
+            "mysetuptool-1.0.0/src/mysetuptool/mac_tool.py"
+          ],
+          "value": "https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mysetuptool-1.0.0/src/mysetuptool/mac_tool.py"
+          ],
+          "value": "raw.githubusercontent.com"
+        }
+      ],
+      "urls": [
+        {
+          "file_count": 3,
+          "files": [
+            "mysetuptool-1.0.0/PKG-INFO",
+            "mysetuptool-1.0.0/README.md",
+            "mysetuptool-1.0.0/src/mysetuptool.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/frankwang98/cross-automation-tool.git"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mysetuptool-1.0.0/src/mysetuptool/mac_tool.py"
+          ],
+          "value": "https://github.com/frankwang98/mac_automation_tool.git"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "mysetuptool-1.0.0/PKG-INFO",
+            "mysetuptool-1.0.0/pyproject.toml",
+            "mysetuptool-1.0.0/src/mysetuptool.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/frankwang98/mysetuptool"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "mysetuptool-1.0.0/PKG-INFO",
+            "mysetuptool-1.0.0/pyproject.toml",
+            "mysetuptool-1.0.0/src/mysetuptool.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/frankwang98/mysetuptool/issues"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mysetuptool-1.0.0/src/mysetuptool/ubuntu_tool.py"
+          ],
+          "value": "https://github.com/frankwang98/ubuntu_automation_tool.git"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "mysetuptool-1.0.0/PKG-INFO",
+            "mysetuptool-1.0.0/README.md",
+            "mysetuptool-1.0.0/src/mysetuptool.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/pypi/l/cross-tool"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "mysetuptool-1.0.0/PKG-INFO",
+            "mysetuptool-1.0.0/README.md",
+            "mysetuptool-1.0.0/src/mysetuptool.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/pypi/pyversions/cross-tool"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "mysetuptool-1.0.0/PKG-INFO",
+            "mysetuptool-1.0.0/README.md",
+            "mysetuptool-1.0.0/src/mysetuptool.egg-info/PKG-INFO"
+          ],
+          "value": "https://pypi.org/project/cross-tool/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mysetuptool-1.0.0/src/mysetuptool/mac_tool.py"
+          ],
+          "value": "https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh"
+        }
+      ]
+    },
+    "package": "mysetuptool",
+    "package_slug": "mysetuptool",
+    "project_url": "https://pypi.org/project/mysetuptool/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-28T03:04:55.761081+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-28T03:06:03.373292+00:00",
+    "title": "Personal PyPI Supply Chain Scan: mysetuptool 1.0.0",
+    "version": "1.0.0",
+    "version_slug": "1.0.0",
+    "_metadata_path": "reports/packages/mysetuptool/1.0.0/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "sqllens-0.0.1.tar.gz",
     "finding_count": 282,
     "model": "gpt-5.5",
