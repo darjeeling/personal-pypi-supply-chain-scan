@@ -1,6 +1,801 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "mettagrid-0.26.11.tar.gz",
+    "finding_count": 235,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/tests/profiling/test_stopwatch.py"
+          ],
+          "value": "app.asana.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "bcr.bazel.build"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/python/src/mettagrid/mapgen/scenes/biome_arena.py"
+          ],
+          "value": "biome.zone"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mettagrid-0.26.11/tests/util/test_file.py",
+            "mettagrid-0.26.11/tests/util/test_url_schemes.py"
+          ],
+          "value": "bucket.s3.amazonaws.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/nim/mettascope/src/mettascope/shell.html"
+          ],
+          "value": "d6f8413a242a1ceb577700010035f476.min.js"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "mettagrid-0.26.11/PKG-INFO",
+            "mettagrid-0.26.11/pyproject.toml",
+            "mettagrid-0.26.11/python/src/mettagrid.egg-info/PKG-INFO"
+          ],
+          "value": "daveey.github.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/python/src/mettagrid/util/tracer.py"
+          ],
+          "value": "docs.google.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/python/src/mettagrid/mapgen/scenes/biome_arena.py"
+          ],
+          "value": "dungeon.zone"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "files.pythonhosted.org"
+        },
+        {
+          "file_count": 15,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel",
+            "mettagrid-0.26.11/MODULE.bazel.lock",
+            "mettagrid-0.26.11/PKG-INFO",
+            "mettagrid-0.26.11/bazel_build.py",
+            "mettagrid-0.26.11/demos/demo_train_puffer.py",
+            "mettagrid-0.26.11/nim/mettascope/nimby.lock",
+            "mettagrid-0.26.11/nim/mettascope/src/mettascope/panelmode/header.nim",
+            "mettagrid-0.26.11/pyproject.toml"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/nim/mettascope/src/mettascope/shell.html"
+          ],
+          "value": "js.sentry-cdn.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "mettagrid-0.26.11/PKG-INFO",
+            "mettagrid-0.26.11/README.md",
+            "mettagrid-0.26.11/python/src/mettagrid.egg-info/PKG-INFO"
+          ],
+          "value": "marketplace.visualstudio.com"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "mettagrid-0.26.11/nim/mettascope/src/mettascope/panelmode/header.nim",
+            "mettagrid-0.26.11/nim/mettascope/tutorials/docs/playing_cogames.md",
+            "mettagrid-0.26.11/nim/mettascope/tutorials/prompts/playing_cogames_prompt.md",
+            "mettagrid-0.26.11/python/src/mettagrid/renderer/common.py"
+          ],
+          "value": "metta-ai.github.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/tests/runner/test_episode_runner.py"
+          ],
+          "value": "my-bucket.s3.amazonaws.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/nim/mettascope/README.md"
+          ],
+          "value": "nim-lang.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mettagrid-0.26.11/python/src/mettagrid/mapgen/scenes/compound.py",
+            "mettagrid-0.26.11/python/src/mettagrid/mapgen/tools/dcss_import.py"
+          ],
+          "value": "raw.githubusercontent.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mettagrid-0.26.11/python/src/mettagrid/renderer/mettascope.py",
+            "mettagrid-0.26.11/python/src/mettagrid/simulator/replay_log_writer.py"
+          ],
+          "value": "raw.items"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/python/src/mettagrid/policy/pufferlib.py"
+          ],
+          "value": "raw.numel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/python/src/mettagrid/policy/puffer_default.py"
+          ],
+          "value": "raw.size"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mettagrid-0.26.11/nim/mettascope/docs/replay_spec.md",
+            "mettagrid-0.26.11/nim/mettascope/src/mettascope/assets.nim"
+          ],
+          "value": "softmax-public.s3.amazonaws.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/python/src/mettagrid/mapgen/scenes/dcss/README.md"
+          ],
+          "value": "www.gnu.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/python/src/mettagrid/util/uri_resolvers/schemes.py"
+          ],
+          "value": "{bucket"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/python/src/mettagrid/util/file.py"
+          ],
+          "value": "{parsed.bucket"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/nim/mettascope/src/mettascope/shell.html"
+          ],
+          "value": "d6f8413a242a1ceb577700010035f476.min.js"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/python/src/mettagrid/mapgen/scenes/compound.py"
+          ],
+          "value": "https://raw.githubusercontent.com/HumanCompatibleAI/overcooked_ai/master/src/overcooked_ai_py/data/layouts/cramped_room.layout"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/python/src/mettagrid/mapgen/tools/dcss_import.py"
+          ],
+          "value": "https://raw.githubusercontent.com/crawl/crawl/master/crawl-ref/source/dat/des/arrival/simple.des"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "mettagrid-0.26.11/python/src/mettagrid/mapgen/scenes/compound.py",
+            "mettagrid-0.26.11/python/src/mettagrid/mapgen/tools/dcss_import.py"
+          ],
+          "value": "raw.githubusercontent.com"
+        }
+      ],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/tests/util/test_file.py"
+          ],
+          "value": "http://bucket.s3.amazonaws.com/key?X-Amz-Algorithm=AWS4-HMAC-SHA256"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/python/src/mettagrid/util/uri_resolvers/schemes.py"
+          ],
+          "value": "http://{bucket"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/tests/profiling/test_stopwatch.py"
+          ],
+          "value": "https://app.asana.com/1/1209016784099267/project/1210062854657778/task/1212347312601061?focus=true"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/tests/profiling/test_stopwatch.py"
+          ],
+          "value": "https://app.asana.com/1/1209016784099267/project/1210062854657778/task/1212347312601063?focus=true"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/bazel_registry.json"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/abseil-cpp/20210324.2/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/abseil-cpp/20211102.0/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/abseil-cpp/20230125.1/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/abseil-cpp/20230802.0.bcr.1/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/abseil-cpp/20230802.0/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/abseil-cpp/20230802.1/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/abseil-cpp/20240116.1/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/abseil-cpp/20240116.2/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/abseil-cpp/20250127.1/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/abseil-cpp/20250512.1/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/abseil-cpp/20250814.0/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/abseil-cpp/20250814.1/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/abseil-cpp/20250814.1/source.json"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/apple_support/1.11.1/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/apple_support/1.15.1/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/apple_support/1.21.0/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/apple_support/1.21.1/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/apple_support/1.22.1/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/apple_support/1.24.2/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/apple_support/1.24.2/source.json"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_features/1.1.1/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_features/1.10.0/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_features/1.11.0/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_features/1.15.0/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_features/1.17.0/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_features/1.18.0/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_features/1.19.0/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_features/1.21.0/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_features/1.23.0/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_features/1.27.0/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_features/1.28.0/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_features/1.3.0/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_features/1.30.0/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_features/1.33.0/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_features/1.36.0/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_features/1.36.0/source.json"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_features/1.4.1/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_features/1.9.1/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_skylib/1.0.3/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_skylib/1.1.1/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_skylib/1.2.0/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_skylib/1.2.1/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_skylib/1.3.0/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_skylib/1.4.1/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_skylib/1.4.2/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_skylib/1.5.0/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_skylib/1.6.1/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_skylib/1.7.0/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_skylib/1.7.1/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_skylib/1.8.1/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_skylib/1.8.2/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/bazel_skylib/1.8.2/source.json"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/buildozer/8.2.1/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/buildozer/8.2.1/source.json"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/google_benchmark/1.8.2/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/google_benchmark/1.9.4/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/google_benchmark/1.9.4/source.json"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/googletest/1.11.0/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/googletest/1.14.0.bcr.1/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/googletest/1.14.0/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/googletest/1.15.2/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/googletest/1.17.0.bcr.2/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/googletest/1.17.0.bcr.2/source.json"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/googletest/1.17.0/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/jsoncpp/1.9.5/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/jsoncpp/1.9.6/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/jsoncpp/1.9.6/source.json"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/libpfm/4.11.0.bcr.1/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/libpfm/4.11.0.bcr.1/source.json"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/libpfm/4.11.0/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/nlohmann_json/3.6.1/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/nlohmann_json/3.6.1/source.json"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/platforms/0.0.10/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/platforms/0.0.11/MODULE.bazel"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "mettagrid-0.26.11/MODULE.bazel.lock"
+          ],
+          "value": "https://bcr.bazel.build/modules/platforms/0.0.4/MODULE.bazel"
+        }
+      ]
+    },
+    "package": "mettagrid",
+    "package_slug": "mettagrid",
+    "project_url": "https://pypi.org/project/mettagrid/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-28T02:34:31.724410+00:00",
+    "risk": "low",
+    "scanned_at": "2026-04-28T02:35:31.557812+00:00",
+    "title": "Personal PyPI Supply Chain Scan: mettagrid 0.26.11",
+    "version": "0.26.11",
+    "version_slug": "0.26.11",
+    "_metadata_path": "reports/packages/mettagrid/0.26.11/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "bioversions-0.10.1.tar.gz",
     "finding_count": 29,
     "model": "gpt-5.5",

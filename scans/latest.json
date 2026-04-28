@@ -1,618 +1,218 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "bioversions-0.10.1.tar.gz",
-  "finding_count": 29,
+  "distribution": "mettagrid-0.26.11.tar.gz",
+  "finding_count": 235,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/antibodyregistry.py"
+          "mettagrid-0.26.11/tests/profiling/test_stopwatch.py"
         ],
-        "value": "antibodyregistry.org"
+        "value": "app.asana.com"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/obo.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "archive.geneontology.org"
+        "value": "bcr.bazel.build"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/npass.py"
+          "mettagrid-0.26.11/python/src/mettagrid/mapgen/scenes/biome_arena.py"
         ],
-        "value": "bidd.group"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/bigg.py"
-        ],
-        "value": "bigg.ucsd.edu"
+        "value": "biome.zone"
       },
       {
         "file_count": 2,
         "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
+          "mettagrid-0.26.11/tests/util/test_file.py",
+          "mettagrid-0.26.11/tests/util/test_url_schemes.py"
         ],
-        "value": "biopragmatics.github.io"
+        "value": "bucket.s3.amazonaws.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "mettagrid-0.26.11/nim/mettascope/src/mettascope/shell.html"
+        ],
+        "value": "d6f8413a242a1ceb577700010035f476.min.js"
       },
       {
         "file_count": 3,
         "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md",
-          "bioversions-0.10.1/pyproject.toml"
+          "mettagrid-0.26.11/PKG-INFO",
+          "mettagrid-0.26.11/pyproject.toml",
+          "mettagrid-0.26.11/python/src/mettagrid.egg-info/PKG-INFO"
         ],
-        "value": "bioversions.readthedocs.io"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
-        ],
-        "value": "blog.pypi.org"
+        "value": "daveey.github.io"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/disgenet.py"
+          "mettagrid-0.26.11/python/src/mettagrid/util/tracer.py"
         ],
-        "value": "ca346j0lmg.execute-api.eu-central-1.amazonaws.com"
+        "value": "docs.google.com"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/civic.py"
+          "mettagrid-0.26.11/python/src/mettagrid/mapgen/scenes/biome_arena.py"
         ],
-        "value": "civicdb.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
-        ],
-        "value": "codecov.io"
+        "value": "dungeon.zone"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/pyproject.toml"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "coverage.readthedocs.io"
+        "value": "files.pythonhosted.org"
       },
       {
-        "file_count": 1,
+        "file_count": 15,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/gtdb.py"
-        ],
-        "value": "data.ace.uq.edu.au"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/msigdb.py"
-        ],
-        "value": "data.broadinstitute.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/wikipathways.py"
-        ],
-        "value": "data.wikipathways.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/depmap.py"
-        ],
-        "value": "depmap.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/pyproject.toml"
-        ],
-        "value": "doc8.readthedocs.io"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md",
-          "bioversions-0.10.1/pyproject.toml"
-        ],
-        "value": "docs.astral.sh"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/pyproject.toml"
-        ],
-        "value": "docs.pytest.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
-        ],
-        "value": "docs.readthedocs.io"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/guidetopharmacology.py"
-        ],
-        "value": "download.jsp"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/rxnorm.py"
-        ],
-        "value": "download.nlm.nih.gov"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/rgd.py"
-        ],
-        "value": "download.rgd.mcw.edu"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md",
-          "bioversions-0.10.1/src/bioversions/sources/biogrid.py"
-        ],
-        "value": "downloads.thebiogrid.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/ncit.py"
-        ],
-        "value": "evsexplore.semantics.cancer.gov"
-      },
-      {
-        "file_count": 5,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/chebi.py",
-          "bioversions-0.10.1/src/bioversions/sources/complexportal.py",
-          "bioversions-0.10.1/src/bioversions/sources/intact.py",
-          "bioversions-0.10.1/src/bioversions/sources/interpro.py",
-          "bioversions-0.10.1/src/bioversions/sources/rfam.py"
-        ],
-        "value": "ftp.ebi.ac.uk"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/cellosaurus.py",
-          "bioversions-0.10.1/src/bioversions/sources/expasy.py",
-          "bioversions-0.10.1/src/bioversions/sources/rhea.py"
-        ],
-        "value": "ftp.expasy.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/homologene.py"
-        ],
-        "value": "ftp.ncbi.nih.gov"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/pubchem.py"
-        ],
-        "value": "ftp.ncbi.nlm.nih.gov"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/chemidplus.py"
-        ],
-        "value": "ftp.nlm.nih.gov"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/uniprot.py"
-        ],
-        "value": "ftp.uniprot.org"
-      },
-      {
-        "file_count": 8,
-        "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md",
-          "bioversions-0.10.1/pyproject.toml",
-          "bioversions-0.10.1/src/bioversions/sources/dgi.py",
-          "bioversions-0.10.1/src/bioversions/sources/moalmanac.py",
-          "bioversions-0.10.1/src/bioversions/sources/obo.py",
-          "bioversions-0.10.1/src/bioversions/sources/spdx.py",
-          "bioversions-0.10.1/src/bioversions/templates/home.html"
+          "mettagrid-0.26.11/MODULE.bazel",
+          "mettagrid-0.26.11/MODULE.bazel.lock",
+          "mettagrid-0.26.11/PKG-INFO",
+          "mettagrid-0.26.11/bazel_build.py",
+          "mettagrid-0.26.11/demos/demo_train_puffer.py",
+          "mettagrid-0.26.11/nim/mettascope/nimby.lock",
+          "mettagrid-0.26.11/nim/mettascope/src/mettascope/panelmode/header.nim",
+          "mettagrid-0.26.11/pyproject.toml"
         ],
         "value": "github.com"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/drugbank.py"
+          "mettagrid-0.26.11/nim/mettascope/src/mettascope/shell.html"
         ],
-        "value": "go.drugbank.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/civic.py"
-        ],
-        "value": "griffithlab.github.io"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/gtdb.py"
-        ],
-        "value": "gtdb.ecogenomic.org"
+        "value": "js.sentry-cdn.com"
       },
       {
         "file_count": 3,
         "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md",
-          "bioversions-0.10.1/src/bioversions/templates/home.html"
+          "mettagrid-0.26.11/PKG-INFO",
+          "mettagrid-0.26.11/README.md",
+          "mettagrid-0.26.11/python/src/mettagrid.egg-info/PKG-INFO"
         ],
-        "value": "hits.harvard.edu"
+        "value": "marketplace.visualstudio.com"
+      },
+      {
+        "file_count": 4,
+        "files": [
+          "mettagrid-0.26.11/nim/mettascope/src/mettascope/panelmode/header.nim",
+          "mettagrid-0.26.11/nim/mettascope/tutorials/docs/playing_cogames.md",
+          "mettagrid-0.26.11/nim/mettascope/tutorials/prompts/playing_cogames_prompt.md",
+          "mettagrid-0.26.11/python/src/mettagrid/renderer/common.py"
+        ],
+        "value": "metta-ai.github.io"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "mettagrid-0.26.11/tests/runner/test_episode_runner.py"
+        ],
+        "value": "my-bucket.s3.amazonaws.com"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "mettagrid-0.26.11/nim/mettascope/README.md"
+        ],
+        "value": "nim-lang.org"
       },
       {
         "file_count": 2,
         "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
-        ],
-        "value": "hms.harvard.edu"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/icd10.py",
-          "bioversions-0.10.1/src/bioversions/sources/icd11.py",
-          "bioversions-0.10.1/src/bioversions/sources/icf.py"
-        ],
-        "value": "icd.who.int"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
-        ],
-        "value": "img.shields.io"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md",
-          "bioversions-0.10.1/src/bioversions/templates/home.html"
-        ],
-        "value": "indralab.github.io"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/templates/base.html"
-        ],
-        "value": "kit.fontawesome.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/loinc.py"
-        ],
-        "value": "loinc.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/moalmanac.py"
-        ],
-        "value": "moalmanac.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/pyproject.toml"
-        ],
-        "value": "mypy.readthedocs.io"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/omim.py"
-        ],
-        "value": "omim.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/oncotree.py"
-        ],
-        "value": "oncotree.mskcc.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/pyproject.toml"
-        ],
-        "value": "packaging.python.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/pathbank.py"
-        ],
-        "value": "pathbank.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/pyproject.toml"
-        ],
-        "value": "peps.python.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/pr.py"
-        ],
-        "value": "proconsortium.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/utils.py"
-        ],
-        "value": "purl.obolibrary.org"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md",
-          "bioversions-0.10.1/pyproject.toml"
-        ],
-        "value": "pypi.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
+          "mettagrid-0.26.11/python/src/mettagrid/mapgen/scenes/compound.py",
+          "mettagrid-0.26.11/python/src/mettagrid/mapgen/tools/dcss_import.py"
         ],
         "value": "raw.githubusercontent.com"
       },
       {
+        "file_count": 2,
+        "files": [
+          "mettagrid-0.26.11/python/src/mettagrid/renderer/mettascope.py",
+          "mettagrid-0.26.11/python/src/mettagrid/simulator/replay_log_writer.py"
+        ],
+        "value": "raw.items"
+      },
+      {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/reactome.py"
+          "mettagrid-0.26.11/python/src/mettagrid/policy/pufferlib.py"
         ],
-        "value": "reactome.org"
+        "value": "raw.numel"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "mettagrid-0.26.11/python/src/mettagrid/policy/puffer_default.py"
+        ],
+        "value": "raw.size"
       },
       {
         "file_count": 2,
         "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
+          "mettagrid-0.26.11/nim/mettascope/docs/replay_spec.md",
+          "mettagrid-0.26.11/nim/mettascope/src/mettascope/assets.nim"
         ],
-        "value": "readthedocs.io"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
-        ],
-        "value": "readthedocs.org"
+        "value": "softmax-public.s3.amazonaws.com"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/flybase.py"
+          "mettagrid-0.26.11/python/src/mettagrid/mapgen/scenes/dcss/README.md"
         ],
-        "value": "s3ftp.flybase.org"
+        "value": "www.gnu.org"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/sgd.py"
+          "mettagrid-0.26.11/python/src/mettagrid/util/uri_resolvers/schemes.py"
         ],
-        "value": "sgd-archive.yeastgenome.org"
+        "value": "{bucket"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/signor.py"
+          "mettagrid-0.26.11/python/src/mettagrid/util/file.py"
         ],
-        "value": "signor.uniroma2.it"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/hgnc.py"
-        ],
-        "value": "storage.googleapis.com"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/stringdb.py"
-        ],
-        "value": "string-db.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
-        ],
-        "value": "test.pypi.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
-        ],
-        "value": "upload.pypi.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/antibodyregistry.py"
-        ],
-        "value": "www.antibodyregistry.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/silva.py"
-        ],
-        "value": "www.arb-silva.de"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/dgi.py"
-        ],
-        "value": "www.dgidb.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/ensembl.py"
-        ],
-        "value": "www.ensembl.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/msigdb.py"
-        ],
-        "value": "www.gsea-msigdb.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/guidetopharmacology.py"
-        ],
-        "value": "www.guidetopharmacology.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/mgi.py"
-        ],
-        "value": "www.informatics.jax.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/itis.py"
-        ],
-        "value": "www.itis.gov"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/kegg.py"
-        ],
-        "value": "www.kegg.jp"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/uniprot.py"
-        ],
-        "value": "www.metalinker.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/mirbase.py"
-        ],
-        "value": "www.mirbase.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/rxnorm.py",
-          "bioversions-0.10.1/src/bioversions/sources/umls.py"
-        ],
-        "value": "www.nlm.nih.gov"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/pathwaycommons.py"
-        ],
-        "value": "www.pathwaycommons.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/pombase.py"
-        ],
-        "value": "www.pombase.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/slm.py"
-        ],
-        "value": "www.swisslipids.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
-        ],
-        "value": "zenodo.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/sources/zfin.py"
-        ],
-        "value": "zfin.org"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "bioversions-0.10.1/src/bioversions/utils.py"
-        ],
-        "value": "{host"
+        "value": "{parsed.bucket"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [
       {
+        "file_count": 1,
+        "files": [
+          "mettagrid-0.26.11/nim/mettascope/src/mettascope/shell.html"
+        ],
+        "value": "d6f8413a242a1ceb577700010035f476.min.js"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "mettagrid-0.26.11/python/src/mettagrid/mapgen/scenes/compound.py"
+        ],
+        "value": "https://raw.githubusercontent.com/HumanCompatibleAI/overcooked_ai/master/src/overcooked_ai_py/data/layouts/cramped_room.layout"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "mettagrid-0.26.11/python/src/mettagrid/mapgen/tools/dcss_import.py"
+        ],
+        "value": "https://raw.githubusercontent.com/crawl/crawl/master/crawl-ref/source/dat/des/arrival/simple.des"
+      },
+      {
         "file_count": 2,
         "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
+          "mettagrid-0.26.11/python/src/mettagrid/mapgen/scenes/compound.py",
+          "mettagrid-0.26.11/python/src/mettagrid/mapgen/tools/dcss_import.py"
         ],
         "value": "raw.githubusercontent.com"
       }
@@ -621,610 +221,575 @@
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/obo.py"
+          "mettagrid-0.26.11/tests/util/test_file.py"
         ],
-        "value": "http://archive.geneontology.org/full/{version"
+        "value": "http://bucket.s3.amazonaws.com/key?X-Amz-Algorithm=AWS4-HMAC-SHA256"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/npass.py"
+          "mettagrid-0.26.11/python/src/mettagrid/util/uri_resolvers/schemes.py"
         ],
-        "value": "http://bidd.group/NPASS/"
+        "value": "http://{bucket"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/bigg.py"
+          "mettagrid-0.26.11/tests/profiling/test_stopwatch.py"
         ],
-        "value": "http://bigg.ucsd.edu/api/v2/database_version"
+        "value": "https://app.asana.com/1/1209016784099267/project/1210062854657778/task/1212347312601061?focus=true"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/wikipathways.py"
+          "mettagrid-0.26.11/tests/profiling/test_stopwatch.py"
         ],
-        "value": "http://data.wikipathways.org/current/gmt/"
+        "value": "https://app.asana.com/1/1209016784099267/project/1210062854657778/task/1212347312601063?focus=true"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/wikipathways.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "http://data.wikipathways.org/{version"
+        "value": "https://bcr.bazel.build/bazel_registry.json"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/oncotree.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "http://oncotree.mskcc.org/api/tumorTypes?version=oncotree_{version"
+        "value": "https://bcr.bazel.build/modules/abseil-cpp/20210324.2/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/oncotree.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "http://oncotree.mskcc.org/api/versions"
+        "value": "https://bcr.bazel.build/modules/abseil-cpp/20211102.0/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/sgd.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "http://sgd-archive.yeastgenome.org/sequence/S288C_reference/dates_of_genome_releases.tab"
+        "value": "https://bcr.bazel.build/modules/abseil-cpp/20230125.1/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/dgi.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "http://www.dgidb.org"
+        "value": "https://bcr.bazel.build/modules/abseil-cpp/20230802.0.bcr.1/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/msigdb.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "http://www.gsea-msigdb.org/gsea/msigdb/index.jsp"
+        "value": "https://bcr.bazel.build/modules/abseil-cpp/20230802.0/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/uniprot.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "http://www.metalinker.org/"
+        "value": "https://bcr.bazel.build/modules/abseil-cpp/20230802.1/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/mirbase.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "http://www.mirbase.org/download_readme/"
+        "value": "https://bcr.bazel.build/modules/abseil-cpp/20240116.1/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/antibodyregistry.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://antibodyregistry.org/"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
-        ],
-        "value": "https://biopragmatics.github.io/bioversions"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/pyproject.toml"
-        ],
-        "value": "https://bioversions.readthedocs.io"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
-        ],
-        "value": "https://bioversions.readthedocs.io/en/latest/?badge=latest"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
-        ],
-        "value": "https://blog.pypi.org/posts/2023-05-25-securing-pypi-with-2fa/"
+        "value": "https://bcr.bazel.build/modules/abseil-cpp/20240116.2/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/disgenet.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://ca346j0lmg.execute-api.eu-central-1.amazonaws.com/releases"
+        "value": "https://bcr.bazel.build/modules/abseil-cpp/20250127.1/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/civic.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://civicdb.org"
+        "value": "https://bcr.bazel.build/modules/abseil-cpp/20250512.1/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/civic.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://civicdb.org/api/graphql"
+        "value": "https://bcr.bazel.build/modules/abseil-cpp/20250814.0/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/civic.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://civicdb.org/releases/main"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
-        ],
-        "value": "https://codecov.io/gh/biopragmatics/bioversions/branch/main"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
-        ],
-        "value": "https://codecov.io/gh/biopragmatics/bioversions/branch/main/graph/badge.svg"
+        "value": "https://bcr.bazel.build/modules/abseil-cpp/20250814.1/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/pyproject.toml"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://coverage.readthedocs.io/en/latest/config.html"
+        "value": "https://bcr.bazel.build/modules/abseil-cpp/20250814.1/source.json"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/gtdb.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://data.ace.uq.edu.au/public/gtdb/data/releases/latest/VERSION.txt"
+        "value": "https://bcr.bazel.build/modules/apple_support/1.11.1/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/msigdb.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/{version"
+        "value": "https://bcr.bazel.build/modules/apple_support/1.15.1/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/depmap.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://depmap.org/portal/download/api/downloads"
+        "value": "https://bcr.bazel.build/modules/apple_support/1.21.0/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/pyproject.toml"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://doc8.readthedocs.io/en/stable/readme.html#ini-file-usage"
+        "value": "https://bcr.bazel.build/modules/apple_support/1.21.1/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/pyproject.toml"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://docs.astral.sh/ruff/rules"
+        "value": "https://bcr.bazel.build/modules/apple_support/1.22.1/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/pyproject.toml"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://docs.astral.sh/ruff/settings/#format_docstring-code-format"
+        "value": "https://bcr.bazel.build/modules/apple_support/1.24.2/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/pyproject.toml"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://docs.astral.sh/ruff/settings/#per-file-ignores"
+        "value": "https://bcr.bazel.build/modules/apple_support/1.24.2/source.json"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/pyproject.toml"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://docs.astral.sh/uv/concepts/dependencies/#dependency-groups"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
-        ],
-        "value": "https://docs.astral.sh/uv/guides/publish/#building-your-package"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
-        ],
-        "value": "https://docs.astral.sh/uv/guides/publish/#publishing-your-package"
+        "value": "https://bcr.bazel.build/modules/bazel_features/1.1.1/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/pyproject.toml"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://docs.pytest.org/en/stable/reference/customize.html#pyproject-toml"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
-        ],
-        "value": "https://docs.readthedocs.io/en/stable/intro/import-guide.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
-        ],
-        "value": "https://docs.readthedocs.io/en/stable/pull-requests.html"
+        "value": "https://bcr.bazel.build/modules/bazel_features/1.10.0/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/rxnorm.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_{version"
+        "value": "https://bcr.bazel.build/modules/bazel_features/1.11.0/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/rgd.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://download.rgd.mcw.edu/data_release/GENES_RAT.txt"
+        "value": "https://bcr.bazel.build/modules/bazel_features/1.15.0/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/biogrid.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://downloads.thebiogrid.org/BioGRID/Latest-Release/"
+        "value": "https://bcr.bazel.build/modules/bazel_features/1.17.0/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/biogrid.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-{version"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
-        ],
-        "value": "https://downloads.thebiogrid.org/Download/BioGRID/Release-Archive/BIOGRID-$(bioversions"
+        "value": "https://bcr.bazel.build/modules/bazel_features/1.18.0/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/ncit.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://evsexplore.semantics.cancer.gov/evsexplore/api/v1/metadata/terminologies"
+        "value": "https://bcr.bazel.build/modules/bazel_features/1.19.0/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/rfam.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://ftp.ebi.ac.uk/pub/databases/Rfam/CURRENT/README"
+        "value": "https://bcr.bazel.build/modules/bazel_features/1.21.0/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/rfam.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://ftp.ebi.ac.uk/pub/databases/Rfam/{version"
+        "value": "https://bcr.bazel.build/modules/bazel_features/1.23.0/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/chebi.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://ftp.ebi.ac.uk/pub/databases/chebi/ontology/README"
+        "value": "https://bcr.bazel.build/modules/bazel_features/1.27.0/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/complexportal.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://ftp.ebi.ac.uk/pub/databases/intact/complex/{version"
+        "value": "https://bcr.bazel.build/modules/bazel_features/1.28.0/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/intact.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://ftp.ebi.ac.uk/pub/databases/intact/{version"
+        "value": "https://bcr.bazel.build/modules/bazel_features/1.3.0/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/interpro.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://ftp.ebi.ac.uk/pub/databases/interpro/current_release/release_notes.txt"
+        "value": "https://bcr.bazel.build/modules/bazel_features/1.30.0/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/cellosaurus.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://ftp.expasy.org/databases/cellosaurus/cellosaurus.obo"
+        "value": "https://bcr.bazel.build/modules/bazel_features/1.33.0/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/expasy.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://ftp.expasy.org/databases/enzyme/enzuser.txt"
+        "value": "https://bcr.bazel.build/modules/bazel_features/1.36.0/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/rhea.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://ftp.expasy.org/databases/rhea/rhea-release.properties"
+        "value": "https://bcr.bazel.build/modules/bazel_features/1.36.0/source.json"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/homologene.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://ftp.ncbi.nih.gov/pub/HomoloGene/current/RELEASE_NUMBER"
+        "value": "https://bcr.bazel.build/modules/bazel_features/1.4.1/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/pubchem.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/{version"
+        "value": "https://bcr.bazel.build/modules/bazel_features/1.9.1/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/chemidplus.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://ftp.nlm.nih.gov/projects/chemidlease/CurrentChemID.xml"
+        "value": "https://bcr.bazel.build/modules/bazel_skylib/1.0.3/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/chemidplus.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://ftp.nlm.nih.gov/projects/chemidlease/chem.xml.{version"
+        "value": "https://bcr.bazel.build/modules/bazel_skylib/1.1.1/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/uniprot.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/RELEASE.metalink"
+        "value": "https://bcr.bazel.build/modules/bazel_skylib/1.2.0/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/src/bioversions/sources/obo.py"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/{version"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
-        ],
-        "value": "https://github.com/astral-sh/ruff"
+        "value": "https://bcr.bazel.build/modules/bazel_skylib/1.2.1/MODULE.bazel"
       },
       {
         "file_count": 1,
         "files": [
-          "bioversions-0.10.1/pyproject.toml"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://github.com/astral-sh/uv/issues/6298"
+        "value": "https://bcr.bazel.build/modules/bazel_skylib/1.3.0/MODULE.bazel"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://github.com/audreyfeldroy"
+        "value": "https://bcr.bazel.build/modules/bazel_skylib/1.4.1/MODULE.bazel"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://github.com/biopragmatics/bioregistry"
+        "value": "https://bcr.bazel.build/modules/bazel_skylib/1.4.2/MODULE.bazel"
       },
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/pyproject.toml",
-          "bioversions-0.10.1/src/bioversions/templates/home.html"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://github.com/biopragmatics/bioversions"
+        "value": "https://bcr.bazel.build/modules/bazel_skylib/1.5.0/MODULE.bazel"
       },
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md",
-          "bioversions-0.10.1/pyproject.toml"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://github.com/biopragmatics/bioversions.git"
+        "value": "https://bcr.bazel.build/modules/bazel_skylib/1.6.1/MODULE.bazel"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://github.com/biopragmatics/bioversions/actions/workflows/tests.yml"
+        "value": "https://bcr.bazel.build/modules/bazel_skylib/1.7.0/MODULE.bazel"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://github.com/biopragmatics/bioversions/actions/workflows/tests.yml/badge.svg"
+        "value": "https://bcr.bazel.build/modules/bazel_skylib/1.7.1/MODULE.bazel"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://github.com/biopragmatics/bioversions/actions?query=workflow%3ATests"
+        "value": "https://bcr.bazel.build/modules/bazel_skylib/1.8.1/MODULE.bazel"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://github.com/biopragmatics/bioversions/blob/main/.github/CODE_OF_CONDUCT.md"
+        "value": "https://bcr.bazel.build/modules/bazel_skylib/1.8.2/MODULE.bazel"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://github.com/biopragmatics/bioversions/blob/main/LICENSE"
+        "value": "https://bcr.bazel.build/modules/bazel_skylib/1.8.2/source.json"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://github.com/biopragmatics/bioversions/blob/master/.github/CONTRIBUTING.md"
+        "value": "https://bcr.bazel.build/modules/buildozer/8.2.1/MODULE.bazel"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/pyproject.toml"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://github.com/biopragmatics/bioversions/issues"
+        "value": "https://bcr.bazel.build/modules/buildozer/8.2.1/source.json"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://github.com/biopragmatics/bioversions/raw/main/docs/source/logo.png"
+        "value": "https://bcr.bazel.build/modules/google_benchmark/1.8.2/MODULE.bazel"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://github.com/biopragmatics/bioversions/releases/new"
+        "value": "https://bcr.bazel.build/modules/google_benchmark/1.9.4/MODULE.bazel"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://github.com/callowayproject/bump-my-version"
+        "value": "https://bcr.bazel.build/modules/google_benchmark/1.9.4/source.json"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://github.com/cookiecutter/cookiecutter"
+        "value": "https://bcr.bazel.build/modules/googletest/1.11.0/MODULE.bazel"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://github.com/cruft/cruft?tab=readme-ov-file#updating-a-project"
+        "value": "https://bcr.bazel.build/modules/googletest/1.14.0.bcr.1/MODULE.bazel"
       },
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md",
-          "bioversions-0.10.1/src/bioversions/templates/home.html"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://github.com/cthoyt"
+        "value": "https://bcr.bazel.build/modules/googletest/1.14.0/MODULE.bazel"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://github.com/cthoyt/cookiecutter-python-package"
+        "value": "https://bcr.bazel.build/modules/googletest/1.15.2/MODULE.bazel"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://github.com/cthoyt/cookiecutter-snekpack"
+        "value": "https://bcr.bazel.build/modules/googletest/1.17.0.bcr.2/MODULE.bazel"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "bioversions-0.10.1/PKG-INFO",
-          "bioversions-0.10.1/README.md"
+          "mettagrid-0.26.11/MODULE.bazel.lock"
         ],
-        "value": "https://github.com/cthoyt/pystow"
+        "value": "https://bcr.bazel.build/modules/googletest/1.17.0.bcr.2/source.json"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "mettagrid-0.26.11/MODULE.bazel.lock"
+        ],
+        "value": "https://bcr.bazel.build/modules/googletest/1.17.0/MODULE.bazel"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "mettagrid-0.26.11/MODULE.bazel.lock"
+        ],
+        "value": "https://bcr.bazel.build/modules/jsoncpp/1.9.5/MODULE.bazel"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "mettagrid-0.26.11/MODULE.bazel.lock"
+        ],
+        "value": "https://bcr.bazel.build/modules/jsoncpp/1.9.6/MODULE.bazel"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "mettagrid-0.26.11/MODULE.bazel.lock"
+        ],
+        "value": "https://bcr.bazel.build/modules/jsoncpp/1.9.6/source.json"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "mettagrid-0.26.11/MODULE.bazel.lock"
+        ],
+        "value": "https://bcr.bazel.build/modules/libpfm/4.11.0.bcr.1/MODULE.bazel"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "mettagrid-0.26.11/MODULE.bazel.lock"
+        ],
+        "value": "https://bcr.bazel.build/modules/libpfm/4.11.0.bcr.1/source.json"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "mettagrid-0.26.11/MODULE.bazel.lock"
+        ],
+        "value": "https://bcr.bazel.build/modules/libpfm/4.11.0/MODULE.bazel"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "mettagrid-0.26.11/MODULE.bazel.lock"
+        ],
+        "value": "https://bcr.bazel.build/modules/nlohmann_json/3.6.1/MODULE.bazel"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "mettagrid-0.26.11/MODULE.bazel.lock"
+        ],
+        "value": "https://bcr.bazel.build/modules/nlohmann_json/3.6.1/source.json"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "mettagrid-0.26.11/MODULE.bazel.lock"
+        ],
+        "value": "https://bcr.bazel.build/modules/platforms/0.0.10/MODULE.bazel"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "mettagrid-0.26.11/MODULE.bazel.lock"
+        ],
+        "value": "https://bcr.bazel.build/modules/platforms/0.0.11/MODULE.bazel"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "mettagrid-0.26.11/MODULE.bazel.lock"
+        ],
+        "value": "https://bcr.bazel.build/modules/platforms/0.0.4/MODULE.bazel"
       }
     ]
   },
-  "package": "bioversions",
-  "package_slug": "bioversions",
-  "project_url": "https://pypi.org/project/bioversions/",
+  "package": "mettagrid",
+  "package_slug": "mettagrid",
+  "project_url": "https://pypi.org/project/mettagrid/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-28T02:29:36.909252+00:00",
-  "risk": "info",
-  "scanned_at": "2026-04-28T02:30:50.782013+00:00",
-  "title": "Personal PyPI Supply Chain Scan: bioversions 0.10.1",
-  "version": "0.10.1",
-  "version_slug": "0.10.1",
-  "_metadata_path": "reports/packages/bioversions/0.10.1/metadata.json"
+  "published_at": "2026-04-28T02:34:31.724410+00:00",
+  "risk": "low",
+  "scanned_at": "2026-04-28T02:35:31.557812+00:00",
+  "title": "Personal PyPI Supply Chain Scan: mettagrid 0.26.11",
+  "version": "0.26.11",
+  "version_slug": "0.26.11",
+  "_metadata_path": "reports/packages/mettagrid/0.26.11/metadata.json"
 }
