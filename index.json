@@ -1,6 +1,871 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "boto3_stubs_full-1.42.97.tar.gz",
+    "finding_count": 9823,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_machinelearning/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_machinelearning/client.pyi"
+          ],
+          "value": "aws.amazon.com"
+        },
+        {
+          "file_count": 2095,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/__main__.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi",
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/__main__.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/client.pyi"
+          ],
+          "value": "boto3.amazonaws.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "boto3_stubs_full-1.42.97/PKG-INFO",
+            "boto3_stubs_full-1.42.97/README.md",
+            "boto3_stubs_full-1.42.97/boto3_stubs_full.egg-info/PKG-INFO"
+          ],
+          "value": "code.visualstudio.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "boto3_stubs_full-1.42.97/PKG-INFO",
+            "boto3_stubs_full-1.42.97/README.md",
+            "boto3_stubs_full-1.42.97/boto3_stubs_full.egg-info/PKG-INFO"
+          ],
+          "value": "docs.astral.sh"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_kms/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_kms/client.pyi"
+          ],
+          "value": "docs.aws"
+        },
+        {
+          "file_count": 90,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_acm/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_acm/client.pyi",
+            "boto3_stubs_full-1.42.97/mypy_boto3_acm_pca/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_acm_pca/client.pyi",
+            "boto3_stubs_full-1.42.97/mypy_boto3_autoscaling/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_autoscaling/client.pyi",
+            "boto3_stubs_full-1.42.97/mypy_boto3_bedrock_agent_runtime/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_bedrock_agent_runtime/client.pyi"
+          ],
+          "value": "docs.aws.amazon.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_kms/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_kms/client.pyi"
+          ],
+          "value": "en.wikipedia.org"
+        },
+        {
+          "file_count": 427,
+          "files": [
+            "boto3_stubs_full-1.42.97/PKG-INFO",
+            "boto3_stubs_full-1.42.97/README.md",
+            "boto3_stubs_full-1.42.97/boto3_stubs_full.egg-info/PKG-INFO",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/__main__.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/__main__.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_acm/__main__.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_acm_pca/__main__.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_aiops/__main__.py"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "boto3_stubs_full-1.42.97/PKG-INFO",
+            "boto3_stubs_full-1.42.97/README.md",
+            "boto3_stubs_full-1.42.97/boto3_stubs_full.egg-info/PKG-INFO"
+          ],
+          "value": "img.shields.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "boto3_stubs_full-1.42.97/PKG-INFO",
+            "boto3_stubs_full-1.42.97/README.md",
+            "boto3_stubs_full-1.42.97/boto3_stubs_full.egg-info/PKG-INFO"
+          ],
+          "value": "marketplace.visualstudio.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_iam/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_iam/client.pyi"
+          ],
+          "value": "openid.net"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "boto3_stubs_full-1.42.97/PKG-INFO",
+            "boto3_stubs_full-1.42.97/README.md",
+            "boto3_stubs_full-1.42.97/boto3_stubs_full.egg-info/PKG-INFO"
+          ],
+          "value": "packaging.python.org"
+        },
+        {
+          "file_count": 426,
+          "files": [
+            "boto3_stubs_full-1.42.97/PKG-INFO",
+            "boto3_stubs_full-1.42.97/README.md",
+            "boto3_stubs_full-1.42.97/boto3_stubs_full.egg-info/PKG-INFO",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/__main__.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/__main__.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_acm/__main__.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_acm_pca/__main__.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_aiops/__main__.py"
+          ],
+          "value": "pypi.org"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "boto3_stubs_full-1.42.97/PKG-INFO",
+            "boto3_stubs_full-1.42.97/README.md",
+            "boto3_stubs_full-1.42.97/boto3_stubs_full.egg-info/PKG-INFO"
+          ],
+          "value": "pypistats.org"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "boto3_stubs_full-1.42.97/PKG-INFO",
+            "boto3_stubs_full-1.42.97/README.md",
+            "boto3_stubs_full-1.42.97/boto3_stubs_full.egg-info/PKG-INFO"
+          ],
+          "value": "static.pepy.tech"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "boto3_stubs_full-1.42.97/PKG-INFO",
+            "boto3_stubs_full-1.42.97/README.md",
+            "boto3_stubs_full-1.42.97/boto3_stubs_full.egg-info/PKG-INFO"
+          ],
+          "value": "www.gnu.org"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "boto3_stubs_full-1.42.97/PKG-INFO",
+            "boto3_stubs_full-1.42.97/README.md",
+            "boto3_stubs_full-1.42.97/boto3_stubs_full.egg-info/PKG-INFO"
+          ],
+          "value": "www.jetbrains.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "boto3_stubs_full-1.42.97/PKG-INFO",
+            "boto3_stubs_full-1.42.97/README.md",
+            "boto3_stubs_full-1.42.97/boto3_stubs_full.egg-info/PKG-INFO"
+          ],
+          "value": "www.sublimetext.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "boto3_stubs_full-1.42.97/PKG-INFO",
+            "boto3_stubs_full-1.42.97/README.md",
+            "boto3_stubs_full-1.42.97/boto3_stubs_full.egg-info/PKG-INFO"
+          ],
+          "value": "youtrack.jetbrains.com"
+        },
+        {
+          "file_count": 4631,
+          "files": [
+            "boto3_stubs_full-1.42.97/PKG-INFO",
+            "boto3_stubs_full-1.42.97/README.md",
+            "boto3_stubs_full-1.42.97/boto3_stubs_full.egg-info/PKG-INFO",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/__init__.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/__init__.pyi",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/__main__.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "youtype.github.io"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_machinelearning/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_machinelearning/client.pyi"
+          ],
+          "value": "http://aws.amazon.com/rds/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_iam/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_iam/client.pyi"
+          ],
+          "value": "http://openid.net/connect/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer.html#AccessAnalyzer.Client"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/__main__.py"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer.html#accessanalyzer\\n"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/apply_archive_rule.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/can_paginate.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/cancel_policy_generation.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/check_access_not_granted.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/check_no_new_access.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/check_no_public_access.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/create_access_preview.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/create_analyzer.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/create_archive_rule.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/delete_analyzer.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/delete_archive_rule.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/generate_finding_recommendation.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/generate_presigned_url.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/get_access_preview.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/get_analyzed_resource.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/get_analyzer.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/get_archive_rule.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/get_finding.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/get_finding_recommendation.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/get_finding_v2.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/get_findings_statistics.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/get_generated_policy.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/get_paginator.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/list_access_preview_findings.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/list_access_previews.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/list_analyzed_resources.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/list_analyzers.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/list_archive_rules.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/list_findings.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/list_findings_v2.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/list_policy_generations.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/list_tags_for_resource.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/start_policy_generation.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/start_resource_scan.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/tag_resource.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/untag_resource.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/update_analyzer.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/update_archive_rule.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/update_findings.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/validate_policy.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/GetFindingRecommendation.html#AccessAnalyzer.Paginator.GetFindingRecommendation"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/GetFindingRecommendation.html#AccessAnalyzer.Paginator.GetFindingRecommendation.paginate"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/GetFindingV2.html#AccessAnalyzer.Paginator.GetFindingV2"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/GetFindingV2.html#AccessAnalyzer.Paginator.GetFindingV2.paginate"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListAccessPreviewFindings.html#AccessAnalyzer.Paginator.ListAccessPreviewFindings"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListAccessPreviewFindings.html#AccessAnalyzer.Paginator.ListAccessPreviewFindings.paginate"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListAccessPreviews.html#AccessAnalyzer.Paginator.ListAccessPreviews"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListAccessPreviews.html#AccessAnalyzer.Paginator.ListAccessPreviews.paginate"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListAnalyzedResources.html#AccessAnalyzer.Paginator.ListAnalyzedResources"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListAnalyzedResources.html#AccessAnalyzer.Paginator.ListAnalyzedResources.paginate"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListAnalyzers.html#AccessAnalyzer.Paginator.ListAnalyzers"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListAnalyzers.html#AccessAnalyzer.Paginator.ListAnalyzers.paginate"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListArchiveRules.html#AccessAnalyzer.Paginator.ListArchiveRules"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListArchiveRules.html#AccessAnalyzer.Paginator.ListArchiveRules.paginate"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListFindings.html#AccessAnalyzer.Paginator.ListFindings"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListFindings.html#AccessAnalyzer.Paginator.ListFindings.paginate"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListFindingsV2.html#AccessAnalyzer.Paginator.ListFindingsV2"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListFindingsV2.html#AccessAnalyzer.Paginator.ListFindingsV2.paginate"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListPolicyGenerations.html#AccessAnalyzer.Paginator.ListPolicyGenerations"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListPolicyGenerations.html#AccessAnalyzer.Paginator.ListPolicyGenerations.paginate"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ValidatePolicy.html#AccessAnalyzer.Paginator.ValidatePolicy"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ValidatePolicy.html#AccessAnalyzer.Paginator.ValidatePolicy.paginate"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/account.html#Account.Client"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/__main__.py"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/account.html#account\\n"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/account/client/accept_primary_email_update.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/account/client/can_paginate.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/account/client/delete_alternate_contact.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/account/client/disable_region.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/account/client/enable_region.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/account/client/generate_presigned_url.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/account/client/get_account_information.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/account/client/get_alternate_contact.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/account/client/get_contact_information.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/account/client/get_gov_cloud_account_information.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/account/client/get_paginator.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/client.py",
+            "boto3_stubs_full-1.42.97/mypy_boto3_account/client.pyi"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/account/client/get_primary_email.html"
+        }
+      ]
+    },
+    "package": "boto3-stubs-full",
+    "package_slug": "boto3-stubs-full",
+    "project_url": "https://pypi.org/project/boto3-stubs-full/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-28T02:40:31.624014+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-28T03:59:02.182223+00:00",
+    "title": "Personal PyPI Supply Chain Scan: boto3-stubs-full 1.42.97",
+    "version": "1.42.97",
+    "version_slug": "1.42.97",
+    "_metadata_path": "reports/packages/boto3-stubs-full/1.42.97/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "fastloom-0.4.36.tar.gz",
     "finding_count": 1,
     "model": "gpt-5.5",
