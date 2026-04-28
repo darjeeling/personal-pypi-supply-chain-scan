@@ -1,59 +1,107 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "cutip-2.6.2-cp313-cp313-win_amd64.whl",
-  "finding_count": 15,
+  "distribution": "metaflow_stubs-2.19.23.tar.gz",
+  "finding_count": 24,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "cutip-2.6.2.dist-info/METADATA"
+          "metaflow_stubs-2.19.23/metaflow-stubs/__init__.pyi",
+          "metaflow_stubs-2.19.23/metaflow-stubs/plugins/airflow/sensors/external_task_sensor.pyi",
+          "metaflow_stubs-2.19.23/metaflow-stubs/plugins/airflow/sensors/s3_sensor.pyi"
         ],
-        "value": "docs.pydantic.dev"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "docs.rs"
+        "value": "airflow.apache.org"
       },
       {
         "file_count": 2,
         "files": [
-          "cutip-2.6.2.dist-info/METADATA",
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+          "metaflow_stubs-2.19.23/metaflow-stubs/__init__.pyi",
+          "metaflow_stubs-2.19.23/metaflow-stubs/plugins/aws/batch/batch_decorator.pyi"
+        ],
+        "value": "aws.amazon.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "metaflow_stubs-2.19.23/metaflow-stubs/__init__.pyi",
+          "metaflow_stubs-2.19.23/metaflow-stubs/plugins/aws/batch/batch_decorator.pyi",
+          "metaflow_stubs-2.19.23/metaflow-stubs/plugins/aws/step_functions/schedule_decorator.pyi"
+        ],
+        "value": "docs.aws.amazon.com"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "metaflow_stubs-2.19.23/PKG-INFO",
+          "metaflow_stubs-2.19.23/metaflow_stubs.egg-info/PKG-INFO",
+          "metaflow_stubs-2.19.23/setup.py"
+        ],
+        "value": "docs.metaflow.org"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "metaflow_stubs-2.19.23/metaflow-stubs/client/core.pyi",
+          "metaflow_stubs-2.19.23/metaflow-stubs/plugins/cards/card_client.pyi",
+          "metaflow_stubs-2.19.23/metaflow-stubs/plugins/cards/card_modules/components.pyi"
+        ],
+        "value": "docs.python.org"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "metaflow_stubs-2.19.23/PKG-INFO",
+          "metaflow_stubs-2.19.23/metaflow_stubs.egg-info/PKG-INFO",
+          "metaflow_stubs-2.19.23/setup.py"
         ],
         "value": "github.com"
       },
       {
         "file_count": 1,
         "files": [
-          "cutip-2.6.2.dist-info/METADATA"
+          "metaflow_stubs-2.19.23/metaflow-stubs/plugins/kubernetes/kube_utils.pyi"
         ],
-        "value": "img.shields.io"
+        "value": "kubernetes.io"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "metaflow_stubs-2.19.23/metaflow-stubs/__init__.pyi",
+          "metaflow_stubs-2.19.23/metaflow-stubs/plugins/aws/step_functions/schedule_decorator.pyi"
+        ],
+        "value": "nodatime.org"
       },
       {
         "file_count": 1,
         "files": [
-          "cutip-2.6.2.dist-info/METADATA"
+          "metaflow_stubs-2.19.23/metaflow-stubs/packaging_sys/distribution_support.pyi"
         ],
-        "value": "joshuajerome.github.io"
+        "value": "packaging.python.org"
       },
       {
         "file_count": 1,
         "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+          "metaflow_stubs-2.19.23/metaflow-stubs/plugins/cards/card_modules/components.pyi"
         ],
-        "value": "serde.rs"
+        "value": "pillow.readthedocs.io"
+      },
+      {
+        "file_count": 3,
+        "files": [
+          "metaflow_stubs-2.19.23/PKG-INFO",
+          "metaflow_stubs-2.19.23/README.md",
+          "metaflow_stubs-2.19.23/metaflow_stubs.egg-info/PKG-INFO"
+        ],
+        "value": "pypi.org"
       },
       {
         "file_count": 1,
         "files": [
-          "cutip-2.6.2.dist-info/METADATA"
+          "metaflow_stubs-2.19.23/metaflow-stubs/plugins/cards/card_modules/components.pyi"
         ],
-        "value": "www.python.org"
+        "value": "www.gif-vif.com"
       }
     ],
     "raw_public_ips": [],
@@ -62,575 +110,169 @@
       {
         "file_count": 1,
         "files": [
-          "cutip-2.6.2.dist-info/METADATA"
+          "metaflow_stubs-2.19.23/metaflow-stubs/plugins/pypi/parsers.pyi"
         ],
-        "value": "https://docs.pydantic.dev/latest/"
+        "value": "https://"
       },
       {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://docs.rs/anyhow"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://docs.rs/autocfg/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://docs.rs/crate/pyo3/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://docs.rs/indexmap/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://docs.rs/indoc"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://docs.rs/itoa"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://docs.rs/memchr/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://docs.rs/once_cell"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://docs.rs/proc-macro2"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://docs.rs/quote/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://docs.rs/rustversion"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://docs.rs/ryu"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://docs.rs/same-file"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://docs.rs/serde"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://docs.rs/serde_core"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://docs.rs/serde_json"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://docs.rs/serde_yaml/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://docs.rs/syn"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://docs.rs/target-lexicon/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://docs.rs/unicode-ident"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://docs.rs/unindent"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://docs.rs/unsafe-libyaml"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://docs.rs/walkdir/"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://docs.rs/winapi-util"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://docs.rs/zmij"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://github.com/BurntSushi/memchr"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://github.com/BurntSushi/same-file"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://github.com/BurntSushi/walkdir"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://github.com/BurntSushi/winapi-util"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://github.com/Gilnaa/memoffset"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://github.com/PyO3"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/METADATA"
-        ],
-        "value": "https://github.com/astral-sh/uv"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://github.com/bytecodealliance/target-lexicon"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://github.com/cuviper/autocfg"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://github.com/dtolnay/anyhow"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://github.com/dtolnay/indoc"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://github.com/dtolnay/itoa"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://github.com/dtolnay/proc-macro2"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://github.com/dtolnay/quote"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://github.com/dtolnay/rustversion"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://github.com/dtolnay/ryu"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://github.com/dtolnay/serde-yaml"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://github.com/dtolnay/syn"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://github.com/dtolnay/unicode-ident"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://github.com/dtolnay/unsafe-libyaml"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://github.com/dtolnay/zmij"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://github.com/indexmap-rs/equivalent"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://github.com/indexmap-rs/indexmap"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/METADATA"
-        ],
-        "value": "https://github.com/joshuajerome/cutip"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/METADATA"
-        ],
-        "value": "https://github.com/joshuajerome/cutip-blocks"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/METADATA"
-        ],
-        "value": "https://github.com/joshuajerome/cutip-desktop"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/METADATA"
-        ],
-        "value": "https://github.com/joshuajerome/cutip/actions/workflows/ci.yml"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/METADATA"
-        ],
-        "value": "https://github.com/joshuajerome/cutip/actions/workflows/ci.yml/badge.svg"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://github.com/matklad/once_cell"
-      },
-      {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+          "metaflow_stubs-2.19.23/metaflow-stubs/__init__.pyi",
+          "metaflow_stubs-2.19.23/metaflow-stubs/plugins/airflow/sensors/s3_sensor.pyi"
         ],
-        "value": "https://github.com/microsoft/windows-rs"
+        "value": "https://airflow.apache.org/docs/apache-airflow-providers-amazon/stable/_api/airflow/providers/amazon/aws/sensors/s3/index.html#airflow.providers.amazon.aws.sensors.s3.S3KeySensor"
       },
       {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://github.com/pyo3/pyo3"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://github.com/rust-lang/cfg-if"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://github.com/rust-lang/crates.io-index#anyhow@1.0.102"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://github.com/rust-lang/crates.io-index#autocfg@1.5.0"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://github.com/rust-lang/crates.io-index#cfg-if@1.0.4"
-      },
-      {
-        "file_count": 1,
-        "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
-        ],
-        "value": "https://github.com/rust-lang/crates.io-index#equivalent@1.0.2"
-      },
-      {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+          "metaflow_stubs-2.19.23/metaflow-stubs/__init__.pyi",
+          "metaflow_stubs-2.19.23/metaflow-stubs/plugins/airflow/sensors/external_task_sensor.pyi"
         ],
-        "value": "https://github.com/rust-lang/crates.io-index#hashbrown@0.17.0"
+        "value": "https://airflow.apache.org/docs/apache-airflow/stable/_api/airflow/sensors/external_task/index.html#airflow.sensors.external_task.ExternalTaskSensor"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+          "metaflow_stubs-2.19.23/metaflow-stubs/__init__.pyi",
+          "metaflow_stubs-2.19.23/metaflow-stubs/plugins/aws/batch/batch_decorator.pyi"
         ],
-        "value": "https://github.com/rust-lang/crates.io-index#heck@0.5.0"
+        "value": "https://aws.amazon.com/batch/"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+          "metaflow_stubs-2.19.23/metaflow-stubs/__init__.pyi",
+          "metaflow_stubs-2.19.23/metaflow-stubs/plugins/aws/batch/batch_decorator.pyi"
         ],
-        "value": "https://github.com/rust-lang/crates.io-index#indexmap@2.14.0"
+        "value": "https://docs.aws.amazon.com/batch/latest/userguide/execution-IAM-role.html"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+          "metaflow_stubs-2.19.23/metaflow-stubs/__init__.pyi",
+          "metaflow_stubs-2.19.23/metaflow-stubs/plugins/aws/step_functions/schedule_decorator.pyi"
         ],
-        "value": "https://github.com/rust-lang/crates.io-index#indoc@2.0.7"
+        "value": "https://docs.aws.amazon.com/eventbridge/latest/userguide/scheduled-events.html#cron-expressions"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+          "metaflow_stubs-2.19.23/PKG-INFO",
+          "metaflow_stubs-2.19.23/metaflow_stubs.egg-info/PKG-INFO",
+          "metaflow_stubs-2.19.23/setup.py"
         ],
-        "value": "https://github.com/rust-lang/crates.io-index#itoa@1.0.18"
+        "value": "https://docs.metaflow.org"
       },
       {
         "file_count": 1,
         "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+          "metaflow_stubs-2.19.23/metaflow-stubs/client/core.pyi"
         ],
-        "value": "https://github.com/rust-lang/crates.io-index#libc@0.2.186"
+        "value": "https://docs.python.org/3/library/pickle.html#object.__getstate__"
       },
       {
         "file_count": 1,
         "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+          "metaflow_stubs-2.19.23/metaflow-stubs/client/core.pyi"
         ],
-        "value": "https://github.com/rust-lang/crates.io-index#memchr@2.8.0"
+        "value": "https://docs.python.org/3/library/pickle.html#object.__setstate__"
       },
       {
         "file_count": 1,
         "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+          "metaflow_stubs-2.19.23/metaflow-stubs/plugins/cards/card_modules/components.pyi"
         ],
-        "value": "https://github.com/rust-lang/crates.io-index#memoffset@0.9.1"
+        "value": "https://docs.python.org/3/library/reprlib.html"
       },
       {
         "file_count": 1,
         "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+          "metaflow_stubs-2.19.23/metaflow-stubs/plugins/cards/card_client.pyi"
         ],
-        "value": "https://github.com/rust-lang/crates.io-index#once_cell@1.21.4"
+        "value": "https://docs.python.org/3/library/webbrowser.html"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+          "metaflow_stubs-2.19.23/PKG-INFO",
+          "metaflow_stubs-2.19.23/metaflow_stubs.egg-info/PKG-INFO",
+          "metaflow_stubs-2.19.23/setup.py"
         ],
-        "value": "https://github.com/rust-lang/crates.io-index#proc-macro2@1.0.106"
+        "value": "https://github.com/Netflix/metaflow"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+          "metaflow_stubs-2.19.23/PKG-INFO",
+          "metaflow_stubs-2.19.23/metaflow_stubs.egg-info/PKG-INFO",
+          "metaflow_stubs-2.19.23/setup.py"
         ],
-        "value": "https://github.com/rust-lang/crates.io-index#pyo3-build-config@0.24.2"
+        "value": "https://github.com/Netflix/metaflow/issues"
       },
       {
         "file_count": 1,
         "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+          "metaflow_stubs-2.19.23/metaflow-stubs/plugins/kubernetes/kube_utils.pyi"
         ],
-        "value": "https://github.com/rust-lang/crates.io-index#pyo3-ffi@0.24.2"
+        "value": "https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#syntax-and-character-set"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+          "metaflow_stubs-2.19.23/metaflow-stubs/__init__.pyi",
+          "metaflow_stubs-2.19.23/metaflow-stubs/plugins/aws/step_functions/schedule_decorator.pyi"
         ],
-        "value": "https://github.com/rust-lang/crates.io-index#pyo3-macros-backend@0.24.2"
+        "value": "https://nodatime.org/TimeZones"
       },
       {
         "file_count": 1,
         "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+          "metaflow_stubs-2.19.23/metaflow-stubs/packaging_sys/distribution_support.pyi"
         ],
-        "value": "https://github.com/rust-lang/crates.io-index#pyo3-macros@0.24.2"
+        "value": "https://packaging.python.org/en/latest/specifications/entry-points/#file-format"
       },
       {
         "file_count": 1,
         "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+          "metaflow_stubs-2.19.23/metaflow-stubs/packaging_sys/distribution_support.pyi"
         ],
-        "value": "https://github.com/rust-lang/crates.io-index#pyo3@0.24.2"
+        "value": "https://packaging.python.org/en/latest/specifications/recording-installed-packages/#the-record-file"
       },
       {
         "file_count": 1,
         "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+          "metaflow_stubs-2.19.23/metaflow-stubs/plugins/cards/card_modules/components.pyi"
         ],
-        "value": "https://github.com/rust-lang/crates.io-index#quote@1.0.45"
+        "value": "https://pillow.readthedocs.io/"
       },
       {
-        "file_count": 1,
+        "file_count": 3,
         "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+          "metaflow_stubs-2.19.23/PKG-INFO",
+          "metaflow_stubs-2.19.23/README.md",
+          "metaflow_stubs-2.19.23/metaflow_stubs.egg-info/PKG-INFO"
         ],
-        "value": "https://github.com/rust-lang/crates.io-index#rustversion@1.0.22"
+        "value": "https://pypi.org/project/metaflow-stubs/"
       },
       {
         "file_count": 1,
         "files": [
-          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+          "metaflow_stubs-2.19.23/metaflow-stubs/plugins/cards/card_modules/components.pyi"
         ],
-        "value": "https://github.com/rust-lang/crates.io-index#ryu@1.0.23"
+        "value": "https://www.gif-vif.com/hacker-cat.gif"
       }
     ]
   },
-  "package": "cutip",
-  "package_slug": "cutip",
-  "project_url": "https://pypi.org/project/cutip/",
+  "package": "metaflow-stubs",
+  "package_slug": "metaflow-stubs",
+  "project_url": "https://pypi.org/project/metaflow-stubs/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-28T04:02:51.328401+00:00",
+  "published_at": "2026-04-28T04:06:59.059632+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-28T04:03:26.799858+00:00",
-  "title": "Personal PyPI Supply Chain Scan: cutip 2.6.2",
-  "version": "2.6.2",
-  "version_slug": "2.6.2",
-  "_metadata_path": "reports/packages/cutip/2.6.2/metadata.json"
+  "scanned_at": "2026-04-28T04:07:51.885216+00:00",
+  "title": "Personal PyPI Supply Chain Scan: metaflow-stubs 2.19.23",
+  "version": "2.19.23",
+  "version_slug": "2.19.23",
+  "_metadata_path": "reports/packages/metaflow-stubs/2.19.23/metadata.json"
 }

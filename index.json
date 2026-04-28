@@ -1,6 +1,284 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "metaflow_stubs-2.19.23.tar.gz",
+    "finding_count": 24,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 3,
+          "files": [
+            "metaflow_stubs-2.19.23/metaflow-stubs/__init__.pyi",
+            "metaflow_stubs-2.19.23/metaflow-stubs/plugins/airflow/sensors/external_task_sensor.pyi",
+            "metaflow_stubs-2.19.23/metaflow-stubs/plugins/airflow/sensors/s3_sensor.pyi"
+          ],
+          "value": "airflow.apache.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "metaflow_stubs-2.19.23/metaflow-stubs/__init__.pyi",
+            "metaflow_stubs-2.19.23/metaflow-stubs/plugins/aws/batch/batch_decorator.pyi"
+          ],
+          "value": "aws.amazon.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "metaflow_stubs-2.19.23/metaflow-stubs/__init__.pyi",
+            "metaflow_stubs-2.19.23/metaflow-stubs/plugins/aws/batch/batch_decorator.pyi",
+            "metaflow_stubs-2.19.23/metaflow-stubs/plugins/aws/step_functions/schedule_decorator.pyi"
+          ],
+          "value": "docs.aws.amazon.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "metaflow_stubs-2.19.23/PKG-INFO",
+            "metaflow_stubs-2.19.23/metaflow_stubs.egg-info/PKG-INFO",
+            "metaflow_stubs-2.19.23/setup.py"
+          ],
+          "value": "docs.metaflow.org"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "metaflow_stubs-2.19.23/metaflow-stubs/client/core.pyi",
+            "metaflow_stubs-2.19.23/metaflow-stubs/plugins/cards/card_client.pyi",
+            "metaflow_stubs-2.19.23/metaflow-stubs/plugins/cards/card_modules/components.pyi"
+          ],
+          "value": "docs.python.org"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "metaflow_stubs-2.19.23/PKG-INFO",
+            "metaflow_stubs-2.19.23/metaflow_stubs.egg-info/PKG-INFO",
+            "metaflow_stubs-2.19.23/setup.py"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "metaflow_stubs-2.19.23/metaflow-stubs/plugins/kubernetes/kube_utils.pyi"
+          ],
+          "value": "kubernetes.io"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "metaflow_stubs-2.19.23/metaflow-stubs/__init__.pyi",
+            "metaflow_stubs-2.19.23/metaflow-stubs/plugins/aws/step_functions/schedule_decorator.pyi"
+          ],
+          "value": "nodatime.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "metaflow_stubs-2.19.23/metaflow-stubs/packaging_sys/distribution_support.pyi"
+          ],
+          "value": "packaging.python.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "metaflow_stubs-2.19.23/metaflow-stubs/plugins/cards/card_modules/components.pyi"
+          ],
+          "value": "pillow.readthedocs.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "metaflow_stubs-2.19.23/PKG-INFO",
+            "metaflow_stubs-2.19.23/README.md",
+            "metaflow_stubs-2.19.23/metaflow_stubs.egg-info/PKG-INFO"
+          ],
+          "value": "pypi.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "metaflow_stubs-2.19.23/metaflow-stubs/plugins/cards/card_modules/components.pyi"
+          ],
+          "value": "www.gif-vif.com"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "metaflow_stubs-2.19.23/metaflow-stubs/plugins/pypi/parsers.pyi"
+          ],
+          "value": "https://"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "metaflow_stubs-2.19.23/metaflow-stubs/__init__.pyi",
+            "metaflow_stubs-2.19.23/metaflow-stubs/plugins/airflow/sensors/s3_sensor.pyi"
+          ],
+          "value": "https://airflow.apache.org/docs/apache-airflow-providers-amazon/stable/_api/airflow/providers/amazon/aws/sensors/s3/index.html#airflow.providers.amazon.aws.sensors.s3.S3KeySensor"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "metaflow_stubs-2.19.23/metaflow-stubs/__init__.pyi",
+            "metaflow_stubs-2.19.23/metaflow-stubs/plugins/airflow/sensors/external_task_sensor.pyi"
+          ],
+          "value": "https://airflow.apache.org/docs/apache-airflow/stable/_api/airflow/sensors/external_task/index.html#airflow.sensors.external_task.ExternalTaskSensor"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "metaflow_stubs-2.19.23/metaflow-stubs/__init__.pyi",
+            "metaflow_stubs-2.19.23/metaflow-stubs/plugins/aws/batch/batch_decorator.pyi"
+          ],
+          "value": "https://aws.amazon.com/batch/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "metaflow_stubs-2.19.23/metaflow-stubs/__init__.pyi",
+            "metaflow_stubs-2.19.23/metaflow-stubs/plugins/aws/batch/batch_decorator.pyi"
+          ],
+          "value": "https://docs.aws.amazon.com/batch/latest/userguide/execution-IAM-role.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "metaflow_stubs-2.19.23/metaflow-stubs/__init__.pyi",
+            "metaflow_stubs-2.19.23/metaflow-stubs/plugins/aws/step_functions/schedule_decorator.pyi"
+          ],
+          "value": "https://docs.aws.amazon.com/eventbridge/latest/userguide/scheduled-events.html#cron-expressions"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "metaflow_stubs-2.19.23/PKG-INFO",
+            "metaflow_stubs-2.19.23/metaflow_stubs.egg-info/PKG-INFO",
+            "metaflow_stubs-2.19.23/setup.py"
+          ],
+          "value": "https://docs.metaflow.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "metaflow_stubs-2.19.23/metaflow-stubs/client/core.pyi"
+          ],
+          "value": "https://docs.python.org/3/library/pickle.html#object.__getstate__"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "metaflow_stubs-2.19.23/metaflow-stubs/client/core.pyi"
+          ],
+          "value": "https://docs.python.org/3/library/pickle.html#object.__setstate__"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "metaflow_stubs-2.19.23/metaflow-stubs/plugins/cards/card_modules/components.pyi"
+          ],
+          "value": "https://docs.python.org/3/library/reprlib.html"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "metaflow_stubs-2.19.23/metaflow-stubs/plugins/cards/card_client.pyi"
+          ],
+          "value": "https://docs.python.org/3/library/webbrowser.html"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "metaflow_stubs-2.19.23/PKG-INFO",
+            "metaflow_stubs-2.19.23/metaflow_stubs.egg-info/PKG-INFO",
+            "metaflow_stubs-2.19.23/setup.py"
+          ],
+          "value": "https://github.com/Netflix/metaflow"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "metaflow_stubs-2.19.23/PKG-INFO",
+            "metaflow_stubs-2.19.23/metaflow_stubs.egg-info/PKG-INFO",
+            "metaflow_stubs-2.19.23/setup.py"
+          ],
+          "value": "https://github.com/Netflix/metaflow/issues"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "metaflow_stubs-2.19.23/metaflow-stubs/plugins/kubernetes/kube_utils.pyi"
+          ],
+          "value": "https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#syntax-and-character-set"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "metaflow_stubs-2.19.23/metaflow-stubs/__init__.pyi",
+            "metaflow_stubs-2.19.23/metaflow-stubs/plugins/aws/step_functions/schedule_decorator.pyi"
+          ],
+          "value": "https://nodatime.org/TimeZones"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "metaflow_stubs-2.19.23/metaflow-stubs/packaging_sys/distribution_support.pyi"
+          ],
+          "value": "https://packaging.python.org/en/latest/specifications/entry-points/#file-format"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "metaflow_stubs-2.19.23/metaflow-stubs/packaging_sys/distribution_support.pyi"
+          ],
+          "value": "https://packaging.python.org/en/latest/specifications/recording-installed-packages/#the-record-file"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "metaflow_stubs-2.19.23/metaflow-stubs/plugins/cards/card_modules/components.pyi"
+          ],
+          "value": "https://pillow.readthedocs.io/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "metaflow_stubs-2.19.23/PKG-INFO",
+            "metaflow_stubs-2.19.23/README.md",
+            "metaflow_stubs-2.19.23/metaflow_stubs.egg-info/PKG-INFO"
+          ],
+          "value": "https://pypi.org/project/metaflow-stubs/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "metaflow_stubs-2.19.23/metaflow-stubs/plugins/cards/card_modules/components.pyi"
+          ],
+          "value": "https://www.gif-vif.com/hacker-cat.gif"
+        }
+      ]
+    },
+    "package": "metaflow-stubs",
+    "package_slug": "metaflow-stubs",
+    "project_url": "https://pypi.org/project/metaflow-stubs/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-28T04:06:59.059632+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-28T04:07:51.885216+00:00",
+    "title": "Personal PyPI Supply Chain Scan: metaflow-stubs 2.19.23",
+    "version": "2.19.23",
+    "version_slug": "2.19.23",
+    "_metadata_path": "reports/packages/metaflow-stubs/2.19.23/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "cutip-2.6.2-cp313-cp313-win_amd64.whl",
     "finding_count": 15,
     "model": "gpt-5.5",
