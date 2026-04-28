@@ -1,6 +1,502 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "scitex_agent_container-0.10.3.tar.gz",
+    "finding_count": 420,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/src/scitex_agent_container/a2a/_server.py"
+          ],
+          "value": "%s"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "scitex_agent_container-0.10.3/src/scitex_agent_container/_skills/scitex-agent-container/07_a2a-protocol.md",
+            "scitex_agent_container-0.10.3/src/scitex_agent_container/a2a/__init__.py"
+          ],
+          "value": "a2a-protocol.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/src/scitex_agent_container/claude_usage.py"
+          ],
+          "value": "api.anthropic.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/tests/test_hooks.py"
+          ],
+          "value": "bad.invalid"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "scitex_agent_container-0.10.3/PKG-INFO",
+            "scitex_agent_container-0.10.3/README.md"
+          ],
+          "value": "badge.fury.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/src/scitex_agent_container/claude_usage.py"
+          ],
+          "value": "claude.ai"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/docs/sphinx/conf.py"
+          ],
+          "value": "docs.python.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/.readthedocs.yaml"
+          ],
+          "value": "docs.readthedocs.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/LICENSE"
+          ],
+          "value": "fsf.org"
+        },
+        {
+          "file_count": 8,
+          "files": [
+            "scitex_agent_container-0.10.3/.github/workflows/scitex-quality.yml",
+            "scitex_agent_container-0.10.3/PKG-INFO",
+            "scitex_agent_container-0.10.3/README.md",
+            "scitex_agent_container-0.10.3/docs/sphinx/installation.rst",
+            "scitex_agent_container-0.10.3/pyproject.toml",
+            "scitex_agent_container-0.10.3/src/scitex_agent_container/_skills/scitex-agent-container/04_resource-management.md",
+            "scitex_agent_container-0.10.3/src/scitex_agent_container/_skills/scitex-agent-container/07_a2a-protocol.md",
+            "scitex_agent_container-0.10.3/tests/test_pane_state_classifier.py"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/tests/test_network_probe.py"
+          ],
+          "value": "hub.test"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "scitex_agent_container-0.10.3/PKG-INFO",
+            "scitex_agent_container-0.10.3/README.md"
+          ],
+          "value": "img.shields.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/.github/workflows/publish-pypi.yml"
+          ],
+          "value": "pypi.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/src/scitex_agent_container/a2a/_handlers.py"
+          ],
+          "value": "raw.strip"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "scitex_agent_container-0.10.3/PKG-INFO",
+            "scitex_agent_container-0.10.3/README.md"
+          ],
+          "value": "readthedocs.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "scitex_agent_container-0.10.3/PKG-INFO",
+            "scitex_agent_container-0.10.3/README.md"
+          ],
+          "value": "scitex-agent-container.readthedocs.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/src/scitex_agent_container/_skills/scitex-agent-container/07_a2a-protocol.md"
+          ],
+          "value": "scitex-orochi.com"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "scitex_agent_container-0.10.3/PKG-INFO",
+            "scitex_agent_container-0.10.3/README.md",
+            "scitex_agent_container-0.10.3/docs/sphinx/index.rst",
+            "scitex_agent_container-0.10.3/src/scitex_agent_container/a2a/_card.py"
+          ],
+          "value": "scitex.ai"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/tests/test_a2a_server.py"
+          ],
+          "value": "testserver"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "scitex_agent_container-0.10.3/LICENSE",
+            "scitex_agent_container-0.10.3/PKG-INFO",
+            "scitex_agent_container-0.10.3/README.md"
+          ],
+          "value": "www.gnu.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/docs/sphinx/conf.py"
+          ],
+          "value": "www.sphinx-doc.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "scitex_agent_container-0.10.3/src/scitex_agent_container/a2a/_server.py",
+            "scitex_agent_container-0.10.3/src/scitex_agent_container/health.py"
+          ],
+          "value": "{host"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/src/scitex_agent_container/a2a/_server.py"
+          ],
+          "value": "http://%s:%d"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/tests/test_hooks.py"
+          ],
+          "value": "http://bad.invalid/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/tests/test_a2a_server.py"
+          ],
+          "value": "http://testserver/v1/agents/mock-claude"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/tests/test_a2a_server.py"
+          ],
+          "value": "http://testserver/v1/agents/mock-echo"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/src/scitex_agent_container/cli_pkg/a2a_cmds.py"
+          ],
+          "value": "http://{eff_host"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "scitex_agent_container-0.10.3/src/scitex_agent_container/a2a/_server.py",
+            "scitex_agent_container-0.10.3/src/scitex_agent_container/health.py"
+          ],
+          "value": "http://{host"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/src/scitex_agent_container/lifecycle.py"
+          ],
+          "value": "https://"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "scitex_agent_container-0.10.3/src/scitex_agent_container/_skills/scitex-agent-container/07_a2a-protocol.md",
+            "scitex_agent_container-0.10.3/src/scitex_agent_container/a2a/__init__.py"
+          ],
+          "value": "https://a2a-protocol.org/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/src/scitex_agent_container/claude_usage.py"
+          ],
+          "value": "https://api.anthropic.com/api/oauth/usage"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/src/scitex_agent_container/claude_usage.py"
+          ],
+          "value": "https://api.anthropic.com/api/oauth/usage``"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "scitex_agent_container-0.10.3/PKG-INFO",
+            "scitex_agent_container-0.10.3/README.md"
+          ],
+          "value": "https://badge.fury.io/py/scitex-agent-container"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "scitex_agent_container-0.10.3/PKG-INFO",
+            "scitex_agent_container-0.10.3/README.md"
+          ],
+          "value": "https://badge.fury.io/py/scitex-agent-container.svg"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/src/scitex_agent_container/claude_usage.py"
+          ],
+          "value": "https://claude.ai/api/auth/oauth/token"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/docs/sphinx/conf.py"
+          ],
+          "value": "https://docs.python.org/3"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/.readthedocs.yaml"
+          ],
+          "value": "https://docs.readthedocs.io/en/stable/config-file/v2.html"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/tests/test_hooks.py"
+          ],
+          "value": "https://example.com/compact"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/tests/test_hooks.py"
+          ],
+          "value": "https://example.com/compact\\n"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/tests/test_hooks.py"
+          ],
+          "value": "https://example.com/hook"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/LICENSE"
+          ],
+          "value": "https://fsf.org/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/tests/test_pane_state_classifier.py"
+          ],
+          "value": "https://github.com/jarrodwatts/claude-hud"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/.github/workflows/scitex-quality.yml"
+          ],
+          "value": "https://github.com/scitex-project/scitex-dev.git@main"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "scitex_agent_container-0.10.3/PKG-INFO",
+            "scitex_agent_container-0.10.3/pyproject.toml"
+          ],
+          "value": "https://github.com/ywatanabe1989/scitex-agent-container"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "scitex_agent_container-0.10.3/PKG-INFO",
+            "scitex_agent_container-0.10.3/docs/sphinx/installation.rst",
+            "scitex_agent_container-0.10.3/pyproject.toml"
+          ],
+          "value": "https://github.com/ywatanabe1989/scitex-agent-container.git"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "scitex_agent_container-0.10.3/PKG-INFO",
+            "scitex_agent_container-0.10.3/README.md"
+          ],
+          "value": "https://github.com/ywatanabe1989/scitex-agent-container/actions/workflows/ci.yml"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "scitex_agent_container-0.10.3/PKG-INFO",
+            "scitex_agent_container-0.10.3/README.md"
+          ],
+          "value": "https://github.com/ywatanabe1989/scitex-agent-container/actions/workflows/ci.yml/badge.svg"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "scitex_agent_container-0.10.3/PKG-INFO",
+            "scitex_agent_container-0.10.3/pyproject.toml"
+          ],
+          "value": "https://github.com/ywatanabe1989/scitex-agent-container/issues"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "scitex_agent_container-0.10.3/PKG-INFO",
+            "scitex_agent_container-0.10.3/README.md"
+          ],
+          "value": "https://github.com/ywatanabe1989/scitex-orochi"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/src/scitex_agent_container/_skills/scitex-agent-container/07_a2a-protocol.md"
+          ],
+          "value": "https://github.com/ywatanabe1989/scitex-orochi/blob/develop/docs/a2a-protocol.md"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/src/scitex_agent_container/_skills/scitex-agent-container/04_resource-management.md"
+          ],
+          "value": "https://github.com/ywatanabe1989/scitex-resource"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/tests/test_network_probe.py"
+          ],
+          "value": "https://hub.test/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "scitex_agent_container-0.10.3/PKG-INFO",
+            "scitex_agent_container-0.10.3/README.md"
+          ],
+          "value": "https://img.shields.io/badge/License-AGPL--3.0-blue.svg"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/.github/workflows/publish-pypi.yml"
+          ],
+          "value": "https://pypi.org/p/scitex-agent-container"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "scitex_agent_container-0.10.3/PKG-INFO",
+            "scitex_agent_container-0.10.3/README.md"
+          ],
+          "value": "https://readthedocs.org/projects/scitex-agent-container/badge/?version=latest"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "scitex_agent_container-0.10.3/PKG-INFO",
+            "scitex_agent_container-0.10.3/README.md"
+          ],
+          "value": "https://scitex-agent-container.readthedocs.io/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/src/scitex_agent_container/_skills/scitex-agent-container/07_a2a-protocol.md"
+          ],
+          "value": "https://scitex-orochi.com/v1/agents/"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "scitex_agent_container-0.10.3/PKG-INFO",
+            "scitex_agent_container-0.10.3/README.md",
+            "scitex_agent_container-0.10.3/docs/sphinx/index.rst",
+            "scitex_agent_container-0.10.3/src/scitex_agent_container/a2a/_card.py"
+          ],
+          "value": "https://scitex.ai"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/LICENSE"
+          ],
+          "value": "https://www.gnu.org/licenses/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "scitex_agent_container-0.10.3/PKG-INFO",
+            "scitex_agent_container-0.10.3/README.md"
+          ],
+          "value": "https://www.gnu.org/licenses/agpl-3.0"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/docs/sphinx/conf.py"
+          ],
+          "value": "https://www.sphinx-doc.org/en/master/usage/configuration.html"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "scitex_agent_container-0.10.3/src/scitex_agent_container/network_probe.py"
+          ],
+          "value": "https://{DEFAULT_HUB_HOST"
+        }
+      ]
+    },
+    "package": "scitex-agent-container",
+    "package_slug": "scitex-agent-container",
+    "project_url": "https://pypi.org/project/scitex-agent-container/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-28T03:40:26.456999+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-28T03:41:07.855607+00:00",
+    "title": "Personal PyPI Supply Chain Scan: scitex-agent-container 0.10.3",
+    "version": "0.10.3",
+    "version_slug": "0.10.3",
+    "_metadata_path": "reports/packages/scitex-agent-container/0.10.3/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "amazon_ads_cli-0.1.4.tar.gz",
     "finding_count": 11,
     "model": "gpt-5.5",
