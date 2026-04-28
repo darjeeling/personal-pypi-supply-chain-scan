@@ -1,66 +1,24 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "nonone-0.1.5.tar.gz",
-  "finding_count": 0,
+  "distribution": "odoo_addons_oca_l10n_brazil-18.0.20260427.0-py3-none-any.whl",
+  "finding_count": 2,
   "model": "gpt-5.5",
   "network_indicators": {
-    "domains": [
-      {
-        "file_count": 2,
-        "files": [
-          "nonone-0.1.5/PKG-INFO",
-          "nonone-0.1.5/README.md"
-        ],
-        "value": "api.example.com"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "nonone-0.1.5/PKG-INFO",
-          "nonone-0.1.5/pyproject.toml"
-        ],
-        "value": "github.com"
-      }
-    ],
+    "domains": [],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
-    "urls": [
-      {
-        "file_count": 2,
-        "files": [
-          "nonone-0.1.5/PKG-INFO",
-          "nonone-0.1.5/README.md"
-        ],
-        "value": "https://api.example.com/data"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "nonone-0.1.5/PKG-INFO",
-          "nonone-0.1.5/pyproject.toml"
-        ],
-        "value": "https://github.com/DBinK/nonone"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "nonone-0.1.5/PKG-INFO",
-          "nonone-0.1.5/pyproject.toml"
-        ],
-        "value": "https://github.com/DBinK/nonone/issues"
-      }
-    ]
+    "urls": []
   },
-  "package": "nonone",
-  "package_slug": "nonone",
-  "project_url": "https://pypi.org/project/nonone/",
+  "package": "odoo-addons-oca-l10n-brazil",
+  "package_slug": "odoo-addons-oca-l10n-brazil",
+  "project_url": "https://pypi.org/project/odoo-addons-oca-l10n-brazil/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-28T03:09:37.214175+00:00",
+  "published_at": "2026-04-28T03:13:47.675843+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-28T03:10:23.388230+00:00",
-  "title": "Personal PyPI Supply Chain Scan: nonone 0.1.5",
-  "version": "0.1.5",
-  "version_slug": "0.1.5",
-  "_metadata_path": "reports/packages/nonone/0.1.5/metadata.json"
+  "scanned_at": "2026-04-28T03:14:59.598043+00:00",
+  "title": "Personal PyPI Supply Chain Scan: odoo-addons-oca-l10n-brazil 18.0.20260427.0",
+  "version": "18.0.20260427.0",
+  "version_slug": "18.0.20260427.0",
+  "_metadata_path": "reports/packages/odoo-addons-oca-l10n-brazil/18.0.20260427.0/metadata.json"
 }
