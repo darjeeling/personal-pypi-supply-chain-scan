@@ -1,196 +1,64 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "philiprehberger_semver-0.2.0.tar.gz",
-  "finding_count": 11,
+  "distribution": "tfgt-0.1.0.tar.gz",
+  "finding_count": 4,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 3,
+        "file_count": 4,
         "files": [
-          "philiprehberger_semver-0.2.0/PKG-INFO",
-          "philiprehberger_semver-0.2.0/README.md",
-          "philiprehberger_semver-0.2.0/pyproject.toml"
+          "tfgt-0.1.0/PKG-INFO",
+          "tfgt-0.1.0/pyproject.toml",
+          "tfgt-0.1.0/setup.py",
+          "tfgt-0.1.0/tfgt.egg-info/PKG-INFO"
         ],
         "value": "github.com"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "philiprehberger_semver-0.2.0/PKG-INFO",
-          "philiprehberger_semver-0.2.0/README.md"
-        ],
-        "value": "img.shields.io"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "philiprehberger_semver-0.2.0/PKG-INFO",
-          "philiprehberger_semver-0.2.0/README.md"
-        ],
-        "value": "philiprehberger.com"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "philiprehberger_semver-0.2.0/PKG-INFO",
-          "philiprehberger_semver-0.2.0/README.md"
-        ],
-        "value": "pypi.org"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "philiprehberger_semver-0.2.0/PKG-INFO",
-          "philiprehberger_semver-0.2.0/README.md"
-        ],
-        "value": "www.linkedin.com"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 2,
+        "file_count": 4,
         "files": [
-          "philiprehberger_semver-0.2.0/PKG-INFO",
-          "philiprehberger_semver-0.2.0/README.md"
+          "tfgt-0.1.0/PKG-INFO",
+          "tfgt-0.1.0/pyproject.toml",
+          "tfgt-0.1.0/setup.py",
+          "tfgt-0.1.0/tfgt.egg-info/PKG-INFO"
         ],
-        "value": "https://github.com/philiprehberger"
+        "value": "https://github.com/panguojun/tfgt"
       },
       {
         "file_count": 3,
         "files": [
-          "philiprehberger_semver-0.2.0/PKG-INFO",
-          "philiprehberger_semver-0.2.0/README.md",
-          "philiprehberger_semver-0.2.0/pyproject.toml"
+          "tfgt-0.1.0/PKG-INFO",
+          "tfgt-0.1.0/pyproject.toml",
+          "tfgt-0.1.0/tfgt.egg-info/PKG-INFO"
         ],
-        "value": "https://github.com/philiprehberger/py-semver"
+        "value": "https://github.com/panguojun/tfgt#readme"
       },
       {
-        "file_count": 2,
+        "file_count": 3,
         "files": [
-          "philiprehberger_semver-0.2.0/PKG-INFO",
-          "philiprehberger_semver-0.2.0/pyproject.toml"
+          "tfgt-0.1.0/PKG-INFO",
+          "tfgt-0.1.0/pyproject.toml",
+          "tfgt-0.1.0/tfgt.egg-info/PKG-INFO"
         ],
-        "value": "https://github.com/philiprehberger/py-semver#readme"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "philiprehberger_semver-0.2.0/PKG-INFO",
-          "philiprehberger_semver-0.2.0/README.md"
-        ],
-        "value": "https://github.com/philiprehberger/py-semver/actions/workflows/publish.yml"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "philiprehberger_semver-0.2.0/PKG-INFO",
-          "philiprehberger_semver-0.2.0/README.md"
-        ],
-        "value": "https://github.com/philiprehberger/py-semver/actions/workflows/publish.yml/badge.svg"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "philiprehberger_semver-0.2.0/PKG-INFO",
-          "philiprehberger_semver-0.2.0/pyproject.toml"
-        ],
-        "value": "https://github.com/philiprehberger/py-semver/blob/main/CHANGELOG.md"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "philiprehberger_semver-0.2.0/PKG-INFO",
-          "philiprehberger_semver-0.2.0/README.md"
-        ],
-        "value": "https://github.com/philiprehberger/py-semver/commits/main"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "philiprehberger_semver-0.2.0/PKG-INFO",
-          "philiprehberger_semver-0.2.0/pyproject.toml"
-        ],
-        "value": "https://github.com/philiprehberger/py-semver/issues"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "philiprehberger_semver-0.2.0/PKG-INFO",
-          "philiprehberger_semver-0.2.0/README.md"
-        ],
-        "value": "https://github.com/philiprehberger/py-semver/issues?q=is%3Aissue+is%3Aopen+label%3Abug"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "philiprehberger_semver-0.2.0/PKG-INFO",
-          "philiprehberger_semver-0.2.0/README.md"
-        ],
-        "value": "https://github.com/philiprehberger/py-semver/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "philiprehberger_semver-0.2.0/PKG-INFO",
-          "philiprehberger_semver-0.2.0/README.md"
-        ],
-        "value": "https://github.com/sponsors/philiprehberger"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "philiprehberger_semver-0.2.0/PKG-INFO",
-          "philiprehberger_semver-0.2.0/README.md"
-        ],
-        "value": "https://img.shields.io/github/last-commit/philiprehberger/py-semver"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "philiprehberger_semver-0.2.0/PKG-INFO",
-          "philiprehberger_semver-0.2.0/README.md"
-        ],
-        "value": "https://img.shields.io/pypi/v/philiprehberger-semver.svg"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "philiprehberger_semver-0.2.0/PKG-INFO",
-          "philiprehberger_semver-0.2.0/README.md"
-        ],
-        "value": "https://philiprehberger.com/open-source-packages"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "philiprehberger_semver-0.2.0/PKG-INFO",
-          "philiprehberger_semver-0.2.0/README.md"
-        ],
-        "value": "https://pypi.org/project/philiprehberger-semver/"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "philiprehberger_semver-0.2.0/PKG-INFO",
-          "philiprehberger_semver-0.2.0/README.md"
-        ],
-        "value": "https://www.linkedin.com/in/philiprehberger"
+        "value": "https://github.com/panguojun/tfgt/issues"
       }
     ]
   },
-  "package": "philiprehberger-semver",
-  "package_slug": "philiprehberger-semver",
-  "project_url": "https://pypi.org/project/philiprehberger-semver/",
+  "package": "tfgt",
+  "package_slug": "tfgt",
+  "project_url": "https://pypi.org/project/tfgt/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-28T02:42:52.905357+00:00",
+  "published_at": "2026-04-28T02:47:53.551413+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-28T02:44:09.883258+00:00",
-  "title": "Personal PyPI Supply Chain Scan: philiprehberger-semver 0.2.0",
-  "version": "0.2.0",
-  "version_slug": "0.2.0",
-  "_metadata_path": "reports/packages/philiprehberger-semver/0.2.0/metadata.json"
+  "scanned_at": "2026-04-28T02:48:26.749675+00:00",
+  "title": "Personal PyPI Supply Chain Scan: tfgt 0.1.0",
+  "version": "0.1.0",
+  "version_slug": "0.1.0",
+  "_metadata_path": "reports/packages/tfgt/0.1.0/metadata.json"
 }

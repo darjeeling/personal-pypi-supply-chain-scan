@@ -1,6 +1,70 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "tfgt-0.1.0.tar.gz",
+    "finding_count": 4,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 4,
+          "files": [
+            "tfgt-0.1.0/PKG-INFO",
+            "tfgt-0.1.0/pyproject.toml",
+            "tfgt-0.1.0/setup.py",
+            "tfgt-0.1.0/tfgt.egg-info/PKG-INFO"
+          ],
+          "value": "github.com"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 4,
+          "files": [
+            "tfgt-0.1.0/PKG-INFO",
+            "tfgt-0.1.0/pyproject.toml",
+            "tfgt-0.1.0/setup.py",
+            "tfgt-0.1.0/tfgt.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/panguojun/tfgt"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "tfgt-0.1.0/PKG-INFO",
+            "tfgt-0.1.0/pyproject.toml",
+            "tfgt-0.1.0/tfgt.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/panguojun/tfgt#readme"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "tfgt-0.1.0/PKG-INFO",
+            "tfgt-0.1.0/pyproject.toml",
+            "tfgt-0.1.0/tfgt.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/panguojun/tfgt/issues"
+        }
+      ]
+    },
+    "package": "tfgt",
+    "package_slug": "tfgt",
+    "project_url": "https://pypi.org/project/tfgt/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-28T02:47:53.551413+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-28T02:48:26.749675+00:00",
+    "title": "Personal PyPI Supply Chain Scan: tfgt 0.1.0",
+    "version": "0.1.0",
+    "version_slug": "0.1.0",
+    "_metadata_path": "reports/packages/tfgt/0.1.0/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "philiprehberger_semver-0.2.0.tar.gz",
     "finding_count": 11,
     "model": "gpt-5.5",
