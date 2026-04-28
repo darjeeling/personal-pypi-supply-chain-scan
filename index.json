@@ -1,6 +1,116 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "deltacat_io_core-0.1.7.tar.gz",
+    "finding_count": 34,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "deltacat_io_core-0.1.7/storage_credentials.py"
+          ],
+          "value": "``"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "deltacat_io_core-0.1.7/execution.py",
+            "deltacat_io_core-0.1.7/models.py"
+          ],
+          "value": "files.extend"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "deltacat_io_core-0.1.7/.gitignore",
+            "deltacat_io_core-0.1.7/metrics.py",
+            "deltacat_io_core-0.1.7/pk_hash_support.py"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "deltacat_io_core-0.1.7/storage_credentials.py"
+          ],
+          "value": "s3.cn-north-1.amazonaws.com.cn``"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "deltacat_io_core-0.1.7/filesystem_support.py",
+            "deltacat_io_core-0.1.7/storage_credentials.py"
+          ],
+          "value": "s3.us-gov-west-1.amazonaws.com``"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "deltacat_io_core-0.1.7/data_root.py",
+            "deltacat_io_core-0.1.7/storage_credentials.py"
+          ],
+          "value": "s3.{region"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "deltacat_io_core-0.1.7/storage_credentials.py"
+          ],
+          "value": "http://``"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "deltacat_io_core-0.1.7/pk_hash_support.py"
+          ],
+          "value": "https://github.com/apache/arrow/issues/38835"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "deltacat_io_core-0.1.7/storage_credentials.py"
+          ],
+          "value": "https://s3.cn-north-1.amazonaws.com.cn``"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "deltacat_io_core-0.1.7/filesystem_support.py",
+            "deltacat_io_core-0.1.7/storage_credentials.py"
+          ],
+          "value": "https://s3.us-gov-west-1.amazonaws.com``"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "deltacat_io_core-0.1.7/data_root.py",
+            "deltacat_io_core-0.1.7/storage_credentials.py"
+          ],
+          "value": "https://s3.{region"
+        }
+      ]
+    },
+    "package": "deltacat-io-core",
+    "package_slug": "deltacat-io-core",
+    "project_url": "https://pypi.org/project/deltacat-io-core/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-28T03:22:53.781994+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-28T03:23:44.118188+00:00",
+    "title": "Personal PyPI Supply Chain Scan: deltacat-io-core 0.1.7",
+    "version": "0.1.7",
+    "version_slug": "0.1.7",
+    "_metadata_path": "reports/packages/deltacat-io-core/0.1.7/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "su_memory-2.0.0.tar.gz",
     "finding_count": 81,
     "model": "gpt-5.5",

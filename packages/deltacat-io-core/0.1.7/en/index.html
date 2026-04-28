@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal PyPI Supply Chain Scan: deltacat-io-core 0.1.7</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 960px; line-height: 1.55; padding: 0 1rem; color: #1f2933; }
+    a { color: #1f5fbf; }
+    code { background: #f4f4f4; padding: 0.1rem 0.25rem; }
+    h1, h2, h3 { line-height: 1.2; }
+    li { margin: 0.35rem 0; }
+    nav { margin-bottom: 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #e5e9ef; padding: 0.55rem 0.65rem; text-align: left; vertical-align: top; }
+    th { color: #52616f; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; }
+    .scan-groups { margin-top: 1.2rem; }
+    .scan-day { border-top: 1px solid #d8dee4; display: grid; gap: 1rem; grid-template-columns: 10rem minmax(0, 1fr); padding: 1.1rem 0; }
+    .scan-day-date { color: #1f2933; font-weight: 700; }
+    .scan-day-date span { color: #52616f; display: block; font-size: 0.9rem; font-weight: 500; margin-top: 0.2rem; }
+    .scan-day-table { overflow-x: auto; }
+    .risk { display: inline-block; min-width: 4.8rem; text-align: center; border-radius: 999px; padding: 0.15rem 0.45rem; font-size: 0.78rem; font-weight: 700; }
+    .risk-info, .risk-low { background: #dcfce7; color: #166534; }
+    .risk-medium, .risk-unknown { background: #fef3c7; color: #92400e; }
+    .risk-high, .risk-critical { background: #fee2e2; color: #991b1b; }
+    .index-note { color: #52616f; margin-top: -0.35rem; }
+    .version { color: #52616f; margin-left: 0.2rem; white-space: nowrap; }
+    @media (max-width: 720px) {
+      .scan-day { grid-template-columns: 1fr; }
+      th, td { padding: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+<nav><a href='../../../../'>Index</a></nav><h1>Personal PyPI Supply Chain Scan: deltacat-io-core 0.1.7</h1>
+
+<ul>
+<li>Package: deltacat-io-core</li>
+<li>Version: 0.1.7</li>
+<li>Project URL: https://pypi.org/project/deltacat-io-core/</li>
+<li>Distribution: deltacat_io_core-0.1.7.tar.gz</li>
+<li>Package published at: 2026-04-28T03:22:53.781994+00:00</li>
+<li>Scan published at: 2026-04-28T03:23:44.118188+00:00</li>
+<li>Language: en</li>
+<li>Model: gpt-5.5</li>
+<li>Prompt: malicious-supply-chain-review-v2 ([source](../../../../docs/prompts/malicious-supply-chain-review-v2.md))</li>
+<li>Disclaimer: This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</li>
+</ul>
+
+<h2>Deterministic Network Indicators</h2>
+
+<h3>Suspicious Endpoints</h3>
+
+<p>None</p>
+
+<h3>Raw Public IPs</h3>
+
+<p>None</p>
+
+<h3>URLs</h3>
+<ul>
+<li>http:// (1 files: deltacat_io_core-0.1.7/storage_credentials.py)</li>
+<li>https://github.com/apache/arrow/issues/38835 (1 files: deltacat_io_core-0.1.7/pk_hash_support.py)</li>
+<li>https://s3.cn-north-1.amazonaws.com.cn (1 files: deltacat_io_core-0.1.7/storage_credentials.py)</li>
+<li>https://s3.us-gov-west-1.amazonaws.com (2 files: deltacat_io_core-0.1.7/filesystem_support.py, deltacat_io_core-0.1.7/storage_credentials.py)</li>
+<li>https://s3.{region (2 files: deltacat_io_core-0.1.7/data_root.py, deltacat_io_core-0.1.7/storage_credentials.py)</li>
+</ul>
+
+<h3>Domains</h3>
+<ul>
+<li> (1 files: deltacat_io_core-0.1.7/storage_credentials.py)</li>
+<li>files.extend (2 files: deltacat_io_core-0.1.7/execution.py, deltacat_io_core-0.1.7/models.py)</li>
+<li>github.com (3 files: deltacat_io_core-0.1.7/.gitignore, deltacat_io_core-0.1.7/metrics.py, deltacat_io_core-0.1.7/pk_hash_support.py)</li>
+<li>s3.cn-north-1.amazonaws.com.cn (1 files: deltacat_io_core-0.1.7/storage_credentials.py)</li>
+<li>s3.us-gov-west-1.amazonaws.com (2 files: deltacat_io_core-0.1.7/filesystem_support.py, deltacat_io_core-0.1.7/storage_credentials.py)</li>
+<li>s3.{region (2 files: deltacat_io_core-0.1.7/data_root.py, deltacat_io_core-0.1.7/storage_credentials.py)</li>
+</ul>
+
+<h2>Verdict</h2>
+
+<p>No confirmed malicious supply-chain indicators — overall risk: info.</p>
+
+<h2>Malicious Supply-Chain Indicators</h2>
+
+<p>No confirmed malicious supply-chain indicators.</p>
+
+<h2>Automatic Execution Paths</h2>
+
+<p>In the provided extracted text, there is no evidence of .pth, sitecustomize.py, usercustomize.py, malicious setup.py logic, abused PEP 517 build hooks, or code that automatically runs at installation or interpreter startup.</p>
+<p>The visible code appears to consist of S3/filesystem helper functions, and no malicious import-time side effects are evident within the reviewed material.</p>
+
+<h2>Theft / Exfiltration / Persistence / Lateral Movement / Obfuscation</h2>
+
+<ul>
+<li>**Credential harvesting:** References to ~/.aws/credentials, AWS_SHARED_CREDENTIALS_FILE, and AWS_CONFIG_FILE appear to support AWS profile resolution and error messages. There is no evidence of broad environment-variable scraping, secret discovery loops, or arbitrary sensitive-file collection.</li>
+<li>**Archive staging / exfiltration:** The gzip/zip hits from pre-scan appear related to log rotation compression or normal compressed data handling. There is no evidence of archiving harvested secrets or uploading them externally.</li>
+<li>**Persistence:** No evidence of cron jobs, systemd units, launch agents, shell profile modification, or self-reinstall behavior.</li>
+<li>**Lateral movement:** No evidence of Kubernetes token use, Docker socket access, CI/CD token theft, GitHub Actions workflow injection, or cloud metadata abuse.</li>
+<li>**Obfuscation / loader:** base64.b64decode appears to be used for PyArrow schema/msgpack serialization handling. There is no evidence of eval/exec/compile, marshal/pickle loaders, downloader stubs, or obfuscated payload execution.</li>
+</ul>
+
+<h2>Distribution Integrity Anomalies</h2>
+
+<p>Based on the provided material, there is no confirmed evidence of hidden payloads, unexplained native binaries, typosquatting, sudden dependency insertion, or wheel/sdist mismatch. The presence of .gitignore alone is not a plausible malicious supply-chain indicator.</p>
+
+<h2>Additional Verification Needed</h2>
+
+<p>The text corpus includes only a subset of the 82 extracted files, so pyproject.toml, build backend configuration, the full package contents, source-vs-artifact differences, and possible wheel/sdist mismatches should be verified separately.</p>
+
+<p>---</p>
+
+<p>Prompt source: docs/prompts/malicious-supply-chain-review-v2.md</p>
+
+<p>This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</p>
+
+</body>
+</html>
