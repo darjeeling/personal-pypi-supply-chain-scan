@@ -1,6 +1,223 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "gecko_mcp-0.1.1.tar.gz",
+    "finding_count": 43,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "gecko_mcp-0.1.1/src/gecko_mcp/wallet_self_custody.py"
+          ],
+          "value": "api.devnet.solana.com"
+        },
+        {
+          "file_count": 6,
+          "files": [
+            "gecko_mcp-0.1.1/src/gecko_mcp/api_client.py",
+            "gecko_mcp-0.1.1/src/gecko_mcp/doctor.py",
+            "gecko_mcp-0.1.1/src/gecko_mcp/economics.py",
+            "gecko_mcp-0.1.1/src/gecko_mcp/quickstart.py",
+            "gecko_mcp-0.1.1/src/gecko_mcp/server.py",
+            "gecko_mcp-0.1.1/src/gecko_mcp/sse_client.py"
+          ],
+          "value": "api.geckovision.tech"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "gecko_mcp-0.1.1/src/gecko_mcp/api_client.py",
+            "gecko_mcp-0.1.1/src/gecko_mcp/server.py"
+          ],
+          "value": "api.geckovision.tech``"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "gecko_mcp-0.1.1/src/gecko_mcp/wallet_self_custody.py"
+          ],
+          "value": "app.geckovision.tech"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "gecko_mcp-0.1.1/src/gecko_mcp/quickstart.py"
+          ],
+          "value": "docs.anthropic.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "gecko_mcp-0.1.1/src/gecko_mcp/doctor.py",
+            "gecko_mcp-0.1.1/src/gecko_mcp/quickstart.py",
+            "gecko_mcp-0.1.1/src/gecko_mcp/wallet.py"
+          ],
+          "value": "frames.ag"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "gecko_mcp-0.1.1/src/gecko_mcp/wallet.py"
+          ],
+          "value": "geckovision.tech"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "gecko_mcp-0.1.1/src/gecko_mcp/llm.py",
+            "gecko_mcp-0.1.1/src/gecko_mcp/quickstart.py"
+          ],
+          "value": "nodejs.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "gecko_mcp-0.1.1/src/gecko_mcp/doctor.py"
+          ],
+          "value": "raw.data"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "gecko_mcp-0.1.1/src/gecko_mcp/doctor.py"
+          ],
+          "value": "raw.rstrip"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "gecko_mcp-0.1.1/src/gecko_mcp/wallet_self_custody.py"
+          ],
+          "value": "https://api.devnet.solana.com"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "gecko_mcp-0.1.1/src/gecko_mcp/api_client.py",
+            "gecko_mcp-0.1.1/src/gecko_mcp/doctor.py",
+            "gecko_mcp-0.1.1/src/gecko_mcp/economics.py",
+            "gecko_mcp-0.1.1/src/gecko_mcp/quickstart.py"
+          ],
+          "value": "https://api.geckovision.tech"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "gecko_mcp-0.1.1/src/gecko_mcp/sse_client.py"
+          ],
+          "value": "https://api.geckovision.tech/research/pro/{sid"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "gecko_mcp-0.1.1/src/gecko_mcp/api_client.py",
+            "gecko_mcp-0.1.1/src/gecko_mcp/server.py"
+          ],
+          "value": "https://api.geckovision.tech``"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "gecko_mcp-0.1.1/src/gecko_mcp/wallet_self_custody.py"
+          ],
+          "value": "https://app.geckovision.tech/onramp"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "gecko_mcp-0.1.1/src/gecko_mcp/quickstart.py"
+          ],
+          "value": "https://docs.anthropic.com/claude/claude-code"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "gecko_mcp-0.1.1/src/gecko_mcp/wallet.py"
+          ],
+          "value": "https://frames.ag"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "gecko_mcp-0.1.1/src/gecko_mcp/wallet.py"
+          ],
+          "value": "https://frames.ag/api"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "gecko_mcp-0.1.1/src/gecko_mcp/doctor.py",
+            "gecko_mcp-0.1.1/src/gecko_mcp/quickstart.py",
+            "gecko_mcp-0.1.1/src/gecko_mcp/wallet.py"
+          ],
+          "value": "https://frames.ag/skill.md"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "gecko_mcp-0.1.1/src/gecko_mcp/wallet.py"
+          ],
+          "value": "https://frames.ag/skill.md`"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "gecko_mcp-0.1.1/src/gecko_mcp/wallet.py"
+          ],
+          "value": "https://frames.ag/u/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "gecko_mcp-0.1.1/src/gecko_mcp/wallet.py"
+          ],
+          "value": "https://frames.ag/u/{config.get("
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "gecko_mcp-0.1.1/src/gecko_mcp/quickstart.py"
+          ],
+          "value": "https://frames.ag/u/{username"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "gecko_mcp-0.1.1/src/gecko_mcp/wallet.py"
+          ],
+          "value": "https://geckovision.tech"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "gecko_mcp-0.1.1/src/gecko_mcp/llm.py",
+            "gecko_mcp-0.1.1/src/gecko_mcp/quickstart.py"
+          ],
+          "value": "https://nodejs.org"
+        }
+      ]
+    },
+    "package": "gecko-mcp",
+    "package_slug": "gecko-mcp",
+    "project_url": "https://pypi.org/project/gecko-mcp/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-28T03:31:39.634342+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-28T03:32:23.471466+00:00",
+    "title": "Personal PyPI Supply Chain Scan: gecko-mcp 0.1.1",
+    "version": "0.1.1",
+    "version_slug": "0.1.1",
+    "_metadata_path": "reports/packages/gecko-mcp/0.1.1/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "odoo_addons_oca_l10n_spain-19.0.20260427.0-py3-none-any.whl",
     "finding_count": 2,
     "model": "gpt-5.5",
