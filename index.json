@@ -1,6 +1,825 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "elhaz-0.5.2.tar.gz",
+    "finding_count": 54,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 6,
+          "files": [
+            "elhaz-0.5.2/.github/ISSUE_TEMPLATE/config.yml",
+            "elhaz-0.5.2/PKG-INFO",
+            "elhaz-0.5.2/README.md",
+            "elhaz-0.5.2/docs/conf.py",
+            "elhaz-0.5.2/docs/index.rst",
+            "elhaz-0.5.2/pyproject.toml"
+          ],
+          "value": "61418.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/.gitignore"
+          ],
+          "value": "abstra.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CONTRIBUTING.md"
+          ],
+          "value": "astral.sh"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/docs/concepts/assumerole.rst"
+          ],
+          "value": "aws.amazon.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/docs/conf.py"
+          ],
+          "value": "boto3.amazonaws.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CONTRIBUTING.md"
+          ],
+          "value": "docs.astral.sh"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/.gitignore"
+          ],
+          "value": "docs.cursor.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/docs/conf.py"
+          ],
+          "value": "docs.python.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "elhaz-0.5.2/PKG-INFO",
+            "elhaz-0.5.2/README.md"
+          ],
+          "value": "engseclabs.com"
+        },
+        {
+          "file_count": 13,
+          "files": [
+            "elhaz-0.5.2/.github/ISSUE_TEMPLATE/config.yml",
+            "elhaz-0.5.2/.gitignore",
+            "elhaz-0.5.2/CHANGELOG.md",
+            "elhaz-0.5.2/CODE_OF_CONDUCT.md",
+            "elhaz-0.5.2/CONTRIBUTING.md",
+            "elhaz-0.5.2/PKG-INFO",
+            "elhaz-0.5.2/README.md",
+            "elhaz-0.5.2/docs/_templates/components/view-this-page.html"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "elhaz-0.5.2/PKG-INFO",
+            "elhaz-0.5.2/README.md"
+          ],
+          "value": "img.shields.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/docs/index.rst"
+          ],
+          "value": "michaelthomasletts.com"
+        },
+        {
+          "file_count": 26,
+          "files": [
+            "elhaz-0.5.2/CONTRIBUTING.md",
+            "elhaz-0.5.2/LICENSE",
+            "elhaz-0.5.2/elhaz/__init__.py",
+            "elhaz-0.5.2/elhaz/cli/__init__.py",
+            "elhaz-0.5.2/elhaz/cli/__main__.py",
+            "elhaz-0.5.2/elhaz/cli/config.py",
+            "elhaz-0.5.2/elhaz/cli/daemon.py",
+            "elhaz-0.5.2/elhaz/cli/output.py"
+          ],
+          "value": "mozilla.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/.gitignore"
+          ],
+          "value": "pdm-project.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "elhaz-0.5.2/PKG-INFO",
+            "elhaz-0.5.2/README.md"
+          ],
+          "value": "pepy.tech"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "elhaz-0.5.2/.github/workflows/push.yml",
+            "elhaz-0.5.2/PKG-INFO",
+            "elhaz-0.5.2/README.md"
+          ],
+          "value": "pypi.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/.gitignore"
+          ],
+          "value": "python-poetry.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "elhaz-0.5.2/PKG-INFO",
+            "elhaz-0.5.2/README.md"
+          ],
+          "value": "raw.githubusercontent.com"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "elhaz-0.5.2/elhaz/daemon.py",
+            "elhaz-0.5.2/tests/test_daemon.py"
+          ],
+          "value": "raw.rstrip"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/.github/workflows/push.yml"
+          ],
+          "value": "test.pypi.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CODE_OF_CONDUCT.md"
+          ],
+          "value": "www.contributor-covenant.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "elhaz-0.5.2/.github/pull_request_template.md",
+            "elhaz-0.5.2/CONTRIBUTING.md"
+          ],
+          "value": "www.conventionalcommits.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CONTRIBUTING.md"
+          ],
+          "value": "www.mozilla.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/docs/make.bat"
+          ],
+          "value": "www.sphinx-doc.org"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [
+        {
+          "file_count": 2,
+          "files": [
+            "elhaz-0.5.2/PKG-INFO",
+            "elhaz-0.5.2/README.md"
+          ],
+          "value": "https://raw.githubusercontent.com/61418/elhaz/refs/heads/main/docs/_static/transparent_header_elhaz.png"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "elhaz-0.5.2/PKG-INFO",
+            "elhaz-0.5.2/README.md"
+          ],
+          "value": "raw.githubusercontent.com"
+        }
+      ],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/docs/index.rst"
+          ],
+          "value": "https://61418.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/docs/conf.py"
+          ],
+          "value": "https://61418.io/boto3-refresh-session/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/docs/conf.py"
+          ],
+          "value": "https://61418.io/boto3-refresh-session/objects.inv"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/docs/conf.py"
+          ],
+          "value": "https://61418.io/boto3-refresh-session/reference/objects.inv"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "elhaz-0.5.2/.github/ISSUE_TEMPLATE/config.yml",
+            "elhaz-0.5.2/PKG-INFO",
+            "elhaz-0.5.2/README.md",
+            "elhaz-0.5.2/pyproject.toml"
+          ],
+          "value": "https://61418.io/elhaz"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "elhaz-0.5.2/PKG-INFO",
+            "elhaz-0.5.2/README.md"
+          ],
+          "value": "https://61418.io/elhaz/cli/index.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "elhaz-0.5.2/PKG-INFO",
+            "elhaz-0.5.2/README.md"
+          ],
+          "value": "https://61418.io/elhaz/concepts/identitycenter.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "elhaz-0.5.2/PKG-INFO",
+            "elhaz-0.5.2/README.md"
+          ],
+          "value": "https://61418.io/elhaz/concepts/index.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "elhaz-0.5.2/PKG-INFO",
+            "elhaz-0.5.2/README.md"
+          ],
+          "value": "https://61418.io/elhaz/quickstart.html"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/.gitignore"
+          ],
+          "value": "https://abstra.io/docs"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CONTRIBUTING.md"
+          ],
+          "value": "https://astral.sh/uv/install.sh"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/docs/concepts/assumerole.rst"
+          ],
+          "value": "https://aws.amazon.com/blogs/security/create-fine-grained-session-permissions-using-iam-managed-policies/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/docs/conf.py"
+          ],
+          "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CONTRIBUTING.md"
+          ],
+          "value": "https://docs.astral.sh/uv/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/.gitignore"
+          ],
+          "value": "https://docs.cursor.com/context/ignore-files"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/docs/conf.py"
+          ],
+          "value": "https://docs.python.org/3"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "elhaz-0.5.2/PKG-INFO",
+            "elhaz-0.5.2/README.md"
+          ],
+          "value": "https://engseclabs.com/blog/agent-credential-isolation/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/docs/_templates/components/view-this-page.html"
+          ],
+          "value": "https://github.com/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "elhaz-0.5.2/PKG-INFO",
+            "elhaz-0.5.2/README.md"
+          ],
+          "value": "https://github.com/61418"
+        },
+        {
+          "file_count": 6,
+          "files": [
+            "elhaz-0.5.2/CONTRIBUTING.md",
+            "elhaz-0.5.2/PKG-INFO",
+            "elhaz-0.5.2/README.md",
+            "elhaz-0.5.2/docs/cli/elhaz-config.rst",
+            "elhaz-0.5.2/docs/index.rst",
+            "elhaz-0.5.2/docs/quickstart.rst"
+          ],
+          "value": "https://github.com/61418/boto3-refresh-session"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "elhaz-0.5.2/PKG-INFO",
+            "elhaz-0.5.2/README.md"
+          ],
+          "value": "https://github.com/61418/elhaz"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/docs/installation.rst"
+          ],
+          "value": "https://github.com/61418/elhaz.git"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "elhaz-0.5.2/PKG-INFO",
+            "elhaz-0.5.2/README.md"
+          ],
+          "value": "https://github.com/61418/elhaz/actions/workflows/codeql.yml"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "elhaz-0.5.2/PKG-INFO",
+            "elhaz-0.5.2/README.md"
+          ],
+          "value": "https://github.com/61418/elhaz/actions/workflows/push.yml"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "elhaz-0.5.2/PKG-INFO",
+            "elhaz-0.5.2/pyproject.toml"
+          ],
+          "value": "https://github.com/61418/elhaz/blob/main/CHANGELOG.md"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "elhaz-0.5.2/PKG-INFO",
+            "elhaz-0.5.2/README.md"
+          ],
+          "value": "https://github.com/61418/elhaz/blob/main/LICENSE"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/02c707b8685b2de33a1406131bd9d283bbe47eaa"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/1b6e2a83ccbc57be29ddb0078c0d9302d4b6019a"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/1c89b0fe3a901aa62577e51fafb35487d31d5ecf"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/1e70aa033e2f58424f9cef4c5cc7de7e6955cb3b"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/21a5db81e475924ba3d80af41983fda62ad0bfc2"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/34c082cd34c5718cb8db1bb23302c8e84a959ea5"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/355f06cb31d94d86f2035485d386819a127948fa"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/36ae37b253f915c166209c9c8f0c64103ef2d394"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/38e77c52783cc2a92a00aed71d8bae046def239f"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/48b93cb6b6cbcd09abf3061bbc9b01fb6337f0d7"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/4aa37a180a7a2ee1a7305eb5d45f0105c204f2ec"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/4bb45ac370fe4613ef93c716ece9d2337f64b0bc"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/502c7e44d0ef62eb33dc0c58bd89cdad7dd1a870"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/5472bcfa951b406a93c1be9084d15ae3fc673e68"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/575ad8bd4eeee8ef2ac5e98783eb25e3c306a403"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/5814f714c29e88e96b7038bbc75e7529ed2830ed"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/7c7f038739ff0f1275099ac2ae3cdd2d7482ce46"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/949e7f39ae1d7c17809f8638939a72dece1e1378"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/9e65ed46a201dfcb23d111ee97549e9ba58ea34c"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/a130bd3628176ca76a90158d1796500b4aa1ddd7"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/aee07a61f3118abef4dddab245a17d31997f6131"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/ba66bb6b2f5ec5f2c18e7318f1da7213c1fb5ec8"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/bac9ee89e677a804b9cf5994bf7975c847d89e03"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/bda5ddc17802b78c69eb09c5db3597f5d1b9a8ae"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/bf4256ffb710a8fd92480d8e6f3ca9ac5add6f6c"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/bf50e381322ffd73416bdafc45a015afbdc03f2d"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/d336dc883205f5a2b37815133224ea4149621515"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/d552946f9af2ae1e671b6e2ee92f12cda158bc44"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/dc0748f4a140857bc9bd646cda9909521d06bd6b"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/ee6aaf9b7b9a8329f9e03a083dc2a322e0cb4855"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/ef061414a7fdc2fe703078a0c34b2cd7c9e5325b"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/f08494c5607a86c893cc525e07df0dbc1eebf8d4"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/fa42ed95eaab844b5d8ff323c952fc1c9b475c39"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commit/fff3624fb206479f47b50928899bde9ffd56481c"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "elhaz-0.5.2/PKG-INFO",
+            "elhaz-0.5.2/README.md"
+          ],
+          "value": "https://github.com/61418/elhaz/commits/main"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/compare/v0.1.0...v0.1.1"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/compare/v0.1.1...v0.1.2"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/compare/v0.1.2...v0.1.3"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/compare/v0.1.3...v0.1.4"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/compare/v0.1.4...v0.1.5"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/compare/v0.1.5...v0.1.6"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/compare/v0.1.6...v0.1.7"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/compare/v0.1.7...v0.1.8"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/compare/v0.1.8...v0.2.0"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/compare/v0.2.0...v0.3.0"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/compare/v0.3.0...v0.4.0"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/compare/v0.4.0...v0.4.1"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/compare/v0.4.1...v0.4.2"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/compare/v0.4.2...v0.5.0"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/compare/v0.5.0...v0.5.1"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/CHANGELOG.md"
+          ],
+          "value": "https://github.com/61418/elhaz/compare/v0.5.1...v0.5.2"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "elhaz-0.5.2/PKG-INFO",
+            "elhaz-0.5.2/README.md"
+          ],
+          "value": "https://github.com/61418/elhaz?tab=contributing-ov-file"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/.gitignore"
+          ],
+          "value": "https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "elhaz-0.5.2/.gitignore"
+          ],
+          "value": "https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore"
+        }
+      ]
+    },
+    "package": "elhaz",
+    "package_slug": "elhaz",
+    "project_url": "https://pypi.org/project/elhaz/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-28T02:51:59.952099+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-28T02:52:53.205744+00:00",
+    "title": "Personal PyPI Supply Chain Scan: elhaz 0.5.2",
+    "version": "0.5.2",
+    "version_slug": "0.5.2",
+    "_metadata_path": "reports/packages/elhaz/0.5.2/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "tfgt-0.1.0.tar.gz",
     "finding_count": 4,
     "model": "gpt-5.5",
