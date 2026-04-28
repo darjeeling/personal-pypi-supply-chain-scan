@@ -1,6 +1,1236 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "bioversions-0.10.1.tar.gz",
+    "finding_count": 29,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/antibodyregistry.py"
+          ],
+          "value": "antibodyregistry.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/obo.py"
+          ],
+          "value": "archive.geneontology.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/npass.py"
+          ],
+          "value": "bidd.group"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/bigg.py"
+          ],
+          "value": "bigg.ucsd.edu"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "biopragmatics.github.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md",
+            "bioversions-0.10.1/pyproject.toml"
+          ],
+          "value": "bioversions.readthedocs.io"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "blog.pypi.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/disgenet.py"
+          ],
+          "value": "ca346j0lmg.execute-api.eu-central-1.amazonaws.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/civic.py"
+          ],
+          "value": "civicdb.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "codecov.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/pyproject.toml"
+          ],
+          "value": "coverage.readthedocs.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/gtdb.py"
+          ],
+          "value": "data.ace.uq.edu.au"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/msigdb.py"
+          ],
+          "value": "data.broadinstitute.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/wikipathways.py"
+          ],
+          "value": "data.wikipathways.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/depmap.py"
+          ],
+          "value": "depmap.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/pyproject.toml"
+          ],
+          "value": "doc8.readthedocs.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md",
+            "bioversions-0.10.1/pyproject.toml"
+          ],
+          "value": "docs.astral.sh"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/pyproject.toml"
+          ],
+          "value": "docs.pytest.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "docs.readthedocs.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/guidetopharmacology.py"
+          ],
+          "value": "download.jsp"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/rxnorm.py"
+          ],
+          "value": "download.nlm.nih.gov"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/rgd.py"
+          ],
+          "value": "download.rgd.mcw.edu"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md",
+            "bioversions-0.10.1/src/bioversions/sources/biogrid.py"
+          ],
+          "value": "downloads.thebiogrid.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/ncit.py"
+          ],
+          "value": "evsexplore.semantics.cancer.gov"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/chebi.py",
+            "bioversions-0.10.1/src/bioversions/sources/complexportal.py",
+            "bioversions-0.10.1/src/bioversions/sources/intact.py",
+            "bioversions-0.10.1/src/bioversions/sources/interpro.py",
+            "bioversions-0.10.1/src/bioversions/sources/rfam.py"
+          ],
+          "value": "ftp.ebi.ac.uk"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/cellosaurus.py",
+            "bioversions-0.10.1/src/bioversions/sources/expasy.py",
+            "bioversions-0.10.1/src/bioversions/sources/rhea.py"
+          ],
+          "value": "ftp.expasy.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/homologene.py"
+          ],
+          "value": "ftp.ncbi.nih.gov"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/pubchem.py"
+          ],
+          "value": "ftp.ncbi.nlm.nih.gov"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/chemidplus.py"
+          ],
+          "value": "ftp.nlm.nih.gov"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/uniprot.py"
+          ],
+          "value": "ftp.uniprot.org"
+        },
+        {
+          "file_count": 8,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md",
+            "bioversions-0.10.1/pyproject.toml",
+            "bioversions-0.10.1/src/bioversions/sources/dgi.py",
+            "bioversions-0.10.1/src/bioversions/sources/moalmanac.py",
+            "bioversions-0.10.1/src/bioversions/sources/obo.py",
+            "bioversions-0.10.1/src/bioversions/sources/spdx.py",
+            "bioversions-0.10.1/src/bioversions/templates/home.html"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/drugbank.py"
+          ],
+          "value": "go.drugbank.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/civic.py"
+          ],
+          "value": "griffithlab.github.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/gtdb.py"
+          ],
+          "value": "gtdb.ecogenomic.org"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md",
+            "bioversions-0.10.1/src/bioversions/templates/home.html"
+          ],
+          "value": "hits.harvard.edu"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "hms.harvard.edu"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/icd10.py",
+            "bioversions-0.10.1/src/bioversions/sources/icd11.py",
+            "bioversions-0.10.1/src/bioversions/sources/icf.py"
+          ],
+          "value": "icd.who.int"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "img.shields.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md",
+            "bioversions-0.10.1/src/bioversions/templates/home.html"
+          ],
+          "value": "indralab.github.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/templates/base.html"
+          ],
+          "value": "kit.fontawesome.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/loinc.py"
+          ],
+          "value": "loinc.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/moalmanac.py"
+          ],
+          "value": "moalmanac.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/pyproject.toml"
+          ],
+          "value": "mypy.readthedocs.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/omim.py"
+          ],
+          "value": "omim.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/oncotree.py"
+          ],
+          "value": "oncotree.mskcc.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/pyproject.toml"
+          ],
+          "value": "packaging.python.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/pathbank.py"
+          ],
+          "value": "pathbank.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/pyproject.toml"
+          ],
+          "value": "peps.python.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/pr.py"
+          ],
+          "value": "proconsortium.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/utils.py"
+          ],
+          "value": "purl.obolibrary.org"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md",
+            "bioversions-0.10.1/pyproject.toml"
+          ],
+          "value": "pypi.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "raw.githubusercontent.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/reactome.py"
+          ],
+          "value": "reactome.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "readthedocs.io"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "readthedocs.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/flybase.py"
+          ],
+          "value": "s3ftp.flybase.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/sgd.py"
+          ],
+          "value": "sgd-archive.yeastgenome.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/signor.py"
+          ],
+          "value": "signor.uniroma2.it"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/hgnc.py"
+          ],
+          "value": "storage.googleapis.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/stringdb.py"
+          ],
+          "value": "string-db.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "test.pypi.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "upload.pypi.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/antibodyregistry.py"
+          ],
+          "value": "www.antibodyregistry.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/silva.py"
+          ],
+          "value": "www.arb-silva.de"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/dgi.py"
+          ],
+          "value": "www.dgidb.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/ensembl.py"
+          ],
+          "value": "www.ensembl.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/msigdb.py"
+          ],
+          "value": "www.gsea-msigdb.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/guidetopharmacology.py"
+          ],
+          "value": "www.guidetopharmacology.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/mgi.py"
+          ],
+          "value": "www.informatics.jax.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/itis.py"
+          ],
+          "value": "www.itis.gov"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/kegg.py"
+          ],
+          "value": "www.kegg.jp"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/uniprot.py"
+          ],
+          "value": "www.metalinker.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/mirbase.py"
+          ],
+          "value": "www.mirbase.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/rxnorm.py",
+            "bioversions-0.10.1/src/bioversions/sources/umls.py"
+          ],
+          "value": "www.nlm.nih.gov"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/pathwaycommons.py"
+          ],
+          "value": "www.pathwaycommons.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/pombase.py"
+          ],
+          "value": "www.pombase.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/slm.py"
+          ],
+          "value": "www.swisslipids.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "zenodo.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/zfin.py"
+          ],
+          "value": "zfin.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/utils.py"
+          ],
+          "value": "{host"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "raw.githubusercontent.com"
+        }
+      ],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/obo.py"
+          ],
+          "value": "http://archive.geneontology.org/full/{version"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/npass.py"
+          ],
+          "value": "http://bidd.group/NPASS/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/bigg.py"
+          ],
+          "value": "http://bigg.ucsd.edu/api/v2/database_version"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/wikipathways.py"
+          ],
+          "value": "http://data.wikipathways.org/current/gmt/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/wikipathways.py"
+          ],
+          "value": "http://data.wikipathways.org/{version"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/oncotree.py"
+          ],
+          "value": "http://oncotree.mskcc.org/api/tumorTypes?version=oncotree_{version"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/oncotree.py"
+          ],
+          "value": "http://oncotree.mskcc.org/api/versions"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/sgd.py"
+          ],
+          "value": "http://sgd-archive.yeastgenome.org/sequence/S288C_reference/dates_of_genome_releases.tab"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/dgi.py"
+          ],
+          "value": "http://www.dgidb.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/msigdb.py"
+          ],
+          "value": "http://www.gsea-msigdb.org/gsea/msigdb/index.jsp"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/uniprot.py"
+          ],
+          "value": "http://www.metalinker.org/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/mirbase.py"
+          ],
+          "value": "http://www.mirbase.org/download_readme/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/antibodyregistry.py"
+          ],
+          "value": "https://antibodyregistry.org/"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "https://biopragmatics.github.io/bioversions"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/pyproject.toml"
+          ],
+          "value": "https://bioversions.readthedocs.io"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "https://bioversions.readthedocs.io/en/latest/?badge=latest"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "https://blog.pypi.org/posts/2023-05-25-securing-pypi-with-2fa/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/disgenet.py"
+          ],
+          "value": "https://ca346j0lmg.execute-api.eu-central-1.amazonaws.com/releases"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/civic.py"
+          ],
+          "value": "https://civicdb.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/civic.py"
+          ],
+          "value": "https://civicdb.org/api/graphql"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/civic.py"
+          ],
+          "value": "https://civicdb.org/releases/main"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "https://codecov.io/gh/biopragmatics/bioversions/branch/main"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "https://codecov.io/gh/biopragmatics/bioversions/branch/main/graph/badge.svg"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/pyproject.toml"
+          ],
+          "value": "https://coverage.readthedocs.io/en/latest/config.html"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/gtdb.py"
+          ],
+          "value": "https://data.ace.uq.edu.au/public/gtdb/data/releases/latest/VERSION.txt"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/msigdb.py"
+          ],
+          "value": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/{version"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/depmap.py"
+          ],
+          "value": "https://depmap.org/portal/download/api/downloads"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/pyproject.toml"
+          ],
+          "value": "https://doc8.readthedocs.io/en/stable/readme.html#ini-file-usage"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/pyproject.toml"
+          ],
+          "value": "https://docs.astral.sh/ruff/rules"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/pyproject.toml"
+          ],
+          "value": "https://docs.astral.sh/ruff/settings/#format_docstring-code-format"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/pyproject.toml"
+          ],
+          "value": "https://docs.astral.sh/ruff/settings/#per-file-ignores"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/pyproject.toml"
+          ],
+          "value": "https://docs.astral.sh/uv/concepts/dependencies/#dependency-groups"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "https://docs.astral.sh/uv/guides/publish/#building-your-package"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "https://docs.astral.sh/uv/guides/publish/#publishing-your-package"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/pyproject.toml"
+          ],
+          "value": "https://docs.pytest.org/en/stable/reference/customize.html#pyproject-toml"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "https://docs.readthedocs.io/en/stable/intro/import-guide.html"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "https://docs.readthedocs.io/en/stable/pull-requests.html"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/rxnorm.py"
+          ],
+          "value": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_{version"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/rgd.py"
+          ],
+          "value": "https://download.rgd.mcw.edu/data_release/GENES_RAT.txt"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/biogrid.py"
+          ],
+          "value": "https://downloads.thebiogrid.org/BioGRID/Latest-Release/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/biogrid.py"
+          ],
+          "value": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-{version"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "https://downloads.thebiogrid.org/Download/BioGRID/Release-Archive/BIOGRID-$(bioversions"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/ncit.py"
+          ],
+          "value": "https://evsexplore.semantics.cancer.gov/evsexplore/api/v1/metadata/terminologies"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/rfam.py"
+          ],
+          "value": "https://ftp.ebi.ac.uk/pub/databases/Rfam/CURRENT/README"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/rfam.py"
+          ],
+          "value": "https://ftp.ebi.ac.uk/pub/databases/Rfam/{version"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/chebi.py"
+          ],
+          "value": "https://ftp.ebi.ac.uk/pub/databases/chebi/ontology/README"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/complexportal.py"
+          ],
+          "value": "https://ftp.ebi.ac.uk/pub/databases/intact/complex/{version"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/intact.py"
+          ],
+          "value": "https://ftp.ebi.ac.uk/pub/databases/intact/{version"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/interpro.py"
+          ],
+          "value": "https://ftp.ebi.ac.uk/pub/databases/interpro/current_release/release_notes.txt"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/cellosaurus.py"
+          ],
+          "value": "https://ftp.expasy.org/databases/cellosaurus/cellosaurus.obo"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/expasy.py"
+          ],
+          "value": "https://ftp.expasy.org/databases/enzyme/enzuser.txt"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/rhea.py"
+          ],
+          "value": "https://ftp.expasy.org/databases/rhea/rhea-release.properties"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/homologene.py"
+          ],
+          "value": "https://ftp.ncbi.nih.gov/pub/HomoloGene/current/RELEASE_NUMBER"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/pubchem.py"
+          ],
+          "value": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/{version"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/chemidplus.py"
+          ],
+          "value": "https://ftp.nlm.nih.gov/projects/chemidlease/CurrentChemID.xml"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/chemidplus.py"
+          ],
+          "value": "https://ftp.nlm.nih.gov/projects/chemidlease/chem.xml.{version"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/uniprot.py"
+          ],
+          "value": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/RELEASE.metalink"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/src/bioversions/sources/obo.py"
+          ],
+          "value": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/{version"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "https://github.com/astral-sh/ruff"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "bioversions-0.10.1/pyproject.toml"
+          ],
+          "value": "https://github.com/astral-sh/uv/issues/6298"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "https://github.com/audreyfeldroy"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "https://github.com/biopragmatics/bioregistry"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/pyproject.toml",
+            "bioversions-0.10.1/src/bioversions/templates/home.html"
+          ],
+          "value": "https://github.com/biopragmatics/bioversions"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md",
+            "bioversions-0.10.1/pyproject.toml"
+          ],
+          "value": "https://github.com/biopragmatics/bioversions.git"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "https://github.com/biopragmatics/bioversions/actions/workflows/tests.yml"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "https://github.com/biopragmatics/bioversions/actions/workflows/tests.yml/badge.svg"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "https://github.com/biopragmatics/bioversions/actions?query=workflow%3ATests"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "https://github.com/biopragmatics/bioversions/blob/main/.github/CODE_OF_CONDUCT.md"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "https://github.com/biopragmatics/bioversions/blob/main/LICENSE"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "https://github.com/biopragmatics/bioversions/blob/master/.github/CONTRIBUTING.md"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/pyproject.toml"
+          ],
+          "value": "https://github.com/biopragmatics/bioversions/issues"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "https://github.com/biopragmatics/bioversions/raw/main/docs/source/logo.png"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "https://github.com/biopragmatics/bioversions/releases/new"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "https://github.com/callowayproject/bump-my-version"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "https://github.com/cookiecutter/cookiecutter"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "https://github.com/cruft/cruft?tab=readme-ov-file#updating-a-project"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md",
+            "bioversions-0.10.1/src/bioversions/templates/home.html"
+          ],
+          "value": "https://github.com/cthoyt"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "https://github.com/cthoyt/cookiecutter-python-package"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "https://github.com/cthoyt/cookiecutter-snekpack"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "bioversions-0.10.1/PKG-INFO",
+            "bioversions-0.10.1/README.md"
+          ],
+          "value": "https://github.com/cthoyt/pystow"
+        }
+      ]
+    },
+    "package": "bioversions",
+    "package_slug": "bioversions",
+    "project_url": "https://pypi.org/project/bioversions/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-28T02:29:36.909252+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-28T02:30:50.782013+00:00",
+    "title": "Personal PyPI Supply Chain Scan: bioversions 0.10.1",
+    "version": "0.10.1",
+    "version_slug": "0.10.1",
+    "_metadata_path": "reports/packages/bioversions/0.10.1/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "ltiprobe-0.7.0.tar.gz",
     "finding_count": 22,
     "model": "gpt-5.5",

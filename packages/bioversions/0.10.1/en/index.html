@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal PyPI Supply Chain Scan: bioversions 0.10.1</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 960px; line-height: 1.55; padding: 0 1rem; color: #1f2933; }
+    a { color: #1f5fbf; }
+    code { background: #f4f4f4; padding: 0.1rem 0.25rem; }
+    h1, h2, h3 { line-height: 1.2; }
+    li { margin: 0.35rem 0; }
+    nav { margin-bottom: 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #e5e9ef; padding: 0.55rem 0.65rem; text-align: left; vertical-align: top; }
+    th { color: #52616f; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; }
+    .scan-groups { margin-top: 1.2rem; }
+    .scan-day { border-top: 1px solid #d8dee4; display: grid; gap: 1rem; grid-template-columns: 10rem minmax(0, 1fr); padding: 1.1rem 0; }
+    .scan-day-date { color: #1f2933; font-weight: 700; }
+    .scan-day-date span { color: #52616f; display: block; font-size: 0.9rem; font-weight: 500; margin-top: 0.2rem; }
+    .scan-day-table { overflow-x: auto; }
+    .risk { display: inline-block; min-width: 4.8rem; text-align: center; border-radius: 999px; padding: 0.15rem 0.45rem; font-size: 0.78rem; font-weight: 700; }
+    .risk-info, .risk-low { background: #dcfce7; color: #166534; }
+    .risk-medium, .risk-unknown { background: #fef3c7; color: #92400e; }
+    .risk-high, .risk-critical { background: #fee2e2; color: #991b1b; }
+    .index-note { color: #52616f; margin-top: -0.35rem; }
+    .version { color: #52616f; margin-left: 0.2rem; white-space: nowrap; }
+    @media (max-width: 720px) {
+      .scan-day { grid-template-columns: 1fr; }
+      th, td { padding: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+<nav><a href='../../../../'>Index</a></nav><h1>Personal PyPI Supply Chain Scan: bioversions 0.10.1</h1>
+
+<ul>
+<li>Package: bioversions</li>
+<li>Version: 0.10.1</li>
+<li>Project URL: https://pypi.org/project/bioversions/</li>
+<li>Distribution: bioversions-0.10.1.tar.gz</li>
+<li>Package published at: 2026-04-28T02:29:36.909252+00:00</li>
+<li>Scan published at: 2026-04-28T02:30:50.782013+00:00</li>
+<li>Language: en</li>
+<li>Model: gpt-5.5</li>
+<li>Prompt: malicious-supply-chain-review-v2 ([source](../../../../docs/prompts/malicious-supply-chain-review-v2.md))</li>
+<li>Disclaimer: This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</li>
+</ul>
+
+<h2>Deterministic Network Indicators</h2>
+
+<h3>Suspicious Endpoints</h3>
+<ul>
+<li>raw.githubusercontent.com (2 files: bioversions-0.10.1/PKG-INFO, bioversions-0.10.1/README.md)</li>
+</ul>
+
+<h3>Raw Public IPs</h3>
+
+<p>None</p>
+
+<h3>URLs</h3>
+<ul>
+<li>http://archive.geneontology.org/full/{version (1 files: bioversions-0.10.1/src/bioversions/sources/obo.py)</li>
+<li>http://bidd.group/NPASS/ (1 files: bioversions-0.10.1/src/bioversions/sources/npass.py)</li>
+<li>http://bigg.ucsd.edu/api/v2/database_version (1 files: bioversions-0.10.1/src/bioversions/sources/bigg.py)</li>
+<li>http://data.wikipathways.org/current/gmt/ (1 files: bioversions-0.10.1/src/bioversions/sources/wikipathways.py)</li>
+<li>http://data.wikipathways.org/{version (1 files: bioversions-0.10.1/src/bioversions/sources/wikipathways.py)</li>
+<li>http://oncotree.mskcc.org/api/tumorTypes?version=oncotree_{version (1 files: bioversions-0.10.1/src/bioversions/sources/oncotree.py)</li>
+<li>http://oncotree.mskcc.org/api/versions (1 files: bioversions-0.10.1/src/bioversions/sources/oncotree.py)</li>
+<li>http://sgd-archive.yeastgenome.org/sequence/S288C_reference/dates_of_genome_releases.tab (1 files: bioversions-0.10.1/src/bioversions/sources/sgd.py)</li>
+<li>http://www.dgidb.org (1 files: bioversions-0.10.1/src/bioversions/sources/dgi.py)</li>
+<li>http://www.gsea-msigdb.org/gsea/msigdb/index.jsp (1 files: bioversions-0.10.1/src/bioversions/sources/msigdb.py)</li>
+<li>http://www.metalinker.org/ (1 files: bioversions-0.10.1/src/bioversions/sources/uniprot.py)</li>
+<li>http://www.mirbase.org/download_readme/ (1 files: bioversions-0.10.1/src/bioversions/sources/mirbase.py)</li>
+<li>https://antibodyregistry.org/ (1 files: bioversions-0.10.1/src/bioversions/sources/antibodyregistry.py)</li>
+<li>https://biopragmatics.github.io/bioversions (2 files: bioversions-0.10.1/PKG-INFO, bioversions-0.10.1/README.md)</li>
+<li>https://bioversions.readthedocs.io (2 files: bioversions-0.10.1/PKG-INFO, bioversions-0.10.1/pyproject.toml)</li>
+<li>https://bioversions.readthedocs.io/en/latest/?badge=latest (2 files: bioversions-0.10.1/PKG-INFO, bioversions-0.10.1/README.md)</li>
+<li>https://blog.pypi.org/posts/2023-05-25-securing-pypi-with-2fa/ (2 files: bioversions-0.10.1/PKG-INFO, bioversions-0.10.1/README.md)</li>
+<li>https://ca346j0lmg.execute-api.eu-central-1.amazonaws.com/releases (1 files: bioversions-0.10.1/src/bioversions/sources/disgenet.py)</li>
+<li>https://civicdb.org (1 files: bioversions-0.10.1/src/bioversions/sources/civic.py)</li>
+<li>https://civicdb.org/api/graphql (1 files: bioversions-0.10.1/src/bioversions/sources/civic.py)</li>
+<li>https://civicdb.org/releases/main (1 files: bioversions-0.10.1/src/bioversions/sources/civic.py)</li>
+<li>https://codecov.io/gh/biopragmatics/bioversions/branch/main (2 files: bioversions-0.10.1/PKG-INFO, bioversions-0.10.1/README.md)</li>
+<li>https://codecov.io/gh/biopragmatics/bioversions/branch/main/graph/badge.svg (2 files: bioversions-0.10.1/PKG-INFO, bioversions-0.10.1/README.md)</li>
+<li>https://coverage.readthedocs.io/en/latest/config.html (1 files: bioversions-0.10.1/pyproject.toml)</li>
+<li>https://data.ace.uq.edu.au/public/gtdb/data/releases/latest/VERSION.txt (1 files: bioversions-0.10.1/src/bioversions/sources/gtdb.py)</li>
+<li>https://data.broadinstitute.org/gsea-msigdb/msigdb/release/{version (1 files: bioversions-0.10.1/src/bioversions/sources/msigdb.py)</li>
+<li>https://depmap.org/portal/download/api/downloads (1 files: bioversions-0.10.1/src/bioversions/sources/depmap.py)</li>
+<li>https://doc8.readthedocs.io/en/stable/readme.html#ini-file-usage (1 files: bioversions-0.10.1/pyproject.toml)</li>
+<li>https://docs.astral.sh/ruff/rules (1 files: bioversions-0.10.1/pyproject.toml)</li>
+<li>https://docs.astral.sh/ruff/settings/#format_docstring-code-format (1 files: bioversions-0.10.1/pyproject.toml)</li>
+<li>... 50 more</li>
+</ul>
+
+<h3>Domains</h3>
+<ul>
+<li>antibodyregistry.org (1 files: bioversions-0.10.1/src/bioversions/sources/antibodyregistry.py)</li>
+<li>archive.geneontology.org (1 files: bioversions-0.10.1/src/bioversions/sources/obo.py)</li>
+<li>bidd.group (1 files: bioversions-0.10.1/src/bioversions/sources/npass.py)</li>
+<li>bigg.ucsd.edu (1 files: bioversions-0.10.1/src/bioversions/sources/bigg.py)</li>
+<li>biopragmatics.github.io (2 files: bioversions-0.10.1/PKG-INFO, bioversions-0.10.1/README.md)</li>
+<li>bioversions.readthedocs.io (3 files: bioversions-0.10.1/PKG-INFO, bioversions-0.10.1/README.md, bioversions-0.10.1/pyproject.toml)</li>
+<li>blog.pypi.org (2 files: bioversions-0.10.1/PKG-INFO, bioversions-0.10.1/README.md)</li>
+<li>ca346j0lmg.execute-api.eu-central-1.amazonaws.com (1 files: bioversions-0.10.1/src/bioversions/sources/disgenet.py)</li>
+<li>civicdb.org (1 files: bioversions-0.10.1/src/bioversions/sources/civic.py)</li>
+<li>codecov.io (2 files: bioversions-0.10.1/PKG-INFO, bioversions-0.10.1/README.md)</li>
+<li>coverage.readthedocs.io (1 files: bioversions-0.10.1/pyproject.toml)</li>
+<li>data.ace.uq.edu.au (1 files: bioversions-0.10.1/src/bioversions/sources/gtdb.py)</li>
+<li>data.broadinstitute.org (1 files: bioversions-0.10.1/src/bioversions/sources/msigdb.py)</li>
+<li>data.wikipathways.org (1 files: bioversions-0.10.1/src/bioversions/sources/wikipathways.py)</li>
+<li>depmap.org (1 files: bioversions-0.10.1/src/bioversions/sources/depmap.py)</li>
+<li>doc8.readthedocs.io (1 files: bioversions-0.10.1/pyproject.toml)</li>
+<li>docs.astral.sh (3 files: bioversions-0.10.1/PKG-INFO, bioversions-0.10.1/README.md, bioversions-0.10.1/pyproject.toml)</li>
+<li>docs.pytest.org (1 files: bioversions-0.10.1/pyproject.toml)</li>
+<li>docs.readthedocs.io (2 files: bioversions-0.10.1/PKG-INFO, bioversions-0.10.1/README.md)</li>
+<li>download.jsp (1 files: bioversions-0.10.1/src/bioversions/sources/guidetopharmacology.py)</li>
+<li>download.nlm.nih.gov (1 files: bioversions-0.10.1/src/bioversions/sources/rxnorm.py)</li>
+<li>download.rgd.mcw.edu (1 files: bioversions-0.10.1/src/bioversions/sources/rgd.py)</li>
+<li>downloads.thebiogrid.org (3 files: bioversions-0.10.1/PKG-INFO, bioversions-0.10.1/README.md, bioversions-0.10.1/src/bioversions/sources/biogrid.py)</li>
+<li>evsexplore.semantics.cancer.gov (1 files: bioversions-0.10.1/src/bioversions/sources/ncit.py)</li>
+<li>ftp.ebi.ac.uk (5 files: bioversions-0.10.1/src/bioversions/sources/chebi.py, bioversions-0.10.1/src/bioversions/sources/complexportal.py, bioversions-0.10.1/src/bioversions/sources/intact.py, bioversions-0.10.1/src/bioversions/sources/interpro.py, bioversions-0.10.1/src/bioversions/sources/rfam.py)</li>
+<li>ftp.expasy.org (3 files: bioversions-0.10.1/src/bioversions/sources/cellosaurus.py, bioversions-0.10.1/src/bioversions/sources/expasy.py, bioversions-0.10.1/src/bioversions/sources/rhea.py)</li>
+<li>ftp.ncbi.nih.gov (1 files: bioversions-0.10.1/src/bioversions/sources/homologene.py)</li>
+<li>ftp.ncbi.nlm.nih.gov (1 files: bioversions-0.10.1/src/bioversions/sources/pubchem.py)</li>
+<li>ftp.nlm.nih.gov (1 files: bioversions-0.10.1/src/bioversions/sources/chemidplus.py)</li>
+<li>ftp.uniprot.org (1 files: bioversions-0.10.1/src/bioversions/sources/uniprot.py)</li>
+<li>... 50 more</li>
+</ul>
+
+<h2>Verdict</h2>
+
+<p>No confirmed malicious supply-chain compromise indicators. Overall risk: **info**.</p>
+
+<h2>Malicious Supply-Chain Indicators</h2>
+
+<p>No confirmed malicious supply-chain indicators found.</p>
+
+<h2>Automatic Execution Paths</h2>
+
+<ul>
+<li>In the reviewed material, there is no evidence of .pth, sitecustomize.py, usercustomize.py, setup.py execution, install-time scripts, or clearly malicious PEP 517 build hooks.</li>
+<li>Several src/bioversions/sources/*.py files contain if __name__ == &quot;__main__&quot;: ...print(), but this only runs when those files are executed directly and is not evidence of install-time or interpreter-startup execution.</li>
+<li>README/PKG-INFO examples such as bioversions web and bioversions get are normal user-triggered CLI usage.</li>
+</ul>
+
+<h2>Theft / Exfiltration / Persistence / Lateral Movement / Stealth</h2>
+
+<ul>
+<li>**Credential harvesting:** Not observed. Mentions of .pypirc, PyPI tokens, and keyring appear in maintainer documentation in README/PKG-INFO and are not paired with file discovery, token collection, or broad environment-variable harvesting code.</li>
+<li>**Archive staging / exfiltration:** Not observed. .zip URLs, gzip, and requests.get/post appear in the context of querying public biological database versions or constructing public download URLs. There is no evidence of harvested-file compression, temp staging, external uploads, webhooks, or C2-style exfiltration.</li>
+<li>**Persistence:** No evidence of systemd units, cron jobs, launch agents, shell profile modification, or background persistence loops.</li>
+<li>**Kubernetes/CI/cloud lateral movement:** No evidence of kubeconfig access, cloud metadata access, Docker socket use, GitHub Actions token theft, or workflow injection.</li>
+<li>**Obfuscation/loader:** The long base64 string in README/PKG-INFO appears to be an image/png;base64 badge/logo, not an executable loader. re.compile usage is for parsing version strings. No eval/exec/compile, marshal/pickle loader, encrypted payload, or download-and-execute behavior was identified.</li>
+</ul>
+
+<h2>Distribution Integrity Anomalies</h2>
+
+<ul>
+<li>Based on the provided manifest/corpus, there is no evidence of hidden payloads, unexplained native binaries, typosquatting, suspicious .dist-info tampering, or sudden malicious dependency insertion.</li>
+<li>The many external URLs appear consistent with the package’s stated purpose of checking biological database versions or with documentation/badge links.</li>
+</ul>
+
+<h2>Additional Verification Needed</h2>
+
+<ul>
+<li>The input corpus is selective and does not include the full text of all 83 files. Full review of pyproject.toml, src/bioversions/__init__.py, cli.py, __main__.py, and any sdist-vs-wheel differences would provide higher confidence.</li>
+<li>From the evidence provided, there is no basis to classify this package as a malicious supply-chain attack.</li>
+</ul>
+
+<p>---</p>
+
+<p>Prompt source: docs/prompts/malicious-supply-chain-review-v2.md</p>
+
+<p>This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</p>
+
+</body>
+</html>
