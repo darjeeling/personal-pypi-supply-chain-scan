@@ -1,865 +1,636 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "boto3_stubs_full-1.42.97.tar.gz",
-  "finding_count": 9823,
+  "distribution": "cutip-2.6.2-cp313-cp313-win_amd64.whl",
+  "finding_count": 15,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_machinelearning/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_machinelearning/client.pyi"
+          "cutip-2.6.2.dist-info/METADATA"
         ],
-        "value": "aws.amazon.com"
+        "value": "docs.pydantic.dev"
       },
       {
-        "file_count": 2095,
+        "file_count": 1,
         "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/__main__.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi",
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/__main__.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/client.pyi"
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
         ],
-        "value": "boto3.amazonaws.com"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "boto3_stubs_full-1.42.97/PKG-INFO",
-          "boto3_stubs_full-1.42.97/README.md",
-          "boto3_stubs_full-1.42.97/boto3_stubs_full.egg-info/PKG-INFO"
-        ],
-        "value": "code.visualstudio.com"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "boto3_stubs_full-1.42.97/PKG-INFO",
-          "boto3_stubs_full-1.42.97/README.md",
-          "boto3_stubs_full-1.42.97/boto3_stubs_full.egg-info/PKG-INFO"
-        ],
-        "value": "docs.astral.sh"
+        "value": "docs.rs"
       },
       {
         "file_count": 2,
         "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_kms/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_kms/client.pyi"
-        ],
-        "value": "docs.aws"
-      },
-      {
-        "file_count": 90,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_acm/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_acm/client.pyi",
-          "boto3_stubs_full-1.42.97/mypy_boto3_acm_pca/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_acm_pca/client.pyi",
-          "boto3_stubs_full-1.42.97/mypy_boto3_autoscaling/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_autoscaling/client.pyi",
-          "boto3_stubs_full-1.42.97/mypy_boto3_bedrock_agent_runtime/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_bedrock_agent_runtime/client.pyi"
-        ],
-        "value": "docs.aws.amazon.com"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_kms/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_kms/client.pyi"
-        ],
-        "value": "en.wikipedia.org"
-      },
-      {
-        "file_count": 427,
-        "files": [
-          "boto3_stubs_full-1.42.97/PKG-INFO",
-          "boto3_stubs_full-1.42.97/README.md",
-          "boto3_stubs_full-1.42.97/boto3_stubs_full.egg-info/PKG-INFO",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/__main__.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/__main__.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_acm/__main__.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_acm_pca/__main__.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_aiops/__main__.py"
+          "cutip-2.6.2.dist-info/METADATA",
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
         ],
         "value": "github.com"
       },
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "boto3_stubs_full-1.42.97/PKG-INFO",
-          "boto3_stubs_full-1.42.97/README.md",
-          "boto3_stubs_full-1.42.97/boto3_stubs_full.egg-info/PKG-INFO"
+          "cutip-2.6.2.dist-info/METADATA"
         ],
         "value": "img.shields.io"
       },
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "boto3_stubs_full-1.42.97/PKG-INFO",
-          "boto3_stubs_full-1.42.97/README.md",
-          "boto3_stubs_full-1.42.97/boto3_stubs_full.egg-info/PKG-INFO"
+          "cutip-2.6.2.dist-info/METADATA"
         ],
-        "value": "marketplace.visualstudio.com"
+        "value": "joshuajerome.github.io"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_iam/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_iam/client.pyi"
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
         ],
-        "value": "openid.net"
+        "value": "serde.rs"
       },
       {
-        "file_count": 3,
+        "file_count": 1,
         "files": [
-          "boto3_stubs_full-1.42.97/PKG-INFO",
-          "boto3_stubs_full-1.42.97/README.md",
-          "boto3_stubs_full-1.42.97/boto3_stubs_full.egg-info/PKG-INFO"
+          "cutip-2.6.2.dist-info/METADATA"
         ],
-        "value": "packaging.python.org"
-      },
-      {
-        "file_count": 426,
-        "files": [
-          "boto3_stubs_full-1.42.97/PKG-INFO",
-          "boto3_stubs_full-1.42.97/README.md",
-          "boto3_stubs_full-1.42.97/boto3_stubs_full.egg-info/PKG-INFO",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/__main__.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/__main__.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_acm/__main__.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_acm_pca/__main__.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_aiops/__main__.py"
-        ],
-        "value": "pypi.org"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "boto3_stubs_full-1.42.97/PKG-INFO",
-          "boto3_stubs_full-1.42.97/README.md",
-          "boto3_stubs_full-1.42.97/boto3_stubs_full.egg-info/PKG-INFO"
-        ],
-        "value": "pypistats.org"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "boto3_stubs_full-1.42.97/PKG-INFO",
-          "boto3_stubs_full-1.42.97/README.md",
-          "boto3_stubs_full-1.42.97/boto3_stubs_full.egg-info/PKG-INFO"
-        ],
-        "value": "static.pepy.tech"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "boto3_stubs_full-1.42.97/PKG-INFO",
-          "boto3_stubs_full-1.42.97/README.md",
-          "boto3_stubs_full-1.42.97/boto3_stubs_full.egg-info/PKG-INFO"
-        ],
-        "value": "www.gnu.org"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "boto3_stubs_full-1.42.97/PKG-INFO",
-          "boto3_stubs_full-1.42.97/README.md",
-          "boto3_stubs_full-1.42.97/boto3_stubs_full.egg-info/PKG-INFO"
-        ],
-        "value": "www.jetbrains.com"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "boto3_stubs_full-1.42.97/PKG-INFO",
-          "boto3_stubs_full-1.42.97/README.md",
-          "boto3_stubs_full-1.42.97/boto3_stubs_full.egg-info/PKG-INFO"
-        ],
-        "value": "www.sublimetext.com"
-      },
-      {
-        "file_count": 3,
-        "files": [
-          "boto3_stubs_full-1.42.97/PKG-INFO",
-          "boto3_stubs_full-1.42.97/README.md",
-          "boto3_stubs_full-1.42.97/boto3_stubs_full.egg-info/PKG-INFO"
-        ],
-        "value": "youtrack.jetbrains.com"
-      },
-      {
-        "file_count": 4631,
-        "files": [
-          "boto3_stubs_full-1.42.97/PKG-INFO",
-          "boto3_stubs_full-1.42.97/README.md",
-          "boto3_stubs_full-1.42.97/boto3_stubs_full.egg-info/PKG-INFO",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/__init__.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/__init__.pyi",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/__main__.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "youtype.github.io"
+        "value": "www.python.org"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_machinelearning/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_machinelearning/client.pyi"
+          "cutip-2.6.2.dist-info/METADATA"
         ],
-        "value": "http://aws.amazon.com/rds/"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_iam/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_iam/client.pyi"
-        ],
-        "value": "http://openid.net/connect/"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer.html#AccessAnalyzer.Client"
+        "value": "https://docs.pydantic.dev/latest/"
       },
       {
         "file_count": 1,
         "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/__main__.py"
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
         ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer.html#accessanalyzer\\n"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/apply_archive_rule.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/can_paginate.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/cancel_policy_generation.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/check_access_not_granted.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/check_no_new_access.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/check_no_public_access.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/create_access_preview.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/create_analyzer.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/create_archive_rule.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/delete_analyzer.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/delete_archive_rule.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/generate_finding_recommendation.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/generate_presigned_url.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/get_access_preview.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/get_analyzed_resource.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/get_analyzer.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/get_archive_rule.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/get_finding.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/get_finding_recommendation.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/get_finding_v2.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/get_findings_statistics.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/get_generated_policy.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/get_paginator.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/list_access_preview_findings.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/list_access_previews.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/list_analyzed_resources.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/list_analyzers.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/list_archive_rules.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/list_findings.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/list_findings_v2.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/list_policy_generations.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/list_tags_for_resource.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/start_policy_generation.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/start_resource_scan.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/tag_resource.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/untag_resource.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/update_analyzer.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/update_archive_rule.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/update_findings.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/client/validate_policy.html"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/GetFindingRecommendation.html#AccessAnalyzer.Paginator.GetFindingRecommendation"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/GetFindingRecommendation.html#AccessAnalyzer.Paginator.GetFindingRecommendation.paginate"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/GetFindingV2.html#AccessAnalyzer.Paginator.GetFindingV2"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/GetFindingV2.html#AccessAnalyzer.Paginator.GetFindingV2.paginate"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListAccessPreviewFindings.html#AccessAnalyzer.Paginator.ListAccessPreviewFindings"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListAccessPreviewFindings.html#AccessAnalyzer.Paginator.ListAccessPreviewFindings.paginate"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListAccessPreviews.html#AccessAnalyzer.Paginator.ListAccessPreviews"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListAccessPreviews.html#AccessAnalyzer.Paginator.ListAccessPreviews.paginate"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListAnalyzedResources.html#AccessAnalyzer.Paginator.ListAnalyzedResources"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListAnalyzedResources.html#AccessAnalyzer.Paginator.ListAnalyzedResources.paginate"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListAnalyzers.html#AccessAnalyzer.Paginator.ListAnalyzers"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListAnalyzers.html#AccessAnalyzer.Paginator.ListAnalyzers.paginate"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListArchiveRules.html#AccessAnalyzer.Paginator.ListArchiveRules"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListArchiveRules.html#AccessAnalyzer.Paginator.ListArchiveRules.paginate"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListFindings.html#AccessAnalyzer.Paginator.ListFindings"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListFindings.html#AccessAnalyzer.Paginator.ListFindings.paginate"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListFindingsV2.html#AccessAnalyzer.Paginator.ListFindingsV2"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListFindingsV2.html#AccessAnalyzer.Paginator.ListFindingsV2.paginate"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListPolicyGenerations.html#AccessAnalyzer.Paginator.ListPolicyGenerations"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ListPolicyGenerations.html#AccessAnalyzer.Paginator.ListPolicyGenerations.paginate"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ValidatePolicy.html#AccessAnalyzer.Paginator.ValidatePolicy"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_accessanalyzer/paginator.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/accessanalyzer/paginator/ValidatePolicy.html#AccessAnalyzer.Paginator.ValidatePolicy.paginate"
-      },
-      {
-        "file_count": 2,
-        "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/client.pyi"
-        ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/account.html#Account.Client"
+        "value": "https://docs.rs/anyhow"
       },
       {
         "file_count": 1,
         "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/__main__.py"
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
         ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/account.html#account\\n"
+        "value": "https://docs.rs/autocfg/"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/client.pyi"
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
         ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/account/client/accept_primary_email_update.html"
+        "value": "https://docs.rs/crate/pyo3/"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/client.pyi"
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
         ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/account/client/can_paginate.html"
+        "value": "https://docs.rs/indexmap/"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/client.pyi"
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
         ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/account/client/delete_alternate_contact.html"
+        "value": "https://docs.rs/indoc"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/client.pyi"
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
         ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/account/client/disable_region.html"
+        "value": "https://docs.rs/itoa"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/client.pyi"
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
         ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/account/client/enable_region.html"
+        "value": "https://docs.rs/memchr/"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/client.pyi"
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
         ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/account/client/generate_presigned_url.html"
+        "value": "https://docs.rs/once_cell"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/client.pyi"
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
         ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/account/client/get_account_information.html"
+        "value": "https://docs.rs/proc-macro2"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/client.pyi"
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
         ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/account/client/get_alternate_contact.html"
+        "value": "https://docs.rs/quote/"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/client.pyi"
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
         ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/account/client/get_contact_information.html"
+        "value": "https://docs.rs/rustversion"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/client.pyi"
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
         ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/account/client/get_gov_cloud_account_information.html"
+        "value": "https://docs.rs/ryu"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/client.pyi"
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
         ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/account/client/get_paginator.html"
+        "value": "https://docs.rs/same-file"
       },
       {
-        "file_count": 2,
+        "file_count": 1,
         "files": [
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/client.py",
-          "boto3_stubs_full-1.42.97/mypy_boto3_account/client.pyi"
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
         ],
-        "value": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/account/client/get_primary_email.html"
+        "value": "https://docs.rs/serde"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/serde_core"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/serde_json"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/serde_yaml/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/syn"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/target-lexicon/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/unicode-ident"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/unindent"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/unsafe-libyaml"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/walkdir/"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/winapi-util"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://docs.rs/zmij"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/BurntSushi/memchr"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/BurntSushi/same-file"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/BurntSushi/walkdir"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/BurntSushi/winapi-util"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/Gilnaa/memoffset"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/PyO3"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/METADATA"
+        ],
+        "value": "https://github.com/astral-sh/uv"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/bytecodealliance/target-lexicon"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/cuviper/autocfg"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/dtolnay/anyhow"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/dtolnay/indoc"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/dtolnay/itoa"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/dtolnay/proc-macro2"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/dtolnay/quote"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/dtolnay/rustversion"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/dtolnay/ryu"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/dtolnay/serde-yaml"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/dtolnay/syn"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/dtolnay/unicode-ident"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/dtolnay/unsafe-libyaml"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/dtolnay/zmij"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/indexmap-rs/equivalent"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/indexmap-rs/indexmap"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/METADATA"
+        ],
+        "value": "https://github.com/joshuajerome/cutip"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/METADATA"
+        ],
+        "value": "https://github.com/joshuajerome/cutip-blocks"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/METADATA"
+        ],
+        "value": "https://github.com/joshuajerome/cutip-desktop"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/METADATA"
+        ],
+        "value": "https://github.com/joshuajerome/cutip/actions/workflows/ci.yml"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/METADATA"
+        ],
+        "value": "https://github.com/joshuajerome/cutip/actions/workflows/ci.yml/badge.svg"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/matklad/once_cell"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/microsoft/windows-rs"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/pyo3/pyo3"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/rust-lang/cfg-if"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/rust-lang/crates.io-index#anyhow@1.0.102"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/rust-lang/crates.io-index#autocfg@1.5.0"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/rust-lang/crates.io-index#cfg-if@1.0.4"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/rust-lang/crates.io-index#equivalent@1.0.2"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/rust-lang/crates.io-index#hashbrown@0.17.0"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/rust-lang/crates.io-index#heck@0.5.0"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/rust-lang/crates.io-index#indexmap@2.14.0"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/rust-lang/crates.io-index#indoc@2.0.7"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/rust-lang/crates.io-index#itoa@1.0.18"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/rust-lang/crates.io-index#libc@0.2.186"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/rust-lang/crates.io-index#memchr@2.8.0"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/rust-lang/crates.io-index#memoffset@0.9.1"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/rust-lang/crates.io-index#once_cell@1.21.4"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/rust-lang/crates.io-index#proc-macro2@1.0.106"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/rust-lang/crates.io-index#pyo3-build-config@0.24.2"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/rust-lang/crates.io-index#pyo3-ffi@0.24.2"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/rust-lang/crates.io-index#pyo3-macros-backend@0.24.2"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/rust-lang/crates.io-index#pyo3-macros@0.24.2"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/rust-lang/crates.io-index#pyo3@0.24.2"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/rust-lang/crates.io-index#quote@1.0.45"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/rust-lang/crates.io-index#rustversion@1.0.22"
+      },
+      {
+        "file_count": 1,
+        "files": [
+          "cutip-2.6.2.dist-info/sboms/cutip_core.cyclonedx.json"
+        ],
+        "value": "https://github.com/rust-lang/crates.io-index#ryu@1.0.23"
       }
     ]
   },
-  "package": "boto3-stubs-full",
-  "package_slug": "boto3-stubs-full",
-  "project_url": "https://pypi.org/project/boto3-stubs-full/",
+  "package": "cutip",
+  "package_slug": "cutip",
+  "project_url": "https://pypi.org/project/cutip/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-28T02:40:31.624014+00:00",
+  "published_at": "2026-04-28T04:02:51.328401+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-28T03:59:02.182223+00:00",
-  "title": "Personal PyPI Supply Chain Scan: boto3-stubs-full 1.42.97",
-  "version": "1.42.97",
-  "version_slug": "1.42.97",
-  "_metadata_path": "reports/packages/boto3-stubs-full/1.42.97/metadata.json"
+  "scanned_at": "2026-04-28T04:03:26.799858+00:00",
+  "title": "Personal PyPI Supply Chain Scan: cutip 2.6.2",
+  "version": "2.6.2",
+  "version_slug": "2.6.2",
+  "_metadata_path": "reports/packages/cutip/2.6.2/metadata.json"
 }
