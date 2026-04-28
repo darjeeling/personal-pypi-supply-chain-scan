@@ -6,6 +6,8 @@ import json
 import sys
 import time
 
+import httpx
+
 from .cleanup import cleanup_scan_artifacts
 from .config import load_config, write_default_config
 from .container import extract_in_container
@@ -80,7 +82,10 @@ def _run_loop(config_path: Path, *, force: bool, dry_run: bool, sleep_seconds: i
         while True:
             started = schedule_now(config.schedule)
             print(f"loop cycle start at {started.isoformat()}")
-            _run_once(config_path, force=force, dry_run=dry_run)
+            try:
+                _run_once(config_path, force=force, dry_run=dry_run)
+            except Exception as exc:
+                print(f"loop cycle error: {exc}", file=sys.stderr)
             print(f"loop sleep {delay} seconds")
             time.sleep(delay)
     except KeyboardInterrupt:
@@ -122,7 +127,9 @@ def _run_once(config_path: Path, *, force: bool, dry_run: bool) -> int:
             if store.has_processed(package):
                 print(f"skip already processed {package.name} {package.version}")
                 continue
-            release = resolve_release(package)
+            release = _resolve_release_with_retries(package, attempts=config.run.release_retry_attempts, delay=config.run.release_retry_sleep_seconds)
+            if release is None:
+                continue
             store.record_release(release)
             print(f"candidate {package.name} {package.version} {release.filename}")
             if dry_run:
@@ -165,6 +172,22 @@ def _maybe_publish(config: object, scanned_count: int) -> None:
     build_pages(config.paths.reports_dir, config.paths.site_dir)
     publish_pages(config.paths.site_dir, branch=config.publish.branch, push=config.publish.push)
     print(f"published pages after {scanned_count} successful scans")
+
+
+def _resolve_release_with_retries(package: object, *, attempts: int, delay: int) -> object | None:
+    max_attempts = max(1, attempts)
+    for attempt in range(1, max_attempts + 1):
+        try:
+            return resolve_release(package)
+        except httpx.HTTPStatusError as exc:
+            if exc.response.status_code != 404:
+                raise
+            if attempt >= max_attempts:
+                print(f"release unavailable 404 after {attempt}/{max_attempts} attempts; will retry later {package.name} {package.version}")
+                return None
+            print(f"release unavailable 404; retry {attempt + 1}/{max_attempts} after {delay}s {package.name} {package.version}")
+            time.sleep(max(0, delay))
+    return None
 
 
 def _maybe_cleanup(config: object, scanned_count: int) -> None:

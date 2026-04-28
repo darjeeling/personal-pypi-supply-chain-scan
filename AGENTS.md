@@ -76,6 +76,7 @@ Do not elevate ordinary CLI behavior, normal SDK/API calls, expected environment
 - Keep `max_scans_per_run` and `max_llm_calls_per_run` configurable.
 - Log usage gate decisions and one-line scan summaries so unattended runs are reviewable from logs.
 - `run` is one-shot by default; `run --loop` should keep cycling forever and use `[run].sleep_seconds` unless `--sleep-seconds` overrides it.
+- Treat PyPI release JSON `404` as temporarily unavailable; retry using `[run].release_retry_attempts`, do not mark the package processed if retries fail, and let loop mode sleep before retrying later.
 
 ## Cleanup
 

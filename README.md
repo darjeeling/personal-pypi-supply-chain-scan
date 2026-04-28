@@ -70,6 +70,8 @@ scan_windows = ["09:00-18:00"]
 
 [run]
 sleep_seconds = 1800
+release_retry_attempts = 3
+release_retry_sleep_seconds = 10
 
 [limits]
 max_updates = 10
@@ -116,6 +118,7 @@ docker_prune = false
 Empty schedule windows mean always allowed.
 
 `run` is a single scan cycle by default. Add `--loop` to keep running forever and sleep between cycles. The loop delay comes from `[run].sleep_seconds` and can be overridden with `--sleep-seconds`.
+If PyPI RSS references a release whose JSON API returns `404`, the scanner retries `[run].release_retry_attempts` times with `[run].release_retry_sleep_seconds` delay. If it still fails, the release is left unprocessed for a later loop cycle.
 
 The primary 5-hour usage window uses a remaining-percent threshold. The secondary weekly usage window is treated as a conservative daily budget: `100 / secondary_daily_budget_divisor` percent per elapsed day in the current secondary window, with at least one day of budget allowed.
 

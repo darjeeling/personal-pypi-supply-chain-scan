@@ -14,6 +14,8 @@ scan_windows = ["09:00-18:00"]
 
 [run]
 sleep_seconds = 1800
+release_retry_attempts = 3
+release_retry_sleep_seconds = 10
 
 [limits]
 max_updates = 10
@@ -79,6 +81,8 @@ class ScheduleConfig:
 @dataclass(frozen=True)
 class RunConfig:
     sleep_seconds: int = 1800
+    release_retry_attempts: int = 3
+    release_retry_sleep_seconds: int = 10
 
 
 @dataclass(frozen=True)
