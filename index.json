@@ -1,6 +1,38 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "agentskeptic-1.4.0.tar.gz",
+    "finding_count": 2,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "agentskeptic-1.4.0/src/agentskeptic_conformance/run.py"
+          ],
+          "value": "raw.strip"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": []
+    },
+    "package": "agentskeptic",
+    "package_slug": "agentskeptic",
+    "project_url": "https://pypi.org/project/agentskeptic/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-28T03:48:53.888391+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-28T03:49:53.260999+00:00",
+    "title": "Personal PyPI Supply Chain Scan: agentskeptic 1.4.0",
+    "version": "1.4.0",
+    "version_slug": "1.4.0",
+    "_metadata_path": "reports/packages/agentskeptic/1.4.0/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "smoke_optimiser-0.1.0.tar.gz",
     "finding_count": 21,
     "model": "gpt-5.5",
