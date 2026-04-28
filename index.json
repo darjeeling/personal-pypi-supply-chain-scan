@@ -1,6 +1,184 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "coil_geom-0.2.20.tar.gz",
+    "finding_count": 1,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 4,
+          "files": [
+            "coil_geom-0.2.20/PKG-INFO",
+            "coil_geom-0.2.20/README.md",
+            "coil_geom-0.2.20/coil_geom.egg-info/PKG-INFO",
+            "coil_geom-0.2.20/pyproject.toml"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "coil_geom-0.2.20/PKG-INFO",
+            "coil_geom-0.2.20/README.md",
+            "coil_geom-0.2.20/coil_geom.egg-info/PKG-INFO"
+          ],
+          "value": "img.shields.io"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "coil_geom-0.2.20/PKG-INFO",
+            "coil_geom-0.2.20/README.md",
+            "coil_geom-0.2.20/coil_geom.egg-info/PKG-INFO"
+          ],
+          "value": "pypi.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "coil_geom-0.2.20/coil_geom/coil_export.py"
+          ],
+          "value": "www.w3.org"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "coil_geom-0.2.20/coil_geom/coil_export.py"
+          ],
+          "value": "http://www.w3.org/2000/svg\\"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "coil_geom-0.2.20/PKG-INFO",
+            "coil_geom-0.2.20/README.md",
+            "coil_geom-0.2.20/coil_geom.egg-info/PKG-INFO",
+            "coil_geom-0.2.20/pyproject.toml"
+          ],
+          "value": "https://github.com/uhwang/Coil-Geom"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "coil_geom-0.2.20/PKG-INFO",
+            "coil_geom-0.2.20/README.md",
+            "coil_geom-0.2.20/coil_geom.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/uhwang/Coil-Geom/blob/main/images/3p_delta.jpg?raw=true"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "coil_geom-0.2.20/PKG-INFO",
+            "coil_geom-0.2.20/README.md",
+            "coil_geom-0.2.20/coil_geom.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/uhwang/Coil-Geom/blob/main/images/3p_y.jpg?raw=true"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "coil_geom-0.2.20/PKG-INFO",
+            "coil_geom-0.2.20/README.md",
+            "coil_geom-0.2.20/coil_geom.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/uhwang/Coil-Geom/blob/main/images/circlecoil_02.jpg?raw=true"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "coil_geom-0.2.20/PKG-INFO",
+            "coil_geom-0.2.20/README.md",
+            "coil_geom-0.2.20/coil_geom.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/uhwang/Coil-Geom/blob/main/images/coil-matplotlib.jpg?raw=true"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "coil_geom-0.2.20/PKG-INFO",
+            "coil_geom-0.2.20/README.md",
+            "coil_geom-0.2.20/coil_geom.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/uhwang/Coil-Geom/blob/main/images/ellipsecoil_02.jpg?raw=true"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "coil_geom-0.2.20/PKG-INFO",
+            "coil_geom-0.2.20/README.md",
+            "coil_geom-0.2.20/coil_geom.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/uhwang/Coil-Geom/blob/main/images/ellipsecoilcurvature_02.jpg?raw=true"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "coil_geom-0.2.20/PKG-INFO",
+            "coil_geom-0.2.20/README.md",
+            "coil_geom-0.2.20/coil_geom.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/uhwang/Coil-Geom/blob/main/images/ellipsecoilshape_02.jpg?raw=true"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "coil_geom-0.2.20/PKG-INFO",
+            "coil_geom-0.2.20/README.md",
+            "coil_geom-0.2.20/coil_geom.egg-info/PKG-INFO",
+            "coil_geom-0.2.20/pyproject.toml"
+          ],
+          "value": "https://github.com/uhwang/Coil-Geom/issues"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "coil_geom-0.2.20/PKG-INFO",
+            "coil_geom-0.2.20/README.md",
+            "coil_geom-0.2.20/coil_geom.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/pypi/l/coil-geom"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "coil_geom-0.2.20/PKG-INFO",
+            "coil_geom-0.2.20/README.md",
+            "coil_geom-0.2.20/coil_geom.egg-info/PKG-INFO"
+          ],
+          "value": "https://img.shields.io/pypi/v/coil-geom"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "coil_geom-0.2.20/PKG-INFO",
+            "coil_geom-0.2.20/README.md",
+            "coil_geom-0.2.20/coil_geom.egg-info/PKG-INFO"
+          ],
+          "value": "https://pypi.org/project/coil-geom/"
+        }
+      ]
+    },
+    "package": "coil-geom",
+    "package_slug": "coil-geom",
+    "project_url": "https://pypi.org/project/coil-geom/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-28T02:38:04.998702+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-28T02:39:53.739655+00:00",
+    "title": "Personal PyPI Supply Chain Scan: coil-geom 0.2.20",
+    "version": "0.2.20",
+    "version_slug": "0.2.20",
+    "_metadata_path": "reports/packages/coil-geom/0.2.20/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "mettagrid-0.26.11.tar.gz",
     "finding_count": 235,
     "model": "gpt-5.5",
