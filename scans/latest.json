@@ -1,178 +1,196 @@
 {
   "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
-  "distribution": "coil_geom-0.2.20.tar.gz",
-  "finding_count": 1,
+  "distribution": "philiprehberger_semver-0.2.0.tar.gz",
+  "finding_count": 11,
   "model": "gpt-5.5",
   "network_indicators": {
     "domains": [
       {
-        "file_count": 4,
+        "file_count": 3,
         "files": [
-          "coil_geom-0.2.20/PKG-INFO",
-          "coil_geom-0.2.20/README.md",
-          "coil_geom-0.2.20/coil_geom.egg-info/PKG-INFO",
-          "coil_geom-0.2.20/pyproject.toml"
+          "philiprehberger_semver-0.2.0/PKG-INFO",
+          "philiprehberger_semver-0.2.0/README.md",
+          "philiprehberger_semver-0.2.0/pyproject.toml"
         ],
         "value": "github.com"
       },
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "coil_geom-0.2.20/PKG-INFO",
-          "coil_geom-0.2.20/README.md",
-          "coil_geom-0.2.20/coil_geom.egg-info/PKG-INFO"
+          "philiprehberger_semver-0.2.0/PKG-INFO",
+          "philiprehberger_semver-0.2.0/README.md"
         ],
         "value": "img.shields.io"
       },
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "coil_geom-0.2.20/PKG-INFO",
-          "coil_geom-0.2.20/README.md",
-          "coil_geom-0.2.20/coil_geom.egg-info/PKG-INFO"
+          "philiprehberger_semver-0.2.0/PKG-INFO",
+          "philiprehberger_semver-0.2.0/README.md"
+        ],
+        "value": "philiprehberger.com"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "philiprehberger_semver-0.2.0/PKG-INFO",
+          "philiprehberger_semver-0.2.0/README.md"
         ],
         "value": "pypi.org"
       },
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "coil_geom-0.2.20/coil_geom/coil_export.py"
+          "philiprehberger_semver-0.2.0/PKG-INFO",
+          "philiprehberger_semver-0.2.0/README.md"
         ],
-        "value": "www.w3.org"
+        "value": "www.linkedin.com"
       }
     ],
     "raw_public_ips": [],
     "suspicious_endpoints": [],
     "urls": [
       {
-        "file_count": 1,
+        "file_count": 2,
         "files": [
-          "coil_geom-0.2.20/coil_geom/coil_export.py"
+          "philiprehberger_semver-0.2.0/PKG-INFO",
+          "philiprehberger_semver-0.2.0/README.md"
         ],
-        "value": "http://www.w3.org/2000/svg\\"
-      },
-      {
-        "file_count": 4,
-        "files": [
-          "coil_geom-0.2.20/PKG-INFO",
-          "coil_geom-0.2.20/README.md",
-          "coil_geom-0.2.20/coil_geom.egg-info/PKG-INFO",
-          "coil_geom-0.2.20/pyproject.toml"
-        ],
-        "value": "https://github.com/uhwang/Coil-Geom"
+        "value": "https://github.com/philiprehberger"
       },
       {
         "file_count": 3,
         "files": [
-          "coil_geom-0.2.20/PKG-INFO",
-          "coil_geom-0.2.20/README.md",
-          "coil_geom-0.2.20/coil_geom.egg-info/PKG-INFO"
+          "philiprehberger_semver-0.2.0/PKG-INFO",
+          "philiprehberger_semver-0.2.0/README.md",
+          "philiprehberger_semver-0.2.0/pyproject.toml"
         ],
-        "value": "https://github.com/uhwang/Coil-Geom/blob/main/images/3p_delta.jpg?raw=true"
+        "value": "https://github.com/philiprehberger/py-semver"
       },
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "coil_geom-0.2.20/PKG-INFO",
-          "coil_geom-0.2.20/README.md",
-          "coil_geom-0.2.20/coil_geom.egg-info/PKG-INFO"
+          "philiprehberger_semver-0.2.0/PKG-INFO",
+          "philiprehberger_semver-0.2.0/pyproject.toml"
         ],
-        "value": "https://github.com/uhwang/Coil-Geom/blob/main/images/3p_y.jpg?raw=true"
+        "value": "https://github.com/philiprehberger/py-semver#readme"
       },
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "coil_geom-0.2.20/PKG-INFO",
-          "coil_geom-0.2.20/README.md",
-          "coil_geom-0.2.20/coil_geom.egg-info/PKG-INFO"
+          "philiprehberger_semver-0.2.0/PKG-INFO",
+          "philiprehberger_semver-0.2.0/README.md"
         ],
-        "value": "https://github.com/uhwang/Coil-Geom/blob/main/images/circlecoil_02.jpg?raw=true"
+        "value": "https://github.com/philiprehberger/py-semver/actions/workflows/publish.yml"
       },
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "coil_geom-0.2.20/PKG-INFO",
-          "coil_geom-0.2.20/README.md",
-          "coil_geom-0.2.20/coil_geom.egg-info/PKG-INFO"
+          "philiprehberger_semver-0.2.0/PKG-INFO",
+          "philiprehberger_semver-0.2.0/README.md"
         ],
-        "value": "https://github.com/uhwang/Coil-Geom/blob/main/images/coil-matplotlib.jpg?raw=true"
+        "value": "https://github.com/philiprehberger/py-semver/actions/workflows/publish.yml/badge.svg"
       },
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "coil_geom-0.2.20/PKG-INFO",
-          "coil_geom-0.2.20/README.md",
-          "coil_geom-0.2.20/coil_geom.egg-info/PKG-INFO"
+          "philiprehberger_semver-0.2.0/PKG-INFO",
+          "philiprehberger_semver-0.2.0/pyproject.toml"
         ],
-        "value": "https://github.com/uhwang/Coil-Geom/blob/main/images/ellipsecoil_02.jpg?raw=true"
+        "value": "https://github.com/philiprehberger/py-semver/blob/main/CHANGELOG.md"
       },
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "coil_geom-0.2.20/PKG-INFO",
-          "coil_geom-0.2.20/README.md",
-          "coil_geom-0.2.20/coil_geom.egg-info/PKG-INFO"
+          "philiprehberger_semver-0.2.0/PKG-INFO",
+          "philiprehberger_semver-0.2.0/README.md"
         ],
-        "value": "https://github.com/uhwang/Coil-Geom/blob/main/images/ellipsecoilcurvature_02.jpg?raw=true"
+        "value": "https://github.com/philiprehberger/py-semver/commits/main"
       },
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "coil_geom-0.2.20/PKG-INFO",
-          "coil_geom-0.2.20/README.md",
-          "coil_geom-0.2.20/coil_geom.egg-info/PKG-INFO"
+          "philiprehberger_semver-0.2.0/PKG-INFO",
+          "philiprehberger_semver-0.2.0/pyproject.toml"
         ],
-        "value": "https://github.com/uhwang/Coil-Geom/blob/main/images/ellipsecoilshape_02.jpg?raw=true"
+        "value": "https://github.com/philiprehberger/py-semver/issues"
       },
       {
-        "file_count": 4,
+        "file_count": 2,
         "files": [
-          "coil_geom-0.2.20/PKG-INFO",
-          "coil_geom-0.2.20/README.md",
-          "coil_geom-0.2.20/coil_geom.egg-info/PKG-INFO",
-          "coil_geom-0.2.20/pyproject.toml"
+          "philiprehberger_semver-0.2.0/PKG-INFO",
+          "philiprehberger_semver-0.2.0/README.md"
         ],
-        "value": "https://github.com/uhwang/Coil-Geom/issues"
+        "value": "https://github.com/philiprehberger/py-semver/issues?q=is%3Aissue+is%3Aopen+label%3Abug"
       },
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "coil_geom-0.2.20/PKG-INFO",
-          "coil_geom-0.2.20/README.md",
-          "coil_geom-0.2.20/coil_geom.egg-info/PKG-INFO"
+          "philiprehberger_semver-0.2.0/PKG-INFO",
+          "philiprehberger_semver-0.2.0/README.md"
         ],
-        "value": "https://img.shields.io/pypi/l/coil-geom"
+        "value": "https://github.com/philiprehberger/py-semver/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement"
       },
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "coil_geom-0.2.20/PKG-INFO",
-          "coil_geom-0.2.20/README.md",
-          "coil_geom-0.2.20/coil_geom.egg-info/PKG-INFO"
+          "philiprehberger_semver-0.2.0/PKG-INFO",
+          "philiprehberger_semver-0.2.0/README.md"
         ],
-        "value": "https://img.shields.io/pypi/v/coil-geom"
+        "value": "https://github.com/sponsors/philiprehberger"
       },
       {
-        "file_count": 3,
+        "file_count": 2,
         "files": [
-          "coil_geom-0.2.20/PKG-INFO",
-          "coil_geom-0.2.20/README.md",
-          "coil_geom-0.2.20/coil_geom.egg-info/PKG-INFO"
+          "philiprehberger_semver-0.2.0/PKG-INFO",
+          "philiprehberger_semver-0.2.0/README.md"
         ],
-        "value": "https://pypi.org/project/coil-geom/"
+        "value": "https://img.shields.io/github/last-commit/philiprehberger/py-semver"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "philiprehberger_semver-0.2.0/PKG-INFO",
+          "philiprehberger_semver-0.2.0/README.md"
+        ],
+        "value": "https://img.shields.io/pypi/v/philiprehberger-semver.svg"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "philiprehberger_semver-0.2.0/PKG-INFO",
+          "philiprehberger_semver-0.2.0/README.md"
+        ],
+        "value": "https://philiprehberger.com/open-source-packages"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "philiprehberger_semver-0.2.0/PKG-INFO",
+          "philiprehberger_semver-0.2.0/README.md"
+        ],
+        "value": "https://pypi.org/project/philiprehberger-semver/"
+      },
+      {
+        "file_count": 2,
+        "files": [
+          "philiprehberger_semver-0.2.0/PKG-INFO",
+          "philiprehberger_semver-0.2.0/README.md"
+        ],
+        "value": "https://www.linkedin.com/in/philiprehberger"
       }
     ]
   },
-  "package": "coil-geom",
-  "package_slug": "coil-geom",
-  "project_url": "https://pypi.org/project/coil-geom/",
+  "package": "philiprehberger-semver",
+  "package_slug": "philiprehberger-semver",
+  "project_url": "https://pypi.org/project/philiprehberger-semver/",
   "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
   "prompt_version": "malicious-supply-chain-review-v2",
-  "published_at": "2026-04-28T02:38:04.998702+00:00",
+  "published_at": "2026-04-28T02:42:52.905357+00:00",
   "risk": "info",
-  "scanned_at": "2026-04-28T02:39:53.739655+00:00",
-  "title": "Personal PyPI Supply Chain Scan: coil-geom 0.2.20",
-  "version": "0.2.20",
-  "version_slug": "0.2.20",
-  "_metadata_path": "reports/packages/coil-geom/0.2.20/metadata.json"
+  "scanned_at": "2026-04-28T02:44:09.883258+00:00",
+  "title": "Personal PyPI Supply Chain Scan: philiprehberger-semver 0.2.0",
+  "version": "0.2.0",
+  "version_slug": "0.2.0",
+  "_metadata_path": "reports/packages/philiprehberger-semver/0.2.0/metadata.json"
 }
