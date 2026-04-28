@@ -1,6 +1,86 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "fastloom-0.4.36.tar.gz",
+    "finding_count": 1,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 3,
+          "files": [
+            "fastloom-0.4.36/PKG-INFO",
+            "fastloom-0.4.36/README.md",
+            "fastloom-0.4.36/pyproject.toml"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "fastloom-0.4.36/fastloom/test/fixtures/auth.py"
+          ],
+          "value": "localhot"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "fastloom-0.4.36/fastloom/test/fixtures/app.py"
+          ],
+          "value": "http://testserver{TC.general.API_PREFIX"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "fastloom-0.4.36/PKG-INFO",
+            "fastloom-0.4.36/pyproject.toml"
+          ],
+          "value": "https://github.com/aradng/FastLoom"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "fastloom-0.4.36/PKG-INFO",
+            "fastloom-0.4.36/README.md"
+          ],
+          "value": "https://github.com/open-policy-agent/opa"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "fastloom-0.4.36/PKG-INFO",
+            "fastloom-0.4.36/README.md"
+          ],
+          "value": "https://github.com/permitio/opal"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "fastloom-0.4.36/fastloom/test/fixtures/auth.py"
+          ],
+          "value": "https://localhot/{tenant_name"
+        }
+      ]
+    },
+    "package": "fastloom",
+    "package_slug": "fastloom",
+    "project_url": "https://pypi.org/project/fastloom/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-28T03:52:52.265328+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-28T03:54:13.981248+00:00",
+    "title": "Personal PyPI Supply Chain Scan: fastloom 0.4.36",
+    "version": "0.4.36",
+    "version_slug": "0.4.36",
+    "_metadata_path": "reports/packages/fastloom/0.4.36/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "agentskeptic-1.4.0.tar.gz",
     "finding_count": 2,
     "model": "gpt-5.5",
