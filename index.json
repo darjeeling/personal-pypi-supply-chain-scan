@@ -1,6 +1,360 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "pyfies-0.1.1.tar.gz",
+    "finding_count": 6,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "pyfies-0.1.1/scripts/generate_r_fixtures.R"
+          ],
+          "value": "cloud.r-project.org"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "pyfies-0.1.1/PKG-INFO",
+            "pyfies-0.1.1/README.md",
+            "pyfies-0.1.1/docs/index.md",
+            "pyfies-0.1.1/docs/parity.md"
+          ],
+          "value": "cran.r-project.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "pyfies-0.1.1/PUBLISHING.md"
+          ],
+          "value": "docs.pypi.org"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "pyfies-0.1.1/PKG-INFO",
+            "pyfies-0.1.1/README.md",
+            "pyfies-0.1.1/docs/index.md"
+          ],
+          "value": "doi.org"
+        },
+        {
+          "file_count": 7,
+          "files": [
+            "pyfies-0.1.1/.pre-commit-config.yaml",
+            "pyfies-0.1.1/PKG-INFO",
+            "pyfies-0.1.1/PUBLISHING.md",
+            "pyfies-0.1.1/docs/index.md",
+            "pyfies-0.1.1/docs/quickstart.md",
+            "pyfies-0.1.1/mkdocs.yml",
+            "pyfies-0.1.1/pyproject.toml"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "pyfies-0.1.1/CHANGELOG.md"
+          ],
+          "value": "keepachangelog.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "pyfies-0.1.1/mkdocs.yml"
+          ],
+          "value": "navigation.top"
+        },
+        {
+          "file_count": 5,
+          "files": [
+            "pyfies-0.1.1/CHANGELOG.md",
+            "pyfies-0.1.1/PKG-INFO",
+            "pyfies-0.1.1/PUBLISHING.md",
+            "pyfies-0.1.1/mkdocs.yml",
+            "pyfies-0.1.1/pyproject.toml"
+          ],
+          "value": "nejohnson2.github.io"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "pyfies-0.1.1/.github/workflows/release.yml",
+            "pyfies-0.1.1/PUBLISHING.md"
+          ],
+          "value": "pypi.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "pyfies-0.1.1/CHANGELOG.md"
+          ],
+          "value": "semver.org"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "pyfies-0.1.1/.github/workflows/release.yml",
+            "pyfies-0.1.1/PUBLISHING.md"
+          ],
+          "value": "test.pypi.org"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "pyfies-0.1.1/mkdocs.yml"
+          ],
+          "value": "unpkg.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "pyfies-0.1.1/LICENSE"
+          ],
+          "value": "www.apache.org"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "pyfies-0.1.1/PKG-INFO",
+            "pyfies-0.1.1/README.md",
+            "pyfies-0.1.1/docs/methodology.md"
+          ],
+          "value": "www.fao.org"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "pyfies-0.1.1/LICENSE"
+          ],
+          "value": "http://www.apache.org/licenses/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "pyfies-0.1.1/LICENSE"
+          ],
+          "value": "http://www.apache.org/licenses/LICENSE-2.0"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "pyfies-0.1.1/scripts/generate_r_fixtures.R"
+          ],
+          "value": "https://cloud.r-project.org"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "pyfies-0.1.1/PKG-INFO",
+            "pyfies-0.1.1/README.md",
+            "pyfies-0.1.1/docs/index.md",
+            "pyfies-0.1.1/docs/parity.md"
+          ],
+          "value": "https://cran.r-project.org/package=RM.weights"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "pyfies-0.1.1/PUBLISHING.md"
+          ],
+          "value": "https://docs.pypi.org/trusted-publishers/"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "pyfies-0.1.1/PKG-INFO",
+            "pyfies-0.1.1/README.md",
+            "pyfies-0.1.1/docs/index.md"
+          ],
+          "value": "https://doi.org/10.1016/j.measurement.2017.10.065"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "pyfies-0.1.1/.pre-commit-config.yaml"
+          ],
+          "value": "https://github.com/astral-sh/ruff-pre-commit"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "pyfies-0.1.1/PKG-INFO",
+            "pyfies-0.1.1/docs/quickstart.md",
+            "pyfies-0.1.1/mkdocs.yml",
+            "pyfies-0.1.1/pyproject.toml"
+          ],
+          "value": "https://github.com/nejohnson2/pyFIES"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "pyfies-0.1.1/docs/index.md"
+          ],
+          "value": "https://github.com/nejohnson2/pyFIES/blob/main/LICENSE"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "pyfies-0.1.1/PKG-INFO",
+            "pyfies-0.1.1/pyproject.toml"
+          ],
+          "value": "https://github.com/nejohnson2/pyFIES/issues"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "pyfies-0.1.1/.pre-commit-config.yaml"
+          ],
+          "value": "https://github.com/pre-commit/pre-commit-hooks"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "pyfies-0.1.1/CHANGELOG.md"
+          ],
+          "value": "https://keepachangelog.com/en/1.1.0/"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "pyfies-0.1.1/CHANGELOG.md",
+            "pyfies-0.1.1/PKG-INFO",
+            "pyfies-0.1.1/mkdocs.yml",
+            "pyfies-0.1.1/pyproject.toml"
+          ],
+          "value": "https://nejohnson2.github.io/pyFIES/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "pyfies-0.1.1/PUBLISHING.md"
+          ],
+          "value": "https://nejohnson2.github.io/pyFIES/`"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "pyfies-0.1.1/PUBLISHING.md"
+          ],
+          "value": "https://pypi.org/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "pyfies-0.1.1/PUBLISHING.md"
+          ],
+          "value": "https://pypi.org/account/register/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "pyfies-0.1.1/.github/workflows/release.yml"
+          ],
+          "value": "https://pypi.org/p/pyfies"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "pyfies-0.1.1/PUBLISHING.md"
+          ],
+          "value": "https://pypi.org/simple/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "pyfies-0.1.1/CHANGELOG.md"
+          ],
+          "value": "https://semver.org/spec/v2.0.0.html"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "pyfies-0.1.1/PUBLISHING.md"
+          ],
+          "value": "https://test.pypi.org/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "pyfies-0.1.1/PUBLISHING.md"
+          ],
+          "value": "https://test.pypi.org/account/register/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "pyfies-0.1.1/.github/workflows/release.yml"
+          ],
+          "value": "https://test.pypi.org/legacy/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "pyfies-0.1.1/.github/workflows/release.yml"
+          ],
+          "value": "https://test.pypi.org/p/pyfies"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "pyfies-0.1.1/PUBLISHING.md"
+          ],
+          "value": "https://test.pypi.org/project/pyfies/`"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "pyfies-0.1.1/PUBLISHING.md"
+          ],
+          "value": "https://test.pypi.org/simple/"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "pyfies-0.1.1/mkdocs.yml"
+          ],
+          "value": "https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "pyfies-0.1.1/PKG-INFO",
+            "pyfies-0.1.1/README.md",
+            "pyfies-0.1.1/docs/methodology.md"
+          ],
+          "value": "https://www.fao.org/fileadmin/templates/ess/voh/FIES_Technical_Paper_v1.1.pdf"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "pyfies-0.1.1/PKG-INFO",
+            "pyfies-0.1.1/README.md"
+          ],
+          "value": "https://www.fao.org/measuring-hunger/access-to-food/about-the-food-insecurity-experience-scale-(fies"
+        }
+      ]
+    },
+    "package": "pyfies",
+    "package_slug": "pyfies",
+    "project_url": "https://pypi.org/project/pyfies/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-28T02:56:29.150379+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-28T02:57:13.199832+00:00",
+    "title": "Personal PyPI Supply Chain Scan: pyfies 0.1.1",
+    "version": "0.1.1",
+    "version_slug": "0.1.1",
+    "_metadata_path": "reports/packages/pyfies/0.1.1/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "elhaz-0.5.2.tar.gz",
     "finding_count": 54,
     "model": "gpt-5.5",
