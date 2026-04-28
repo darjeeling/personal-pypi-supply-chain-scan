@@ -1,6 +1,285 @@
 [
   {
     "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
+    "distribution": "su_memory-2.0.0.tar.gz",
+    "finding_count": 81,
+    "model": "gpt-5.5",
+    "network_indicators": {
+      "domains": [
+        {
+          "file_count": 1,
+          "files": [
+            "su_memory-2.0.0/src/su_memory/_sys/embedder.py"
+          ],
+          "value": "api.cohere.ai"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "su_memory-2.0.0/src/su_memory/_sys/embedder.py"
+          ],
+          "value": "api.jina.ai"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "su_memory-2.0.0/src/su_memory/embeddings/base.py",
+            "su_memory-2.0.0/src/su_memory/sdk/embedding.py"
+          ],
+          "value": "api.minimax.chat"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "su_memory-2.0.0/src/su_memory/_sys/embedder.py",
+            "su_memory-2.0.0/src/su_memory/embeddings/base.py",
+            "su_memory-2.0.0/src/su_memory/sdk/embedding.py"
+          ],
+          "value": "api.openai.com"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "su_memory-2.0.0/PKG-INFO",
+            "su_memory-2.0.0/README.md",
+            "su_memory-2.0.0/src/su_memory.egg-info/PKG-INFO",
+            "su_memory-2.0.0/src/su_memory/api/server.py"
+          ],
+          "value": "api.server"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "su_memory-2.0.0/src/su_memory/sdk/config.py"
+          ],
+          "value": "api.sumemory.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "su_memory-2.0.0/src/su_memory/integrations/llamaindex.py"
+          ],
+          "value": "docs.llamaindex.ai"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "su_memory-2.0.0/src/su_memory/_sys/error_hints.py"
+          ],
+          "value": "faisscdn.third-party.dock.cloud.perform.com"
+        },
+        {
+          "file_count": 8,
+          "files": [
+            "su_memory-2.0.0/LICENSE",
+            "su_memory-2.0.0/PKG-INFO",
+            "su_memory-2.0.0/README.md",
+            "su_memory-2.0.0/pyproject.toml",
+            "su_memory-2.0.0/src/su_memory.egg-info/PKG-INFO",
+            "su_memory-2.0.0/src/su_memory/_sys/error_hints.py",
+            "su_memory-2.0.0/src/su_memory/diagnostics.py",
+            "su_memory-2.0.0/src/su_memory/sdk/multimodal.py"
+          ],
+          "value": "github.com"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "su_memory-2.0.0/src/su_memory/_sys/error_hints.py"
+          ],
+          "value": "ollama.ai\\n"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "su_memory-2.0.0/src/su_memory/integrations/langchain.py"
+          ],
+          "value": "python.langchain.com"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "su_memory-2.0.0/PKG-INFO",
+            "su_memory-2.0.0/pyproject.toml",
+            "su_memory-2.0.0/src/su_memory.egg-info/PKG-INFO",
+            "su_memory-2.0.0/src/su_memory/licensing/__init__.py"
+          ],
+          "value": "su-memory.ai"
+        }
+      ],
+      "raw_public_ips": [],
+      "suspicious_endpoints": [],
+      "urls": [
+        {
+          "file_count": 1,
+          "files": [
+            "su_memory-2.0.0/src/su_memory/_sys/embedder.py"
+          ],
+          "value": "http://"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "su_memory-2.0.0/src/su_memory/_sys/embedder.py"
+          ],
+          "value": "https://api.cohere.ai/v1"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "su_memory-2.0.0/src/su_memory/_sys/embedder.py"
+          ],
+          "value": "https://api.jina.ai/v1"
+        },
+        {
+          "file_count": 2,
+          "files": [
+            "su_memory-2.0.0/src/su_memory/embeddings/base.py",
+            "su_memory-2.0.0/src/su_memory/sdk/embedding.py"
+          ],
+          "value": "https://api.minimax.chat/v1"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "su_memory-2.0.0/src/su_memory/sdk/embedding.py"
+          ],
+          "value": "https://api.minimax.chat/v1/embeddings"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "su_memory-2.0.0/src/su_memory/_sys/embedder.py",
+            "su_memory-2.0.0/src/su_memory/embeddings/base.py",
+            "su_memory-2.0.0/src/su_memory/sdk/embedding.py"
+          ],
+          "value": "https://api.openai.com/v1"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "su_memory-2.0.0/src/su_memory/sdk/embedding.py"
+          ],
+          "value": "https://api.openai.com/v1/embeddings"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "su_memory-2.0.0/src/su_memory/sdk/config.py"
+          ],
+          "value": "https://api.sumemory.io"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "su_memory-2.0.0/src/su_memory/integrations/llamaindex.py"
+          ],
+          "value": "https://docs.llamaindex.ai/en/stable/getting_started/installation.html"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "su_memory-2.0.0/src/su_memory/_sys/error_hints.py"
+          ],
+          "value": "https://faisscdn.third-party.dock.cloud.perform.com/cpu/nightly/index.html"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "su_memory-2.0.0/src/su_memory/_sys/error_hints.py"
+          ],
+          "value": "https://github.com/facebookresearch/faiss/blob/main/INSTALL.md"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "su_memory-2.0.0/src/su_memory/sdk/multimodal.py"
+          ],
+          "value": "https://github.com/openai/CLIP.git"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "su_memory-2.0.0/LICENSE",
+            "su_memory-2.0.0/PKG-INFO",
+            "su_memory-2.0.0/pyproject.toml",
+            "su_memory-2.0.0/src/su_memory.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/su-memory/su-memory-sdk"
+        },
+        {
+          "file_count": 4,
+          "files": [
+            "su_memory-2.0.0/PKG-INFO",
+            "su_memory-2.0.0/README.md",
+            "su_memory-2.0.0/src/su_memory.egg-info/PKG-INFO",
+            "su_memory-2.0.0/src/su_memory/diagnostics.py"
+          ],
+          "value": "https://github.com/su-memory/su-memory-sdk.git"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "su_memory-2.0.0/src/su_memory/_sys/error_hints.py"
+          ],
+          "value": "https://github.com/su-memory/su-memory-sdk/blob/main/docs/EMBEDDING_GUIDE.md"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "su_memory-2.0.0/PKG-INFO",
+            "su_memory-2.0.0/pyproject.toml",
+            "su_memory-2.0.0/src/su_memory.egg-info/PKG-INFO"
+          ],
+          "value": "https://github.com/su-memory/su-memory-sdk/issues"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "su_memory-2.0.0/src/su_memory/_sys/error_hints.py"
+          ],
+          "value": "https://ollama.ai\\n"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "su_memory-2.0.0/src/su_memory/integrations/langchain.py"
+          ],
+          "value": "https://python.langchain.com/docs/get_started/installation"
+        },
+        {
+          "file_count": 3,
+          "files": [
+            "su_memory-2.0.0/PKG-INFO",
+            "su_memory-2.0.0/pyproject.toml",
+            "su_memory-2.0.0/src/su_memory.egg-info/PKG-INFO"
+          ],
+          "value": "https://su-memory.ai"
+        },
+        {
+          "file_count": 1,
+          "files": [
+            "su_memory-2.0.0/src/su_memory/licensing/__init__.py"
+          ],
+          "value": "https://su-memory.ai/pricing"
+        }
+      ]
+    },
+    "package": "su-memory",
+    "package_slug": "su-memory",
+    "project_url": "https://pypi.org/project/su-memory/",
+    "prompt_url": "docs/prompts/malicious-supply-chain-review-v2.md",
+    "prompt_version": "malicious-supply-chain-review-v2",
+    "published_at": "2026-04-28T03:18:52.350788+00:00",
+    "risk": "info",
+    "scanned_at": "2026-04-28T03:19:24.969171+00:00",
+    "title": "Personal PyPI Supply Chain Scan: su-memory 2.0.0",
+    "version": "2.0.0",
+    "version_slug": "2.0.0",
+    "_metadata_path": "reports/packages/su-memory/2.0.0/metadata.json"
+  },
+  {
+    "disclaimer": "This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.",
     "distribution": "odoo_addons_oca_l10n_brazil-18.0.20260427.0-py3-none-any.whl",
     "finding_count": 2,
     "model": "gpt-5.5",

@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal PyPI Supply Chain Scan: su-memory 2.0.0</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 960px; line-height: 1.55; padding: 0 1rem; color: #1f2933; }
+    a { color: #1f5fbf; }
+    code { background: #f4f4f4; padding: 0.1rem 0.25rem; }
+    h1, h2, h3 { line-height: 1.2; }
+    li { margin: 0.35rem 0; }
+    nav { margin-bottom: 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #e5e9ef; padding: 0.55rem 0.65rem; text-align: left; vertical-align: top; }
+    th { color: #52616f; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; }
+    .scan-groups { margin-top: 1.2rem; }
+    .scan-day { border-top: 1px solid #d8dee4; display: grid; gap: 1rem; grid-template-columns: 10rem minmax(0, 1fr); padding: 1.1rem 0; }
+    .scan-day-date { color: #1f2933; font-weight: 700; }
+    .scan-day-date span { color: #52616f; display: block; font-size: 0.9rem; font-weight: 500; margin-top: 0.2rem; }
+    .scan-day-table { overflow-x: auto; }
+    .risk { display: inline-block; min-width: 4.8rem; text-align: center; border-radius: 999px; padding: 0.15rem 0.45rem; font-size: 0.78rem; font-weight: 700; }
+    .risk-info, .risk-low { background: #dcfce7; color: #166534; }
+    .risk-medium, .risk-unknown { background: #fef3c7; color: #92400e; }
+    .risk-high, .risk-critical { background: #fee2e2; color: #991b1b; }
+    .index-note { color: #52616f; margin-top: -0.35rem; }
+    .version { color: #52616f; margin-left: 0.2rem; white-space: nowrap; }
+    @media (max-width: 720px) {
+      .scan-day { grid-template-columns: 1fr; }
+      th, td { padding: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+<nav><a href='../../../../'>Index</a></nav><h1>Personal PyPI Supply Chain Scan: su-memory 2.0.0</h1>
+
+<ul>
+<li>Package: su-memory</li>
+<li>Version: 2.0.0</li>
+<li>Project URL: https://pypi.org/project/su-memory/</li>
+<li>Distribution: su_memory-2.0.0.tar.gz</li>
+<li>Package published at: 2026-04-28T03:18:52.350788+00:00</li>
+<li>Scan published at: 2026-04-28T03:19:24.969171+00:00</li>
+<li>Language: en</li>
+<li>Model: gpt-5.5</li>
+<li>Prompt: malicious-supply-chain-review-v2 ([source](../../../../docs/prompts/malicious-supply-chain-review-v2.md))</li>
+<li>Disclaimer: This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</li>
+</ul>
+
+<h2>Deterministic Network Indicators</h2>
+
+<h3>Suspicious Endpoints</h3>
+
+<p>None</p>
+
+<h3>Raw Public IPs</h3>
+
+<p>None</p>
+
+<h3>URLs</h3>
+<ul>
+<li>http:// (1 files: su_memory-2.0.0/src/su_memory/_sys/embedder.py)</li>
+<li>https://api.cohere.ai/v1 (1 files: su_memory-2.0.0/src/su_memory/_sys/embedder.py)</li>
+<li>https://api.jina.ai/v1 (1 files: su_memory-2.0.0/src/su_memory/_sys/embedder.py)</li>
+<li>https://api.minimax.chat/v1 (2 files: su_memory-2.0.0/src/su_memory/embeddings/base.py, su_memory-2.0.0/src/su_memory/sdk/embedding.py)</li>
+<li>https://api.minimax.chat/v1/embeddings (1 files: su_memory-2.0.0/src/su_memory/sdk/embedding.py)</li>
+<li>https://api.openai.com/v1 (3 files: su_memory-2.0.0/src/su_memory/_sys/embedder.py, su_memory-2.0.0/src/su_memory/embeddings/base.py, su_memory-2.0.0/src/su_memory/sdk/embedding.py)</li>
+<li>https://api.openai.com/v1/embeddings (1 files: su_memory-2.0.0/src/su_memory/sdk/embedding.py)</li>
+<li>https://api.sumemory.io (1 files: su_memory-2.0.0/src/su_memory/sdk/config.py)</li>
+<li>https://docs.llamaindex.ai/en/stable/getting_started/installation.html (1 files: su_memory-2.0.0/src/su_memory/integrations/llamaindex.py)</li>
+<li>https://faisscdn.third-party.dock.cloud.perform.com/cpu/nightly/index.html (1 files: su_memory-2.0.0/src/su_memory/_sys/error_hints.py)</li>
+<li>https://github.com/facebookresearch/faiss/blob/main/INSTALL.md (1 files: su_memory-2.0.0/src/su_memory/_sys/error_hints.py)</li>
+<li>https://github.com/openai/CLIP.git (1 files: su_memory-2.0.0/src/su_memory/sdk/multimodal.py)</li>
+<li>https://github.com/su-memory/su-memory-sdk (4 files: su_memory-2.0.0/LICENSE, su_memory-2.0.0/PKG-INFO, su_memory-2.0.0/pyproject.toml, su_memory-2.0.0/src/su_memory.egg-info/PKG-INFO)</li>
+<li>https://github.com/su-memory/su-memory-sdk.git (4 files: su_memory-2.0.0/PKG-INFO, su_memory-2.0.0/README.md, su_memory-2.0.0/src/su_memory.egg-info/PKG-INFO, su_memory-2.0.0/src/su_memory/diagnostics.py)</li>
+<li>https://github.com/su-memory/su-memory-sdk/blob/main/docs/EMBEDDING_GUIDE.md (1 files: su_memory-2.0.0/src/su_memory/_sys/error_hints.py)</li>
+<li>https://github.com/su-memory/su-memory-sdk/issues (3 files: su_memory-2.0.0/PKG-INFO, su_memory-2.0.0/pyproject.toml, su_memory-2.0.0/src/su_memory.egg-info/PKG-INFO)</li>
+<li>https://ollama.ai\n (1 files: su_memory-2.0.0/src/su_memory/_sys/error_hints.py)</li>
+<li>https://python.langchain.com/docs/get_started/installation (1 files: su_memory-2.0.0/src/su_memory/integrations/langchain.py)</li>
+<li>https://su-memory.ai (3 files: su_memory-2.0.0/PKG-INFO, su_memory-2.0.0/pyproject.toml, su_memory-2.0.0/src/su_memory.egg-info/PKG-INFO)</li>
+<li>https://su-memory.ai/pricing (1 files: su_memory-2.0.0/src/su_memory/licensing/__init__.py)</li>
+</ul>
+
+<h3>Domains</h3>
+<ul>
+<li>api.cohere.ai (1 files: su_memory-2.0.0/src/su_memory/_sys/embedder.py)</li>
+<li>api.jina.ai (1 files: su_memory-2.0.0/src/su_memory/_sys/embedder.py)</li>
+<li>api.minimax.chat (2 files: su_memory-2.0.0/src/su_memory/embeddings/base.py, su_memory-2.0.0/src/su_memory/sdk/embedding.py)</li>
+<li>api.openai.com (3 files: su_memory-2.0.0/src/su_memory/_sys/embedder.py, su_memory-2.0.0/src/su_memory/embeddings/base.py, su_memory-2.0.0/src/su_memory/sdk/embedding.py)</li>
+<li>api.server (4 files: su_memory-2.0.0/PKG-INFO, su_memory-2.0.0/README.md, su_memory-2.0.0/src/su_memory.egg-info/PKG-INFO, su_memory-2.0.0/src/su_memory/api/server.py)</li>
+<li>api.sumemory.io (1 files: su_memory-2.0.0/src/su_memory/sdk/config.py)</li>
+<li>docs.llamaindex.ai (1 files: su_memory-2.0.0/src/su_memory/integrations/llamaindex.py)</li>
+<li>faisscdn.third-party.dock.cloud.perform.com (1 files: su_memory-2.0.0/src/su_memory/_sys/error_hints.py)</li>
+<li>github.com (8 files: su_memory-2.0.0/LICENSE, su_memory-2.0.0/PKG-INFO, su_memory-2.0.0/README.md, su_memory-2.0.0/pyproject.toml, su_memory-2.0.0/src/su_memory.egg-info/PKG-INFO)</li>
+<li>ollama.ai\n (1 files: su_memory-2.0.0/src/su_memory/_sys/error_hints.py)</li>
+<li>python.langchain.com (1 files: su_memory-2.0.0/src/su_memory/integrations/langchain.py)</li>
+<li>su-memory.ai (4 files: su_memory-2.0.0/PKG-INFO, su_memory-2.0.0/pyproject.toml, su_memory-2.0.0/src/su_memory.egg-info/PKG-INFO, su_memory-2.0.0/src/su_memory/licensing/__init__.py)</li>
+</ul>
+
+<h2>Verdict</h2>
+
+<p>No confirmed malicious supply-chain indicators — overall risk: **info**</p>
+
+<h2>Malicious Supply-Chain Indicators</h2>
+
+<p>No confirmed malicious supply-chain indicators.</p>
+
+<h2>Automatic Execution Paths</h2>
+
+<p>No evidence was identified for malicious execution during installation or Python interpreter startup.</p>
+
+<ul>
+<li>No evidence of .pth, sitecustomize.py, usercustomize.py, malicious setup.py, or PEP 517 build hooks</li>
+<li>Documented user-invoked commands such as REST API or dashboard startup are not considered malicious supply-chain auto-execution</li>
+<li>Import-time initialization in su_memory/__init__.py appears to expose package APIs and perform an installation-environment check; it is not tied to secret theft, exfiltration, or persistence</li>
+</ul>
+
+<h2>Theft / Exfiltration / Persistence / Lateral Movement / Stealth</h2>
+
+<p>No confirmed malicious evidence.</p>
+
+<ul>
+<li>**Credential harvesting**: References to documented AI API keys such as OPENAI_API_KEY were observed, but there is no evidence of broad discovery of environment variables, .env files, SSH keys, cloud credentials, or CI tokens</li>
+<li>**Exfiltration/staging**: Network activity appears consistent with normal embedding SDK calls to providers such as OpenAI, MiniMax, or Ollama; no evidence of archive staging, harvested-file upload, or attacker-controlled endpoints</li>
+<li>**Persistence**: No evidence of cron jobs, systemd units, launch agents, shell profile modification, or self-reinstallation loops</li>
+<li>**Lateral movement**: No evidence of Kubernetes, Docker socket, cloud metadata, GitHub Actions token theft, or workflow injection behavior</li>
+<li>**Obfuscation/loader**: base64 and zlib usage was flagged, but in the provided context it appears related to licensing, compression, or data handling; no evidence links it to eval/exec or staged payload execution</li>
+</ul>
+
+<h2>Distribution Integrity Anomalies</h2>
+
+<p>No malicious distribution-integrity anomaly was confirmed from the provided evidence.</p>
+
+<ul>
+<li>No evidence of hidden payloads, unexplained native binaries, typosquatting, attacker domains, or wheel/sdist mismatch</li>
+<li>The documentation version shown in PKG-INFO/README.md may differ from the package version, but this alone is insufficient to indicate a malicious supply-chain attack</li>
+</ul>
+
+<h2>Additional Verification Needed</h2>
+
+<ul>
+<li>Only a subset of text from the 122 extracted files was provided, so final integrity assessment of unprovided files is limited.</li>
+<li>If available, review pyproject.toml, setup.cfg, complete SOURCES.txt, unprovided modules, and any published wheel against the sdist.</li>
+<li>Comparing the PyPI sdist against the corresponding GitHub tag/commit would strengthen distribution-integrity conclusions.</li>
+</ul>
+
+<p>---</p>
+
+<p>Prompt source: docs/prompts/malicious-supply-chain-review-v2.md</p>
+
+<p>This is a personal automated PyPI supply-chain scan. It is not an official security advisory, not an official PyPI, OpenAI, GitHub, or package maintainer assessment, and it may contain false positives or miss malicious behavior.</p>
+
+</body>
+</html>
